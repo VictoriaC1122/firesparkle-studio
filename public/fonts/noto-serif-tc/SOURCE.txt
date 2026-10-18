@@ -1,0 +1,6 @@
+Package: @fontsource-variable/noto-serif-tc@5.3.1
+Source: https://fontsource.org/fonts/noto-serif-tc
+Upstream: https://github.com/google/fonts
+License: SIL Open Font License 1.1 (LICENSE.txt)
+
+Original WOFF2 binaries; CSS uses local URLs and retains Fontsource unicode ranges.

@@ -2,7 +2,7 @@
 
 正式網址：https://firesparkle.com （網域設定完成前：https://victoriac1122.github.io/firesparkle-studio/）
 
-以玻璃火焰標誌為主視覺的獨立 App 工作室官網。全站中英雙語，字型自託管（霞鶩文楷 TC、Fraunces）。
+以玻璃火焰標誌為主視覺的獨立 App 工作室官網。朝霧花火配色以霧白、青灰、晨曦粉與暖金呈現；全站中英雙語，字型自託管（Noto Serif TC 宋體、Cormorant Garamond 英文襯線）。
 
 ## 內容
 
@@ -50,4 +50,4 @@ DNS（在網域商設定）：
 
 ## 字型授權
 
-霞鶩文楷 TC 與 Fraunces 皆為 SIL Open Font License，授權檔在 `public/fonts/*/LICENSE.txt`。
+目前使用的 Noto Serif TC 與 Cormorant Garamond 皆為 SIL Open Font License，授權與來源記錄在 `public/fonts/noto-serif-tc/` 及 `public/fonts/cormorant-garamond/`。中文採 Unicode 分片，只載入當頁需要的字型檔。
