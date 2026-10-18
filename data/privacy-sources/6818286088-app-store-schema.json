@@ -1,0 +1,74 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@id": "https://apps.apple.com/#organization",
+    "@type": "Organization",
+    "name": "App Store",
+    "url": "https://apps.apple.com",
+    "logo": "https://apps.apple.com/assets/app-store.png",
+    "sameAs": [
+      "https://www.wikidata.org/wiki/Q368215",
+      "https://twitter.com/AppStore",
+      "https://www.instagram.com/appstore/",
+      "https://www.facebook.com/appstore/"
+    ],
+    "parentOrganization": {
+      "@type": "Organization",
+      "name": "Apple",
+      "@id": "https://www.apple.com/#organization",
+      "url": "https://www.apple.com/"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "自己來設計",
+    "description": "想整理家的樣子，不必先學會專業繪圖。\n\n自己來設計把空間預覽、房間照片試色、材料比較與預算整理放在一起，讓你把想法整理成能和家人或設計師討論的方案。\n\n• 從客廳、臥室或工作區模板開始，切換地板、牆面、家具與日夜燈光。\n• 加入房間參考照片，移動、旋轉家具並保存配置；參考收納建議與內建尺寸模型。\n• 在裝置上查看照片主要色彩與影像明暗，手動調整四角範圍試色、比較原圖與效果，並匯出試色圖。\n• 支援 LiDAR 的 iPhone／iPad 可選擇使用 RoomPlan 掃描房間；其他裝置仍可使用範例空間與照片功能。\n• 收藏候選材料，整理數量、運送與安裝費，分享預算明細。\n• 支援繁體中文與英文，不需註冊，核心功能離線可用。\n\n照片試色採用手動選取與本機影像處理，不提供 AI 寫實改造圖、自動家具辨識或自動牆面分割。影像明暗不等於實際照度。照片、掃描與配置保存在裝置上，不會自動上傳。\n\n材料、供應商、價格與收納模型為內建範例。模擬圖、掃描尺寸與預算僅供前期規劃參考，不是施工圖或正式廠商報價；請與專業人員確認實際尺寸、工法與費用。模板的尺寸備註不會自動改變 3D 空間或計算用量。\n\n隱私權政策與支援：https://victoriac1122.github.io/design-it-yourself-privacy-policy/",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/37/35/13/373513b4-5ea0-ec8c-363a-71036b8c26cf/AppIcon-0-0-1x_U007epad-0-1-85-220.png/1200x630wa.png",
+    "availableOnDevice": "iPhone, iPad",
+    "operatingSystem": "系統需求：iOS 18.5 或以上版本。相容裝置：iPhone、iPad、iPod touch。",
+    "offers": {
+      "@type": "Offer",
+      "price": 0,
+      "priceCurrency": "TWD"
+    },
+    "applicationCategory": "DesignApplication",
+    "keywords": [
+      "圖像與設計",
+      "生活風格"
+    ],
+    "genre": [
+      "圖像與設計",
+      "生活風格"
+    ],
+    "author": {
+      "@type": "Organization",
+      "name": "Yung Wen Cheng",
+      "url": "https://apps.apple.com/tw/developer/yung-wen-cheng/id1851202446"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "排行榜",
+        "item": "https://apps.apple.com/tw/iphone/charts"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "圖像與設計",
+        "item": "https://apps.apple.com/tw/iphone/charts/6027"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "自己來設計",
+        "item": "https://apps.apple.com/tw/app/%E8%87%AA%E5%B7%B1%E4%BE%86%E8%A8%AD%E8%A8%88/id6818286088"
+      }
+    ]
+  }
+]

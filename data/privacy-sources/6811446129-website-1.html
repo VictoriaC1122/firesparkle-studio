@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+    <title>完美養豬｜隱私權與支援</title>
+    <meta name="description" content="《完美養豬》官方隱私權政策、版權聲明與開發者聯絡資訊。" />
+    <meta name="theme-color" content="#e88ca6" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+JP:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700;800&family=Noto+Sans+TC:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/png" href="./assets/app-icon.png?v=5" />
+    <link rel="apple-touch-icon" href="./assets/app-icon.png?v=5" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero-card">
+        <nav class="topbar" aria-label="Primary navigation">
+          <a class="brand" href="./" aria-label="Perfect Pig legal center home">
+            <img src="./assets/app-icon.png?v=5" alt="Perfect Pig App Icon" class="brand-icon" />
+            <div>
+              <p class="eyebrow">Perfect Pig Game</p>
+              <p class="brand-title" data-copy="brandTitle">完美養豬 Legal Center</p>
+            </div>
+          </a>
+
+          <div class="topbar-actions">
+            <label class="language-picker">
+              <span class="visually-hidden" data-copy="languageLabel">選擇語言</span>
+              <select id="languageSelect" aria-label="Language">
+                <option value="zh-Hant">繁體中文</option>
+                <option value="zh-Hans">简体中文</option>
+                <option value="en">English</option>
+                <option value="ja">日本語</option>
+              </select>
+            </label>
+          </div>
+        </nav>
+
+        <section class="hero-layout">
+          <div class="hero-copy">
+            <p class="eyebrow" data-copy="officialLabel">Official legal &amp; support</p>
+            <h1 data-copy="heroTitle">讓每一次陪伴，都安心又透明。</h1>
+            <p class="hero-lead" data-copy="heroLead">
+              這裡提供《完美養豬》的隱私權政策、版權聲明與官方聯絡方式。
+            </p>
+            <div class="hero-tags" aria-label="Available documents">
+              <span>Privacy Policy</span>
+              <span>Copyright Notice</span>
+              <span>Developer Support</span>
+            </div>
+          </div>
+
+          <div class="hero-showcase" aria-hidden="true">
+            <div class="icon-stage">
+              <div class="glow-ring"></div>
+              <img src="./assets/app-icon.png?v=5" alt="" class="hero-icon" />
+            </div>
+            <div class="mini-card">
+              <p class="mini-label" data-copy="currentDocumentLabel">CURRENT DOCUMENT</p>
+              <p class="mini-title" id="currentDocLabel">隱私權政策</p>
+            </div>
+          </div>
+        </section>
+      </header>
+
+      <main class="content-shell">
+        <section class="switcher-card" aria-labelledby="documentSwitcherTitle">
+          <div class="switcher-head">
+            <div>
+              <p class="eyebrow" data-copy="documentSwitchLabel">Document switch</p>
+              <h2 id="documentSwitcherTitle" data-copy="switcherTitle">同一個網址，查閱完整官方文件。</h2>
+            </div>
+            <p class="switcher-note" data-copy="switcherNote">適用於 App Store Privacy Policy 與 Support URL</p>
+          </div>
+
+          <div class="segmented-control" role="tablist" aria-label="Legal document switcher">
+            <button class="segment is-active" type="button" data-panel="privacy" role="tab" aria-selected="true">
+              隱私權政策
+            </button>
+            <button class="segment" type="button" data-panel="copyright" role="tab" aria-selected="false">
+              版權聲明
+            </button>
+          </div>
+        </section>
+
+        <section class="legal-grid">
+          <article class="legal-panel is-visible" id="legalPanel" role="tabpanel" aria-live="polite" tabindex="-1">
+            <div class="section-heading">
+              <p class="eyebrow" id="documentEnglishTitle">Privacy Policy</p>
+              <h2 id="documentTitle">隱私權政策</h2>
+              <p class="section-summary" id="lastUpdated">最後更新日期：2026 年 9 月 13 日</p>
+            </div>
+            <div id="documentSections"></div>
+          </article>
+
+          <aside class="support-panel" id="support">
+            <div class="support-card">
+              <p class="eyebrow">Developer Support</p>
+              <h2 data-copy="contactTitle">聯繫開發者</h2>
+              <p class="support-copy" data-copy="contactBody">
+                如有隱私、版權、購買或遊戲問題，請直接寄信聯繫開發者。
+              </p>
+              <a
+                class="primary-link"
+                href="mailto:victoriacheng1122@gmail.com?subject=Perfect%20Pig%20Support"
+                data-copy="contactAction"
+              >
+                寄信聯繫開發者
+              </a>
+              <p class="response-note" data-copy="contactNote">來信請勿附上完整付款資料、Apple ID 密碼或其他敏感資訊。</p>
+            </div>
+
+            <div class="support-card support-card-muted">
+              <p class="eyebrow">App Info</p>
+              <h2 data-copy="appName">完美養豬</h2>
+              <ul class="meta-list" id="appMetaList"></ul>
+            </div>
+          </aside>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <p data-copy="footer">© 2026 VictoriaC1122. All rights reserved.</p>
+      </footer>
+    </div>
+
+    <noscript>請啟用 JavaScript 以切換語言與查閱完整文件。</noscript>
+    <script src="./script.js"></script>
+  </body>
+</html>

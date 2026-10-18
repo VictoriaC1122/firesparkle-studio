@@ -1,0 +1,79 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@id": "https://apps.apple.com/#organization",
+    "@type": "Organization",
+    "name": "App Store",
+    "url": "https://apps.apple.com",
+    "logo": "https://apps.apple.com/assets/app-store.png",
+    "sameAs": [
+      "https://www.wikidata.org/wiki/Q368215",
+      "https://twitter.com/AppStore",
+      "https://www.instagram.com/appstore/",
+      "https://www.facebook.com/appstore/"
+    ],
+    "parentOrganization": {
+      "@type": "Organization",
+      "name": "Apple",
+      "@id": "https://www.apple.com/#organization",
+      "url": "https://www.apple.com/"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "你今天維他命了嗎",
+    "description": "你今天維他命了嗎，是一款為日常補充習慣設計的健康記錄 app。\n\n把維他命方案、每日打卡、提醒、週月統計與常見營養知識整理在同一個地方，讓每天的保養更清楚、更容易持續。\n\n主要功能：\n• 建立每日維他命與補充品方案\n• 一鍵打卡，快速記錄今天是否已服用\n• 依早餐後、午餐後、晚餐後或睡前安排提醒\n• 從通知直接標記已服用，或延後 15 分鐘提醒\n• 查看連續打卡、每週與每月完成率\n• 用月曆回顧每天的服用紀錄\n• 瀏覽維他命、礦物質與常見補充品知識\n• 依年齡、性別與 BMI 顯示一般營養參考\n• 支援 iPhone、iPad 與桌面小工具\n• 本機 JSON 備份與還原\n\n你的資料保留在裝置與 App Group 儲存空間，核心功能不需要登入或網路連線。\n\n本 app 提供一般營養教育與日常記錄，不是診斷、治療或個人醫療建議，也不取代醫師、藥師或營養師的專業意見。若有慢性病、懷孕、正在用藥或需要高劑量補充，請先與專業人員確認。",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c5/5c/fe/c55cfedb-8af1-f317-0c90-23b67e085400/AppIcon-0-0-1x_U007epad-0-1-85-220.png/1200x630wa.png",
+    "availableOnDevice": "iPhone, iPad",
+    "operatingSystem": "系統需求：iOS 17.0 或以上版本。相容裝置：iPhone、iPad、iPod touch。",
+    "offers": {
+      "@type": "Offer",
+      "price": 0,
+      "priceCurrency": "TWD"
+    },
+    "applicationCategory": "HealthApplication",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": 5,
+      "reviewCount": 3,
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "keywords": [
+      "健康與健身"
+    ],
+    "genre": [
+      "健康與健身"
+    ],
+    "author": {
+      "@type": "Organization",
+      "name": "Yung Wen Cheng",
+      "url": "https://apps.apple.com/tw/developer/yung-wen-cheng/id1851202446"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "排行榜",
+        "item": "https://apps.apple.com/tw/iphone/charts"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "健康與健身",
+        "item": "https://apps.apple.com/tw/iphone/charts/6013"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "你今天維他命了嗎",
+        "item": "https://apps.apple.com/tw/app/%E4%BD%A0%E4%BB%8A%E5%A4%A9%E7%B6%AD%E4%BB%96%E5%91%BD%E4%BA%86%E5%97%8E/id6761441866"
+      }
+    ]
+  }
+]

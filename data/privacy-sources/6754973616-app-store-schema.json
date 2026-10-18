@@ -1,0 +1,81 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@id": "https://apps.apple.com/#organization",
+    "@type": "Organization",
+    "name": "App Store",
+    "url": "https://apps.apple.com",
+    "logo": "https://apps.apple.com/assets/app-store.png",
+    "sameAs": [
+      "https://www.wikidata.org/wiki/Q368215",
+      "https://twitter.com/AppStore",
+      "https://www.instagram.com/appstore/",
+      "https://www.facebook.com/appstore/"
+    ],
+    "parentOrganization": {
+      "@type": "Organization",
+      "name": "Apple",
+      "@id": "https://www.apple.com/#organization",
+      "url": "https://www.apple.com/"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "AI時間管理",
+    "description": "把想做的事，整理成今天能完成的一步。\n\nAI時間管理整合任務庫、每日排程、專注計時與回顧，協助你從規劃走到實際行動。\n\n任務與專案\n記下待辦、備註、預估時間、優先順序與截止日期，依專案整理，並設定每日、平日或每週重複任務。\n\n每日規劃\n查看今日時間軸與可用時間，手動安排任務，或先預覽自動排列結果再套用。排程會避開已占用的時段。\n\n專注計時\n快速開始 15、25 或 45 分鐘專注，也能從任務或排程直接開始。時間到了，由你選擇完成、延長、休息或略過；休息不計入專注時間。\n\n智慧建議與常用流程\n輸入目標，取得可編輯的任務拆解與思考提示。智慧建議使用裝置內的關鍵字規則與預設範本，不連線呼叫生成式 AI，也不會上傳任務文字。收藏常用流程，下次直接使用。\n\n回顧與備份\n檢視實際專注時間、完成情況與近期趨勢，記下能量與中斷原因。可手動匯出、匯入 JSON 備份，保留任務、排程、流程及專注紀錄。\n\n小工具與捷徑\n透過主畫面小工具、App 捷徑，以及支援 iPhone 上的即時動態掌握進度。\n\n支援繁體中文與英文、深色與淺色外觀，以及 iPhone、iPad 和 Mac。無需登入，沒有廣告或追蹤。資料保存在裝置上，通知提醒可自由選擇。",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/df/6c/87/df6c8735-3c8e-27a3-cbba-e0d09d7721fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/1200x630wa.png",
+    "availableOnDevice": "iPhone, iPad",
+    "operatingSystem": "系統需求：iOS 17.0 或以上版本。相容裝置：iPhone、iPad、iPod touch。",
+    "offers": {
+      "@type": "Offer",
+      "price": 0,
+      "priceCurrency": "TWD"
+    },
+    "applicationCategory": "UtilitiesApplication",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": 5,
+      "reviewCount": 2,
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "keywords": [
+      "工具程式",
+      "生產力工具"
+    ],
+    "genre": [
+      "工具程式",
+      "生產力工具"
+    ],
+    "author": {
+      "@type": "Organization",
+      "name": "Yung Wen Cheng",
+      "url": "https://apps.apple.com/tw/developer/yung-wen-cheng/id1851202446"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "排行榜",
+        "item": "https://apps.apple.com/tw/iphone/charts"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "工具程式",
+        "item": "https://apps.apple.com/tw/iphone/charts/6002"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "AI時間管理",
+        "item": "https://apps.apple.com/tw/app/ai%E6%99%82%E9%96%93%E7%AE%A1%E7%90%86/id6754973616"
+      }
+    ]
+  }
+]

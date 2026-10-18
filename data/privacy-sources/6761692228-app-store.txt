@@ -1,0 +1,448 @@
+‎《把夢遺留下來》App - App Store
+搜尋
+Today
+遊戲
+App
+Arcade
+平台
+iPhone
+iPad
+Mac
+Vision
+Watch
+TV
+把夢遺留下來
+夢境日記、解讀與回顧
+免費 · App內購買 · 專為 iPad 設計。尚未針對 macOS 驗證。
+分享
+1則評分
+5.0
+年齡分級
+13+
+歲
+類別
+生活風格
+開發者
+Yung Wen Cheng
+語言
+ZH
++ 其他 6 種
+大小
+14.1
+MB
+iPhone、iPad
+醒來後，夢通常只會停留幾分鐘。把夢遺留下來，先記住一個畫面、一句話或當時的感受，不必一開始就把故事整理完整。
+免費留下每一個片段
+• 文字與選用語音輸入、草稿自動保存
+• 情緒、清晰度、標籤與收藏
+• 裝置內規則式解讀、引導思考的問題與研究來源
+• 搜尋、編輯、刪除、夢境月曆與基本趨勢回顧
+• 每日本機提醒，不需註冊帳號
+選用 Pro：我的夢境圖譜
+• 從目前保存的夢境累積主題、情緒與來源記錄，讓最新的夢連回曾出現的線索
+• 在個人夢境字典寫下自己的意思，搜尋、修改或刪除；文字由你提供，並非 App 推測的事實
+• 選擇有記錄的月份回顧主題與情緒，另可比較最近 30 天與前 30 天的記錄數
+• 完成以 Mini-IPIP 為基礎的 20 題自陳問卷，查看五軸特質雷達；每軸是 1–5 分的題目平均，不是人口百分位或人格類型
+• 全部作答並確認後，預覽與分享特質圖卡；不包含夢境文字、情緒記錄或字典內容
+• 訂閱前可查看清楚標示的範例
+保留自己的理解
+報告依保存的標籤與記錄在裝置上整理，不使用雲端 AI。記錄數不等於睡眠品質，也不能證明心理狀態或夢的成因。問卷供自我回顧使用；非英語題目是 App 自行翻譯，尚未經獨立驗證。解讀與特質問卷不提供醫療或心理診斷。
+隱私與控制
+夢境、草稿、問卷答案與個人字典保存在裝置上。無廣告、無第三方分析追蹤。語音輸入只在你主動使用時啟動；視裝置與語言支援，音訊可能由 Apple 語音辨識服務處理。刪除夢境會更新衍生的回顧，自己寫的字典內容則保留至你另行刪除。訂閱結束後仍可使用免費功能、讀取與刪除字典內容，以及清除問卷答案。
+Pro 訂閱
+月訂與年訂提供相同 Pro 功能，實際價格與期間顯示於購買畫面。付款由 Apple 帳號處理，除非在當期結束至少 24 小時前取消，否則自動續訂。可在 Apple 訂閱設定管理或取消，並在 App 還原購買。未提供免費試用。
+支援 iPhone、iPad，以及繁體中文、簡體中文、英文、日文、德文、西班牙文與韓文。
+隱私權政策：https://victoriac1122.github.io/dream-journal-support-site/privacy.html
+使用條款（Apple 標準 EULA）：https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+更多
+評分與評論
+5.0
+(滿分 5 顆星)
+1則評分
+新功能
+版本記錄
+• 情境式解夢：串連夢裡的情節、情緒與人物互動，提供整體解讀及對應原文。
+• Pro 長期紀錄趨勢：從累積的夢境觀察反覆出現的關係、選擇與感受，並回看支持解讀的紀錄。
+• 首次開啟可逐步選擇語言、通知與小工具偏好；提醒和小工具都能稍後決定，設定進度會保存。
+• 設定中可隨時切換語言、調整提醒、重新設定使用偏好及查看教學。
+• 新增快速記夢小工具：由 iPhone 或 iPad 主畫面手動加入，點一下回到輸入區，保留目前草稿。
+1.7 4 天前
+• 新增右上角設定，集中管理語言、提醒與使用教學。
+• 可自行選擇七種 App 語言或跟隨系統，切換後立即套用。
+• 新手教學改為三步：記錄、儲存、回顧，也可從設定重看。
+• 分析用語更直接，夢中情節與回想問題分開呈現。
+1.6.1 10月3日
+1.6 新增選用 Pro「我的夢境圖譜」：
+• 累積已保存夢境的主題、情緒與來源線索
+• 個人夢境字典：寫下、搜尋、修改與刪除自己的意思
+• 每月回顧與最近 30 天趨勢
+• 20 題 Mini-IPIP 自陳問卷與五軸特質雷達
+• 確認後預覽與分享特質圖卡，不包含夢境內容
+• 月訂、年訂、還原購買與訂閱管理
+記夢、基本解讀、搜尋、月曆與提醒持續免費。支援七種語言；所有特質探索均供自我回顧，不作診斷。
+1.6 10月2日
+版本 1.5 讓夢更容易留下，也更容易回頭看：
+• 擴充離線解夢內容與情境辨識，解讀更完整且會交代判斷線索
+• 補充夢境心理來源與研究連結，不把常見象徵說成固定答案
+• 新增夢境月曆與趨勢回顧，整理情緒、主題與記錄節奏
+• 新增草稿自動保存與啟動恢復，降低內容遺失風險
+• 加入 100 組趣味提醒文案與可隨時重看的新手教學
+• 完整支援繁體中文、簡體中文、英文、日文、德文、西班牙文與韓文
+• 改善語音記錄、提醒排程、本機資料保存與介面操作穩定性
+1.5 10月1日
+版本 1.4 更新
+升級離線深度解讀流程，解夢內容更完整、更穩定。
+優化夢境記錄與關鍵字輸入體驗，操作更直覺。
+改善整體互動流暢度與畫面穩定性。
+修正多項細節問題，提升使用順手度與可靠性。
+1.4 4月28日
+1.3 版本更新說明：
+這次更新讓「把夢遺留下來」更穩定、更聰明，也更適合準備正式上架。
+大幅提升解夢整理能力，新增大量離線規則型意象模板，能提供更細緻的夢境線索。
+改善意象判讀邏輯，能更準確理解像「手機不見」「破掉的鏡子」「發光的門」這類具體夢境畫面。
+優化夢境儲存流程，降低快速操作或重複點擊造成資料不一致的可能。
+改善每日記夢提醒設定，提升推播時間排程穩定性。
+修正語音記錄流程的穩定性，讓醒來口述夢境更順暢。
+優化 iPhone、iPad 與 Mac Catalyst 版的整體穩定性。
+補強上架前檢查、隱私權與 App Review 相關準備文件。
+1.3 4月17日
+1.2版本
+優化 iPhone / iPad / Mac 版面體驗，提升閱讀性與操作流暢度。
+改善深色模式顯示，睡前與夜間記夢更舒適。
+新增並優化中英文介面支援。
+優化小工具快速記夢入口，語音入口操作更直覺。
+強化規則型解夢與引導式記錄體驗，整理結果更清楚。
+改善資料儲存錯誤提示與穩定性。
+清理未使用程式碼，提升整體效能與可維護性。
+修正多項上架前穩定性與介面細節問題。
+1.2 4月14日
+這次更新讓《把夢遺留下來》更適合正式使用與上架準備：
+新增中英文介面切換，可在繁體中文與 English 間切換。
+優化暗色模式，提升夜間記夢時的閱讀舒適度。
+改善 iPad 與 Mac Catalyst 版面，讓大螢幕使用更自然。
+新增桌面小工具入口，可更快開始記錄夢境。
+優化規則型解夢與引導式記錄，提供更清楚的摘要、情緒訊號、下一步引導。
+改善每日推播提醒設定，可設定固定記夢時間。
+修正多處 UI 閱讀性、間距、卡片層級與文字顯示問題。
+清理舊程式碼並提升整體穩定性與可維護性。
+1.1 4月10日
+1.0 4月7日
+• 情境式解夢：串連夢裡的情節、情緒與人物互動，提供整體解讀及對應原文。
+• Pro 長期紀錄趨勢：從累積的夢境觀察反覆出現的關係、選擇與感受，並回看支持解讀的紀錄。
+• 首次開啟可逐步選擇語言、通知與小工具偏好；提醒和小工具都能稍後決定，設定進度會保存。
+• 設定中可隨時切換語言、調整提醒、重新設定使用偏好及查看教學。
+• 新增快速記夢小工具：由 iPhone 或 iPad 主畫面手動加入，點一下回到輸入區，保留目前草稿。
+更多
+版本 1.7 4 天前
+App 隱私權
+App 隱私權
+開發者Yung Wen Cheng指出 App 的隱私權實務可能包含下方描述的資料處理。此資訊尚未經 Apple 驗證。如需更多資訊，請參閱  開發者的隱私權政策  。
+若要進一步瞭解開發者的回應，請參閱  隱私權定義和範例  。
+依據你使用的功能或你的年齡等因素，隱私權實務可能有所不同。  更多內容
+不收集資料
+開發者不會從這個 App 收集任何資料。
+開發者Yung Wen Cheng指出App的隱私權實務可能包含下方描述的資料處理。如需更多資訊，請參閱  開發者的隱私權政策  。
+不收集資料
+開發者不會從這個 App 收集任何資料。
+依據你使用的功能或你的年齡等因素，隱私權實務可能有所不同。  更多內容
+輔助使用
+開發者尚未表示此 App 支援的輔助使用功能。  進一步瞭解
+資訊
+供應商 Yung Wen Cheng
+大小 14.1 MB
+類別 生活風格
+相容性 需要 iOS 18.5 或以上版本。
+iPhone
+需要 iOS 18.5 或以上版本。
+iPad
+需要 iPadOS 18.5 或以上版本。
+Mac
+需要 macOS 15.5（或以上版本）以及配備 Apple M1（或以上版本）晶片的 Mac。
+Apple Vision
+需要 visionOS 2.5 或以上版本。
+語言 繁體中文和其他6種
+繁體中文、德文、日文、簡體中文、英文、西班牙文、韓文
+年齡分級 13+
+13+
+進一步瞭解
+偶爾
+現實暴力
+驚悚/恐怖題材
+醫療資訊
+色情內容或裸露
+包含
+健康或保健主題
+App內購買 是
+Pro 年訂閱 $690.00
+Pro 月訂閱 $90.00
+進一步瞭解
+版權 © 2026 Victoria Cheng
+開發者網站
+隱私權政策
+更多Yung Wen Cheng的作品
+檢視
+複利計算器-財務自由實現工具
+市面上唯一能夠計算通膨、財務自由、借貸壓力與退休規劃的工具
+檢視
+輕鬆抽獎
+活動、聚會、課堂都適用的抽籤工具
+檢視
+股神養成：台美股模擬交易
+台股盤後資訊與台美股模擬交易
+檢視
+你今天維他命了嗎
+每日維他命記錄、提醒與知識助手
+檢視
+幣圈神器-加密貨幣&區塊鏈學習字典
+從區塊鏈原理到投資風險
+檢視
+完美養豬
+七日養成・聊天・百張收藏
+檢視
+自己來設計
+空間模擬、選材比較與裝潢預算
+檢視
+公關日記
+四種身份的私密工作日記
+檢視
+賴瑞的調酒研究室
+與賴瑞展開專屬戀愛故事
+檢視
+AI時間管理
+停止拖延，啟動高效
+你可能也會喜歡
+檢視
+PaperPlane 酒吧指南
+尋找最近的推薦酒吧並取得消費回饋
+檢視
+媽咪樂 客戶VIP
+媽咪樂客戶服務應用程式
+檢視
+Card3 - Digital Business Card
+生活風格
+檢視
+小姐牌-聚会神器
+生活風格
+檢視
+懶蟲一家
+起床不再是一個人的事！
+檢視
+該換了吧
+記住每個該換的日子，更換提醒與備品庫存
+檢視
+西門好聲音KTV
+手機會員卡
+檢視
+iMandala
+生活風格
+檢視
+宜蘭垃圾車
+生活風格
+檢視
+棉花田生機園地
+生活風格
+台灣
+English (UK)
+選取國家或地區
+非洲、中東和印度
+顯示全部
+Algeria
+Angola
+Armenia
+Azerbaijan
+Bahrain
+Benin
+Botswana
+Burkina Faso
+Cameroun
+Cape Verde
+Chad
+Côte d’Ivoire
+Congo, The Democratic Republic Of The
+Egypt
+Eswatini
+Gabon
+Gambia
+Ghana
+Guinea-Bissau
+India
+Iraq
+Israel
+Jordan
+Kenya
+Kuwait
+Lebanon
+Liberia
+Libya
+Madagascar
+Malawi
+Mali
+Mauritania
+Mauritius
+Morocco
+Mozambique
+Namibia
+Niger (English)
+Nigeria
+Oman
+Qatar
+Congo, Republic of
+Rwanda
+São Tomé and Príncipe
+Saudi Arabia
+Senegal
+Seychelles
+Sierra Leone
+South Africa
+Sri Lanka
+Tajikistan
+Tanzania, United Republic Of
+Tunisia
+Turkmenistan
+United Arab Emirates
+Uganda
+Yemen
+Zambia
+Zimbabwe
+亞太地區
+顯示全部
+Afghanistan
+Australia
+Bhutan
+Brunei Darussalam
+Cambodia
+中国大陆
+Fiji
+香港
+Indonesia (English)
+日本
+Kazakhstan
+대한민국
+Kyrgyzstan
+Lao People's Democratic Republic
+澳門
+Malaysia (English)
+Maldives
+Micronesia, Federated States of
+Mongolia
+Myanmar
+Nauru
+Nepal
+New Zealand
+Pakistan
+Palau
+Papua New Guinea
+Philippines
+Singapore
+Solomon Islands
+台灣
+Thailand
+Tonga
+Turkmenistan
+Uzbekistan
+Vanuatu
+Vietnam
+歐洲
+顯示全部
+Albania
+Armenia
+Österreich
+Belarus
+Belgium
+Bosnia and Herzegovina
+Bulgaria
+Croatia
+Cyprus
+Czechia
+Denmark
+Estonia
+Finland
+France (Français)
+Georgia
+Deutschland
+Greece
+Hungary
+Iceland
+Ireland
+Italia
+Kosovo
+Latvia
+Lithuania
+Luxembourg (English)
+Malta
+Moldova, Republic Of
+Montenegro
+Nederland
+North Macedonia
+Norway
+Poland
+Portugal (Português)
+Romania
+Россия
+Serbia
+Slovakia
+Slovenia
+España
+Sverige
+Schweiz
+Türkiye (English)
+Ukraine
+United Kingdom
+拉丁美洲與加勒比海地區
+顯示全部
+Anguilla
+Antigua and Barbuda
+Argentina (Español)
+Bahamas
+Barbados
+Belize
+Bermuda
+Bolivia (Español)
+Brasil
+Virgin Islands, British
+Cayman Islands
+Chile (Español)
+Colombia (Español)
+Costa Rica (Español)
+Dominica
+República Dominicana
+Ecuador (Español)
+El Salvador (Español)
+Grenada
+Guatemala (Español)
+Guyana
+Honduras (Español)
+Jamaica
+México
+Montserrat
+Nicaragua (Español)
+Panamá
+Paraguay (Español)
+Perú
+St. Kitts and Nevis
+Saint Lucia
+St. Vincent and The Grenadines
+Suriname
+Trinidad and Tobago
+Turks and Caicos
+Uruguay (English)
+Venezuela (Español)
+美國與加拿大
+顯示全部
+Canada (English)
+Canada (Français)
+United States
+Estados Unidos (Español México)
+الولايات المتحدة
+США
+美国 (简体中文)
+États-Unis (Français France)
+미국
+Estados Unidos (Português Brasil)
+Hoa Kỳ
+美國 (繁體中文台灣)
+Copyright © 2026 Apple Inc. 保留一切權利。
+網路服務條款
+App Store 與隱私權
+Cookie 警告
+支援

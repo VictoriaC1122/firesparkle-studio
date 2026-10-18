@@ -1,0 +1,418 @@
+‎《輕鬆抽獎》App - App Store
+搜尋
+Today
+遊戲
+App
+Arcade
+平台
+iPhone
+iPad
+Mac
+Vision
+Watch
+TV
+輕鬆抽獎
+活動、聚會、課堂都適用的抽籤工具
+免費 · 專為 iPad 設計。尚未針對 macOS 驗證。
+分享
+4則評分
+5.0
+年齡分級
+4+
+歲
+類別
+工具程式
+開發者
+Yung Wen Cheng
+語言
+ZH
++ 其他 1 種
+大小
+5.1
+MB
+iPhone、iPad
+《輕鬆抽獎程式》是一款極度簡潔、直覺、零廣告的抽籤工具。 無論是活動抽獎、聚會遊戲、課堂分組、名單點選，都能一鍵完成！
+只要貼上參加者名單，App 會自動為你整理並清除重複，讓抽獎流程快速又優雅。
+設計以溫柔的莫蘭迪色系為主視覺，乾淨、柔和、不刺眼，讓你專注在真正重要的事情——誰會是這一輪的幸運得主！
+更多
+評分與評論
+5.0
+(滿分 5 顆星)
+4則評分
+很好用
+2025/11/18
+Salima Chang
+簡單好操作、很實用！
+很好用
+2025/11/18
+Salima Chang
+簡單好操作、很實用！
+5星推薦
+5月1日
+Anna Anna11111
+很實用 操作直觀推推👍
+5星推薦
+5月1日
+Anna Anna11111
+很實用 操作直觀推推👍
+100/100
+6月10日
+Azulin0101
+Just the most user friendly and useful app I’ve ever used in a party. Also a great venue for IG celebrities who need to fairly make a draw out of their fans.
+100/100
+6月10日
+Azulin0101
+Just the most user friendly and useful app I’ve ever used in a party. Also a great venue for IG celebrities who need to fairly make a draw out of their fans.
+新功能
+版本記錄
+「Instagram 小編抽獎」正式上線。
+• 匯入留言截圖，自動辨識帳號與留言，快速整理抽獎名單
+• 可限制留言數，並設定 Tag、關鍵字、活動期間與重複帳號規則
+• 支援多獎項、多位得主、抽獎紀錄與結果分享
+• 改善鍵盤操作、按鈕回饋，以及 iPhone／iPad 的流暢度與穩定性
+1.6 9月11日
+1.4 版本更新說明
+新增 Instagram 小編抽獎功能，支援留言整理、條件篩選、留言數限制與抽獎流程，協助更快速完成社群抽獎作業。
+新增 Instagram 文章截圖 OCR 匯入，可更快整理留言並進行抽獎。
+改善 Instagram 抽獎的條件設定、歷史查詢與結果操作體驗，流程更清楚、更順手。
+改善整體按鈕按壓回饋、彈性動畫與觸覺回饋，操作更即時。
+強化名單輸入、加權設定與 Instagram 表單的打字流暢度，減少卡頓與游標跳動。
+改善鍵盤收合、自動讓位與聚焦欄位自動捲動，輸入更自然。
+統一設定頁、onboarding 與主流程的互動手感與版面細節。
+持續優化 iPhone / iPad 顯示、深色模式與整體穩定性。
+1.4 4月27日
+1.3更新讓抽獎流程更順、更適合第一次使用：
+- 新增首次使用的新手引導，快速了解名單、抽獎與匯出流程。
+- 新增提醒功能說明頁，可在理解用途後再選擇是否開啟通知。
+- 新增加權抽獎設定，可用 Alex x3 這類格式調整中獎權重。
+- 設定頁新增語言、外觀、提醒與新手教學入口。
+- 改善 iPhone / iPad 版面、深色模式與中英文切換穩定性。
+- 修正多項上架前穩定性與匯出細節。
+1.3 4月17日
+- 新增設定頁，可切換繁體中文 / English 與深色 / 淺色模式
+- 優化 iPhone 與 iPad 版面，提升不同螢幕尺寸的使用體驗
+- 改善空狀態、錯誤提示與抽獎流程穩定性
+- 優化名單處理與匯出邏輯，降低大量資料造成的卡頓風險
+- 修正多項細節問題並完成上架前穩定性整理
+1.2 4月13日
+新增功能
+支援批次抽獎，可一次抽出多位得主。
+支援避免重複中獎，適合活動現場一輪輪抽出不同人。
+新增抽獎動畫，讓揭曉過程更有臨場感。
+新增抽獎紀錄，可回看每次抽出的順序與時間。
+支援匯出 CSV，方便保存或後續整理名單。
+支援複製最新得主與完整抽獎紀錄。
+支援中英文切換。
+支援深色、淺色與跟隨系統主題。
+版面已優化為更適合 iPhone、iPad 與 mac 顯示。
+名單輸入更方便，支援整批貼上、自動去空白與移除重複。
+草稿與設定會自動保存，重新開啟 app 可延續先前狀態。
+示範名單已更新為英文名字版本，方便快速展示。
+1.1 3月31日
+1.0 2025/11/18
+「Instagram 小編抽獎」正式上線。
+• 匯入留言截圖，自動辨識帳號與留言，快速整理抽獎名單
+• 可限制留言數，並設定 Tag、關鍵字、活動期間與重複帳號規則
+• 支援多獎項、多位得主、抽獎紀錄與結果分享
+• 改善鍵盤操作、按鈕回饋，以及 iPhone／iPad 的流暢度與穩定性
+更多
+版本 1.6 9月11日
+App 隱私權
+App 隱私權
+開發者Yung Wen Cheng指出 App 的隱私權實務可能包含下方描述的資料處理。此資訊尚未經 Apple 驗證。如需更多資訊，請參閱  開發者的隱私權政策  。
+若要進一步瞭解開發者的回應，請參閱  隱私權定義和範例  。
+依據你使用的功能或你的年齡等因素，隱私權實務可能有所不同。  更多內容
+不收集資料
+開發者不會從這個 App 收集任何資料。
+開發者Yung Wen Cheng指出App的隱私權實務可能包含下方描述的資料處理。如需更多資訊，請參閱  開發者的隱私權政策  。
+不收集資料
+開發者不會從這個 App 收集任何資料。
+依據你使用的功能或你的年齡等因素，隱私權實務可能有所不同。  更多內容
+輔助使用
+開發者尚未表示此 App 支援的輔助使用功能。  進一步瞭解
+資訊
+供應商 Yung Wen Cheng
+大小 5.1 MB
+類別 工具程式
+相容性 需要 iOS 18.5 或以上版本。
+iPhone
+需要 iOS 18.5 或以上版本。
+iPad
+需要 iPadOS 18.5 或以上版本。
+Mac
+需要 macOS 15.5（或以上版本）以及配備 Apple M1（或以上版本）晶片的 Mac。
+Apple Vision
+需要 visionOS 2.5 或以上版本。
+語言 繁體中文和英文
+年齡分級 4+
+4+
+進一步瞭解
+版權 © 2025 輕鬆抽獎
+隱私權政策
+更多Yung Wen Cheng的作品
+檢視
+複利計算器-財務自由實現工具
+市面上唯一能夠計算通膨、財務自由、借貸壓力與退休規劃的工具
+檢視
+股神養成：台美股模擬交易
+台股盤後資訊與台美股模擬交易
+檢視
+你今天維他命了嗎
+每日維他命記錄、提醒與知識助手
+檢視
+幣圈神器-加密貨幣&區塊鏈學習字典
+從區塊鏈原理到投資風險
+檢視
+完美養豬
+七日養成・聊天・百張收藏
+檢視
+自己來設計
+空間模擬、選材比較與裝潢預算
+檢視
+公關日記
+四種身份的私密工作日記
+檢視
+賴瑞的調酒研究室
+與賴瑞展開專屬戀愛故事
+檢視
+AI時間管理
+停止拖延，啟動高效
+檢視
+把夢遺留下來
+夢境日記、解讀與回顧
+你可能也會喜歡
+檢視
+LUCKY抽｜抽獎輪盤與戳戳樂
+一鍵製作專屬照片輪盤與戳戳樂
+檢視
+快速抽獎 - 幸運輪盤
+快速抽獎 - 幸運輪盤
+檢視
+ShehFung世豐
+ShehFung世豐助理
+檢視
+HOO 好點管
+工具程式
+檢視
+Trans FLEET＋
+工具程式
+檢視
+排球計分板
+無廣告
+檢視
+紫微四化飛星
+許多命理大師推薦與愛用
+檢視
+出貨錄影系統
+全程錄影監控，出貨更透明。
+檢視
+抽籤工具 - 抽籤、亂數、轉盤、擲硬幣、密碼產生、骰子
+抽籤工具是一款多功能隨機抽籤應用程式
+檢視
+Linknity
+Linknity - 一觸即連
+台灣
+English (UK)
+選取國家或地區
+非洲、中東和印度
+顯示全部
+Algeria
+Angola
+Armenia
+Azerbaijan
+Bahrain
+Benin
+Botswana
+Burkina Faso
+Cameroun
+Cape Verde
+Chad
+Côte d’Ivoire
+Congo, The Democratic Republic Of The
+Egypt
+Eswatini
+Gabon
+Gambia
+Ghana
+Guinea-Bissau
+India
+Iraq
+Israel
+Jordan
+Kenya
+Kuwait
+Lebanon
+Liberia
+Libya
+Madagascar
+Malawi
+Mali
+Mauritania
+Mauritius
+Morocco
+Mozambique
+Namibia
+Niger (English)
+Nigeria
+Oman
+Qatar
+Congo, Republic of
+Rwanda
+São Tomé and Príncipe
+Saudi Arabia
+Senegal
+Seychelles
+Sierra Leone
+South Africa
+Sri Lanka
+Tajikistan
+Tanzania, United Republic Of
+Tunisia
+Turkmenistan
+United Arab Emirates
+Uganda
+Yemen
+Zambia
+Zimbabwe
+亞太地區
+顯示全部
+Afghanistan
+Australia
+Bhutan
+Brunei Darussalam
+Cambodia
+中国大陆
+Fiji
+香港
+Indonesia (English)
+日本
+Kazakhstan
+대한민국
+Kyrgyzstan
+Lao People's Democratic Republic
+澳門
+Malaysia (English)
+Maldives
+Micronesia, Federated States of
+Mongolia
+Myanmar
+Nauru
+Nepal
+New Zealand
+Pakistan
+Palau
+Papua New Guinea
+Philippines
+Singapore
+Solomon Islands
+台灣
+Thailand
+Tonga
+Turkmenistan
+Uzbekistan
+Vanuatu
+Vietnam
+歐洲
+顯示全部
+Albania
+Armenia
+Österreich
+Belarus
+Belgium
+Bosnia and Herzegovina
+Bulgaria
+Croatia
+Cyprus
+Czechia
+Denmark
+Estonia
+Finland
+France (Français)
+Georgia
+Deutschland
+Greece
+Hungary
+Iceland
+Ireland
+Italia
+Kosovo
+Latvia
+Lithuania
+Luxembourg (English)
+Malta
+Moldova, Republic Of
+Montenegro
+Nederland
+North Macedonia
+Norway
+Poland
+Portugal (Português)
+Romania
+Россия
+Serbia
+Slovakia
+Slovenia
+España
+Sverige
+Schweiz
+Türkiye (English)
+Ukraine
+United Kingdom
+拉丁美洲與加勒比海地區
+顯示全部
+Anguilla
+Antigua and Barbuda
+Argentina (Español)
+Bahamas
+Barbados
+Belize
+Bermuda
+Bolivia (Español)
+Brasil
+Virgin Islands, British
+Cayman Islands
+Chile (Español)
+Colombia (Español)
+Costa Rica (Español)
+Dominica
+República Dominicana
+Ecuador (Español)
+El Salvador (Español)
+Grenada
+Guatemala (Español)
+Guyana
+Honduras (Español)
+Jamaica
+México
+Montserrat
+Nicaragua (Español)
+Panamá
+Paraguay (Español)
+Perú
+St. Kitts and Nevis
+Saint Lucia
+St. Vincent and The Grenadines
+Suriname
+Trinidad and Tobago
+Turks and Caicos
+Uruguay (English)
+Venezuela (Español)
+美國與加拿大
+顯示全部
+Canada (English)
+Canada (Français)
+United States
+Estados Unidos (Español México)
+الولايات المتحدة
+США
+美国 (简体中文)
+États-Unis (Français France)
+미국
+Estados Unidos (Português Brasil)
+Hoa Kỳ
+美國 (繁體中文台灣)
+Copyright © 2026 Apple Inc. 保留一切權利。
+網路服務條款
+App Store 與隱私權
+Cookie 警告
+支援

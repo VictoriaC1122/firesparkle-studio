@@ -1,0 +1,232 @@
+// 花火工作室 FireSparkle.Studio 官網 — 靜態網站產生器
+// 執行：node scripts/build.mjs
+// 讀取 src/content.mjs、data/apple-catalog.json、data/privacy-sources/manifest.json，
+// 產出 public/ 底下的首頁、各 App 介紹頁與隱私頁、隱私中心、支援頁、網站隱私說明、404、sitemap。
+// 全站中英雙語：中文放在 .zh、英文放在 .en，由 <html lang> 切換顯示。
+import { readFile, writeFile, mkdir } from 'node:fs/promises';
+import { dirname, resolve } from 'node:path';
+import { fileURLToPath } from 'node:url';
+import { site, order, heroApps, categoryEn, genreEn, apps as appInfo } from '../src/content.mjs';
+
+const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
+const read = (path) => readFile(resolve(root, path), 'utf8');
+const catalog = JSON.parse(await read('data/apple-catalog.json'));
+const policies = JSON.parse(await read('data/privacy-sources/manifest.json')).apps;
+const { email } = site;
+// 部署在子路徑時（GitHub 專案頁 /repo-name/）設定 BASE_PATH；自訂網域留空。
+const base = (process.env.BASE_PATH || '').trim().replace(/\/+$/, '');
+// SITE_URL 是含部署子路徑的完整網址；未設定時沿用正式網域。
+const siteURL = (process.env.SITE_URL?.trim() || site.url).replace(/\/+$/, '');
+const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+// 雙語片段：L('中文', 'English')
+const L = (zh, en) => `<span class="zh">${zh}</span><span class="en" lang="en">${en}</span>`;
+const pad = (n) => String(n).padStart(2, '0');
+
+// --------------------------------------------------------------------------
+// 作品資料
+// --------------------------------------------------------------------------
+const apps = catalog.apps
+  .filter((a) => appInfo[a.slug])
+  .sort((a, b) => order.indexOf(a.slug) - order.indexOf(b.slug))
+  .map((a) => ({ ...a, ...appInfo[a.slug], policy: policies[String(a.trackId)] }));
+const bySlug = Object.fromEntries(apps.map((a) => [a.slug, a]));
+const appURL = (a) => `/app/${a.slug}/`;
+const policyURL = (a) => `${appURL(a)}privacy/`;
+const mailto = (subject = 'FireSparkle.Studio｜聯絡') => `mailto:${email}?subject=${encodeURIComponent(subject)}`;
+const catL = (c) => L(c, categoryEn[c] || c);
+
+// --------------------------------------------------------------------------
+// 共用版型
+// --------------------------------------------------------------------------
+const langBoot = `<script>(function(){var l;try{l=localStorage.getItem('fs-lang')}catch(e){}if(!l){l=/^zh/i.test(navigator.language||'zh')?'zh':'en'}if(l==='en')document.documentElement.lang='en'})()</script>`;
+const brand = (cls = '') => `<a class="brand ${cls}" href="/" aria-label="花火工作室 FireSparkle.Studio"><img class="brand-mark" src="/assets/brand/firesparkle-mark-112.png" alt="" width="40" height="38"><span class="brand-text"><span class="brand-latin">FireSparkle<i>.</i>Studio</span><span class="brand-cjk">花火工作室</span></span></a>`;
+const header = `<a class="skip-link" href="#main">${L('跳到主要內容', 'Skip to content')}</a><header class="site-header"><div class="wrap header-inner">${brand()}<nav class="site-nav" aria-label="Main"><a class="nav-apps" href="/#apps">${L('作品', 'Apps')}</a><a class="nav-studio" href="/#studio">${L('工作室', 'Studio')}</a><a href="/support/">${L('支援', 'Support')}</a><button class="lang-toggle" type="button" data-lang-toggle aria-label="切換語言 Switch language"><span class="zh">EN</span><span class="en">中文</span></button></nav></div></header>`;
+const footer = `<footer class="site-footer"><div class="wrap footer-grid"><div class="footer-brand">${brand()}<p class="footer-tagline"><span class="tagline-latin">Where ideas <em>shine.</em></span>${L('為日常，添一點靈光。', 'A little spark for every day.')}</p></div><nav class="footer-col" aria-label="Explore"><p class="footer-title">Explore</p><a href="/#apps">${L('作品', 'Apps')}</a><a href="/#studio">${L('關於工作室', 'About the studio')}</a><a href="/support/">${L('支援與聯絡', 'Support & contact')}</a></nav><nav class="footer-col" aria-label="Privacy"><p class="footer-title">Privacy</p><a href="/privacy/">${L('App 隱私政策', 'App privacy policies')}</a><a href="/website-privacy/">${L('網站隱私說明', 'Website privacy')}</a></nav><div class="footer-col"><p class="footer-title">Contact</p><a href="${mailto()}">${email}</a></div></div><div class="wrap footer-bottom"><span>© 2026 FireSparkle.Studio · 花火工作室</span><span>${L('獨立創作 · 用心製作', 'Independent · Made with care')}</span></div></footer>`;
+
+function page({ path, title, description, content, bodyClass = '', extraHead = '' }) {
+  const canonical = `${siteURL}${path}`;
+  const html = `<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">${langBoot}<title>${esc(title)}</title><meta name="description" content="${esc(description)}"><link rel="canonical" href="${canonical}"><meta name="theme-color" content="#f7f4fc"><meta property="og:type" content="website"><meta property="og:url" content="${canonical}"><meta property="og:title" content="${esc(title)}"><meta property="og:description" content="${esc(description)}"><meta property="og:site_name" content="花火工作室 FireSparkle.Studio"><meta property="og:image" content="${siteURL}/assets/brand/og-image.png"><meta name="twitter:card" content="summary_large_image"><link rel="icon" href="/favicon.png" type="image/png" sizes="64x64"><link rel="icon" href="/favicon-32.png" type="image/png" sizes="32x32"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="preload" href="/fonts/fraunces/fraunces-latin-full-normal.woff2" as="font" type="font/woff2" crossorigin><link rel="stylesheet" href="/fonts/fonts.css"><link rel="stylesheet" href="/style.css"><script src="/site.js" defer></script>${extraHead}</head><body class="${bodyClass}">${header}<main id="main">${content}</main>${footer}</body></html>`;
+  // 站內絕對路徑（href="/..."、src="/..."）加上 BASE_PATH 前綴
+  return base ? html.replace(/\b(href|src)="\/(?!\/)/g, `$1="${base}/`) : html;
+}
+async function save(path, content) {
+  const file = resolve(root, 'public', path);
+  await mkdir(dirname(file), { recursive: true });
+  await writeFile(file, content);
+}
+const breadcrumb = (label, parent = '') => `<nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">${L('首頁', 'Home')}</a><span class="sep" aria-hidden="true">/</span>${parent}<span aria-current="page">${label}</span></nav>`;
+const crumbLink = (href, label) => `<a href="${href}">${label}</a><span class="sep" aria-hidden="true">/</span>`;
+const arrow = (c = '→') => `<span class="arrow" aria-hidden="true">${c}</span>`;
+
+// --------------------------------------------------------------------------
+// 首頁主視覺：刻度圓環＋弧形文字（線條取自舊版徽章，改為薰衣草色）
+// --------------------------------------------------------------------------
+function ring() {
+  const cx = 300, cy = 300;
+  const ticks = [];
+  for (let i = 0; i < 120; i++) {
+    const long = i % 10 === 0;
+    ticks.push(`<line x1="${cx}" y1="${cy - (long ? 268 : 274)}" x2="${cx}" y2="${cy - 284}" stroke-width="${long ? 1.1 : .6}" transform="rotate(${i * 3} ${cx} ${cy})"/>`);
+  }
+  const advance = (ch) => (/[㐀-鿿]/.test(ch) ? 20 : ch === ' ' ? 8 : ch === '·' ? 12 : ch === '.' ? 7 : /[IJ]/.test(ch) ? 9 : /[MW]/.test(ch) ? 17 : 14);
+  const arc = (text, r, bottom) => {
+    const chars = [...text];
+    const total = chars.reduce((s, c) => s + advance(c), 0);
+    const perUnit = 180 / (Math.PI * r);
+    let pos = -total / 2;
+    return chars.map((ch) => {
+      const centre = pos + advance(ch) / 2;
+      pos += advance(ch);
+      if (ch === ' ') return '';
+      const deg = centre * perUnit;
+      const cls = /[㐀-鿿]/.test(ch) ? 'ring-cjk' : 'ring-latin';
+      return bottom
+        ? `<text class="${cls}" x="${cx}" y="${cy + r}" text-anchor="middle" dominant-baseline="central" transform="rotate(${(-deg).toFixed(2)} ${cx} ${cy})">${esc(ch)}</text>`
+        : `<text class="${cls}" x="${cx}" y="${cy - r}" text-anchor="middle" dominant-baseline="central" transform="rotate(${deg.toFixed(2)} ${cx} ${cy})">${esc(ch)}</text>`;
+    }).join('');
+  };
+  const star = (deg, r) => `<path d="M${cx} ${cy - r - 6}l1.6 4.4 4.4 1.6-4.4 1.6-1.6 4.4-1.6-4.4-4.4-1.6 4.4-1.6z" transform="rotate(${deg} ${cx} ${cy})"/>`;
+  return `<svg class="ring-svg" viewBox="0 0 600 600" aria-hidden="true" focusable="false">
+<defs><linearGradient id="ring-glow" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f4b36d"/><stop offset=".5" stop-color="#e98bb6"/><stop offset="1" stop-color="#9c90ee"/></linearGradient></defs>
+<g fill="none"><circle cx="${cx}" cy="${cy}" r="292" stroke="#e3daf3"/><circle cx="${cx}" cy="${cy}" r="258" stroke="#e3daf3" stroke-width=".8"/><circle cx="${cx}" cy="${cy}" r="210" stroke="url(#ring-glow)" stroke-width="1.2" stroke-dasharray="2 7" stroke-linecap="round" opacity=".8"/></g>
+<g stroke="#c9bbe9" stroke-linecap="round">${ticks.join('')}</g>
+<g class="ring-text">${arc('FIRESPARKLE.STUDIO · 花火工作室', 236, false)}${arc('WHERE IDEAS SHINE', 236, true)}</g>
+<g fill="url(#ring-glow)">${star(90, 230)}${star(270, 230)}</g>
+</svg>`;
+}
+
+// --------------------------------------------------------------------------
+// 首頁
+// --------------------------------------------------------------------------
+const groups = ['全部', ...new Set(apps.map((a) => a.category))];
+const searchText = (a) => [a.nameZhHant, a.short, a.en, a.shortDescription, a.enDesc, a.category, categoryEn[a.category]].join(' ').toLowerCase();
+const card = (a, i) => `<article class="app-card reveal" data-category="${a.category}" data-search="${esc(searchText(a))}"><div class="card-top"><img class="card-icon" src="${a.iconPath}" alt="" loading="lazy" width="64" height="64"><span class="card-no">No. ${pad(i + 1)}</span></div><p class="card-category">${catL(a.category)}</p><h3 class="card-title"><a class="card-main-link" href="${appURL(a)}">${L(esc(a.short), esc(a.en))}</a></h3><p class="card-desc">${L(esc(a.shortDescription), esc(a.enDesc))}</p><div class="card-links"><span class="card-more">${L('探索 App', 'Explore')} ${arrow()}</span><a class="card-store" href="${a.storeUrl}">App Store ${arrow('↗')}<span class="visually-hidden">${L(`：${esc(a.nameZhHant)}`, `: ${esc(a.en)}`)}</span></a></div></article>`;
+const floatIcons = heroApps.map((slug, i) => {
+  const a = bySlug[slug];
+  return `<a class="float-icon fi-${i + 1}" href="${appURL(a)}" aria-label="${esc(a.short)} ${esc(a.en)}"><img src="${a.iconPath}" alt="" width="72" height="72"></a>`;
+}).join('');
+
+const home = `
+<section class="hero" aria-labelledby="hero-title">
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <p class="eyebrow"><span class="spark" aria-hidden="true">✦</span>${L('花火工作室 · Independent App Studio', 'FireSparkle.Studio · Independent App Studio')}</p>
+      <h1 id="hero-title" class="display">Where ideas<br><em>shine.</em></h1>
+      <p class="hero-line">${L('為日常，添一點靈光。', 'A little spark for every day.')}</p>
+      <p class="hero-lead">${L('把一閃而過的好點子，做成每天都想打開的 App。<br>實用、有溫度，也有自己的樣子。', 'We turn fleeting ideas into apps you’ll want to open every day — useful, warm, and with a character of their own.')}</p>
+      <div class="hero-actions"><a class="button" href="#apps">${L('探索作品', 'Explore the apps')} ${arrow('↓')}</a><a class="text-link" href="#studio">${L('認識花火', 'Meet the studio')} ${arrow()}</a></div>
+      <div class="hero-note"><span class="mini-icons" aria-hidden="true">${heroApps.slice(0, 3).map((s) => `<img src="${bySlug[s].iconPath}" alt="" width="34" height="34">`).join('')}</span><span>${L(`<b>${apps.length}</b> 款 iOS 作品，各有一點光。`, `<b>${apps.length}</b> iOS apps, each with its own glow.`)}</span></div>
+    </div>
+    <div class="hero-art">
+      <div class="halo halo-a" aria-hidden="true"></div><div class="halo halo-b" aria-hidden="true"></div><div class="halo halo-c" aria-hidden="true"></div>
+      ${ring()}
+      <div class="hero-mark"><img src="/assets/brand/firesparkle-mark-720.webp" alt="花火工作室 FireSparkle.Studio 標誌：玻璃質感的火焰與星芒" width="720" height="692" fetchpriority="high"></div>
+      ${floatIcons}
+    </div>
+  </div>
+</section>
+
+<div class="word-band" aria-hidden="true"><div class="wrap"><span>${L('從真實需求開始', 'Born from real needs')}</span><i>✦</i><span>${L('用心設計每個細節', 'Every detail, considered')}</span><i>✦</i><span>${L('為每一種日常而做', 'Made for every kind of day')}</span><i>✦</i><span class="latin">Small sparks, everyday possibilities</span></div></div>
+
+<section id="apps" class="collection" aria-labelledby="apps-title">
+  <div class="wrap">
+    <div class="section-heading reveal"><div><p class="eyebrow">The App Collection</p><h2 id="apps-title">${L('好點子，<br>已經在這裡。', 'Good ideas,<br>already here.')}</h2></div><p class="section-intro">${L('生活、理財、專注與一點想像力。<br>找到與你合拍的那一款。', 'Life, money, focus and a little imagination. Find the one that fits your rhythm.')}</p></div>
+    <div class="collection-tools reveal">
+      <div class="filter-bar" role="group" aria-label="Filter" hidden>${groups.map((g, i) => `<button type="button" data-filter="${g}" aria-pressed="${i === 0}">${catL(g)}</button>`).join('')}</div>
+      <label class="search" hidden><span class="search-icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4.5 4.5"/></svg></span><input id="app-search" type="search" placeholder="搜尋 App" data-placeholder-en="Search apps" aria-label="搜尋 App Search apps" autocomplete="off"></label>
+    </div>
+    <p class="app-count" aria-live="polite"><span class="zh">共 <b data-count>${apps.length}</b> 款 App</span><span class="en" lang="en"><b data-count>${apps.length}</b> apps</span></p>
+    <div class="app-grid">${apps.map(card).join('')}</div>
+    <div class="no-results" hidden><p>${L('沒有找到這款 App，試試其他關鍵字。', 'No apps match — try another word.')}</p><button class="button button-quiet" type="button" data-reset>${L('顯示所有作品', 'Show all apps')}</button></div>
+  </div>
+</section>
+
+<section id="studio" class="studio" aria-labelledby="studio-title">
+  <div class="wrap studio-grid">
+    <div class="studio-visual reveal" aria-hidden="true"><div class="studio-glow"></div><img src="/assets/brand/firesparkle-mark-720.webp" alt="" width="360" height="346" loading="lazy"><p class="studio-word">FireSparkle<i>.</i>Studio</p><p class="studio-sub">花火工作室 · Where ideas shine.</p></div>
+    <div class="studio-copy reveal">
+      <p class="eyebrow">A little about the studio</p>
+      <h2 id="studio-title">${L('靈感很小。<br>日常很大。', 'Small sparks.<br>Big everyday.')}</h2>
+      <p>${L('花火工作室專注於 App 的構思、設計與開發。從一個需要解決的小問題，到一段值得留下的記憶，我們讓想法長成能陪伴日常的作品。', 'FireSparkle.Studio dreams up, designs and builds apps. From a small problem worth solving to a memory worth keeping, we grow ideas into things that keep you company every day.')}</p>
+      <ol class="principles">
+        <li><span class="index">01</span><div><h3>${L('從日常出發', 'Start from everyday life')}</h3><p>${L('留意生活裡的小需求，讓每個點子都有值得被做出來的理由。', 'We notice the small needs in daily life, so every idea has a real reason to exist.')}</p></div></li>
+        <li><span class="index">02</span><div><h3>${L('簡約而精緻', 'Simple, and finely made')}</h3><p>${L('簡約，讓重要的事更清楚；精緻，讓每次打開都有一點愉悅。', 'Simplicity keeps what matters clear; craft makes every launch a small delight.')}</p></div></li>
+        <li><span class="index">03</span><div><h3>${L('保持好奇', 'Stay curious')}</h3><p>${L('願意為平凡的生活多想一步，持續探索作品能帶來的不同可能。', 'We think one step further for ordinary days and keep exploring what our apps could become.')}</p></div></li>
+      </ol>
+      <div class="platforms"><span><b>iOS</b><small>${L('已有作品', 'Available')}</small></span><span><b>Android</b><small>${L('規劃中', 'In progress')}</small></span><span><b>Steam</b><small>${L('未來探索', 'Exploring')}</small></span></div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="contact" aria-labelledby="contact-title">
+  <div class="wrap">
+    <div class="contact-card reveal">
+      <span class="contact-spark" aria-hidden="true">✦</span>
+      <p class="eyebrow">Let’s make something shine</p>
+      <h2 id="contact-title">${L('下一個靈感，<br>也許從一聲 Hello 開始。', 'The next idea might<br>start with a hello.')}</h2>
+      <p>${L('合作邀約、使用回饋，或只是想分享一個點子，都歡迎寫信給我們。', 'Collaborations, feedback, or just an idea you’d like to share — we’d love to hear from you.')}</p>
+      <div class="contact-actions"><a class="button" href="${mailto()}">${email} ${arrow('↗')}</a><a class="text-link" href="/support/">${L('App 使用支援', 'App support')} ${arrow()}</a></div>
+    </div>
+  </div>
+</section>`;
+
+const orgLd = `<script type="application/ld+json">${JSON.stringify({ '@context': 'https://schema.org', '@type': 'Organization', name: 'FireSparkle.Studio', alternateName: '花火工作室', url: siteURL, logo: `${siteURL}/assets/brand/icon-512.png`, email, slogan: site.tagline })}</script>`;
+await save('index.html', page({ path: '/', title: '花火工作室 FireSparkle.Studio｜Where ideas shine.', description: `花火工作室 FireSparkle.Studio：從真實日常出發的獨立 App 工作室。探索 ${apps.length} 款 iOS 作品，取得支援與隱私資訊。`, content: home, bodyClass: 'is-home', extraHead: orgLd }));
+
+// --------------------------------------------------------------------------
+// 作品頁、隱私頁
+// --------------------------------------------------------------------------
+const contactBox = (a) => `<aside class="contact-box reveal"><p class="eyebrow">We’re here to help</p><h2>${L('有問題，一起解決。', 'Questions? Let’s sort it out.')}</h2><p>${L('來信時請告訴我們 App 名稱、裝置與系統版本，以及遇到的狀況。', 'When you write, tell us the app name, your device and iOS version, and what happened.')}</p><a class="button" href="${mailto(a ? `${a.nameZhHant}｜使用支援 Support` : 'FireSparkle.Studio｜使用支援 Support')}">${L('寄信聯絡', 'Email us')} ${arrow('↗')}</a><a class="email-link" href="${mailto()}">${email}</a></aside>`;
+const isWebsiteOnly = (a) => a.policy.policyStatus === 'website_only_privacy';
+const appRows = (kind, list = apps) => list.map((a) => `<a class="resource-row" href="${kind === 'privacy' ? policyURL(a) : appURL(a)}"><img src="${a.iconPath}" alt="" width="52" height="52" loading="lazy"><span class="row-text"><strong>${L(esc(a.nameZhHant), esc(a.en))}</strong><small>${kind === 'privacy' ? (isWebsiteOnly(a) ? L('現有隱私資訊與聯絡方式', 'Existing privacy information') : L('App 隱私權政策', 'App privacy policy')) : catL(a.category)}</small></span>${arrow()}</a>`).join('');
+
+const policyTitles = new Set(['我們收集的資訊', '資訊的使用', '第三方服務', '兒童隱私', '本政策的變更', '我們收集哪些資料', '行情資料與網路連線', '保存在裝置上的資料', 'Pro 訂閱與 Apple', '通知', '資料分享、廣告與追蹤', '寄信聯絡與瀏覽本網站', '你如何控制資料', '服務與投資聲明', '政策更新', '聯絡我們', '政策摘要', 'App 儲存哪些資料', '無追蹤或分析 SDK', 'Apple 服務與選用權限', '匯出、分享與系統備份', '你的控制權與資料保留', '客服信件與本網站', '政策更新與聯繫']);
+const numericHeading = /^(?:\d{1,2}[.、．]\s*|第[一二三四五六七八九十]+[條節])/;
+const oldEmails = /victoriache+ng1122@gmail\.com/g;
+
+for (const [i, a] of apps.entries()) {
+  const others = [1, 2, 3].map((k) => apps[(i + k) % apps.length]);
+  const minOS = a.minimumOsVersion;
+  const spec = `<dl class="spec-list reveal"><div><dt>${L('類別', 'Category')}</dt><dd>${L(esc(a.genres.join(' · ')), esc(a.genres.map((g) => genreEn[g] || g).join(' · ')))}</dd></div><div><dt>${L('系統需求', 'Requires')}</dt><dd>${L(`iOS ${esc(minOS)} 或以上`, `iOS ${esc(minOS)} or later`)}</dd></div><div><dt>${L('年齡分級', 'Age rating')}</dt><dd>${esc(a.contentRating)}</dd></div><div><dt>${L('開發者', 'Developer')}</dt><dd>${esc(a.artistName)}</dd></div></dl>`;
+  const content = `<div class="wrap">${breadcrumb(L(esc(a.short), esc(a.en)))}<section class="app-intro"><div class="app-hero-icon-wrap reveal"><div class="halo halo-a" aria-hidden="true"></div><img class="app-hero-icon" src="${a.iconPath}" alt="${esc(a.short)}" width="160" height="160"></div><div class="app-intro-copy reveal"><p class="eyebrow">${catL(a.category)} <span aria-hidden="true">/</span> No. ${pad(i + 1)}</p><h1>${L(esc(a.nameZhHant), esc(a.en))}</h1><p class="lead">${L(esc(a.shortDescription), esc(a.enDesc))}</p><div class="actions"><a class="button" href="${a.storeUrl}">${L('在 App Store 查看', 'View on the App Store')} ${arrow('↗')}</a><a class="text-link" href="${policyURL(a)}">${isWebsiteOnly(a) ? L('隱私資訊', 'Privacy information') : L('隱私政策', 'Privacy policy')} ${arrow()}</a></div></div></section>${spec}<section class="app-support"><div class="app-support-copy reveal"><p class="eyebrow">Good to know</p><h2>${L('下載、支援與隱私。', 'Downloads, support & privacy.')}</h2><p>${L('功能、系統需求、價格及 App 內購買項目，請以 App Store 的最新說明為準。', 'For features, requirements, pricing and in-app purchases, the App Store listing is always the most up to date.')}</p><div class="info-links"><a class="text-link" href="${policyURL(a)}">${L('閱讀隱私資訊', 'Read the privacy policy')} ${arrow()}</a><a class="text-link" href="/support/">${L('支援與常見問題', 'Support & FAQ')} ${arrow()}</a></div></div>${contactBox(a)}</section></div><section class="more-apps"><div class="wrap"><div class="section-heading reveal"><div><p class="eyebrow">More from FireSparkle</p><h2>${L('再看看其他的花火。', 'More sparks to explore.')}</h2></div><a class="text-link" href="/#apps">${L('所有作品', 'All apps')} ${arrow()}</a></div><div class="resource-list reveal">${appRows('app', others)}</div></div></section>`;
+  await save(`app/${a.slug}/index.html`, page({ path: appURL(a), title: `${a.nameZhHant}｜花火工作室 FireSparkle.Studio`, description: a.shortDescription, content }));
+
+  const p = a.policy;
+  const original = await read(`data/privacy-sources/${p.policyTextFile}`);
+  const text = original.replace(oldEmails, email);
+  const blocks = text.split('\n').filter((x) => x.trim()).map((line) => (numericHeading.test(line) || policyTitles.has(line.trim()) ? `<h2>${esc(line)}</h2>` : `<p>${esc(line)}</p>`)).join('');
+  const notice = isWebsiteOnly(a)
+    ? `<div class="policy-note"><p class="zh"><strong>現有說明的適用範圍</strong><br>以下是原作品公開資訊頁的隱私說明，僅涵蓋該網頁，未完整說明 App 內的資料處理。若你需要了解 App 的資料、儲存或刪除方式，請寫信給我們。</p><p class="en" lang="en"><strong>Scope of this notice</strong><br>This is the privacy notice from the app’s original information page, published in Traditional Chinese. It covers that page only. For details about data in the app, email us at ${email}.</p></div>`
+    : `<div class="policy-note"><p class="zh">以下沿用此 App 既有的隱私政策，聯絡信箱已更新為工作室信箱 ${email}。原文提及舊支援網站、GitHub Pages 或字型服務時，指的是原網站；本官網的資料處理請見<a href="/website-privacy/">網站隱私說明</a>。</p><p class="en" lang="en">The policy below is published in Traditional Chinese and is the app’s existing policy, with the contact address updated to ${email}. For questions in English, just email us. How this website handles data is described in our <a href="/website-privacy/">website privacy notice</a>.</p></div>`;
+  const privacyContent = `<div class="wrap reading-wrap">${breadcrumb(L('隱私資訊', 'Privacy'), crumbLink(appURL(a), L(esc(a.short), esc(a.en))))}<header class="page-heading"><p class="eyebrow">Privacy</p><h1>${L(`${esc(a.short)}<br>${isWebsiteOnly(a) ? '隱私資訊' : '隱私權政策'}`, `${esc(a.en)}<br>Privacy Policy`)}</h1><p class="lead">${esc(p.policyUpdatedText || '依既有公開政策內容整理')}</p></header>${notice}<article class="policy-body" lang="zh-Hant">${blocks}</article><div class="policy-source"><p><a href="${esc(p.policySourceURL)}">${L('查看原政策頁面', 'View the original policy page')} ${arrow('↗')}</a></p><p>${L('隱私或資料問題：', 'Privacy questions: ')}<a href="${mailto(`${a.short}｜隱私問題 Privacy`)}">${email}</a></p><p class="small">${L(`彙整日期：${site.updatedZh}`, `Compiled on ${site.updatedEn}`)}</p></div></div>`;
+  await save(`app/${a.slug}/privacy/index.html`, page({ path: policyURL(a), title: `${a.short}隱私資訊｜花火工作室 FireSparkle.Studio`, description: `${a.nameZhHant}的隱私政策與聯絡方式。`, content: privacyContent }));
+}
+
+// --------------------------------------------------------------------------
+// 隱私中心、支援、網站隱私說明、404
+// --------------------------------------------------------------------------
+await save('privacy/index.html', page({ path: '/privacy/', title: 'App 隱私政策｜花火工作室 FireSparkle.Studio', description: '依 App 查閱花火工作室各款 App 的資料處理、權限、保存與刪除方式。', content: `<div class="wrap reading-wrap">${breadcrumb(L('App 隱私政策', 'App privacy'))}<header class="page-heading"><p class="eyebrow">Your Privacy</p><h1>${L('每一款 App，<br>都有自己的說明。', 'Every app,<br>its own policy.')}</h1><p class="lead">${L('選擇你使用的 App，了解它的資料處理與聯絡方式。', 'Pick the app you use to see how it handles data and how to reach us.')}</p></header><div class="resource-list reveal">${appRows('privacy')}</div><p class="section-note">${L('這個官網本身的資料處理，請參閱<a href="/website-privacy/">網站隱私說明</a>。', 'For this website itself, see the <a href="/website-privacy/">website privacy notice</a>.')}</p></div>` }));
+
+const faq = [
+  ['如何管理訂閱或申請退款？', 'How do I manage a subscription or ask for a refund?',
+    '若 App 提供 Apple App 內購買或訂閱，可在 iPhone「設定 → 你的姓名 → 訂閱項目」管理。退款請透過 <a href="https://reportaproblem.apple.com/">Apple 回報問題</a>提出，是否符合退款條件由 Apple 審核。刪除 App 不會自動取消訂閱。',
+    'In-app purchases and subscriptions are handled by Apple. Manage them in iPhone Settings → your name → Subscriptions. Refunds are requested through <a href="https://reportaproblem.apple.com/">Apple’s Report a Problem</a> and reviewed by Apple. Deleting an app does not cancel its subscription.'],
+  ['在哪裡查看 App 的隱私政策？', 'Where can I read an app’s privacy policy?',
+    '前往<a href="/privacy/">隱私中心</a>，選擇你使用的 App。不同 App 的資料、權限及刪除方式可能不同。',
+    'Visit the <a href="/privacy/">privacy centre</a> and choose your app. Data, permissions and deletion differ from app to app.'],
+  ['可以協助找回 App 裡的資料嗎？', 'Can you help me recover data in an app?',
+    '請先來信說明 App 名稱與狀況。各 App 的儲存與備份功能不同，部分資料只保存在你的裝置上，開發者可能無法存取或還原；刪除或重裝前，請先確認該 App 的備份方式。',
+    'Email us with the app name and what happened. Storage and backup differ by app, and some data lives only on your device, where we cannot access or restore it. Check the app’s backup options before deleting or reinstalling.'],
+];
+await save('support/index.html', page({ path: '/support/', title: '支援與聯絡｜花火工作室 FireSparkle.Studio', description: '取得花火工作室 App 的使用支援、回報問題，或與工作室聯絡。', content: `<div class="wrap">${breadcrumb(L('支援與聯絡', 'Support'))}<header class="page-heading"><p class="eyebrow">Support &amp; Contact</p><h1>${L('你的每個提問，<br>我們都在意。', 'Every question<br>matters to us.')}</h1><p class="lead">${L('使用上的疑問、問題回報，或想分享一個點子，<br>歡迎寫信給花火工作室。', 'Questions, bug reports, or an idea to share — write to FireSparkle.Studio any time.')}</p></header><section class="support-grid">${contactBox()}<div class="support-instructions reveal"><h2>${L('讓我們更快了解狀況', 'Help us help you faster')}</h2><ol><li>${L('你使用的 App 名稱與版本。', 'The app name and version.')}</li><li>${L('iPhone 或 iPad 型號、系統版本。', 'Your iPhone or iPad model and iOS version.')}</li><li>${L('發生問題的步驟，以及預期看到的結果。', 'The steps that lead to the problem, and what you expected to see.')}</li><li>${L('如附截圖，請先遮住不必要的個人資訊。', 'If you attach screenshots, cover any personal details first.')}</li></ol><p>${L('不需要提供密碼、付款卡號或其他敏感內容。', 'We never need your passwords, card numbers or other sensitive details.')}</p></div></section><section class="faq reveal"><p class="eyebrow">Common questions</p><h2>${L('你可能也想知道', 'You might also wonder')}</h2>${faq.map(([qz, qe, az, ae]) => `<details><summary>${L(qz, qe)}</summary><p class="zh">${az}</p><p class="en" lang="en">${ae}</p></details>`).join('')}</section></div>` }));
+
+const wpZh = `<p>本說明適用於花火工作室 FireSparkle.Studio 官網（firesparkle.com）。各 App 的資料處理方式另見<a href="/privacy/">App 隱私政策</a>。App Store 開發者名稱為 Yung Wen Cheng。</p><h2>1. 瀏覽本網站</h2><p>本站提供作品介紹、下載連結、支援與隱私資訊，未設置會員帳號、付款表單、廣告、網站分析或追蹤像素，也不使用 Cookie。作品篩選與搜尋只在你的瀏覽器中運作，不會傳送內容。</p><p>你選擇的顯示語言會以 localStorage 儲存在你的瀏覽器本機，只用來在下次造訪時沿用語言，不會傳送給我們；清除瀏覽器網站資料即可移除。</p><p>本站由 GitHub Pages 託管。為傳送網頁、維持安全與排查錯誤，GitHub 可能處理 IP 位址、請求網址、瀏覽器資訊與存取紀錄，相關處理依 <a href="https://docs.github.com/zh/site-policy/privacy-policies/github-general-privacy-statement">GitHub 隱私聲明</a>辦理。本站字型（霞鶩文楷、Fraunces）放在本站伺服器上，不會向第三方字型服務發出請求。</p><h2>2. 電子郵件聯絡</h2><p>當你主動寄信至 ${email}，我們會收到寄件地址、姓名（如有提供）、信件內容及附件，用於回覆問題、提供支援與處理隱私請求。請只提供處理問題所需的資料。</p><p>工作室信箱使用 Gmail，郵件可能依服務安排在境外處理，相關處理適用 <a href="https://policies.google.com/privacy?hl=zh-TW">Google 隱私權政策</a>。我們於處理問題及必要的後續追蹤期間保留往來內容；目的完成且無法律或爭議處理上的保留必要後，會刪除不再需要的內容。我們不會將你的支援信件用於廣告行銷。</p><h2>3. 外部連結</h2><p>點選 App Store、原政策頁或其他外部服務後，該服務依其自身的隱私政策處理資料。本站不會將 App 內的個人紀錄附加到下載連結。</p><h2>4. 查詢、更正與刪除</h2><p>如希望查詢、更正或刪除透過支援信件提供的個人資料，請寄信至 <a href="${mailto('FireSparkle.Studio｜隱私與資料請求')}">${email}</a>。我們會依請求內容處理；如有依法需保留的部分，會說明原因。郵件服務的備份清除時程由該服務管理。</p><h2>5. 說明更新</h2><p>若網站功能或使用的服務改變，本頁將更新並標示更新日期。</p>`;
+const wpEn = `<p>This notice covers the FireSparkle.Studio (花火工作室) website at firesparkle.com. Each app’s own data practices are described in its <a href="/privacy/">app privacy policy</a>. Our App Store developer name is Yung Wen Cheng.</p><h2>1. Browsing this website</h2><p>The site offers app information, download links, support and privacy information. It has no accounts, payment forms, ads, analytics or tracking pixels, and it does not use cookies. Filtering and searching apps happens entirely in your browser.</p><p>Your chosen display language is saved in your browser’s localStorage so the site can remember it next time. It is never sent to us, and clearing the site’s data in your browser removes it.</p><p>The site is hosted on GitHub Pages. To deliver pages, keep the service secure and fix errors, GitHub may process your IP address, requested URLs, browser details and access logs under the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub General Privacy Statement</a>. Our fonts (LXGW WenKai and Fraunces) are served from this website, so no requests go to third-party font services.</p><h2>2. Contacting us by email</h2><p>When you email ${email}, we receive your address, your name (if given), your message and any attachments, and use them to answer questions, provide support and handle privacy requests. Please share only what is needed.</p><p>The studio mailbox runs on Gmail, so messages may be processed in other countries under the <a href="https://policies.google.com/privacy?hl=en">Google Privacy Policy</a>. We keep correspondence while handling your request and any necessary follow-up, then delete what is no longer needed unless the law or a dispute requires us to keep it. We never use support emails for marketing.</p><h2>3. External links</h2><p>When you follow a link to the App Store, an original policy page or another service, that service handles data under its own policies. We never attach personal records from an app to download links.</p><h2>4. Access, correction and deletion</h2><p>To access, correct or delete personal information you sent us by email, write to <a href="${mailto('FireSparkle.Studio | Privacy request')}">${email}</a>. If anything must be kept by law, we will explain why. Backup deletion schedules are managed by the email provider.</p><h2>5. Updates</h2><p>If the site’s features or services change, we will update this page and its date.</p>`;
+await save('website-privacy/index.html', page({ path: '/website-privacy/', title: '網站隱私說明｜花火工作室 FireSparkle.Studio', description: '花火工作室官網的連線資料、語言偏好、電子郵件聯絡及外部連結說明。', content: `<div class="wrap reading-wrap">${breadcrumb(L('網站隱私說明', 'Website privacy'))}<header class="page-heading"><p class="eyebrow">Website Privacy</p><h1>${L('網站隱私說明', 'Website privacy notice')}</h1><p class="lead">${L(`更新日期：${site.updatedZh}`, `Last updated ${site.updatedEn}`)}</p></header><article class="policy-body zh">${wpZh}</article><article class="policy-body en" lang="en">${wpEn}</article></div>` }));
+
+await save('404.html', page({ path: '/404.html', title: '找不到頁面｜花火工作室 FireSparkle.Studio', description: '回到花火工作室，繼續探索 App。', content: `<section class="wrap page-heading not-found"><img class="not-found-mark" src="/assets/brand/firesparkle-mark-720.webp" alt="" width="180" height="173"><p class="eyebrow">404 · Page not found</p><h1>${L('這朵火花，<br>不在這裡。', 'This spark<br>isn’t here.')}</h1><p class="lead">${L('連結可能已經變更，從作品列表重新出發吧。', 'The link may have changed. Start again from the app collection.')}</p><a class="button" href="/#apps">${L('看看所有 App', 'See all apps')} ${arrow()}</a></section>` }));
+
+const urls = ['/', '/privacy/', '/support/', '/website-privacy/', ...apps.flatMap((a) => [appURL(a), policyURL(a)])];
+await save('sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map((u) => `  <url><loc>${siteURL}${u}</loc></url>`).join('\n')}\n</urlset>\n`);
+await save('robots.txt', `User-agent: *\nAllow: /\nSitemap: ${siteURL}/sitemap.xml\n`);
+console.log(`Built FireSparkle.Studio website: ${apps.length} apps, ${apps.length} privacy pages, 5 shared pages${base ? ` (base ${base})` : ''}.`);

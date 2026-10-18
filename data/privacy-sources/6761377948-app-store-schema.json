@@ -1,0 +1,79 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@id": "https://apps.apple.com/#organization",
+    "@type": "Organization",
+    "name": "App Store",
+    "url": "https://apps.apple.com",
+    "logo": "https://apps.apple.com/assets/app-store.png",
+    "sameAs": [
+      "https://www.wikidata.org/wiki/Q368215",
+      "https://twitter.com/AppStore",
+      "https://www.instagram.com/appstore/",
+      "https://www.facebook.com/appstore/"
+    ],
+    "parentOrganization": {
+      "@type": "Organization",
+      "name": "Apple",
+      "@id": "https://www.apple.com/#organization",
+      "url": "https://www.apple.com/"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "賴瑞的調酒研究室",
+    "description": "《賴瑞的調酒研究室》是一款以劇情閱讀與選項互動為核心的戀愛向文字遊戲。\n\n在溫暖迷人的酒吧空間裡，你將一步步認識賴瑞，透過對話、選擇與劇情分支，推進只屬於你的故事路線。每一次回應，都可能影響角色關係與後續發展，讓每一次遊玩都帶來不同心動體驗。\n\n遊戲特色：\n\n沉浸式戀愛劇情，體驗細膩角色互動\n多條故事路線與分支選擇\n可自由存檔、讀檔，方便回收不同結局\n支援最多 40 格本機存檔\n適合喜歡乙女遊戲、視覺小說與劇情向作品的玩家\n如果你喜歡角色陪伴感、曖昧拉扯與慢慢升溫的劇情節奏，《賴瑞的調酒研究室》會是一段值得細細品味的故事旅程。",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d0/a9/82/d0a982ad-d01e-6a70-4a9c-72a4b1faea2f/AppIcon-0-0-1x_U007epad-0-1-85-220.png/1200x630wa.png",
+    "availableOnDevice": "iPhone, iPad",
+    "operatingSystem": "系統需求：iOS 16.0 或以上版本。相容裝置：iPhone、iPad、iPod touch。",
+    "offers": {
+      "@type": "Offer",
+      "price": 0,
+      "priceCurrency": "TWD"
+    },
+    "applicationCategory": "GameApplication",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": 5,
+      "reviewCount": 2,
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "keywords": [
+      "遊戲"
+    ],
+    "genre": [
+      "遊戲"
+    ],
+    "author": {
+      "@type": "Organization",
+      "name": "Yung Wen Cheng",
+      "url": "https://apps.apple.com/tw/developer/yung-wen-cheng/id1851202446"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "排行榜",
+        "item": "https://apps.apple.com/tw/iphone/charts"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "遊戲",
+        "item": "https://apps.apple.com/tw/iphone/charts/6014"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "賴瑞的調酒研究室",
+        "item": "https://apps.apple.com/tw/app/%E8%B3%B4%E7%91%9E%E7%9A%84%E8%AA%BF%E9%85%92%E7%A0%94%E7%A9%B6%E5%AE%A4/id6761377948"
+      }
+    ]
+  }
+]

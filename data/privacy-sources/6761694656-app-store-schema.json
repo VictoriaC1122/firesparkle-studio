@@ -1,0 +1,79 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@id": "https://apps.apple.com/#organization",
+    "@type": "Organization",
+    "name": "App Store",
+    "url": "https://apps.apple.com",
+    "logo": "https://apps.apple.com/assets/app-store.png",
+    "sameAs": [
+      "https://www.wikidata.org/wiki/Q368215",
+      "https://twitter.com/AppStore",
+      "https://www.instagram.com/appstore/",
+      "https://www.facebook.com/appstore/"
+    ],
+    "parentOrganization": {
+      "@type": "Organization",
+      "name": "Apple",
+      "@id": "https://www.apple.com/#organization",
+      "url": "https://www.apple.com/"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "公關日記",
+    "description": "公關日記是一款以本機保存為主的多角色日記與工作整理 app，用於記錄每天的工作、互動、收入與待辦。\n\n繁中版本提供台灣在地產業指南，整理常見店型、用語、消費觀念與安全提醒；四種身份各有對應的日記欄位。\n\n客人日記適合記錄：\n• 酒店產業筆記\n• 遇到的小姐／男模\n• 當日花費與互動心得\n\n小姐 / 男模日記適合記錄：\n• 目標設定\n• 今日收入、支出與存錢進度\n• 上岸日期與目前進度\n\n經紀筆記適合記錄：\n• 排班與包廂安排\n• 客人追蹤與業績整理\n• 後續追蹤事項\n\n目前支援：\n• 首頁提供四種身份與常用工具入口\n• 台灣在地產業指南，整理常見店型、用語、消費觀念與安全提醒\n• 多篇日記保存\n• 日記列表查看\n• 搜尋與日期篩選\n• 月曆查看哪天有寫日記\n• 簡單記帳摘要\n• 詳情頁回看\n• 編輯與刪除既有日記\n• 快速記錄：使用少量欄位保存工作重點，並可建立完整日記\n• 提醒中心：集中查看待回訪、待補日記與排班狀態\n• 桌面小工具：依身份一鍵進入對應的記錄頁\n• 可選擇的 Face ID、Touch ID 或裝置密碼保護\n• 使用者自行設定密碼的加密備份與安全匯入\n• 可選的公關日記 Pro：財務統計、回訪管理、每週摘要、行動計畫、進階報表、自訂區間、CSV／PDF 摘要匯出、快速記錄範本與優先提醒\n\n你的日記與名單資料預設只保存在裝置本機；app 不要求帳號，也不會把日記內容傳送到開發者伺服器。提醒、備份與解鎖保護都由你自行開啟與管理。\n\n公關日記在整個 App 中支援繁體中文、簡體中文、英文與日文，並會依照裝置的偏好語言顯示。\n\n本 app 是私人筆記與整理工具，不提供預約、交易、付款、媒合、招攬或使用者間訊息服務。\n\n公關日記 Pro 提供月方案或年方案的自動續訂訂閱，兩種方案解鎖相同的 Pro 功能。確認購買後，款項會由 Apple 帳號扣款；你可在 App Store 帳號設定中管理或取消訂閱，取消會於目前付費期間結束後生效。未訂閱 Pro 仍可使用核心日記功能與本機紀錄。\n\n使用條款（Apple 標準 EULA）：\nhttps://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/47/f5/09/47f509c3-589f-6d9b-e5e6-568637ce590a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1200x630wa.png",
+    "availableOnDevice": "iPhone, iPad",
+    "operatingSystem": "系統需求：iOS 18.5 或以上版本。相容裝置：iPhone、iPad、iPod touch。",
+    "offers": {
+      "@type": "Offer",
+      "price": 0,
+      "priceCurrency": "TWD"
+    },
+    "applicationCategory": "LifestyleApplication",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": 5,
+      "reviewCount": 1,
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "keywords": [
+      "生活風格"
+    ],
+    "genre": [
+      "生活風格"
+    ],
+    "author": {
+      "@type": "Organization",
+      "name": "Yung Wen Cheng",
+      "url": "https://apps.apple.com/tw/developer/yung-wen-cheng/id1851202446"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "排行榜",
+        "item": "https://apps.apple.com/tw/iphone/charts"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "生活風格",
+        "item": "https://apps.apple.com/tw/iphone/charts/6012"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "公關日記",
+        "item": "https://apps.apple.com/tw/app/%E5%85%AC%E9%97%9C%E6%97%A5%E8%A8%98/id6761694656"
+      }
+    ]
+  }
+]

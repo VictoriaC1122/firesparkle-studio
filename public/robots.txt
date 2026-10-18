@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://firesparkle.com/sitemap.xml

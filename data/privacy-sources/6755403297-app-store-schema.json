@@ -1,0 +1,81 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@id": "https://apps.apple.com/#organization",
+    "@type": "Organization",
+    "name": "App Store",
+    "url": "https://apps.apple.com",
+    "logo": "https://apps.apple.com/assets/app-store.png",
+    "sameAs": [
+      "https://www.wikidata.org/wiki/Q368215",
+      "https://twitter.com/AppStore",
+      "https://www.instagram.com/appstore/",
+      "https://www.facebook.com/appstore/"
+    ],
+    "parentOrganization": {
+      "@type": "Organization",
+      "name": "Apple",
+      "@id": "https://www.apple.com/#organization",
+      "url": "https://www.apple.com/"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "輕鬆抽獎",
+    "description": "《輕鬆抽獎程式》是一款極度簡潔、直覺、零廣告的抽籤工具。 無論是活動抽獎、聚會遊戲、課堂分組、名單點選，都能一鍵完成！ \n只要貼上參加者名單，App 會自動為你整理並清除重複，讓抽獎流程快速又優雅。 \n設計以溫柔的莫蘭迪色系為主視覺，乾淨、柔和、不刺眼，讓你專注在真正重要的事情——誰會是這一輪的幸運得主！",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8b/4f/b9/8b4fb987-3f83-b175-1bbc-1539bfab8cf8/AppIcon-0-0-1x_U007epad-0-1-85-220.png/1200x630wa.png",
+    "availableOnDevice": "iPhone, iPad",
+    "operatingSystem": "系統需求：iOS 18.5 或以上版本。相容裝置：iPhone、iPad、iPod touch。",
+    "offers": {
+      "@type": "Offer",
+      "price": 0,
+      "priceCurrency": "TWD"
+    },
+    "applicationCategory": "UtilitiesApplication",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": 5,
+      "reviewCount": 4,
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "keywords": [
+      "工具程式",
+      "生產力工具"
+    ],
+    "genre": [
+      "工具程式",
+      "生產力工具"
+    ],
+    "author": {
+      "@type": "Organization",
+      "name": "Yung Wen Cheng",
+      "url": "https://apps.apple.com/tw/developer/yung-wen-cheng/id1851202446"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "排行榜",
+        "item": "https://apps.apple.com/tw/iphone/charts"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "工具程式",
+        "item": "https://apps.apple.com/tw/iphone/charts/6002"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "輕鬆抽獎",
+        "item": "https://apps.apple.com/tw/app/%E8%BC%95%E9%AC%86%E6%8A%BD%E7%8D%8E/id6755403297"
+      }
+    ]
+  }
+]

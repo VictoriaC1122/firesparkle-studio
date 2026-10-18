@@ -1,0 +1,79 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@id": "https://apps.apple.com/#organization",
+    "@type": "Organization",
+    "name": "App Store",
+    "url": "https://apps.apple.com",
+    "logo": "https://apps.apple.com/assets/app-store.png",
+    "sameAs": [
+      "https://www.wikidata.org/wiki/Q368215",
+      "https://twitter.com/AppStore",
+      "https://www.instagram.com/appstore/",
+      "https://www.facebook.com/appstore/"
+    ],
+    "parentOrganization": {
+      "@type": "Organization",
+      "name": "Apple",
+      "@id": "https://www.apple.com/#organization",
+      "url": "https://www.apple.com/"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "把夢遺留下來",
+    "description": "醒來後，夢通常只會停留幾分鐘。把夢遺留下來，先記住一個畫面、一句話或當時的感受，不必一開始就把故事整理完整。\n\n免費留下每一個片段\n• 文字與選用語音輸入、草稿自動保存\n• 情緒、清晰度、標籤與收藏\n• 裝置內規則式解讀、引導思考的問題與研究來源\n• 搜尋、編輯、刪除、夢境月曆與基本趨勢回顧\n• 每日本機提醒，不需註冊帳號\n\n選用 Pro：我的夢境圖譜\n• 從目前保存的夢境累積主題、情緒與來源記錄，讓最新的夢連回曾出現的線索\n• 在個人夢境字典寫下自己的意思，搜尋、修改或刪除；文字由你提供，並非 App 推測的事實\n• 選擇有記錄的月份回顧主題與情緒，另可比較最近 30 天與前 30 天的記錄數\n• 完成以 Mini-IPIP 為基礎的 20 題自陳問卷，查看五軸特質雷達；每軸是 1–5 分的題目平均，不是人口百分位或人格類型\n• 全部作答並確認後，預覽與分享特質圖卡；不包含夢境文字、情緒記錄或字典內容\n• 訂閱前可查看清楚標示的範例\n\n保留自己的理解\n報告依保存的標籤與記錄在裝置上整理，不使用雲端 AI。記錄數不等於睡眠品質，也不能證明心理狀態或夢的成因。問卷供自我回顧使用；非英語題目是 App 自行翻譯，尚未經獨立驗證。解讀與特質問卷不提供醫療或心理診斷。\n\n隱私與控制\n夢境、草稿、問卷答案與個人字典保存在裝置上。無廣告、無第三方分析追蹤。語音輸入只在你主動使用時啟動；視裝置與語言支援，音訊可能由 Apple 語音辨識服務處理。刪除夢境會更新衍生的回顧，自己寫的字典內容則保留至你另行刪除。訂閱結束後仍可使用免費功能、讀取與刪除字典內容，以及清除問卷答案。\n\nPro 訂閱\n月訂與年訂提供相同 Pro 功能，實際價格與期間顯示於購買畫面。付款由 Apple 帳號處理，除非在當期結束至少 24 小時前取消，否則自動續訂。可在 Apple 訂閱設定管理或取消，並在 App 還原購買。未提供免費試用。\n\n支援 iPhone、iPad，以及繁體中文、簡體中文、英文、日文、德文、西班牙文與韓文。\n\n隱私權政策：https://victoriac1122.github.io/dream-journal-support-site/privacy.html\n使用條款（Apple 標準 EULA）：https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5d/47/0c/5d470cf5-e872-3549-b089-e10f7261121e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/1200x630wa.png",
+    "availableOnDevice": "iPhone, iPad",
+    "operatingSystem": "系統需求：iOS 18.5 或以上版本。相容裝置：iPhone、iPad、iPod touch。",
+    "offers": {
+      "@type": "Offer",
+      "price": 0,
+      "priceCurrency": "TWD"
+    },
+    "applicationCategory": "LifestyleApplication",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": 5,
+      "reviewCount": 1,
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "keywords": [
+      "生活風格"
+    ],
+    "genre": [
+      "生活風格"
+    ],
+    "author": {
+      "@type": "Organization",
+      "name": "Yung Wen Cheng",
+      "url": "https://apps.apple.com/tw/developer/yung-wen-cheng/id1851202446"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "排行榜",
+        "item": "https://apps.apple.com/tw/iphone/charts"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "生活風格",
+        "item": "https://apps.apple.com/tw/iphone/charts/6012"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "把夢遺留下來",
+        "item": "https://apps.apple.com/tw/app/%E6%8A%8A%E5%A4%A2%E9%81%BA%E7%95%99%E4%B8%8B%E4%BE%86/id6761692228"
+      }
+    ]
+  }
+]

@@ -1,0 +1,2056 @@
+{
+  "collectedAtUTC": "2026-10-11T20:04:20.679889+00:00",
+  "developerURL": "https://apps.apple.com/hk/developer/yung-wen-cheng/id1851202446",
+  "sourceStorefront": "tw",
+  "purpose": "Archive current public app policy/support sources; not a new or verified privacy policy.",
+  "apps": {
+    "6756014104": {
+      "appId": "6756014104",
+      "appName": "複利計算器-財務自由實現工具",
+      "appStoreURL": "https://apps.apple.com/tw/app/id6756014104",
+      "privacyURL": "https://victoriac1122.github.io/compound-calculator-support-site/index.html",
+      "supportURL": "https://victoriac1122.github.io/compound-calculator-support-site/contact.html",
+      "marketingURL": null,
+      "contactEmail": "victoriacheeng1122@gmail.com",
+      "source": {
+        "url": "https://apps.apple.com/tw/app/id6756014104",
+        "finalURL": "https://apps.apple.com/tw/app/%E8%A4%87%E5%88%A9%E8%A8%88%E7%AE%97%E5%99%A8-%E8%B2%A1%E5%8B%99%E8%87%AA%E7%94%B1%E5%AF%A6%E7%8F%BE%E5%B7%A5%E5%85%B7/id6756014104",
+        "httpStatus": 200,
+        "status": "readable",
+        "file": "6756014104-app-store.html",
+        "sha256": "7e98e67e93b73a4dffef9b61d7c853d594db82ea285ebe995a8a2bb2f03ff3e7"
+      },
+      "links": [
+        {
+          "url": "https://victoriac1122.github.io/compound-calculator-support-site/index.html",
+          "label": "開發者的隱私權政策",
+          "text": "開發者的隱私權政策  "
+        },
+        {
+          "url": "https://victoriac1122.github.io/compound-calculator-support-site/index.html",
+          "label": "",
+          "text": "隱私權政策 "
+        }
+      ],
+      "documents": [
+        {
+          "url": "https://victoriac1122.github.io/compound-calculator-support-site/index.html",
+          "finalURL": "https://victoriac1122.github.io/compound-calculator-support-site/index.html",
+          "httpStatus": 200,
+          "status": "readable",
+          "file": "6756014104-policy.html",
+          "sha256": "c9fbd7e9c27491b8887878b751f488239db181c5b1a29f1e512b615d98a32b0a",
+          "role": "privacy",
+          "links": [
+            {
+              "url": "https://victoriac1122.github.io/compound-calculator-support-site/index.html",
+              "label": "",
+              "text": "\n          \n          複利計算器-財務自由實現工具\n        "
+            },
+            {
+              "url": "https://victoriac1122.github.io/compound-calculator-support-site/privacy.html",
+              "label": "",
+              "text": "隱私權政策"
+            },
+            {
+              "url": "https://victoriac1122.github.io/compound-calculator-support-site/copyright.html",
+              "label": "",
+              "text": "版權聲明"
+            },
+            {
+              "url": "https://victoriac1122.github.io/compound-calculator-support-site/terms.html",
+              "label": "",
+              "text": "使用條款"
+            },
+            {
+              "url": "https://victoriac1122.github.io/compound-calculator-support-site/contact.html",
+              "label": "",
+              "text": "聯絡作者"
+            },
+            {
+              "url": "https://victoriac1122.github.io/compound-calculator-support-site/privacy.html",
+              "label": "",
+              "text": "查看隱私權政策"
+            },
+            {
+              "url": "https://victoriac1122.github.io/compound-calculator-support-site/terms.html",
+              "label": "",
+              "text": "查看使用條款"
+            },
+            {
+              "url": "https://victoriac1122.github.io/compound-calculator-support-site/privacy.html",
+              "label": "",
+              "text": "\n            隱私權政策\n            了解 App 如何處理你的資料與裝置上的設定。\n          "
+            },
+            {
+              "url": "https://victoriac1122.github.io/compound-calculator-support-site/copyright.html",
+              "label": "",
+              "text": "\n            版權聲明\n            查看內容使用方式、版權歸屬與授權說明。\n          "
+            },
+            {
+              "url": "https://victoriac1122.github.io/compound-calculator-support-site/terms.html",
+              "label": "",
+              "text": "\n            使用條款\n            快速了解服務範圍、責任界線，以及專業版訂閱的基本條款。\n          "
+            },
+            {
+              "url": "https://victoriac1122.github.io/compound-calculator-support-site/contact.html",
+              "label": "",
+              "text": "\n            聯絡作者\n            需要支援、回報問題或詢問產品內容時，可直接透過 email 聯繫。\n          "
+            }
+          ],
+          "emails": [],
+          "textFile": "6756014104-policy.txt",
+          "textLength": 849
+        },
+        {
+          "url": "https://victoriac1122.github.io/compound-calculator-support-site/privacy.html",
+          "finalURL": "https://victoriac1122.github.io/compound-calculator-support-site/privacy.html",
+          "httpStatus": 200,
+          "status": "readable",
+          "file": "6756014104-privacy_body.html",
+          "sha256": "16a1f816a2730e5bc4b885a1a4c7ec89726c416dcf3e778315020f88376c3843",
+          "role": "privacy_body",
+          "links": [
+            {
+              "url": "https://victoriac1122.github.io/compound-calculator-support-site/index.html",
+              "label": "",
+              "text": "\n          \n          複利計算器-財務自由實現工具\n        "
+            },
+            {
+              "url": "https://victoriac1122.github.io/compound-calculator-support-site/privacy.html",
+              "label": "",
+              "text": "隱私權政策"
+            },
+            {
+              "url": "https://victoriac1122.github.io/compound-calculator-support-site/copyright.html",
+              "label": "",
+              "text": "版權聲明"
+            },
+            {
+              "url": "https://victoriac1122.github.io/compound-calculator-support-site/terms.html",
+              "label": "",
+              "text": "使用條款"
+            },
+            {
+              "url": "https://victoriac1122.github.io/compound-calculator-support-site/contact.html",
+              "label": "",
+              "text": "聯絡作者"
+            },
+            {
+              "url": "https://victoriac1122.github.io/compound-calculator-support-site/index.html",
+              "label": "",
+              "text": "回首頁"
+            },
+            {
+              "url": "https://victoriac1122.github.io/compound-calculator-support-site/terms.html",
+              "label": "",
+              "text": "前往使用條款"
+            },
+            {
+              "url": "https://victoriac1122.github.io/compound-calculator-support-site/contact.html",
+              "label": "",
+              "text": "聯絡作者"
+            },
+            {
+              "url": "mailto:victoriacheeng1122@gmail.com",
+              "label": "",
+              "text": "victoriacheeng1122@gmail.com"
+            }
+          ],
+          "emails": [
+            "victoriacheeng1122@gmail.com"
+          ],
+          "textFile": "6756014104-privacy_body.txt",
+          "textLength": 1258
+        },
+        {
+          "url": "https://victoriac1122.github.io/compound-calculator-support-site/contact.html",
+          "finalURL": "https://victoriac1122.github.io/compound-calculator-support-site/contact.html",
+          "httpStatus": 200,
+          "status": "readable",
+          "file": "6756014104-support.html",
+          "sha256": "1dd4bb77c4d5c99807090e433daecd36962682f3b75a481ca8dabe92d674f066",
+          "role": "support",
+          "links": [
+            {
+              "url": "https://victoriac1122.github.io/compound-calculator-support-site/index.html",
+              "label": "",
+              "text": "\n          \n          複利計算器-財務自由實現工具\n        "
+            },
+            {
+              "url": "https://victoriac1122.github.io/compound-calculator-support-site/privacy.html",
+              "label": "",
+              "text": "隱私權政策"
+            },
+            {
+              "url": "https://victoriac1122.github.io/compound-calculator-support-site/copyright.html",
+              "label": "",
+              "text": "版權聲明"
+            },
+            {
+              "url": "https://victoriac1122.github.io/compound-calculator-support-site/terms.html",
+              "label": "",
+              "text": "使用條款"
+            },
+            {
+              "url": "https://victoriac1122.github.io/compound-calculator-support-site/contact.html",
+              "label": "",
+              "text": "聯絡作者"
+            },
+            {
+              "url": "mailto:victoriacheeng1122@gmail.com",
+              "label": "",
+              "text": "寄送 email"
+            },
+            {
+              "url": "https://victoriac1122.github.io/compound-calculator-support-site/index.html",
+              "label": "",
+              "text": "回首頁"
+            },
+            {
+              "url": "mailto:victoriacheeng1122@gmail.com",
+              "label": "",
+              "text": "victoriacheeng1122@gmail.com"
+            }
+          ],
+          "emails": [
+            "victoriacheeng1122@gmail.com"
+          ],
+          "textFile": "6756014104-support.txt",
+          "textLength": 655
+        }
+      ],
+      "contactEmails": [
+        "victoriacheeng1122@gmail.com"
+      ],
+      "policyTextFile": "6756014104-policy-body.txt",
+      "policySourceURL": "https://victoriac1122.github.io/compound-calculator-support-site/privacy.html",
+      "policyStatus": "full_text_available",
+      "policyUpdatedText": "最後更新日期：2026 年 4 月 10 日",
+      "policySummary": [
+        "原文說明財務試算、已儲存情境及偏好設定主要在裝置端處理。",
+        "Apple 管理訂閱與付款；使用者可主動透過系統分享試算摘要。"
+      ],
+      "notes": [
+        "App Store 隱私連結目前指向網站首頁；完整政策來自首頁明示的 privacy.html。",
+        "原隱私頁與聯絡頁均拼為 victoriacheeng1122@gmail.com（cheeng 多一個 e），不同於其他 App 的 victoriacheng1122@gmail.com；原文未修改。"
+      ],
+      "policyTextExtraction": "Only navigation/other document sections removed; source policy wording retained. Whitespace normalized.",
+      "policyTextCharacterCount": 1136,
+      "appStoreSupportURL": null,
+      "contactEmailEvidence": [
+        {
+          "url": "https://victoriac1122.github.io/compound-calculator-support-site/privacy.html",
+          "emails": [
+            "victoriacheeng1122@gmail.com"
+          ]
+        },
+        {
+          "url": "https://victoriac1122.github.io/compound-calculator-support-site/contact.html",
+          "emails": [
+            "victoriacheeng1122@gmail.com"
+          ]
+        }
+      ],
+      "supportURLEvidence": "Official linked contact page",
+      "sourceReadability": {
+        "appStore": "readable",
+        "policy": "full_text_available",
+        "support": "available_on_public_source",
+        "contactEmail": "found"
+      }
+    },
+    "6755403297": {
+      "appId": "6755403297",
+      "appName": "輕鬆抽獎",
+      "appStoreURL": "https://apps.apple.com/tw/app/id6755403297",
+      "privacyURL": "https://sites.google.com/view/luckydraw-privacy/%E8%AA%AA%E6%98%8E%E6%96%87%E4%BB%B6?authuser=0",
+      "supportURL": "https://sites.google.com/view/luckydraw-privacy/%E8%AA%AA%E6%98%8E%E6%96%87%E4%BB%B6?authuser=0",
+      "marketingURL": null,
+      "contactEmail": "victoriacheng1122@gmail.com",
+      "source": {
+        "url": "https://apps.apple.com/tw/app/id6755403297",
+        "finalURL": "https://apps.apple.com/tw/app/%E8%BC%95%E9%AC%86%E6%8A%BD%E7%8D%8E/id6755403297",
+        "httpStatus": 200,
+        "status": "readable",
+        "file": "6755403297-app-store.html",
+        "sha256": "e3553b53cc5b5910ba46c98df36cd2ccc446a6408f07875360c079212494c595"
+      },
+      "links": [
+        {
+          "url": "https://sites.google.com/view/luckydraw-privacy/%E8%AA%AA%E6%98%8E%E6%96%87%E4%BB%B6?authuser=0",
+          "label": "開發者的隱私權政策",
+          "text": "開發者的隱私權政策  "
+        },
+        {
+          "url": "https://sites.google.com/view/luckydraw-privacy/%E8%AA%AA%E6%98%8E%E6%96%87%E4%BB%B6?authuser=0",
+          "label": "",
+          "text": "隱私權政策 "
+        }
+      ],
+      "documents": [
+        {
+          "url": "https://sites.google.com/view/luckydraw-privacy/%E8%AA%AA%E6%98%8E%E6%96%87%E4%BB%B6?authuser=0",
+          "finalURL": "https://sites.google.com/view/luckydraw-privacy/%E8%AA%AA%E6%98%8E%E6%96%87%E4%BB%B6?authuser=0",
+          "httpStatus": 200,
+          "status": "readable",
+          "file": "6755403297-policy.html",
+          "sha256": "ecba1e1ea360d0eca09a864b8cab9e7a3b40a673d78ad4cc9e6186afc6c644e4",
+          "role": "privacy",
+          "links": [
+            {
+              "url": "https://sites.google.com/view/luckydraw-privacy/首頁",
+              "label": "",
+              "text": "輕鬆抽獎程式＿說明中心"
+            },
+            {
+              "url": "https://sites.google.com/view/luckydraw-privacy/首頁",
+              "label": "",
+              "text": "首頁"
+            },
+            {
+              "url": "https://sites.google.com/view/luckydraw-privacy/說明文件",
+              "label": "",
+              "text": "說明文件"
+            },
+            {
+              "url": "https://sites.google.com/view/luckydraw-privacy/首頁",
+              "label": "",
+              "text": "輕鬆抽獎程式＿說明中心"
+            },
+            {
+              "url": "https://sites.google.com/view/luckydraw-privacy/首頁",
+              "label": "",
+              "text": "首頁"
+            },
+            {
+              "url": "https://sites.google.com/view/luckydraw-privacy/說明文件",
+              "label": "",
+              "text": "說明文件"
+            },
+            {
+              "url": "https://sites.google.com/view/luckydraw-privacy/%E8%AA%AA%E6%98%8E%E6%96%87%E4%BB%B6?authuser=0",
+              "label": "",
+              "text": "More"
+            },
+            {
+              "url": "https://sites.google.com/view/luckydraw-privacy/首頁",
+              "label": "",
+              "text": "首頁"
+            },
+            {
+              "url": "https://sites.google.com/view/luckydraw-privacy/說明文件",
+              "label": "",
+              "text": "說明文件"
+            },
+            {
+              "url": "https://sites.google.com/view/luckydraw-privacy/%E8%AA%AA%E6%98%8E%E6%96%87%E4%BB%B6?authuser=0#h.l2calvehl4v",
+              "label": "Copy heading link",
+              "text": ""
+            },
+            {
+              "url": "https://sites.google.com/view/luckydraw-privacy/%E8%AA%AA%E6%98%8E%E6%96%87%E4%BB%B6?authuser=0#h.bf7cdpcbadn4",
+              "label": "Copy heading link",
+              "text": ""
+            },
+            {
+              "url": "https://sites.google.com/view/luckydraw-privacy/%E8%AA%AA%E6%98%8E%E6%96%87%E4%BB%B6?authuser=0#h.xvyp7r2b7mqj",
+              "label": "Copy heading link",
+              "text": ""
+            },
+            {
+              "url": "https://sites.google.com/view/luckydraw-privacy/%E8%AA%AA%E6%98%8E%E6%96%87%E4%BB%B6?authuser=0#h.1crbjz9jlfg5",
+              "label": "Copy heading link",
+              "text": ""
+            },
+            {
+              "url": "https://sites.google.com/view/luckydraw-privacy/%E8%AA%AA%E6%98%8E%E6%96%87%E4%BB%B6?authuser=0#h.3c7qaxtiuvub",
+              "label": "Copy heading link",
+              "text": ""
+            },
+            {
+              "url": "https://sites.google.com/view/luckydraw-privacy/%E8%AA%AA%E6%98%8E%E6%96%87%E4%BB%B6?authuser=0#h.v96k8krybgkg",
+              "label": "Copy heading link",
+              "text": ""
+            },
+            {
+              "url": "https://sites.google.com/view/luckydraw-privacy/%E8%AA%AA%E6%98%8E%E6%96%87%E4%BB%B6?authuser=0#h.otpnxt50ek9",
+              "label": "Copy heading link",
+              "text": ""
+            },
+            {
+              "url": "https://sites.google.com/view/luckydraw-privacy/%E8%AA%AA%E6%98%8E%E6%96%87%E4%BB%B6?authuser=0#h.scjg7766i9wf",
+              "label": "Copy heading link",
+              "text": ""
+            },
+            {
+              "url": "https://sites.google.com/view/luckydraw-privacy/%E8%AA%AA%E6%98%8E%E6%96%87%E4%BB%B6?authuser=0#h.lfgl9fynl4o4",
+              "label": "Copy heading link",
+              "text": ""
+            }
+          ],
+          "emails": [
+            "victoriacheng1122@gmail.com"
+          ],
+          "textFile": "6755403297-policy.txt",
+          "textLength": 1149
+        }
+      ],
+      "contactEmails": [
+        "victoriacheng1122@gmail.com"
+      ],
+      "policyTextFile": "6755403297-policy-body.txt",
+      "policySourceURL": "https://sites.google.com/view/luckydraw-privacy/%E8%AA%AA%E6%98%8E%E6%96%87%E4%BB%B6?authuser=0",
+      "policyStatus": "full_text_available",
+      "policyUpdatedText": "最後更新日期：2025 年 11 月 18 日",
+      "policySummary": [
+        "原文聲明抽獎名單與參加者名稱在本機處理，不收集、傳輸或分享個人資料。",
+        "原文聲明未整合廣告 SDK、分析工具或第三方追蹤器。"
+      ],
+      "notes": [
+        "原頁同時包含支援 Email 與 FAQ，已保存在原始完整頁；policy-body.txt 僅擷取完整政策區塊。"
+      ],
+      "policyTextExtraction": "Only navigation/other document sections removed; source policy wording retained. Whitespace normalized.",
+      "policyTextCharacterCount": 610,
+      "appStoreSupportURL": null,
+      "contactEmailEvidence": [
+        {
+          "url": "https://sites.google.com/view/luckydraw-privacy/%E8%AA%AA%E6%98%8E%E6%96%87%E4%BB%B6?authuser=0",
+          "emails": [
+            "victoriacheng1122@gmail.com"
+          ]
+        }
+      ],
+      "supportURLEvidence": "Same public page contains support email and FAQ",
+      "sourceReadability": {
+        "appStore": "readable",
+        "policy": "full_text_available",
+        "support": "available_on_public_source",
+        "contactEmail": "found"
+      }
+    },
+    "6815299678": {
+      "appId": "6815299678",
+      "appName": "股神養成：台美股模擬交易",
+      "appStoreURL": "https://apps.apple.com/tw/app/id6815299678",
+      "privacyURL": "https://victoriac1122.github.io/badaogushen-support-site/#privacy",
+      "supportURL": "https://victoriac1122.github.io/badaogushen-support-site/#support",
+      "marketingURL": "https://victoriac1122.github.io/badaogushen-support-site/",
+      "contactEmail": "victoriacheng1122@gmail.com",
+      "source": {
+        "url": "https://apps.apple.com/tw/app/id6815299678",
+        "finalURL": "https://apps.apple.com/tw/app/%E8%82%A1%E7%A5%9E%E9%A4%8A%E6%88%90-%E5%8F%B0%E7%BE%8E%E8%82%A1%E6%A8%A1%E6%93%AC%E4%BA%A4%E6%98%93/id6815299678",
+        "httpStatus": 200,
+        "status": "readable",
+        "file": "6815299678-app-store.html",
+        "sha256": "5dad5ac63a1ee48522a85c725c9bfe4ac7f41fa6d1de89373cfa63926a5c3eb8"
+      },
+      "links": [
+        {
+          "url": "https://victoriac1122.github.io/badaogushen-support-site/#privacy",
+          "label": "開發者的隱私權政策",
+          "text": "開發者的隱私權政策  "
+        },
+        {
+          "url": "https://victoriac1122.github.io/badaogushen-support-site/#privacy",
+          "label": "管理隱私權選擇",
+          "text": "管理隱私權選擇  "
+        },
+        {
+          "url": "https://victoriac1122.github.io/badaogushen-support-site/",
+          "label": "",
+          "text": "開發者網站 "
+        },
+        {
+          "url": "https://victoriac1122.github.io/badaogushen-support-site/#privacy",
+          "label": "",
+          "text": "隱私權政策 "
+        }
+      ],
+      "documents": [
+        {
+          "url": "https://victoriac1122.github.io/badaogushen-support-site/#privacy",
+          "finalURL": "https://victoriac1122.github.io/badaogushen-support-site/#privacy",
+          "httpStatus": 200,
+          "status": "readable",
+          "file": "6815299678-policy.html",
+          "sha256": "5f8aeaab36776824e11ccaaa0f6b0bec78e9b6d61451f0154f9ffe0a4fdcd59f",
+          "role": "privacy",
+          "links": [
+            {
+              "url": "https://victoriac1122.github.io/badaogushen-support-site/#main-content",
+              "label": "",
+              "text": "跳到主要內容"
+            },
+            {
+              "url": "https://victoriac1122.github.io/badaogushen-support-site/#top",
+              "label": "回到頁首",
+              "text": "\n      \n      股神養成\n    "
+            },
+            {
+              "url": "https://victoriac1122.github.io/badaogushen-support-site/#support",
+              "label": "",
+              "text": "聯絡支援"
+            },
+            {
+              "url": "https://victoriac1122.github.io/badaogushen-support-site/#copyright",
+              "label": "",
+              "text": "版權聲明"
+            },
+            {
+              "url": "https://victoriac1122.github.io/badaogushen-support-site/#privacy",
+              "label": "",
+              "text": "隱私權政策"
+            },
+            {
+              "url": "https://victoriac1122.github.io/badaogushen-support-site/en/",
+              "label": "",
+              "text": "English"
+            },
+            {
+              "url": "https://victoriac1122.github.io/badaogushen-support-site/#support",
+              "label": "",
+              "text": "聯絡我們"
+            },
+            {
+              "url": "https://victoriac1122.github.io/badaogushen-support-site/#privacy",
+              "label": "",
+              "text": "閱讀隱私權政策"
+            },
+            {
+              "url": "mailto:victoriacheng1122@gmail.com",
+              "label": "",
+              "text": "\n        聯絡信箱\n        victoriacheng1122@gmail.com\n      "
+            },
+            {
+              "url": "mailto:victoriacheng1122@gmail.com?subject=Stock%20Mastery%20-%20App%20Support",
+              "label": "",
+              "text": "問題回報與功能建議"
+            },
+            {
+              "url": "mailto:victoriacheng1122@gmail.com?subject=Stock%20Mastery%20-%20Privacy%20Request",
+              "label": "",
+              "text": "隱私與資料申請"
+            },
+            {
+              "url": "mailto:victoriacheng1122@gmail.com?subject=Stock%20Mastery%20-%20Copyright%20Inquiry",
+              "label": "",
+              "text": "版權疑慮與授權洽詢"
+            },
+            {
+              "url": "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+              "label": "",
+              "text": "Apple 標準 EULA"
+            },
+            {
+              "url": "mailto:victoriacheng1122@gmail.com?subject=Stock%20Mastery%20-%20Copyright%20Inquiry",
+              "label": "",
+              "text": "victoriacheng1122@gmail.com"
+            },
+            {
+              "url": "https://victoriac1122.github.io/badaogushen-support-site/#collection",
+              "label": "",
+              "text": "資料收集"
+            },
+            {
+              "url": "https://victoriac1122.github.io/badaogushen-support-site/#market-data",
+              "label": "",
+              "text": "行情資料"
+            },
+            {
+              "url": "https://victoriac1122.github.io/badaogushen-support-site/#local-data",
+              "label": "",
+              "text": "本機資料"
+            },
+            {
+              "url": "https://victoriac1122.github.io/badaogushen-support-site/#subscriptions",
+              "label": "",
+              "text": "Pro 訂閱"
+            },
+            {
+              "url": "https://victoriac1122.github.io/badaogushen-support-site/#notifications",
+              "label": "",
+              "text": "通知"
+            },
+            {
+              "url": "https://victoriac1122.github.io/badaogushen-support-site/#sharing",
+              "label": "",
+              "text": "分享與追蹤"
+            },
+            {
+              "url": "https://victoriac1122.github.io/badaogushen-support-site/#support-data",
+              "label": "",
+              "text": "郵件與網站"
+            },
+            {
+              "url": "https://victoriac1122.github.io/badaogushen-support-site/#rights",
+              "label": "",
+              "text": "資料控制"
+            },
+            {
+              "url": "https://victoriac1122.github.io/badaogushen-support-site/#disclaimer",
+              "label": "",
+              "text": "服務聲明"
+            },
+            {
+              "url": "mailto:victoriacheng1122@gmail.com",
+              "label": "",
+              "text": "victoriacheng1122@gmail.com"
+            },
+            {
+              "url": "https://openapi.twse.com.tw/",
+              "label": "",
+              "text": "臺灣證券交易所 OpenAPI"
+            },
+            {
+              "url": "https://www.tpex.org.tw/openapi/",
+              "label": "",
+              "text": "證券櫃檯買賣中心 OpenAPI"
+            },
+            {
+              "url": "https://data.gov.tw/license",
+              "label": "",
+              "text": "政府資料開放授權條款第 1 版"
+            },
+            {
+              "url": "https://www.apple.com/legal/privacy/data/en/app-store/",
+              "label": "",
+              "text": "Apple「App Store 與隱私權」"
+            },
+            {
+              "url": "https://policies.google.com/privacy",
+              "label": "",
+              "text": "Google 隱私權政策（Gmail）"
+            },
+            {
+              "url": "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement",
+              "label": "",
+              "text": "GitHub 隱私權聲明"
+            },
+            {
+              "url": "mailto:victoriacheng1122@gmail.com",
+              "label": "",
+              "text": "victoriacheng1122@gmail.com"
+            },
+            {
+              "url": "https://victoriac1122.github.io/badaogushen-support-site/#support",
+              "label": "",
+              "text": "聯繫"
+            },
+            {
+              "url": "https://victoriac1122.github.io/badaogushen-support-site/#copyright",
+              "label": "",
+              "text": "版權"
+            },
+            {
+              "url": "https://victoriac1122.github.io/badaogushen-support-site/#privacy",
+              "label": "",
+              "text": "隱私"
+            }
+          ],
+          "emails": [
+            "victoriacheng1122@gmail.com"
+          ],
+          "textFile": "6815299678-policy.txt",
+          "textLength": 5623
+        },
+        {
+          "url": "https://victoriac1122.github.io/badaogushen-support-site/",
+          "finalURL": "https://victoriac1122.github.io/badaogushen-support-site/",
+          "httpStatus": 200,
+          "status": "readable",
+          "file": "6815299678-website-1.html",
+          "sha256": "5f8aeaab36776824e11ccaaa0f6b0bec78e9b6d61451f0154f9ffe0a4fdcd59f",
+          "role": "developer_website",
+          "links": [
+            {
+              "url": "https://victoriac1122.github.io/badaogushen-support-site/#main-content",
+              "label": "",
+              "text": "跳到主要內容"
+            },
+            {
+              "url": "https://victoriac1122.github.io/badaogushen-support-site/#top",
+              "label": "回到頁首",
+              "text": "\n      \n      股神養成\n    "
+            },
+            {
+              "url": "https://victoriac1122.github.io/badaogushen-support-site/#support",
+              "label": "",
+              "text": "聯絡支援"
+            },
+            {
+              "url": "https://victoriac1122.github.io/badaogushen-support-site/#copyright",
+              "label": "",
+              "text": "版權聲明"
+            },
+            {
+              "url": "https://victoriac1122.github.io/badaogushen-support-site/#privacy",
+              "label": "",
+              "text": "隱私權政策"
+            },
+            {
+              "url": "https://victoriac1122.github.io/badaogushen-support-site/en/",
+              "label": "",
+              "text": "English"
+            },
+            {
+              "url": "https://victoriac1122.github.io/badaogushen-support-site/#support",
+              "label": "",
+              "text": "聯絡我們"
+            },
+            {
+              "url": "https://victoriac1122.github.io/badaogushen-support-site/#privacy",
+              "label": "",
+              "text": "閱讀隱私權政策"
+            },
+            {
+              "url": "mailto:victoriacheng1122@gmail.com",
+              "label": "",
+              "text": "\n        聯絡信箱\n        victoriacheng1122@gmail.com\n      "
+            },
+            {
+              "url": "mailto:victoriacheng1122@gmail.com?subject=Stock%20Mastery%20-%20App%20Support",
+              "label": "",
+              "text": "問題回報與功能建議"
+            },
+            {
+              "url": "mailto:victoriacheng1122@gmail.com?subject=Stock%20Mastery%20-%20Privacy%20Request",
+              "label": "",
+              "text": "隱私與資料申請"
+            },
+            {
+              "url": "mailto:victoriacheng1122@gmail.com?subject=Stock%20Mastery%20-%20Copyright%20Inquiry",
+              "label": "",
+              "text": "版權疑慮與授權洽詢"
+            },
+            {
+              "url": "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+              "label": "",
+              "text": "Apple 標準 EULA"
+            },
+            {
+              "url": "mailto:victoriacheng1122@gmail.com?subject=Stock%20Mastery%20-%20Copyright%20Inquiry",
+              "label": "",
+              "text": "victoriacheng1122@gmail.com"
+            },
+            {
+              "url": "https://victoriac1122.github.io/badaogushen-support-site/#collection",
+              "label": "",
+              "text": "資料收集"
+            },
+            {
+              "url": "https://victoriac1122.github.io/badaogushen-support-site/#market-data",
+              "label": "",
+              "text": "行情資料"
+            },
+            {
+              "url": "https://victoriac1122.github.io/badaogushen-support-site/#local-data",
+              "label": "",
+              "text": "本機資料"
+            },
+            {
+              "url": "https://victoriac1122.github.io/badaogushen-support-site/#subscriptions",
+              "label": "",
+              "text": "Pro 訂閱"
+            },
+            {
+              "url": "https://victoriac1122.github.io/badaogushen-support-site/#notifications",
+              "label": "",
+              "text": "通知"
+            },
+            {
+              "url": "https://victoriac1122.github.io/badaogushen-support-site/#sharing",
+              "label": "",
+              "text": "分享與追蹤"
+            },
+            {
+              "url": "https://victoriac1122.github.io/badaogushen-support-site/#support-data",
+              "label": "",
+              "text": "郵件與網站"
+            },
+            {
+              "url": "https://victoriac1122.github.io/badaogushen-support-site/#rights",
+              "label": "",
+              "text": "資料控制"
+            },
+            {
+              "url": "https://victoriac1122.github.io/badaogushen-support-site/#disclaimer",
+              "label": "",
+              "text": "服務聲明"
+            },
+            {
+              "url": "mailto:victoriacheng1122@gmail.com",
+              "label": "",
+              "text": "victoriacheng1122@gmail.com"
+            },
+            {
+              "url": "https://openapi.twse.com.tw/",
+              "label": "",
+              "text": "臺灣證券交易所 OpenAPI"
+            },
+            {
+              "url": "https://www.tpex.org.tw/openapi/",
+              "label": "",
+              "text": "證券櫃檯買賣中心 OpenAPI"
+            },
+            {
+              "url": "https://data.gov.tw/license",
+              "label": "",
+              "text": "政府資料開放授權條款第 1 版"
+            },
+            {
+              "url": "https://www.apple.com/legal/privacy/data/en/app-store/",
+              "label": "",
+              "text": "Apple「App Store 與隱私權」"
+            },
+            {
+              "url": "https://policies.google.com/privacy",
+              "label": "",
+              "text": "Google 隱私權政策（Gmail）"
+            },
+            {
+              "url": "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement",
+              "label": "",
+              "text": "GitHub 隱私權聲明"
+            },
+            {
+              "url": "mailto:victoriacheng1122@gmail.com",
+              "label": "",
+              "text": "victoriacheng1122@gmail.com"
+            },
+            {
+              "url": "https://victoriac1122.github.io/badaogushen-support-site/#support",
+              "label": "",
+              "text": "聯繫"
+            },
+            {
+              "url": "https://victoriac1122.github.io/badaogushen-support-site/#copyright",
+              "label": "",
+              "text": "版權"
+            },
+            {
+              "url": "https://victoriac1122.github.io/badaogushen-support-site/#privacy",
+              "label": "",
+              "text": "隱私"
+            }
+          ],
+          "emails": [
+            "victoriacheng1122@gmail.com"
+          ],
+          "textFile": "6815299678-website-1.txt",
+          "textLength": 5623
+        }
+      ],
+      "contactEmails": [
+        "victoriacheng1122@gmail.com"
+      ],
+      "policyTextFile": "6815299678-policy-body.txt",
+      "policySourceURL": "https://victoriac1122.github.io/badaogushen-support-site/#privacy",
+      "policyStatus": "full_text_available",
+      "policyUpdatedText": "生效與最後更新：2026 年 10 月 11 日",
+      "policySummary": [
+        "原文列出裝置內的模擬交易、偏好與教學紀錄，以及證交所／櫃買中心公開行情請求。",
+        "原文揭露 Apple StoreKit 訂閱、選用本機通知、主動分享，以及 Gmail 支援郵件與 GitHub Pages 網站資料處理。"
+      ],
+      "notes": [
+        "政策含原支援網站的 GitHub Pages 與 Gmail 處理描述；移至新網站時不能未經確認就宣稱新主機相同。"
+      ],
+      "policyTextExtraction": "Only navigation/other document sections removed; source policy wording retained. Whitespace normalized.",
+      "policyTextCharacterCount": 2662,
+      "appStoreSupportURL": null,
+      "contactEmailEvidence": [
+        {
+          "url": "https://victoriac1122.github.io/badaogushen-support-site/#privacy",
+          "emails": [
+            "victoriacheng1122@gmail.com"
+          ]
+        },
+        {
+          "url": "https://victoriac1122.github.io/badaogushen-support-site/",
+          "emails": [
+            "victoriacheng1122@gmail.com"
+          ]
+        }
+      ],
+      "supportURLEvidence": "Official page support navigation link",
+      "sourceReadability": {
+        "appStore": "readable",
+        "policy": "full_text_available",
+        "support": "available_on_public_source",
+        "contactEmail": "found"
+      }
+    },
+    "6761441866": {
+      "appId": "6761441866",
+      "appName": "你今天維他命了嗎",
+      "appStoreURL": "https://apps.apple.com/tw/app/id6761441866",
+      "privacyURL": "https://victoriac1122.github.io/vitamin-today-privacy-site/",
+      "supportURL": "https://victoriac1122.github.io/vitamin-today-privacy-site/support.html",
+      "marketingURL": null,
+      "contactEmail": "victoriacheng1122@gmail.com",
+      "source": {
+        "url": "https://apps.apple.com/tw/app/id6761441866",
+        "finalURL": "https://apps.apple.com/tw/app/%E4%BD%A0%E4%BB%8A%E5%A4%A9%E7%B6%AD%E4%BB%96%E5%91%BD%E4%BA%86%E5%97%8E/id6761441866",
+        "httpStatus": 200,
+        "status": "readable",
+        "file": "6761441866-app-store.html",
+        "sha256": "1624faa2f95041dc9b97f61e1412ceef2af5352e12465c5c3e8043a51cd2624e"
+      },
+      "links": [
+        {
+          "url": "https://victoriac1122.github.io/vitamin-today-privacy-site/",
+          "label": "開發者的隱私權政策",
+          "text": "開發者的隱私權政策  "
+        },
+        {
+          "url": "https://victoriac1122.github.io/vitamin-today-privacy-site/",
+          "label": "",
+          "text": "隱私權政策 "
+        }
+      ],
+      "documents": [
+        {
+          "url": "https://victoriac1122.github.io/vitamin-today-privacy-site/",
+          "finalURL": "https://victoriac1122.github.io/vitamin-today-privacy-site/",
+          "httpStatus": 200,
+          "status": "readable",
+          "file": "6761441866-policy.html",
+          "sha256": "f5c6fff650896d24578ca92131d1c73adc79abaefde529a548f6db5678a76f8f",
+          "role": "privacy",
+          "links": [
+            {
+              "url": "mailto:victoriacheng1122@gmail.com",
+              "label": "",
+              "text": "victoriacheng1122@gmail.com"
+            },
+            {
+              "url": "https://victoriac1122.github.io/vitamin-today-privacy-site/support.html",
+              "label": "",
+              "text": "支援頁面"
+            },
+            {
+              "url": "https://victoriac1122.github.io/vitamin-today-privacy-site/copyright.html",
+              "label": "",
+              "text": "版權與使用條款"
+            }
+          ],
+          "emails": [
+            "victoriacheng1122@gmail.com"
+          ],
+          "textFile": "6761441866-policy.txt",
+          "textLength": 1441
+        },
+        {
+          "url": "https://victoriac1122.github.io/vitamin-today-privacy-site/support.html",
+          "finalURL": "https://victoriac1122.github.io/vitamin-today-privacy-site/support.html",
+          "httpStatus": 200,
+          "status": "readable",
+          "file": "6761441866-support.html",
+          "sha256": "2c789b08feb77d92b6c38504900d2ce7fc2b665ca71bfc081c96b91f86554671",
+          "role": "support",
+          "links": [
+            {
+              "url": "mailto:victoriacheng1122@gmail.com",
+              "label": "",
+              "text": "victoriacheng1122@gmail.com"
+            },
+            {
+              "url": "https://victoriac1122.github.io/vitamin-today-privacy-site/index.html",
+              "label": "",
+              "text": "隱私權政策"
+            },
+            {
+              "url": "https://victoriac1122.github.io/vitamin-today-privacy-site/copyright.html",
+              "label": "",
+              "text": "版權與使用條款"
+            }
+          ],
+          "emails": [
+            "victoriacheng1122@gmail.com"
+          ],
+          "textFile": "6761441866-support.txt",
+          "textLength": 406
+        }
+      ],
+      "contactEmails": [
+        "victoriacheng1122@gmail.com"
+      ],
+      "policyTextFile": "6761441866-policy-body.txt",
+      "policySourceURL": "https://victoriac1122.github.io/vitamin-today-privacy-site/",
+      "policyStatus": "full_text_available",
+      "policyUpdatedText": "生效日期：2026 年 4 月 1 日",
+      "policySummary": [
+        "原文列出維他命方案、打卡與選填健康資訊的本機保存、JSON 匯出及本機提醒。",
+        "原文說明未使用廣告／分析／登入服務追蹤行為，並提供刪除、備份及聯絡方式。"
+      ],
+      "notes": [],
+      "policyTextExtraction": "Only navigation/other document sections removed; source policy wording retained. Whitespace normalized.",
+      "policyTextCharacterCount": 1411,
+      "appStoreSupportURL": null,
+      "contactEmailEvidence": [
+        {
+          "url": "https://victoriac1122.github.io/vitamin-today-privacy-site/",
+          "emails": [
+            "victoriacheng1122@gmail.com"
+          ]
+        },
+        {
+          "url": "https://victoriac1122.github.io/vitamin-today-privacy-site/support.html",
+          "emails": [
+            "victoriacheng1122@gmail.com"
+          ]
+        }
+      ],
+      "supportURLEvidence": "Official policy links to support page",
+      "sourceReadability": {
+        "appStore": "readable",
+        "policy": "full_text_available",
+        "support": "available_on_public_source",
+        "contactEmail": "found"
+      }
+    },
+    "6761411130": {
+      "appId": "6761411130",
+      "appName": "幣圈神器-加密貨幣&區塊鏈學習字典",
+      "appStoreURL": "https://apps.apple.com/tw/app/id6761411130",
+      "privacyURL": "https://victoriac1122.github.io/crypto-guide-support-site/privacy.html",
+      "supportURL": "https://victoriac1122.github.io/crypto-guide-support-site/index.html#support",
+      "marketingURL": null,
+      "contactEmail": "victoriacheng1122@gmail.com",
+      "source": {
+        "url": "https://apps.apple.com/tw/app/id6761411130",
+        "finalURL": "https://apps.apple.com/tw/app/%E5%B9%A3%E5%9C%88%E7%A5%9E%E5%99%A8-%E5%8A%A0%E5%AF%86%E8%B2%A8%E5%B9%A3-%E5%8D%80%E5%A1%8A%E9%8F%88%E5%AD%B8%E7%BF%92%E5%AD%97%E5%85%B8/id6761411130",
+        "httpStatus": 200,
+        "status": "readable",
+        "file": "6761411130-app-store.html",
+        "sha256": "048af5cc6c1ba0370fc6bcbb0506c012b1fbb3b063abedbc5c9bf162bc6fe889"
+      },
+      "links": [
+        {
+          "url": "https://victoriac1122.github.io/crypto-guide-support-site/privacy.html",
+          "label": "開發者的隱私權政策",
+          "text": "開發者的隱私權政策  "
+        },
+        {
+          "url": "https://victoriac1122.github.io/crypto-guide-support-site/privacy.html",
+          "label": "",
+          "text": "隱私權政策 "
+        }
+      ],
+      "documents": [
+        {
+          "url": "https://victoriac1122.github.io/crypto-guide-support-site/privacy.html",
+          "finalURL": "https://victoriac1122.github.io/crypto-guide-support-site/privacy.html",
+          "httpStatus": 200,
+          "status": "readable",
+          "file": "6761411130-policy.html",
+          "sha256": "5d8e88b1b1a63f10f02ff7b56aeba0809c27d8effba09077022a2762474b496f",
+          "role": "privacy",
+          "links": [
+            {
+              "url": "https://victoriac1122.github.io/crypto-guide-support-site/index.html",
+              "label": "",
+              "text": "\n      CG\n      幣圈新手指引字典\n    "
+            },
+            {
+              "url": "https://victoriac1122.github.io/crypto-guide-support-site/index.html",
+              "label": "",
+              "text": "首頁"
+            },
+            {
+              "url": "https://victoriac1122.github.io/crypto-guide-support-site/copyright.html",
+              "label": "",
+              "text": "版權"
+            },
+            {
+              "url": "mailto:victoriacheng1122@gmail.com",
+              "label": "",
+              "text": "victoriacheng1122@gmail.com"
+            }
+          ],
+          "emails": [
+            "victoriacheng1122@gmail.com"
+          ],
+          "textFile": "6761411130-policy.txt",
+          "textLength": 625
+        },
+        {
+          "url": "https://victoriac1122.github.io/crypto-guide-support-site/index.html",
+          "finalURL": "https://victoriac1122.github.io/crypto-guide-support-site/index.html",
+          "httpStatus": 200,
+          "status": "readable",
+          "file": "6761411130-support_candidate.html",
+          "sha256": "aeea54c7d0e2ee553d3585bf7b1c10135624116d0c19cd3231bf37ab29a63838",
+          "role": "support_candidate",
+          "links": [
+            {
+              "url": "https://victoriac1122.github.io/crypto-guide-support-site/index.html",
+              "label": "",
+              "text": "\n      CG\n      幣圈新手指引字典\n    "
+            },
+            {
+              "url": "https://victoriac1122.github.io/crypto-guide-support-site/index.html#support",
+              "label": "",
+              "text": "支援"
+            },
+            {
+              "url": "https://victoriac1122.github.io/crypto-guide-support-site/index.html#contact",
+              "label": "",
+              "text": "聯絡"
+            },
+            {
+              "url": "https://victoriac1122.github.io/crypto-guide-support-site/privacy.html",
+              "label": "",
+              "text": "隱私"
+            },
+            {
+              "url": "https://victoriac1122.github.io/crypto-guide-support-site/copyright.html",
+              "label": "",
+              "text": "版權"
+            },
+            {
+              "url": "https://victoriac1122.github.io/crypto-guide-support-site/index.html#support",
+              "label": "",
+              "text": "查看支援內容"
+            },
+            {
+              "url": "https://victoriac1122.github.io/crypto-guide-support-site/privacy.html",
+              "label": "",
+              "text": "閱讀隱私政策"
+            },
+            {
+              "url": "mailto:victoriacheng1122@gmail.com",
+              "label": "",
+              "text": "victoriacheng1122@gmail.com"
+            },
+            {
+              "url": "https://victoriac1122.github.io/crypto-guide-support-site/privacy.html",
+              "label": "",
+              "text": "\n        Privacy\n        隱私政策\n        查看本 App 對本機資料、電子郵件聯絡與政策更新的處理方式。\n      "
+            },
+            {
+              "url": "https://victoriac1122.github.io/crypto-guide-support-site/copyright.html",
+              "label": "",
+              "text": "\n        Copyright\n        版權頁\n        查看網站與 App 內容的著作權聲明、授權限制與聯絡方式。\n      "
+            }
+          ],
+          "emails": [
+            "victoriacheng1122@gmail.com"
+          ],
+          "textFile": "6761411130-support_candidate.txt",
+          "textLength": 861
+        }
+      ],
+      "contactEmails": [
+        "victoriacheng1122@gmail.com"
+      ],
+      "policyTextFile": "6761411130-policy-body.txt",
+      "policySourceURL": "https://victoriac1122.github.io/crypto-guide-support-site/privacy.html",
+      "policyStatus": "full_text_available",
+      "policyUpdatedText": "最後更新日期：2026 年 3 月 30 日",
+      "policySummary": [
+        "原文說明學習進度、收藏及最近閱讀紀錄保存在本機，預設不要求帳號。",
+        "主動支援郵件的聯絡資訊與內容用於回覆、改善及處理回報；可請求更正或刪除。"
+      ],
+      "notes": [
+        "公開政策使用原產品名稱「幣圈新手指引字典」；App Store 現名為「幣圈神器-加密貨幣&區塊鏈學習字典」。此處保留政策原名。"
+      ],
+      "policyTextExtraction": "Only navigation/other document sections removed; source policy wording retained. Whitespace normalized.",
+      "policyTextCharacterCount": 547,
+      "appStoreSupportURL": null,
+      "contactEmailEvidence": [
+        {
+          "url": "https://victoriac1122.github.io/crypto-guide-support-site/privacy.html",
+          "emails": [
+            "victoriacheng1122@gmail.com"
+          ]
+        },
+        {
+          "url": "https://victoriac1122.github.io/crypto-guide-support-site/index.html",
+          "emails": [
+            "victoriacheng1122@gmail.com"
+          ]
+        }
+      ],
+      "supportURLEvidence": "Official site support navigation link",
+      "sourceReadability": {
+        "appStore": "readable",
+        "policy": "full_text_available",
+        "support": "available_on_public_source",
+        "contactEmail": "found"
+      }
+    },
+    "6811446129": {
+      "appId": "6811446129",
+      "appName": "完美養豬",
+      "appStoreURL": "https://apps.apple.com/tw/app/id6811446129",
+      "privacyURL": "https://victoriac1122.github.io/perfect-pig-legal-center/?lang=zh-Hant&doc=privacy",
+      "supportURL": "https://victoriac1122.github.io/perfect-pig-legal-center/?lang=zh-Hant",
+      "marketingURL": "https://victoriac1122.github.io/perfect-pig-legal-center/?lang=zh-Hant",
+      "contactEmail": "victoriacheng1122@gmail.com",
+      "source": {
+        "url": "https://apps.apple.com/tw/app/id6811446129",
+        "finalURL": "https://apps.apple.com/tw/app/%E5%AE%8C%E7%BE%8E%E9%A4%8A%E8%B1%AC/id6811446129",
+        "httpStatus": 200,
+        "status": "readable",
+        "file": "6811446129-app-store.html",
+        "sha256": "f4883f3cbb649c20bdacfc4e72e6f7ff00bd44ba15b20a18882c35c152ff6ce8"
+      },
+      "links": [
+        {
+          "url": "https://victoriac1122.github.io/perfect-pig-legal-center/?lang=zh-Hant&doc=privacy",
+          "label": "開發者的隱私權政策",
+          "text": "開發者的隱私權政策  "
+        },
+        {
+          "url": "https://victoriac1122.github.io/perfect-pig-legal-center/?lang=zh-Hant",
+          "label": "",
+          "text": "開發者網站 "
+        },
+        {
+          "url": "https://victoriac1122.github.io/perfect-pig-legal-center/?lang=zh-Hant&doc=privacy",
+          "label": "",
+          "text": "隱私權政策 "
+        }
+      ],
+      "documents": [
+        {
+          "url": "https://victoriac1122.github.io/perfect-pig-legal-center/?lang=zh-Hant&doc=privacy",
+          "finalURL": "https://victoriac1122.github.io/perfect-pig-legal-center/?lang=zh-Hant&doc=privacy",
+          "httpStatus": 200,
+          "status": "readable",
+          "file": "6811446129-policy.html",
+          "sha256": "61d912c566a7d145239ab80e441f4a929f2278fefa5e3e29f0453b5b485f9238",
+          "role": "privacy",
+          "links": [
+            {
+              "url": "https://victoriac1122.github.io/perfect-pig-legal-center/",
+              "label": "Perfect Pig legal center home",
+              "text": "\n            \n            \n              Perfect Pig Game\n              完美養豬 Legal Center\n            \n          "
+            },
+            {
+              "url": "mailto:victoriacheng1122@gmail.com?subject=Perfect%20Pig%20Support",
+              "label": "",
+              "text": "\n                寄信聯繫開發者\n              "
+            }
+          ],
+          "emails": [
+            "victoriacheng1122@gmail.com"
+          ],
+          "textFile": "6811446129-policy.txt",
+          "textLength": 496
+        },
+        {
+          "url": "https://victoriac1122.github.io/perfect-pig-legal-center/?lang=zh-Hant",
+          "finalURL": "https://victoriac1122.github.io/perfect-pig-legal-center/?lang=zh-Hant",
+          "httpStatus": 200,
+          "status": "readable",
+          "file": "6811446129-website-1.html",
+          "sha256": "61d912c566a7d145239ab80e441f4a929f2278fefa5e3e29f0453b5b485f9238",
+          "role": "developer_website",
+          "links": [
+            {
+              "url": "https://victoriac1122.github.io/perfect-pig-legal-center/",
+              "label": "Perfect Pig legal center home",
+              "text": "\n            \n            \n              Perfect Pig Game\n              完美養豬 Legal Center\n            \n          "
+            },
+            {
+              "url": "mailto:victoriacheng1122@gmail.com?subject=Perfect%20Pig%20Support",
+              "label": "",
+              "text": "\n                寄信聯繫開發者\n              "
+            }
+          ],
+          "emails": [
+            "victoriacheng1122@gmail.com"
+          ],
+          "textFile": "6811446129-website-1.txt",
+          "textLength": 496
+        },
+        {
+          "url": "https://victoriac1122.github.io/perfect-pig-legal-center/script.js",
+          "finalURL": "https://victoriac1122.github.io/perfect-pig-legal-center/script.js",
+          "httpStatus": 200,
+          "status": "readable",
+          "file": "6811446129-policy_script.js",
+          "sha256": "41c7b5a85e35749e619c33ab71528dbeb0878e6125e5a35c5e0e371d67553a15",
+          "role": "policy_script",
+          "links": [],
+          "emails": []
+        }
+      ],
+      "contactEmails": [
+        "victoriacheng1122@gmail.com"
+      ],
+      "policyTextFile": "6811446129-policy-body.txt",
+      "policySourceURL": "https://victoriac1122.github.io/perfect-pig-legal-center/?lang=zh-Hant&doc=privacy",
+      "policyStatus": "full_text_available",
+      "policyUpdatedText": "最後更新日期：2026 年 9 月 13 日",
+      "policySummary": [
+        "原文列出養成、聊天、遊戲進度與設定在裝置上處理；iCloud 僅同步永久解鎖項目識別碼。",
+        "原文揭露取得 Apple 伺服器時間的輕量請求、StoreKit 內購、本機通知及原網站的 GitHub Pages／Google Fonts。"
+      ],
+      "notes": [
+        "原頁用公開 script.js 的 COPY[\"zh-Hant\"].privacy 載入正文；已原樣擷取其八節文字，並保留整份 JS 與政策 JSON。",
+        "政策含原網站 GitHub Pages／Google Fonts 服務描述；更換網站服務後需核對。"
+      ],
+      "policyTextExtraction": "Only navigation/other document sections removed; source policy wording retained. Whitespace normalized.",
+      "policyTextCharacterCount": 1110,
+      "appStoreSupportURL": null,
+      "contactEmailEvidence": [
+        {
+          "url": "https://victoriac1122.github.io/perfect-pig-legal-center/?lang=zh-Hant&doc=privacy",
+          "emails": [
+            "victoriacheng1122@gmail.com"
+          ]
+        },
+        {
+          "url": "https://victoriac1122.github.io/perfect-pig-legal-center/?lang=zh-Hant",
+          "emails": [
+            "victoriacheng1122@gmail.com"
+          ]
+        }
+      ],
+      "policyStructuredFile": "6811446129-policy-body.json",
+      "supportURLEvidence": "App Store developer site; explicitly legal and support center",
+      "sourceReadability": {
+        "appStore": "readable",
+        "policy": "full_text_available",
+        "support": "available_on_public_source",
+        "contactEmail": "found"
+      }
+    },
+    "6818286088": {
+      "appId": "6818286088",
+      "appName": "自己來設計",
+      "appStoreURL": "https://apps.apple.com/tw/app/id6818286088",
+      "privacyURL": "https://victoriac1122.github.io/design-it-yourself-privacy-policy/",
+      "supportURL": "https://victoriac1122.github.io/design-it-yourself-privacy-policy/#contact",
+      "marketingURL": null,
+      "contactEmail": "victoriacheng1122@gmail.com",
+      "source": {
+        "url": "https://apps.apple.com/tw/app/id6818286088",
+        "finalURL": "https://apps.apple.com/tw/app/%E8%87%AA%E5%B7%B1%E4%BE%86%E8%A8%AD%E8%A8%88/id6818286088",
+        "httpStatus": 200,
+        "status": "readable",
+        "file": "6818286088-app-store.html",
+        "sha256": "fcd667a52e30d45ff5e82480bde6e9c7cfb74ccfc4e028bffca0f9ee624c4cf6"
+      },
+      "links": [
+        {
+          "url": "https://victoriac1122.github.io/design-it-yourself-privacy-policy/",
+          "label": "開發者的隱私權政策",
+          "text": "開發者的隱私權政策  "
+        },
+        {
+          "url": "https://victoriac1122.github.io/design-it-yourself-privacy-policy/",
+          "label": "",
+          "text": "隱私權政策 "
+        }
+      ],
+      "documents": [
+        {
+          "url": "https://victoriac1122.github.io/design-it-yourself-privacy-policy/",
+          "finalURL": "https://victoriac1122.github.io/design-it-yourself-privacy-policy/",
+          "httpStatus": 200,
+          "status": "readable",
+          "file": "6818286088-policy.html",
+          "sha256": "4078f957b5d3960b7a1c03a530ddc39e91af3f56d06ad6def28a8f647c4749cf",
+          "role": "privacy",
+          "links": [
+            {
+              "url": "https://victoriac1122.github.io/design-it-yourself-privacy-policy/#contact",
+              "label": "",
+              "text": "聯絡方式"
+            },
+            {
+              "url": "https://victoriac1122.github.io/design-it-yourself-privacy-policy/#guide",
+              "label": "",
+              "text": "新手教學"
+            },
+            {
+              "url": "https://victoriac1122.github.io/design-it-yourself-privacy-policy/#privacy",
+              "label": "",
+              "text": "隱私權政策"
+            },
+            {
+              "url": "https://victoriac1122.github.io/design-it-yourself-privacy-policy/#copyright",
+              "label": "",
+              "text": "版權說明"
+            },
+            {
+              "url": "mailto:victoriacheng1122@gmail.com",
+              "label": "",
+              "text": "victoriacheng1122@gmail.com"
+            },
+            {
+              "url": "mailto:victoriacheng1122@gmail.com",
+              "label": "",
+              "text": "victoriacheng1122@gmail.com"
+            }
+          ],
+          "emails": [
+            "victoriacheng1122@gmail.com"
+          ],
+          "textFile": "6818286088-policy.txt",
+          "textLength": 2959
+        }
+      ],
+      "contactEmails": [
+        "victoriacheng1122@gmail.com"
+      ],
+      "policyTextFile": "6818286088-policy-body.txt",
+      "policySourceURL": "https://victoriac1122.github.io/design-it-yourself-privacy-policy/#privacy",
+      "policyStatus": "full_text_available",
+      "policyUpdatedText": "最後更新 2026 年 10 月 7 日",
+      "policySummary": [
+        "原文適用 1.1.0，列出房間照片、選用 RoomPlan、規劃資料及使用者選取檔案的本機處理。",
+        "原文涵蓋選用相機與通知、手動分享、備份排除、資料刪除與支援郵件。"
+      ],
+      "notes": [
+        "更新日期原本在同頁頁首，已與政策正文一併保存；原文未改寫。",
+        "政策含原網站 GitHub Pages／Google Fonts 服務描述；更換網站服務後需核對。"
+      ],
+      "policyTextExtraction": "Only navigation/other document sections removed; source policy wording retained. Whitespace normalized.",
+      "policyTextCharacterCount": 1867,
+      "appStoreSupportURL": null,
+      "contactEmailEvidence": [
+        {
+          "url": "https://victoriac1122.github.io/design-it-yourself-privacy-policy/",
+          "emails": [
+            "victoriacheng1122@gmail.com"
+          ]
+        }
+      ],
+      "supportURLEvidence": "Official page contact navigation link",
+      "sourceReadability": {
+        "appStore": "readable",
+        "policy": "full_text_available",
+        "support": "available_on_public_source",
+        "contactEmail": "found"
+      }
+    },
+    "6761694656": {
+      "appId": "6761694656",
+      "appName": "公關日記",
+      "appStoreURL": "https://apps.apple.com/tw/app/id6761694656",
+      "privacyURL": "https://victoriac1122.github.io/taiwan-night-notes-privacy-policy/",
+      "supportURL": "https://victoriac1122.github.io/taiwan-night-notes-privacy-policy/#contact",
+      "marketingURL": null,
+      "contactEmail": "victoriacheng1122@gmail.com",
+      "source": {
+        "url": "https://apps.apple.com/tw/app/id6761694656",
+        "finalURL": "https://apps.apple.com/tw/app/%E5%85%AC%E9%97%9C%E6%97%A5%E8%A8%98/id6761694656",
+        "httpStatus": 200,
+        "status": "readable",
+        "file": "6761694656-app-store.html",
+        "sha256": "4458d9e2e513b7e801eca27c8a1d3b145de7d3be20267eca32fffd793dd88371"
+      },
+      "links": [
+        {
+          "url": "https://victoriac1122.github.io/taiwan-night-notes-privacy-policy/",
+          "label": "開發者的隱私權政策",
+          "text": "開發者的隱私權政策  "
+        },
+        {
+          "url": "https://victoriac1122.github.io/taiwan-night-notes-privacy-policy/",
+          "label": "",
+          "text": "隱私權政策 "
+        }
+      ],
+      "documents": [
+        {
+          "url": "https://victoriac1122.github.io/taiwan-night-notes-privacy-policy/",
+          "finalURL": "https://victoriac1122.github.io/taiwan-night-notes-privacy-policy/",
+          "httpStatus": 200,
+          "status": "readable",
+          "file": "6761694656-policy.html",
+          "sha256": "c96f89c4aad9701e1e621504734574b80f2066979e6ce31dc26c306081acf100",
+          "role": "privacy",
+          "links": [
+            {
+              "url": "https://victoriac1122.github.io/taiwan-night-notes-privacy-policy/",
+              "label": "",
+              "text": "繁體中文"
+            },
+            {
+              "url": "https://victoriac1122.github.io/taiwan-night-notes-privacy-policy/zh-Hans/",
+              "label": "",
+              "text": "简体中文"
+            },
+            {
+              "url": "https://victoriac1122.github.io/taiwan-night-notes-privacy-policy/en/",
+              "label": "",
+              "text": "English"
+            },
+            {
+              "url": "https://victoriac1122.github.io/taiwan-night-notes-privacy-policy/ja/",
+              "label": "",
+              "text": "日本語"
+            },
+            {
+              "url": "https://victoriac1122.github.io/taiwan-night-notes-privacy-policy/#privacy",
+              "label": "",
+              "text": "隱私權政策"
+            },
+            {
+              "url": "https://victoriac1122.github.io/taiwan-night-notes-privacy-policy/#copyright",
+              "label": "",
+              "text": "版權說明"
+            },
+            {
+              "url": "https://victoriac1122.github.io/taiwan-night-notes-privacy-policy/#contact",
+              "label": "",
+              "text": "聯繫方式"
+            },
+            {
+              "url": "mailto:victoriacheng1122@gmail.com",
+              "label": "",
+              "text": "victoriacheng1122@gmail.com"
+            },
+            {
+              "url": "mailto:victoriacheng1122@gmail.com",
+              "label": "",
+              "text": "victoriacheng1122@gmail.com"
+            }
+          ],
+          "emails": [
+            "victoriacheng1122@gmail.com"
+          ],
+          "textFile": "6761694656-policy.txt",
+          "textLength": 2124
+        }
+      ],
+      "contactEmails": [
+        "victoriacheng1122@gmail.com"
+      ],
+      "policyTextFile": "6761694656-policy-body.txt",
+      "policySourceURL": "https://victoriac1122.github.io/taiwan-night-notes-privacy-policy/#privacy",
+      "policyStatus": "full_text_available",
+      "policyUpdatedText": "更新日期：2026 年 9 月 12 日",
+      "policySummary": [
+        "原文說明日記、收支、客人與提醒資料的本機保存，以及選用加密備份。",
+        "原文揭露裝置驗證、系統分享、本機通知與 Apple StoreKit Pro 訂閱，未提供開發者雲端同步。"
+      ],
+      "notes": [
+        "更新日期原本在同頁頁首，已與政策正文一併保存；原文未改寫。"
+      ],
+      "policyTextExtraction": "Only navigation/other document sections removed; source policy wording retained. Whitespace normalized.",
+      "policyTextCharacterCount": 1356,
+      "appStoreSupportURL": null,
+      "contactEmailEvidence": [
+        {
+          "url": "https://victoriac1122.github.io/taiwan-night-notes-privacy-policy/",
+          "emails": [
+            "victoriacheng1122@gmail.com"
+          ]
+        }
+      ],
+      "supportURLEvidence": "Official page contact navigation link",
+      "sourceReadability": {
+        "appStore": "readable",
+        "policy": "full_text_available",
+        "support": "available_on_public_source",
+        "contactEmail": "found"
+      }
+    },
+    "6761377948": {
+      "appId": "6761377948",
+      "appName": "賴瑞的調酒研究室",
+      "appStoreURL": "https://apps.apple.com/tw/app/id6761377948",
+      "privacyURL": "https://victoriac1122.github.io/larrys-bar-game/#copyright",
+      "supportURL": "https://victoriac1122.github.io/larrys-bar-game/",
+      "marketingURL": null,
+      "contactEmail": "victoriacheng1122@gmail.com",
+      "source": {
+        "url": "https://apps.apple.com/tw/app/id6761377948",
+        "finalURL": "https://apps.apple.com/tw/app/%E8%B3%B4%E7%91%9E%E7%9A%84%E8%AA%BF%E9%85%92%E7%A0%94%E7%A9%B6%E5%AE%A4/id6761377948",
+        "httpStatus": 200,
+        "status": "readable",
+        "file": "6761377948-app-store.html",
+        "sha256": "6ac2230d1bcb5315a41aaeb82ba019e3c2c3dddb376c5a494a69723f1dec29a2"
+      },
+      "links": [
+        {
+          "url": "https://victoriac1122.github.io/larrys-bar-game/#copyright",
+          "label": "開發者的隱私權政策",
+          "text": "開發者的隱私權政策  "
+        },
+        {
+          "url": "https://victoriac1122.github.io/larrys-bar-game/#copyright",
+          "label": "管理隱私權選擇",
+          "text": "管理隱私權選擇  "
+        },
+        {
+          "url": "https://victoriac1122.github.io/larrys-bar-game/#copyright",
+          "label": "",
+          "text": "隱私權政策 "
+        }
+      ],
+      "documents": [
+        {
+          "url": "https://victoriac1122.github.io/larrys-bar-game/#copyright",
+          "finalURL": "https://victoriac1122.github.io/larrys-bar-game/#copyright",
+          "httpStatus": 200,
+          "status": "readable",
+          "file": "6761377948-policy.html",
+          "sha256": "2b7f233fdfc57789e976497b29c2b861685262e46d827781cc76a772cbf3e756",
+          "role": "privacy",
+          "links": [
+            {
+              "url": "mailto:victoriacheng1122@gmail.com",
+              "label": "",
+              "text": "聯絡作者"
+            },
+            {
+              "url": "https://victoriac1122.github.io/larrys-bar-game/#copyright",
+              "label": "",
+              "text": "查看版權條款"
+            },
+            {
+              "url": "mailto:victoriacheng1122@gmail.com",
+              "label": "",
+              "text": "victoriacheng1122@gmail.com"
+            },
+            {
+              "url": "mailto:victoriacheng1122@gmail.com",
+              "label": "",
+              "text": "victoriacheng1122@gmail.com"
+            }
+          ],
+          "emails": [
+            "victoriacheng1122@gmail.com"
+          ],
+          "textFile": "6761377948-policy.txt",
+          "textLength": 1481
+        }
+      ],
+      "contactEmails": [
+        "victoriacheng1122@gmail.com"
+      ],
+      "policyTextFile": "6761377948-policy-body.txt",
+      "policySourceURL": "https://victoriac1122.github.io/larrys-bar-game/#copyright",
+      "policyStatus": "website_only_privacy",
+      "policyUpdatedText": null,
+      "policySummary": [
+        "原頁僅說明公開資訊網站不主動蒐集訪客資料，及主動聯絡郵件用於回覆與權利事項。"
+      ],
+      "notes": [
+        "App Store 的隱私連結指向 #copyright。可見的第 09 節僅說明「公開資訊頁」無會員、留言、付款、追蹤及支援郵件用途；未找到涵蓋 App 資料流程的完整政策，不可當成 App 不收集資料的證據。"
+      ],
+      "policyTextExtraction": "Only navigation/other document sections removed; source policy wording retained. Whitespace normalized.",
+      "policyTextCharacterCount": 99,
+      "appStoreSupportURL": null,
+      "contactEmailEvidence": [
+        {
+          "url": "https://victoriac1122.github.io/larrys-bar-game/#copyright",
+          "emails": [
+            "victoriacheng1122@gmail.com"
+          ]
+        }
+      ],
+      "supportURLEvidence": "Public official page includes contact and support sections",
+      "sourceReadability": {
+        "appStore": "readable",
+        "policy": "website_only_privacy",
+        "support": "available_on_public_source",
+        "contactEmail": "found"
+      }
+    },
+    "6754973616": {
+      "appId": "6754973616",
+      "appName": "AI時間管理",
+      "appStoreURL": "https://apps.apple.com/tw/app/id6754973616",
+      "privacyURL": "https://victoriac1122.github.io/ai-time-manager-site/privacy.html",
+      "supportURL": "https://github.com/VictoriaC1122",
+      "marketingURL": null,
+      "contactEmail": null,
+      "source": {
+        "url": "https://apps.apple.com/tw/app/id6754973616",
+        "finalURL": "https://apps.apple.com/tw/app/ai%E6%99%82%E9%96%93%E7%AE%A1%E7%90%86/id6754973616",
+        "httpStatus": 200,
+        "status": "readable",
+        "file": "6754973616-app-store.html",
+        "sha256": "5a0eac183843f559bc658fbf0b5b0b4c99d6411ea2734179f022d28be43464ea"
+      },
+      "links": [
+        {
+          "url": "https://victoriac1122.github.io/ai-time-manager-site/privacy.html",
+          "label": "開發者的隱私權政策",
+          "text": "開發者的隱私權政策  "
+        },
+        {
+          "url": "https://victoriac1122.github.io/ai-time-manager-site/privacy.html",
+          "label": "",
+          "text": "隱私權政策 "
+        }
+      ],
+      "documents": [
+        {
+          "url": "https://victoriac1122.github.io/ai-time-manager-site/privacy.html",
+          "finalURL": "https://victoriac1122.github.io/ai-time-manager-site/privacy.html",
+          "httpStatus": 200,
+          "status": "readable",
+          "file": "6754973616-policy.html",
+          "sha256": "a190c9af3313a86af02087e96d3ab91d545a42505f5621ca991231fffe604ab2",
+          "role": "privacy",
+          "links": [
+            {
+              "url": "https://victoriac1122.github.io/ai-time-manager-site/index.html",
+              "label": "",
+              "text": "\n        \n        \n          Official Site\n          AI TimeManager\n        \n      "
+            },
+            {
+              "url": "https://victoriac1122.github.io/ai-time-manager-site/index.html",
+              "label": "",
+              "text": "回首頁"
+            },
+            {
+              "url": "https://victoriac1122.github.io/ai-time-manager-site/privacy.html",
+              "label": "",
+              "text": "隱私權政策"
+            },
+            {
+              "url": "https://victoriac1122.github.io/ai-time-manager-site/copyright.html",
+              "label": "",
+              "text": "版權聲明"
+            },
+            {
+              "url": "https://github.com/VictoriaC1122",
+              "label": "",
+              "text": "github.com/VictoriaC1122"
+            },
+            {
+              "url": "https://victoriac1122.github.io/ai-time-manager-site/index.html",
+              "label": "",
+              "text": "回首頁"
+            },
+            {
+              "url": "https://victoriac1122.github.io/ai-time-manager-site/copyright.html",
+              "label": "",
+              "text": "前往版權聲明"
+            },
+            {
+              "url": "https://victoriac1122.github.io/ai-time-manager-site/index.html",
+              "label": "",
+              "text": "Back to home"
+            }
+          ],
+          "emails": [],
+          "textFile": "6754973616-policy.txt",
+          "textLength": 950
+        },
+        {
+          "url": "https://victoriac1122.github.io/ai-time-manager-site/index.html",
+          "finalURL": "https://victoriac1122.github.io/ai-time-manager-site/index.html",
+          "httpStatus": 200,
+          "status": "readable",
+          "file": "6754973616-support_candidate.html",
+          "sha256": "a7c0ed6c97f6155cc1cdc3817c127691bf1d474d649cac377dfab5d782490cbe",
+          "role": "support_candidate",
+          "links": [
+            {
+              "url": "https://victoriac1122.github.io/ai-time-manager-site/index.html",
+              "label": "",
+              "text": "\n        \n        \n          Official Site\n          AI TimeManager\n        \n      "
+            },
+            {
+              "url": "https://victoriac1122.github.io/ai-time-manager-site/index.html",
+              "label": "",
+              "text": "回首頁"
+            },
+            {
+              "url": "https://victoriac1122.github.io/ai-time-manager-site/privacy.html",
+              "label": "",
+              "text": "隱私權政策"
+            },
+            {
+              "url": "https://victoriac1122.github.io/ai-time-manager-site/copyright.html",
+              "label": "",
+              "text": "版權聲明"
+            },
+            {
+              "url": "https://victoriac1122.github.io/ai-time-manager-site/privacy.html",
+              "label": "",
+              "text": "查看隱私權政策"
+            },
+            {
+              "url": "https://victoriac1122.github.io/ai-time-manager-site/copyright.html",
+              "label": "",
+              "text": "查看版權聲明"
+            },
+            {
+              "url": "https://victoriac1122.github.io/ai-time-manager-site/privacy.html",
+              "label": "",
+              "text": "前往隱私權政策"
+            },
+            {
+              "url": "https://victoriac1122.github.io/ai-time-manager-site/copyright.html",
+              "label": "",
+              "text": "前往版權聲明"
+            },
+            {
+              "url": "https://github.com/VictoriaC1122",
+              "label": "",
+              "text": "VictoriaC1122"
+            }
+          ],
+          "emails": [],
+          "textFile": "6754973616-support_candidate.txt",
+          "textLength": 446
+        }
+      ],
+      "contactEmails": [],
+      "policyTextFile": "6754973616-policy-body.txt",
+      "policySourceURL": "https://victoriac1122.github.io/ai-time-manager-site/privacy.html",
+      "policyStatus": "full_text_available",
+      "policyUpdatedText": "Last updated: April 5, 2026",
+      "policySummary": [
+        "原文說明任務、專注流程、完成紀錄、設定與通知狀態的本機保存。",
+        "原文聲明無帳號系統或內建第三方廣告 SDK，並說明本機通知、刪除與 GitHub 聯絡方式。"
+      ],
+      "notes": [
+        "此 App 的公開政策與首頁只提供 GitHub 聯络連結，未找到公開客服 email。不可將其他 App 的信箱描述為此原政策已提供。"
+      ],
+      "policyTextExtraction": "Only navigation/other document sections removed; source policy wording retained. Whitespace normalized.",
+      "policyTextCharacterCount": 861,
+      "appStoreSupportURL": null,
+      "contactEmailEvidence": [],
+      "supportURLEvidence": "Policy directs questions to publisher GitHub account; not an email channel",
+      "sourceReadability": {
+        "appStore": "readable",
+        "policy": "full_text_available",
+        "support": "available_on_public_source",
+        "contactEmail": "not_found"
+      }
+    },
+    "6761692228": {
+      "appId": "6761692228",
+      "appName": "把夢遺留下來",
+      "appStoreURL": "https://apps.apple.com/tw/app/id6761692228",
+      "privacyURL": "https://victoriac1122.github.io/dream-journal-support-site/privacy.html",
+      "supportURL": "https://victoriac1122.github.io/dream-journal-support-site/index.html#support",
+      "marketingURL": "https://victoriac1122.github.io/dream-journal-support-site/",
+      "contactEmail": "victoriacheng1122@gmail.com",
+      "source": {
+        "url": "https://apps.apple.com/tw/app/id6761692228",
+        "finalURL": "https://apps.apple.com/tw/app/%E6%8A%8A%E5%A4%A2%E9%81%BA%E7%95%99%E4%B8%8B%E4%BE%86/id6761692228",
+        "httpStatus": 200,
+        "status": "readable",
+        "file": "6761692228-app-store.html",
+        "sha256": "6f7b4afaf7ec2b73c06e0f67829002404c4113f1dda5d1bef8d726ec7a114b10"
+      },
+      "links": [
+        {
+          "url": "https://victoriac1122.github.io/dream-journal-support-site/privacy.html",
+          "label": "開發者的隱私權政策",
+          "text": "開發者的隱私權政策  "
+        },
+        {
+          "url": "https://victoriac1122.github.io/dream-journal-support-site/",
+          "label": "",
+          "text": "開發者網站 "
+        },
+        {
+          "url": "https://victoriac1122.github.io/dream-journal-support-site/privacy.html",
+          "label": "",
+          "text": "隱私權政策 "
+        }
+      ],
+      "documents": [
+        {
+          "url": "https://victoriac1122.github.io/dream-journal-support-site/privacy.html",
+          "finalURL": "https://victoriac1122.github.io/dream-journal-support-site/privacy.html",
+          "httpStatus": 200,
+          "status": "readable",
+          "file": "6761692228-policy.html",
+          "sha256": "913cbea2e4527778ba2993eec293f1c0d3a0503a4a7aee2baaf8b40942e4abcd",
+          "role": "privacy",
+          "links": [
+            {
+              "url": "https://victoriac1122.github.io/dream-journal-support-site/index.html",
+              "label": "",
+              "text": "\n          \n            \n            Zzz\n          \n          把夢遺留下來\n        "
+            },
+            {
+              "url": "https://victoriac1122.github.io/dream-journal-support-site/index.html#contact",
+              "label": "",
+              "text": "聯繫方式"
+            },
+            {
+              "url": "https://victoriac1122.github.io/dream-journal-support-site/index.html#support",
+              "label": "",
+              "text": "支援"
+            },
+            {
+              "url": "https://victoriac1122.github.io/dream-journal-support-site/privacy.html",
+              "label": "",
+              "text": "隱私權"
+            },
+            {
+              "url": "https://victoriac1122.github.io/dream-journal-support-site/copyright.html",
+              "label": "",
+              "text": "版權頁"
+            },
+            {
+              "url": "mailto:victoriacheng1122@gmail.com",
+              "label": "",
+              "text": "victoriacheng1122@gmail.com"
+            }
+          ],
+          "emails": [
+            "victoriacheng1122@gmail.com"
+          ],
+          "textFile": "6761692228-policy.txt",
+          "textLength": 2269
+        },
+        {
+          "url": "https://victoriac1122.github.io/dream-journal-support-site/",
+          "finalURL": "https://victoriac1122.github.io/dream-journal-support-site/",
+          "httpStatus": 200,
+          "status": "readable",
+          "file": "6761692228-website-1.html",
+          "sha256": "095ca2051b64f1b7cb92faed8a2ff5bbf466155da9d0a5f9629050e5a87f5cbd",
+          "role": "developer_website",
+          "links": [
+            {
+              "url": "https://victoriac1122.github.io/dream-journal-support-site/index.html",
+              "label": "",
+              "text": "\n          \n            \n            Zzz\n          \n          把夢遺留下來\n        "
+            },
+            {
+              "url": "https://victoriac1122.github.io/dream-journal-support-site/#contact",
+              "label": "",
+              "text": "聯繫方式"
+            },
+            {
+              "url": "https://victoriac1122.github.io/dream-journal-support-site/#support",
+              "label": "",
+              "text": "支援"
+            },
+            {
+              "url": "https://victoriac1122.github.io/dream-journal-support-site/privacy.html",
+              "label": "",
+              "text": "隱私權"
+            },
+            {
+              "url": "https://victoriac1122.github.io/dream-journal-support-site/copyright.html",
+              "label": "",
+              "text": "版權頁"
+            },
+            {
+              "url": "https://victoriac1122.github.io/dream-journal-support-site/#contact",
+              "label": "",
+              "text": "開發者聯繫方式"
+            },
+            {
+              "url": "https://victoriac1122.github.io/dream-journal-support-site/privacy.html",
+              "label": "",
+              "text": "隱私權頁"
+            },
+            {
+              "url": "https://victoriac1122.github.io/dream-journal-support-site/copyright.html",
+              "label": "",
+              "text": "版權頁"
+            },
+            {
+              "url": "mailto:victoriacheng1122@gmail.com",
+              "label": "",
+              "text": "victoriacheng1122@gmail.com"
+            },
+            {
+              "url": "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+              "label": "",
+              "text": "使用條款（Apple 標準 EULA）"
+            },
+            {
+              "url": "https://victoriac1122.github.io/dream-journal-support-site/privacy.html",
+              "label": "",
+              "text": "隱私權政策"
+            },
+            {
+              "url": "https://victoriac1122.github.io/dream-journal-support-site/privacy.html",
+              "label": "",
+              "text": "\n            Privacy\n            查看完整隱私權政策\n            包含權限用途、資料保存方式與使用者控制權。\n          "
+            },
+            {
+              "url": "https://victoriac1122.github.io/dream-journal-support-site/copyright.html",
+              "label": "",
+              "text": "\n            Copyright\n            查看版權與內容使用聲明\n            包含 app 內容、商標與聯繫授權方式。\n          "
+            }
+          ],
+          "emails": [
+            "victoriacheng1122@gmail.com"
+          ],
+          "textFile": "6761692228-website-1.txt",
+          "textLength": 1563
+        }
+      ],
+      "contactEmails": [
+        "victoriacheng1122@gmail.com"
+      ],
+      "policyTextFile": "6761692228-policy-body.txt",
+      "policySourceURL": "https://victoriac1122.github.io/dream-journal-support-site/privacy.html",
+      "policyStatus": "full_text_available",
+      "policyUpdatedText": "生效日期：2026 年 4 月 5 日；最後更新：2026 年 10 月 2 日",
+      "policySummary": [
+        "原文列出夢境、問卷、字典與相關衍生紀錄的本機處理；不將內容傳給開發者伺服器或外部 AI。",
+        "原文揭露語音輸入可能由 Apple 語音辨識服務處理，並涵蓋 Apple 訂閱、主動分享圖卡、刪除及控制權。"
+      ],
+      "notes": [],
+      "policyTextExtraction": "Only navigation/other document sections removed; source policy wording retained. Whitespace normalized.",
+      "policyTextCharacterCount": 2227,
+      "appStoreSupportURL": null,
+      "contactEmailEvidence": [
+        {
+          "url": "https://victoriac1122.github.io/dream-journal-support-site/privacy.html",
+          "emails": [
+            "victoriacheng1122@gmail.com"
+          ]
+        },
+        {
+          "url": "https://victoriac1122.github.io/dream-journal-support-site/",
+          "emails": [
+            "victoriacheng1122@gmail.com"
+          ]
+        }
+      ],
+      "supportURLEvidence": "Official policy links to support section",
+      "sourceReadability": {
+        "appStore": "readable",
+        "policy": "full_text_available",
+        "support": "available_on_public_source",
+        "contactEmail": "found"
+      }
+    },
+    "6820863958": {
+      "appId": "6820863958",
+      "appName": "Coffee Chat 筆記",
+      "policyTextFile": "6820863958-policy-body.txt",
+      "policySourceURL": "https://victoriac1122.github.io/coffee-chat-note-support/privacy.html",
+      "policyStatus": "full_text_available",
+      "policyUpdatedText": "生效日期：2026 年 10 月 9 日",
+      "notes": [
+        "政策正文取自 coffee-chat-note-support 網站 locales/zh-Hant.json（2026-10-18）。"
+      ]
+    }
+  },
+  "schemaVersion": 2,
+  "extractionNotes": [
+    "App Store web pages exposed privacy/developer website URLs, but no per-App supportURL field. supportURL values are public support/contact destinations observed in the linked official sites; appStoreSupportURL remains null.",
+    "policyTextFile is complete source policy wording with navigation and unrelated copyright/support sections removed; source HTML/TXT files retain the full pages. Summaries are descriptive research notes, not revised legal promises.",
+    "10 policies have full text available; 1 (Larry) only describes the public information website. No App behavior was independently audited.",
+    "Contact difference: Compound Calculator uses victoriacheeng1122@gmail.com; nine apps use victoriacheng1122@gmail.com; AI TimeManager has GitHub-only public contact."
+  ],
+  "coverage": {
+    "apps": 11,
+    "appStorePagesReadable": 11,
+    "privacyURLsFound": 11,
+    "fullPolicyTexts": 10,
+    "websiteOnlyPrivacyTexts": 1,
+    "appsWithEmail": 10,
+    "distinctEmails": [
+      "victoriacheeng1122@gmail.com",
+      "victoriacheng1122@gmail.com"
+    ]
+  }
+}

@@ -1,0 +1,427 @@
+‎《幣圈神器-加密貨幣&區塊鏈學習字典》App - App Store
+搜尋
+Today
+遊戲
+App
+Arcade
+平台
+iPhone
+iPad
+Mac
+Vision
+Watch
+TV
+幣圈神器-加密貨幣&區塊鏈學習字典
+從區塊鏈原理到投資風險
+免費 · 專為 iPad 設計。尚未針對 macOS 驗證。
+分享
+3則評分
+5.0
+年齡分級
+4+
+歲
+類別
+教育
+開發者
+Yung Wen Cheng
+語言
+ZH
++ 其他 1 種
+大小
+3.5
+MB
+iPhone、iPad
+從區塊鏈基礎、白皮書導讀，到交易所、幣種分類與投資風險；用清楚的學習路線、全域搜尋與每日複習，建立完整的知識脈絡。
+幣圈神器是一款以區塊鏈與加密貨幣為主題的雙語學習工具，適合第一次接觸，或想重新整理基礎觀念的使用者。
+內容分為兩條清楚的學習路線：
+• 區塊鏈基礎
+從比特幣的誕生背景、中本聰白皮書、區塊、節點與共識機制，延伸到錢包、智能合約、Layer 2 與實際應用。
+• 加密貨幣投資
+整理交易所選擇、法幣入出金、下單方式、多空方向、槓桿、風險管理與常見幣種差異。
+你也可以使用：
+• 全域搜尋：一次查找詞條、課程、交易所與幣種分類
+• 交易所總覽：比較託管方式、支援地區、產品功能與風險資訊
+• 幣種分類：從用途、敘事、市場角色與常見誤解理解不同資產
+• 每日複習：依收藏與最近閱讀整理短篇複習內容
+• 中英雙語：切換繁體中文與英文內容
+• 桌面小工具與學習提醒：每天查看一則知識，提醒時間可自行設定
+內容涵蓋：
+• 比特幣、以太坊與常見加密貨幣名詞
+• 錢包、私鑰、助記詞與資產安全
+• DeFi、NFT、空投、Rollup、RWA、MEV 等主題
+• 交易基礎、市場風險與常見詐騙手法
+• 中本聰白皮書章節式導讀
+所有市場與平台資料皆以教育整理為目的，並標示查核日期。功能、規則與可用地區可能隨時間改變，實際資訊仍應以相關專案或平台公告為準。
+重要提醒：
+本 App 僅提供教育與資訊整理，不提供投資建議、代操、財務規劃、交易訊號或報酬保證。任何決策均應由使用者自行評估並承擔風險。
+更多
+評分與評論
+5.0
+(滿分 5 顆星)
+3則評分
+新功能
+版本記錄
+1.7 讓開啟、搜尋與瀏覽更俐落，也重新整理了大螢幕體驗。
+• 縮短啟動與首頁內容顯示時間
+• 優化全域搜尋與大量資料篩選效能
+• 改善交易所、幣種分類與每日複習的瀏覽流暢度
+• 強化 iPad 大螢幕版面與整體穩定性
+• 更新內容查核資料、文案與多項操作細節
+1.7 9月12日
+1.5 版本更新
+1.5 版本著重在穩定性與細節體驗調整。
+強化每日學習提醒的授權與排程處理，狀態顯示更一致
+修正桌面小工具每日內容輪替的日期計算問題
+改善搜尋輸入後切換頁面時可能遺失最後內容的情況
+優化幣種分類頁的風險標籤篩選與中英文顯示一致性
+整理共用核心邏輯，提升後續維護性與整體穩定性
+1.5 4月28日
+1.4 版本
+這次更新讓整體使用體驗更順、更穩，也補強了搜尋與每日學習功能。
+優化全域搜尋與詞典篩選，查找詞條、交易所、幣種分類與課程更流暢。
+改善頁面切換、按鈕回饋與列表滑動手感，操作更即時。
+新增每日知識小工具，可在 iPhone / iPad 桌面看到短知識卡。
+優化每日學習提醒設定，從系統通知設定返回 App 後會自動同步狀態。
+調整 iPad 與大螢幕版面檢查項，提升大螢幕閱讀體驗。
+整理部分程式架構，降低重複邏輯並提升穩定性。
+1.4 4月17日
+版本 1.3 更新內容
+這次更新把 App 整體整理成更穩定、好讀的版本，並優化 iPhone、iPad 與桌面尺寸下的使用體驗。
+更新重點：
+優化學習內容架構，將「區塊鏈基礎」與「加密貨幣投資」脈絡整理得更清楚。
+調整新手教學與產業介紹文案，語氣更自然、專業，減少說教感。
+改善 iPad 與大螢幕版面寬度，閱讀時不會過度拉伸。
+優化首頁、知識頁、交易所與幣種分類頁的資訊層級與可讀性。
+加強每日學習提醒與桌面小工具的穩定性。
+修正部分潛在狀態與資料索引風險，提升啟動與瀏覽穩定度。
+更新 App 版本與 build number，完成上架前整理。
+1.3 4月13日
+本次更新讓內容與介面更完整，也更適合日常學習使用。
+新增與優化：
+新增每日學習提醒設定，可在固定時間收到輕量新知提醒。
+新增 iPhone / iPad 桌面小工具，每天顯示一則區塊鏈與加密貨幣知識。
+優化新手教學、產業介紹與幣種說明文案，語氣更自然、專業，不再像說教。
+擴充幣種分類頁，加入更多分類、代表幣、用途、敘事、風險標籤與常見誤解。
+擴充交易所總覽內容，補強地區、類型、託管方式、功能標記與新手適合度。
+優化 iPad 與 Mac Catalyst 版面，讓大螢幕與桌面使用體驗更自然。
+優化整體 UI/UX、字級層級、卡片留白、搜尋與閱讀動線。
+改善暗色模式顯示，提升文字、卡片與背景對比。
+確認中英文雙語切換可用，並讓主要內容跟隨語言設定顯示。
+修正多處版面、狀態管理與可維護性問題，提升穩定性。
+1.2 4月10日
+1.1 版本更新重點來了。
+這次我們補強了加密貨幣入門最常卡住的幾塊內容，新增更完整的先備知識、主流交易所整理、幣種分類導覽，也把教學、詞典、知識庫和搜尋整合得更清楚。整體介面同步優化，現在閱讀更輕鬆、查找更直覺，iPad 版面也一起更新。
+新增先備知識、交易所總覽、幣種分類導覽
+補充更多主流交易所與常見資產分類
+新增全域搜尋與最後更新時間
+優化首頁、知識頁、詞典頁與 iPad 版介面
+調整字級、留白與閱讀節奏，整體更清楚好讀
+1.1 4月5日
+1.0 4月1日
+1.7 讓開啟、搜尋與瀏覽更俐落，也重新整理了大螢幕體驗。
+• 縮短啟動與首頁內容顯示時間
+• 優化全域搜尋與大量資料篩選效能
+• 改善交易所、幣種分類與每日複習的瀏覽流暢度
+• 強化 iPad 大螢幕版面與整體穩定性
+• 更新內容查核資料、文案與多項操作細節
+更多
+版本 1.7 9月12日
+App 隱私權
+App 隱私權
+開發者Yung Wen Cheng指出 App 的隱私權實務可能包含下方描述的資料處理。此資訊尚未經 Apple 驗證。如需更多資訊，請參閱  開發者的隱私權政策  。
+若要進一步瞭解開發者的回應，請參閱  隱私權定義和範例  。
+依據你使用的功能或你的年齡等因素，隱私權實務可能有所不同。  更多內容
+不收集資料
+開發者不會從這個 App 收集任何資料。
+開發者Yung Wen Cheng指出App的隱私權實務可能包含下方描述的資料處理。如需更多資訊，請參閱  開發者的隱私權政策  。
+不收集資料
+開發者不會從這個 App 收集任何資料。
+依據你使用的功能或你的年齡等因素，隱私權實務可能有所不同。  更多內容
+輔助使用
+開發者尚未表示此 App 支援的輔助使用功能。  進一步瞭解
+資訊
+供應商 Yung Wen Cheng
+大小 3.5 MB
+類別 教育
+相容性 需要 iOS 17.0 或以上版本。
+iPhone
+需要 iOS 17.0 或以上版本。
+iPad
+需要 iPadOS 17.0 或以上版本。
+Mac
+需要 macOS 14.0（或以上版本）以及配備 Apple M1（或以上版本）晶片的 Mac。
+Apple Vision
+需要 visionOS 1.0 或以上版本。
+語言 繁體中文和英文
+年齡分級 4+
+4+
+進一步瞭解
+版權 © 2026 Victoria Cheng
+隱私權政策
+更多Yung Wen Cheng的作品
+檢視
+複利計算器-財務自由實現工具
+市面上唯一能夠計算通膨、財務自由、借貸壓力與退休規劃的工具
+檢視
+輕鬆抽獎
+活動、聚會、課堂都適用的抽籤工具
+檢視
+股神養成：台美股模擬交易
+台股盤後資訊與台美股模擬交易
+檢視
+你今天維他命了嗎
+每日維他命記錄、提醒與知識助手
+檢視
+完美養豬
+七日養成・聊天・百張收藏
+檢視
+自己來設計
+空間模擬、選材比較與裝潢預算
+檢視
+公關日記
+四種身份的私密工作日記
+檢視
+賴瑞的調酒研究室
+與賴瑞展開專屬戀愛故事
+檢視
+AI時間管理
+停止拖延，啟動高效
+檢視
+把夢遺留下來
+夢境日記、解讀與回顧
+你可能也會喜歡
+檢視
+加密貨幣學院
+區塊鏈課程與測驗
+檢視
+Tribe Academy
+教育
+檢視
+BitScout - Crypto Tools & News
+參考
+檢視
+学霸背单词
+教育
+檢視
+CloudLabs Archery
+教育
+檢視
+Learn USDT & USDC・CoinCampus
+Polygon, Doge, ETH Explained
+檢視
+PatrolGuidePro: Tools for MOS
+參考
+檢視
+PVQC Hospitality Tourism Sp
+Hospitality Tourism Specialist
+檢視
+ComiCoin - 学习区块链、加密货币和元宇宙
+比特币、以太坊漫画和游戏
+檢視
+幣富：加密貨幣美股交易AI投研新聞預測市場比特幣虛擬貨幣模擬
+新手學習，高手進階。合約現貨加密幣行情K線比特幣模擬炒幣賺錢
+台灣
+English (UK)
+選取國家或地區
+非洲、中東和印度
+顯示全部
+Algeria
+Angola
+Armenia
+Azerbaijan
+Bahrain
+Benin
+Botswana
+Burkina Faso
+Cameroun
+Cape Verde
+Chad
+Côte d’Ivoire
+Congo, The Democratic Republic Of The
+Egypt
+Eswatini
+Gabon
+Gambia
+Ghana
+Guinea-Bissau
+India
+Iraq
+Israel
+Jordan
+Kenya
+Kuwait
+Lebanon
+Liberia
+Libya
+Madagascar
+Malawi
+Mali
+Mauritania
+Mauritius
+Morocco
+Mozambique
+Namibia
+Niger (English)
+Nigeria
+Oman
+Qatar
+Congo, Republic of
+Rwanda
+São Tomé and Príncipe
+Saudi Arabia
+Senegal
+Seychelles
+Sierra Leone
+South Africa
+Sri Lanka
+Tajikistan
+Tanzania, United Republic Of
+Tunisia
+Turkmenistan
+United Arab Emirates
+Uganda
+Yemen
+Zambia
+Zimbabwe
+亞太地區
+顯示全部
+Afghanistan
+Australia
+Bhutan
+Brunei Darussalam
+Cambodia
+中国大陆
+Fiji
+香港
+Indonesia (English)
+日本
+Kazakhstan
+대한민국
+Kyrgyzstan
+Lao People's Democratic Republic
+澳門
+Malaysia (English)
+Maldives
+Micronesia, Federated States of
+Mongolia
+Myanmar
+Nauru
+Nepal
+New Zealand
+Pakistan
+Palau
+Papua New Guinea
+Philippines
+Singapore
+Solomon Islands
+台灣
+Thailand
+Tonga
+Turkmenistan
+Uzbekistan
+Vanuatu
+Vietnam
+歐洲
+顯示全部
+Albania
+Armenia
+Österreich
+Belarus
+Belgium
+Bosnia and Herzegovina
+Bulgaria
+Croatia
+Cyprus
+Czechia
+Denmark
+Estonia
+Finland
+France (Français)
+Georgia
+Deutschland
+Greece
+Hungary
+Iceland
+Ireland
+Italia
+Kosovo
+Latvia
+Lithuania
+Luxembourg (English)
+Malta
+Moldova, Republic Of
+Montenegro
+Nederland
+North Macedonia
+Norway
+Poland
+Portugal (Português)
+Romania
+Россия
+Serbia
+Slovakia
+Slovenia
+España
+Sverige
+Schweiz
+Türkiye (English)
+Ukraine
+United Kingdom
+拉丁美洲與加勒比海地區
+顯示全部
+Anguilla
+Antigua and Barbuda
+Argentina (Español)
+Bahamas
+Barbados
+Belize
+Bermuda
+Bolivia (Español)
+Brasil
+Virgin Islands, British
+Cayman Islands
+Chile (Español)
+Colombia (Español)
+Costa Rica (Español)
+Dominica
+República Dominicana
+Ecuador (Español)
+El Salvador (Español)
+Grenada
+Guatemala (Español)
+Guyana
+Honduras (Español)
+Jamaica
+México
+Montserrat
+Nicaragua (Español)
+Panamá
+Paraguay (Español)
+Perú
+St. Kitts and Nevis
+Saint Lucia
+St. Vincent and The Grenadines
+Suriname
+Trinidad and Tobago
+Turks and Caicos
+Uruguay (English)
+Venezuela (Español)
+美國與加拿大
+顯示全部
+Canada (English)
+Canada (Français)
+United States
+Estados Unidos (Español México)
+الولايات المتحدة
+США
+美国 (简体中文)
+États-Unis (Français France)
+미국
+Estados Unidos (Português Brasil)
+Hoa Kỳ
+美國 (繁體中文台灣)
+Copyright © 2026 Apple Inc. 保留一切權利。
+網路服務條款
+App Store 與隱私權
+Cookie 警告
+支援

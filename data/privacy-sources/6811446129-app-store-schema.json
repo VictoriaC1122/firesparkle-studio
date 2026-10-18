@@ -1,0 +1,76 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@id": "https://apps.apple.com/#organization",
+    "@type": "Organization",
+    "name": "App Store",
+    "url": "https://apps.apple.com",
+    "logo": "https://apps.apple.com/assets/app-store.png",
+    "sameAs": [
+      "https://www.wikidata.org/wiki/Q368215",
+      "https://twitter.com/AppStore",
+      "https://www.instagram.com/appstore/",
+      "https://www.facebook.com/appstore/"
+    ],
+    "parentOrganization": {
+      "@type": "Organization",
+      "name": "Apple",
+      "@id": "https://www.apple.com/#organization",
+      "url": "https://www.apple.com/"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "完美養豬",
+    "description": "遇見一隻會記得你怎麼陪伴牠的小豬。\n\n《完美養豬》是一款以七天為一代的療癒養成遊戲。餵食、散步、聊天、打工，以及安靜的日常互動，都會改變小豬的個性。每一代完成後，揭曉你們的故事結局與對應的小豬卡。\n\n養出自己的小豬\n替小豬設定名字與性別。隨著親密提高，牠的表情、反應與個性也會慢慢改變。\n\n聊天與隱藏互動\n聊聊每天的小事，解鎖聊天擴充包；感情越深，越容易遇見特別回答與隱藏片段。\n\n打工賺金幣\n完成輕鬆的小工作，賺取金幣購買食物與日常補給。累積打工次數，也能讓每代成長稍微加快。\n\n收集卡牌，也收藏故事結局\n探索五種個性路線，收集 100 張從 N 到 SSR 的小豬卡。尚未發現的卡牌與結局會保持隱匿；收藏後的結局可以隨時重讀、分享，再迎接下一隻小豬，嘗試不同路線。卡牌透過遊戲條件解鎖，不是付費隨機抽卡。\n\n照自己的步調玩\n金幣只能透過遊戲取得。選購的 App 內購買會增加寶石，可用來解鎖永久內容或縮短成長時間。通知可自由開啟，遊戲進度保存在你的裝置上。\n\n每七天，一段新的陪伴故事。",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/39/df/fa/39dffa67-db62-9475-92e6-e46915d88e6b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1200x630wa.png",
+    "availableOnDevice": "iPhone, iPad",
+    "operatingSystem": "系統需求：iOS 17.0 或以上版本。相容裝置：iPhone、iPad、iPod touch。",
+    "offers": {
+      "@type": "Offer",
+      "price": 0,
+      "priceCurrency": "TWD"
+    },
+    "applicationCategory": "GameApplication",
+    "applicationSubCategory": "家庭",
+    "keywords": [
+      "遊戲",
+      "家庭",
+      "模擬"
+    ],
+    "genre": [
+      "家庭",
+      "模擬"
+    ],
+    "author": {
+      "@type": "Organization",
+      "name": "Yung Wen Cheng",
+      "url": "https://apps.apple.com/tw/developer/yung-wen-cheng/id1851202446"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "排行榜",
+        "item": "https://apps.apple.com/tw/iphone/charts"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "遊戲",
+        "item": "https://apps.apple.com/tw/iphone/charts/6014"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "完美養豬",
+        "item": "https://apps.apple.com/tw/app/%E5%AE%8C%E7%BE%8E%E9%A4%8A%E8%B1%AC/id6811446129"
+      }
+    ]
+  }
+]

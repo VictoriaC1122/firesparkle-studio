@@ -1,0 +1,480 @@
+‎《複利計算器-財務自由實現工具》App - App Store
+搜尋
+Today
+遊戲
+App
+Arcade
+平台
+iPhone
+iPad
+Mac
+Vision
+Watch
+TV
+複利計算器-財務自由實現工具
+市面上唯一能夠計算通膨、財務自由、借貸壓力與退休規劃的工具
+免費 · App內購買 · 專為 iPad 設計。尚未針對 macOS 驗證。
+分享
+12則評分
+4.7
+年齡分級
+4+
+歲
+類別
+工具程式
+開發者
+Yung Wen Cheng
+語言
+ZH
++ 其他 6 種
+大小
+15.5
+MB
+iPhone、iPad
+複利是財富增長的魔法，但通膨會悄悄偷走你的購買力。
+《複利計算器-財務自由實現工具》幫你同時計算「名義報酬」與「實質報酬」，也把財務自由、借貸壓力與退休規劃一起整理進同一套工具裡，讓你真正看懂自己的財務成長。
+本 App 以極簡易懂的方式呈現複利結果，適合投資新手、上班族、財務規劃者，讓你在 10 秒內掌握完整數據。
+並以長期規劃為核心的財務試算工具，幫你更清楚理解投資成長、財務自由、退休目標與貸款負擔之間的關係。
+你可以用它快速試算複利、定期投入、收入配置存錢規劃、FIRE 目標、退休資產需求，以及房貸、信貸、車貸、證券貸款與保單貸款等不同情境，並透過直觀圖表、壓力判讀與整理後的結果，掌握自己的規劃方向。
+Terms of Use (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Privacy Policy: https://victoriac1122.github.io/compound-calculator-support-site/index.html
+更多
+評分與評論
+4.7
+(滿分 5 顆星)
+12則評分
+新手教學很加分！
+5月3日
+愛喝蜜茶的貓
+介面滿清楚的，用起來不太需要摸索平常想大概算一下投資或複利蠻方便的，比自己按計算機快很多
+新手教學很加分！
+5月3日
+愛喝蜜茶的貓
+介面滿清楚的，用起來不太需要摸索平常想大概算一下投資或複利蠻方便的，比自己按計算機快很多
+Awesome app
+6月10日
+Azulin0101
+This is great and uselessly for financial planning! I love how all aspects of my investment portfolio! Recommend playing around with the numbers before making any financial judgement!Also if needed, try out the pro version where different scenarios can be compared for more robust planning.
+Awesome app
+6月10日
+Azulin0101
+This is great and uselessly for financial planning! I love how all aspects of my investment portfolio! Recommend playing around with the numbers before making any financial judgement!Also if needed, try out the pro version where different scenarios can be compared for more robust planning.
+理財小白也能輕鬆上手！
+4月30日
+Anna Anna11111
+介面簡單清楚，操作很直覺，不只可以算複利，連通膨、實質報酬跟購買力都能一起考慮。對想開始理財或做長期投資規劃的人很有幫助～
+理財小白也能輕鬆上手！
+4月30日
+Anna Anna11111
+介面簡單清楚，操作很直覺，不只可以算複利，連通膨、實質報酬跟購買力都能一起考慮。對想開始理財或做長期投資規劃的人很有幫助～
+試算貸款或投資
+5月1日
+這是狐狸
+挺方便我算貸款跟投資效率的，感謝朋友推
+試算貸款或投資
+5月1日
+這是狐狸
+挺方便我算貸款跟投資效率的，感謝朋友推
+新功能
+版本記錄
+・新增簡體中文、日文、西班牙文、法文與韓文主要介面，連同繁體中文及英文共支援七種語言，可在設定中切換。部分進階說明仍以英文顯示。
+・新增 Pro 會員服務窗口，集中開啟六項規劃工具與三項報告，並快速返回最近使用的服務。
+・改善分析與報告的快捷導覽，以及獨立 Pro 工具的關閉操作。
+・修正 iPad 切換規劃頁面時，尚未完成的輸入內容可能遺失的問題。
+・改善數值輸入、試算情境保存與報告匯出的穩定性。
+2.5 10月2日
+強化 Pro FIRE 模擬，改善房貸、持有成本、人生事件與現金流推估。
+修正退休資金可支撐年數及目標年齡計算。
+財務顧問分析新增通膨考量，並清楚提示無法達成的目標。
+改善 Premium 購買、恢復購買及訂閱狀態同步。
+修正通知拒絕後的新手引導與英文介面顯示。
+提升極端數值輸入時的穩定性並修正多項錯誤。
+2.4 9月11日
+2.2 版更新
+這次更新重點放在整體體驗整理、Pro 報告升級與規劃工具細節優化。
+- 升級 Pro 報告輸出，PDF 與文字報告改成更完整的專業版型
+- 新增更清楚的貸款壓力判讀，幫助你更直覺理解月付負擔與現金流壓力
+- 優化收入配置存錢規劃，現在可用金額優先輸入，系統自動換算比例
+- 整理財務自由、貸款、退休與設定頁結構，讓操作更順、閱讀更清楚
+- 改善新手教學與導覽流程，修正重疊與可讀性問題
+- 優化設定頁、小工具教學與 Pro 專區，整體介面更一致
+- 調整卡片字級、間距與深色模式細節，提升整體閱讀體驗
+- 修正多項細節問題並提升穩定性
+這一版會讓整體規劃流程更清楚，使用起來也更像一套完整、成熟的財務工具。
+2.2 5月7日
+2.1 版更新
+這次更新重點放在首次體驗、設定頁可讀性與使用便利性：
+- 第一次下載時，會更主動引導你設定每日提醒
+- 設定頁重新整理，小工具、Premium、教學與假設條件更清楚
+- 新增更明顯的小工具教學，幫你快速把重點放到主畫面
+- FIRE Pro Check 補充安全提領率說明，更容易理解健康分數
+- 多個資訊小卡、說明卡與重點數字卡調整字級與間距，閱讀更舒適
+- 優化通知提醒流程，可自訂每日提醒時間
+- 整體操作體驗更順，互動更清楚
+如果你正在規劃投資、財務自由、貸款或退休，這一版會更適合每天持續使用。
+2.1 4月29日
+2.0 版本更新文案
+複利計算機 2.0 全新升級，加入更完整的 Premium 財務規劃工具，協助你從投資、FIRE、貸款到退休規劃，做出更清楚、更貼近現實的試算。
+本次更新重點：
+新增 Premium 進階功能與訂閱頁，支援月方案與年方案。
+新增 Pro 財務顧問工具，整合年度財務檢查、目標反推、假設合理性檢查與建議摘要。
+新增「進階人生模擬 PRO」，可模擬結婚、育兒、買房、失業、創業、照顧父母等人生事件對 FIRE 的影響。
+優化投資複利、財務自由、貸款與退休頁面的結果呈現，讓數字更清楚、圖表更直覺。
+優化 iPad 與大螢幕版面，提升閱讀性與操作體驗。
+優化金額輸入欄位，超過 1 萬時會輔助顯示「萬 / 億」提示，方便快速理解大數字。
+補充槓桿試算說明，讓使用者更清楚理解融資成本、槓桿負債與損益兩平報酬。
+改善訂閱價格顯示：中文以新台幣為主、美元為輔；英文以美元為主、新台幣為輔。
+修正多項財務計算邏輯與穩定性問題，提升上架版本品質。
+2.0 4月15日
+複利計算機 1.8 進一步優化了整體穩定性與閱讀體驗。這次更新重新整理了投資、財務自由、退休與貸款頁面的結果呈現，讓重要數字更清楚、資訊層級更一致，也改善了專業版方案頁的文案與介面表現。同時，這版也針對訂閱狀態、情境存檔、數字輸入與多處內部邏輯做了穩定性修正，讓整體使用更可靠。
+1.8 4月11日
+複利計算機 1.6 帶來更完整的財務規劃體驗。這次更新優化了投資複利、財務自由、退休規劃與貸款試算的整體流程，讓重要數字更清楚、圖表更直覺、輸入更順手。專業版也加入進階情境比較、壓力測試、摘要報告與報告分享功能，幫助你更有效率地整理財務規劃重點。
+主要功能：
+投資複利與定期投入試算
+FIRE 財務自由規劃
+退休資產與提領規劃
+銀行貸款、證券貸款、保單貸款分析
+清楚的數字結果與成長圖表
+支援情境比較與摘要整理
+專業版可解鎖更多進階功能：
+進階情境比較
+壓力測試
+報告摘要與分享
+更深入的規劃分析工具
+1.6 4月6日
+修正閃退Bug，讓他運作更順暢
+1.5 3月30日
+這次不只是改版，而是把整個財務規劃流程變得更完整。從複利累積、FIRE 財務自由、銀行貸款，到證券貸款與保單貸款，現在都能在同一個 app 裡更清楚地規劃。你可以一步步設定自己的收入、支出、股票、房產、保單與通膨假設，看到更貼近現實的資產路徑。想知道自己距離目標資產還有多遠，或目前的貸款結構是不是太有壓力，複利計算器會更直接告訴你答案。
+1.4 3月27日
+本次更新帶來完整的財務規劃模組升級：
+• 新增「財務自由目標」計算
+輸入年支出、儲蓄與年齡，自動推算 FIRE 所需資產與達成年限。
+• 新增「貸款計算」功能
+即時計算每月還款金額，分析還款壓力與利率影響。
+• 新增「退休規劃計算」
+依退休年齡與預期壽命，計算所需退休資產。
+• 複利計算器優化
+支援單次投入／定期定額／混合模式，自由切換。
+• 加入「通膨調整」機制
+同時計算名目報酬與實質報酬，避免購買力誤判。
+• 年收益率滑桿優化
+風險區間提示更清晰，投資情境更直觀。
+• 介面細節優化
+操作更流暢，數據顯示更清楚。
+1.3 2月16日
+新增定期定額初始資金、修正數字鍵盤收放問題， 優化流程
+1.2 2025/12/12
+修正細微錯誤，優化速度以及新增鍵盤自動收起功能。
+1.1 2025/12/06
+1.0 2025/12/05
+・新增簡體中文、日文、西班牙文、法文與韓文主要介面，連同繁體中文及英文共支援七種語言，可在設定中切換。部分進階說明仍以英文顯示。
+・新增 Pro 會員服務窗口，集中開啟六項規劃工具與三項報告，並快速返回最近使用的服務。
+・改善分析與報告的快捷導覽，以及獨立 Pro 工具的關閉操作。
+・修正 iPad 切換規劃頁面時，尚未完成的輸入內容可能遺失的問題。
+・改善數值輸入、試算情境保存與報告匯出的穩定性。
+更多
+版本 2.5 10月2日
+App 隱私權
+App 隱私權
+開發者Yung Wen Cheng指出 App 的隱私權實務可能包含下方描述的資料處理。此資訊尚未經 Apple 驗證。如需更多資訊，請參閱  開發者的隱私權政策  。
+若要進一步瞭解開發者的回應，請參閱  隱私權定義和範例  。
+依據你使用的功能或你的年齡等因素，隱私權實務可能有所不同。  更多內容
+不收集資料
+開發者不會從這個 App 收集任何資料。
+開發者Yung Wen Cheng指出App的隱私權實務可能包含下方描述的資料處理。如需更多資訊，請參閱  開發者的隱私權政策  。
+不收集資料
+開發者不會從這個 App 收集任何資料。
+依據你使用的功能或你的年齡等因素，隱私權實務可能有所不同。  更多內容
+輔助使用
+開發者尚未表示此 App 支援的輔助使用功能。  進一步瞭解
+資訊
+供應商 Yung Wen Cheng
+大小 15.5 MB
+類別 工具程式
+相容性 需要 iOS 18.5 或以上版本。
+iPhone
+需要 iOS 18.5 或以上版本。
+iPad
+需要 iPadOS 18.5 或以上版本。
+Mac
+需要 macOS 15.5（或以上版本）以及配備 Apple M1（或以上版本）晶片的 Mac。
+Apple Vision
+需要 visionOS 2.5 或以上版本。
+語言 繁體中文和其他6種
+繁體中文、日文、法文、簡體中文、英文、西班牙文、韓文
+年齡分級 4+
+4+
+進一步瞭解
+App內購買 是
+Pro 月訂閱 $30.00
+Pro 年訂閱 $320.00
+進一步瞭解
+版權 © 2025 複利計算器
+隱私權政策
+更多Yung Wen Cheng的作品
+檢視
+輕鬆抽獎
+活動、聚會、課堂都適用的抽籤工具
+檢視
+股神養成：台美股模擬交易
+台股盤後資訊與台美股模擬交易
+檢視
+你今天維他命了嗎
+每日維他命記錄、提醒與知識助手
+檢視
+幣圈神器-加密貨幣&區塊鏈學習字典
+從區塊鏈原理到投資風險
+檢視
+完美養豬
+七日養成・聊天・百張收藏
+檢視
+自己來設計
+空間模擬、選材比較與裝潢預算
+檢視
+公關日記
+四種身份的私密工作日記
+檢視
+賴瑞的調酒研究室
+與賴瑞展開專屬戀愛故事
+檢視
+AI時間管理
+停止拖延，啟動高效
+檢視
+把夢遺留下來
+夢境日記、解讀與回顧
+你可能也會喜歡
+檢視
+复利计算器
+无广告，投资理财、学习备考的金融专业计算工具
+檢視
+複利計算機
+工具程式
+檢視
+IRA 資產再平衡
+輕鬆管理您的資產
+檢視
+綠拿鐵
+快速查詢小工具
+檢視
+好解說-手機版
+工具程式
+檢視
+紫拿鐵 Purple Latte
+ScanAgent For PDF
+檢視
+貸款計算機
+房貸車貸試算・新青安・提前還款
+檢視
+年年吉祥(UND)(富邦)
+工具程式
+檢視
+Material Master
+工具程式
+檢視
+好解說(富)
+工具程式
+台灣
+English (UK)
+選取國家或地區
+非洲、中東和印度
+顯示全部
+Algeria
+Angola
+Armenia
+Azerbaijan
+Bahrain
+Benin
+Botswana
+Burkina Faso
+Cameroun
+Cape Verde
+Chad
+Côte d’Ivoire
+Congo, The Democratic Republic Of The
+Egypt
+Eswatini
+Gabon
+Gambia
+Ghana
+Guinea-Bissau
+India
+Iraq
+Israel
+Jordan
+Kenya
+Kuwait
+Lebanon
+Liberia
+Libya
+Madagascar
+Malawi
+Mali
+Mauritania
+Mauritius
+Morocco
+Mozambique
+Namibia
+Niger (English)
+Nigeria
+Oman
+Qatar
+Congo, Republic of
+Rwanda
+São Tomé and Príncipe
+Saudi Arabia
+Senegal
+Seychelles
+Sierra Leone
+South Africa
+Sri Lanka
+Tajikistan
+Tanzania, United Republic Of
+Tunisia
+Turkmenistan
+United Arab Emirates
+Uganda
+Yemen
+Zambia
+Zimbabwe
+亞太地區
+顯示全部
+Afghanistan
+Australia
+Bhutan
+Brunei Darussalam
+Cambodia
+中国大陆
+Fiji
+香港
+Indonesia (English)
+日本
+Kazakhstan
+대한민국
+Kyrgyzstan
+Lao People's Democratic Republic
+澳門
+Malaysia (English)
+Maldives
+Micronesia, Federated States of
+Mongolia
+Myanmar
+Nauru
+Nepal
+New Zealand
+Pakistan
+Palau
+Papua New Guinea
+Philippines
+Singapore
+Solomon Islands
+台灣
+Thailand
+Tonga
+Turkmenistan
+Uzbekistan
+Vanuatu
+Vietnam
+歐洲
+顯示全部
+Albania
+Armenia
+Österreich
+Belarus
+Belgium
+Bosnia and Herzegovina
+Bulgaria
+Croatia
+Cyprus
+Czechia
+Denmark
+Estonia
+Finland
+France (Français)
+Georgia
+Deutschland
+Greece
+Hungary
+Iceland
+Ireland
+Italia
+Kosovo
+Latvia
+Lithuania
+Luxembourg (English)
+Malta
+Moldova, Republic Of
+Montenegro
+Nederland
+North Macedonia
+Norway
+Poland
+Portugal (Português)
+Romania
+Россия
+Serbia
+Slovakia
+Slovenia
+España
+Sverige
+Schweiz
+Türkiye (English)
+Ukraine
+United Kingdom
+拉丁美洲與加勒比海地區
+顯示全部
+Anguilla
+Antigua and Barbuda
+Argentina (Español)
+Bahamas
+Barbados
+Belize
+Bermuda
+Bolivia (Español)
+Brasil
+Virgin Islands, British
+Cayman Islands
+Chile (Español)
+Colombia (Español)
+Costa Rica (Español)
+Dominica
+República Dominicana
+Ecuador (Español)
+El Salvador (Español)
+Grenada
+Guatemala (Español)
+Guyana
+Honduras (Español)
+Jamaica
+México
+Montserrat
+Nicaragua (Español)
+Panamá
+Paraguay (Español)
+Perú
+St. Kitts and Nevis
+Saint Lucia
+St. Vincent and The Grenadines
+Suriname
+Trinidad and Tobago
+Turks and Caicos
+Uruguay (English)
+Venezuela (Español)
+美國與加拿大
+顯示全部
+Canada (English)
+Canada (Français)
+United States
+Estados Unidos (Español México)
+الولايات المتحدة
+США
+美国 (简体中文)
+États-Unis (Français France)
+미국
+Estados Unidos (Português Brasil)
+Hoa Kỳ
+美國 (繁體中文台灣)
+Copyright © 2026 Apple Inc. 保留一切權利。
+網路服務條款
+App Store 與隱私權
+Cookie 警告
+支援

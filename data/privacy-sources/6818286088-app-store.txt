@@ -1,0 +1,337 @@
+‎《自己來設計》App - App Store
+搜尋
+Today
+遊戲
+App
+Arcade
+平台
+iPhone
+iPad
+Mac
+Vision
+Watch
+TV
+自己來設計
+空間模擬、選材比較與裝潢預算
+免費
+分享
+年齡分級
+4+
+歲
+類別
+圖像與設計
+開發者
+Yung Wen Cheng
+語言
+ZH
++ 其他 1 種
+大小
+26.3
+MB
+iPhone、iPad
+想整理家的樣子，不必先學會專業繪圖。
+自己來設計把空間預覽、房間照片試色、材料比較與預算整理放在一起，讓你把想法整理成能和家人或設計師討論的方案。
+• 從客廳、臥室或工作區模板開始，切換地板、牆面、家具與日夜燈光。
+• 加入房間參考照片，移動、旋轉家具並保存配置；參考收納建議與內建尺寸模型。
+• 在裝置上查看照片主要色彩與影像明暗，手動調整四角範圍試色、比較原圖與效果，並匯出試色圖。
+• 支援 LiDAR 的 iPhone／iPad 可選擇使用 RoomPlan 掃描房間；其他裝置仍可使用範例空間與照片功能。
+• 收藏候選材料，整理數量、運送與安裝費，分享預算明細。
+• 支援繁體中文與英文，不需註冊，核心功能離線可用。
+照片試色採用手動選取與本機影像處理，不提供 AI 寫實改造圖、自動家具辨識或自動牆面分割。影像明暗不等於實際照度。照片、掃描與配置保存在裝置上，不會自動上傳。
+材料、供應商、價格與收納模型為內建範例。模擬圖、掃描尺寸與預算僅供前期規劃參考，不是施工圖或正式廠商報價；請與專業人員確認實際尺寸、工法與費用。模板的尺寸備註不會自動改變 3D 空間或計算用量。
+隱私權政策與支援：https://victoriac1122.github.io/design-it-yourself-privacy-policy/
+更多
+評分與評論
+此 App 尚未收到足夠的評分或評論，無法顯示概覽。
+新功能
+版本記錄
+• 新增房間參考照片與家具配置：移動、旋轉、保存及重新開啟房間。
+• 新增離線照片配色與試色：查看主要色彩、手動四角選取、調整顏色強度、比較原圖及匯出效果。
+• 新增配置與收納建議，以及可加入房間的範例家具模型。
+• 支援相容 LiDAR 裝置上的選用 RoomPlan 房間掃描。
+• 改善繁體中文、英文及放大文字介面。
+照片功能在裝置上處理，不使用 AI 或雲端影像生成服務。
+1.1.0 4 天前
+1.0.2 5 天前
+• 新增房間參考照片與家具配置：移動、旋轉、保存及重新開啟房間。
+• 新增離線照片配色與試色：查看主要色彩、手動四角選取、調整顏色強度、比較原圖及匯出效果。
+• 新增配置與收納建議，以及可加入房間的範例家具模型。
+• 支援相容 LiDAR 裝置上的選用 RoomPlan 房間掃描。
+• 改善繁體中文、英文及放大文字介面。
+照片功能在裝置上處理，不使用 AI 或雲端影像生成服務。
+更多
+版本 1.1.0 4 天前
+App 隱私權
+App 隱私權
+開發者Yung Wen Cheng指出 App 的隱私權實務可能包含下方描述的資料處理。此資訊尚未經 Apple 驗證。如需更多資訊，請參閱  開發者的隱私權政策  。
+若要進一步瞭解開發者的回應，請參閱  隱私權定義和範例  。
+依據你使用的功能或你的年齡等因素，隱私權實務可能有所不同。  更多內容
+不收集資料
+開發者不會從這個 App 收集任何資料。
+開發者Yung Wen Cheng指出App的隱私權實務可能包含下方描述的資料處理。如需更多資訊，請參閱  開發者的隱私權政策  。
+不收集資料
+開發者不會從這個 App 收集任何資料。
+依據你使用的功能或你的年齡等因素，隱私權實務可能有所不同。  更多內容
+輔助使用
+開發者尚未表示此 App 支援的輔助使用功能。  進一步瞭解
+資訊
+供應商 Yung Wen Cheng
+大小 26.3 MB
+類別 圖像與設計
+相容性 需要 iOS 18.5 或以上版本。
+iPhone
+需要 iOS 18.5 或以上版本。
+iPad
+需要 iPadOS 18.5 或以上版本。
+語言 繁體中文和英文
+年齡分級 4+
+4+
+進一步瞭解
+版權 © 2026 Victoria Cheng
+隱私權政策
+更多Yung Wen Cheng的作品
+檢視
+複利計算器-財務自由實現工具
+市面上唯一能夠計算通膨、財務自由、借貸壓力與退休規劃的工具
+檢視
+輕鬆抽獎
+活動、聚會、課堂都適用的抽籤工具
+檢視
+股神養成：台美股模擬交易
+台股盤後資訊與台美股模擬交易
+檢視
+你今天維他命了嗎
+每日維他命記錄、提醒與知識助手
+檢視
+幣圈神器-加密貨幣&區塊鏈學習字典
+從區塊鏈原理到投資風險
+檢視
+完美養豬
+七日養成・聊天・百張收藏
+檢視
+公關日記
+四種身份的私密工作日記
+檢視
+賴瑞的調酒研究室
+與賴瑞展開專屬戀愛故事
+檢視
+AI時間管理
+停止拖延，啟動高效
+檢視
+把夢遺留下來
+夢境日記、解讀與回顧
+你可能也會喜歡
+檢視
+Island Widgets - 靈動島&小組件
+靈動島、桌面萬能小組件，鎖屏桌面美化，簡約高級主題，快捷工具
+檢視
+設計家-室內設計裝修美圖大全
+規劃並設計你夢想中的家
+檢視
+Themelia：主題與小工具
+自訂鎖定主畫面
+台灣
+English (UK)
+選取國家或地區
+非洲、中東和印度
+顯示全部
+Algeria
+Angola
+Armenia
+Azerbaijan
+Bahrain
+Benin
+Botswana
+Burkina Faso
+Cameroun
+Cape Verde
+Chad
+Côte d’Ivoire
+Congo, The Democratic Republic Of The
+Egypt
+Eswatini
+Gabon
+Gambia
+Ghana
+Guinea-Bissau
+India
+Iraq
+Israel
+Jordan
+Kenya
+Kuwait
+Lebanon
+Liberia
+Libya
+Madagascar
+Malawi
+Mali
+Mauritania
+Mauritius
+Morocco
+Mozambique
+Namibia
+Niger (English)
+Nigeria
+Oman
+Qatar
+Congo, Republic of
+Rwanda
+São Tomé and Príncipe
+Saudi Arabia
+Senegal
+Seychelles
+Sierra Leone
+South Africa
+Sri Lanka
+Tajikistan
+Tanzania, United Republic Of
+Tunisia
+Turkmenistan
+United Arab Emirates
+Uganda
+Yemen
+Zambia
+Zimbabwe
+亞太地區
+顯示全部
+Afghanistan
+Australia
+Bhutan
+Brunei Darussalam
+Cambodia
+中国大陆
+Fiji
+香港
+Indonesia (English)
+日本
+Kazakhstan
+대한민국
+Kyrgyzstan
+Lao People's Democratic Republic
+澳門
+Malaysia (English)
+Maldives
+Micronesia, Federated States of
+Mongolia
+Myanmar
+Nauru
+Nepal
+New Zealand
+Pakistan
+Palau
+Papua New Guinea
+Philippines
+Singapore
+Solomon Islands
+台灣
+Thailand
+Tonga
+Turkmenistan
+Uzbekistan
+Vanuatu
+Vietnam
+歐洲
+顯示全部
+Albania
+Armenia
+Österreich
+Belarus
+Belgium
+Bosnia and Herzegovina
+Bulgaria
+Croatia
+Cyprus
+Czechia
+Denmark
+Estonia
+Finland
+France (Français)
+Georgia
+Deutschland
+Greece
+Hungary
+Iceland
+Ireland
+Italia
+Kosovo
+Latvia
+Lithuania
+Luxembourg (English)
+Malta
+Moldova, Republic Of
+Montenegro
+Nederland
+North Macedonia
+Norway
+Poland
+Portugal (Português)
+Romania
+Россия
+Serbia
+Slovakia
+Slovenia
+España
+Sverige
+Schweiz
+Türkiye (English)
+Ukraine
+United Kingdom
+拉丁美洲與加勒比海地區
+顯示全部
+Anguilla
+Antigua and Barbuda
+Argentina (Español)
+Bahamas
+Barbados
+Belize
+Bermuda
+Bolivia (Español)
+Brasil
+Virgin Islands, British
+Cayman Islands
+Chile (Español)
+Colombia (Español)
+Costa Rica (Español)
+Dominica
+República Dominicana
+Ecuador (Español)
+El Salvador (Español)
+Grenada
+Guatemala (Español)
+Guyana
+Honduras (Español)
+Jamaica
+México
+Montserrat
+Nicaragua (Español)
+Panamá
+Paraguay (Español)
+Perú
+St. Kitts and Nevis
+Saint Lucia
+St. Vincent and The Grenadines
+Suriname
+Trinidad and Tobago
+Turks and Caicos
+Uruguay (English)
+Venezuela (Español)
+美國與加拿大
+顯示全部
+Canada (English)
+Canada (Français)
+United States
+Estados Unidos (Español México)
+الولايات المتحدة
+США
+美国 (简体中文)
+États-Unis (Français France)
+미국
+Estados Unidos (Português Brasil)
+Hoa Kỳ
+美國 (繁體中文台灣)
+Copyright © 2026 Apple Inc. 保留一切權利。
+網路服務條款
+App Store 與隱私權
+Cookie 警告
+支援

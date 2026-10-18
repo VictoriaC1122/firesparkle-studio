@@ -1,0 +1,460 @@
+‎《公關日記》App - App Store
+搜尋
+Today
+遊戲
+App
+Arcade
+平台
+iPhone
+iPad
+Mac
+Vision
+Watch
+TV
+公關日記
+四種身份的私密工作日記
+免費 · App內購買
+分享
+1則評分
+5.0
+年齡分級
+13+
+歲
+類別
+生活風格
+開發者
+Yung Wen Cheng
+語言
+ZH
++ 其他 3 種
+大小
+8.6
+MB
+iPhone、iPad
+提供小姐、客人、男模與經紀四種日記，以及台灣產業指南、本機記錄、加密備份、提醒與可選的 Pro 功能。
+公關日記是一款以本機保存為主的多角色日記與工作整理 app，用於記錄每天的工作、互動、收入與待辦。
+繁中版本提供台灣在地產業指南，整理常見店型、用語、消費觀念與安全提醒；四種身份各有對應的日記欄位。
+客人日記適合記錄：
+• 酒店產業筆記
+• 遇到的小姐／男模
+• 當日花費與互動心得
+小姐 / 男模日記適合記錄：
+• 目標設定
+• 今日收入、支出與存錢進度
+• 上岸日期與目前進度
+經紀筆記適合記錄：
+• 排班與包廂安排
+• 客人追蹤與業績整理
+• 後續追蹤事項
+目前支援：
+• 首頁提供四種身份與常用工具入口
+• 台灣在地產業指南，整理常見店型、用語、消費觀念與安全提醒
+• 多篇日記保存
+• 日記列表查看
+• 搜尋與日期篩選
+• 月曆查看哪天有寫日記
+• 簡單記帳摘要
+• 詳情頁回看
+• 編輯與刪除既有日記
+• 快速記錄：使用少量欄位保存工作重點，並可建立完整日記
+• 提醒中心：集中查看待回訪、待補日記與排班狀態
+• 桌面小工具：依身份一鍵進入對應的記錄頁
+• 可選擇的 Face ID、Touch ID 或裝置密碼保護
+• 使用者自行設定密碼的加密備份與安全匯入
+• 可選的公關日記 Pro：財務統計、回訪管理、每週摘要、行動計畫、進階報表、自訂區間、CSV／PDF 摘要匯出、快速記錄範本與優先提醒
+你的日記與名單資料預設只保存在裝置本機；app 不要求帳號，也不會把日記內容傳送到開發者伺服器。提醒、備份與解鎖保護都由你自行開啟與管理。
+公關日記在整個 App 中支援繁體中文、簡體中文、英文與日文，並會依照裝置的偏好語言顯示。
+本 app 是私人筆記與整理工具，不提供預約、交易、付款、媒合、招攬或使用者間訊息服務。
+公關日記 Pro 提供月方案或年方案的自動續訂訂閱，兩種方案解鎖相同的 Pro 功能。確認購買後，款項會由 Apple 帳號扣款；你可在 App Store 帳號設定中管理或取消訂閱，取消會於目前付費期間結束後生效。未訂閱 Pro 仍可使用核心日記功能與本機紀錄。
+使用條款（Apple 標準 EULA）：
+https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+更多
+評分與評論
+5.0
+(滿分 5 顆星)
+1則評分
+新功能
+版本記錄
+• 更新首頁與導覽，提供四種身份和常用工具入口。
+• 新增台灣在地產業指南，整理常見店型、用語、消費觀念與安全提醒。
+• App 全面支援繁體中文、簡體中文、英文與日文，並改善穩定性與操作體驗。
+2.1 10月3日
+財務成長儀表板：掌握近 30 天收入、支出、淨額、目標進度與行動建議。
+關係與回訪管線：更清楚整理高價值客戶、逾期回訪與待處理事項。
+每週營運回顧：彙整本週表現，建立下一週目標與優先工作。
+進階報表與安全匯出：支援自訂期間、CSV 與 PDF 匯出，預設不含姓名、聯絡方式及日記內容。
+Pro 自訂快速記錄範本與智慧處理排序。
+強化本機資料保護：加密備份、還原、清除資料與隱私保護功能。
+改善資料關聯、穩定性與整體操作體驗。
+2.0 9月11日
+版本 1.9 更新內容
+進一步優化整體版面，讓總覽、詳情與提醒頁在不同 iPhone 尺寸上更穩定
+修正多處內容過貼邊、卡片陰影與圓角視覺過滿的問題
+調整客人總覽、旗下藝人總覽、提醒中心與財務總覽的內容邊距與閱讀節奏
+補強多裝置預覽檢查，提升後續版面維護穩定性
+整理首頁與產業介紹的版面寬度設定，讓大螢幕與一般裝置顯示更一致
+持續精修介面細節與整體使用體驗
+1.9 5月5日
+版本 1.8 更新內容
+優化首頁、新手教學與產業介紹的整體風格，閱讀更自然、畫面更一致
+調整 onboarding、欄位教學與產業介紹文案，減少生硬感，整體更貼近日常使用情境
+統一首頁入口卡、教學卡與介紹卡的視覺語氣，讓整體介面更完整
+微調多個總覽、詳情與提醒頁的間距與版面節奏，閱讀更舒適
+修正多處邊距與卡片貼邊問題，提升 iPhone 上的版面穩定性
+持續優化細節與穩定性，讓操作更順手
+1.8 5月4日
+版本 1.7 更新內容
+優化整體操作手感，點按、輸入與切換更順暢
+改善搜尋與日期篩選，清除條件後會立即更新結果
+統一新增客人、藝人與互動對象的按鈕樣式，操作更直覺也更好按
+優化草稿暫存邏輯，減少空白草稿與不必要的殘留資料
+調整提醒中心與新手教學文案，閱讀更自然、整體更一致
+新增 31 種不同的每日提醒文案，整個月輪替顯示
+修正多處細節與穩定性問題，提升整體使用體驗
+1.7 4月29日
+版本 1.6 更新內容
+優化整體操作手感，輸入、點按與切換更順暢
+改善日記表單的穩定性，降低保存前後的卡頓感
+修正提醒通知的排程邏輯，設定變更後更一致
+優化備份匯入流程，匯入大型備份時更流暢
+強化備份相容性檢查，避免不支援的舊／新版本資料造成問題
+調整多處細節與錯誤處理，提升整體穩定性
+1.6 4月28日
+1.4 版本更新：
+本次更新讓公關日記更穩定、更順手，也更適合日常快速記錄。
+優化日記填寫流程，輸入、儲存與鍵盤收合更順暢。
+改善推播提醒體驗，提醒文案更自然，也能在設定中更清楚管理。
+修正日期、客人資料與部分欄位操作邏輯，記錄更直覺。
+優化 iPhone / iPad 顯示與整體介面細節。
+加強上架前穩定性檢查，提升使用體驗與資料保存可靠度。
+1.4 4月16日
+公關日記 1.3 更新內容
+本次更新針對上架前體驗進行整理與優化：
+- 優化新手教學與欄位說明，讓第一次使用更容易理解
+- 加入「資料僅保存在本機、不會蒐集個人資料」的明確說明
+- 改善 iPhone / iPad 版面與閱讀體驗
+- 優化日記、客人管理、記帳、排班等核心流程
+- 修正部分 UI 顯示與互動細節
+- 清理與精簡程式碼，提升穩定性與可維護性
+- 完成上架前 build 檢查與穩定性整理
+1.3 4月13日
+1.2 版本更新介紹：
+公關日記 1.2 讓操作動線更直覺。現在選定身份後，會直接進入該身份專屬工作台，不用再從一堆功能裡找入口。
+更新重點：
+新增身份工作台，依「客人、小姐、男模、經紀」顯示對應功能。
+客人可快速進入日記記錄、日記總覽、記帳與月曆。
+小姐／男模可快速進入日記記錄、客人總覽、記帳與排班。
+經紀可快速進入經紀筆記、藝人總覽、業績記帳與排班。
+優化首頁與身份頁操作邏輯，減少使用者思考下一步要去哪裡。
+修正 Xcode 專案建議設定，提升專案穩定性與後續維護性。
+持續優化 SwiftUI 結構與編譯穩定度。
+1.1 4月10日
+1.0 4月7日
+• 更新首頁與導覽，提供四種身份和常用工具入口。
+• 新增台灣在地產業指南，整理常見店型、用語、消費觀念與安全提醒。
+• App 全面支援繁體中文、簡體中文、英文與日文，並改善穩定性與操作體驗。
+更多
+版本 2.1 10月3日
+App 隱私權
+App 隱私權
+開發者Yung Wen Cheng指出 App 的隱私權實務可能包含下方描述的資料處理。此資訊尚未經 Apple 驗證。如需更多資訊，請參閱  開發者的隱私權政策  。
+若要進一步瞭解開發者的回應，請參閱  隱私權定義和範例  。
+依據你使用的功能或你的年齡等因素，隱私權實務可能有所不同。  更多內容
+不收集資料
+開發者不會從這個 App 收集任何資料。
+開發者Yung Wen Cheng指出App的隱私權實務可能包含下方描述的資料處理。如需更多資訊，請參閱  開發者的隱私權政策  。
+不收集資料
+開發者不會從這個 App 收集任何資料。
+依據你使用的功能或你的年齡等因素，隱私權實務可能有所不同。  更多內容
+輔助使用
+開發者尚未表示此 App 支援的輔助使用功能。  進一步瞭解
+資訊
+供應商 Yung Wen Cheng
+大小 8.6 MB
+類別 生活風格
+相容性 需要 iOS 18.5 或以上版本。
+iPhone
+需要 iOS 18.5 或以上版本。
+iPad
+需要 iPadOS 18.5 或以上版本。
+語言 繁體中文和其他3種
+繁體中文、日文、簡體中文、英文
+年齡分級 13+
+13+
+進一步瞭解
+偶爾
+成人或暗示性主題
+使用或提及酒精、菸草或毒品
+App內購買 是
+公關日記 Pro 年方案 $320.00
+公關日記 Pro 月方案 $30.00
+進一步瞭解
+版權 © 2026 公關日記
+隱私權政策
+更多Yung Wen Cheng的作品
+檢視
+複利計算器-財務自由實現工具
+市面上唯一能夠計算通膨、財務自由、借貸壓力與退休規劃的工具
+檢視
+輕鬆抽獎
+活動、聚會、課堂都適用的抽籤工具
+檢視
+股神養成：台美股模擬交易
+台股盤後資訊與台美股模擬交易
+檢視
+你今天維他命了嗎
+每日維他命記錄、提醒與知識助手
+檢視
+幣圈神器-加密貨幣&區塊鏈學習字典
+從區塊鏈原理到投資風險
+檢視
+完美養豬
+七日養成・聊天・百張收藏
+檢視
+自己來設計
+空間模擬、選材比較與裝潢預算
+檢視
+賴瑞的調酒研究室
+與賴瑞展開專屬戀愛故事
+檢視
+AI時間管理
+停止拖延，啟動高效
+檢視
+把夢遺留下來
+夢境日記、解讀與回顧
+你可能也會喜歡
+檢視
+Reverie Mood
+生活風格
+檢視
+SkinMatch K-Beauty
+生活風格
+檢視
+Freetime - 快速預約附近優質美業店家
+生活風格
+檢視
+SOGO AR 相機
+生活風格
+檢視
+媽咪樂 客戶VIP
+媽咪樂客戶服務應用程式
+檢視
+ezPretty店家
+您的營運好幫手
+檢視
+Wexpats
+生活風格
+檢視
+該換了吧
+記住每個該換的日子，更換提醒與備品庫存
+檢視
+手機條碼｜發票載具
+統一發票
+檢視
+CatDays － 貓咪倒數日
+一隻貓，陪你倒數每個重要日子
+台灣
+English (UK)
+選取國家或地區
+非洲、中東和印度
+顯示全部
+Algeria
+Angola
+Armenia
+Azerbaijan
+Bahrain
+Benin
+Botswana
+Burkina Faso
+Cameroun
+Cape Verde
+Chad
+Côte d’Ivoire
+Congo, The Democratic Republic Of The
+Egypt
+Eswatini
+Gabon
+Gambia
+Ghana
+Guinea-Bissau
+India
+Iraq
+Israel
+Jordan
+Kenya
+Kuwait
+Lebanon
+Liberia
+Libya
+Madagascar
+Malawi
+Mali
+Mauritania
+Mauritius
+Morocco
+Mozambique
+Namibia
+Niger (English)
+Nigeria
+Oman
+Qatar
+Congo, Republic of
+Rwanda
+São Tomé and Príncipe
+Saudi Arabia
+Senegal
+Seychelles
+Sierra Leone
+South Africa
+Sri Lanka
+Tajikistan
+Tanzania, United Republic Of
+Tunisia
+Turkmenistan
+United Arab Emirates
+Uganda
+Yemen
+Zambia
+Zimbabwe
+亞太地區
+顯示全部
+Afghanistan
+Australia
+Bhutan
+Brunei Darussalam
+Cambodia
+中国大陆
+Fiji
+香港
+Indonesia (English)
+日本
+Kazakhstan
+대한민국
+Kyrgyzstan
+Lao People's Democratic Republic
+澳門
+Malaysia (English)
+Maldives
+Micronesia, Federated States of
+Mongolia
+Myanmar
+Nauru
+Nepal
+New Zealand
+Pakistan
+Palau
+Papua New Guinea
+Philippines
+Singapore
+Solomon Islands
+台灣
+Thailand
+Tonga
+Turkmenistan
+Uzbekistan
+Vanuatu
+Vietnam
+歐洲
+顯示全部
+Albania
+Armenia
+Österreich
+Belarus
+Belgium
+Bosnia and Herzegovina
+Bulgaria
+Croatia
+Cyprus
+Czechia
+Denmark
+Estonia
+Finland
+France (Français)
+Georgia
+Deutschland
+Greece
+Hungary
+Iceland
+Ireland
+Italia
+Kosovo
+Latvia
+Lithuania
+Luxembourg (English)
+Malta
+Moldova, Republic Of
+Montenegro
+Nederland
+North Macedonia
+Norway
+Poland
+Portugal (Português)
+Romania
+Россия
+Serbia
+Slovakia
+Slovenia
+España
+Sverige
+Schweiz
+Türkiye (English)
+Ukraine
+United Kingdom
+拉丁美洲與加勒比海地區
+顯示全部
+Anguilla
+Antigua and Barbuda
+Argentina (Español)
+Bahamas
+Barbados
+Belize
+Bermuda
+Bolivia (Español)
+Brasil
+Virgin Islands, British
+Cayman Islands
+Chile (Español)
+Colombia (Español)
+Costa Rica (Español)
+Dominica
+República Dominicana
+Ecuador (Español)
+El Salvador (Español)
+Grenada
+Guatemala (Español)
+Guyana
+Honduras (Español)
+Jamaica
+México
+Montserrat
+Nicaragua (Español)
+Panamá
+Paraguay (Español)
+Perú
+St. Kitts and Nevis
+Saint Lucia
+St. Vincent and The Grenadines
+Suriname
+Trinidad and Tobago
+Turks and Caicos
+Uruguay (English)
+Venezuela (Español)
+美國與加拿大
+顯示全部
+Canada (English)
+Canada (Français)
+United States
+Estados Unidos (Español México)
+الولايات المتحدة
+США
+美国 (简体中文)
+États-Unis (Français France)
+미국
+Estados Unidos (Português Brasil)
+Hoa Kỳ
+美國 (繁體中文台灣)
+Copyright © 2026 Apple Inc. 保留一切權利。
+網路服務條款
+App Store 與隱私權
+Cookie 警告
+支援

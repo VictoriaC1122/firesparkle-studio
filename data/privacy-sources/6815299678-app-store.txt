@@ -1,0 +1,395 @@
+‎《股神養成：台美股模擬交易》App - App Store
+搜尋
+Today
+遊戲
+App
+Arcade
+平台
+iPhone
+iPad
+Mac
+Vision
+Watch
+TV
+股神養成：台美股模擬交易
+台股盤後資訊與台美股模擬交易
+免費 · 專為 iPad 設計。尚未針對 macOS 驗證。
+分享
+年齡分級
+4+
+歲
+類別
+財經
+開發者
+Yung Wen Cheng
+語言
+ZH
++ 其他 1 種
+大小
+9.7
+MB
+iPhone、iPad
+股神養成是給股市新手的模擬交易工作台。用虛擬資金練習下單、記錄理由，再回顧持倉與交易結果。
+所有交易都是模擬，不會扣除任何真實款項，也不會連接銀行或券商。
+台股盤後練習
+• 使用臺灣證券交易所與證券櫃檯買賣中心的開放盤後資料
+• 查看大盤、漲跌家數、成交排行、估值資料與除權息日程
+• 搜尋股票與 ETF，建立自己的自選清單
+• 可按顯示的收盤價、自訂價格成交，或建立指定價模擬委託
+• 行情標示資料日期，非即時報價
+美股自訂價格模擬
+• 從內建的股票與 ETF 清單選擇標的
+• 自行輸入成交價格，以美元虛擬資金練習買進及賣出
+• 查看可用資金、持倉成本與已實現損益
+• 可離線使用，不連接美股行情服務
+• 不提供美股報價、歷史走勢或自動估值
+台幣與美元帳戶分開計算。下單筆記和交易紀錄保存在裝置上，不需註冊或登入。
+遇到不懂的，直接查
+• 三步新手說明與完整操作指南
+• 金融名詞、ETF、交割、財報、衍生商品與風險觀念
+• 常見投資詐騙手法及官方查證入口
+• 台灣證券、期貨相關測驗與證照說明
+• 教學可隨時跳過，不影響模擬功能
+選用功能
+回顧提醒固定在裝置當地時間週一至週五 18:00，包含市場休市日，不是價格或成交通知。通知可隨時關閉。桌面小工具提供台股盤後摘要與每日新知，由系統安排更新。
+重要說明
+台股資料依來源發布時間更新，可能延遲或缺漏，不代表目前可成交價格。本版本不提供台美股歷史走勢。自訂價格由使用者輸入且未經驗證；台股估值仍依盤後行情，美股持倉成本不是市值。
+台股指定價單只在 App 取得後續交易日資料時依日線高低價檢查，不重播未開啟期間的逐筆交易。舊版美股等待中的委託保留並可取消，但不再自動成交。費用為教學試算，不包含所有實際費用、稅務及公司事件。
+股神養成不是券商，不提供真實下單、開戶、代客操作、個人化投資建議或報酬保證。真實交易請查閱交易所與券商正式資訊。
+更多
+評分與評論
+此 App 尚未收到足夠的評分或評論，無法顯示概覽。
+新功能
+版本記錄
+• 新增獨立「語言與外觀」設定頁，從「我的」右上角即可開啟；繁體中文、English 與跟隨系統可立即切換並保存。
+• 修正分批賣出的已實現損益累積誤差，並校正舊帳戶的損益摘要。
+• 除權息日期與日程篩選統一依台北時區顯示，改善日期卡片及大字體排版。
+• 部分行情資料更新失敗時保留既有資料，清楚列出受影響項目並提供重新載入。
+• 改善離線快取恢復與更新中斷後的重試。
+既有持倉、自選與交易紀錄保留。台股為盤後資料，美股維持離線自訂價格模擬，所有交易僅使用虛擬資金。
+2.2.2 2 天前
+• 模擬下單成功後返回模擬盤，顯示成交或等待中的委託狀態，不再停留在搜尋頁。
+• 在「我的」選擇繁體中文、English 或跟隨系統，並設定淺色、深色外觀。
+• 首次開啟可確認語言、通知與桌面小工具，每一步都能略過。
+• 改善小螢幕、大字體與通知被拒絕時的操作。
+• 台股上市、上櫃資料日期不同時分別標示；資料缺漏或較舊時保留原有行情。
+台股使用已列明來源的開放盤後資料，美股維持離線自訂價格模擬。持倉、自選、筆記與交易紀錄均保留，不會扣除真實款項。
+2.2.1 4 天前
+2.2.0 5 天前
+• 新增獨立「語言與外觀」設定頁，從「我的」右上角即可開啟；繁體中文、English 與跟隨系統可立即切換並保存。
+• 修正分批賣出的已實現損益累積誤差，並校正舊帳戶的損益摘要。
+• 除權息日期與日程篩選統一依台北時區顯示，改善日期卡片及大字體排版。
+• 部分行情資料更新失敗時保留既有資料，清楚列出受影響項目並提供重新載入。
+• 改善離線快取恢復與更新中斷後的重試。
+既有持倉、自選與交易紀錄保留。台股為盤後資料，美股維持離線自訂價格模擬，所有交易僅使用虛擬資金。
+更多
+版本 2.2.2 2 天前
+App 隱私權
+App 隱私權
+開發者Yung Wen Cheng指出 App 的隱私權實務可能包含下方描述的資料處理。此資訊尚未經 Apple 驗證。如需更多資訊，請參閱  開發者的隱私權政策  。
+瞭解開發者如何讓你  管理隱私權選擇  。
+若要進一步瞭解開發者的回應，請參閱  隱私權定義和範例  。
+依據你使用的功能或你的年齡等因素，隱私權實務可能有所不同。  更多內容
+會與你連結的資料
+系統可能會收集以下資料，並將其與你的身分連結。資料可能作下列用途：
+App 功能
+聯絡資訊
+電子郵件地址
+姓名
+使用者內容
+客戶支援
+開發者Yung Wen Cheng指出App的隱私權實務可能包含下方描述的資料處理。如需更多資訊，請參閱  開發者的隱私權政策  。
+會與你連結的資料
+系統可能會收集以下資料，並將其與你的身分連結：
+聯絡資訊
+使用者內容
+依據你使用的功能或你的年齡等因素，隱私權實務可能有所不同。  更多內容
+輔助使用
+開發者尚未表示此 App 支援的輔助使用功能。  進一步瞭解
+資訊
+供應商 Yung Wen Cheng
+大小 9.7 MB
+類別 財經
+相容性 需要 iOS 18.5 或以上版本。
+iPhone
+需要 iOS 18.5 或以上版本。
+iPad
+需要 iPadOS 18.5 或以上版本。
+Mac
+需要 macOS 15.5（或以上版本）以及配備 Apple M1（或以上版本）晶片的 Mac。
+Apple Vision
+需要 visionOS 2.5 或以上版本。
+語言 繁體中文和英文
+年齡分級 4+
+4+
+進一步瞭解
+版權 © 2026 Yung Wen Cheng (Stock Mastery)
+開發者網站
+隱私權政策
+更多Yung Wen Cheng的作品
+檢視
+複利計算器-財務自由實現工具
+市面上唯一能夠計算通膨、財務自由、借貸壓力與退休規劃的工具
+檢視
+輕鬆抽獎
+活動、聚會、課堂都適用的抽籤工具
+檢視
+你今天維他命了嗎
+每日維他命記錄、提醒與知識助手
+檢視
+幣圈神器-加密貨幣&區塊鏈學習字典
+從區塊鏈原理到投資風險
+檢視
+完美養豬
+七日養成・聊天・百張收藏
+檢視
+自己來設計
+空間模擬、選材比較與裝潢預算
+檢視
+公關日記
+四種身份的私密工作日記
+檢視
+賴瑞的調酒研究室
+與賴瑞展開專屬戀愛故事
+檢視
+AI時間管理
+停止拖延，啟動高效
+檢視
+把夢遺留下來
+夢境日記、解讀與回顧
+你可能也會喜歡
+檢視
+統一e期贏
+財經
+檢視
+統一期航家
+財經
+檢視
+BitTap
+BTC｜ETH｜安全快捷的加密貨幣交易平台
+檢視
+XREX 交易所 - 臺灣加密貨幣合規平台
+支持新臺幣、美元入金。比特幣、以太幣等數十種虛擬貨幣交易
+檢視
+UniversalX - Trade ALL Crypto
+財經
+檢視
+中信行動刷卡
+財經
+檢視
+WOO X：交易比特幣及以太幣
+加密貨幣現貨交易
+檢視
+Wallflake: Ghana Stock Tracker
+財經
+檢視
+SIMS LTD
+財經
+檢視
+王道銀行 O-Bank
+財經
+台灣
+English (UK)
+選取國家或地區
+非洲、中東和印度
+顯示全部
+Algeria
+Angola
+Armenia
+Azerbaijan
+Bahrain
+Benin
+Botswana
+Burkina Faso
+Cameroun
+Cape Verde
+Chad
+Côte d’Ivoire
+Congo, The Democratic Republic Of The
+Egypt
+Eswatini
+Gabon
+Gambia
+Ghana
+Guinea-Bissau
+India
+Iraq
+Israel
+Jordan
+Kenya
+Kuwait
+Lebanon
+Liberia
+Libya
+Madagascar
+Malawi
+Mali
+Mauritania
+Mauritius
+Morocco
+Mozambique
+Namibia
+Niger (English)
+Nigeria
+Oman
+Qatar
+Congo, Republic of
+Rwanda
+São Tomé and Príncipe
+Saudi Arabia
+Senegal
+Seychelles
+Sierra Leone
+South Africa
+Sri Lanka
+Tajikistan
+Tanzania, United Republic Of
+Tunisia
+Turkmenistan
+United Arab Emirates
+Uganda
+Yemen
+Zambia
+Zimbabwe
+亞太地區
+顯示全部
+Afghanistan
+Australia
+Bhutan
+Brunei Darussalam
+Cambodia
+中国大陆
+Fiji
+香港
+Indonesia (English)
+日本
+Kazakhstan
+대한민국
+Kyrgyzstan
+Lao People's Democratic Republic
+澳門
+Malaysia (English)
+Maldives
+Micronesia, Federated States of
+Mongolia
+Myanmar
+Nauru
+Nepal
+New Zealand
+Pakistan
+Palau
+Papua New Guinea
+Philippines
+Singapore
+Solomon Islands
+台灣
+Thailand
+Tonga
+Turkmenistan
+Uzbekistan
+Vanuatu
+Vietnam
+歐洲
+顯示全部
+Albania
+Armenia
+Österreich
+Belarus
+Belgium
+Bosnia and Herzegovina
+Bulgaria
+Croatia
+Cyprus
+Czechia
+Denmark
+Estonia
+Finland
+France (Français)
+Georgia
+Deutschland
+Greece
+Hungary
+Iceland
+Ireland
+Italia
+Kosovo
+Latvia
+Lithuania
+Luxembourg (English)
+Malta
+Moldova, Republic Of
+Montenegro
+Nederland
+North Macedonia
+Norway
+Poland
+Portugal (Português)
+Romania
+Россия
+Serbia
+Slovakia
+Slovenia
+España
+Sverige
+Schweiz
+Türkiye (English)
+Ukraine
+United Kingdom
+拉丁美洲與加勒比海地區
+顯示全部
+Anguilla
+Antigua and Barbuda
+Argentina (Español)
+Bahamas
+Barbados
+Belize
+Bermuda
+Bolivia (Español)
+Brasil
+Virgin Islands, British
+Cayman Islands
+Chile (Español)
+Colombia (Español)
+Costa Rica (Español)
+Dominica
+República Dominicana
+Ecuador (Español)
+El Salvador (Español)
+Grenada
+Guatemala (Español)
+Guyana
+Honduras (Español)
+Jamaica
+México
+Montserrat
+Nicaragua (Español)
+Panamá
+Paraguay (Español)
+Perú
+St. Kitts and Nevis
+Saint Lucia
+St. Vincent and The Grenadines
+Suriname
+Trinidad and Tobago
+Turks and Caicos
+Uruguay (English)
+Venezuela (Español)
+美國與加拿大
+顯示全部
+Canada (English)
+Canada (Français)
+United States
+Estados Unidos (Español México)
+الولايات المتحدة
+США
+美国 (简体中文)
+États-Unis (Français France)
+미국
+Estados Unidos (Português Brasil)
+Hoa Kỳ
+美國 (繁體中文台灣)
+Copyright © 2026 Apple Inc. 保留一切權利。
+網路服務條款
+App Store 與隱私權
+Cookie 警告
+支援

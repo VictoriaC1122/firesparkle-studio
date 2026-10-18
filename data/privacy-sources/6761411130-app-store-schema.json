@@ -1,0 +1,79 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@id": "https://apps.apple.com/#organization",
+    "@type": "Organization",
+    "name": "App Store",
+    "url": "https://apps.apple.com",
+    "logo": "https://apps.apple.com/assets/app-store.png",
+    "sameAs": [
+      "https://www.wikidata.org/wiki/Q368215",
+      "https://twitter.com/AppStore",
+      "https://www.instagram.com/appstore/",
+      "https://www.facebook.com/appstore/"
+    ],
+    "parentOrganization": {
+      "@type": "Organization",
+      "name": "Apple",
+      "@id": "https://www.apple.com/#organization",
+      "url": "https://www.apple.com/"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "幣圈神器-加密貨幣&區塊鏈學習字典",
+    "description": "幣圈神器是一款以區塊鏈與加密貨幣為主題的雙語學習工具，適合第一次接觸，或想重新整理基礎觀念的使用者。\n\n內容分為兩條清楚的學習路線：\n\n• 區塊鏈基礎\n從比特幣的誕生背景、中本聰白皮書、區塊、節點與共識機制，延伸到錢包、智能合約、Layer 2 與實際應用。\n\n• 加密貨幣投資\n整理交易所選擇、法幣入出金、下單方式、多空方向、槓桿、風險管理與常見幣種差異。\n\n你也可以使用：\n\n• 全域搜尋：一次查找詞條、課程、交易所與幣種分類\n• 交易所總覽：比較託管方式、支援地區、產品功能與風險資訊\n• 幣種分類：從用途、敘事、市場角色與常見誤解理解不同資產\n• 每日複習：依收藏與最近閱讀整理短篇複習內容\n• 中英雙語：切換繁體中文與英文內容\n• 桌面小工具與學習提醒：每天查看一則知識，提醒時間可自行設定\n\n內容涵蓋：\n\n• 比特幣、以太坊與常見加密貨幣名詞\n• 錢包、私鑰、助記詞與資產安全\n• DeFi、NFT、空投、Rollup、RWA、MEV 等主題\n• 交易基礎、市場風險與常見詐騙手法\n• 中本聰白皮書章節式導讀\n\n所有市場與平台資料皆以教育整理為目的，並標示查核日期。功能、規則與可用地區可能隨時間改變，實際資訊仍應以相關專案或平台公告為準。\n\n重要提醒：\n本 App 僅提供教育與資訊整理，不提供投資建議、代操、財務規劃、交易訊號或報酬保證。任何決策均應由使用者自行評估並承擔風險。",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/74/12/11/741211d5-7b5a-2690-795a-2801e94c8003/AppIcon-0-0-1x_U007epad-0-1-85-220.png/1200x630wa.png",
+    "availableOnDevice": "iPhone, iPad",
+    "operatingSystem": "系統需求：iOS 17.0 或以上版本。相容裝置：iPhone、iPad、iPod touch。",
+    "offers": {
+      "@type": "Offer",
+      "price": 0,
+      "priceCurrency": "TWD"
+    },
+    "applicationCategory": "EducationalApplication",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": 5,
+      "reviewCount": 3,
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "keywords": [
+      "教育"
+    ],
+    "genre": [
+      "教育"
+    ],
+    "author": {
+      "@type": "Organization",
+      "name": "Yung Wen Cheng",
+      "url": "https://apps.apple.com/tw/developer/yung-wen-cheng/id1851202446"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "排行榜",
+        "item": "https://apps.apple.com/tw/iphone/charts"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "教育",
+        "item": "https://apps.apple.com/tw/iphone/charts/6017"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "幣圈神器-加密貨幣&區塊鏈學習字典",
+        "item": "https://apps.apple.com/tw/app/%E5%B9%A3%E5%9C%88%E7%A5%9E%E5%99%A8-%E5%8A%A0%E5%AF%86%E8%B2%A8%E5%B9%A3-%E5%8D%80%E5%A1%8A%E9%8F%88%E5%AD%B8%E7%BF%92%E5%AD%97%E5%85%B8/id6761411130"
+      }
+    ]
+  }
+]

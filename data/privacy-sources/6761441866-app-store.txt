@@ -1,0 +1,414 @@
+‎《你今天維他命了嗎》App - App Store
+搜尋
+Today
+遊戲
+App
+Arcade
+平台
+iPhone
+iPad
+Mac
+Vision
+Watch
+TV
+你今天維他命了嗎
+每日維他命記錄、提醒與知識助手
+免費 · 專為 iPad 設計。尚未針對 macOS 驗證。
+分享
+3則評分
+5.0
+年齡分級
+9+
+歲
+類別
+健康與健身
+開發者
+Yung Wen Cheng
+語言
+ZH
++ 其他 6 種
+大小
+7.5
+MB
+iPhone、iPad
+把每天的維他命與補充品方案整理在一起，按時提醒、一鍵打卡，並隨時查看營養知識與個人化參考。
+你今天維他命了嗎，是一款為日常補充習慣設計的健康記錄 app。
+把維他命方案、每日打卡、提醒、週月統計與常見營養知識整理在同一個地方，讓每天的保養更清楚、更容易持續。
+主要功能：
+• 建立每日維他命與補充品方案
+• 一鍵打卡，快速記錄今天是否已服用
+• 依早餐後、午餐後、晚餐後或睡前安排提醒
+• 從通知直接標記已服用，或延後 15 分鐘提醒
+• 查看連續打卡、每週與每月完成率
+• 用月曆回顧每天的服用紀錄
+• 瀏覽維他命、礦物質與常見補充品知識
+• 依年齡、性別與 BMI 顯示一般營養參考
+• 支援 iPhone、iPad 與桌面小工具
+• 本機 JSON 備份與還原
+你的資料保留在裝置與 App Group 儲存空間，核心功能不需要登入或網路連線。
+本 app 提供一般營養教育與日常記錄，不是診斷、治療或個人醫療建議，也不取代醫師、藥師或營養師的專業意見。若有慢性病、懷孕、正在用藥或需要高劑量補充，請先與專業人員確認。
+更多
+評分與評論
+5.0
+(滿分 5 顆星)
+3則評分
+Great assistance for tracking
+6月10日
+Azulin0101
+Your well-beings are at the door, go inVITAMIN. Love the daily reminder of the great effects of different pills i take. It gives me assurance of my well-being. Great app!
+Great assistance for tracking
+6月10日
+Azulin0101
+Your well-beings are at the door, go inVITAMIN. Love the daily reminder of the great effects of different pills i take. It gives me assurance of my well-being. Great app!
+新功能
+版本記錄
+• 新增簡體中文、日文、西班牙文、法文與義大利文，連同繁體中文及英文共支援七種語言。
+• 改善首次引導、身高與體重輸入，以及鍵盤收合操作。
+• 強化備份還原驗證，避免無效檔案覆蓋現有資料。
+• 修正提醒權限與排程同步，讓設定狀態更一致。
+• 優化打卡資料更新、搜尋與語言切換，並新增隱私權政策入口。
+1.7 9月28日
+• 新增通知快速操作，可直接標記已服用或延後 15 分鐘提醒。
+• 優化鍵盤收合、文字輸入與頁面切換手感。
+• 改善提醒排程可靠性，避免重複或互相覆蓋。
+• 強化首頁個人化建議、深色模式與 VoiceOver 可讀性。
+• 提升啟動、搜尋、列表與 Widget 共用資料的穩定性。
+1.6 9月13日
+1.4 版本更新
+這次更新重點放在穩定性、流暢度與日常使用體驗：
+- 進一步優化首頁的個人化建議與營養提醒
+- 整理通知與提醒排程邏輯，讓提醒行為更穩定一致
+- 改善備份匯入/匯出流程，降低失敗與卡頓情況
+- 持續優化輸入、鍵盤操作與整體互動手感
+- 修正多項細節問題，提升 iPhone / iPad 使用穩定性
+謝謝你一路使用，我們會繼續把這個 app 打磨得更順、更穩、更好用。
+1.4 4月28日
+1.3 更新讓「你今天維他命了嗎」更適合日常使用，也更穩定、清楚。
+新增更完整的每日營養參考，依照性別、年齡、身高、體重與 BMI 提供一般性攝取建議。
+新增營養資料來源與使用提醒，清楚標示 NIH ODS、CDC BMI 等參考來源。
+新增高劑量提醒，當部分補充品劑量偏高時，會提醒你留意並建議諮詢專業人員。
+優化首頁「今日建議」，讓個人化資料更容易被看見。
+優化知識頁分類，新增維他命、礦物質、草本／機能、運動補充、睡眠／壓力等分類瀏覽。
+優化提醒邏輯，依照早餐、午餐、晚餐、睡前等方案時段安排提醒。
+改善鍵盤輸入體驗，體重、健康資料與新增維他命時更順手。
+強化備份還原穩定性，舊版資料匯入更安全。
+修正多處 UI 細節與穩定性問題，提升 iPhone 與 iPad 使用體驗。
+1.3 4月17日
+版本 1.2 更新內容
+- 新增桌面小工具支援，可更快速記錄今日維他命補充狀態
+- 擴充維他命知識內容，提供更多市面常見營養素介紹
+- 優化 iPhone 與 iPad 版面顯示，使用體驗更穩定順暢
+- 改善深色模式與整體視覺一致性
+- 修正今日目標與紀錄同步邏輯，提升資料穩定性
+- 清理程式碼與上架設定，提升整體穩定性
+1.2 4月13日
+1.0 4月1日
+• 新增簡體中文、日文、西班牙文、法文與義大利文，連同繁體中文及英文共支援七種語言。
+• 改善首次引導、身高與體重輸入，以及鍵盤收合操作。
+• 強化備份還原驗證，避免無效檔案覆蓋現有資料。
+• 修正提醒權限與排程同步，讓設定狀態更一致。
+• 優化打卡資料更新、搜尋與語言切換，並新增隱私權政策入口。
+更多
+版本 1.7 9月28日
+App 隱私權
+App 隱私權
+開發者Yung Wen Cheng指出 App 的隱私權實務可能包含下方描述的資料處理。此資訊尚未經 Apple 驗證。如需更多資訊，請參閱  開發者的隱私權政策  。
+若要進一步瞭解開發者的回應，請參閱  隱私權定義和範例  。
+依據你使用的功能或你的年齡等因素，隱私權實務可能有所不同。  更多內容
+不收集資料
+開發者不會從這個 App 收集任何資料。
+開發者Yung Wen Cheng指出App的隱私權實務可能包含下方描述的資料處理。如需更多資訊，請參閱  開發者的隱私權政策  。
+不收集資料
+開發者不會從這個 App 收集任何資料。
+依據你使用的功能或你的年齡等因素，隱私權實務可能有所不同。  更多內容
+輔助使用
+開發者尚未表示此 App 支援的輔助使用功能。  進一步瞭解
+資訊
+供應商 Yung Wen Cheng
+大小 7.5 MB
+類別 健康與健身
+相容性 需要 iOS 17.0 或以上版本。
+iPhone
+需要 iOS 17.0 或以上版本。
+iPad
+需要 iPadOS 17.0 或以上版本。
+Mac
+需要 macOS 14.0（或以上版本）以及配備 Apple M1（或以上版本）晶片的 Mac。
+Apple Vision
+需要 visionOS 1.0 或以上版本。
+語言 繁體中文和其他6種
+繁體中文、日文、法文、簡體中文、義大利文、英文、西班牙文
+年齡分級 9+
+9+
+進一步瞭解
+包含
+健康或保健主題
+版權 © 2025 你今天維他命了嗎
+隱私權政策
+更多Yung Wen Cheng的作品
+檢視
+複利計算器-財務自由實現工具
+市面上唯一能夠計算通膨、財務自由、借貸壓力與退休規劃的工具
+檢視
+輕鬆抽獎
+活動、聚會、課堂都適用的抽籤工具
+檢視
+股神養成：台美股模擬交易
+台股盤後資訊與台美股模擬交易
+檢視
+幣圈神器-加密貨幣&區塊鏈學習字典
+從區塊鏈原理到投資風險
+檢視
+完美養豬
+七日養成・聊天・百張收藏
+檢視
+自己來設計
+空間模擬、選材比較與裝潢預算
+檢視
+公關日記
+四種身份的私密工作日記
+檢視
+賴瑞的調酒研究室
+與賴瑞展開專屬戀愛故事
+檢視
+AI時間管理
+停止拖延，啟動高效
+檢視
+把夢遺留下來
+夢境日記、解讀與回顧
+你可能也會喜歡
+檢視
+Verdant: Supplement Tracker
+保健品與營養追蹤
+檢視
+Da Vinci Health 健康記錄
+飲食·喝水·運動·睡眠 一站式健康追蹤
+檢視
+Source: 飲食 AI Copilot
+AI 紀錄與優化，助你達成健康與體態目標
+檢視
+放空 ZoneOut
+健康與健身
+檢視
+NuraDay
+服藥提醒・藥物管理・用藥記錄
+檢視
+Signa: 用藥提醒·吃藥鬧鐘
+服藥紀錄、餘量提醒與用藥日曆
+檢視
+慢性病用藥管家：多重藥物追蹤
+吃藥鬧鐘、長照藥盒與服藥紀錄
+檢視
+保健食品總量：攝取紀錄
+日常追蹤與成分合計
+檢視
+EasyPill - 服藥提示
+簡易食藥鬧鐘, 服藥進度及藥物標籤管理，血壓,血糖及體重記錄
+檢視
+用藥提醒 Dari｜吃藥鬧鐘與藥品管理
+智能服藥提醒，按時吃藥不再忘記
+台灣
+English (UK)
+選取國家或地區
+非洲、中東和印度
+顯示全部
+Algeria
+Angola
+Armenia
+Azerbaijan
+Bahrain
+Benin
+Botswana
+Burkina Faso
+Cameroun
+Cape Verde
+Chad
+Côte d’Ivoire
+Congo, The Democratic Republic Of The
+Egypt
+Eswatini
+Gabon
+Gambia
+Ghana
+Guinea-Bissau
+India
+Iraq
+Israel
+Jordan
+Kenya
+Kuwait
+Lebanon
+Liberia
+Libya
+Madagascar
+Malawi
+Mali
+Mauritania
+Mauritius
+Morocco
+Mozambique
+Namibia
+Niger (English)
+Nigeria
+Oman
+Qatar
+Congo, Republic of
+Rwanda
+São Tomé and Príncipe
+Saudi Arabia
+Senegal
+Seychelles
+Sierra Leone
+South Africa
+Sri Lanka
+Tajikistan
+Tanzania, United Republic Of
+Tunisia
+Turkmenistan
+United Arab Emirates
+Uganda
+Yemen
+Zambia
+Zimbabwe
+亞太地區
+顯示全部
+Afghanistan
+Australia
+Bhutan
+Brunei Darussalam
+Cambodia
+中国大陆
+Fiji
+香港
+Indonesia (English)
+日本
+Kazakhstan
+대한민국
+Kyrgyzstan
+Lao People's Democratic Republic
+澳門
+Malaysia (English)
+Maldives
+Micronesia, Federated States of
+Mongolia
+Myanmar
+Nauru
+Nepal
+New Zealand
+Pakistan
+Palau
+Papua New Guinea
+Philippines
+Singapore
+Solomon Islands
+台灣
+Thailand
+Tonga
+Turkmenistan
+Uzbekistan
+Vanuatu
+Vietnam
+歐洲
+顯示全部
+Albania
+Armenia
+Österreich
+Belarus
+Belgium
+Bosnia and Herzegovina
+Bulgaria
+Croatia
+Cyprus
+Czechia
+Denmark
+Estonia
+Finland
+France (Français)
+Georgia
+Deutschland
+Greece
+Hungary
+Iceland
+Ireland
+Italia
+Kosovo
+Latvia
+Lithuania
+Luxembourg (English)
+Malta
+Moldova, Republic Of
+Montenegro
+Nederland
+North Macedonia
+Norway
+Poland
+Portugal (Português)
+Romania
+Россия
+Serbia
+Slovakia
+Slovenia
+España
+Sverige
+Schweiz
+Türkiye (English)
+Ukraine
+United Kingdom
+拉丁美洲與加勒比海地區
+顯示全部
+Anguilla
+Antigua and Barbuda
+Argentina (Español)
+Bahamas
+Barbados
+Belize
+Bermuda
+Bolivia (Español)
+Brasil
+Virgin Islands, British
+Cayman Islands
+Chile (Español)
+Colombia (Español)
+Costa Rica (Español)
+Dominica
+República Dominicana
+Ecuador (Español)
+El Salvador (Español)
+Grenada
+Guatemala (Español)
+Guyana
+Honduras (Español)
+Jamaica
+México
+Montserrat
+Nicaragua (Español)
+Panamá
+Paraguay (Español)
+Perú
+St. Kitts and Nevis
+Saint Lucia
+St. Vincent and The Grenadines
+Suriname
+Trinidad and Tobago
+Turks and Caicos
+Uruguay (English)
+Venezuela (Español)
+美國與加拿大
+顯示全部
+Canada (English)
+Canada (Français)
+United States
+Estados Unidos (Español México)
+الولايات المتحدة
+США
+美国 (简体中文)
+États-Unis (Français France)
+미국
+Estados Unidos (Português Brasil)
+Hoa Kỳ
+美國 (繁體中文台灣)
+Copyright © 2026 Apple Inc. 保留一切權利。
+網路服務條款
+App Store 與隱私權
+Cookie 警告
+支援
