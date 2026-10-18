@@ -1,6 +1,8 @@
 # 花火工作室 FireSparkle.Studio 官網
 
-正式網址：https://firesparkle.com （網域設定完成前：https://victoriac1122.github.io/firesparkle-studio/）
+正式網址：https://firesparkle.com
+
+GitHub Pages 已設定自訂網域並強制 HTTPS；HTTP 與 `www.firesparkle.com` 會轉到正式網址。
 
 以玻璃火焰標誌為主視覺的獨立 App 工作室官網。朝霧花火配色以霧白、青灰、晨曦粉與暖金呈現；全站中英雙語，字型自託管（Noto Serif TC 宋體、Cormorant Garamond 英文襯線）。
 
