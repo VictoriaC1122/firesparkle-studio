@@ -1,0 +1,887 @@
+[
+  {
+    "id": "ac576a66d456",
+    "en": "Skip to content",
+    "zh": "跳到主要內容"
+  },
+  {
+    "id": "d9dae78103ad",
+    "en": "Games",
+    "zh": "遊戲"
+  },
+  {
+    "id": "0aa91af2ec4c",
+    "en": "Studio",
+    "zh": "工作室"
+  },
+  {
+    "id": "be91940b79f4",
+    "en": "Support",
+    "zh": "支援與聯絡"
+  },
+  {
+    "id": "5df016c63b59",
+    "en": "Independent app and game development",
+    "zh": "獨立 App 與遊戲開發"
+  },
+  {
+    "id": "89dd748442c1",
+    "en": "Apps",
+    "zh": "App 作品"
+  },
+  {
+    "id": "efd7e692421b",
+    "en": "Preparing for Steam",
+    "zh": "上架準備中"
+  },
+  {
+    "id": "4f52703c83bc",
+    "en": "Support & contact",
+    "zh": "支援與聯絡"
+  },
+  {
+    "id": "ec1653034dc3",
+    "en": "Product privacy",
+    "zh": "作品隱私政策"
+  },
+  {
+    "id": "5d3291ef46b6",
+    "en": "Website privacy",
+    "zh": "網站隱私說明"
+  },
+  {
+    "id": "3d7564a85a0b",
+    "en": "Life Logs",
+    "zh": "生活記錄"
+  },
+  {
+    "id": "99472f588f5b",
+    "en": "Leave Your Dream Behind",
+    "zh": "把夢遺留下來"
+  },
+  {
+    "id": "623385d36ab5",
+    "en": "Record dreams, moods and tags, then review your entries with a calendar and trends.",
+    "zh": "記錄夢境、情緒與標籤，用月曆和趨勢回顧夢境紀錄。"
+  },
+  {
+    "id": "494252f82123",
+    "en": "Everyday Tools",
+    "zh": "日常工具"
+  },
+  {
+    "id": "a86348225221",
+    "en": "Coffee Chat Note",
+    "zh": "Coffee Chat 筆記"
+  },
+  {
+    "id": "42152b8d69be",
+    "en": "Prepare for career conversations, take notes, organise contacts and set follow-up reminders.",
+    "zh": "準備求職與職場交流的會面，記錄對話、整理聯絡人，並設定後續跟進提醒。"
+  },
+  {
+    "id": "00e7176c6a47",
+    "en": "Creative Tools",
+    "zh": "創作工具"
+  },
+  {
+    "id": "3897376464f4",
+    "en": "Design It Yourself",
+    "zh": "自己來設計"
+  },
+  {
+    "id": "cd3379e20a1c",
+    "en": "Test colours on room photos, preview spaces, compare materials and track your budget.",
+    "zh": "在房間照片上試色，預覽空間、比較材料，並整理預算。"
+  },
+  {
+    "id": "9d54e94df4e7",
+    "en": "AI Time Manager",
+    "zh": "AI時間管理"
+  },
+  {
+    "id": "1314c21a8695",
+    "en": "Manage tasks, schedules and focus timers. Break down goals with on-device rules and templates, then review your progress.",
+    "zh": "管理任務、排程與專注計時，使用裝置內規則和範本拆解目標，回顧進度。"
+  },
+  {
+    "id": "e33191d921ef",
+    "en": "Vitamin Today",
+    "zh": "你今天維他命了嗎"
+  },
+  {
+    "id": "a38c782aef72",
+    "en": "Set supplement reminders, log daily intake and review your records in a calendar or weekly and monthly summaries.",
+    "zh": "安排補充品提醒、記錄每日服用情況，透過月曆與週月統計查看紀錄。"
+  },
+  {
+    "id": "4f7f934c20a5",
+    "en": "Easy Lucky Draw",
+    "zh": "輕鬆抽獎"
+  },
+  {
+    "id": "8cc241390e7c",
+    "en": "Paste a list, remove duplicates automatically and use it for prize draws, party games or class groups.",
+    "zh": "貼上名單後自動去除重複項目，用於活動抽獎、聚會遊戲或課堂分組。"
+  },
+  {
+    "id": "601493cd5584",
+    "en": "Learn & Plan",
+    "zh": "學習與規劃"
+  },
+  {
+    "id": "90783689979f",
+    "en": "Compound Interest Calculator",
+    "zh": "複利計算器-財務自由實現工具"
+  },
+  {
+    "id": "75c1146b7aed",
+    "en": "Calculate compound growth, regular contributions and inflation effects. Compare retirement, financial independence and loan scenarios.",
+    "zh": "試算複利、定期投入與通膨影響，比較退休、財務自由及貸款的規劃情境。"
+  },
+  {
+    "id": "112bfe650f85",
+    "en": "Stock Master: TW &amp; US Paper Trading",
+    "zh": "股神養成：台美股模擬交易"
+  },
+  {
+    "id": "bda7e7a0d9a4",
+    "en": "Practise Taiwan after-hours trades and US orders at custom prices with virtual funds. Record your reasons and review your holdings.",
+    "zh": "用虛擬資金練習台股盤後交易與美股自訂價格下單，記錄交易理由並查看持倉。"
+  },
+  {
+    "id": "362a05d18187",
+    "en": "Crypto Essentials Dictionary",
+    "zh": "幣圈神器-加密貨幣&amp;區塊鏈學習字典"
+  },
+  {
+    "id": "b38da7808f15",
+    "en": "Look up blockchain, cryptocurrency and asset security topics in Traditional Chinese and English, with lessons and daily review.",
+    "zh": "查詢區塊鏈、加密貨幣與資產安全知識，提供繁中及英文內容、課程與每日複習。"
+  },
+  {
+    "id": "7378921b2cc2",
+    "en": "PR Diary",
+    "zh": "公關日記"
+  },
+  {
+    "id": "3f80cf3493fb",
+    "en": "Diaries for guests, hostesses, hosts and managers to record work interactions, income, expenses, shifts and tasks.",
+    "zh": "提供客人、小姐、男模與經紀各自的日記，記錄工作互動、收支、排班與待辦。"
+  },
+  {
+    "id": "e9ed83ac15f9",
+    "en": "App &amp; game<br><em>development.</em>",
+    "zh": "花火工作室<br><em>App 與遊戲開發</em>"
+  },
+  {
+    "id": "354ae367343f",
+    "en": "We develop iOS apps, romance games and pet simulations. We are currently preparing for release on Steam.",
+    "zh": "我們開發 iOS App，也製作文字戀愛與養成遊戲。<br>目前正在準備將遊戲上架 Steam。"
+  },
+  {
+    "id": "76d0e180ce6c",
+    "en": "View games",
+    "zh": "查看遊戲"
+  },
+  {
+    "id": "e094997b4a57",
+    "en": "View apps",
+    "zh": "查看 App"
+  },
+  {
+    "id": "9ab88b5cbbed",
+    "en": "Release preparation in progress",
+    "zh": "遊戲上架準備中"
+  },
+  {
+    "id": "c6e9da06e794",
+    "en": "Selected work",
+    "zh": "作品選輯"
+  },
+  {
+    "id": "bd2a4d4b0c67",
+    "en": "Larry’s Cocktail Lab",
+    "zh": "賴瑞的調酒研究室"
+  },
+  {
+    "id": "f3f5b7f11cb0",
+    "en": "Coffee Chat",
+    "zh": "Coffee Chat 筆記"
+  },
+  {
+    "id": "1bc187f9f145",
+    "en": "Perfect Pig",
+    "zh": "完美養豬"
+  },
+  {
+    "id": "8b38b1330b0b",
+    "en": "View our work",
+    "zh": "作品列表"
+  },
+  {
+    "id": "fb5e4a0527c8",
+    "en": "Released games",
+    "zh": "已推出的遊戲"
+  },
+  {
+    "id": "2e2d2c9226ab",
+    "en": "Choose how a conversation unfolds in a bar, or spend seven days raising a piglet. Each game page has screenshots, a description and a download link.",
+    "zh": "在酒吧裡透過對話推進故事，或照顧一隻小豬。<br>介紹頁有遊戲畫面、玩法說明與下載連結。"
+  },
+  {
+    "id": "e42f4b9a99ed",
+    "en": "Available now on the App Store",
+    "zh": "以下作品已於 App Store 上架"
+  },
+  {
+    "id": "3ee225e9716a",
+    "en": "Game screenshot",
+    "zh": "遊戲畫面"
+  },
+  {
+    "id": "2dea9038a6c5",
+    "en": "Interactive fiction · Romance",
+    "zh": "互動敘事 · 戀愛文字"
+  },
+  {
+    "id": "e414315a3022",
+    "en": "Larry&#39;s Cocktail Lab",
+    "zh": "賴瑞的調酒研究室"
+  },
+  {
+    "id": "1de04060599b",
+    "en": "A romance game set in a bar. Dialogue choices lead to different story branches, which you can revisit using saved games.",
+    "zh": "以酒吧為背景的文字戀愛遊戲。對話選項會影響故事走向，可用存檔回到不同分支。"
+  },
+  {
+    "id": "a2abaee9e817",
+    "en": "Game details",
+    "zh": "遊戲介紹"
+  },
+  {
+    "id": "6bf2b540c08f",
+    "en": "Life sim · Raising",
+    "zh": "養成 · 模擬"
+  },
+  {
+    "id": "fe1febf931f2",
+    "en": "Raise a piglet over seven days. Feed, walk and chat with it to collect personality cards and story endings.",
+    "zh": "照顧小豬七天，安排餵食、散步與聊天，收集個性卡牌與故事結局。"
+  },
+  {
+    "id": "0f37616e388f",
+    "en": "Steam release status",
+    "zh": "Steam 上架進度"
+  },
+  {
+    "id": "75fc3546ceb9",
+    "en": "We are preparing a Steam release. Game details and the store link will be added here once confirmed.",
+    "zh": "我們正在準備 Steam 上架。<br>作品資訊與商店連結確認後，會在這裡更新。"
+  },
+  {
+    "id": "e771d0cdce4f",
+    "en": "Games, press & collaboration",
+    "zh": "遊戲合作與媒體聯繫"
+  },
+  {
+    "id": "df9995ffb7fd",
+    "en": "Apps for dream journals, meeting notes and daily schedules, alongside tools for home design, prize draws and learning.",
+    "zh": "記錄夢境、整理會面筆記、安排時間，<br>也有居家設計、抽獎與學習工具。"
+  },
+  {
+    "id": "86cb2ca72734",
+    "en": "Prepare questions before a meeting, then record notes and follow-ups.",
+    "zh": "會前準備問題，會後記下對話重點與後續聯絡。"
+  },
+  {
+    "id": "2945df36c2f9",
+    "en": "App details",
+    "zh": "App 介紹"
+  },
+  {
+    "id": "6eebe159fceb",
+    "en": "Record dreams, moods and tags, and browse past entries in a calendar.",
+    "zh": "記下夢境、情緒與標籤，從月曆回看過去的紀錄。"
+  },
+  {
+    "id": "01bed311e7d0",
+    "en": "All apps",
+    "zh": "所有 App"
+  },
+  {
+    "id": "cb0e13633b9d",
+    "en": "Apps: <b data-count>10</b>",
+    "zh": "共 <b data-count>10</b> 款作品"
+  },
+  {
+    "id": "a52ace420f21",
+    "en": "All",
+    "zh": "全部"
+  },
+  {
+    "id": "a10a36fa1098",
+    "en": "Search apps",
+    "zh": "搜尋 App"
+  },
+  {
+    "id": "3b7ea51793e9",
+    "en": "Clear search",
+    "zh": "清除搜尋"
+  },
+  {
+    "id": "e84a72f0cfbd",
+    "en": "No apps found. Try another search or clear the filters.",
+    "zh": "找不到符合的 App。請換個關鍵字或清除篩選。"
+  },
+  {
+    "id": "28b366d1f673",
+    "en": "Show all apps",
+    "zh": "顯示所有 App"
+  },
+  {
+    "id": "160a2982944d",
+    "en": "About FireSparkle",
+    "zh": "關於花火工作室"
+  },
+  {
+    "id": "9d26f52fd8f0",
+    "en": "FireSparkle.Studio is an independent developer of iOS apps and games. Our apps cover personal journals, work planning and learning. Our games include romance stories and pet simulations.",
+    "zh": "花火工作室是一間獨立開發工作室，目前的作品以 iOS App 和遊戲為主。App 包括生活記錄、工作整理與學習工具；遊戲則有文字戀愛與養成類型。"
+  },
+  {
+    "id": "fc54dd5e3e07",
+    "en": "App development",
+    "zh": "App 開發"
+  },
+  {
+    "id": "acba137f5d5a",
+    "en": "Notebooks, planners and home design tools.",
+    "zh": "筆記、時間管理、居家設計等工具。"
+  },
+  {
+    "id": "649c5ee5cd4f",
+    "en": "Game development",
+    "zh": "遊戲開發"
+  },
+  {
+    "id": "3b7fbada555e",
+    "en": "Games based on dialogue choices, character interactions and pet care.",
+    "zh": "以對話選擇、角色互動與養成為主要玩法。"
+  },
+  {
+    "id": "47aaf31b83d6",
+    "en": "Contact us",
+    "zh": "聯絡我們"
+  },
+  {
+    "id": "3cf4e3e03e04",
+    "en": "Email us about collaborations or press enquiries.<br>You can also use this address for product questions and bug reports.",
+    "zh": "合作或媒體採訪請來信。<br>使用問題與錯誤回報，也可以寄到這個信箱。"
+  },
+  {
+    "id": "f2d5cbe11cdd",
+    "en": "Product support",
+    "zh": "使用支援"
+  },
+  {
+    "id": "067348ce6894",
+    "en": "Screenshots",
+    "zh": "作品畫面"
+  },
+  {
+    "id": "292c06f0045a",
+    "en": "Category",
+    "zh": "類別"
+  },
+  {
+    "id": "2e6c28eb66f4",
+    "en": "Lifestyle",
+    "zh": "生活風格"
+  },
+  {
+    "id": "143f0330d2de",
+    "en": "Requires",
+    "zh": "系統需求"
+  },
+  {
+    "id": "b2e66fb735de",
+    "en": "iOS 18.5 or later",
+    "zh": "iOS 18.5 或以上"
+  },
+  {
+    "id": "bec2abe102ae",
+    "en": "Age rating",
+    "zh": "年齡分級"
+  },
+  {
+    "id": "3fb7b39416f1",
+    "en": "Developer",
+    "zh": "開發者"
+  },
+  {
+    "id": "3a78695388b3",
+    "en": "Home",
+    "zh": "首頁"
+  },
+  {
+    "id": "1aa15b809e3c",
+    "en": "View on the App Store",
+    "zh": "在 App Store 查看"
+  },
+  {
+    "id": "ba445cff3898",
+    "en": "Privacy policy",
+    "zh": "隱私政策"
+  },
+  {
+    "id": "4d0f4f5a1add",
+    "en": "Downloads and support",
+    "zh": "下載與支援"
+  },
+  {
+    "id": "f1e7f5290447",
+    "en": "See the App Store listing for current features, requirements, pricing and in-app purchases.",
+    "zh": "功能、系統需求、價格及 App 內購買項目，請以 App Store 的最新說明為準。"
+  },
+  {
+    "id": "89bc9e3e4342",
+    "en": "Read privacy information",
+    "zh": "閱讀隱私資訊"
+  },
+  {
+    "id": "4c4a152a2b45",
+    "en": "Support & FAQ",
+    "zh": "支援與常見問題"
+  },
+  {
+    "id": "a998867e54b7",
+    "en": "When you write, tell us the app or game name, your platform, device and operating system version, and what happened.",
+    "zh": "來信時請告訴我們作品名稱、使用平台、裝置與系統版本，以及遇到的狀況。"
+  },
+  {
+    "id": "d9172c43bec6",
+    "en": "Email us",
+    "zh": "寄信聯絡"
+  },
+  {
+    "id": "085aeec8f546",
+    "en": "Other apps and games",
+    "zh": "其他作品"
+  },
+  {
+    "id": "54a57c3147c4",
+    "en": "Privacy",
+    "zh": "隱私資訊"
+  },
+  {
+    "id": "ec16871e88f9",
+    "en": "Leave Your Dream Behind<br>Privacy Policy",
+    "zh": "把夢遺留下來<br>隱私權政策"
+  },
+  {
+    "id": "40a1416f187c",
+    "en": "View the original policy page",
+    "zh": "查看原政策頁面"
+  },
+  {
+    "id": "624fcbd52e0b",
+    "en": "Privacy questions: ",
+    "zh": "隱私或資料問題："
+  },
+  {
+    "id": "c344cffc33c2",
+    "en": "Compiled on October 18, 2026",
+    "zh": "彙整日期：2026 年 10 月 18 日"
+  },
+  {
+    "id": "f42bca637cb3",
+    "en": "Productivity",
+    "zh": "生產力工具"
+  },
+  {
+    "id": "5df2f71b7265",
+    "en": "iOS 17.0 or later",
+    "zh": "iOS 17.0 或以上"
+  },
+  {
+    "id": "f386ca1da91a",
+    "en": "Coffee Chat Note<br>Privacy Policy",
+    "zh": "Coffee Chat 筆記<br>隱私權政策"
+  },
+  {
+    "id": "a19d179c661a",
+    "en": "Graphics &amp; Design · Lifestyle",
+    "zh": "圖像與設計 · 生活風格"
+  },
+  {
+    "id": "553e36107d09",
+    "en": "Design It Yourself<br>Privacy Policy",
+    "zh": "自己來設計<br>隱私權政策"
+  },
+  {
+    "id": "934769b04303",
+    "en": "Games · Family · Simulation",
+    "zh": "遊戲 · 家庭 · 模擬"
+  },
+  {
+    "id": "5e4b92f18dc9",
+    "en": "Raise a piglet over seven days. Feed it, take it for walks and chat to shape its personality and collect cards and story endings.",
+    "zh": "以七天為一代的小豬養成遊戲。透過餵食、散步與聊天培養個性，收集卡牌和故事結局。"
+  },
+  {
+    "id": "cf2bf152b629",
+    "en": "All games",
+    "zh": "所有遊戲"
+  },
+  {
+    "id": "533a2542a5c7",
+    "en": "Perfect Pig<br>Privacy Policy",
+    "zh": "完美養豬<br>隱私權政策"
+  },
+  {
+    "id": "f31fffeb7b1f",
+    "en": "Utilities · Productivity",
+    "zh": "工具程式 · 生產力工具"
+  },
+  {
+    "id": "de6a7af42503",
+    "en": "AI Time Manager<br>Privacy Policy",
+    "zh": "AI 時間管理<br>隱私權政策"
+  },
+  {
+    "id": "b6a5705e724b",
+    "en": "Health &amp; Fitness",
+    "zh": "健康與健身"
+  },
+  {
+    "id": "d39243ea87e2",
+    "en": "Vitamin Today<br>Privacy Policy",
+    "zh": "你今天維他命了嗎<br>隱私權政策"
+  },
+  {
+    "id": "aba1b93df628",
+    "en": "Easy Lucky Draw<br>Privacy Policy",
+    "zh": "輕鬆抽獎<br>隱私權政策"
+  },
+  {
+    "id": "ffa9f5aef923",
+    "en": "Utilities · Finance",
+    "zh": "工具程式 · 財經"
+  },
+  {
+    "id": "d7c04adfb89f",
+    "en": "Compound Interest Calculator<br>Privacy Policy",
+    "zh": "複利計算器<br>隱私權政策"
+  },
+  {
+    "id": "0ba8fe824e32",
+    "en": "Finance · Education",
+    "zh": "財經 · 教育"
+  },
+  {
+    "id": "1c9276c59ae8",
+    "en": "Stock Master: TW &amp; US Paper Trading<br>Privacy Policy",
+    "zh": "股神養成<br>隱私權政策"
+  },
+  {
+    "id": "512ab3c6b986",
+    "en": "Education",
+    "zh": "教育"
+  },
+  {
+    "id": "4baa5bd4d013",
+    "en": "Crypto Essentials Dictionary<br>Privacy Policy",
+    "zh": "幣圈神器<br>隱私權政策"
+  },
+  {
+    "id": "20639ba6c8cd",
+    "en": "PR Diary<br>Privacy Policy",
+    "zh": "公關日記<br>隱私權政策"
+  },
+  {
+    "id": "070cf32c92df",
+    "en": "iOS 16.0 or later",
+    "zh": "iOS 16.0 或以上"
+  },
+  {
+    "id": "379338e2cb6e",
+    "en": "A romance text game set in a bar. Dialogue choices lead to different story branches, with local saves for revisiting routes.",
+    "zh": "以酒吧為背景的戀愛文字遊戲。透過對話選項進入不同故事分支，並以本機存檔回顧路線。"
+  },
+  {
+    "id": "62551b437a04",
+    "en": "Privacy information",
+    "zh": "隱私資訊"
+  },
+  {
+    "id": "424462deac49",
+    "en": "Larry&#39;s Cocktail Lab<br>Privacy Policy",
+    "zh": "賴瑞的調酒研究室<br>隱私資訊"
+  },
+  {
+    "id": "f03fa90b6776",
+    "en": "App privacy",
+    "zh": "App 隱私政策"
+  },
+  {
+    "id": "6073bc17e5fb",
+    "en": "Find the available privacy information and contact details for each app or game.",
+    "zh": "依作品查閱現有隱私說明與聯絡方式。"
+  },
+  {
+    "id": "8067a536bd46",
+    "en": "App privacy policy",
+    "zh": "App 隱私權政策"
+  },
+  {
+    "id": "12797c89530e",
+    "en": "Existing privacy information",
+    "zh": "現有隱私資訊與聯絡方式"
+  },
+  {
+    "id": "3bd53e310c17",
+    "en": "For this website itself, see the <a href=\"/website-privacy/\">website privacy notice</a>.",
+    "zh": "這個官網本身的資料處理，請參閱<a href=\"/website-privacy/\">網站隱私說明</a>。"
+  },
+  {
+    "id": "92e4f5edcf7c",
+    "en": "Support and contact",
+    "zh": "問題回報與聯絡"
+  },
+  {
+    "id": "086e147e639b",
+    "en": "Email us with questions or bug reports about our apps and games. Use the same address for collaboration and press enquiries.",
+    "zh": "App 或遊戲有使用問題，請寄信說明。<br>合作與媒體聯繫也使用同一個信箱。"
+  },
+  {
+    "id": "2fdab1c9329a",
+    "en": "What to include in a bug report",
+    "zh": "回報問題時請附上"
+  },
+  {
+    "id": "0a35e8aed35b",
+    "en": "The app or game name and version.",
+    "zh": "你使用的 App 或遊戲名稱與版本。"
+  },
+  {
+    "id": "30239e76ddde",
+    "en": "Your platform, device model and operating system version.",
+    "zh": "使用的平台、裝置型號與系統版本。"
+  },
+  {
+    "id": "4d78f3e71f64",
+    "en": "The steps that lead to the problem, and what you expected to see.",
+    "zh": "發生問題的步驟，以及預期看到的結果。"
+  },
+  {
+    "id": "a4013abe8b9f",
+    "en": "If you attach screenshots, cover any personal details first.",
+    "zh": "如附截圖，請先遮住不必要的個人資訊。"
+  },
+  {
+    "id": "09b958a23890",
+    "en": "We never need your passwords, card numbers or other sensitive details.",
+    "zh": "不需要提供密碼、付款卡號或其他敏感內容。"
+  },
+  {
+    "id": "e956a9404b46",
+    "en": "Frequently asked questions",
+    "zh": "常見問題"
+  },
+  {
+    "id": "c4e55af8e6a3",
+    "en": "How do I manage a subscription or ask for a refund?",
+    "zh": "如何管理訂閱或申請退款？"
+  },
+  {
+    "id": "efbc27016fbe",
+    "en": "Where can I read an app’s privacy policy?",
+    "zh": "在哪裡查看 App 的隱私政策？"
+  },
+  {
+    "id": "95a6fefaf4d0",
+    "en": "Can you help me recover data in an app?",
+    "zh": "可以協助找回 App 裡的資料嗎？"
+  },
+  {
+    "id": "c137fdd8c4ab",
+    "en": "Website privacy notice",
+    "zh": "網站隱私說明"
+  },
+  {
+    "id": "a2b6df969e0d",
+    "en": "Last updated October 18, 2026",
+    "zh": "更新日期：2026 年 10 月 18 日"
+  },
+  {
+    "id": "a469ab4ca4e5",
+    "en": "Page not found",
+    "zh": "找不到這個頁面"
+  },
+  {
+    "id": "a3830749116c",
+    "en": "The address may be incorrect, or the page may have moved. Return to the homepage to browse our apps and games.",
+    "zh": "網址可能有誤，或頁面已經移動。請返回首頁查看作品。"
+  },
+  {
+    "id": "76c5505ff2e2",
+    "en": "Back to home",
+    "zh": "返回首頁"
+  },
+  {
+    "id": "a4fe65264ef7",
+    "en": "Language",
+    "zh": "語言"
+  },
+  {
+    "id": "f8416d793a64",
+    "en": "Choose a language",
+    "zh": "選擇語言"
+  },
+  {
+    "id": "98cdcf4f2415",
+    "en": "Search languages",
+    "zh": "搜尋語言"
+  },
+  {
+    "id": "7d9eb7acb13e",
+    "en": "Close",
+    "zh": "關閉"
+  },
+  {
+    "id": "526a3268061c",
+    "en": "No matching languages. Try another name.",
+    "zh": "找不到這個語言，請試試其他名稱。"
+  },
+  {
+    "id": "f2f736b2366d",
+    "en": "Changing language…",
+    "zh": "正在切換語言…"
+  },
+  {
+    "id": "c817bbaf03f3",
+    "en": "This language could not be loaded. Please try again.",
+    "zh": "暫時無法載入這個語言，請再試一次。"
+  },
+  {
+    "id": "23665c83d549",
+    "en": "Your selection changes this website only. Check the App Store for the languages available in each app or game.",
+    "zh": "語言選擇只影響本網站。App 與遊戲支援的語言，請查看 App Store。"
+  },
+  {
+    "id": "c80216edbb16",
+    "en": "Search apps or features",
+    "zh": "搜尋名稱或功能"
+  },
+  {
+    "id": "a57b08a480b8",
+    "en": "Previous",
+    "zh": "上一張"
+  },
+  {
+    "id": "1ff57a29d7c9",
+    "en": "Next",
+    "zh": "下一張"
+  },
+  {
+    "id": "314f455a0ef4",
+    "en": "Enlarge screenshot",
+    "zh": "放大畫面"
+  },
+  {
+    "id": "2b4c8c6d38db",
+    "en": "Works",
+    "zh": "作品"
+  },
+  {
+    "id": "1cb0ba125f84",
+    "en": "Information",
+    "zh": "資訊"
+  },
+  {
+    "id": "2b5c3d26721a",
+    "en": "Contact",
+    "zh": "聯絡"
+  },
+  {
+    "id": "969ccbd3cf63",
+    "en": "Email",
+    "zh": "電子郵件"
+  },
+  {
+    "id": "dfb8a3d41335",
+    "en": "Common questions",
+    "zh": "常見問題"
+  },
+  {
+    "id": "349f126a54c7",
+    "en": "Independent app & game studio",
+    "zh": "獨立 App 與遊戲工作室"
+  },
+  {
+    "id": "497962fc8818",
+    "en": "Release status",
+    "zh": "發佈狀態"
+  },
+  {
+    "id": "df48dc82482a",
+    "en": "Support & Contact",
+    "zh": "使用支援與聯絡"
+  },
+  {
+    "id": "e5396570fde9",
+    "en": "More from FireSparkle",
+    "zh": "其他花火作品"
+  },
+  {
+    "id": "140acb338bd4",
+    "en": "Based on the existing published policy",
+    "zh": "依既有公開政策內容整理"
+  },
+  {
+    "id": "69e05abf524e",
+    "en": "The privacy policy below is kept in its original Traditional Chinese. Email the studio if you need an explanation in another language.",
+    "zh": "以下隱私政策保留繁體中文原文。若需要其他語言的說明，請寄信聯絡工作室。"
+  },
+  {
+    "id": "617130282ab7",
+    "en": "The website privacy notice is available in Traditional Chinese and English.",
+    "zh": "網站隱私說明提供繁體中文及英文版本。"
+  },
+  {
+    "id": "1b6124dfe597",
+    "en": "Read the Traditional Chinese original",
+    "zh": "閱讀繁體中文原文"
+  },
+  {
+    "id": "971012a5337e",
+    "en": "Read the English version",
+    "zh": "閱讀英文版"
+  },
+  {
+    "id": "5a2c65fef91f",
+    "en": "This is the app’s existing privacy policy, with the contact address updated to firesparkle.studio@gmail.com. References to the old site concern the original support site. For this website, see the <a href=\"/website-privacy/\">website privacy notice</a>.",
+    "zh": "以下沿用此 App 既有的隱私政策，聯絡信箱已更新為 firesparkle.studio@gmail.com。原文提及舊網站時，指的是原支援網站。本官網的資料處理請見<a href=\"/website-privacy/\">網站隱私說明</a>。"
+  },
+  {
+    "id": "3954df759bac",
+    "en": "This existing notice covers the app’s information webpage only, not all data handling within the app. Email us for details about app data, storage or deletion.",
+    "zh": "這份原有隱私說明僅涵蓋作品介紹網頁，未完整說明 App 內的資料處理。若需要了解 App 的資料、儲存或刪除方式，請寄信給我們。"
+  },
+  {
+    "id": "b4b24b6dcd08",
+    "en": "In-app purchases and subscriptions are handled by Apple. Manage them in iPhone Settings → your name → Subscriptions. Refunds are requested through <a href=\"https://reportaproblem.apple.com/\">Apple’s Report a Problem</a> and reviewed by Apple. Deleting an app does not cancel its subscription.",
+    "zh": "若 App 提供 Apple App 內購買或訂閱，可在 iPhone「設定 → 你的姓名 → 訂閱項目」管理。退款請透過 <a href=\"https://reportaproblem.apple.com/\">Apple 回報問題</a>提出，是否符合退款條件由 Apple 審核。刪除 App 不會自動取消訂閱。"
+  },
+  {
+    "id": "0dad92348ba0",
+    "en": "Visit the <a href=\"/privacy/\">privacy centre</a> and choose the app or game. For questions about accessing, correcting or deleting data, email us and include the product name.",
+    "zh": "前往<a href=\"/privacy/\">隱私中心</a>，選擇對應作品即可查看。若有資料存取、更正或刪除問題，請來信並註明作品名稱。"
+  },
+  {
+    "id": "4b97fbdad297",
+    "en": "Email us with the app name and what happened. Storage and backup differ by app, and some data lives only on your device, where we cannot access or restore it. Check the app’s backup options before deleting or reinstalling.",
+    "zh": "請先來信說明 App 名稱與狀況。各 App 的儲存與備份功能不同，部分資料只保存在你的裝置上，開發者可能無法存取或還原；刪除或重裝前，請先確認該 App 的備份方式。"
+  }
+]

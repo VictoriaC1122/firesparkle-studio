@@ -9,12 +9,11 @@
   let fullImage;
   let previous;
   let next;
-  let countZh;
-  let countEn;
+  let count;
   let currentLinks = [];
   let currentIndex = 0;
 
-  const bilingual = (zh, en) => `<span class="zh">${zh}</span><span class="en" lang="en">${en}</span>`;
+  const bilingual = (zh, en) => window.fsI18n?.markup(en) || zh;
 
   function createDialog() {
     dialog = document.createElement('dialog');
@@ -34,9 +33,7 @@
         <button class="gallery-modal-button gallery-modal-previous" type="button">
           <span aria-hidden="true">←</span>${bilingual('上一張', 'Previous')}
         </button>
-        <p class="gallery-modal-count" role="status" aria-live="polite" aria-atomic="true">
-          <span class="zh"></span><span class="en" lang="en"></span>
-        </p>
+        <p class="gallery-modal-count" role="status" aria-live="polite" aria-atomic="true"></p>
         <button class="gallery-modal-button gallery-modal-next" type="button">
           ${bilingual('下一張', 'Next')}<span aria-hidden="true">→</span>
         </button>
@@ -45,8 +42,7 @@
     fullImage = dialog.querySelector('.gallery-modal-image');
     previous = dialog.querySelector('.gallery-modal-previous');
     next = dialog.querySelector('.gallery-modal-next');
-    countZh = dialog.querySelector('.gallery-modal-count .zh');
-    countEn = dialog.querySelector('.gallery-modal-count .en');
+    count = dialog.querySelector('.gallery-modal-count');
     dialog.querySelector('.gallery-modal-close').addEventListener('click', () => dialog.close());
     previous.addEventListener('click', () => showImage(currentIndex - 1));
     next.addEventListener('click', () => showImage(currentIndex + 1));
@@ -54,7 +50,8 @@
       if (event.altKey || event.ctrlKey || event.metaKey || event.shiftKey) return;
       if (event.key === 'ArrowLeft' || event.key === 'ArrowRight') {
         event.preventDefault();
-        showImage(currentIndex + (event.key === 'ArrowLeft' ? -1 : 1));
+        const forward = document.documentElement.dir === 'rtl' ? 'ArrowLeft' : 'ArrowRight';
+        showImage(currentIndex + (event.key === forward ? 1 : -1));
       }
       // Escape and returning focus to the opener are handled by the native dialog.
     });
@@ -72,8 +69,8 @@
     const link = currentLinks[index];
     fullImage.alt = link.querySelector('img')?.alt || '';
     fullImage.src = link.href;
-    countZh.textContent = `第 ${index + 1} 張，共 ${currentLinks.length} 張`;
-    countEn.textContent = `${index + 1} of ${currentLinks.length}`;
+    const number = new Intl.NumberFormat(document.documentElement.lang);
+    count.textContent = `${number.format(index + 1)} / ${number.format(currentLinks.length)}`;
     previous.disabled = index === 0;
     next.disabled = index === currentLinks.length - 1;
     // Keep focus inside the controls if a navigation button reaches its boundary.

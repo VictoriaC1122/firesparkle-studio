@@ -1,25 +1,5 @@
-// 花火工作室 FireSparkle.Studio — 語言切換、作品搜尋與目前位置
+// 花火工作室 FireSparkle.Studio — 作品搜尋與目前位置
 document.documentElement.classList.add('js');
-const root = document.documentElement;
-const isEn = () => root.lang === 'en';
-
-// ---------- 語言切換（偏好存在瀏覽器本機） ----------
-function applyLang(lang) {
-  root.lang = lang === 'en' ? 'en' : 'zh-Hant';
-  for (const el of document.querySelectorAll('[data-placeholder-en]')) {
-    if (!el.dataset.placeholderZh) el.dataset.placeholderZh = el.placeholder;
-    el.placeholder = lang === 'en' ? el.dataset.placeholderEn : el.dataset.placeholderZh;
-  }
-}
-applyLang(isEn() ? 'en' : 'zh');
-for (const button of document.querySelectorAll('[data-lang-toggle]')) {
-  button.addEventListener('click', () => {
-    const next = isEn() ? 'zh' : 'en';
-    applyLang(next);
-    try { localStorage.setItem('fs-lang', next); } catch (e) { /* 私密瀏覽等情況下不儲存 */ }
-  });
-}
-
 // ---------- 作品篩選與搜尋（首頁） ----------
 const bar = document.querySelector('.filter-bar');
 const searchBox = document.querySelector('.search');
@@ -29,19 +9,19 @@ if (bar && input) {
   if (searchBox) searchBox.hidden = false;
   const clearSearch = document.querySelector('[data-clear-search]');
   const cards = [...document.querySelectorAll('.app-card')];
-  const counts = document.querySelectorAll('[data-count]');
   const empty = document.querySelector('.no-results');
   let category = '全部';
   const update = () => {
-    const words = input.value.trim().toLowerCase().split(/\s+/).filter(Boolean);
+    const words = input.value.trim().normalize('NFKC').toLowerCase().split(/\s+/).filter(Boolean);
     let shown = 0;
     for (const card of cards) {
       const inCategory = category === '全部' || card.dataset.category === category;
-      const matches = words.every((w) => card.dataset.search.includes(w));
+      const localizedText = `${card.dataset.search} ${card.querySelector('.card-content').textContent}`.normalize('NFKC').toLowerCase();
+      const matches = words.every((w) => localizedText.includes(w));
       card.hidden = !(inCategory && matches);
       if (!card.hidden) shown++;
     }
-    counts.forEach((el) => { el.textContent = String(shown); });
+    document.querySelectorAll('[data-count]').forEach((el) => { el.textContent = String(shown); });
     empty.hidden = shown > 0;
     if (clearSearch) clearSearch.hidden = input.value.length === 0;
   };
@@ -68,6 +48,7 @@ if (bar && input) {
   });
   // 包含瀏覽器返回此頁時還原的搜尋值。
   window.addEventListener('pageshow', update);
+  document.addEventListener('site:languagechange', update);
   update();
 }
 

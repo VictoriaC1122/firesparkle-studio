@@ -4,7 +4,7 @@
 
 GitHub Pages 已設定自訂網域並強制 HTTPS；HTTP 與 `www.firesparkle.com` 會轉到正式網址。
 
-以 App 與遊戲作品為主軸的獨立工作室官網，搭配官方作品畫面與玻璃火焰品牌標誌。朝霧花火配色以霧白、青灰、晨曦粉與暖金呈現；全站中英雙語，字型自託管（Noto Serif TC 宋體、Cormorant Garamond 英文襯線）。
+以 App 與遊戲作品為主軸的獨立工作室官網，搭配官方作品畫面與玻璃火焰品牌標誌。首頁以淺米色、晨霧與暖金花火呈現，提供 50 個語言選項。中文字型自託管（Noto Serif TC 宋體），西文標題採 Cormorant Garamond；其他文字使用適合該書寫系統的裝置字型。
 
 ## 內容
 
@@ -18,7 +18,10 @@ GitHub Pages 已設定自訂網域並強制 HTTPS；HTTP 與 `www.firesparkle.co
 - `src/content.mjs`：網址、信箱、作品排序、分類、英文名稱與英文簡介
 - `src/home.mjs`：首頁版型與中英文案，包含遊戲精選、Steam 進度、App 作品、工作室與聯絡區塊
 - `scripts/build.mjs`：共用頁首／頁尾、作品與政策等內頁的版型及中英文案；載入首頁模組並產生全站頁面
-- `public/style.css`、`public/site.js`：響應式外觀、語言切換、目前區塊導覽、分類與搜尋；清除搜尋時保留分類
+- `public/style.css`、`public/site.js`：響應式外觀、目前區塊導覽、分類與搜尋；清除搜尋時保留分類
+- `src/locales.mjs`、`src/i18n-build.mjs`：語言清單、文字 ID、翻譯驗證與語言資源產生器
+- `data/i18n/source.json`、`data/i18n/<locale>.json`：177 項繁中／英文來源文字及 48 組翻譯，透過固定文字 ID 對應
+- `public/i18n.js`、`public/i18n.css`：語言選單、按需載入、文字替換、文字方向與多語排版
 - `public/gallery.css`、`public/gallery.js`：作品截圖的原生 dialog 放大檢視，支援方向鍵、Escape 與焦點還原；未啟用 JavaScript 時仍可直接開啟圖片
 - `data/apple-catalog.json`：App Store 資料（中文名稱、簡介、圖示、系統需求）
 - `data/site-media.json`：官方 App Store 截圖的作品對應、來源網址、取得日期與本機圖片路徑
@@ -26,6 +29,18 @@ GitHub Pages 已設定自訂網域並強制 HTTPS；HTTP 與 `www.firesparkle.co
 - `data/privacy-sources/`：各 App 隱私政策正文
 
 改完執行 `node scripts/build.mjs`，本機預覽 `npm run preview` → http://127.0.0.1:4173
+
+## 語言
+
+50 個選項包含繁體／簡體中文、英、日、韓、西班牙、法、德、葡萄牙、義大利、俄、阿拉伯、印地、孟加拉、烏爾都、印尼、馬來、越南、泰、菲律賓、土耳其、波斯、烏克蘭、波蘭、荷蘭、羅馬尼亞、捷克、希臘、匈牙利、瑞典、丹麥、芬蘭、挪威、希伯來、泰米爾、泰盧固、馬拉地、古吉拉特、旁遮普、史瓦希里、南非、保加利亞、克羅埃西亞、塞爾維亞、斯洛伐克、斯洛維尼亞、立陶宛、拉脫維亞、愛沙尼亞及加泰隆尼亞語。葡萄牙文文案採巴西常用用語；挪威文採 Bokmål。
+
+清單兼顧常用語言與 App／遊戲市場，不宣稱是全球人口前 50 名的精確排名。選擇參考 [Ethnologue 的使用人口統計口徑](https://shop.ethnologue.com/products/2026-ethnologue-200)及 [Steam 官方語言調查](https://store.steampowered.com/hwsurvey/hw/)。
+
+首頁、作品介紹、支援、導覽、搜尋、圖片檢視及政策說明介面使用本機翻譯檔。各 App 的隱私政策正文保留已發布的繁中原文；網站隱私說明保留既有繁中及英文版本，並在各語言介面明確標示可閱讀的版本。網站語言選項不代表 App 或遊戲本身支援相同語言。
+
+訪客可用語言原名、英文名或中文名搜尋。優先順序為網址 `?lang=ja`、已儲存的 `fs-lang` 偏好、瀏覽器語言，最後英文。切換會更新站內連結及網址，方便分享；阿拉伯、波斯、希伯來及烏爾都語使用 RTL。翻譯由本站提供，選擇時只下載一個含內容雜湊的 JSON，不連外部翻譯服務；載入失敗保留原頁面並顯示重試提示。未啟用 JavaScript 時顯示繁中內容。
+
+新增或調整文字時，同步更新來源、所有翻譯與模板。來源 ID 為英文 HTML 的 SHA-256 前 12 碼；各語言檔使用 `{ "文字ID": "翻譯" }`，更動來源順序不影響對應，修改英文會要求同步更新各語言。翻譯中保留原有 HTML 標籤、網址及聯絡信箱。`npm run build` 會檢查來源 ID、177 項完整性與 HTML 結構，缺少任何語言即停止。開發中可暫用 `PREVIEW_PARTIAL_LOCALES=1 npm run build` 預覽已完成的語言；正式部署不可設定此變數。
 
 ## 文案
 
