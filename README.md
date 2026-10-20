@@ -33,6 +33,12 @@ GitHub Pages 已設定自訂網域並強制 HTTPS；HTTP 與 `www.firesparkle.co
 
 網站簡介可在 `src/content.mjs` 覆寫 `shortDescription`；`data/apple-catalog.json` 保留商店來源資料。隱私政策正文不隨行銷文案調整。分享預覽使用品牌標誌 `icon-512.png`，由頁面標題與描述提供文字。
 
+## 首頁視覺
+
+`public/home.css` 僅由首頁載入：淺米底、暖灰文字、香檳色細線，搭配本機 SVG `public/assets/brand/asagiri-hanabi.svg` 的花火與霧帶。主圖保持端正、完整呈現原始作品畫面；App 與 Steam 區使用同一套紙面色系。中文沿用 Noto Serif TC 宋體，正文與介面小字另保留足夠對比。裝飾不接收游標、不進入輔助技術閱讀順序，也沒有背景動畫。
+
+首頁樣式和 SVG 共同產生獨立的版本參數，更新首頁時不會改動作品隱私頁。`src/home.mjs` 負責內容結構，`scripts/build.mjs` 負責載入與路徑。
+
 ## 部署
 
 推上 `main` 後，GitHub Actions（`.github/workflows/pages.yml`）會自動 build 並發佈 `public/`。

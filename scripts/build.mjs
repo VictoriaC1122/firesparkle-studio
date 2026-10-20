@@ -14,6 +14,7 @@ const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const read = (path) => readFile(resolve(root, path), 'utf8');
 // 更新樣式時產生新資源網址，讓既有訪客直接取得新版。
 const assetVersion = createHash('sha256').update(await read('public/style.css')).update(await read('public/fonts/fonts.css')).update(await read('public/site.js')).update(await read('public/gallery.js')).update(await read('public/gallery.css')).digest('hex').slice(0, 12);
+const homeVersion = createHash('sha256').update(await read('public/home.css')).update(await read('public/assets/brand/asagiri-hanabi.svg')).digest('hex').slice(0, 12);
 const catalog = JSON.parse(await read('data/apple-catalog.json'));
 const policies = JSON.parse(await read('data/privacy-sources/manifest.json')).apps;
 const media = JSON.parse(await read('data/site-media.json'));
@@ -50,7 +51,7 @@ const footer = `<footer class="site-footer"><div class="wrap footer-grid"><div c
 
 function page({ path, title, description, content, bodyClass = '', navGroup = '', extraHead = '' }) {
   const canonical = `${siteURL}${path}`;
-  const html = `<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">${langBoot}<title>${esc(title)}</title><meta name="description" content="${esc(description)}"><link rel="canonical" href="${canonical}"><meta name="theme-color" content="#f7f5ee"><meta property="og:type" content="website"><meta property="og:url" content="${canonical}"><meta property="og:title" content="${esc(title)}"><meta property="og:description" content="${esc(description)}"><meta property="og:site_name" content="花火工作室 FireSparkle.Studio"><meta property="og:image" content="${siteURL}/assets/brand/icon-512.png"><meta property="og:image:width" content="512"><meta property="og:image:height" content="512"><meta property="og:image:alt" content="花火工作室 FireSparkle.Studio"><meta name="twitter:card" content="summary"><link rel="icon" href="/favicon.png" type="image/png" sizes="64x64"><link rel="icon" href="/favicon-32.png" type="image/png" sizes="32x32"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="preload" href="/fonts/cormorant-garamond/cormorant-garamond-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin><link rel="stylesheet" href="/fonts/fonts.css?v=${assetVersion}"><link rel="stylesheet" href="/style.css?v=${assetVersion}"><script src="/site.js?v=${assetVersion}" defer></script>${extraHead}</head><body class="${bodyClass}"${navGroup ? ` data-nav="${navGroup}"` : ''}>${header}<main id="main">${content}</main>${footer}</body></html>`;
+  const html = `<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">${langBoot}<title>${esc(title)}</title><meta name="description" content="${esc(description)}"><link rel="canonical" href="${canonical}"><meta name="theme-color" content="${bodyClass === 'is-home' ? '#f8f3e9' : '#f7f5ee'}"><meta property="og:type" content="website"><meta property="og:url" content="${canonical}"><meta property="og:title" content="${esc(title)}"><meta property="og:description" content="${esc(description)}"><meta property="og:site_name" content="花火工作室 FireSparkle.Studio"><meta property="og:image" content="${siteURL}/assets/brand/icon-512.png"><meta property="og:image:width" content="512"><meta property="og:image:height" content="512"><meta property="og:image:alt" content="花火工作室 FireSparkle.Studio"><meta name="twitter:card" content="summary"><link rel="icon" href="/favicon.png" type="image/png" sizes="64x64"><link rel="icon" href="/favicon-32.png" type="image/png" sizes="32x32"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="preload" href="/fonts/cormorant-garamond/cormorant-garamond-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin><link rel="stylesheet" href="/fonts/fonts.css?v=${assetVersion}"><link rel="stylesheet" href="/style.css?v=${assetVersion}"><script src="/site.js?v=${assetVersion}" defer></script>${extraHead}</head><body class="${bodyClass}"${navGroup ? ` data-nav="${navGroup}"` : ''}>${header}<main id="main">${content}</main>${footer}</body></html>`;
   // 站內絕對路徑（href="/..."、src="/..."）加上 BASE_PATH 前綴
   return base ? html.replace(/\b(href|src)="\/(?!\/)/g, `$1="${base}/`) : html;
 }
@@ -64,10 +65,10 @@ const crumbLink = (href, label) => `<a href="${href}">${label}</a><span class="s
 const arrow = (c = '→') => `<svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="${c === '↗' ? 'M6 18 18 6M6 6h12v12' : c === '↓' ? 'M12 4v16m-6-6 6 6 6-6' : 'M4 12h16m-6-6 6 6-6 6'}"/></svg>`;
 
 // 首頁由獨立模組產生，既有作品與政策網址保持穩定。
-const home = renderHome({ apps, media, L, esc, appURL, catL, mailto, email, arrow });
+const home = renderHome({ apps, media, L, esc, appURL, catL, mailto, email, arrow }).replace('asagiri-hanabi.svg"', `asagiri-hanabi.svg?v=${homeVersion}"`);
 
 const orgLd = `<script type="application/ld+json">${JSON.stringify({ '@context': 'https://schema.org', '@type': 'Organization', name: 'FireSparkle.Studio', alternateName: '花火工作室', url: siteURL, logo: `${siteURL}/assets/brand/icon-512.png`, email, slogan: site.tagline })}</script>`;
-await save('index.html', page({ path: '/', title: '花火工作室 FireSparkle.Studio｜App 與遊戲工作室', description: `花火工作室 FireSparkle.Studio：獨立 App 與遊戲工作室。提供 iOS App、文字戀愛與養成遊戲的介紹、下載連結與使用支援，目前正在準備 Steam 上架。`, content: home, bodyClass: 'is-home', extraHead: orgLd }));
+await save('index.html', page({ path: '/', title: '花火工作室 FireSparkle.Studio｜App 與遊戲工作室', description: `花火工作室 FireSparkle.Studio：獨立 App 與遊戲工作室。提供 iOS App、文字戀愛與養成遊戲的介紹、下載連結與使用支援，目前正在準備 Steam 上架。`, content: home, bodyClass: 'is-home', extraHead: `<link rel="stylesheet" href="/home.css?v=${homeVersion}">${orgLd}` }));
 
 // --------------------------------------------------------------------------
 // 作品頁、隱私頁
