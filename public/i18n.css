@@ -53,6 +53,7 @@ html[dir=rtl] .dawn-foot > a { margin-left: 0; margin-inline-start: 36px; }
 html[dir=rtl] .language-options button { padding-inline: 10px 28px; }
 html[dir=rtl] .steam-teaser > .arrow { margin-left: 0; margin-inline-start: auto; }
 html[dir=rtl] .card-no { left: auto; inset-inline-start: 14px; }
+html[dir=rtl] .is-home .card-no { inset-inline-start: 0; }
 html[dir=rtl] .gallery-modal-previous > span[aria-hidden], html[dir=rtl] .gallery-modal-next > span[aria-hidden] { display: inline-block; transform: scaleX(-1); }
 html[data-script] .site-nav { gap: clamp(14px,2vw,28px); }
 html[data-script] .dawn-actions { flex-wrap: wrap; gap: 16px 28px; }

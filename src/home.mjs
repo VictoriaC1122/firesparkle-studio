@@ -1,8 +1,8 @@
 // 首頁：App 與遊戲工作室。Steam 資訊僅呈現已確認的準備狀態。
-export function renderHome({ apps, media, L, T, messageId, esc, appURL, catL, mailto, email, arrow }) {
+export function renderHome({ apps, media, L, T, messageId, esc, appURL, catL, mailto, email, arrow, brandAsset }) {
   const bySlug = Object.fromEntries(apps.map(a => [a.slug, a]));
   const utilities = apps.filter(a => !a.genres.includes('遊戲'));
-  const groups = ['全部', ...new Set(utilities.map(a => a.category))];
+  const groups = ['全部', ...new Set(apps.map(a => a.category))];
   const image = (slug, n = 0) => media[slug].images[n];
   const appIcon = (slug, size = 64) => `<img src="${bySlug[slug].iconPath}" alt="" width="${size}" height="${size}" loading="lazy">`;
   const game = (slug, index, tone, zhType, enType, zhDesc, enDesc, shot = 0) => {
@@ -14,12 +14,8 @@ export function renderHome({ apps, media, L, T, messageId, esc, appURL, catL, ma
       <div class="work-actions"><a class="text-link" href="${appURL(a)}">${L('遊戲介紹', 'Game details')} ${arrow()}</a><a class="store-link" href="${a.storeUrl}">App Store ${arrow('↗')}</a></div></div>
     </article>`;
   };
-  const featureApp = (slug, tone, zhLine, enLine) => {
-    const a = bySlug[slug];
-    return `<a class="app-feature ${tone} reveal" href="${appURL(a)}"><div class="feature-copy"><p class="eyebrow">${catL(a.category)}</p>${appIcon(slug, 52)}<h3>${L(esc(a.short), esc(a.en))}</h3><p>${L(zhLine, enLine)}</p><span class="text-link">${L('App 介紹', 'App details')} ${arrow()}</span></div><div class="feature-screen"><img src="${image(slug)}" alt="${esc(a.short)} 官方 App Store 介紹畫面" data-i18n-alt="${messageId(esc(a.en))}" data-i18n-alt-suffix="${messageId('Screenshots')}" width="${slug === 'coffee-chat' ? 414 : 675}" height="900" loading="lazy"></div></a>`;
-  };
-  const list = utilities.map((a,i) => `<article class="app-card reveal" data-category="${a.category}" data-search="${esc([a.nameZhHant,a.short,a.en,a.shortDescription,a.enDesc,a.category].join(' ').toLowerCase())}">
-    <img class="card-icon" src="${a.iconPath}" alt="" loading="lazy" width="64" height="64"><div class="card-content"><p class="card-category">${catL(a.category)}</p><h3><a class="card-main-link" href="${appURL(a)}">${L(esc(a.short),esc(a.en))}</a></h3><p class="card-desc">${L(esc(a.shortDescription),esc(a.enDesc))}</p></div><span class="card-arrow" aria-hidden="true">${arrow('↗')}</span><span class="card-no" aria-hidden="true">${String(i+1).padStart(2,'0')}</span></article>`).join('');
+  const list = apps.map((a,i) => `<article class="app-card reveal" data-category="${a.category}" data-search="${esc([a.nameZhHant,a.short,a.en,a.shortDescription,a.enDesc,a.category].join(' ').toLowerCase())}">
+    <span class="card-no" aria-hidden="true">${String(i+1).padStart(2,'0')}</span><img class="card-icon" src="${a.iconPath}" alt="" loading="lazy" width="64" height="64"><div class="card-content"><p class="card-category">${catL(a.category)}</p><h3><a class="card-main-link" href="${appURL(a)}">${L(esc(a.short),esc(a.en))}</a></h3><p class="card-desc">${L(esc(a.shortDescription),esc(a.enDesc))}</p></div><span class="card-arrow" aria-hidden="true">${arrow('↗')}</span></article>`).join('');
   return `
 <section class="dawn-hero" aria-labelledby="hero-title">
  <img class="dawn-art" src="/assets/brand/asagiri-hanabi.svg" alt="" width="1600" height="900" aria-hidden="true">
@@ -27,7 +23,7 @@ export function renderHome({ apps, media, L, T, messageId, esc, appURL, catL, ma
   <div class="dawn-copy"><p class="eyebrow">${T('Independent app & game studio')}</p>
    <h1 id="hero-title">${L('花火工作室<br><em>App 與遊戲開發</em>', 'App &amp; game<br><em>development.</em>')}</h1>
    <p class="dawn-lead">${L('我們開發 iOS App，也製作文字戀愛與養成遊戲。<br>目前正在準備將遊戲上架 Steam。', 'We develop iOS apps, romance games and pet simulations. We are currently preparing for release on Steam.')}</p>
-   <div class="dawn-actions"><a class="button" href="#games">${L('查看遊戲', 'View games')} ${arrow('↗')}</a><a class="text-link" href="#apps">${L('查看 App', 'View apps')} ${arrow()}</a></div>
+   <div class="dawn-actions"><a class="button" href="#games">${L('查看遊戲', 'View games')} ${arrow('↗')}</a><a class="text-link" href="#apps">${L('作品列表', 'View our work')} ${arrow()}</a></div>
    <a class="steam-teaser" href="#steam"><span class="status-dot" aria-hidden="true"></span><span><b>Steam</b><small>${L('遊戲上架準備中', 'Release preparation in progress')}</small></span>${arrow()}</a>
   </div>
   <div class="dawn-work">
@@ -39,7 +35,7 @@ export function renderHome({ apps, media, L, T, messageId, esc, appURL, catL, ma
    </div>
   </div>
  </div>
- <div class="wrap dawn-foot"><span class="dawn-signature">FireSparkle<span>.</span>Studio</span><span class="dawn-count">${utilities.length} APPS <i>/</i> ${apps.length - utilities.length} GAMES</span><a href="#games">${L('作品列表', 'View our work')} ${arrow('↓')}</a></div>
+ <div class="wrap dawn-foot"><span class="dawn-signature">FireSparkle<span>.</span>Studio</span><span class="dawn-count"><span class="dawn-total"><strong>${apps.length}</strong> ${T('Works')}</span><span class="dawn-breakdown">${utilities.length} APPS <i>/</i> ${apps.length - utilities.length} GAMES</span></span><a href="#apps">${L('作品列表', 'View our work')} ${arrow('↓')}</a></div>
 </section>
 
 <section id="games" class="games-section" aria-labelledby="games-title"><div class="wrap">
@@ -49,14 +45,12 @@ export function renderHome({ apps, media, L, T, messageId, esc, appURL, catL, ma
 </div></section>
 
 <section id="apps" class="apps-section" aria-labelledby="apps-title"><div class="wrap">
- <div class="section-heading"><div><p class="eyebrow"><span class="section-no">02</span> ${T('Apps')}</p><h2 id="apps-title">${L('App 作品', 'Apps')}</h2></div><p class="section-intro">${L('記錄夢境、整理會面筆記、安排時間，<br>也有居家設計、抽獎與學習工具。', 'Apps for dream journals, meeting notes and daily schedules, alongside tools for home design, prize draws and learning.')}</p></div>
- <div class="app-features">${featureApp('coffee-chat','feature-sage','會前準備問題，會後記下對話重點與後續聯絡。','Prepare questions before a meeting, then record notes and follow-ups.')}${featureApp('dream-journal','feature-night','記下夢境、情緒與標籤，從月曆回看過去的紀錄。','Record dreams, moods and tags, and browse past entries in a calendar.')}</div>
- <div class="catalog-heading"><h3>${L('所有 App', 'All apps')}</h3><p class="app-count" aria-live="polite">${L('共 <b data-count>{count}</b> 款作品','Apps: <b data-count>{count}</b>',{count:utilities.length})}</p></div>
- <div class="collection-tools"><div class="filter-bar" role="group" aria-label="App 分類" data-i18n-label="${messageId('Category')}" hidden>${groups.map((g,i)=>`<button type="button" data-filter="${g}" aria-pressed="${i===0}">${catL(g)}</button>`).join('')}</div><div class="search" hidden><label class="visually-hidden" for="app-search">${L('搜尋 App', 'Search apps')}</label><svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m15.5 15.5 5 5"/></svg><input id="app-search" type="search" placeholder="搜尋名稱或功能" data-i18n-placeholder="${messageId('Search apps or features')}" data-i18n-label="${messageId('Search apps')}" aria-label="搜尋 App" autocomplete="off"><button class="search-clear" type="button" data-clear-search hidden><span class="visually-hidden">${L('清除搜尋', 'Clear search')}</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m7 7 10 10M17 7 7 17"/></svg></button></div></div>
- <div class="app-grid">${list}</div><div class="no-results" hidden><p>${L('找不到符合的 App。請換個關鍵字或清除篩選。','No apps found. Try another search or clear the filters.')}</p><button class="button button-quiet" type="button" data-reset>${L('顯示所有 App','Show all apps')}</button></div>
+ <div class="section-heading catalog-heading"><div class="catalog-title"><p class="eyebrow"><span class="section-no">02</span> ${T('Works')}</p><h2 id="apps-title">${T('All works')}</h2><p class="section-intro">${T('Apps for daily life and learning, alongside romance games and pet simulations.')}</p></div><p class="app-count" aria-live="polite" aria-atomic="true">${L('共 <b data-count>{count}</b> 款作品','Works: <b data-count>{count}</b>',{count:apps.length})}</p></div>
+ <div class="collection-tools"><div class="filter-bar" role="group" aria-label="作品分類" data-i18n-label="${messageId('Category')}" hidden>${groups.map((g,i)=>`<button type="button" data-filter="${g}" aria-pressed="${i===0}">${catL(g)}</button>`).join('')}</div><div class="search" hidden><label class="visually-hidden" for="app-search">${T('Search works')}</label><svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m15.5 15.5 5 5"/></svg><input id="app-search" type="search" placeholder="搜尋名稱或功能" data-i18n-placeholder="${messageId('Search works or features')}" data-i18n-label="${messageId('Search works')}" aria-label="搜尋作品" autocomplete="off"><button class="search-clear" type="button" data-clear-search hidden><span class="visually-hidden">${L('清除搜尋', 'Clear search')}</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m7 7 10 10M17 7 7 17"/></svg></button></div></div>
+ <div class="app-grid">${list}</div><div class="no-results" hidden><p>${T('No works found. Try another search or clear the filters.')}</p><button class="button button-quiet" type="button" data-reset>${T('Show all works')}</button></div>
 </div></section>
 
-<section id="studio" class="about-section" aria-labelledby="studio-title"><div class="wrap about-grid"><div class="about-identity"><p class="eyebrow"><span class="section-no">03</span> ${T('Studio')}</p><img src="/assets/brand/firesparkle-mark-720.webp" alt="FireSparkle.Studio" width="720" height="692" loading="lazy"><p>FireSparkle<span>.</span>Studio</p><small>${L('獨立 App 與遊戲開發','Independent app and game development')}</small></div><div class="about-copy"><h2 id="studio-title">${L('關於花火工作室', 'About FireSparkle')}</h2><p>${L('花火工作室是一間獨立開發工作室，目前的作品以 iOS App 和遊戲為主。App 包括生活記錄、工作整理與學習工具；遊戲則有文字戀愛與養成類型。','FireSparkle.Studio is an independent developer of iOS apps and games. Our apps cover personal journals, work planning and learning. Our games include romance stories and pet simulations.')}</p><div class="studio-principles"><div><span>01 / APP</span><h3>${L('App 開發','App development')}</h3><p>${L('筆記、時間管理、居家設計等工具。','Notebooks, planners and home design tools.')}</p></div><div><span>02 / GAME</span><h3>${L('遊戲開發','Game development')}</h3><p>${L('以對話選擇、角色互動與養成為主要玩法。','Games based on dialogue choices, character interactions and pet care.')}</p></div></div></div></div></section>
+<section id="studio" class="about-section" aria-labelledby="studio-title"><div class="wrap about-grid"><div class="about-identity"><p class="eyebrow"><span class="section-no">03</span> ${T('Studio')}</p><img src="${brandAsset('/assets/brand/firesparkle-mark-720.webp')}" alt="FireSparkle.Studio" width="720" height="720" loading="lazy"><p>FireSparkle<span>.</span>Studio</p><small>${L('獨立 App 與遊戲開發','Independent app and game development')}</small></div><div class="about-copy"><h2 id="studio-title">${L('關於花火工作室', 'About FireSparkle')}</h2><p>${L('花火工作室是一間獨立開發工作室，目前的作品以 iOS App 和遊戲為主。App 包括生活記錄、工作整理與學習工具；遊戲則有文字戀愛與養成類型。','FireSparkle.Studio is an independent developer of iOS apps and games. Our apps cover personal journals, work planning and learning. Our games include romance stories and pet simulations.')}</p><div class="studio-principles"><div><span>01 / APP</span><h3>${L('App 開發','App development')}</h3><p>${L('筆記、時間管理、居家設計等工具。','Notebooks, planners and home design tools.')}</p></div><div><span>02 / GAME</span><h3>${L('遊戲開發','Game development')}</h3><p>${L('以對話選擇、角色互動與養成為主要玩法。','Games based on dialogue choices, character interactions and pet care.')}</p></div></div></div></div></section>
 
 <section id="contact" class="contact-section"><div class="wrap"><p class="eyebrow">${T('Contact')}</p><div class="contact-layout"><h2>${L('聯絡我們','Contact us')}</h2><div><p>${L('合作或媒體採訪請來信。<br>使用問題與錯誤回報，也可以寄到這個信箱。','Email us about collaborations or press enquiries.<br>You can also use this address for product questions and bug reports.')}</p><a class="contact-email" href="${mailto()}">${email} ${arrow('↗')}</a><a class="text-link" href="/support/">${L('使用支援','Product support')} ${arrow()}</a></div></div></div></section>`;
 }

@@ -80,7 +80,10 @@ html[lang=en] .dawn-copy h1 em { font-size: .9em; letter-spacing: -.035em; margi
 .dawn-foot::before { content: ""; position: absolute; top: 0; left: var(--gutter); right: var(--gutter); border-top: 1px solid var(--line); }
 .dawn-signature { font: italic 400 24px/1 var(--font-latin); letter-spacing: -.025em; }
 .dawn-signature > span { color: var(--accent); }
-.dawn-count { margin-left: auto; font: 500 12px/1.5 var(--font-latin); letter-spacing: .13em; }
+.dawn-count { margin-left: auto; display: flex; align-items: center; gap: 24px; font-size: 12px; }
+.dawn-total { display: flex; align-items: baseline; gap: 9px; color: var(--ink-soft); }
+.dawn-total strong { font: 400 32px/1 var(--font-latin); color: var(--accent); }
+.dawn-breakdown { font: 500 11px/1.5 var(--font-latin); letter-spacing: .1em; }
 .dawn-count i { font-style: normal; margin: 0 14px; color: var(--line-strong); }
 .dawn-foot > a { display: inline-flex; align-items: center; gap: 14px; min-height: 32px; font-size: 12px; margin-left: 36px; }
 .dawn-foot > a .arrow { width: 15px; height: 15px; }
@@ -113,31 +116,33 @@ html[lang=en] .dawn-copy h1 em { font-size: .9em; letter-spacing: -.035em; margi
 .is-home .steam-copy p { color: var(--ink-soft); font-size: 15px; }
 .is-home .steam-copy .text-link { color: var(--ink); border-color: var(--line-strong); }
 
-.is-home .apps-section { padding-block: 100px 104px; }
-.is-home .app-features { gap: 40px; margin-bottom: 68px; }
-.is-home .app-feature { background: transparent; border: 0; border-block: 1px solid var(--line); border-radius: 0; min-height: 388px; gap: 18px; color: var(--ink-soft); }
-.is-home .app-feature:hover { transform: none; box-shadow: none; }
-.is-home .feature-copy { padding: 30px 0 30px 0; }
-.is-home .feature-copy h3 { font-size: 23px; color: var(--ink); }
-.is-home .feature-copy .eyebrow { color: var(--muted); }
-.is-home .feature-copy > p:not(.eyebrow) { font-size: 15px; }
-.is-home .feature-copy .text-link { color: var(--ink); border-color: var(--line-strong); }
-.is-home .feature-copy > img { width: 44px; border-radius: 10px; }
-.is-home .feature-screen, .is-home .feature-night .feature-screen {
-  height: 320px; width: 100%; max-width: 210px; align-self: center; justify-self: end;
-  transform: none; border: 6px solid #eee3d0; border-radius: 3px; background: #eee3d0; box-shadow: none;
-}
-.is-home .feature-screen img, .is-home .feature-night .feature-screen img { object-fit: contain; object-position: center; }
-.is-home .catalog-heading { border-top: 0; padding-top: 0; }
-.is-home .filter-bar { gap: 8px; }
-.is-home .filter-bar button { border-radius: 0; padding-inline: 13px; }
-.is-home .filter-bar button[aria-pressed=true] { background: #e9dfcf; color: #544534; box-shadow: inset 0 -1px #a08562; }
-.is-home .search { background: #fcf8f173; border-color: var(--line); border-radius: 0; }
-.is-home .search:focus-within { border-color: var(--accent); box-shadow: 0 0 0 2px #80624412; }
-.is-home .app-card { border-radius: 0; padding-block: 30px; }
+/* A numbered catalogue: each work gets the same space and reading hierarchy. */
+.is-home .apps-section { padding-block: 108px 112px; }
+.is-home .catalog-heading { align-items: flex-end; border: 0; padding: 0; margin-bottom: 36px; gap: 48px; }
+.is-home .catalog-title { min-width: 0; }
+.is-home .catalog-title h2 { margin-bottom: 18px; }
+.is-home .catalog-title .section-intro { max-width: 38em; margin: 0; color: var(--muted); }
+.is-home .app-count { flex: none; max-width: min(19rem, 100%); padding-bottom: 4px; font-size: 13px; line-height: 1.8; overflow-wrap: anywhere; }
+.is-home .app-count > span { display: flex; align-items: baseline; justify-content: flex-end; flex-wrap: wrap; column-gap: 10px; }
+.is-home .app-count b { font: 400 80px/.95 var(--font-latin); letter-spacing: -.04em; color: var(--accent); }
+.is-home .collection-tools { align-items: center; gap: 24px; padding-block: 18px 22px; border-top: 1px solid var(--line-strong); }
+.is-home .filter-bar { gap: 4px 14px; }
+.is-home .filter-bar button { min-height: 44px; border-radius: 0; padding: 9px 2px; font-size: 13px; border-bottom: 1px solid transparent; }
+.is-home .filter-bar button[aria-pressed=true] { background: transparent; color: var(--ink); border-bottom-color: var(--accent); box-shadow: none; }
+.is-home .filter-bar button:hover { box-shadow: none; border-bottom-color: var(--line-strong); }
+.is-home .search { flex: none; width: 238px; min-height: 44px; background: transparent; border-color: var(--line); border-radius: 0; }
+.is-home .search:focus-within { border-color: var(--accent); box-shadow: 0 1px var(--accent); }
+.is-home .search input { font-size: 13px; }
+.is-home .app-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 56px; border-bottom: 1px solid var(--line); }
+.is-home .app-card { grid-template-columns: 24px 54px minmax(0, 1fr) 16px; align-items: start; gap: 18px; border-radius: 0; padding: 34px 0 36px; min-height: 176px; }
+.is-home .card-no { position: static; inset: auto; padding-top: 5px; font: italic 400 17px/1.4 var(--font-latin); color: var(--accent); }
+.is-home .card-icon { width: 54px; height: 54px; margin-top: 5px; border-radius: 12px; box-shadow: 0 4px 12px -9px #705d3b50; }
+.is-home .card-category { font-size: 11px; line-height: 1.6; letter-spacing: .05em; margin-bottom: 7px; }
+.is-home .card-content h3 { font-size: 21px; line-height: 1.6; font-weight: 400; margin-bottom: 12px; }
+.is-home .card-desc { font-size: 14px; line-height: 1.95; color: var(--ink-soft); }
+.is-home .card-arrow { align-self: start; padding-top: 32px; pointer-events: none; }
+.is-home .card-arrow .arrow { width: 15px; height: 15px; }
 .is-home .app-card:focus-within { background: #eee4d65c; }
-.is-home .card-desc { font-size: 15px; }
-.is-home .card-no { color: var(--muted); }
 
 .is-home .about-section { --muted: #716454; position: relative; isolation: isolate; overflow: clip; background: #f1e9db; padding-block: 82px; border-color: var(--line); }
 .is-home .about-section::before { content: ""; position: absolute; inset: 0 40% 0 -20%; z-index: -1; background: url("assets/brand/asagiri-hanabi.svg") right center / auto 690px no-repeat; opacity: .48; pointer-events: none; }
@@ -167,9 +172,11 @@ html[lang=en] .dawn-copy h1 em { font-size: .9em; letter-spacing: -.035em; margi
   .is-home .game-grid { gap: 30px; }
 }
 @media (max-width: 960px) {
-  .is-home .app-feature { grid-template-columns: 1.3fr .8fr; min-height: 360px; }
-  .is-home .feature-copy { padding: 30px 18px 30px 0; }
-  .is-home .feature-screen, .is-home .feature-night .feature-screen { width: 210px; justify-self: center; }
+  .is-home .collection-tools { align-items: flex-start; }
+  .is-home .app-grid { column-gap: 30px; }
+  .is-home .app-card { grid-template-columns: 18px 46px minmax(0, 1fr) 14px; gap: 12px; }
+  .is-home .card-icon { width: 46px; height: 46px; border-radius: 10px; }
+  .is-home .card-content h3 { font-size: 19px; }
 }
 @media (max-width: 800px) {
   .dawn-grid { grid-template-columns: 1fr; gap: 42px; padding-block: 60px 46px; }
@@ -212,8 +219,10 @@ html[lang=en] .dawn-copy h1 em { font-size: .9em; letter-spacing: -.035em; margi
   .dawn-companions small { font-size: 10px; }
   .dawn-foot { padding-block: 19px; gap: 14px; }
   .dawn-signature { display: none; }
-  .dawn-count { margin-left: 0; font-size: 11px; letter-spacing: .1em; }
-  .dawn-count i { margin: 0 9px; }
+  .dawn-count { margin-left: 0; font-size: 11px; gap: 12px; flex-wrap: wrap; }
+  .dawn-total strong { font-size: 29px; }
+  .dawn-breakdown { font-size: 10px; }
+  .dawn-count i { margin: 0 6px; }
   .dawn-foot > a { margin-left: auto; font-size: 11px; gap: 10px; }
   .is-home .games-section { padding-top: 65px; }
   .is-home .section-heading { gap: 21px; margin-bottom: 32px; }
@@ -228,16 +237,27 @@ html[lang=en] .dawn-copy h1 em { font-size: .9em; letter-spacing: -.035em; margi
   .is-home .steam-word > span { margin-top: 11px; }
   .is-home .steam-copy { padding: 0; }
   .is-home .apps-section { padding-block: 65px; }
-  .is-home .app-features { margin-bottom: 48px; gap: 30px; }
-  .is-home .app-feature { grid-template-columns: 1.1fr .85fr; min-height: 330px; gap: 16px; }
-  .is-home .feature-copy { padding-block: 26px; padding-right: 0; }
-  .is-home .feature-copy h3 { font-size: 21px; }
-  .is-home .feature-copy > p:not(.eyebrow) { font-size: 14px; line-height: 1.9; }
-  .is-home .feature-screen, .is-home .feature-night .feature-screen { width: 100%; height: 270px; border-width: 4px; }
-  .is-home .filter-bar { gap: 4px; }
-  .is-home .filter-bar button { font-size: 12px; padding-inline: 11px; }
+  .is-home .catalog-heading { flex-direction: row; align-items: flex-start; gap: 20px; flex-wrap: wrap; margin-bottom: 26px; }
+  .is-home .catalog-title { flex: 1 1 240px; }
+  .is-home .catalog-title h2 { margin-bottom: 14px; }
+  .is-home .catalog-title .section-intro { font-size: 14px; }
+  .is-home .app-count { padding: 0; font-size: 12px; }
+  .is-home .app-count b { font-size: 50px; }
+  .is-home .app-count > span { gap: 8px; justify-content: flex-start; }
+  .is-home .collection-tools { align-items: stretch; gap: 17px; padding-block: 14px 20px; }
+  .is-home .filter-bar { gap: 4px 12px; }
+  .is-home .filter-bar button { font-size: 12px; padding-inline: 1px; }
   .is-home .search { width: 100%; }
-  .is-home .app-card { padding-block: 27px; }
+  .is-home .search input { font-size: 16px; }
+  .is-home .app-grid { grid-template-columns: minmax(0, 1fr); }
+  .is-home .app-card { grid-template-columns: 46px minmax(0, 1fr) 14px; gap: 16px; padding-block: 27px 30px; min-height: 156px; }
+  .is-home .card-icon { grid-column: 1; grid-row: 1; width: 46px; height: 46px; }
+  .is-home .card-content { grid-column: 2; grid-row: 1; }
+  .is-home .card-arrow { grid-column: 3; grid-row: 1; padding-top: 30px; }
+  .is-home .card-no { position: absolute; inset-block-start: 88px; inset-inline-start: 0; inset-block-end: auto; width: 46px; padding: 0; text-align: center; font-size: 15px; }
+  .is-home .card-category { font-size: 10px; margin-bottom: 6px; }
+  .is-home .card-content h3 { font-size: 19px; margin-bottom: 9px; }
+  .is-home .card-desc { font-size: 14px; }
   .is-home .about-section { padding-block: 60px; }
   .is-home .about-section::before { inset: -50px -300px 40% -280px; background-size: auto 650px; }
   .is-home .contact-section { padding-block: 65px; }
@@ -251,6 +271,4 @@ html[lang=en] .dawn-copy h1 em { font-size: .9em; letter-spacing: -.035em; margi
   .dawn-companions a { font-size: 14px; }
   .dawn-companions a + a { border-left: 0; padding-left: 0; }
   .dawn-companions .arrow { display: block; }
-  .is-home .feature-copy h3 { font-size: 20px; }
-  .is-home .feature-screen, .is-home .feature-night .feature-screen { height: 240px; }
 }
