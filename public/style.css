@@ -1,4 +1,4 @@
-/* FireSparkle.Studio — Apps for everyday, worlds for play.
+/* FireSparkle.Studio — App & game studio.
    朝霧紙白、霧墨與暖火光；所有字型均由本站提供。 */
 :root {
   --bg:#f7f5ee; --bg-deep:#ecebe3; --bg-band:#eeefe7; --surface:#fcfbf7; --surface-solid:#fffefa;
@@ -149,3 +149,266 @@ p{margin:0 0 1em}b,strong{font-weight:600;color:inherit}::selection{background:#
 @media(max-width:680px){html{scroll-padding-top:126px}.header-inner{display:grid;grid-template-columns:1fr auto;gap:0 16px;min-height:0;padding-top:15px;padding-bottom:9px}.brand-mark{width:29px}.brand-latin{font-size:22px}.brand-cjk{font-size:9px;margin-top:5px;letter-spacing:.3em}.site-nav{grid-column:1/-1;grid-row:2;justify-content:space-between;gap:16px;width:100%;margin-top:10px;font-size:12px}.site-nav a{padding:7px 0}.lang-toggle{grid-column:2;grid-row:1;font-size:13px;align-self:center}.hero-grid{padding-block:40px 35px;gap:12px}.hero-copy .eyebrow{font-size:10px;letter-spacing:.09em;gap:8px;margin-bottom:20px}.hero-copy h1{font-size:clamp(27px,6.3vw,42px);line-height:1.6;letter-spacing:0;margin-bottom:22px}html[lang=en] .hero-copy h1{font-size:48px;line-height:1.03}.hero-lead{font-size:13px;line-height:2}.hero-lead br{display:none}.hero-actions{gap:24px;margin-bottom:25px}.button{padding:13px 20px;font-size:13px}.text-link{font-size:13px;gap:16px}.steam-teaser{max-width:100%;font-size:11px}.steam-teaser b{font-size:17px}.steam-teaser small{font-size:10px}.hero-board{height:420px;margin-top:22px}.board-index{font-size:9px;top:10px}.hero-game{top:85px;width:88%;left:0}.window-top{font-size:8px;padding:8px 10px}.hero-work-label{font-size:9px;padding:10px}.hero-work-label small{font-size:8px}.hero-app{width:28%;top:25px;right:0;border-width:3px}.hero-app span{font-size:8px;padding:6px 0}.hero-pig{bottom:8%;right:0;min-width:180px;font-size:12px;gap:9px}.hero-pig img{width:42px}.hero-pig small{font-size:9px}.hero-foot{padding-block:14px}.hero-foot>span:nth-child(2){font-size:8px;letter-spacing:.04em;max-width:78%}.hero-foot i{margin:0 3px}.hero-foot a{font-size:9px}.games-section{padding-top:64px}.section-heading{flex-direction:column;gap:20px;margin-bottom:30px}.eyebrow{font-size:11px;gap:9px;margin-bottom:16px}.section-no{font-size:15px;padding-right:12px}.section-heading h2,.about-copy h2,.contact-layout h2{font-size:32px;line-height:1.5}.section-intro{max-width:100%;font-size:13px}.game-grid{grid-template-columns:1fr;gap:40px}.game-rose{margin-top:0}.game-amber .game-image{height:auto;aspect-ratio:4/3;padding:12px}.game-rose .game-image{height:330px;padding:20px 36px 0}.game-info{padding-top:16px}.game-info h3{font-size:22px}.work-meta{font-size:10px}.game-info p{font-size:13px}.work-actions .text-link{font-size:12px}.store-link{font-size:16px}.steam-section{grid-template-columns:1fr;padding:32px 26px;gap:24px;margin-top:60px}.steam-word{font-size:78px}.steam-word>span{font-size:9px;margin-top:12px}.steam-copy{border-top:1px solid #5e6d5e;padding-top:26px}.steam-copy h2{font-size:27px}.steam-copy p{font-size:12px}.status-label{font-size:10px;margin-bottom:14px}.apps-section{padding:66px 0}.app-features{grid-template-columns:1fr;margin-bottom:42px;gap:20px}.app-feature{grid-template-columns:1.1fr .8fr;min-height:320px}.feature-copy{padding:25px 0 25px 25px}.feature-copy h3{font-size:20px}.feature-copy>p:not(.eyebrow){font-size:12px}.feature-screen{height:300px}.feature-night .feature-screen{height:285px}.catalog-heading h3{font-size:20px}.app-count{font-size:11px}.filter-bar{gap:3px}.filter-bar button{font-size:11px;padding:8px 11px}.search{width:100%;padding-bottom:12px}.search input{font-size:14px}.collection-tools{margin-bottom:22px}.app-grid{grid-template-columns:1fr}.app-card{grid-template-columns:50px 1fr 16px;padding-block:24px;gap:16px}.card-icon{width:50px;height:50px}.card-content h3{font-size:17px}.card-desc{font-size:12px}.card-no{bottom:9px}.about-section{padding:54px 0}.about-grid{grid-template-columns:1fr;gap:44px}.about-identity>img{width:130px;margin-bottom:24px}.about-identity>p:not(.eyebrow){font-size:33px}.about-copy>p{font-size:13px}.studio-principles{grid-template-columns:1fr 1fr;gap:22px}.studio-principles h3{font-size:14px}.studio-principles p{font-size:11px}.contact-section{padding:62px 0}.contact-layout{grid-template-columns:1fr;gap:24px}.contact-layout>div>p{font-size:13px}.contact-email{font-size:25px}.site-footer{padding-top:42px}.footer-grid{grid-template-columns:1fr 1fr;gap:30px}.footer-brand{grid-column:1/-1}.footer-grid>.footer-col:last-child{grid-column:1/-1}.footer-title{margin-bottom:10px}.footer-bottom{flex-direction:column;align-items:flex-start;margin-top:30px;gap:10px}.footer-bottom>span:last-child{font-size:9px}.page-heading{padding-block:30px}.page-heading h1{font-size:32px;line-height:1.5}.page-heading .lead{font-size:14px}.app-intro{grid-template-columns:1fr;gap:25px;padding-block:32px}.app-hero-icon-wrap{width:110px;padding:18px}.app-hero-icon{width:74px;height:74px;border-radius:18px}.app-intro-copy h1{font-size:30px;line-height:1.5}.app-intro-copy .lead{font-size:14px}.actions{gap:16px}.spec-list div{padding:15px}.spec-list dd{font-size:12px}.product-gallery{padding-top:34px}.gallery-track{gap:16px}.gallery-track img{height:300px;max-width:none}.gallery-track figure{max-width:90%}.gallery-track figure img{max-width:100%;object-fit:contain;object-position:top}.app-support{padding-block:44px;gap:30px}.contact-box,.support-instructions{padding:24px}.contact-box h2{font-size:24px}.support-grid{grid-template-columns:1fr}.faq{padding-block:48px 64px}.faq summary{font-size:17px}.policy-body{font-size:15px}.policy-note{font-size:13px;padding:18px}.policy-source{font-size:13px;margin-bottom:50px}.more-apps{padding-block:44px}.more-apps .section-heading h2{font-size:26px}}
 @media(max-width:380px){.hero-board{height:365px}.hero-pig{bottom:6%;right:0;min-width:164px}.hero-pig img{width:36px}.hero-pig small{font-size:8px}.hero-foot a{display:none}.hero-foot>span:nth-child(2){max-width:100%}.contact-email{font-size:22px}.studio-principles{grid-template-columns:1fr}.game-rose .game-image{padding-inline:28px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}}
+
+/* Type, spacing and interaction refinements */
+body { font-kerning: normal; }
+h1, h2, h3 { text-wrap: balance; }
+p { text-wrap: pretty; }
+.arrow { width: 18px; height: 18px; flex: none; vertical-align: middle; }
+.button, .text-link, .store-link { min-height: 44px; }
+.button { border-radius: 5px; padding: 16px 25px; }
+.text-link { gap: 22px; }
+.header-inner { min-height: 82px; }
+.brand-mark { width: 42px; }
+.brand-cjk { color: #616d63; }
+.lang-toggle { min-width: 44px; min-height: 44px; border-color: var(--line); border-radius: 5px; transition: background .2s; }
+.lang-toggle:hover { background: var(--bg-deep); }
+.site-nav a { min-height: 44px; display: inline-flex; align-items: center; }
+.site-nav a[aria-current] { color: var(--accent); }
+.site-nav a[aria-current]::after { width: 100%; }
+.site-header { background: #f7f5eef5; }
+
+/* Keep the composition quiet enough to read the work itself. */
+.hero-grid { grid-template-columns: 1fr 1.08fr; gap: 44px; padding-block: 58px 64px; min-height: 650px; }
+.hero-copy .eyebrow { letter-spacing: .12em; margin-bottom: 25px; }
+.hero-copy h1 { font-size: clamp(42px, 4.4vw, 62px); line-height: 1.42; letter-spacing: .035em; margin-bottom: 28px; }
+.hero-copy h1 em { display: inline-block; font-size: .73em; letter-spacing: .025em; margin-top: 8px; }
+html[lang=en] .hero-copy h1 { font-size: clamp(54px, 5.8vw, 82px); letter-spacing: -.025em; }
+html[lang=en] .hero-copy h1 em { font-size: 1em; margin-top: 0; letter-spacing: -.025em; }
+.hero-lead { font-size: 15px; line-height: 2; max-width: 30em; margin-bottom: 29px; }
+.hero-actions { gap: 30px; margin-bottom: 28px; }
+.steam-teaser { max-width: 370px; padding-top: 18px; }
+.steam-teaser small { font-size: 12px; }
+.hero-board { height: 515px; }
+.board-index { display: flex; align-items: center; gap: 14px; width: 88%; top: 12px; font-family: var(--font-body); font-size: 11px; letter-spacing: .08em; }
+.board-index i { height: 1px; background: var(--line-strong); flex: 1; }
+.board-index > span:last-child { font-family: var(--font-latin); font-size: 11px; letter-spacing: .12em; }
+.hero-game { display: block; top: 91px; width: 85%; transform: rotate(-2.5deg); border-radius: 9px; box-shadow: 0 25px 45px -20px #23332d50, 0 2px 5px #23332d15; }
+.hero-game:hover { transform: rotate(-1deg) translateY(-4px); }
+.hero-game .window-top { padding: 11px 15px; }
+.window-top > .arrow { margin-left: auto; width: 12px; height: 12px; }
+.hero-work-label { padding: 14px 16px; }
+.hero-app { top: 36px; right: 0; width: 27%; transform: rotate(4deg); border-radius: 9px; box-shadow: 0 18px 35px -15px #293e3b55; }
+.hero-app:hover { transform: rotate(2deg) translateY(-4px); }
+.hero-pig { bottom: 5%; right: 0; transform: rotate(1.5deg); border-radius: 7px; background: #fcfaf4f5; box-shadow: 0 13px 25px -16px #293e3b70; }
+.hero-foot { padding-block: 17px; }
+.hero-foot > .work-counts { display: flex; align-items: baseline; gap: 8px; font-family: var(--font-latin); font-size: 16px; letter-spacing: .02em; }
+.work-counts b { font-size: 23px; line-height: 1; font-weight: 500; color: var(--ink); }
+.hero-foot .work-counts i { margin: 0 12px; color: var(--line-strong); }
+.hero-foot a { display: inline-flex; align-items: center; gap: 12px; min-height: 30px; }
+.hero-foot a .arrow { width: 14px; height: 14px; }
+
+.section-heading { gap: 48px; margin-bottom: 40px; }
+.section-heading h2, .about-copy h2, .contact-layout h2 { font-size: clamp(30px, 3.15vw, 43px); line-height: 1.45; }
+.section-intro { font-size: 14px; max-width: 30em; line-height: 1.95; }
+.eyebrow { letter-spacing: .13em; }
+.platform-note { font-size: 12px; }
+.game-grid { gap: 36px; }
+.game-image { border-radius: 9px; }
+.game-amber .game-image { padding: 24px; }
+.game-rose .game-image { padding: 22px 28px; background: linear-gradient(135deg, #eee5e0, #f5efe7); }
+.game-rose .game-image img { object-fit: contain; border-radius: 0; filter: drop-shadow(0 8px 12px #745c5026); box-shadow: none; }
+.game-info { padding: 22px 2px 0; }
+.game-info h3 { font-size: 26px; margin-bottom: 12px; }
+.game-info p { font-size: 14px; line-height: 1.95; }
+.work-meta { font-size: 12px; margin-bottom: 12px; }
+.work-actions { border-top: 1px solid var(--line); margin-top: 20px; padding-top: 10px; }
+.work-actions .text-link { border-bottom: 0; font-size: 14px; }
+.store-link { display: inline-flex; align-items: center; gap: 8px; font-size: 18px; }
+.image-note { font-size: 11px; border: 1px solid #ffffff65; border-radius: 3px; }
+.steam-section { border: 1px solid #4b5b4d; border-radius: 9px; box-shadow: inset 0 1px 0 #d5ae7940; }
+.steam-section::after { content: ""; inset: 20px; border: 1px solid #d5ae791a; border-radius: 3px; }
+.steam-copy p { font-size: 14px; }
+.steam-copy .text-link { font-size: 13px; }
+.status-label { font-size: 12px; }
+
+.app-features { gap: 28px; margin-bottom: 62px; }
+.app-feature { min-height: 370px; border-radius: 9px; }
+.feature-copy { padding: 31px 0 31px 30px; }
+.feature-copy h3 { font-size: 23px; line-height: 1.45; }
+.feature-copy > p:not(.eyebrow) { font-size: 14px; line-height: 1.9; }
+.feature-copy .eyebrow { font-size: 12px; margin-bottom: 18px; }
+.feature-copy .text-link { font-size: 14px; }
+.feature-copy > img { width: 49px; margin-bottom: 18px; }
+.feature-screen { transform: rotate(5deg) translate(12px, 30px); }
+.feature-night .feature-screen { transform: rotate(-5deg) translate(4px, 28px); }
+.catalog-heading { padding-top: 30px; }
+.app-count { font-size: 13px; }
+.collection-tools { align-items: center; padding-bottom: 20px; margin-bottom: 0; gap: 28px; }
+.filter-bar { gap: 5px; }
+.filter-bar button { min-height: 44px; font-size: 13px; padding: 9px 13px; border-radius: 5px; }
+.search { width: 270px; min-height: 48px; padding: 0 12px; gap: 9px; border: 1px solid var(--line-strong); border-radius: 5px; background: #fffdf640; }
+.search:focus-within { border-color: var(--accent); box-shadow: 0 0 0 2px #8b583b12; }
+.search-icon { width: 18px; height: 18px; flex: none; color: var(--muted); }
+.search input { padding: 12px 0; font-size: 16px; line-height: 1.4; outline: none; }
+.search input::-webkit-search-cancel-button { display: none; }
+.search-clear { flex: none; display: inline-grid; place-items: center; width: 44px; height: 44px; margin-right: -10px; background: transparent; border: 0; border-radius: 4px; color: var(--muted); }
+.search-clear svg { width: 20px; height: 20px; }
+.search-clear:hover { color: var(--ink); background: var(--bg-deep); }
+.app-grid { column-gap: 36px; }
+.app-card { padding: 28px 14px 29px; column-gap: 18px; border-radius: 5px; transition: background .2s; }
+.card-icon { width: 54px; height: 54px; margin-top: 3px; }
+.card-category { font-size: 12px; margin-bottom: 4px; }
+.card-content h3 { font-size: 19px; line-height: 1.55; }
+.card-desc { font-size: 14px; line-height: 1.95; }
+.card-arrow { display: grid; place-items: center; pointer-events: none; }
+.card-no { left: 14px; bottom: 10px; font-size: 11px; pointer-events: none; }
+.card-main-link:focus-visible { outline: none; }
+.app-card:focus-within { outline: 2px solid var(--accent); outline-offset: 3px; background: #ebece275; }
+.app-feature:focus-visible, .game-image:focus-visible { outline-offset: 6px; }
+.about-copy > p { font-size: 15px; }
+.studio-principles p { font-size: 13px; }
+.about-identity > small { font-size: 13px; }
+.contact-layout { align-items: start; }
+.contact-layout > div > p { font-size: 15px; }
+.footer-col, .footer-tagline { font-size: 13px; }
+.footer-col a { min-height: 28px; }
+.footer-bottom { font-size: 11px; }
+.gallery-track figure { margin: 0; flex: 0 0 auto; max-width: 100%; }
+.gallery-track a { display: block; border-radius: 7px; overflow: hidden; cursor: zoom-in; }
+.gallery-track figure img { max-width: 100%; height: 380px; width: auto; object-fit: contain; }
+.gallery-track { scroll-snap-type: x proximity; padding-bottom: 18px; }
+.gallery-track figure { scroll-snap-align: start; }
+
+@media (hover: hover) and (pointer: fine) {
+  .app-card:hover { background: #ebece275; }
+  .app-card:hover .card-arrow .arrow { transform: translate(3px, -3px); }
+  .game-card:hover .game-image { box-shadow: 0 14px 30px -22px #283b3666; }
+}
+@media (max-width: 1100px) {
+  .hero-grid { gap: 30px; }
+  .hero-copy h1 { font-size: clamp(38px, 4.5vw, 50px); }
+  .hero-board { height: 460px; }
+  .hero-pig { bottom: 6%; }
+  .board-index { font-size: 10px; gap: 9px; width: 100%; }
+  .collection-tools { align-items: flex-start; flex-direction: column; gap: 14px; }
+  .search { width: 310px; }
+}
+@media (max-width: 960px) {
+  .app-features { grid-template-columns: 1fr; }
+  .app-feature { grid-template-columns: 1.2fr 1fr; min-height: 340px; }
+  .feature-copy { padding: 32px; }
+  .feature-copy h3 { font-size: 25px; }
+  .feature-copy > p:not(.eyebrow) { font-size: 15px; max-width: 22em; }
+  .feature-screen, .feature-night .feature-screen { height: 330px; width: 220px; justify-self: center; }
+  .feature-copy .eyebrow { font-size: 12px; }
+}
+@media (max-width: 900px) {
+  .hero-grid { grid-template-columns: 1fr; gap: 28px; padding-top: 50px; }
+  .hero-copy h1 { font-size: 50px; }
+  .hero-board { max-width: 570px; height: 530px; }
+  .hero-game { width: 85%; }
+  .hero-pig { bottom: 7%; }
+  .hero-foot > .work-counts { display: flex; }
+  .section-intro { font-size: 14px; }
+  .game-info h3 { font-size: 23px; }
+  .game-info p { font-size: 14px; }
+  .game-amber .game-image, .game-rose .game-image { height: 310px; padding: 18px; }
+  .work-meta { font-size: 12px; }
+  .work-actions { align-items: flex-start; flex-wrap: wrap; gap: 0 16px; }
+  .work-actions .text-link { font-size: 13px; }
+  .store-link { font-size: 17px; }
+  .app-grid { column-gap: 22px; }
+  .app-card { grid-template-columns: 46px 1fr 18px; gap: 12px; padding-inline: 8px; }
+  .card-icon { width: 46px; height: 46px; }
+  .card-content h3 { font-size: 18px; }
+  .card-desc { font-size: 14px; }
+  .card-no { left: 8px; }
+  .card-category { font-size: 12px; }
+  .studio-principles p { font-size: 13px; }
+}
+@media (max-width: 680px) {
+  html { scroll-padding-top: 140px; }
+  .header-inner { min-height: 0; padding-top: 12px; padding-bottom: 2px; }
+  .brand-mark { width: 32px; }
+  .brand-latin { font-size: 23px; }
+  .site-nav { margin-top: 5px; gap: 10px; font-size: 13px; }
+  .site-nav a { padding: 9px 0; }
+  .site-nav a::after { bottom: 5px; }
+  .hero-grid { padding-block: 34px 28px; gap: 22px; }
+  .hero-copy .eyebrow { font-size: 10px; letter-spacing: .08em; margin-bottom: 20px; }
+  .hero-copy h1 { font-size: clamp(34px, 8.6vw, 48px); line-height: 1.45; letter-spacing: .025em; margin-bottom: 23px; }
+  .hero-copy h1 em { font-size: .77em; margin-top: 3px; }
+  html[lang=en] .hero-copy h1 { font-size: clamp(47px, 10vw, 60px); }
+  .hero-lead { font-size: 14px; line-height: 1.95; }
+  .hero-actions { gap: 26px; margin-bottom: 23px; }
+  .button { font-size: 14px; padding: 13px 20px; }
+  .text-link { font-size: 14px; }
+  .steam-teaser { max-width: 100%; }
+  .steam-teaser b { font-size: 18px; }
+  .steam-teaser small { font-size: 12px; }
+  .hero-board { height: auto; padding: 76px 0 74px; margin-top: 9px; }
+  .board-index { top: 4px; font-size: 11px; }
+  .board-index > span:last-child { font-size: 10px; }
+  .hero-game { position: relative; top: auto; left: 0; width: 88%; }
+  .hero-app { top: 35px; width: 27%; right: 0; border-width: 3px; }
+  .hero-pig { bottom: 22px; right: 0; min-width: 185px; font-size: 13px; padding: 11px; }
+  .hero-pig small { font-size: 11px; }
+  .hero-pig img { width: 42px; }
+  .hero-work-label { font-size: 10px; padding: 12px 10px; }
+  .hero-foot { padding-block: 12px; gap: 15px; }
+  .hero-foot > .work-counts { font-size: 14px; gap: 6px; white-space: nowrap; }
+  .work-counts b { font-size: 21px; }
+  .hero-foot .work-counts i { margin: 0 6px; }
+  .hero-foot > span:nth-child(2) { display: none; }
+  .hero-foot a { font-size: 11px; }
+  .games-section { padding-top: 60px; }
+  .section-heading { gap: 20px; margin-bottom: 28px; }
+  .section-heading h2, .about-copy h2, .contact-layout h2 { font-size: 31px; }
+  .section-intro { font-size: 14px; line-height: 1.95; }
+  .platform-note { font-size: 12px; }
+  .game-grid { gap: 42px; }
+  .game-amber .game-image { height: auto; padding: 13px; }
+  .game-rose .game-image { height: 370px; padding: 20px; }
+  .game-info h3 { font-size: 24px; }
+  .game-info p { font-size: 14px; }
+  .work-meta { font-size: 12px; }
+  .work-actions { flex-wrap: nowrap; align-items: center; }
+  .work-actions .text-link { font-size: 14px; }
+  .steam-section { padding: 32px 26px; gap: 25px; margin-top: 58px; }
+  .steam-section::after { inset: 10px; }
+  .steam-word { font-size: 78px; }
+  .steam-copy h2 { font-size: 26px; }
+  .steam-copy p { font-size: 14px; }
+  .steam-copy .text-link { font-size: 13px; }
+  .status-label { font-size: 12px; }
+  .app-features { gap: 22px; margin-bottom: 42px; }
+  .app-feature { grid-template-columns: 1.15fr .85fr; min-height: 340px; }
+  .feature-copy { padding: 26px 0 26px 22px; }
+  .feature-copy h3 { font-size: 21px; }
+  .feature-copy > p:not(.eyebrow) { font-size: 14px; line-height: 1.85; }
+  .feature-screen, .feature-night .feature-screen { width: auto; height: 300px; justify-self: stretch; }
+  .catalog-heading h3 { font-size: 22px; }
+  .app-count { font-size: 12px; }
+  .collection-tools { gap: 16px; padding-bottom: 22px; }
+  .filter-bar { gap: 2px; }
+  .filter-bar button { font-size: 13px; padding-inline: 12px; }
+  .search { width: 100%; }
+  .app-card { grid-template-columns: 50px 1fr 18px; gap: 15px; padding: 27px 2px; }
+  .card-icon { width: 50px; height: 50px; }
+  .card-content h3 { font-size: 19px; }
+  .card-category { font-size: 12px; }
+  .card-desc { font-size: 14px; }
+  .card-no { left: 2px; bottom: 8px; }
+  .about-copy > p { font-size: 14px; }
+  .about-identity > small { font-size: 12px; }
+  .studio-principles p { font-size: 13px; }
+  .contact-layout > div > p { font-size: 14px; }
+  .footer-col a { min-height: 36px; display: flex; align-items: center; }
+  .gallery-track figure { max-width: 88%; }
+  .gallery-track figure img { height: auto; max-height: 350px; }
+  .page-heading .lead, .app-intro-copy .lead { font-size: 15px; line-height: 1.95; }
+  .spec-list dd { font-size: 14px; }
+}
+@media (max-width: 380px) {
+  .brand-latin { font-size: 21px; }
+  .brand { gap: 9px; }
+  .site-nav { font-size: 12px; gap: 7px; }
+  .hero-pig { min-width: 174px; }
+  .hero-pig img { width: 36px; }
+  .hero-foot a { display: inline-flex; }
+  .feature-copy { padding-left: 18px; }
+  .feature-copy h3 { font-size: 19px; }
+  .feature-copy > p:not(.eyebrow) { font-size: 13px; }
+  .game-rose .game-image { height: 330px; }
+}

@@ -18,7 +18,8 @@ GitHub Pages 已設定自訂網域並強制 HTTPS；HTTP 與 `www.firesparkle.co
 - `src/content.mjs`：網址、信箱、作品排序、分類、英文名稱與英文簡介
 - `src/home.mjs`：首頁版型與中英文案，包含遊戲精選、Steam 進度、App 作品、工作室與聯絡區塊
 - `scripts/build.mjs`：共用頁首／頁尾、作品與政策等內頁的版型及中英文案；載入首頁模組並產生全站頁面
-- `public/style.css`、`public/site.js`：外觀、語言切換、篩選與搜尋
+- `public/style.css`、`public/site.js`：響應式外觀、語言切換、目前區塊導覽、分類與搜尋；清除搜尋時保留分類
+- `public/gallery.css`、`public/gallery.js`：作品截圖的原生 dialog 放大檢視，支援方向鍵、Escape 與焦點還原；未啟用 JavaScript 時仍可直接開啟圖片
 - `data/apple-catalog.json`：App Store 資料（中文名稱、簡介、圖示、系統需求）
 - `data/site-media.json`：官方 App Store 截圖的作品對應、來源網址、取得日期與本機圖片路徑
 - `public/assets/screenshots/`：依作品 slug 分資料夾存放的官方截圖，供首頁與作品頁使用
