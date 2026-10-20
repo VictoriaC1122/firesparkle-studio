@@ -26,6 +26,12 @@ GitHub Pages 已設定自訂網域並強制 HTTPS；HTTP 與 `www.firesparkle.co
 
 改完執行 `node scripts/build.mjs`，本機預覽 `npm run preview` → http://127.0.0.1:4173
 
+## 文案
+
+先寫作品用途、玩法與目前狀態，使用自然、簡短的中英文。標題與按鈕直接說明內容或操作，避免重複靈感、火花、旅程等比喻，以及沒有具體根據的品質或服務承諾。Steam 的作品名稱、商店連結和日期需確認後再發布。
+
+網站簡介可在 `src/content.mjs` 覆寫 `shortDescription`；`data/apple-catalog.json` 保留商店來源資料。隱私政策正文不隨行銷文案調整。分享預覽使用品牌標誌 `icon-512.png`，由頁面標題與描述提供文字。
+
 ## 部署
 
 推上 `main` 後，GitHub Actions（`.github/workflows/pages.yml`）會自動 build 並發佈 `public/`。
