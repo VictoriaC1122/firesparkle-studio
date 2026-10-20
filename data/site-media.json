@@ -1,0 +1,50 @@
+{
+  "perfect-pig": {
+    "images": [
+      "/assets/screenshots/perfect-pig/01.jpg",
+      "/assets/screenshots/perfect-pig/02.jpg"
+    ],
+    "source": "https://apps.apple.com/tw/app/id6811446129",
+    "imageSources": [
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9a/81/09/9a81098d-6a6c-b813-43aa-a612cded9f4f/FD84031A-5AA0-460F-B76D-221EAAA501A1.png/900x900bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/08/96/76/08967604-c686-7296-4a82-48f9d33161af/29E01E80-CA01-4A55-BDAC-00DC10E61719.png/900x900bb.jpg"
+    ],
+    "appName": "完美養豬",
+    "retrievedOn": "2026-10-19"
+  },
+  "larry-cocktail": {
+    "images": [
+      "/assets/screenshots/larry-cocktail/01.jpg",
+      "/assets/screenshots/larry-cocktail/02.jpg"
+    ],
+    "source": "https://apps.apple.com/tw/app/id6761377948",
+    "imageSources": [
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/0e/80/45/0e80458f-c4a9-7bec-66c7-1f7b91a42122/Simulator_Screenshot_-_iPad_Pro_13-inch__U0028M4_U0029_-_2026-03-30_at_23.41.09.png/900x900bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/79/8c/67/798c6702-3885-b4eb-29a0-dee026a0c2dd/Simulator_Screenshot_-_iPad_Pro_13-inch__U0028M4_U0029_-_2026-03-30_at_23.41.15.png/900x900bb.jpg"
+    ],
+    "appName": "賴瑞的調酒研究室",
+    "retrievedOn": "2026-10-19"
+  },
+  "dream-journal": {
+    "images": [
+      "/assets/screenshots/dream-journal/01.jpg"
+    ],
+    "source": "https://apps.apple.com/tw/app/id6761692228",
+    "imageSources": [
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/68/2d/e7/682de7e1-76b5-4194-4334-87191661c6b2/01-capture.png/900x900bb.jpg"
+    ],
+    "appName": "把夢遺留下來",
+    "retrievedOn": "2026-10-19"
+  },
+  "coffee-chat": {
+    "images": [
+      "/assets/screenshots/coffee-chat/01.jpg"
+    ],
+    "source": "https://apps.apple.com/tw/app/id6820863958",
+    "imageSources": [
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d8/f2/95/d8f295c2-3dde-afa6-feb3-5242ad6f3e13/01-home.png/900x900bb.jpg"
+    ],
+    "appName": "Coffee Chat 筆記",
+    "retrievedOn": "2026-10-19"
+  }
+}

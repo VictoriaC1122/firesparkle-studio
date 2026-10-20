@@ -17,11 +17,8 @@ export const order = [
   'easy-draw', 'compound-calculator', 'stock-simulator', 'crypto-dictionary', 'pr-diary', 'larry-cocktail',
 ];
 
-// 首頁主視覺環繞的 App 圖示
-export const heroApps = ['coffee-chat', 'dream-journal', 'perfect-pig', 'compound-calculator', 'easy-draw'];
-
 export const categoryEn = {
-  全部: 'All', 學習與規劃: 'Learn & Plan', 日常工具: 'Everyday Tools', 生活記錄: 'Life Logs', 遊戲與創作: 'Play & Create',
+  全部: 'All', 學習與規劃: 'Learn & Plan', 日常工具: 'Everyday Tools', 生活記錄: 'Life Logs', 遊戲: 'Games', 創作工具: 'Creative Tools',
 };
 
 export const genreEn = {
@@ -40,11 +37,11 @@ export const apps = {
     enDesc: 'A private notebook for job hunting and networking: prepare before you meet, record the conversation, and follow up afterwards.',
   },
   'design-it': {
-    category: '遊戲與創作', short: '自己來設計', en: 'Design It Yourself',
+    category: '創作工具', short: '自己來設計', en: 'Design It Yourself',
     enDesc: 'Preview spaces, test colours on room photos, compare materials and track budgets to turn home ideas into a plan you can discuss.',
   },
   'perfect-pig': {
-    category: '遊戲與創作', short: '完美養豬', en: 'Perfect Pig',
+    category: '遊戲', short: '完美養豬', en: 'Perfect Pig',
     enDesc: 'A seven-day piglet-raising game: feed, walk and chat to shape its personality, then collect cards and story endings.',
   },
   'time-manager': {
@@ -76,7 +73,7 @@ export const apps = {
     enDesc: 'Role-based diaries for guests, hostesses, hosts and managers to keep track of work interactions, income, shifts and to-dos.',
   },
   'larry-cocktail': {
-    category: '遊戲與創作', short: '賴瑞的調酒研究室', en: "Larry's Cocktail Lab",
+    category: '遊戲', short: '賴瑞的調酒研究室', en: "Larry's Cocktail Lab",
     enDesc: 'A romance story set in a bar: explore branching routes through dialogue choices and revisit them with local saves.',
   },
 };
