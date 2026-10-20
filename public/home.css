@@ -42,7 +42,7 @@
 }
 .dawn-grid {
   display: grid; grid-template-columns: 1.05fr 1fr; gap: clamp(52px, 7vw, 120px);
-  align-items: center; padding-block: 96px 68px; min-height: 696px;
+  align-items: center; padding-block: 40px 40px; min-height: 696px;
 }
 .dawn-copy { padding-bottom: 16px; }
 .dawn-copy .eyebrow { font-size: 12px; margin-bottom: 33px; letter-spacing: .19em; }
@@ -67,15 +67,34 @@ html[lang=en] .dawn-copy h1 em { font-size: .9em; letter-spacing: -.035em; margi
 .dawn-feature-image { padding: 11px; border: 1px solid #c6b69e; background: #fffcf45e; box-shadow: 0 12px 32px -22px #6b52334d; }
 .dawn-feature-image img { width: 100%; aspect-ratio: 4 / 3; object-fit: contain; }
 .dawn-caption { display: flex; align-items: center; justify-content: space-between; gap: 20px; padding: 16px 1px 19px; font-size: 16px; color: var(--ink); }
-.dawn-caption small, .dawn-companions small { display: block; font: 500 11px/1.4 var(--font-latin); letter-spacing: .12em; color: var(--muted); margin-bottom: 5px; }
+.dawn-caption small { display: block; font: 500 11px/1.4 var(--font-latin); letter-spacing: .12em; color: var(--muted); margin-bottom: 5px; }
 .dawn-caption .arrow { color: var(--accent); }
-.dawn-feature:hover .dawn-caption .arrow, .dawn-companions a:hover .arrow { transform: translate(3px, -3px); }
-.dawn-companions { display: grid; grid-template-columns: 1.12fr 1fr; gap: 22px; border-top: 1px solid var(--line); padding-top: 19px; }
-.dawn-companions a { display: flex; align-items: center; gap: 11px; font-size: 13px; min-height: 48px; line-height: 1.65; }
-.dawn-companions a + a { border-left: 1px solid var(--line); padding-left: 20px; }
-.dawn-companions img { width: 38px; height: 38px; border-radius: 9px; flex: none; }
-.dawn-companions a > span { flex: 1; }
-.dawn-companions .arrow { width: 14px; height: 14px; color: var(--accent); }
+.dawn-feature:hover .dawn-caption .arrow { transform: translate(3px, -3px); }
+/* Original game characters share the stage with the complete game screenshot. */
+.dawn-cast { display: grid; grid-template-columns: 1.18fr 1fr; gap: 22px; align-items: end; border-top: 1px solid var(--line); padding-top: 12px; }
+.dawn-character { position: relative; display: grid; grid-template-columns: 1.7fr 1fr; gap: 12px; align-items: end; min-width: 0; min-height: 190px; }
+.character-art { position: relative; display: block; height: 204px; min-width: 0; transform-origin: 50% 100%; }
+.character-art img { display: block; width: 100%; height: 100%; object-fit: contain; object-position: center bottom; }
+.character-label { display: block; min-width: 0; padding-bottom: 10px; color: var(--ink); font-size: 13px; line-height: 1.8; overflow-wrap: anywhere; text-wrap: balance; }
+.character-label small { display: block; margin-bottom: 7px; font: 500 10px/1.4 var(--font-latin); letter-spacing: .1em; color: var(--muted); }
+.character-arrow { display: block; margin-top: 9px; color: var(--accent); }
+.character-arrow .arrow { width: 16px; height: 16px; }
+.character-pig { grid-template-columns: 1.5fr 1fr; }
+.character-pig .character-art { height: 152px; margin-bottom: 6px; }
+.character-pig .pig-cheer { position: absolute; inset: 0; opacity: 0; }
+.dawn-character:focus-visible { outline: 2px solid var(--accent); outline-offset: 6px; }
+@media (prefers-reduced-motion: no-preference) {
+  .character-art { transition: transform .25s ease; }
+  .character-pig .character-art img { transition: opacity .2s ease; }
+  .dawn-character:focus-visible .character-art { transform: translateY(-4px) rotate(-2deg); }
+  .character-pig:focus-visible .pig-idle { opacity: 0; }
+  .character-pig:focus-visible .pig-cheer { opacity: 1; }
+}
+@media (prefers-reduced-motion: no-preference) and (hover: hover) and (pointer: fine) {
+  .dawn-character:hover .character-art { transform: translateY(-4px) rotate(-2deg); }
+  .character-pig:hover .pig-idle { opacity: 0; }
+  .character-pig:hover .pig-cheer { opacity: 1; }
+}
 .dawn-foot { position: relative; display: flex; gap: 26px; align-items: center; padding-block: 21px 25px; color: var(--muted); }
 .dawn-foot::before { content: ""; position: absolute; top: 0; left: var(--gutter); right: var(--gutter); border-top: 1px solid var(--line); }
 .dawn-signature { font: italic 400 24px/1 var(--font-latin); letter-spacing: -.025em; }
@@ -160,15 +179,16 @@ html[lang=en] .dawn-copy h1 em { font-size: .9em; letter-spacing: -.035em; margi
   .is-home .game-card:hover .game-image { box-shadow: 0 12px 25px -22px #80624455; }
 }
 @media (max-width: 1100px) {
-  .dawn-grid { gap: 40px; min-height: 650px; padding-block: 88px 60px; }
+  .dawn-grid { gap: 40px; min-height: 650px; padding-block: 58px 50px; }
+  .dawn-cast { gap: 16px; }
+  .dawn-character { grid-template-columns: 1fr; gap: 12px; }
+  .character-label { text-align: center; }
+  .character-arrow { display: inline-block; margin: 0; margin-inline-start: 8px; }
+  .character-art { height: 160px; }
+  .character-pig .character-art { height: 132px; }
   .dawn-copy h1 { font-size: 48px; letter-spacing: .06em; }
   .dawn-copy .eyebrow { font-size: 11px; letter-spacing: .1em; }
   .dawn-lead br { display: none; }
-  .dawn-companions { gap: 14px; }
-  .dawn-companions a { gap: 8px; font-size: 12px; }
-  .dawn-companions a + a { padding-left: 14px; }
-  .dawn-companions img { width: 32px; height: 32px; }
-  .dawn-companions .arrow { display: none; }
   .is-home .game-grid { gap: 30px; }
 }
 @media (max-width: 960px) {
@@ -186,12 +206,12 @@ html[lang=en] .dawn-copy h1 em { font-size: .9em; letter-spacing: -.035em; margi
   html[lang=en] .dawn-copy h1 { font-size: 72px; }
   .dawn-lead { max-width: 35em; }
   .dawn-work { max-width: 580px; justify-self: center; padding-top: 0; }
+  .dawn-cast { gap: 24px; }
+  .dawn-character { grid-template-columns: 1.1fr 1fr; gap: 16px; }
+  .character-label { text-align: start; }
+  .character-art { height: 180px; }
+  .character-pig .character-art { height: 142px; }
   .dawn-feature-image { padding: 14px; }
-  .dawn-companions { grid-template-columns: 1fr 1fr; gap: 24px; }
-  .dawn-companions a { font-size: 14px; gap: 12px; }
-  .dawn-companions img { width: 40px; height: 40px; }
-  .dawn-companions .arrow { display: block; }
-  .dawn-companions a + a { padding-left: 24px; }
   .is-home .section-heading { gap: 30px; }
   .is-home .steam-section { grid-template-columns: .8fr 1.2fr; gap: 35px; }
   .is-home .steam-copy { border: 0; padding: 0; }
@@ -211,12 +231,13 @@ html[lang=en] .dawn-copy h1 em { font-size: .9em; letter-spacing: -.035em; margi
   .dawn-work-index { margin-bottom: 16px; }
   .dawn-feature-image { padding: 8px; }
   .dawn-caption { padding-block: 15px 18px; font-size: 15px; }
-  .dawn-companions { gap: 14px; padding-top: 17px; }
-  .dawn-companions a { gap: 9px; font-size: 12px; }
-  .dawn-companions a + a { padding-left: 14px; }
-  .dawn-companions img { width: 32px; height: 32px; border-radius: 7px; }
-  .dawn-companions .arrow { display: none; }
-  .dawn-companions small { font-size: 10px; }
+  .dawn-cast { grid-template-columns: 1fr 1fr; gap: 24px; padding-top: 16px; }
+  .dawn-character { grid-template-columns: 1fr; gap: 12px; }
+  .character-art { height: 168px; }
+  .character-pig .character-art { height: 136px; margin-bottom: 0; }
+  .character-label { text-align: center; font-size: 12px; padding-bottom: 0; }
+  .character-label small { font-size: 10px; margin-bottom: 5px; }
+  .character-arrow { margin-inline: 5px 0; }
   .dawn-foot { padding-block: 19px; gap: 14px; }
   .dawn-signature { display: none; }
   .dawn-count { margin-left: 0; font-size: 11px; gap: 12px; flex-wrap: wrap; }
@@ -267,8 +288,4 @@ html[lang=en] .dawn-copy h1 em { font-size: .9em; letter-spacing: -.035em; margi
   .dawn-actions { gap: 18px; }
   .dawn-actions .button { padding-inline: 17px; gap: 14px; font-size: 13px; }
   .dawn-actions .text-link { gap: 12px; font-size: 13px; }
-  .dawn-companions { grid-template-columns: 1fr; gap: 13px; }
-  .dawn-companions a { font-size: 14px; }
-  .dawn-companions a + a { border-left: 0; padding-left: 0; }
-  .dawn-companions .arrow { display: block; }
 }

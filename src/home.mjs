@@ -4,7 +4,6 @@ export function renderHome({ apps, media, L, T, messageId, esc, appURL, catL, ma
   const utilities = apps.filter(a => !a.genres.includes('遊戲'));
   const groups = ['全部', ...new Set(apps.map(a => a.category))];
   const image = (slug, n = 0) => media[slug].images[n];
-  const appIcon = (slug, size = 64) => `<img src="${bySlug[slug].iconPath}" alt="" width="${size}" height="${size}" loading="lazy">`;
   const game = (slug, index, tone, zhType, enType, zhDesc, enDesc, shot = 0) => {
     const a = bySlug[slug];
     return `<article class="game-card ${tone} reveal">
@@ -27,11 +26,11 @@ export function renderHome({ apps, media, L, T, messageId, esc, appURL, catL, ma
    <a class="steam-teaser" href="#steam"><span class="status-dot" aria-hidden="true"></span><span><b>Steam</b><small>${L('遊戲上架準備中', 'Release preparation in progress')}</small></span>${arrow()}</a>
   </div>
   <div class="dawn-work">
-   <p class="dawn-work-index"><span>${L('作品選輯', 'Selected work')}</span><i aria-hidden="true"></i><span>01 — 03</span></p>
+   <p class="dawn-work-index"><span>${L('作品選輯', 'Selected work')}</span><i aria-hidden="true"></i><span>iOS / GAMES</span></p>
    <a class="dawn-feature" href="${appURL(bySlug['larry-cocktail'])}"><div class="dawn-feature-image"><img src="${image('larry-cocktail',1)}" alt="賴瑞的調酒研究室：酒吧場景與遊戲選單" data-i18n-alt="${messageId('Larry’s Cocktail Lab')}" data-i18n-alt-suffix="${messageId('Game screenshot')}" width="900" height="675" fetchpriority="high"></div><span class="dawn-caption"><span><small>01 / iOS GAME</small>${L('賴瑞的調酒研究室', "Larry’s Cocktail Lab")}</span>${arrow('↗')}</span></a>
-   <div class="dawn-companions">
-    <a href="${appURL(bySlug['coffee-chat'])}">${appIcon('coffee-chat',44)}<span><small>02 / iOS APP</small>${L('Coffee Chat 筆記', 'Coffee Chat')}</span>${arrow('↗')}</a>
-    <a href="${appURL(bySlug['perfect-pig'])}">${appIcon('perfect-pig',44)}<span><small>03 / iOS GAME</small>${L('完美養豬', 'Perfect Pig')}</span>${arrow('↗')}</a>
+   <div class="dawn-cast">
+    <a class="dawn-character character-larry" href="${appURL(bySlug['larry-cocktail'])}"><span class="character-art"><img src="/assets/characters/larry-smiling.gif" alt="" width="530" height="650"></span><span class="character-label"><small>iOS GAME</small>${L('賴瑞的調酒研究室', 'Larry’s Cocktail Lab')}<span class="character-arrow" aria-hidden="true">${arrow('↗')}</span></span></a>
+    <a class="dawn-character character-pig" href="${appURL(bySlug['perfect-pig'])}"><span class="character-art"><img class="pig-idle" src="/assets/characters/perfect-pig-idle.png" alt="" width="360" height="331"><img class="pig-cheer" src="/assets/characters/perfect-pig-celebrating.png" alt="" width="412" height="354"></span><span class="character-label"><small>iOS GAME</small>${L('完美養豬', 'Perfect Pig')}<span class="character-arrow" aria-hidden="true">${arrow('↗')}</span></span></a>
    </div>
   </div>
  </div>

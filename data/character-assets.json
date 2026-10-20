@@ -1,0 +1,41 @@
+{
+  "assets": [
+    {
+      "asset": "/assets/characters/perfect-pig-celebrating.png",
+      "sourceProject": "完美養豬",
+      "sourcePath": "完美養豬/Assets.xcassets/PigCelebrating.imageset/pig_celebrating.png",
+      "originalFilename": "pig_celebrating.png",
+      "width": 412,
+      "height": 354,
+      "bytes": 163618,
+      "sha256": "966de6f8cca0289f8d6330d6588f72302f53b15b5efcf494f4f657a301993610",
+      "processing": "Exact original bytes; no resizing or edits."
+    },
+    {
+      "asset": "/assets/characters/perfect-pig-idle.png",
+      "sourceProject": "完美養豬",
+      "sourcePath": "完美養豬/Assets.xcassets/PigIdle.imageset/pig_idle.png",
+      "originalFilename": "pig_idle.png",
+      "width": 360,
+      "height": 331,
+      "bytes": 134205,
+      "sha256": "d2598319d7067b565fdc58285ce5b28c784fa5035ebb755bb5ca06cd34f1a9f3",
+      "processing": "Exact original bytes; no resizing or edits."
+    },
+    {
+      "asset": "/assets/characters/larry-smiling.gif",
+      "sourceProject": "Larry's Bar Game",
+      "sourcePath": "Larry's Bar Game/GameContent/assets/media/db/pic/char3/92449362.gif",
+      "originalFilename": "92449362.gif",
+      "characterName": "賴瑞",
+      "expression": "大笑",
+      "characterDefinitionPath": "Larry's Bar Game/GameContent/data/game.xml",
+      "width": 530,
+      "height": 650,
+      "frames": 1,
+      "bytes": 72177,
+      "sha256": "228d39178419d7be9e21ddb6dbac8311d6549220c5c46ad92554c10c9cbd240d",
+      "processing": "Exact original bytes; no resizing or edits."
+    }
+  ]
+}

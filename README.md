@@ -51,7 +51,7 @@ GitHub Pages 已設定自訂網域並強制 HTTPS；HTTP 與 `www.firesparkle.co
 
 ## 首頁視覺
 
-`public/home.css` 僅由首頁載入：淺米底、暖灰文字、香檳色細線，搭配本機 SVG `public/assets/brand/asagiri-hanabi.svg` 的花火與霧帶。主圖保持端正、完整呈現原始作品畫面；App 與 Steam 區使用同一套紙面色系。中文沿用 Noto Serif TC 宋體，正文與介面小字另保留足夠對比。裝飾不接收游標、不進入輔助技術閱讀順序，也沒有背景動畫。
+`public/home.css` 僅由首頁載入：淺米底、暖灰文字、香檳色細線，搭配本機 SVG `public/assets/brand/asagiri-hanabi.svg` 的花火與霧帶。主圖保持端正、完整呈現原始作品畫面；下方加入遊戲專案內賴瑞的大笑角色和小豬透明原圖，角色連結可直接開啟遊戲介紹。小豬在桌面 hover／鍵盤 focus 時切換星星眼表情；減少動態偏好會停用表情切換與位移，沒有自動循環動畫。原始圖檔不裁切或重繪，來源與雜湊記錄於 `data/character-assets.json`。作品索引與 Steam 區使用同一套紙面色系。中文沿用 Noto Serif TC 宋體，正文與介面小字另保留足夠對比。裝飾不接收游標、不進入輔助技術閱讀順序，也沒有背景動畫。
 
 作品索引以雙欄編號呈現，手機改為單欄；總數依資料自動計算，篩選或搜尋時顯示符合的數量。
 
