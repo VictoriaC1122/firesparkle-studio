@@ -2032,25 +2032,232 @@
       "notes": [
         "政策正文取自 coffee-chat-note-support 網站 locales/zh-Hant.json（2026-10-18）。"
       ]
+    },
+    "6822188590": {
+      "appId": "6822188590",
+      "appName": "圖解半導體",
+      "appStoreURL": "https://apps.apple.com/tw/app/id6822188590",
+      "privacyURL": "https://victoriac1122.github.io/semiverse-support-site/privacy.html",
+      "supportURL": "https://victoriac1122.github.io/semiverse-support-site/index.html",
+      "marketingURL": null,
+      "contactEmail": "victoriacheeng1122@gmail.com",
+      "contactEmails": [
+        "victoriacheeng1122@gmail.com"
+      ],
+      "policyTextFile": "6822188590-policy-body.txt",
+      "policySourceURL": "https://victoriac1122.github.io/semiverse-support-site/privacy.html",
+      "policyStatus": "full_text_available",
+      "policyUpdatedText": "更新日期：2026 年 10 月 13 日",
+      "policyCompiledDate": "2026-10-21",
+      "policyTextCharacterCount": 1588,
+      "policyTextExtraction": "Extracted existing Traditional Chinese text from the stated source selector. Removed decorative eyebrow labels and navigation-only text; whitespace normalized. Policy wording and original contact information retained.",
+      "evidenceFile": "6822188590-policy-evidence.json",
+      "source": {
+        "url": "https://apps.apple.com/tw/app/id6822188590",
+        "file": "6822188590-app-store-tw.html",
+        "sha256": "5247d2af6be95dced7add280b55bc10a0086d42d4dd5a8ba28424572bfdc063e",
+        "developerLinks": [
+          {
+            "label": "支援",
+            "url": "https://victoriac1122.github.io/semiverse-support-site/index.html"
+          }
+        ],
+        "privacyLinks": [
+          {
+            "label": "開發者的隱私權政策",
+            "url": "https://victoriac1122.github.io/semiverse-support-site/privacy.html"
+          }
+        ],
+        "developerLinkJSONPath": "data[0].data.shelfMapping.description.items[0].developerLinks",
+        "privacyLinkJSONPath": "data[0].data.shelfMapping.privacyHeader.items[0].bodyText.linkedSubstrings"
+      },
+      "evidenceSources": [
+        "https://apps.apple.com/tw/app/id6822188590",
+        "https://apps.apple.com/us/app/id6822188590",
+        "https://victoriac1122.github.io/semiverse-support-site/privacy.html",
+        "https://victoriac1122.github.io/semiverse-support-site/index.html"
+      ],
+      "policyHeadings": [
+        "隱私權政策",
+        "1. 適用範圍",
+        "2. 儲存在裝置上的學習資料",
+        "3. 刪除資料與 Apple 裝置備份",
+        "4. 訂閱與付款",
+        "5. 你主動提供給客服的資料",
+        "6. GitHub Pages 支援網站",
+        "7. 外部網站",
+        "8. 政策更新與聯絡"
+      ],
+      "notes": [
+        "原政策聯絡信箱為 victoriacheeng1122@gmail.com（cheeng 雙 e）；未更改。"
+      ],
+      "supportSource": {
+        "url": "https://victoriac1122.github.io/semiverse-support-site/index.html",
+        "file": "6822188590-support.html",
+        "readable": true
+      },
+      "compiledZh": "2026 年 10 月 21 日",
+      "compiledEn": "October 21, 2026"
+    },
+    "6823824323": {
+      "appId": "6823824323",
+      "appName": "哩程管家：信用卡換機票試算",
+      "appStoreURL": "https://apps.apple.com/tw/app/id6823824323",
+      "privacyURL": "https://victoriac1122.github.io/milebutler-support/#privacy-policy",
+      "supportURL": "https://victoriac1122.github.io/milebutler-support/#support",
+      "marketingURL": "https://victoriac1122.github.io/milebutler-support/",
+      "contactEmail": "victoriacheng1122@gmail.com",
+      "contactEmails": [
+        "victoriacheng1122@gmail.com"
+      ],
+      "policyTextFile": "6823824323-policy-body.txt",
+      "policySourceURL": "https://victoriac1122.github.io/milebutler-support/#privacy-policy",
+      "policyStatus": "full_text_available",
+      "policyUpdatedText": "生效日期：2026 年 10 月 17 日",
+      "policyCompiledDate": "2026-10-21",
+      "policyTextCharacterCount": 903,
+      "policyTextExtraction": "Extracted existing Traditional Chinese text from the stated source selector. Removed decorative eyebrow labels and navigation-only text; whitespace normalized. Policy wording and original contact information retained.",
+      "evidenceFile": "6823824323-policy-evidence.json",
+      "source": {
+        "url": "https://apps.apple.com/tw/app/id6823824323",
+        "file": "6823824323-app-store-tw.html",
+        "sha256": "f811236ec38c7a848f8d378f1ec14473c2fb4b28bbcf1252b57ae007c0480cff",
+        "developerLinks": [
+          {
+            "label": "網站",
+            "url": "https://victoriac1122.github.io/milebutler-support/"
+          },
+          {
+            "label": "支援",
+            "url": "https://victoriac1122.github.io/milebutler-support/#support"
+          }
+        ],
+        "privacyLinks": [
+          {
+            "label": "開發者的隱私權政策",
+            "url": "https://victoriac1122.github.io/milebutler-support/#privacy-policy"
+          }
+        ],
+        "developerLinkJSONPath": "data[0].data.shelfMapping.description.items[0].developerLinks",
+        "privacyLinkJSONPath": "data[0].data.shelfMapping.privacyHeader.items[0].bodyText.linkedSubstrings"
+      },
+      "evidenceSources": [
+        "https://apps.apple.com/tw/app/id6823824323",
+        "https://apps.apple.com/us/app/id6823824323",
+        "https://victoriac1122.github.io/milebutler-support/#privacy-policy",
+        "https://victoriac1122.github.io/milebutler-support/#support"
+      ],
+      "policyHeadings": [
+        "隱私權政策",
+        "適用範圍",
+        "資料蒐集",
+        "裝置內資料",
+        "iCloud 同步（Pro，可關閉）",
+        "通知",
+        "匯出與備份",
+        "外部連結與公開資料",
+        "分享、保存與刪除",
+        "政策更新與聯絡"
+      ],
+      "notes": [
+        "政策正文僅擷取 #privacy-policy；生效日期取自同頁「版本與政策資訊」。其他訂閱、版權與英文摘要未混入正文，完整來源 HTML 已保存。"
+      ],
+      "supportSource": {
+        "url": "https://victoriac1122.github.io/milebutler-support/#support",
+        "file": "6823824323-policy.html",
+        "readable": true
+      },
+      "compiledZh": "2026 年 10 月 21 日",
+      "compiledEn": "October 21, 2026"
+    },
+    "6824004640": {
+      "appId": "6824004640",
+      "appName": "我決定自己的未來-大學選系指南",
+      "appStoreURL": "https://apps.apple.com/tw/app/id6824004640",
+      "privacyURL": "https://victoriac1122.github.io/future-major-guide-support-site/privacy.html",
+      "supportURL": "https://victoriac1122.github.io/future-major-guide-support-site/",
+      "marketingURL": "https://victoriac1122.github.io/future-major-guide-support-site/",
+      "contactEmail": "victoriacheng1122@gmail.com",
+      "contactEmails": [
+        "victoriacheng1122@gmail.com"
+      ],
+      "policyTextFile": "6824004640-policy-body.txt",
+      "policySourceURL": "https://victoriac1122.github.io/future-major-guide-support-site/privacy.html",
+      "policyStatus": "full_text_available",
+      "policyUpdatedText": "最後更新：2026 年 10 月 17 日",
+      "policyCompiledDate": "2026-10-21",
+      "policyTextCharacterCount": 1099,
+      "policyTextExtraction": "Extracted existing Traditional Chinese text from the stated source selector. Removed decorative eyebrow labels and navigation-only text; whitespace normalized. Policy wording and original contact information retained.",
+      "evidenceFile": "6824004640-policy-evidence.json",
+      "source": {
+        "url": "https://apps.apple.com/tw/app/id6824004640",
+        "file": "6824004640-app-store-tw.html",
+        "sha256": "01c779d38ff8b2d2239c470d6d8733efaff9acd11be0a972aaf37fbdd1dd091f",
+        "developerLinks": [
+          {
+            "label": "網站",
+            "url": "https://victoriac1122.github.io/future-major-guide-support-site/"
+          },
+          {
+            "label": "支援",
+            "url": "https://victoriac1122.github.io/future-major-guide-support-site/"
+          }
+        ],
+        "privacyLinks": [
+          {
+            "label": "開發者的隱私權政策",
+            "url": "https://victoriac1122.github.io/future-major-guide-support-site/privacy.html"
+          }
+        ],
+        "developerLinkJSONPath": "data[0].data.shelfMapping.description.items[0].developerLinks",
+        "privacyLinkJSONPath": "data[0].data.shelfMapping.privacyHeader.items[0].bodyText.linkedSubstrings"
+      },
+      "evidenceSources": [
+        "https://apps.apple.com/tw/app/id6824004640",
+        "https://apps.apple.com/us/app/id6824004640",
+        "https://victoriac1122.github.io/future-major-guide-support-site/privacy.html",
+        "https://victoriac1122.github.io/future-major-guide-support-site/"
+      ],
+      "policyHeadings": [
+        "隱私權政策",
+        "政策摘要",
+        "不會上傳的資料",
+        "第三方服務",
+        "保存在裝置本機的資料",
+        "期限提醒（本機通知）",
+        "訂閱付款",
+        "資料用途",
+        "如何刪除資料",
+        "教育資訊與免責說明",
+        "聯絡方式"
+      ],
+      "supportSource": {
+        "url": "https://victoriac1122.github.io/future-major-guide-support-site/",
+        "file": "6824004640-support.html",
+        "readable": true
+      },
+      "compiledZh": "2026 年 10 月 21 日",
+      "compiledEn": "October 21, 2026"
     }
   },
   "schemaVersion": 2,
   "extractionNotes": [
     "App Store web pages exposed privacy/developer website URLs, but no per-App supportURL field. supportURL values are public support/contact destinations observed in the linked official sites; appStoreSupportURL remains null.",
     "policyTextFile is complete source policy wording with navigation and unrelated copyright/support sections removed; source HTML/TXT files retain the full pages. Summaries are descriptive research notes, not revised legal promises.",
-    "10 policies have full text available; 1 (Larry) only describes the public information website. No App behavior was independently audited.",
+    "14 policies have full text available; 1 (Larry) only describes the public information website. No App behavior was independently audited.",
     "Contact difference: Compound Calculator uses victoriacheeng1122@gmail.com; nine apps use victoriacheng1122@gmail.com; AI TimeManager has GitHub-only public contact."
   ],
   "coverage": {
-    "apps": 11,
-    "appStorePagesReadable": 11,
-    "privacyURLsFound": 11,
-    "fullPolicyTexts": 10,
+    "apps": 15,
+    "appStorePagesReadable": 15,
+    "privacyURLsFound": 15,
+    "fullPolicyTexts": 14,
     "websiteOnlyPrivacyTexts": 1,
-    "appsWithEmail": 10,
+    "appsWithEmail": 14,
     "distinctEmails": [
       "victoriacheeng1122@gmail.com",
       "victoriacheng1122@gmail.com"
     ]
-  }
+  },
+  "lastUpdatedOn": "2026-10-21"
 }

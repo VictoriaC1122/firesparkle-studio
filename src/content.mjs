@@ -13,6 +13,7 @@ export const site = {
 
 // 作品排序（首頁、作品頁編號依此順序）
 export const order = [
+  'future-major-guide', 'milebutler', 'semiconductors-illustrated',
   'dream-journal', 'coffee-chat', 'design-it', 'perfect-pig', 'time-manager', 'vitamins',
   'easy-draw', 'compound-calculator', 'stock-simulator', 'crypto-dictionary', 'pr-diary', 'larry-cocktail',
 ];
@@ -24,10 +25,26 @@ export const categoryEn = {
 export const genreEn = {
   工具程式: 'Utilities', 財經: 'Finance', 生產力工具: 'Productivity', 教育: 'Education', 健康與健身: 'Health & Fitness',
   遊戲: 'Games', 家庭: 'Family', 模擬: 'Simulation', 圖像與設計: 'Graphics & Design', 生活風格: 'Lifestyle',
+  參考: 'Reference', 旅遊: 'Travel',
 };
 
 // 每款 App：分類、中文簡稱、英文名稱與中英文簡介
 export const apps = {
+  'future-major-guide': {
+    category: '學習與規劃', short: '我決定自己的未來-大學選系指南', en: 'Future Major Guide',
+    shortDescription: '探索台灣與美國的大學及科系，透過興趣測驗、校系比較、收藏與筆記整理選校方向。',
+    enDesc: 'Explore universities and majors in Taiwan and the United States with interest quizzes, side-by-side comparisons, saved options and notes.',
+  },
+  milebutler: {
+    category: '學習與規劃', short: '哩程管家：信用卡換機票試算', en: 'MileButler: Miles & Card Plans',
+    shortDescription: '比較航空哩程兌換、買哩成本與信用卡轉點，估算換票所需點數、消費金額和累積時間。',
+    enDesc: 'Compare flight award redemptions, mile-purchase costs and credit-card point transfers. Estimate the points, spending and time needed for a ticket.',
+  },
+  'semiconductors-illustrated': {
+    category: '學習與規劃', short: '圖解半導體', en: 'Semiconductors Illustrated',
+    shortDescription: '用圖解與互動製程示意學習半導體，搭配入門課、術語字典、小測驗與學習筆記。',
+    enDesc: 'Learn semiconductor basics with illustrated lessons, interactive process diagrams, a glossary, quizzes and study notes.',
+  },
   'dream-journal': {
     category: '生活記錄', short: '把夢遺留下來', en: 'Leave Your Dream Behind',
     shortDescription: '記錄夢境、情緒與標籤，用月曆和趨勢回顧夢境紀錄。',

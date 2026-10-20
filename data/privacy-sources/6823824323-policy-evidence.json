@@ -1,0 +1,77 @@
+{
+  "retrievedOn": "2026-10-21",
+  "appId": "6823824323",
+  "appName": "哩程管家：信用卡換機票試算",
+  "portfolioIndexURL": "https://victoriac1122.github.io/apps/script.js",
+  "appStoreSources": [
+    {
+      "url": "https://apps.apple.com/tw/app/id6823824323",
+      "file": "6823824323-app-store-tw.html",
+      "sha256": "f811236ec38c7a848f8d378f1ec14473c2fb4b28bbcf1252b57ae007c0480cff",
+      "developerLinks": [
+        {
+          "label": "網站",
+          "url": "https://victoriac1122.github.io/milebutler-support/"
+        },
+        {
+          "label": "支援",
+          "url": "https://victoriac1122.github.io/milebutler-support/#support"
+        }
+      ],
+      "privacyLinks": [
+        {
+          "label": "開發者的隱私權政策",
+          "url": "https://victoriac1122.github.io/milebutler-support/#privacy-policy"
+        }
+      ],
+      "developerLinkJSONPath": "data[0].data.shelfMapping.description.items[0].developerLinks",
+      "privacyLinkJSONPath": "data[0].data.shelfMapping.privacyHeader.items[0].bodyText.linkedSubstrings"
+    },
+    {
+      "url": "https://apps.apple.com/us/app/id6823824323",
+      "file": "6823824323-app-store-us.html",
+      "sha256": "64f6df439092618246c6b0d5eda7710b9cc0d963655f5a0912e24b2d1400846e",
+      "developerLinks": [
+        {
+          "label": "Website",
+          "url": "https://victoriac1122.github.io/milebutler-support/"
+        },
+        {
+          "label": "Support",
+          "url": "https://victoriac1122.github.io/milebutler-support/#support"
+        }
+      ],
+      "privacyLinks": [
+        {
+          "label": "developer’s privacy policy",
+          "url": "https://victoriac1122.github.io/milebutler-support/#privacy-policy"
+        }
+      ],
+      "developerLinkJSONPath": "data[0].data.shelfMapping.description.items[0].developerLinks",
+      "privacyLinkJSONPath": "data[0].data.shelfMapping.privacyHeader.items[0].bodyText.linkedSubstrings"
+    }
+  ],
+  "policyDocument": {
+    "url": "https://victoriac1122.github.io/milebutler-support/#privacy-policy",
+    "file": "6823824323-policy.html",
+    "sha256": "7f5745a39be9d111e6f1f8b6944e739fb4ca8cf017364d5a66dd196216ec907d",
+    "selector": "section#privacy-policy",
+    "headings": [
+      "隱私權政策",
+      "適用範圍",
+      "資料蒐集",
+      "裝置內資料",
+      "iCloud 同步（Pro，可關閉）",
+      "通知",
+      "匯出與備份",
+      "外部連結與公開資料",
+      "分享、保存與刪除",
+      "政策更新與聯絡"
+    ],
+    "policyUpdatedText": "生效日期：2026 年 10 月 17 日",
+    "contactEmails": [
+      "victoriacheng1122@gmail.com"
+    ]
+  },
+  "policyTextExtraction": "Extracted existing Traditional Chinese text from the stated source selector. Removed decorative eyebrow labels and navigation-only text; whitespace normalized. Policy wording and original contact information retained."
+}

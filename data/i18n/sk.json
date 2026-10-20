@@ -61,7 +61,6 @@
   "2945df36c2f9": "Podrobnosti o aplikácii",
   "6eebe159fceb": "Zaznamenávajte sny, nálady a značky a prezerajte si staršie zápisy v kalendári.",
   "01bed311e7d0": "Všetky aplikácie",
-  "cb0e13633b9d": "Aplikácie: <b data-count>10</b>",
   "a52ace420f21": "Všetky",
   "a10a36fa1098": "Hľadať aplikácie",
   "3b7ea51793e9": "Vymazať hľadanie",
@@ -175,5 +174,18 @@
   "3954df759bac": "Toto existujúce oznámenie sa týka iba informačnej stránky aplikácie, nie všetkého spracúvania údajov v aplikácii. Podrobnosti o údajoch, ukladaní alebo vymazaní získate e-mailom.",
   "b4b24b6dcd08": "Nákupy v aplikácii a predplatné spracúva Apple. Spravujte ich v Nastaveniach iPhone → vaše meno → Predplatné. O vrátenie peňazí požiadajte cez <a href=\"https://reportaproblem.apple.com/\">Apple Report a Problem</a>; žiadosti posudzuje Apple. Vymazanie aplikácie nezruší jej predplatné.",
   "0dad92348ba0": "Navštívte <a href=\"/privacy/\">centrum súkromia</a> a vyberte aplikáciu alebo hru. Pri otázkach o prístupe, oprave alebo vymazaní údajov nám napíšte a uveďte názov produktu.",
-  "4b97fbdad297": "Napíšte nám názov aplikácie a čo sa stalo. Ukladanie a zálohovanie sa líšia podľa aplikácie a niektoré údaje zostávajú iba vo vašom zariadení, kde k nim nemáme prístup ani ich nemôžeme obnoviť. Pred vymazaním alebo preinštalovaním overte možnosti zálohovania."
+  "4b97fbdad297": "Napíšte nám názov aplikácie a čo sa stalo. Ukladanie a zálohovanie sa líšia podľa aplikácie a niektoré údaje zostávajú iba vo vašom zariadení, kde k nim nemáme prístup ani ich nemôžeme obnoviť. Pred vymazaním alebo preinštalovaním overte možnosti zálohovania.",
+  "17a827b4093a": "Aplikácie: <b data-count>{count}</b>",
+  "b4eceddba2dc": "Zostavené 21. októbra 2026",
+  "bc5ff3ef4ec9": "Semiconductors Illustrated",
+  "2c0a8d6b7dd0": "Spoznajte základy polovodičov pomocou ilustrovaných lekcií, interaktívnych schém procesov, slovníka, kvízov a študijných poznámok.",
+  "7e3d6742eb7f": "Semiconductors Illustrated<br>Zásady ochrany súkromia",
+  "6a1724afea00": "MileButler: Miles &amp; Card Plans",
+  "114e5b0d6f59": "Porovnajte výmenu vernostných míľ za letenky, náklady na nákup míľ a prevody bodov z kreditných kariet. Odhadnite body, výdavky a čas potrebné na letenku.",
+  "15d5e46669f1": "MileButler: Miles &amp; Card Plans<br>Zásady ochrany súkromia",
+  "cc98337718f6": "Future Major Guide",
+  "58ea6de8a5c2": "Preskúmajte univerzity a študijné odbory na Taiwane a v USA pomocou záujmových kvízov, porovnaní vedľa seba, uložených možností a poznámok.",
+  "d8279b90fd1c": "Future Major Guide<br>Zásady ochrany súkromia",
+  "e326ef4687a8": "Vzdelávanie · Príručky",
+  "4ea6c6d4eca5": "Cestovanie · Financie"
 }

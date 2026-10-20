@@ -61,7 +61,6 @@
   "2945df36c2f9": "Om appen",
   "6eebe159fceb": "Anteckna drömmar, humör och taggar och bläddra bland tidigare inlägg i en kalender.",
   "01bed311e7d0": "Alla appar",
-  "cb0e13633b9d": "Appar: <b data-count>10</b>",
   "a52ace420f21": "Alla",
   "a10a36fa1098": "Sök appar",
   "3b7ea51793e9": "Rensa sökning",
@@ -175,5 +174,18 @@
   "3954df759bac": "Det här befintliga meddelandet omfattar endast appens informationssida, inte all datahantering i appen. Mejla oss för information om appdata, lagring eller radering.",
   "b4b24b6dcd08": "Apple hanterar köp inuti appar och prenumerationer. Hantera dem i iPhone-inställningar → ditt namn → Prenumerationer. Återbetalning begärs via <a href=\"https://reportaproblem.apple.com/\">Apples Rapportera ett problem</a> och prövas av Apple. Att ta bort en app avslutar inte prenumerationen.",
   "0dad92348ba0": "Besök <a href=\"/privacy/\">integritetscentret</a> och välj app eller spel. Mejla oss vid frågor om åtkomst, rättelse eller radering av data och ange produktnamnet.",
-  "4b97fbdad297": "Mejla oss med appens namn och vad som hände. Lagring och säkerhetskopiering skiljer sig mellan appar; vissa data finns bara på din enhet, där vi inte kan komma åt eller återställa dem. Kontrollera säkerhetskopieringen innan du tar bort eller installerar om appen."
+  "4b97fbdad297": "Mejla oss med appens namn och vad som hände. Lagring och säkerhetskopiering skiljer sig mellan appar; vissa data finns bara på din enhet, där vi inte kan komma åt eller återställa dem. Kontrollera säkerhetskopieringen innan du tar bort eller installerar om appen.",
+  "17a827b4093a": "Appar: <b data-count>{count}</b>",
+  "b4eceddba2dc": "Sammanställt den 21 oktober 2026",
+  "bc5ff3ef4ec9": "Semiconductors Illustrated",
+  "2c0a8d6b7dd0": "Lär dig grunderna i halvledare med illustrerade lektioner, interaktiva processdiagram, en ordlista, quiz och studieanteckningar.",
+  "7e3d6742eb7f": "Semiconductors Illustrated<br>Integritetspolicy",
+  "6a1724afea00": "MileButler: Miles &amp; Card Plans",
+  "114e5b0d6f59": "Jämför bonusresor, kostnader för att köpa flygmil och överföringar av kreditkortspoäng. Uppskatta poäng, utgifter och tid som behövs för en biljett.",
+  "15d5e46669f1": "MileButler: Miles &amp; Card Plans<br>Integritetspolicy",
+  "cc98337718f6": "Future Major Guide",
+  "58ea6de8a5c2": "Utforska universitet och utbildningsinriktningar i Taiwan och USA med intressetest, jämförelser sida vid sida, sparade alternativ och anteckningar.",
+  "d8279b90fd1c": "Future Major Guide<br>Integritetspolicy",
+  "e326ef4687a8": "Utbildning · Referens",
+  "4ea6c6d4eca5": "Resor · Ekonomi"
 }

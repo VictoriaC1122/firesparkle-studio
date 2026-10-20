@@ -61,7 +61,6 @@
   "2945df36c2f9": "App-Details",
   "6eebe159fceb": "Halte Träume, Stimmungen und Schlagwörter fest und blättere im Kalender durch frühere Einträge.",
   "01bed311e7d0": "Alle Apps",
-  "cb0e13633b9d": "Apps: <b data-count>10</b>",
   "a52ace420f21": "Alle",
   "a10a36fa1098": "Apps suchen",
   "3b7ea51793e9": "Suche löschen",
@@ -175,5 +174,18 @@
   "3954df759bac": "Dieser bestehende Hinweis gilt nur für die Informationsseite der App, nicht für sämtliche Datenverarbeitung in der App. Für Fragen zu App-Daten, Speicherung oder Löschung schreib uns bitte.",
   "b4b24b6dcd08": "Apple wickelt In-App-Käufe und Abonnements ab. Verwalte sie unter iPhone-Einstellungen → dein Name → Abonnements. Rückerstattungen werden über <a href=\"https://reportaproblem.apple.com/\">Apples „Problem melden“</a> beantragt und von Apple geprüft. Das Löschen einer App kündigt ihr Abo nicht.",
   "0dad92348ba0": "Besuche das <a href=\"/privacy/\">Datenschutzzentrum</a> und wähle die App oder das Spiel. Bei Fragen zu Zugriff, Berichtigung oder Löschung von Daten schreib uns unter Angabe des Produktnamens.",
-  "4b97fbdad297": "Schreib uns mit dem App-Namen und einer Beschreibung des Vorfalls. Speicherung und Sicherungen unterscheiden sich je nach App. Manche Daten liegen nur auf deinem Gerät, sodass wir sie weder einsehen noch wiederherstellen können. Prüfe vor dem Löschen oder Neuinstallieren die Sicherungsoptionen der App."
+  "4b97fbdad297": "Schreib uns mit dem App-Namen und einer Beschreibung des Vorfalls. Speicherung und Sicherungen unterscheiden sich je nach App. Manche Daten liegen nur auf deinem Gerät, sodass wir sie weder einsehen noch wiederherstellen können. Prüfe vor dem Löschen oder Neuinstallieren die Sicherungsoptionen der App.",
+  "17a827b4093a": "Apps: <b data-count>{count}</b>",
+  "b4eceddba2dc": "Zusammengestellt am 21. Oktober 2026",
+  "bc5ff3ef4ec9": "Semiconductors Illustrated",
+  "2c0a8d6b7dd0": "Lerne Halbleitergrundlagen mit bebilderten Lektionen, interaktiven Prozessdiagrammen, einem Glossar, Quizfragen und Lernnotizen.",
+  "7e3d6742eb7f": "Semiconductors Illustrated<br>Datenschutzerklärung",
+  "6a1724afea00": "MileButler: Miles &amp; Card Plans",
+  "114e5b0d6f59": "Vergleiche Prämienflüge, Meilenkaufkosten und Kreditkarten-Punktetransfers. Schätze die benötigten Punkte, Ausgaben und die Zeit bis zum Ticket.",
+  "15d5e46669f1": "MileButler: Miles &amp; Card Plans<br>Datenschutzerklärung",
+  "cc98337718f6": "Future Major Guide",
+  "58ea6de8a5c2": "Erkunde Hochschulen und Studienfächer in Taiwan und den USA mit Interessentests, direkten Vergleichen, gespeicherten Optionen und Notizen.",
+  "d8279b90fd1c": "Future Major Guide<br>Datenschutzerklärung",
+  "e326ef4687a8": "Bildung · Nachschlagewerke",
+  "4ea6c6d4eca5": "Reisen · Finanzen"
 }

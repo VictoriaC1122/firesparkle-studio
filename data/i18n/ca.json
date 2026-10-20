@@ -61,7 +61,6 @@
   "2945df36c2f9": "Detalls de l’aplicació",
   "6eebe159fceb": "Registra somnis, estats d’ànim i etiquetes, i consulta entrades anteriors en un calendari.",
   "01bed311e7d0": "Totes les aplicacions",
-  "cb0e13633b9d": "Aplicacions: <b data-count>10</b>",
   "a52ace420f21": "Totes",
   "a10a36fa1098": "Cerca aplicacions",
   "3b7ea51793e9": "Esborra la cerca",
@@ -175,5 +174,18 @@
   "3954df759bac": "Aquest avís existent només cobreix la pàgina informativa de l’aplicació, no tot el tractament de dades dins l’aplicació. Escriu-nos per a detalls sobre dades, emmagatzematge o eliminació.",
   "b4b24b6dcd08": "Apple gestiona les compres integrades i les subscripcions. Gestiona-les a Configuració de l’iPhone → el teu nom → Subscripcions. Els reemborsaments es demanen a <a href=\"https://reportaproblem.apple.com/\">Report a Problem d’Apple</a> i Apple els revisa. Eliminar una aplicació no cancel·la la subscripció.",
   "0dad92348ba0": "Visita el <a href=\"/privacy/\">centre de privacitat</a> i tria l’aplicació o joc. Per a consultes sobre accés, correcció o eliminació de dades, escriu-nos i indica el nom del producte.",
-  "4b97fbdad297": "Escriu-nos amb el nom de l’aplicació i què ha passat. L’emmagatzematge i les còpies de seguretat varien segons l’aplicació, i algunes dades només són al teu dispositiu, on no hi podem accedir ni restaurar-les. Comprova les opcions de còpia de seguretat abans d’eliminar o reinstal·lar."
+  "4b97fbdad297": "Escriu-nos amb el nom de l’aplicació i què ha passat. L’emmagatzematge i les còpies de seguretat varien segons l’aplicació, i algunes dades només són al teu dispositiu, on no hi podem accedir ni restaurar-les. Comprova les opcions de còpia de seguretat abans d’eliminar o reinstal·lar.",
+  "17a827b4093a": "Aplicacions: <b data-count>{count}</b>",
+  "b4eceddba2dc": "Recopilat el 21 d’octubre de 2026",
+  "bc5ff3ef4ec9": "Semiconductors Illustrated",
+  "2c0a8d6b7dd0": "Aprèn els fonaments dels semiconductors amb lliçons il·lustrades, diagrames interactius de processos, un glossari, qüestionaris i apunts d’estudi.",
+  "7e3d6742eb7f": "Semiconductors Illustrated<br>Política de privacitat",
+  "6a1724afea00": "MileButler: Miles &amp; Card Plans",
+  "114e5b0d6f59": "Compara els bescanvis de milles per vols, els costos de comprar milles i les transferències de punts de targetes de crèdit. Estima els punts, la despesa i el temps necessaris per a un bitllet.",
+  "15d5e46669f1": "MileButler: Miles &amp; Card Plans<br>Política de privacitat",
+  "cc98337718f6": "Future Major Guide",
+  "58ea6de8a5c2": "Explora universitats i titulacions de Taiwan i dels Estats Units amb qüestionaris d’interessos, comparacions en paral·lel, opcions desades i notes.",
+  "d8279b90fd1c": "Future Major Guide<br>Política de privacitat",
+  "e326ef4687a8": "Educació · Referència",
+  "4ea6c6d4eca5": "Viatges · Finances"
 }

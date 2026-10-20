@@ -8,9 +8,10 @@ GitHub Pages 已設定自訂網域並強制 HTTPS；HTTP 與 `www.firesparkle.co
 
 ## 內容
 
-- 首頁：工作室主視覺、遊戲精選、Steam 上架準備、10 款 App（分類篩選＋搜尋）、工作室介紹、聯絡
+- 首頁：工作室主視覺、遊戲精選、Steam 上架準備、13 款 App（分類篩選＋搜尋）、工作室介紹、聯絡
+- 2026-10-21 新增「圖解半導體」、「哩程管家：信用卡換機票試算」及「我決定自己的未來-大學選系指南」，放在 App 列表前方；資料、圖示及截圖經 Apple 官方頁與工作室原作品集核對。
 - 遊戲精選包含已於 App Store 上架的「賴瑞的調酒研究室」與「完美養豬」；Steam 區塊只呈現上架準備狀態，尚未指定作品、商店連結或發售日期
-- 12 款作品各自保留介紹頁 `/app/<slug>/` 與隱私頁 `/app/<slug>/privacy/`；有官方截圖的作品頁另提供畫面展示
+- 15 款作品各自保留介紹頁 `/app/<slug>/` 與隱私頁 `/app/<slug>/privacy/`；有官方截圖的作品頁另提供畫面展示
 - 隱私中心 `/privacy/`、支援與常見問題 `/support/`、網站隱私說明 `/website-privacy/`、404、sitemap
 
 ## 修改
@@ -20,7 +21,7 @@ GitHub Pages 已設定自訂網域並強制 HTTPS；HTTP 與 `www.firesparkle.co
 - `scripts/build.mjs`：共用頁首／頁尾、作品與政策等內頁的版型及中英文案；載入首頁模組並產生全站頁面
 - `public/style.css`、`public/site.js`：響應式外觀、目前區塊導覽、分類與搜尋；清除搜尋時保留分類
 - `src/locales.mjs`、`src/i18n-build.mjs`：語言清單、文字 ID、翻譯驗證與語言資源產生器
-- `data/i18n/source.json`、`data/i18n/<locale>.json`：177 項繁中／英文來源文字及 48 組翻譯，透過固定文字 ID 對應
+- `data/i18n/source.json`、`data/i18n/<locale>.json`：189 項繁中／英文來源文字及 48 組翻譯，透過固定文字 ID 對應
 - `public/i18n.js`、`public/i18n.css`：語言選單、按需載入、文字替換、文字方向與多語排版
 - `public/gallery.css`、`public/gallery.js`：作品截圖的原生 dialog 放大檢視，支援方向鍵、Escape 與焦點還原；未啟用 JavaScript 時仍可直接開啟圖片
 - `data/apple-catalog.json`：App Store 資料（中文名稱、簡介、圖示、系統需求）
@@ -40,7 +41,7 @@ GitHub Pages 已設定自訂網域並強制 HTTPS；HTTP 與 `www.firesparkle.co
 
 訪客可用語言原名、英文名或中文名搜尋。優先順序為網址 `?lang=ja`、已儲存的 `fs-lang` 偏好、瀏覽器語言，最後英文。切換會更新站內連結及網址，方便分享；阿拉伯、波斯、希伯來及烏爾都語使用 RTL。翻譯由本站提供，選擇時只下載一個含內容雜湊的 JSON，不連外部翻譯服務；載入失敗保留原頁面並顯示重試提示。未啟用 JavaScript 時顯示繁中內容。
 
-新增或調整文字時，同步更新來源、所有翻譯與模板。來源 ID 為英文 HTML 的 SHA-256 前 12 碼；各語言檔使用 `{ "文字ID": "翻譯" }`，更動來源順序不影響對應，修改英文會要求同步更新各語言。翻譯中保留原有 HTML 標籤、網址及聯絡信箱。`npm run build` 會檢查來源 ID、177 項完整性與 HTML 結構，缺少任何語言即停止。開發中可暫用 `PREVIEW_PARTIAL_LOCALES=1 npm run build` 預覽已完成的語言；正式部署不可設定此變數。
+新增或調整文字時，同步更新來源、所有翻譯與模板。來源 ID 為英文 HTML 的 SHA-256 前 12 碼；各語言檔使用 `{ "文字ID": "翻譯" }`，更動來源順序不影響對應，修改英文會要求同步更新各語言。翻譯中保留原有 HTML 標籤、網址及聯絡信箱。作品總數使用 `{count}` 參數，由資料筆數帶入，不必為新增作品重翻計數文字。`npm run build` 會檢查來源 ID、189 項完整性與 HTML 結構，缺少任何語言即停止。開發中可暫用 `PREVIEW_PARTIAL_LOCALES=1 npm run build` 預覽已完成的語言；正式部署不可設定此變數。
 
 ## 文案
 

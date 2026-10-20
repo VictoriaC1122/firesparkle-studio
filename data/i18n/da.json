@@ -61,7 +61,6 @@
   "2945df36c2f9": "Om appen",
   "6eebe159fceb": "Notér drømme, humør og tags, og se tidligere indlæg i en kalender.",
   "01bed311e7d0": "Alle apps",
-  "cb0e13633b9d": "Apps: <b data-count>10</b>",
   "a52ace420f21": "Alle",
   "a10a36fa1098": "Søg efter apps",
   "3b7ea51793e9": "Ryd søgning",
@@ -175,5 +174,18 @@
   "3954df759bac": "Denne eksisterende meddelelse dækker kun appens informationsside, ikke al databehandling i appen. Skriv til os for detaljer om appdata, opbevaring eller sletning.",
   "b4b24b6dcd08": "Apple håndterer køb i appen og abonnementer. Administrér dem i iPhone-indstillinger → dit navn → Abonnementer. Refusioner anmodes via <a href=\"https://reportaproblem.apple.com/\">Apples Rapporter et problem</a> og vurderes af Apple. Sletning af en app opsiger ikke abonnementet.",
   "0dad92348ba0": "Besøg <a href=\"/privacy/\">privatlivscentret</a>, og vælg appen eller spillet. Skriv til os om adgang, rettelse eller sletning af data, og angiv produktnavnet.",
-  "4b97fbdad297": "Skriv appens navn og hvad der skete. Lagring og sikkerhedskopiering varierer fra app til app; nogle data ligger kun på din enhed, hvor vi ikke kan tilgå eller gendanne dem. Kontrollér mulighederne for sikkerhedskopiering, før du sletter eller geninstallerer."
+  "4b97fbdad297": "Skriv appens navn og hvad der skete. Lagring og sikkerhedskopiering varierer fra app til app; nogle data ligger kun på din enhed, hvor vi ikke kan tilgå eller gendanne dem. Kontrollér mulighederne for sikkerhedskopiering, før du sletter eller geninstallerer.",
+  "17a827b4093a": "Apps: <b data-count>{count}</b>",
+  "b4eceddba2dc": "Samlet den 21. oktober 2026",
+  "bc5ff3ef4ec9": "Semiconductors Illustrated",
+  "2c0a8d6b7dd0": "Lær det grundlæggende om halvledere med illustrerede lektioner, interaktive procesdiagrammer, en ordliste, quizzer og studienoter.",
+  "7e3d6742eb7f": "Semiconductors Illustrated<br>Privatlivspolitik",
+  "6a1724afea00": "MileButler: Miles &amp; Card Plans",
+  "114e5b0d6f59": "Sammenlign bonusbilletter, omkostninger ved køb af flymiles og overførsel af kreditkortpoint. Beregn et overslag over point, forbrug og tid til en billet.",
+  "15d5e46669f1": "MileButler: Miles &amp; Card Plans<br>Privatlivspolitik",
+  "cc98337718f6": "Future Major Guide",
+  "58ea6de8a5c2": "Udforsk universiteter og studieretninger i Taiwan og USA med interessetest, sammenligninger side om side, gemte valg og noter.",
+  "d8279b90fd1c": "Future Major Guide<br>Privatlivspolitik",
+  "e326ef4687a8": "Uddannelse · Opslagsværker",
+  "4ea6c6d4eca5": "Rejser · Økonomi"
 }

@@ -61,7 +61,6 @@
   "2945df36c2f9": "Uygulama ayrıntıları",
   "6eebe159fceb": "Rüyaları, ruh hâlinizi ve etiketleri kaydedip geçmiş kayıtları takvimde inceleyin.",
   "01bed311e7d0": "Tüm uygulamalar",
-  "cb0e13633b9d": "Uygulamalar: <b data-count>10</b>",
   "a52ace420f21": "Tümü",
   "a10a36fa1098": "Uygulama ara",
   "3b7ea51793e9": "Aramayı temizle",
@@ -175,5 +174,18 @@
   "3954df759bac": "Bu mevcut bildirim yalnızca uygulamanın bilgi sayfasını kapsar; uygulama içindeki tüm veri işleme süreçlerini kapsamaz. Uygulama verileri, saklama veya silme hakkında ayrıntılar için e-posta gönderin.",
   "b4b24b6dcd08": "Uygulama içi satın alımlar ve abonelikler Apple tarafından yönetilir. iPhone Ayarlar → adınız → Abonelikler bölümünden yönetin. Geri ödeme talepleri <a href=\"https://reportaproblem.apple.com/\">Apple Sorun Bildir</a> üzerinden yapılır ve Apple tarafından incelenir. Uygulamayı silmek aboneliği iptal etmez.",
   "0dad92348ba0": "<a href=\"/privacy/\">Gizlilik merkezini</a> ziyaret edip uygulama veya oyunu seçin. Verilere erişme, düzeltme veya silme soruları için ürün adını belirterek e-posta gönderin.",
-  "4b97fbdad297": "Uygulama adını ve ne olduğunu e-postayla bildirin. Saklama ve yedekleme her uygulamada farklıdır; bazı veriler yalnızca cihazınızda bulunduğu için bunlara erişemeyiz veya bunları geri yükleyemeyiz. Silmeden veya yeniden kurmadan önce yedekleme seçeneklerini kontrol edin."
+  "4b97fbdad297": "Uygulama adını ve ne olduğunu e-postayla bildirin. Saklama ve yedekleme her uygulamada farklıdır; bazı veriler yalnızca cihazınızda bulunduğu için bunlara erişemeyiz veya bunları geri yükleyemeyiz. Silmeden veya yeniden kurmadan önce yedekleme seçeneklerini kontrol edin.",
+  "17a827b4093a": "Uygulamalar: <b data-count>{count}</b>",
+  "b4eceddba2dc": "Derleme tarihi: 21 Ekim 2026",
+  "bc5ff3ef4ec9": "Semiconductors Illustrated",
+  "2c0a8d6b7dd0": "Resimli dersler, etkileşimli süreç şemaları, terimler sözlüğü, testler ve çalışma notlarıyla yarı iletkenlerin temellerini öğrenin.",
+  "7e3d6742eb7f": "Semiconductors Illustrated<br>Gizlilik politikası",
+  "6a1724afea00": "MileButler: Miles &amp; Card Plans",
+  "114e5b0d6f59": "Ödül bilet kullanımlarını, mil satın alma maliyetlerini ve kredi kartı puan transferlerini karşılaştırın. Bilet için gereken puanı, harcamayı ve süreyi tahmin edin.",
+  "15d5e46669f1": "MileButler: Miles &amp; Card Plans<br>Gizlilik politikası",
+  "cc98337718f6": "Future Major Guide",
+  "58ea6de8a5c2": "İlgi alanı testleri, yan yana karşılaştırmalar, kaydedilen seçenekler ve notlarla Tayvan ve ABD'deki üniversiteleri ve bölümleri keşfedin.",
+  "d8279b90fd1c": "Future Major Guide<br>Gizlilik politikası",
+  "e326ef4687a8": "Eğitim · Referans",
+  "4ea6c6d4eca5": "Seyahat · Finans"
 }

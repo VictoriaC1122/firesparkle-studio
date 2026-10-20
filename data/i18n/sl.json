@@ -61,7 +61,6 @@
   "2945df36c2f9": "O aplikaciji",
   "6eebe159fceb": "Zapišite sanje, razpoloženja in oznake ter preglejte pretekle vnose v koledarju.",
   "01bed311e7d0": "Vse aplikacije",
-  "cb0e13633b9d": "Aplikacije: <b data-count>10</b>",
   "a52ace420f21": "Vse",
   "a10a36fa1098": "Išči aplikacije",
   "3b7ea51793e9": "Počisti iskanje",
@@ -175,5 +174,18 @@
   "3954df759bac": "To obstoječe obvestilo zajema le informativno spletno stran aplikacije, ne vse obdelave podatkov v aplikaciji. Za podrobnosti o podatkih, shranjevanju ali brisanju nam pišite.",
   "b4b24b6dcd08": "Nakupe v aplikaciji in naročnine obdeluje Apple. Upravljajte jih v Nastavitvah iPhone → vaše ime → Naročnine. Vračilo zahtevate prek <a href=\"https://reportaproblem.apple.com/\">Apple Report a Problem</a>, zahteve pa pregleda Apple. Izbris aplikacije ne prekliče naročnine.",
   "0dad92348ba0": "Obiščite <a href=\"/privacy/\">središče za zasebnost</a> in izberite aplikacijo ali igro. Za dostop, popravek ali izbris podatkov nam pišite in navedite ime izdelka.",
-  "4b97fbdad297": "Pišite nam z imenom aplikacije in opisom dogodka. Shranjevanje in varnostno kopiranje se razlikujeta med aplikacijami, nekateri podatki pa so samo v vaši napravi in jih ne moremo pridobiti ali obnoviti. Pred brisanjem ali ponovno namestitvijo preverite možnosti varnostnega kopiranja."
+  "4b97fbdad297": "Pišite nam z imenom aplikacije in opisom dogodka. Shranjevanje in varnostno kopiranje se razlikujeta med aplikacijami, nekateri podatki pa so samo v vaši napravi in jih ne moremo pridobiti ali obnoviti. Pred brisanjem ali ponovno namestitvijo preverite možnosti varnostnega kopiranja.",
+  "17a827b4093a": "Aplikacije: <b data-count>{count}</b>",
+  "b4eceddba2dc": "Zbrano 21. oktobra 2026",
+  "bc5ff3ef4ec9": "Semiconductors Illustrated",
+  "2c0a8d6b7dd0": "Spoznajte osnove polprevodnikov z ilustriranimi lekcijami, interaktivnimi diagrami procesov, slovarjem, kvizi in učnimi zapiski.",
+  "7e3d6742eb7f": "Semiconductors Illustrated<br>Pravilnik o zasebnosti",
+  "6a1724afea00": "MileButler: Miles &amp; Card Plans",
+  "114e5b0d6f59": "Primerjajte unovčenje nagradnih milj za letalske vozovnice, stroške nakupa milj in prenose točk s kreditnih kartic. Ocenite točke, porabo in čas, potrebne za vozovnico.",
+  "15d5e46669f1": "MileButler: Miles &amp; Card Plans<br>Pravilnik o zasebnosti",
+  "cc98337718f6": "Future Major Guide",
+  "58ea6de8a5c2": "Raziščite univerze in študijske smeri na Tajvanu in v ZDA s kvizi o interesih, vzporednimi primerjavami, shranjenimi možnostmi in zapiski.",
+  "d8279b90fd1c": "Future Major Guide<br>Pravilnik o zasebnosti",
+  "e326ef4687a8": "Izobraževanje · Priročniki",
+  "4ea6c6d4eca5": "Potovanja · Finance"
 }

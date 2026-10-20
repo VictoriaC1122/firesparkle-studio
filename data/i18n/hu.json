@@ -61,7 +61,6 @@
   "2945df36c2f9": "Az alkalmazás részletei",
   "6eebe159fceb": "Rögzíts álmokat, hangulatokat és címkéket, majd böngészd korábbi bejegyzéseidet a naptárban.",
   "01bed311e7d0": "Minden alkalmazás",
-  "cb0e13633b9d": "Alkalmazások: <b data-count>10</b>",
   "a52ace420f21": "Összes",
   "a10a36fa1098": "Alkalmazások keresése",
   "3b7ea51793e9": "Keresés törlése",
@@ -175,5 +174,18 @@
   "3954df759bac": "Ez a meglévő tájékoztató csak az alkalmazás információs weboldalát fedi le, nem az alkalmazáson belüli teljes adatkezelést. Az alkalmazás adatairól, tárolásáról vagy törléséről írj nekünk.",
   "b4b24b6dcd08": "Az alkalmazáson belüli vásárlásokat és előfizetéseket az Apple kezeli. Ezeket az iPhone Beállítások → a neved → Előfizetések menüben kezelheted. Visszatérítést az <a href=\"https://reportaproblem.apple.com/\">Apple Probléma jelentése</a> oldalán kérhetsz, és az Apple bírálja el. Az alkalmazás törlése nem mondja le az előfizetést.",
   "0dad92348ba0": "Látogass el az <a href=\"/privacy/\">adatvédelmi központba</a>, és válaszd ki az alkalmazást vagy játékot. Adatok elérésével, helyesbítésével vagy törlésével kapcsolatos kérdéseidet a termék nevével együtt küldd el e-mailben.",
-  "4b97fbdad297": "Írd meg az alkalmazás nevét és azt, hogy mi történt. A tárolás és a biztonsági mentés alkalmazásonként eltér; egyes adatok csak az eszközödön vannak, így nem férünk hozzájuk és nem állíthatjuk vissza őket. Törlés vagy újratelepítés előtt ellenőrizd a mentési lehetőségeket."
+  "4b97fbdad297": "Írd meg az alkalmazás nevét és azt, hogy mi történt. A tárolás és a biztonsági mentés alkalmazásonként eltér; egyes adatok csak az eszközödön vannak, így nem férünk hozzájuk és nem állíthatjuk vissza őket. Törlés vagy újratelepítés előtt ellenőrizd a mentési lehetőségeket.",
+  "17a827b4093a": "Alkalmazások: <b data-count>{count}</b>",
+  "b4eceddba2dc": "Összeállítva: 2026. október 21.",
+  "bc5ff3ef4ec9": "Semiconductors Illustrated",
+  "2c0a8d6b7dd0": "Ismerd meg a félvezetők alapjait illusztrált leckékkel, interaktív folyamatábrákkal, szószedettel, kvízekkel és tanulási jegyzetekkel.",
+  "7e3d6742eb7f": "Semiconductors Illustrated<br>Adatvédelmi szabályzat",
+  "6a1724afea00": "MileButler: Miles &amp; Card Plans",
+  "114e5b0d6f59": "Hasonlítsd össze a jutalomrepülőjegyeket, a mérföldvásárlás költségeit és a hitelkártyapontok átváltását. Becsüld meg a jegyhez szükséges pontokat, kiadásokat és időt.",
+  "15d5e46669f1": "MileButler: Miles &amp; Card Plans<br>Adatvédelmi szabályzat",
+  "cc98337718f6": "Future Major Guide",
+  "58ea6de8a5c2": "Fedezz fel tajvani és amerikai egyetemeket és szakokat érdeklődési tesztekkel, egymás melletti összehasonlításokkal, mentett lehetőségekkel és jegyzetekkel.",
+  "d8279b90fd1c": "Future Major Guide<br>Adatvédelmi szabályzat",
+  "e326ef4687a8": "Oktatás · Kézikönyvek",
+  "4ea6c6d4eca5": "Utazás · Pénzügyek"
 }

@@ -1,0 +1,68 @@
+{
+  "retrievedOn": "2026-10-21",
+  "appId": "6822188590",
+  "appName": "圖解半導體",
+  "portfolioIndexURL": "https://victoriac1122.github.io/apps/script.js",
+  "appStoreSources": [
+    {
+      "url": "https://apps.apple.com/tw/app/id6822188590",
+      "file": "6822188590-app-store-tw.html",
+      "sha256": "5247d2af6be95dced7add280b55bc10a0086d42d4dd5a8ba28424572bfdc063e",
+      "developerLinks": [
+        {
+          "label": "支援",
+          "url": "https://victoriac1122.github.io/semiverse-support-site/index.html"
+        }
+      ],
+      "privacyLinks": [
+        {
+          "label": "開發者的隱私權政策",
+          "url": "https://victoriac1122.github.io/semiverse-support-site/privacy.html"
+        }
+      ],
+      "developerLinkJSONPath": "data[0].data.shelfMapping.description.items[0].developerLinks",
+      "privacyLinkJSONPath": "data[0].data.shelfMapping.privacyHeader.items[0].bodyText.linkedSubstrings"
+    },
+    {
+      "url": "https://apps.apple.com/us/app/id6822188590",
+      "file": "6822188590-app-store-us.html",
+      "sha256": "92fb59c9a46e8bae247d51a78b715282d36e43a666a9002122b5f5063d7f49d7",
+      "developerLinks": [
+        {
+          "label": "Support",
+          "url": "https://victoriac1122.github.io/semiverse-support-site/index.html"
+        }
+      ],
+      "privacyLinks": [
+        {
+          "label": "developer’s privacy policy",
+          "url": "https://victoriac1122.github.io/semiverse-support-site/privacy.html"
+        }
+      ],
+      "developerLinkJSONPath": "data[0].data.shelfMapping.description.items[0].developerLinks",
+      "privacyLinkJSONPath": "data[0].data.shelfMapping.privacyHeader.items[0].bodyText.linkedSubstrings"
+    }
+  ],
+  "policyDocument": {
+    "url": "https://victoriac1122.github.io/semiverse-support-site/privacy.html",
+    "file": "6822188590-policy.html",
+    "sha256": "81b9d4d583fb6c7fbaa8641e11127e79a2d423b960419d2e1cd528657e56175e",
+    "selector": "main#main",
+    "headings": [
+      "隱私權政策",
+      "1. 適用範圍",
+      "2. 儲存在裝置上的學習資料",
+      "3. 刪除資料與 Apple 裝置備份",
+      "4. 訂閱與付款",
+      "5. 你主動提供給客服的資料",
+      "6. GitHub Pages 支援網站",
+      "7. 外部網站",
+      "8. 政策更新與聯絡"
+    ],
+    "policyUpdatedText": "更新日期：2026 年 10 月 13 日",
+    "contactEmails": [
+      "victoriacheeng1122@gmail.com"
+    ]
+  },
+  "policyTextExtraction": "Extracted existing Traditional Chinese text from the stated source selector. Removed decorative eyebrow labels and navigation-only text; whitespace normalized. Policy wording and original contact information retained."
+}

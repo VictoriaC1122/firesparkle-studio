@@ -61,7 +61,6 @@
   "2945df36c2f9": "Om appen",
   "6eebe159fceb": "Registrer drømmer, humør og merkelapper, og bla gjennom tidligere oppføringer i en kalender.",
   "01bed311e7d0": "Alle apper",
-  "cb0e13633b9d": "Apper: <b data-count>10</b>",
   "a52ace420f21": "Alle",
   "a10a36fa1098": "Søk etter apper",
   "3b7ea51793e9": "Tøm søket",
@@ -175,5 +174,18 @@
   "3954df759bac": "Denne eksisterende erklæringen dekker bare appens informasjonsside, ikke all databehandling i appen. Send oss e-post for detaljer om appdata, lagring eller sletting.",
   "b4b24b6dcd08": "Kjøp i appen og abonnementer håndteres av Apple. Administrer dem i iPhone-innstillinger → navnet ditt → Abonnementer. Refusjon søkes via <a href=\"https://reportaproblem.apple.com/\">Apples Report a Problem</a> og vurderes av Apple. Sletting av en app avslutter ikke abonnementet.",
   "0dad92348ba0": "Besøk <a href=\"/privacy/\">personvernsenteret</a> og velg appen eller spillet. Ved spørsmål om tilgang, retting eller sletting av data, send oss e-post med produktnavnet.",
-  "4b97fbdad297": "Send oss e-post med appnavnet og hva som skjedde. Lagring og sikkerhetskopiering varierer mellom apper, og noen data finnes bare på enheten din, der vi ikke kan hente eller gjenopprette dem. Sjekk appens sikkerhetskopiering før du sletter eller installerer på nytt."
+  "4b97fbdad297": "Send oss e-post med appnavnet og hva som skjedde. Lagring og sikkerhetskopiering varierer mellom apper, og noen data finnes bare på enheten din, der vi ikke kan hente eller gjenopprette dem. Sjekk appens sikkerhetskopiering før du sletter eller installerer på nytt.",
+  "17a827b4093a": "Apper: <b data-count>{count}</b>",
+  "b4eceddba2dc": "Sammenstilt 21. oktober 2026",
+  "bc5ff3ef4ec9": "Semiconductors Illustrated",
+  "2c0a8d6b7dd0": "Lær det grunnleggende om halvledere med illustrerte leksjoner, interaktive prosessdiagrammer, en ordliste, quizer og studienotater.",
+  "7e3d6742eb7f": "Semiconductors Illustrated<br>Personvernerklæring",
+  "6a1724afea00": "MileButler: Miles &amp; Card Plans",
+  "114e5b0d6f59": "Sammenlign innløsning av bonuspoeng til flyreiser, kostnader ved kjøp av bonuspoeng og overføring av kredittkortpoeng. Anslå poengene, forbruket og tiden som trengs for en billett.",
+  "15d5e46669f1": "MileButler: Miles &amp; Card Plans<br>Personvernerklæring",
+  "cc98337718f6": "Future Major Guide",
+  "58ea6de8a5c2": "Utforsk universiteter og studieretninger i Taiwan og USA med interessetester, sammenligninger side om side, lagrede alternativer og notater.",
+  "d8279b90fd1c": "Future Major Guide<br>Personvernerklæring",
+  "e326ef4687a8": "Utdanning · Oppslagsverk",
+  "4ea6c6d4eca5": "Reise · Økonomi"
 }

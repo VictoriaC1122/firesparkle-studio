@@ -61,7 +61,6 @@
   "2945df36c2f9": "Szczegóły aplikacji",
   "6eebe159fceb": "Zapisuj sny, nastrój i tagi, a wcześniejsze wpisy przeglądaj w kalendarzu.",
   "01bed311e7d0": "Wszystkie aplikacje",
-  "cb0e13633b9d": "Aplikacje: <b data-count>10</b>",
   "a52ace420f21": "Wszystkie",
   "a10a36fa1098": "Szukaj aplikacji",
   "3b7ea51793e9": "Wyczyść wyszukiwanie",
@@ -175,5 +174,18 @@
   "3954df759bac": "Ta istniejąca informacja dotyczy wyłącznie strony informacyjnej aplikacji, a nie całego przetwarzania danych w aplikacji. Napisz do nas po szczegóły dotyczące danych, przechowywania lub usuwania.",
   "b4b24b6dcd08": "Apple obsługuje zakupy w aplikacji i subskrypcje. Zarządzaj nimi w Ustawieniach iPhone’a → Twoje imię → Subskrypcje. Wnioski o zwrot składa się przez <a href=\"https://reportaproblem.apple.com/\">Zgłoś problem firmy Apple</a> i rozpatruje je Apple. Usunięcie aplikacji nie anuluje subskrypcji.",
   "0dad92348ba0": "Odwiedź <a href=\"/privacy/\">centrum prywatności</a> i wybierz aplikację lub grę. Pytania o dostęp, poprawianie lub usuwanie danych wyślij e-mailem, podając nazwę produktu.",
-  "4b97fbdad297": "Napisz nazwę aplikacji i opisz, co się stało. Przechowywanie i kopie zapasowe zależą od aplikacji; część danych pozostaje tylko na urządzeniu, więc nie możemy uzyskać do nich dostępu ani ich przywrócić. Przed usunięciem lub ponowną instalacją sprawdź opcje kopii zapasowej."
+  "4b97fbdad297": "Napisz nazwę aplikacji i opisz, co się stało. Przechowywanie i kopie zapasowe zależą od aplikacji; część danych pozostaje tylko na urządzeniu, więc nie możemy uzyskać do nich dostępu ani ich przywrócić. Przed usunięciem lub ponowną instalacją sprawdź opcje kopii zapasowej.",
+  "17a827b4093a": "Aplikacje: <b data-count>{count}</b>",
+  "b4eceddba2dc": "Zebrano 21 października 2026",
+  "bc5ff3ef4ec9": "Semiconductors Illustrated",
+  "2c0a8d6b7dd0": "Poznaj podstawy półprzewodników dzięki ilustrowanym lekcjom, interaktywnym schematom procesów, słownikowi, quizom i notatkom do nauki.",
+  "7e3d6742eb7f": "Semiconductors Illustrated<br>Polityka prywatności",
+  "6a1724afea00": "MileButler: Miles &amp; Card Plans",
+  "114e5b0d6f59": "Porównuj bilety za mile, koszty zakupu mil i transfery punktów kart kredytowych. Oszacuj punkty, wydatki i czas potrzebne do uzyskania biletu.",
+  "15d5e46669f1": "MileButler: Miles &amp; Card Plans<br>Polityka prywatności",
+  "cc98337718f6": "Future Major Guide",
+  "58ea6de8a5c2": "Poznaj uczelnie i kierunki studiów na Tajwanie i w USA dzięki testom zainteresowań, porównaniom obok siebie, zapisanym opcjom i notatkom.",
+  "d8279b90fd1c": "Future Major Guide<br>Polityka prywatności",
+  "e326ef4687a8": "Edukacja · Materiały źródłowe",
+  "4ea6c6d4eca5": "Podróże · Finanse"
 }

@@ -61,7 +61,6 @@
   "2945df36c2f9": "Rakenduse tutvustus",
   "6eebe159fceb": "Pane kirja unenäod, meeleolud ja sildid ning sirvi varasemaid sissekandeid kalendris.",
   "01bed311e7d0": "Kõik rakendused",
-  "cb0e13633b9d": "Rakendused: <b data-count>10</b>",
   "a52ace420f21": "Kõik",
   "a10a36fa1098": "Otsi rakendusi",
   "3b7ea51793e9": "Tühjenda otsing",
@@ -175,5 +174,18 @@
   "3954df759bac": "See olemasolev teade puudutab ainult rakenduse teabelehte, mitte kogu andmetöötlust rakenduses. Andmete, säilitamise või kustutamise kohta kirjuta meile.",
   "b4b24b6dcd08": "Rakendusesiseseid oste ja tellimusi haldab Apple. Halda neid iPhone’i seadetes → sinu nimi → Tellimused. Tagasimakset taotle lehel <a href=\"https://reportaproblem.apple.com/\">Apple Report a Problem</a>; taotlused vaatab läbi Apple. Rakenduse kustutamine ei lõpeta tellimust.",
   "0dad92348ba0": "Ava <a href=\"/privacy/\">privaatsuskeskus</a> ja vali rakendus või mäng. Andmete vaatamise, parandamise või kustutamise küsimustes kirjuta meile ja lisa toote nimi.",
-  "4b97fbdad297": "Kirjuta meile rakenduse nimi ja mis juhtus. Salvestamine ning varundamine erinevad rakenduseti ja mõned andmed asuvad ainult sinu seadmes, kus me ei saa neile ligi ega neid taastada. Enne kustutamist või uuesti paigaldamist kontrolli varundusvõimalusi."
+  "4b97fbdad297": "Kirjuta meile rakenduse nimi ja mis juhtus. Salvestamine ning varundamine erinevad rakenduseti ja mõned andmed asuvad ainult sinu seadmes, kus me ei saa neile ligi ega neid taastada. Enne kustutamist või uuesti paigaldamist kontrolli varundusvõimalusi.",
+  "17a827b4093a": "Rakendused: <b data-count>{count}</b>",
+  "b4eceddba2dc": "Koostatud 21. oktoobril 2026",
+  "bc5ff3ef4ec9": "Semiconductors Illustrated",
+  "2c0a8d6b7dd0": "Õpi pooljuhtide aluseid illustreeritud õppetundide, interaktiivsete protsessiskeemide, sõnastiku, testide ja õppemärkmete abil.",
+  "7e3d6742eb7f": "Semiconductors Illustrated<br>Privaatsuspoliitika",
+  "6a1724afea00": "MileButler: Miles &amp; Card Plans",
+  "114e5b0d6f59": "Võrdle lennupiletite lunastamist boonusmiilidega, miilide ostmise kulusid ja krediitkaardipunktide ülekandeid. Hinda pileti jaoks vajalikke punkte, kulutusi ja aega.",
+  "15d5e46669f1": "MileButler: Miles &amp; Card Plans<br>Privaatsuspoliitika",
+  "cc98337718f6": "Future Major Guide",
+  "58ea6de8a5c2": "Avasta Taiwani ja USA ülikoole ning erialasid huvitestide, kõrvutiste võrdluste, salvestatud valikute ja märkmete abil.",
+  "d8279b90fd1c": "Future Major Guide<br>Privaatsuspoliitika",
+  "e326ef4687a8": "Haridus · Teatmikud",
+  "4ea6c6d4eca5": "Reisimine · Rahandus"
 }

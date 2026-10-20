@@ -61,7 +61,6 @@
   "2945df36c2f9": "Présentation de l’application",
   "6eebe159fceb": "Notez vos rêves, humeurs et étiquettes, puis consultez vos anciennes entrées dans un calendrier.",
   "01bed311e7d0": "Toutes les applications",
-  "cb0e13633b9d": "Applications: <b data-count>10</b>",
   "a52ace420f21": "Tout",
   "a10a36fa1098": "Rechercher des applications",
   "3b7ea51793e9": "Effacer la recherche",
@@ -175,5 +174,18 @@
   "3954df759bac": "Cet avis existant couvre uniquement la page d’information de l’application, pas l’ensemble des traitements de données dans l’application. Écrivez-nous pour en savoir plus sur les données, leur stockage ou leur suppression.",
   "b4b24b6dcd08": "Apple gère les achats intégrés et les abonnements. Gérez-les dans Réglages de l’iPhone → votre nom → Abonnements. Les remboursements se demandent via <a href=\"https://reportaproblem.apple.com/\">Signaler un problème d’Apple</a> et sont examinés par Apple. Supprimer une application ne résilie pas son abonnement.",
   "0dad92348ba0": "Consultez le <a href=\"/privacy/\">centre de confidentialité</a> et choisissez l’application ou le jeu. Pour toute question sur l’accès, la rectification ou la suppression de données, écrivez-nous en indiquant le nom du produit.",
-  "4b97fbdad297": "Écrivez-nous avec le nom de l’application et ce qui s’est passé. Le stockage et les sauvegardes varient selon l’application ; certaines données restent uniquement sur votre appareil, sans possibilité pour nous d’y accéder ou de les restaurer. Vérifiez les options de sauvegarde avant de supprimer ou réinstaller l’application."
+  "4b97fbdad297": "Écrivez-nous avec le nom de l’application et ce qui s’est passé. Le stockage et les sauvegardes varient selon l’application ; certaines données restent uniquement sur votre appareil, sans possibilité pour nous d’y accéder ou de les restaurer. Vérifiez les options de sauvegarde avant de supprimer ou réinstaller l’application.",
+  "17a827b4093a": "Applications: <b data-count>{count}</b>",
+  "b4eceddba2dc": "Compilation du 21 octobre 2026",
+  "bc5ff3ef4ec9": "Semiconductors Illustrated",
+  "2c0a8d6b7dd0": "Apprenez les bases des semi-conducteurs avec des leçons illustrées, des schémas de procédés interactifs, un glossaire, des quiz et des notes de cours.",
+  "7e3d6742eb7f": "Semiconductors Illustrated<br>Politique de confidentialité",
+  "6a1724afea00": "MileButler: Miles &amp; Card Plans",
+  "114e5b0d6f59": "Comparez les échanges de miles contre des vols, les coûts d’achat de miles et les transferts de points de cartes de crédit. Estimez les points, les dépenses et le temps nécessaires pour un billet.",
+  "15d5e46669f1": "MileButler: Miles &amp; Card Plans<br>Politique de confidentialité",
+  "cc98337718f6": "Future Major Guide",
+  "58ea6de8a5c2": "Explorez les universités et les filières à Taïwan et aux États-Unis avec des questionnaires d’intérêts, des comparaisons côte à côte, des choix enregistrés et des notes.",
+  "d8279b90fd1c": "Future Major Guide<br>Politique de confidentialité",
+  "e326ef4687a8": "Éducation · Références",
+  "4ea6c6d4eca5": "Voyages · Finance"
 }

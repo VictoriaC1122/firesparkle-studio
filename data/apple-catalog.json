@@ -11,17 +11,20 @@
   "sourceUrls": [
     "https://itunes.apple.com/lookup?id=1851202446&entity=software&country=tw&lang=zh_tw&limit=200",
     "https://itunes.apple.com/lookup?id=1851202446&entity=macSoftware&country=tw&lang=zh_tw&limit=200",
-    "https://apps.apple.com/tw/developer/yung-wen-cheng/id1851202446"
+    "https://apps.apple.com/tw/developer/yung-wen-cheng/id1851202446",
+    "https://victoriac1122.github.io/apps/script.js"
   ],
   "rawMetadataFiles": [
     "apple-lookup-raw.json",
-    "apple-mac-lookup-raw.json"
+    "apple-mac-lookup-raw.json",
+    "apple-2026-10-21-new-apps.json"
   ],
   "verification": {
-    "softwareAppCount": 11,
+    "softwareAppCount": 15,
     "standaloneMacAppCount": 0,
-    "developerPageMatchesSoftwareLookup": true,
-    "scope": "公開 Apple 台灣商店目前回傳的同一開發者帳號 App；不包含未上架、已下架或其他地區限定的作品。"
+    "scope": "2026-10-21 比對公開作品集共 15 款，其中新增 3 款經 Apple TW/US lookup 核對；其餘作品保留既有 metadata。",
+    "publicPortfolioAppCount": 15,
+    "newAppsVerifiedOn": "2026-10-21"
   },
   "apps": [
     {
@@ -330,6 +333,97 @@
       "descriptionUrls": [
         "https://victoriac1122.github.io/coffee-chat-note-support/privacy.html"
       ]
+    },
+    {
+      "trackId": 6822188590,
+      "slug": "semiconductors-illustrated",
+      "nameZhHant": "圖解半導體",
+      "trackName": "圖解半導體",
+      "shortDescription": "用圖解與互動製程示意學習半導體，搭配入門課、術語字典、小測驗與學習筆記。",
+      "category": "教育",
+      "genres": [
+        "教育",
+        "參考"
+      ],
+      "storeUrl": "https://apps.apple.com/tw/app/id6822188590",
+      "originalStoreUrl": "https://apps.apple.com/tw/app/%E5%9C%96%E8%A7%A3%E5%8D%8A%E5%B0%8E%E9%AB%94/id6822188590?uo=4",
+      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/70/9a/cc/709acc34-7890-dbf3-39e1-aa0dfec97be0/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "iconPath": "/assets/apps/6822188590.jpg",
+      "version": "1.0",
+      "versionReleasedAt": "2026-10-18T13:14:54Z",
+      "bundleId": "com.semiverse.app",
+      "artistId": 1851202446,
+      "artistName": "Yung Wen Cheng",
+      "minimumOsVersion": "17.0",
+      "contentRating": "4+",
+      "originalSupportUrl": "https://victoriac1122.github.io/semiverse-support-site/index.html",
+      "descriptionUrls": [
+        "https://victoriac1122.github.io/semiverse-support-site/privacy.html"
+      ],
+      "retrievedOn": "2026-10-21",
+      "englishDisplayName": "Semiconductors Illustrated",
+      "englishDisplayNameSource": "Studio catalog English title"
+    },
+    {
+      "trackId": 6823824323,
+      "slug": "milebutler",
+      "nameZhHant": "哩程管家：信用卡換機票試算",
+      "trackName": "哩程管家：信用卡換機票試算",
+      "shortDescription": "比較航空哩程兌換、買哩成本與信用卡轉點，估算換票所需點數、消費金額和累積時間。",
+      "category": "旅遊",
+      "genres": [
+        "旅遊",
+        "財經"
+      ],
+      "storeUrl": "https://apps.apple.com/tw/app/id6823824323",
+      "originalStoreUrl": "https://apps.apple.com/tw/app/%E5%93%A9%E7%A8%8B%E7%AE%A1%E5%AE%B6-%E4%BF%A1%E7%94%A8%E5%8D%A1%E6%8F%9B%E6%A9%9F%E7%A5%A8%E8%A9%A6%E7%AE%97/id6823824323?uo=4",
+      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/18/26/6a/18266a7f-57bf-182f-9026-e788e5df8eea/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "iconPath": "/assets/apps/6823824323.jpg",
+      "version": "1.0",
+      "versionReleasedAt": "2026-10-20T11:54:40Z",
+      "bundleId": "com.flyingoutsky.feifeifeimileagecalculator",
+      "artistId": 1851202446,
+      "artistName": "Yung Wen Cheng",
+      "minimumOsVersion": "17.0",
+      "contentRating": "4+",
+      "originalSupportUrl": "https://victoriac1122.github.io/milebutler-support/#support",
+      "descriptionUrls": [
+        "https://victoriac1122.github.io/milebutler-support/#privacy-policy"
+      ],
+      "retrievedOn": "2026-10-21",
+      "englishDisplayName": "MileButler: Miles & Card Plans",
+      "englishDisplayNameSource": "Apple US trackName"
+    },
+    {
+      "trackId": 6824004640,
+      "slug": "future-major-guide",
+      "nameZhHant": "我決定自己的未來-大學選系指南",
+      "trackName": "我決定自己的未來-大學選系指南",
+      "shortDescription": "探索台灣與美國的大學及科系，透過興趣測驗、校系比較、收藏與筆記整理選校方向。",
+      "category": "教育",
+      "genres": [
+        "教育",
+        "參考"
+      ],
+      "storeUrl": "https://apps.apple.com/tw/app/id6824004640",
+      "originalStoreUrl": "https://apps.apple.com/tw/app/%E6%88%91%E6%B1%BA%E5%AE%9A%E8%87%AA%E5%B7%B1%E7%9A%84%E6%9C%AA%E4%BE%86-%E5%A4%A7%E5%AD%B8%E9%81%B8%E7%B3%BB%E6%8C%87%E5%8D%97/id6824004640?uo=4",
+      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e7/4e/1c/e74e1c58-dc47-8c90-0e3d-03000aac85c1/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "iconPath": "/assets/apps/6824004640.jpg",
+      "version": "1.0.2",
+      "versionReleasedAt": "2026-10-20T11:19:01Z",
+      "bundleId": "com.yungwencheng.futuremajorguide.---------------",
+      "artistId": 1851202446,
+      "artistName": "Yung Wen Cheng",
+      "minimumOsVersion": "18.5",
+      "contentRating": "4+",
+      "originalSupportUrl": "https://victoriac1122.github.io/future-major-guide-support-site/",
+      "descriptionUrls": [
+        "https://victoriac1122.github.io/future-major-guide-support-site/privacy.html"
+      ],
+      "retrievedOn": "2026-10-21",
+      "englishDisplayName": "Future Major Guide",
+      "englishDisplayNameSource": "Apple US trackName"
     }
-  ]
+  ],
+  "lastUpdatedOn": "2026-10-21"
 }

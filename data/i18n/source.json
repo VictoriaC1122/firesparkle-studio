@@ -310,9 +310,9 @@
     "zh": "所有 App"
   },
   {
-    "id": "cb0e13633b9d",
-    "en": "Apps: <b data-count>10</b>",
-    "zh": "共 <b data-count>10</b> 款作品"
+    "id": "17a827b4093a",
+    "en": "Apps: <b data-count>{count}</b>",
+    "zh": "共 <b data-count>{count}</b> 款作品"
   },
   {
     "id": "a52ace420f21",
@@ -883,5 +883,65 @@
     "id": "4b97fbdad297",
     "en": "Email us with the app name and what happened. Storage and backup differ by app, and some data lives only on your device, where we cannot access or restore it. Check the app’s backup options before deleting or reinstalling.",
     "zh": "請先來信說明 App 名稱與狀況。各 App 的儲存與備份功能不同，部分資料只保存在你的裝置上，開發者可能無法存取或還原；刪除或重裝前，請先確認該 App 的備份方式。"
+  },
+  {
+    "en": "Compiled on October 21, 2026",
+    "zh": "彙整日期：2026 年 10 月 21 日",
+    "id": "b4eceddba2dc"
+  },
+  {
+    "id": "bc5ff3ef4ec9",
+    "en": "Semiconductors Illustrated",
+    "zh": "圖解半導體"
+  },
+  {
+    "id": "2c0a8d6b7dd0",
+    "en": "Learn semiconductor basics with illustrated lessons, interactive process diagrams, a glossary, quizzes and study notes.",
+    "zh": "用圖解與互動製程示意學習半導體，搭配入門課、術語字典、小測驗與學習筆記。"
+  },
+  {
+    "id": "7e3d6742eb7f",
+    "en": "Semiconductors Illustrated<br>Privacy Policy",
+    "zh": "圖解半導體<br>隱私權政策"
+  },
+  {
+    "id": "6a1724afea00",
+    "en": "MileButler: Miles &amp; Card Plans",
+    "zh": "哩程管家：信用卡換機票試算"
+  },
+  {
+    "id": "114e5b0d6f59",
+    "en": "Compare flight award redemptions, mile-purchase costs and credit-card point transfers. Estimate the points, spending and time needed for a ticket.",
+    "zh": "比較航空哩程兌換、買哩成本與信用卡轉點，估算換票所需點數、消費金額和累積時間。"
+  },
+  {
+    "id": "15d5e46669f1",
+    "en": "MileButler: Miles &amp; Card Plans<br>Privacy Policy",
+    "zh": "哩程管家：信用卡換機票試算<br>隱私權政策"
+  },
+  {
+    "id": "cc98337718f6",
+    "en": "Future Major Guide",
+    "zh": "我決定自己的未來-大學選系指南"
+  },
+  {
+    "id": "58ea6de8a5c2",
+    "en": "Explore universities and majors in Taiwan and the United States with interest quizzes, side-by-side comparisons, saved options and notes.",
+    "zh": "探索台灣與美國的大學及科系，透過興趣測驗、校系比較、收藏與筆記整理選校方向。"
+  },
+  {
+    "id": "d8279b90fd1c",
+    "en": "Future Major Guide<br>Privacy Policy",
+    "zh": "我決定自己的未來-大學選系指南<br>隱私權政策"
+  },
+  {
+    "id": "e326ef4687a8",
+    "en": "Education · Reference",
+    "zh": "教育 · 參考"
+  },
+  {
+    "id": "4ea6c6d4eca5",
+    "en": "Travel · Finance",
+    "zh": "旅遊 · 財經"
   }
 ]

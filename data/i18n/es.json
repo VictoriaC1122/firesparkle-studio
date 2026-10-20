@@ -61,7 +61,6 @@
   "2945df36c2f9": "Detalles de la aplicación",
   "6eebe159fceb": "Registra sueños, estados de ánimo y etiquetas, y consulta entradas anteriores en un calendario.",
   "01bed311e7d0": "Todas las aplicaciones",
-  "cb0e13633b9d": "Aplicaciones: <b data-count>10</b>",
   "a52ace420f21": "Todo",
   "a10a36fa1098": "Buscar aplicaciones",
   "3b7ea51793e9": "Borrar búsqueda",
@@ -175,5 +174,18 @@
   "3954df759bac": "Este aviso existente solo cubre la página informativa de la aplicación, no todo el tratamiento de datos dentro de ella. Escríbenos para consultar sobre los datos, su almacenamiento o su eliminación.",
   "b4b24b6dcd08": "Apple gestiona las compras dentro de la aplicación y las suscripciones. Puedes gestionarlas en Ajustes del iPhone → tu nombre → Suscripciones. Los reembolsos se solicitan mediante <a href=\"https://reportaproblem.apple.com/\">Informar de un problema de Apple</a> y Apple los revisa. Eliminar una aplicación no cancela su suscripción.",
   "0dad92348ba0": "Visita el <a href=\"/privacy/\">centro de privacidad</a> y elige la aplicación o juego. Para consultas sobre acceso, rectificación o eliminación de datos, escríbenos e indica el nombre del producto.",
-  "4b97fbdad297": "Escríbenos con el nombre de la aplicación y lo ocurrido. El almacenamiento y las copias de seguridad varían según la aplicación; algunos datos solo están en tu dispositivo y no podemos acceder a ellos ni restaurarlos. Revisa las opciones de copia de seguridad antes de eliminar o reinstalar la aplicación."
+  "4b97fbdad297": "Escríbenos con el nombre de la aplicación y lo ocurrido. El almacenamiento y las copias de seguridad varían según la aplicación; algunos datos solo están en tu dispositivo y no podemos acceder a ellos ni restaurarlos. Revisa las opciones de copia de seguridad antes de eliminar o reinstalar la aplicación.",
+  "17a827b4093a": "Aplicaciones: <b data-count>{count}</b>",
+  "b4eceddba2dc": "Recopilado el 21 de octubre de 2026",
+  "bc5ff3ef4ec9": "Semiconductors Illustrated",
+  "2c0a8d6b7dd0": "Aprende los fundamentos de los semiconductores con lecciones ilustradas, diagramas interactivos de procesos, un glosario, cuestionarios y notas de estudio.",
+  "7e3d6742eb7f": "Semiconductors Illustrated<br>Política de privacidad",
+  "6a1724afea00": "MileButler: Miles &amp; Card Plans",
+  "114e5b0d6f59": "Compara canjes de vuelos con millas, costes de compra de millas y transferencias de puntos de tarjetas de crédito. Estima los puntos, el gasto y el tiempo necesarios para un billete.",
+  "15d5e46669f1": "MileButler: Miles &amp; Card Plans<br>Política de privacidad",
+  "cc98337718f6": "Future Major Guide",
+  "58ea6de8a5c2": "Explora universidades y carreras de Taiwán y Estados Unidos con cuestionarios de intereses, comparaciones en paralelo, opciones guardadas y notas.",
+  "d8279b90fd1c": "Future Major Guide<br>Política de privacidad",
+  "e326ef4687a8": "Educación · Referencia",
+  "4ea6c6d4eca5": "Viajes · Finanzas"
 }

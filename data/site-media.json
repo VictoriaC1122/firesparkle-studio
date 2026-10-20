@@ -46,5 +46,44 @@
     ],
     "appName": "Coffee Chat 筆記",
     "retrievedOn": "2026-10-19"
+  },
+  "semiconductors-illustrated": {
+    "images": [
+      "/assets/screenshots/semiconductors-illustrated/01.jpg",
+      "/assets/screenshots/semiconductors-illustrated/02.jpg"
+    ],
+    "source": "https://apps.apple.com/tw/app/id6822188590",
+    "imageSources": [
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3d/b4/81/3db4816b-724e-e900-1c0e-34ad8218875f/01-Home.png/600x1300bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5d/bc/70/5dbc70bc-e2dd-7748-e440-e9f80f46727f/02-Lesson.png/600x1300bb.jpg"
+    ],
+    "appName": "圖解半導體",
+    "retrievedOn": "2026-10-21"
+  },
+  "milebutler": {
+    "images": [
+      "/assets/screenshots/milebutler/01.jpg",
+      "/assets/screenshots/milebutler/02.jpg"
+    ],
+    "source": "https://apps.apple.com/tw/app/id6823824323",
+    "imageSources": [
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f9/53/1e/f9531e6c-030a-d2b5-719e-e3090886a4c2/01-results.png/600x1300bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f9/64/34/f964340e-9d0e-ba28-f989-bb36dc5ea223/02-detail.png/600x1300bb.jpg"
+    ],
+    "appName": "哩程管家：信用卡換機票試算",
+    "retrievedOn": "2026-10-21"
+  },
+  "future-major-guide": {
+    "images": [
+      "/assets/screenshots/future-major-guide/01.jpg",
+      "/assets/screenshots/future-major-guide/02.jpg"
+    ],
+    "source": "https://apps.apple.com/tw/app/id6824004640",
+    "imageSources": [
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/85/07/9d/85079d01-3a3c-4313-86d4-157197c5e10d/iphone63-zh-Hant-01-02-home-v2.png/600x1300bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f9/90/28/f99028fe-c411-0fa0-5778-f89f1149ee77/iphone63-zh-Hant-02-06-checklist-school-v2.png/600x1300bb.jpg"
+    ],
+    "appName": "我決定自己的未來-大學選系指南",
+    "retrievedOn": "2026-10-21"
   }
 }

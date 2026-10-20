@@ -61,7 +61,6 @@
   "2945df36c2f9": "Podrobnosti o aplikaci",
   "6eebe159fceb": "Zapisujte sny, nálady a štítky a procházejte starší záznamy v kalendáři.",
   "01bed311e7d0": "Všechny aplikace",
-  "cb0e13633b9d": "Aplikace: <b data-count>10</b>",
   "a52ace420f21": "Vše",
   "a10a36fa1098": "Hledat aplikace",
   "3b7ea51793e9": "Vymazat hledání",
@@ -175,5 +174,18 @@
   "3954df759bac": "Toto stávající oznámení pokrývá pouze informační stránku aplikace, nikoli veškeré zpracování dat v aplikaci. Podrobnosti o datech, uchovávání nebo mazání si vyžádejte e-mailem.",
   "b4b24b6dcd08": "Nákupy v aplikaci a předplatné spravuje Apple. Spravujte je v Nastavení iPhonu → vaše jméno → Předplatná. O vrácení peněz požádejte přes <a href=\"https://reportaproblem.apple.com/\">Nahlásit problém společnosti Apple</a>; žádosti posuzuje Apple. Smazání aplikace nezruší předplatné.",
   "0dad92348ba0": "Navštivte <a href=\"/privacy/\">centrum soukromí</a> a vyberte aplikaci nebo hru. S dotazy na přístup, opravu či smazání údajů nám napište a uveďte název produktu.",
-  "4b97fbdad297": "Napište nám název aplikace a popis situace. Ukládání a zálohy se liší podle aplikace; některá data jsou jen na vašem zařízení, kde k nim nemáme přístup a nemůžeme je obnovit. Před smazáním nebo přeinstalací ověřte možnosti zálohování."
+  "4b97fbdad297": "Napište nám název aplikace a popis situace. Ukládání a zálohy se liší podle aplikace; některá data jsou jen na vašem zařízení, kde k nim nemáme přístup a nemůžeme je obnovit. Před smazáním nebo přeinstalací ověřte možnosti zálohování.",
+  "17a827b4093a": "Aplikace: <b data-count>{count}</b>",
+  "b4eceddba2dc": "Sestaveno 21. října 2026",
+  "bc5ff3ef4ec9": "Semiconductors Illustrated",
+  "2c0a8d6b7dd0": "Poznejte základy polovodičů pomocí ilustrovaných lekcí, interaktivních schémat procesů, slovníku, kvízů a studijních poznámek.",
+  "7e3d6742eb7f": "Semiconductors Illustrated<br>Zásady ochrany osobních údajů",
+  "6a1724afea00": "MileButler: Miles &amp; Card Plans",
+  "114e5b0d6f59": "Porovnávejte odměnové letenky, náklady na nákup mil a převody bodů kreditních karet. Odhadněte body, výdaje a čas potřebné k získání letenky.",
+  "15d5e46669f1": "MileButler: Miles &amp; Card Plans<br>Zásady ochrany osobních údajů",
+  "cc98337718f6": "Future Major Guide",
+  "58ea6de8a5c2": "Prozkoumejte univerzity a obory na Tchaj-wanu a v USA pomocí testů zájmů, porovnání vedle sebe, uložených možností a poznámek.",
+  "d8279b90fd1c": "Future Major Guide<br>Zásady ochrany osobních údajů",
+  "e326ef4687a8": "Vzdělávání · Referenční příručky",
+  "4ea6c6d4eca5": "Cestování · Finance"
 }

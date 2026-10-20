@@ -61,7 +61,6 @@
   "2945df36c2f9": "Detalii despre aplicație",
   "6eebe159fceb": "Notează vise, stări și etichete și răsfoiește însemnările anterioare în calendar.",
   "01bed311e7d0": "Toate aplicațiile",
-  "cb0e13633b9d": "Aplicații: <b data-count>10</b>",
   "a52ace420f21": "Toate",
   "a10a36fa1098": "Caută aplicații",
   "3b7ea51793e9": "Șterge căutarea",
@@ -175,5 +174,18 @@
   "3954df759bac": "Această notificare existentă acoperă doar pagina de prezentare a aplicației, nu toate prelucrările de date din aplicație. Scrie-ne pentru detalii despre date, stocare sau ștergere.",
   "b4b24b6dcd08": "Apple gestionează achizițiile din aplicație și abonamentele. Gestionează-le în Configurări iPhone → numele tău → Abonamente. Rambursările se cer prin <a href=\"https://reportaproblem.apple.com/\">Raportează o problemă de la Apple</a> și sunt evaluate de Apple. Ștergerea aplicației nu anulează abonamentul.",
   "0dad92348ba0": "Vizitează <a href=\"/privacy/\">centrul de confidențialitate</a> și alege aplicația sau jocul. Pentru întrebări despre accesarea, corectarea sau ștergerea datelor, scrie-ne și include numele produsului.",
-  "4b97fbdad297": "Scrie-ne numele aplicației și ce s-a întâmplat. Stocarea și copiile de siguranță diferă între aplicații; unele date există doar pe dispozitivul tău, unde nu le putem accesa sau restaura. Verifică opțiunile de backup înainte de ștergere sau reinstalare."
+  "4b97fbdad297": "Scrie-ne numele aplicației și ce s-a întâmplat. Stocarea și copiile de siguranță diferă între aplicații; unele date există doar pe dispozitivul tău, unde nu le putem accesa sau restaura. Verifică opțiunile de backup înainte de ștergere sau reinstalare.",
+  "17a827b4093a": "Aplicații: <b data-count>{count}</b>",
+  "b4eceddba2dc": "Compilat la 21 octombrie 2026",
+  "bc5ff3ef4ec9": "Semiconductors Illustrated",
+  "2c0a8d6b7dd0": "Învață bazele semiconductorilor prin lecții ilustrate, diagrame interactive de procese, un glosar, teste și notițe de studiu.",
+  "7e3d6742eb7f": "Semiconductors Illustrated<br>Politică de confidențialitate",
+  "6a1724afea00": "MileButler: Miles &amp; Card Plans",
+  "114e5b0d6f59": "Compară bilete obținute cu mile, costuri de cumpărare a milelor și transferuri de puncte de pe carduri de credit. Estimează punctele, cheltuielile și timpul necesare pentru un bilet.",
+  "15d5e46669f1": "MileButler: Miles &amp; Card Plans<br>Politică de confidențialitate",
+  "cc98337718f6": "Future Major Guide",
+  "58ea6de8a5c2": "Explorează universități și specializări din Taiwan și Statele Unite cu teste de interese, comparații alăturate, opțiuni salvate și notițe.",
+  "d8279b90fd1c": "Future Major Guide<br>Politică de confidențialitate",
+  "e326ef4687a8": "Educație · Referință",
+  "4ea6c6d4eca5": "Călătorii · Finanțe"
 }

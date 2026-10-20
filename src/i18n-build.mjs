@@ -9,7 +9,11 @@ export async function prepareI18n(root) {
   if(byId.size!==source.length||source.some(row=>typeof row.en!=='string'||typeof row.zh!=='string'||row.id!==messageId(row.en)))throw new Error('Source messages must have unique, matching IDs');
   const escape = value=>String(value).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const id = en => { const key=messageId(en); if(!byId.has(key))throw new Error(`Missing source message: ${en}`); return key; };
-  const L = (zh,en)=>`<span data-i18n="${id(en)}">${zh}</span>`;
+  const L = (zh,en,values={})=>{
+    const hasCount=Object.hasOwn(values,'count');
+    if(hasCount&&(!Number.isInteger(values.count)||values.count<0))throw new Error('Message count must be a nonnegative integer');
+    return `<span data-i18n="${id(en)}"${hasCount?` data-i18n-count="${values.count}"`:''}>${hasCount?zh.replaceAll('{count}',String(values.count)):zh}</span>`;
+  };
   const T = en=>L(byId.get(id(en)).zh,en);
   const dictionaries=[];
   for(const locale of locales){
@@ -27,6 +31,7 @@ export async function prepareI18n(root) {
     if(!Array.isArray(messages)||messages.length!==source.length)throw new Error(`${locale.code}: expected ${source.length} messages`);
     for(const [i,value] of messages.entries()){
       if(typeof value!=='string'||!value.trim())throw new Error(`${locale.code}[${i}]: empty translation`);
+      if(JSON.stringify(value.match(/\{count\}/g)||[])!==JSON.stringify(source[i].en.match(/\{count\}/g)||[]))throw new Error(`${locale.code}[${i}]: altered count placeholder`);
       // The only executable markup comes from the checked-in source catalog.
       const tags=value.match(/<[^>]+>/g)||[];
       const allowed=[...(source[i].en.match(/<[^>]+>/g)||[]),...(source[i].zh.match(/<[^>]+>/g)||[])];

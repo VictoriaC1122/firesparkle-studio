@@ -61,7 +61,6 @@
   "2945df36c2f9": "Apie programėlę",
   "6eebe159fceb": "Užrašykite sapnus, nuotaikas ir žymas, peržiūrėkite ankstesnius įrašus kalendoriuje.",
   "01bed311e7d0": "Visos programėlės",
-  "cb0e13633b9d": "Programėlės: <b data-count>10</b>",
   "a52ace420f21": "Visos",
   "a10a36fa1098": "Ieškoti programėlių",
   "3b7ea51793e9": "Išvalyti paiešką",
@@ -175,5 +174,18 @@
   "3954df759bac": "Šis esamas pranešimas apima tik programėlės informacinį tinklalapį, o ne visą duomenų tvarkymą programėlėje. Dėl programėlės duomenų, saugojimo ar ištrynimo parašykite mums.",
   "b4b24b6dcd08": "Pirkinius programėlėje ir prenumeratas tvarko Apple. Juos valdykite iPhone nustatymuose → jūsų vardas → Prenumeratos. Grąžinimo prašymai teikiami per <a href=\"https://reportaproblem.apple.com/\">Apple Report a Problem</a>, juos peržiūri Apple. Ištrynus programėlę prenumerata neatšaukiama.",
   "0dad92348ba0": "Apsilankykite <a href=\"/privacy/\">privatumo centre</a> ir pasirinkite programėlę ar žaidimą. Dėl prieigos prie duomenų, jų taisymo ar ištrynimo rašykite mums ir nurodykite produkto pavadinimą.",
-  "4b97fbdad297": "Parašykite programėlės pavadinimą ir kas nutiko. Saugojimas bei atsarginės kopijos skiriasi pagal programėlę, o kai kurie duomenys yra tik jūsų įrenginyje, todėl negalime jų pasiekti ar atkurti. Prieš trindami ar diegdami iš naujo patikrinkite atsarginių kopijų parinktis."
+  "4b97fbdad297": "Parašykite programėlės pavadinimą ir kas nutiko. Saugojimas bei atsarginės kopijos skiriasi pagal programėlę, o kai kurie duomenys yra tik jūsų įrenginyje, todėl negalime jų pasiekti ar atkurti. Prieš trindami ar diegdami iš naujo patikrinkite atsarginių kopijų parinktis.",
+  "17a827b4093a": "Programėlės: <b data-count>{count}</b>",
+  "b4eceddba2dc": "Parengta 2026 m. spalio 21 d.",
+  "bc5ff3ef4ec9": "Semiconductors Illustrated",
+  "2c0a8d6b7dd0": "Mokykitės puslaidininkių pagrindų naudodamiesi iliustruotomis pamokomis, interaktyviomis procesų schemomis, žodynėliu, testais ir mokymosi užrašais.",
+  "7e3d6742eb7f": "Semiconductors Illustrated<br>Privatumo politika",
+  "6a1724afea00": "MileButler: Miles &amp; Card Plans",
+  "114e5b0d6f59": "Palyginkite skrydžio bilietų įsigijimą už mylias, mylių pirkimo kainas ir kredito kortelių taškų pervedimus. Įvertinkite, kiek taškų, išlaidų ir laiko reikės bilietui.",
+  "15d5e46669f1": "MileButler: Miles &amp; Card Plans<br>Privatumo politika",
+  "cc98337718f6": "Future Major Guide",
+  "58ea6de8a5c2": "Tyrinėkite Taivano ir JAV universitetus bei studijų programas naudodamiesi interesų testais, palyginimais greta, išsaugotais pasirinkimais ir užrašais.",
+  "d8279b90fd1c": "Future Major Guide<br>Privatumo politika",
+  "e326ef4687a8": "Švietimas · Žinynai",
+  "4ea6c6d4eca5": "Kelionės · Finansai"
 }

@@ -61,7 +61,6 @@
   "2945df36c2f9": "Maelezo ya programu",
   "6eebe159fceb": "Andika ndoto, hisia na lebo, na pitia rekodi za zamani kwenye kalenda.",
   "01bed311e7d0": "Programu zote",
-  "cb0e13633b9d": "Programu: <b data-count>10</b>",
   "a52ace420f21": "Zote",
   "a10a36fa1098": "Tafuta programu",
   "3b7ea51793e9": "Futa utafutaji",
@@ -175,5 +174,18 @@
   "3954df759bac": "Taarifa hii iliyopo inahusu ukurasa wa taarifa za programu pekee, si uchakataji wote wa data ndani ya programu. Tuandikie kwa maelezo ya data ya programu, kuhifadhi au kufuta.",
   "b4b24b6dcd08": "Ununuzi wa ndani ya programu na usajili hushughulikiwa na Apple. Udhibiti upo katika Mipangilio ya iPhone → jina lako → Usajili. Marejesho ya fedha huombwa kupitia <a href=\"https://reportaproblem.apple.com/\">Report a Problem ya Apple</a> na kukaguliwa na Apple. Kufuta programu hakukatishi usajili wake.",
   "0dad92348ba0": "Tembelea <a href=\"/privacy/\">kituo cha faragha</a> na uchague programu au mchezo. Kwa maswali ya kufikia, kusahihisha au kufuta data, tuandikie ukitaja jina la bidhaa.",
-  "4b97fbdad297": "Tuandikie jina la programu na kilichotokea. Hifadhi na nakala rudufu hutofautiana kwa programu, na data fulani ipo kwenye kifaa chako pekee ambako hatuwezi kuifikia au kuirejesha. Angalia chaguo za nakala rudufu kabla ya kufuta au kusakinisha upya."
+  "4b97fbdad297": "Tuandikie jina la programu na kilichotokea. Hifadhi na nakala rudufu hutofautiana kwa programu, na data fulani ipo kwenye kifaa chako pekee ambako hatuwezi kuifikia au kuirejesha. Angalia chaguo za nakala rudufu kabla ya kufuta au kusakinisha upya.",
+  "17a827b4093a": "Programu: <b data-count>{count}</b>",
+  "b4eceddba2dc": "Imekusanywa tarehe 21 Oktoba 2026",
+  "bc5ff3ef4ec9": "Semiconductors Illustrated",
+  "2c0a8d6b7dd0": "Jifunze misingi ya semikondakta kupitia masomo yenye michoro, michoro shirikishi ya michakato, faharasa, maswali mafupi na madokezo ya kujifunza.",
+  "7e3d6742eb7f": "Semiconductors Illustrated<br>Sera ya faragha",
+  "6a1724afea00": "MileButler: Miles &amp; Card Plans",
+  "114e5b0d6f59": "Linganisha matumizi ya maili za zawadi kupata tiketi za ndege, gharama za kununua maili na uhamishaji wa pointi za kadi za mkopo. Kadiria pointi, matumizi na muda unaohitajika kupata tiketi.",
+  "15d5e46669f1": "MileButler: Miles &amp; Card Plans<br>Sera ya faragha",
+  "cc98337718f6": "Future Major Guide",
+  "58ea6de8a5c2": "Chunguza vyuo vikuu na fani za masomo nchini Taiwan na Marekani kwa maswali ya kutambua mapendeleo, kulinganisha chaguo sambamba, chaguo zilizohifadhiwa na madokezo.",
+  "d8279b90fd1c": "Future Major Guide<br>Sera ya faragha",
+  "e326ef4687a8": "Elimu · Marejeleo",
+  "4ea6c6d4eca5": "Usafiri · Fedha"
 }

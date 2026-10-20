@@ -61,7 +61,6 @@
   "2945df36c2f9": "Detalye ng app",
   "6eebe159fceb": "Itala ang panaginip, damdamin, at tag, at balikan ang mga lumang tala sa kalendaryo.",
   "01bed311e7d0": "Lahat ng app",
-  "cb0e13633b9d": "Mga app: <b data-count>10</b>",
   "a52ace420f21": "Lahat",
   "a10a36fa1098": "Maghanap ng app",
   "3b7ea51793e9": "Burahin ang paghahanap",
@@ -175,5 +174,18 @@
   "3954df759bac": "Saklaw lamang ng kasalukuyang paunawang ito ang pahina ng impormasyon ng app, hindi ang lahat ng paghawak ng data sa loob nito. Mag-email para sa detalye tungkol sa data, pag-iimbak, o pagbura.",
   "b4b24b6dcd08": "Apple ang nangangasiwa sa mga pagbili sa app at subscription. Pamahalaan sa Settings ng iPhone → iyong pangalan → Subscriptions. Humiling ng refund sa <a href=\"https://reportaproblem.apple.com/\">Report a Problem ng Apple</a>; Apple ang magsusuri nito. Hindi kinakansela ng pagbura sa app ang subscription.",
   "0dad92348ba0": "Bisitahin ang <a href=\"/privacy/\">sentro ng privacy</a> at piliin ang app o laro. Para sa tanong tungkol sa pag-access, pagwawasto, o pagbura ng data, mag-email at isama ang pangalan ng produkto.",
-  "4b97fbdad297": "Mag-email kasama ang pangalan ng app at ang nangyari. Magkakaiba ang pag-iimbak at backup ng bawat app. May data na nasa device mo lamang at hindi namin maa-access o maibabalik. Suriin ang mga opsyon sa backup bago burahin o muling i-install ang app."
+  "4b97fbdad297": "Mag-email kasama ang pangalan ng app at ang nangyari. Magkakaiba ang pag-iimbak at backup ng bawat app. May data na nasa device mo lamang at hindi namin maa-access o maibabalik. Suriin ang mga opsyon sa backup bago burahin o muling i-install ang app.",
+  "17a827b4093a": "Mga app: <b data-count>{count}</b>",
+  "b4eceddba2dc": "Tinipon noong 21 Oktubre 2026",
+  "bc5ff3ef4ec9": "Semiconductors Illustrated",
+  "2c0a8d6b7dd0": "Alamin ang batayan ng semiconductor sa mga araling may larawan, interaktibong diagram ng proseso, talasalitaan, pagsusulit, at tala sa pag-aaral.",
+  "7e3d6742eb7f": "Semiconductors Illustrated<br>Patakaran sa privacy",
+  "6a1724afea00": "MileButler: Miles &amp; Card Plans",
+  "114e5b0d6f59": "Ihambing ang pagtubos ng award ticket, halaga ng pagbili ng miles, at paglilipat ng puntos ng credit card. Tantiyahin ang puntos, gastos, at oras na kailangan para sa tiket.",
+  "15d5e46669f1": "MileButler: Miles &amp; Card Plans<br>Patakaran sa privacy",
+  "cc98337718f6": "Future Major Guide",
+  "58ea6de8a5c2": "Tuklasin ang mga unibersidad at major sa Taiwan at Estados Unidos gamit ang pagsusulit sa interes, magkatabing paghahambing, naka-save na pagpipilian, at mga tala.",
+  "d8279b90fd1c": "Future Major Guide<br>Patakaran sa privacy",
+  "e326ef4687a8": "Edukasyon · Sanggunian",
+  "4ea6c6d4eca5": "Paglalakbay · Pananalapi"
 }

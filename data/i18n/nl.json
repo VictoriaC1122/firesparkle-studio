@@ -61,7 +61,6 @@
   "2945df36c2f9": "Over de app",
   "6eebe159fceb": "Leg dromen, stemmingen en tags vast en blader door eerdere notities in een kalender.",
   "01bed311e7d0": "Alle apps",
-  "cb0e13633b9d": "Apps: <b data-count>10</b>",
   "a52ace420f21": "Alles",
   "a10a36fa1098": "Apps zoeken",
   "3b7ea51793e9": "Zoekopdracht wissen",
@@ -175,5 +174,18 @@
   "3954df759bac": "Deze bestaande verklaring gaat alleen over de informatiepagina van de app, niet over alle gegevensverwerking in de app. Mail ons voor meer informatie over appgegevens, opslag of verwijdering.",
   "b4b24b6dcd08": "Apple verwerkt in-appaankopen en abonnementen. Beheer ze via iPhone-instellingen → je naam → Abonnementen. Terugbetalingen vraag je aan via <a href=\"https://reportaproblem.apple.com/\">Meld een probleem van Apple</a> en worden door Apple beoordeeld. Een app verwijderen beëindigt het abonnement niet.",
   "0dad92348ba0": "Ga naar het <a href=\"/privacy/\">privacycentrum</a> en kies de app of game. Mail ons bij vragen over inzage, correctie of verwijdering van gegevens en vermeld de productnaam.",
-  "4b97fbdad297": "Mail ons met de appnaam en wat er is gebeurd. Opslag en back-ups verschillen per app; sommige gegevens staan alleen op je apparaat en kunnen wij niet inzien of herstellen. Controleer de back-upopties voordat je de app verwijdert of opnieuw installeert."
+  "4b97fbdad297": "Mail ons met de appnaam en wat er is gebeurd. Opslag en back-ups verschillen per app; sommige gegevens staan alleen op je apparaat en kunnen wij niet inzien of herstellen. Controleer de back-upopties voordat je de app verwijdert of opnieuw installeert.",
+  "17a827b4093a": "Apps: <b data-count>{count}</b>",
+  "b4eceddba2dc": "Samengesteld op 21 oktober 2026",
+  "bc5ff3ef4ec9": "Semiconductors Illustrated",
+  "2c0a8d6b7dd0": "Leer de basis van halfgeleiders met geïllustreerde lessen, interactieve procesdiagrammen, een begrippenlijst, quizzen en studienotities.",
+  "7e3d6742eb7f": "Semiconductors Illustrated<br>Privacybeleid",
+  "6a1724afea00": "MileButler: Miles &amp; Card Plans",
+  "114e5b0d6f59": "Vergelijk vluchten met spaarmijlen, de kosten van mijlenaankopen en het overboeken van creditcardpunten. Schat de benodigde punten, uitgaven en tijd voor een ticket.",
+  "15d5e46669f1": "MileButler: Miles &amp; Card Plans<br>Privacybeleid",
+  "cc98337718f6": "Future Major Guide",
+  "58ea6de8a5c2": "Verken universiteiten en studierichtingen in Taiwan en de Verenigde Staten met interessetests, vergelijkingen naast elkaar, opgeslagen opties en notities.",
+  "d8279b90fd1c": "Future Major Guide<br>Privacybeleid",
+  "e326ef4687a8": "Onderwijs · Naslagwerken",
+  "4ea6c6d4eca5": "Reizen · Financiën"
 }

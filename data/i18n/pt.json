@@ -61,7 +61,6 @@
   "2945df36c2f9": "Detalhes do aplicativo",
   "6eebe159fceb": "Registre sonhos, humores e etiquetas e consulte anotações anteriores em um calendário.",
   "01bed311e7d0": "Todos os aplicativos",
-  "cb0e13633b9d": "Aplicativos: <b data-count>10</b>",
   "a52ace420f21": "Todos",
   "a10a36fa1098": "Buscar aplicativos",
   "3b7ea51793e9": "Limpar busca",
@@ -175,5 +174,18 @@
   "3954df759bac": "Este aviso existente cobre apenas a página informativa do aplicativo, não todo o tratamento de dados dentro dele. Envie um e-mail para saber mais sobre dados, armazenamento ou exclusão.",
   "b4b24b6dcd08": "Apple processa as compras no aplicativo e as assinaturas. Gerencie-as em Ajustes do iPhone → seu nome → Assinaturas. Solicite reembolsos pelo <a href=\"https://reportaproblem.apple.com/\">Relatar um Problema da Apple</a>, que serão analisados pela Apple. Excluir um aplicativo não cancela a assinatura.",
   "0dad92348ba0": "Acesse a <a href=\"/privacy/\">central de privacidade</a> e escolha o aplicativo ou jogo. Para dúvidas sobre acesso, correção ou exclusão de dados, envie um e-mail com o nome do produto.",
-  "4b97fbdad297": "Envie um e-mail com o nome do aplicativo e o que aconteceu. O armazenamento e os backups variam por aplicativo; alguns dados ficam apenas no seu dispositivo, onde não podemos acessá-los ou restaurá-los. Verifique as opções de backup antes de excluir ou reinstalar."
+  "4b97fbdad297": "Envie um e-mail com o nome do aplicativo e o que aconteceu. O armazenamento e os backups variam por aplicativo; alguns dados ficam apenas no seu dispositivo, onde não podemos acessá-los ou restaurá-los. Verifique as opções de backup antes de excluir ou reinstalar.",
+  "17a827b4093a": "Aplicativos: <b data-count>{count}</b>",
+  "b4eceddba2dc": "Compilado em 21 de outubro de 2026",
+  "bc5ff3ef4ec9": "Semiconductors Illustrated",
+  "2c0a8d6b7dd0": "Aprenda os fundamentos dos semicondutores com aulas ilustradas, diagramas interativos de processos, glossário, testes e notas de estudo.",
+  "7e3d6742eb7f": "Semiconductors Illustrated<br>Política de privacidade",
+  "6a1724afea00": "MileButler: Miles &amp; Card Plans",
+  "114e5b0d6f59": "Compare resgates de passagens, custos de compra de milhas e transferências de pontos de cartão de crédito. Estime os pontos, os gastos e o tempo necessários para uma passagem.",
+  "15d5e46669f1": "MileButler: Miles &amp; Card Plans<br>Política de privacidade",
+  "cc98337718f6": "Future Major Guide",
+  "58ea6de8a5c2": "Explore universidades e cursos em Taiwan e nos Estados Unidos com testes de interesses, comparações lado a lado, opções salvas e notas.",
+  "d8279b90fd1c": "Future Major Guide<br>Política de privacidade",
+  "e326ef4687a8": "Educação · Referência",
+  "4ea6c6d4eca5": "Viagens · Finanças"
 }

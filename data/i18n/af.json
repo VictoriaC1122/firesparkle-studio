@@ -61,7 +61,6 @@
   "2945df36c2f9": "Meer oor die toepassing",
   "6eebe159fceb": "Teken drome, buie en etikette aan en blaai deur vorige inskrywings in ’n kalender.",
   "01bed311e7d0": "Alle toepassings",
-  "cb0e13633b9d": "Toepassings: <b data-count>10</b>",
   "a52ace420f21": "Alles",
   "a10a36fa1098": "Soek toepassings",
   "3b7ea51793e9": "Maak soektog skoon",
@@ -175,5 +174,18 @@
   "3954df759bac": "Hierdie bestaande kennisgewing dek net die toepassing se inligtingswebblad, nie alle dataverwerking binne die toepassing nie. E-pos ons vir besonderhede oor toepassingdata, berging of uitwissing.",
   "b4b24b6dcd08": "Aankope binne toepassings en intekeninge word deur Apple hanteer. Bestuur dit in iPhone-instellings → jou naam → Intekeninge. Terugbetalings word via <a href=\"https://reportaproblem.apple.com/\">Apple se Report a Problem</a> aangevra en deur Apple beoordeel. Die uitvee van ’n toepassing kanselleer nie die intekening nie.",
   "0dad92348ba0": "Besoek die <a href=\"/privacy/\">privaatheidsentrum</a> en kies die toepassing of speletjie. Vir vrae oor toegang, regstelling of uitwissing van data, e-pos ons en sluit die produknaam in.",
-  "4b97fbdad297": "E-pos ons met die toepassing se naam en wat gebeur het. Berging en rugsteun verskil per toepassing, en sommige data bly net op jou toestel waar ons dit nie kan bereik of herstel nie. Gaan die toepassing se rugsteunopsies na voordat jy dit uitvee of herinstalleer."
+  "4b97fbdad297": "E-pos ons met die toepassing se naam en wat gebeur het. Berging en rugsteun verskil per toepassing, en sommige data bly net op jou toestel waar ons dit nie kan bereik of herstel nie. Gaan die toepassing se rugsteunopsies na voordat jy dit uitvee of herinstalleer.",
+  "17a827b4093a": "Toepassings: <b data-count>{count}</b>",
+  "b4eceddba2dc": "Saamgestel op 21 Oktober 2026",
+  "bc5ff3ef4ec9": "Semiconductors Illustrated",
+  "2c0a8d6b7dd0": "Leer die basiese beginsels van halfgeleiers met geïllustreerde lesse, interaktiewe prosesdiagramme, ’n woordelys, vasvrae en studienotas.",
+  "7e3d6742eb7f": "Semiconductors Illustrated<br>Privaatheidsbeleid",
+  "6a1724afea00": "MileButler: Miles &amp; Card Plans",
+  "114e5b0d6f59": "Vergelyk die gebruik van beloningsmyle vir vlugte, die koste om myle te koop en oordragte van kredietkaartpunte. Beraam die punte, besteding en tyd wat nodig is vir ’n kaartjie.",
+  "15d5e46669f1": "MileButler: Miles &amp; Card Plans<br>Privaatheidsbeleid",
+  "cc98337718f6": "Future Major Guide",
+  "58ea6de8a5c2": "Verken universiteite en studierigtings in Taiwan en die Verenigde State met belangstellingsvraelyste, vergelykings langs mekaar, gestoorde keuses en notas.",
+  "d8279b90fd1c": "Future Major Guide<br>Privaatheidsbeleid",
+  "e326ef4687a8": "Onderwys · Naslaan",
+  "4ea6c6d4eca5": "Reis · Finansies"
 }

@@ -61,7 +61,6 @@
   "2945df36c2f9": "Detail aplikasi",
   "6eebe159fceb": "Catat mimpi, suasana hati, dan tag, lalu telusuri catatan lama melalui kalender.",
   "01bed311e7d0": "Semua aplikasi",
-  "cb0e13633b9d": "Aplikasi: <b data-count>10</b>",
   "a52ace420f21": "Semua",
   "a10a36fa1098": "Cari aplikasi",
   "3b7ea51793e9": "Hapus pencarian",
@@ -175,5 +174,18 @@
   "3954df759bac": "Pemberitahuan yang ada ini hanya mencakup halaman informasi aplikasi, bukan seluruh pemrosesan data dalam aplikasi. Kirim email untuk informasi tentang data, penyimpanan, atau penghapusan.",
   "b4b24b6dcd08": "Pembelian dalam aplikasi dan langganan ditangani Apple. Kelola melalui Pengaturan iPhone → nama Anda → Langganan. Pengembalian dana diminta melalui <a href=\"https://reportaproblem.apple.com/\">Laporkan Masalah Apple</a> dan ditinjau Apple. Menghapus aplikasi tidak membatalkan langganan.",
   "0dad92348ba0": "Kunjungi <a href=\"/privacy/\">pusat privasi</a> dan pilih aplikasi atau gim. Untuk pertanyaan tentang akses, koreksi, atau penghapusan data, kirim email dengan menyertakan nama produk.",
-  "4b97fbdad297": "Kirim email dengan nama aplikasi dan penjelasan masalah. Penyimpanan dan pencadangan berbeda untuk setiap aplikasi, dan sebagian data hanya ada di perangkat Anda sehingga tidak dapat kami akses atau pulihkan. Periksa opsi pencadangan sebelum menghapus atau memasang ulang aplikasi."
+  "4b97fbdad297": "Kirim email dengan nama aplikasi dan penjelasan masalah. Penyimpanan dan pencadangan berbeda untuk setiap aplikasi, dan sebagian data hanya ada di perangkat Anda sehingga tidak dapat kami akses atau pulihkan. Periksa opsi pencadangan sebelum menghapus atau memasang ulang aplikasi.",
+  "17a827b4093a": "Aplikasi: <b data-count>{count}</b>",
+  "b4eceddba2dc": "Disusun pada 21 Oktober 2026",
+  "bc5ff3ef4ec9": "Semiconductors Illustrated",
+  "2c0a8d6b7dd0": "Pelajari dasar semikonduktor melalui pelajaran bergambar, diagram proses interaktif, glosarium, kuis, dan catatan belajar.",
+  "7e3d6742eb7f": "Semiconductors Illustrated<br>Kebijakan privasi",
+  "6a1724afea00": "MileButler: Miles &amp; Card Plans",
+  "114e5b0d6f59": "Bandingkan penukaran tiket award, biaya membeli miles, dan transfer poin kartu kredit. Perkirakan poin, pengeluaran, dan waktu yang dibutuhkan untuk tiket.",
+  "15d5e46669f1": "MileButler: Miles &amp; Card Plans<br>Kebijakan privasi",
+  "cc98337718f6": "Future Major Guide",
+  "58ea6de8a5c2": "Jelajahi universitas dan jurusan di Taiwan dan Amerika Serikat dengan kuis minat, perbandingan berdampingan, pilihan tersimpan, dan catatan.",
+  "d8279b90fd1c": "Future Major Guide<br>Kebijakan privasi",
+  "e326ef4687a8": "Pendidikan · Referensi",
+  "4ea6c6d4eca5": "Perjalanan · Keuangan"
 }

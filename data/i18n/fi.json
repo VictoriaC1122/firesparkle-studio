@@ -61,7 +61,6 @@
   "2945df36c2f9": "Sovelluksen tiedot",
   "6eebe159fceb": "Kirjaa unet, mielialat ja tunnisteet ja selaa aiempia merkintöjä kalenterissa.",
   "01bed311e7d0": "Kaikki sovellukset",
-  "cb0e13633b9d": "Sovellukset: <b data-count>10</b>",
   "a52ace420f21": "Kaikki",
   "a10a36fa1098": "Hae sovelluksia",
   "3b7ea51793e9": "Tyhjennä haku",
@@ -175,5 +174,18 @@
   "3954df759bac": "Tämä olemassa oleva seloste kattaa vain sovelluksen esittelysivun, ei kaikkea sovelluksen sisäistä tietojenkäsittelyä. Kysy sähköpostitse lisätietoja sovelluksen tiedoista, tallennuksesta tai poistamisesta.",
   "b4b24b6dcd08": "Apple hoitaa sovelluksen sisäiset ostot ja tilaukset. Hallitse niitä iPhonen asetuksissa → oma nimesi → Tilaukset. Hyvitystä pyydetään <a href=\"https://reportaproblem.apple.com/\">Applen Ilmoita ongelmasta -palvelussa</a>, ja Apple käsittelee pyynnöt. Sovelluksen poistaminen ei peru tilausta.",
   "0dad92348ba0": "Siirry <a href=\"/privacy/\">tietosuojakeskukseen</a> ja valitse sovellus tai peli. Lähetä sähköpostia tietojen saantia, korjaamista tai poistamista koskevista kysymyksistä ja mainitse tuotteen nimi.",
-  "4b97fbdad297": "Lähetä sovelluksen nimi ja kuvaus tapahtuneesta. Tallennus ja varmuuskopiointi vaihtelevat sovelluksittain; osa tiedoista on vain laitteellasi, emmekä voi käyttää tai palauttaa niitä. Tarkista varmuuskopiointivaihtoehdot ennen poistamista tai uudelleenasennusta."
+  "4b97fbdad297": "Lähetä sovelluksen nimi ja kuvaus tapahtuneesta. Tallennus ja varmuuskopiointi vaihtelevat sovelluksittain; osa tiedoista on vain laitteellasi, emmekä voi käyttää tai palauttaa niitä. Tarkista varmuuskopiointivaihtoehdot ennen poistamista tai uudelleenasennusta.",
+  "17a827b4093a": "Sovellukset: <b data-count>{count}</b>",
+  "b4eceddba2dc": "Koottu 21. lokakuuta 2026",
+  "bc5ff3ef4ec9": "Semiconductors Illustrated",
+  "2c0a8d6b7dd0": "Opi puolijohteiden perusteet kuvitettujen oppituntien, vuorovaikutteisten prosessikaavioiden, sanaston, tietovisojen ja opiskelumuistiinpanojen avulla.",
+  "7e3d6742eb7f": "Semiconductors Illustrated<br>Tietosuojakäytäntö",
+  "6a1724afea00": "MileButler: Miles &amp; Card Plans",
+  "114e5b0d6f59": "Vertaa palkintolentoja, mailien ostokustannuksia ja luottokorttipisteiden siirtoja. Arvioi lippuun tarvittavat pisteet, kulutus ja aika.",
+  "15d5e46669f1": "MileButler: Miles &amp; Card Plans<br>Tietosuojakäytäntö",
+  "cc98337718f6": "Future Major Guide",
+  "58ea6de8a5c2": "Tutustu Taiwanin ja Yhdysvaltojen yliopistoihin ja pääaineisiin kiinnostustestien, rinnakkaisvertailujen, tallennettujen vaihtoehtojen ja muistiinpanojen avulla.",
+  "d8279b90fd1c": "Future Major Guide<br>Tietosuojakäytäntö",
+  "e326ef4687a8": "Koulutus · Hakuteokset",
+  "4ea6c6d4eca5": "Matkailu · Talous"
 }

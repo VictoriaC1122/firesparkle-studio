@@ -1,0 +1,78 @@
+{
+  "retrievedOn": "2026-10-21",
+  "appId": "6824004640",
+  "appName": "我決定自己的未來-大學選系指南",
+  "portfolioIndexURL": "https://victoriac1122.github.io/apps/script.js",
+  "appStoreSources": [
+    {
+      "url": "https://apps.apple.com/tw/app/id6824004640",
+      "file": "6824004640-app-store-tw.html",
+      "sha256": "01c779d38ff8b2d2239c470d6d8733efaff9acd11be0a972aaf37fbdd1dd091f",
+      "developerLinks": [
+        {
+          "label": "網站",
+          "url": "https://victoriac1122.github.io/future-major-guide-support-site/"
+        },
+        {
+          "label": "支援",
+          "url": "https://victoriac1122.github.io/future-major-guide-support-site/"
+        }
+      ],
+      "privacyLinks": [
+        {
+          "label": "開發者的隱私權政策",
+          "url": "https://victoriac1122.github.io/future-major-guide-support-site/privacy.html"
+        }
+      ],
+      "developerLinkJSONPath": "data[0].data.shelfMapping.description.items[0].developerLinks",
+      "privacyLinkJSONPath": "data[0].data.shelfMapping.privacyHeader.items[0].bodyText.linkedSubstrings"
+    },
+    {
+      "url": "https://apps.apple.com/us/app/id6824004640",
+      "file": "6824004640-app-store-us.html",
+      "sha256": "b9f05d0a7716fac1a38347a2ff9e3d758f667c863fbd1aee1d97d16b53279e73",
+      "developerLinks": [
+        {
+          "label": "Website",
+          "url": "https://victoriac1122.github.io/future-major-guide-support-site/"
+        },
+        {
+          "label": "Support",
+          "url": "https://victoriac1122.github.io/future-major-guide-support-site/"
+        }
+      ],
+      "privacyLinks": [
+        {
+          "label": "developer’s privacy policy",
+          "url": "https://victoriac1122.github.io/future-major-guide-support-site/privacy.html"
+        }
+      ],
+      "developerLinkJSONPath": "data[0].data.shelfMapping.description.items[0].developerLinks",
+      "privacyLinkJSONPath": "data[0].data.shelfMapping.privacyHeader.items[0].bodyText.linkedSubstrings"
+    }
+  ],
+  "policyDocument": {
+    "url": "https://victoriac1122.github.io/future-major-guide-support-site/privacy.html",
+    "file": "6824004640-policy.html",
+    "sha256": "a28620755d6d49e0c1512305553140848d5e5edfdda09ff35b46276593cbe3ff",
+    "selector": "main#main",
+    "headings": [
+      "隱私權政策",
+      "政策摘要",
+      "不會上傳的資料",
+      "第三方服務",
+      "保存在裝置本機的資料",
+      "期限提醒（本機通知）",
+      "訂閱付款",
+      "資料用途",
+      "如何刪除資料",
+      "教育資訊與免責說明",
+      "聯絡方式"
+    ],
+    "policyUpdatedText": "最後更新：2026 年 10 月 17 日",
+    "contactEmails": [
+      "victoriacheng1122@gmail.com"
+    ]
+  },
+  "policyTextExtraction": "Extracted existing Traditional Chinese text from the stated source selector. Removed decorative eyebrow labels and navigation-only text; whitespace normalized. Policy wording and original contact information retained."
+}

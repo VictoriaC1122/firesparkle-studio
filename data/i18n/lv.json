@@ -61,7 +61,6 @@
   "2945df36c2f9": "Par lietotni",
   "6eebe159fceb": "Pierakstiet sapņus, noskaņojumus un atzīmes un pārlūkojiet agrākos ierakstus kalendārā.",
   "01bed311e7d0": "Visas lietotnes",
-  "cb0e13633b9d": "Lietotnes: <b data-count>10</b>",
   "a52ace420f21": "Visas",
   "a10a36fa1098": "Meklēt lietotnes",
   "3b7ea51793e9": "Notīrīt meklēšanu",
@@ -175,5 +174,18 @@
   "3954df759bac": "Šis esošais paziņojums attiecas tikai uz lietotnes informatīvo tīmekļa lapu, nevis visu datu apstrādi lietotnē. Par lietotnes datiem, glabāšanu vai dzēšanu rakstiet mums.",
   "b4b24b6dcd08": "Pirkumus lietotnē un abonementus apstrādā Apple. Pārvaldiet tos iPhone iestatījumos → jūsu vārds → Abonementi. Atmaksu pieprasa, izmantojot <a href=\"https://reportaproblem.apple.com/\">Apple Report a Problem</a>, un pieprasījumus pārskata Apple. Lietotnes dzēšana neatceļ abonementu.",
   "0dad92348ba0": "Apmeklējiet <a href=\"/privacy/\">privātuma centru</a> un izvēlieties lietotni vai spēli. Jautājumos par datu piekļuvi, labošanu vai dzēšanu rakstiet mums, norādot produkta nosaukumu.",
-  "4b97fbdad297": "Rakstiet lietotnes nosaukumu un notikušo. Glabāšana un dublēšana katrā lietotnē atšķiras, un daži dati ir tikai jūsu ierīcē, kur tiem nevaram piekļūt vai tos atjaunot. Pirms dzēšanas vai pārinstalēšanas pārbaudiet dublēšanas iespējas."
+  "4b97fbdad297": "Rakstiet lietotnes nosaukumu un notikušo. Glabāšana un dublēšana katrā lietotnē atšķiras, un daži dati ir tikai jūsu ierīcē, kur tiem nevaram piekļūt vai tos atjaunot. Pirms dzēšanas vai pārinstalēšanas pārbaudiet dublēšanas iespējas.",
+  "17a827b4093a": "Lietotnes: <b data-count>{count}</b>",
+  "b4eceddba2dc": "Apkopots 2026. gada 21. oktobrī",
+  "bc5ff3ef4ec9": "Semiconductors Illustrated",
+  "2c0a8d6b7dd0": "Apgūstiet pusvadītāju pamatus ar ilustrētām nodarbībām, interaktīvām procesu shēmām, terminu vārdnīcu, testiem un mācību piezīmēm.",
+  "7e3d6742eb7f": "Semiconductors Illustrated<br>Privātuma politika",
+  "6a1724afea00": "MileButler: Miles &amp; Card Plans",
+  "114e5b0d6f59": "Salīdziniet lidojumu biļešu iegādi par lojalitātes jūdzēm, jūdžu pirkšanas izmaksas un kredītkaršu punktu pārskaitījumus. Novērtējiet biļetei nepieciešamos punktus, tēriņus un laiku.",
+  "15d5e46669f1": "MileButler: Miles &amp; Card Plans<br>Privātuma politika",
+  "cc98337718f6": "Future Major Guide",
+  "58ea6de8a5c2": "Izpētiet Taivānas un ASV universitātes un studiju programmas, izmantojot interešu testus, salīdzinājumus blakus, saglabātās izvēles un piezīmes.",
+  "d8279b90fd1c": "Future Major Guide<br>Privātuma politika",
+  "e326ef4687a8": "Izglītība · Uzziņas",
+  "4ea6c6d4eca5": "Ceļojumi · Finanses"
 }

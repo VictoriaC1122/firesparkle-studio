@@ -61,7 +61,6 @@
   "2945df36c2f9": "Dettagli dell’app",
   "6eebe159fceb": "Registra sogni, stati d’animo e tag, e consulta le voci precedenti nel calendario.",
   "01bed311e7d0": "Tutte le app",
-  "cb0e13633b9d": "App: <b data-count>10</b>",
   "a52ace420f21": "Tutte",
   "a10a36fa1098": "Cerca app",
   "3b7ea51793e9": "Cancella ricerca",
@@ -175,5 +174,18 @@
   "3954df759bac": "Questo avviso esistente riguarda solo la pagina informativa dell’app, non tutti i trattamenti dei dati nell’app. Scrivici per dettagli sui dati, sulla conservazione o sulla cancellazione.",
   "b4b24b6dcd08": "Apple gestisce gli acquisti in-app e gli abbonamenti. Gestiscili in Impostazioni di iPhone → il tuo nome → Abbonamenti. I rimborsi si richiedono tramite <a href=\"https://reportaproblem.apple.com/\">Segnala un problema di Apple</a> e sono esaminati da Apple. Eliminare un’app non annulla l’abbonamento.",
   "0dad92348ba0": "Visita il <a href=\"/privacy/\">centro privacy</a> e scegli l’app o il gioco. Per domande su accesso, rettifica o cancellazione dei dati, scrivici indicando il nome del prodotto.",
-  "4b97fbdad297": "Scrivici con il nome dell’app e cosa è successo. Archiviazione e backup variano secondo l’app; alcuni dati restano solo sul dispositivo, dove non possiamo accedervi né ripristinarli. Controlla le opzioni di backup prima di eliminare o reinstallare l’app."
+  "4b97fbdad297": "Scrivici con il nome dell’app e cosa è successo. Archiviazione e backup variano secondo l’app; alcuni dati restano solo sul dispositivo, dove non possiamo accedervi né ripristinarli. Controlla le opzioni di backup prima di eliminare o reinstallare l’app.",
+  "17a827b4093a": "App: <b data-count>{count}</b>",
+  "b4eceddba2dc": "Raccolto il 21 ottobre 2026",
+  "bc5ff3ef4ec9": "Semiconductors Illustrated",
+  "2c0a8d6b7dd0": "Impara le basi dei semiconduttori con lezioni illustrate, diagrammi di processo interattivi, un glossario, quiz e appunti di studio.",
+  "7e3d6742eb7f": "Semiconductors Illustrated<br>Informativa sulla privacy",
+  "6a1724afea00": "MileButler: Miles &amp; Card Plans",
+  "114e5b0d6f59": "Confronta voli premio, costi di acquisto delle miglia e trasferimenti di punti delle carte di credito. Stima punti, spesa e tempo necessari per un biglietto.",
+  "15d5e46669f1": "MileButler: Miles &amp; Card Plans<br>Informativa sulla privacy",
+  "cc98337718f6": "Future Major Guide",
+  "58ea6de8a5c2": "Esplora università e corsi di laurea a Taiwan e negli Stati Uniti con quiz sugli interessi, confronti affiancati, opzioni salvate e note.",
+  "d8279b90fd1c": "Future Major Guide<br>Informativa sulla privacy",
+  "e326ef4687a8": "Istruzione · Consultazione",
+  "4ea6c6d4eca5": "Viaggi · Finanza"
 }

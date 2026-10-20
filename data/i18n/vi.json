@@ -61,7 +61,6 @@
   "2945df36c2f9": "Chi tiết ứng dụng",
   "6eebe159fceb": "Ghi lại giấc mơ, tâm trạng và thẻ; xem các mục cũ trên lịch.",
   "01bed311e7d0": "Tất cả ứng dụng",
-  "cb0e13633b9d": "Ứng dụng: <b data-count>10</b>",
   "a52ace420f21": "Tất cả",
   "a10a36fa1098": "Tìm ứng dụng",
   "3b7ea51793e9": "Xóa tìm kiếm",
@@ -175,5 +174,18 @@
   "3954df759bac": "Thông báo hiện có chỉ áp dụng cho trang giới thiệu ứng dụng, không bao gồm mọi hoạt động xử lý dữ liệu bên trong ứng dụng. Gửi email để biết chi tiết về dữ liệu, lưu trữ hoặc xóa dữ liệu.",
   "b4b24b6dcd08": "Apple xử lý giao dịch mua trong ứng dụng và gói đăng ký. Quản lý tại Cài đặt iPhone → tên của bạn → Đăng ký. Yêu cầu hoàn tiền được gửi qua <a href=\"https://reportaproblem.apple.com/\">Báo cáo sự cố của Apple</a> và do Apple xét duyệt. Xóa ứng dụng không hủy gói đăng ký.",
   "0dad92348ba0": "Vào <a href=\"/privacy/\">trung tâm quyền riêng tư</a> và chọn ứng dụng hoặc trò chơi. Với câu hỏi về truy cập, sửa hoặc xóa dữ liệu, hãy gửi email kèm tên sản phẩm.",
-  "4b97fbdad297": "Gửi email cho biết tên ứng dụng và sự cố. Cách lưu trữ, sao lưu khác nhau giữa các ứng dụng; một số dữ liệu chỉ có trên thiết bị của bạn nên chúng tôi không thể truy cập hay khôi phục. Kiểm tra tùy chọn sao lưu trước khi xóa hoặc cài lại."
+  "4b97fbdad297": "Gửi email cho biết tên ứng dụng và sự cố. Cách lưu trữ, sao lưu khác nhau giữa các ứng dụng; một số dữ liệu chỉ có trên thiết bị của bạn nên chúng tôi không thể truy cập hay khôi phục. Kiểm tra tùy chọn sao lưu trước khi xóa hoặc cài lại.",
+  "17a827b4093a": "Ứng dụng: <b data-count>{count}</b>",
+  "b4eceddba2dc": "Tổng hợp ngày 21 tháng 10 năm 2026",
+  "bc5ff3ef4ec9": "Semiconductors Illustrated",
+  "2c0a8d6b7dd0": "Học kiến thức cơ bản về bán dẫn qua bài học minh họa, sơ đồ quy trình tương tác, bảng thuật ngữ, câu đố và ghi chú học tập.",
+  "7e3d6742eb7f": "Semiconductors Illustrated<br>Chính sách quyền riêng tư",
+  "6a1724afea00": "MileButler: Miles &amp; Card Plans",
+  "114e5b0d6f59": "So sánh đổi vé thưởng, chi phí mua dặm bay và chuyển điểm thẻ tín dụng. Ước tính số điểm, khoản chi và thời gian cần để đổi vé.",
+  "15d5e46669f1": "MileButler: Miles &amp; Card Plans<br>Chính sách quyền riêng tư",
+  "cc98337718f6": "Future Major Guide",
+  "58ea6de8a5c2": "Khám phá đại học và ngành học tại Đài Loan, Hoa Kỳ qua câu đố sở thích, so sánh song song, lựa chọn đã lưu và ghi chú.",
+  "d8279b90fd1c": "Future Major Guide<br>Chính sách quyền riêng tư",
+  "e326ef4687a8": "Giáo dục · Tham khảo",
+  "4ea6c6d4eca5": "Du lịch · Tài chính"
 }

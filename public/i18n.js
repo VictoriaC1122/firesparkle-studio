@@ -35,7 +35,7 @@
   const translate=scope=>{
     for(const el of scope.querySelectorAll('[data-i18n]')){
       const value=messages[el.dataset.i18n];
-      if(value!==undefined)el.innerHTML=value;
+      if(value!==undefined)el.innerHTML=el.hasAttribute('data-i18n-count')?value.replaceAll('{count}',el.dataset.i18nCount):value;
     }
     for(const [attr,key,selector] of [['placeholder','i18nPlaceholder','[data-i18n-placeholder]'],['aria-label','i18nLabel','[data-i18n-label]'],['alt','i18nAlt','[data-i18n-alt]']]){
       for(const el of scope.querySelectorAll(selector)){
