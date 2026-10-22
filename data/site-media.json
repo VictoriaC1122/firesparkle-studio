@@ -34,29 +34,65 @@
       "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/79/8c/67/798c6702-3885-b4eb-29a0-dee026a0c2dd/Simulator_Screenshot_-_iPad_Pro_13-inch__U0028M4_U0029_-_2026-03-30_at_23.41.15.png/900x900bb.jpg"
     ],
     "appName": "賴瑞的調酒研究室",
-    "retrievedOn": "2026-10-19"
+    "retrievedOn": "2026-10-19",
+    "imageDimensions": [
+      {
+        "width": 900,
+        "height": 675
+      },
+      {
+        "width": 900,
+        "height": 675
+      }
+    ]
   },
   "dream-journal": {
     "images": [
-      "/assets/screenshots/dream-journal/01.jpg"
+      "/assets/screenshots/dream-journal/iphone-01.jpg",
+      "/assets/screenshots/dream-journal/iphone-02.jpg"
     ],
     "source": "https://apps.apple.com/tw/app/id6761692228",
     "imageSources": [
-      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/68/2d/e7/682de7e1-76b5-4194-4334-87191661c6b2/01-capture.png/900x900bb.jpg"
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c3/1f/f4/c31ff4ba-67d3-9def-be4e-0a9f80322dc4/01-capture.png/600x1300bb-60.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/49/a5/b5/49a5b5b2-ca01-09a9-4f75-11974fe8bd64/02-insight.png/600x1300bb-60.jpg"
     ],
     "appName": "把夢遺留下來",
-    "retrievedOn": "2026-10-19"
+    "retrievedOn": "2026-10-23",
+    "device": "iPhone",
+    "imageDimensions": [
+      {
+        "width": 598,
+        "height": 1300
+      },
+      {
+        "width": 598,
+        "height": 1300
+      }
+    ]
   },
   "coffee-chat": {
     "images": [
-      "/assets/screenshots/coffee-chat/01.jpg"
+      "/assets/screenshots/coffee-chat/01.jpg",
+      "/assets/screenshots/coffee-chat/iphone-02.jpg"
     ],
     "source": "https://apps.apple.com/tw/app/id6820863958",
     "imageSources": [
-      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d8/f2/95/d8f295c2-3dde-afa6-feb3-5242ad6f3e13/01-home.png/900x900bb.jpg"
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d8/f2/95/d8f295c2-3dde-afa6-feb3-5242ad6f3e13/01-home.png/900x900bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a7/3d/8f/a73d8f34-553f-62d6-4ab9-a6594c66a51f/02-questions.png/600x1334bb-60.jpg"
     ],
     "appName": "Coffee Chat 筆記",
-    "retrievedOn": "2026-10-19"
+    "retrievedOn": "2026-10-23",
+    "device": "iPhone",
+    "imageDimensions": [
+      {
+        "width": 414,
+        "height": 900
+      },
+      {
+        "width": 600,
+        "height": 1304
+      }
+    ]
   },
   "semiconductors-illustrated": {
     "images": [
@@ -69,7 +105,17 @@
       "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5d/bc/70/5dbc70bc-e2dd-7748-e440-e9f80f46727f/02-Lesson.png/600x1300bb.jpg"
     ],
     "appName": "圖解半導體",
-    "retrievedOn": "2026-10-21"
+    "retrievedOn": "2026-10-21",
+    "imageDimensions": [
+      {
+        "width": 598,
+        "height": 1300
+      },
+      {
+        "width": 598,
+        "height": 1300
+      }
+    ]
   },
   "milebutler": {
     "images": [
@@ -82,7 +128,17 @@
       "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f9/64/34/f964340e-9d0e-ba28-f989-bb36dc5ea223/02-detail.png/600x1300bb.jpg"
     ],
     "appName": "哩程管家：信用卡換機票試算",
-    "retrievedOn": "2026-10-21"
+    "retrievedOn": "2026-10-21",
+    "imageDimensions": [
+      {
+        "width": 598,
+        "height": 1300
+      },
+      {
+        "width": 598,
+        "height": 1300
+      }
+    ]
   },
   "future-major-guide": {
     "images": [
@@ -95,6 +151,212 @@
       "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f9/90/28/f99028fe-c411-0fa0-5778-f89f1149ee77/iphone63-zh-Hant-02-06-checklist-school-v2.png/600x1300bb.jpg"
     ],
     "appName": "我決定自己的未來-大學選系指南",
-    "retrievedOn": "2026-10-21"
+    "retrievedOn": "2026-10-21",
+    "imageDimensions": [
+      {
+        "width": 598,
+        "height": 1300
+      },
+      {
+        "width": 598,
+        "height": 1300
+      }
+    ]
+  },
+  "design-it": {
+    "images": [
+      "/assets/screenshots/design-it/01.jpg",
+      "/assets/screenshots/design-it/02.jpg"
+    ],
+    "source": "https://apps.apple.com/tw/app/id6818286088",
+    "imageSources": [
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c7/d1/4d/c7d14dd9-0576-63ca-6ba4-6f57cb6d6ea8/iPhone-zh-Hant-01-room.png/600x1300bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/05/88/70/05887008-8e7e-5ea9-eb1e-f41a0a73593c/iPhone-zh-Hant-02-materials.png/600x1300bb.jpg"
+    ],
+    "appName": "自己來設計",
+    "retrievedOn": "2026-10-23",
+    "device": "iPhone",
+    "imageDimensions": [
+      {
+        "width": 598,
+        "height": 1300
+      },
+      {
+        "width": 598,
+        "height": 1300
+      }
+    ],
+    "presentation": "Official App Store promotional screenshots containing app interfaces; complete original composition, not cropped."
+  },
+  "time-manager": {
+    "images": [
+      "/assets/screenshots/time-manager/01.jpg",
+      "/assets/screenshots/time-manager/02.jpg"
+    ],
+    "source": "https://apps.apple.com/tw/app/id6754973616",
+    "imageSources": [
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a8/1d/f8/a81df83d-18de-ad25-898c-8051b0fb5cca/00-smart-continuum-01-idea.jpg/600x1300bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e2/26/c1/e226c148-e70e-fe31-c0e3-0fcf468df201/00-smart-continuum-02-breakdown.jpg/600x1300bb.jpg"
+    ],
+    "appName": "AI時間管理",
+    "retrievedOn": "2026-10-23",
+    "device": "iPhone",
+    "imageDimensions": [
+      {
+        "width": 598,
+        "height": 1300
+      },
+      {
+        "width": 598,
+        "height": 1300
+      }
+    ],
+    "presentation": "Official App Store promotional screenshots containing app interfaces; complete original composition, not cropped."
+  },
+  "vitamins": {
+    "images": [
+      "/assets/screenshots/vitamins/01.jpg",
+      "/assets/screenshots/vitamins/02.jpg"
+    ],
+    "source": "https://apps.apple.com/tw/app/id6761441866",
+    "imageSources": [
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2e/63/48/2e6348e2-37a9-a406-004c-519bc4aa7fca/01-dashboard.jpg/600x1300bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3f/9e/73/3f9e7303-c272-76a5-f30f-88ace3225049/02-history.jpg/600x1300bb.jpg"
+    ],
+    "appName": "你今天維他命了嗎",
+    "retrievedOn": "2026-10-23",
+    "device": "iPhone",
+    "imageDimensions": [
+      {
+        "width": 598,
+        "height": 1300
+      },
+      {
+        "width": 598,
+        "height": 1300
+      }
+    ],
+    "presentation": "Official App Store promotional screenshots containing app interfaces; complete original composition, not cropped."
+  },
+  "easy-draw": {
+    "images": [
+      "/assets/screenshots/easy-draw/01.jpg",
+      "/assets/screenshots/easy-draw/02.jpg"
+    ],
+    "source": "https://apps.apple.com/tw/app/id6755403297",
+    "imageSources": [
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/95/3a/46/953a463f-d56a-4e48-ec11-f534f54e5fab/01-instagram-giveaway.png/600x1300bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ca/26/f0/ca26f0b0-99e8-3b36-f63c-0675a1048855/02-ocr-review.png/600x1300bb.jpg"
+    ],
+    "appName": "輕鬆抽獎",
+    "retrievedOn": "2026-10-23",
+    "device": "iPhone",
+    "imageDimensions": [
+      {
+        "width": 598,
+        "height": 1300
+      },
+      {
+        "width": 598,
+        "height": 1300
+      }
+    ],
+    "presentation": "Official App Store promotional screenshots containing app interfaces; complete original composition, not cropped."
+  },
+  "compound-calculator": {
+    "images": [
+      "/assets/screenshots/compound-calculator/iphone-01.jpg",
+      "/assets/screenshots/compound-calculator/iphone-02.jpg"
+    ],
+    "source": "https://apps.apple.com/tw/app/id6756014104",
+    "imageSources": [
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/67/16/3d/67163d1e-d206-3ff7-ad42-02b2935ccc1d/01-compound-growth-songti-coffee.jpg/600x1300bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/05/e4/f4/05e4f421-44ff-2e1d-d83c-5759f198afdf/02-pro-workspace-songti-coffee.jpg/600x1300bb.jpg"
+    ],
+    "appName": "複利計算器-財務自由實現工具",
+    "retrievedOn": "2026-10-23",
+    "device": "iPhone",
+    "imageDimensions": [
+      {
+        "width": 598,
+        "height": 1300
+      },
+      {
+        "width": 598,
+        "height": 1300
+      }
+    ]
+  },
+  "stock-simulator": {
+    "images": [
+      "/assets/screenshots/stock-simulator/iphone-01.jpg",
+      "/assets/screenshots/stock-simulator/iphone-02.jpg"
+    ],
+    "source": "https://apps.apple.com/tw/app/id6815299678",
+    "imageSources": [
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a8/df/0b/a8df0b40-aee1-5bbb-97e7-145588446ab4/01-paper-trading.png/600x1300bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/58/ef/eb/58efeb5c-1a73-e058-9b53-6e4be2f5b0cf/iphone-simulation.png/600x1300bb.jpg"
+    ],
+    "appName": "股神養成：台美股模擬交易",
+    "retrievedOn": "2026-10-23",
+    "device": "iPhone",
+    "imageDimensions": [
+      {
+        "width": 598,
+        "height": 1300
+      },
+      {
+        "width": 598,
+        "height": 1300
+      }
+    ]
+  },
+  "crypto-dictionary": {
+    "images": [
+      "/assets/screenshots/crypto-dictionary/iphone-01.jpg",
+      "/assets/screenshots/crypto-dictionary/iphone-02.jpg"
+    ],
+    "source": "https://apps.apple.com/tw/app/id6761411130",
+    "imageSources": [
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a8/65/0d/a8650def-ac2f-a69c-2edc-2c53c7f1966f/iphone-69-01-learning-paths.png/600x1300bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e0/34/ce/e034ce5a-c757-b804-258b-7ebb2bc7f4fc/iphone-69-02-guided-courses.png/600x1300bb.jpg"
+    ],
+    "appName": "幣圈神器-加密貨幣&區塊鏈學習字典",
+    "retrievedOn": "2026-10-23",
+    "device": "iPhone",
+    "imageDimensions": [
+      {
+        "width": 598,
+        "height": 1300
+      },
+      {
+        "width": 598,
+        "height": 1300
+      }
+    ]
+  },
+  "pr-diary": {
+    "images": [
+      "/assets/screenshots/pr-diary/iphone-01.jpg",
+      "/assets/screenshots/pr-diary/iphone-02.jpg"
+    ],
+    "source": "https://apps.apple.com/tw/app/id6761694656",
+    "imageSources": [
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a4/52/2d/a4522d80-ce89-4a4e-2158-368e96f29c81/promo-01-home.png/600x1300bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9a/e4/99/9ae499d6-2be3-a0dd-9e37-92e716029a7c/promo-05-broker.png/600x1300bb.jpg"
+    ],
+    "appName": "公關日記",
+    "retrievedOn": "2026-10-23",
+    "device": "iPhone",
+    "imageDimensions": [
+      {
+        "width": 598,
+        "height": 1300
+      },
+      {
+        "width": 598,
+        "height": 1300
+      }
+    ]
   }
 }

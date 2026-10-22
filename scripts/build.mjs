@@ -25,6 +25,8 @@ const catalog = JSON.parse(await read('data/apple-catalog.json'));
 const policies = JSON.parse(await read('data/privacy-sources/manifest.json')).apps;
 const media = JSON.parse(await read('data/site-media.json'));
 const guideVersion = createHash('sha256').update(await read('public/guides.css')).digest('hex').slice(0, 12);
+const showcaseVersion = createHash('sha256').update(await read('public/showcase.css')).digest('hex').slice(0, 12);
+const showcaseStyle = `<link rel="stylesheet" href="/showcase.css?v=${showcaseVersion}">`;
 const guideEntries = { games: JSON.parse(await read('data/guides/games.json')), apps: JSON.parse(await read('data/guides/apps.json')) };
 const { email } = site;
 // 部署在子路徑時（GitHub 專案頁 /repo-name/）設定 BASE_PATH；自訂網域留空。
@@ -75,16 +77,16 @@ const arrow = (c = '→') => `<svg class="arrow" viewBox="0 0 24 24" fill="none"
 const home = renderHome({ apps, media, L, T, messageId, esc, appURL, catL, mailto, email, arrow, brandAsset }).replace('asagiri-hanabi.svg"', `asagiri-hanabi.svg?v=${homeVersion}"`);
 
 const orgLd = `<script type="application/ld+json">${JSON.stringify({ '@context': 'https://schema.org', '@type': 'Organization', name: 'FireSparkle.Studio', alternateName: '花火工作室', url: siteURL, logo: `${siteURL}${brandAsset('/assets/brand/icon-512.png')}`, email, slogan: site.tagline })}</script>`;
-await save('index.html', page({ path: '/', title: '花火工作室 FireSparkle.Studio｜App 與遊戲工作室', description: `花火工作室 FireSparkle.Studio：獨立 App 與遊戲工作室。提供 iOS App、文字戀愛與養成遊戲的介紹、下載連結與使用支援，目前正在準備 Steam 上架。`, content: home, bodyClass: 'is-home', extraHead: `<link rel="stylesheet" href="/home.css?v=${homeVersion}">${orgLd}` }));
+await save('index.html', page({ path: '/', title: '花火工作室 FireSparkle.Studio｜App 與遊戲工作室', description: `花火工作室 FireSparkle.Studio：獨立 App 與遊戲工作室。提供 iOS App、文字戀愛與養成遊戲的介紹、下載連結與使用支援，目前正在準備 Steam 上架。`, content: home, bodyClass: 'is-home', extraHead: `${showcaseStyle}<link rel="stylesheet" href="/home.css?v=${homeVersion}">${orgLd}` }));
 
 // Standalone guides share the existing navigation and all 50 site languages.
 for (const kind of ['games', 'apps']) {
   const copy = guideCopy[kind];
   await save(`guides/${kind}/index.html`, page({
     path: `/guides/${kind}/`, title: `${copy.zh}｜花火工作室 FireSparkle.Studio`, description: copy.introZh,
-    content: renderGuide({ kind, apps, entries: guideEntries[kind], media, L, T, messageId, esc, appURL, arrow }),
+    content: renderGuide({ kind, apps, entries: guideEntries[kind], media, L, T, messageId, esc, appURL, arrow, catL }),
     bodyClass: 'is-guide', navGroup: kind === 'games' ? 'game-guides' : 'app-guides',
-    extraHead: `<link rel="stylesheet" href="/guides.css?v=${guideVersion}">${kind === 'games' ? `<link rel="stylesheet" href="/gallery.css?v=${assetVersion}"><script src="/gallery.js?v=${assetVersion}" defer></script>` : ''}`,
+    extraHead: `${showcaseStyle}<link rel="stylesheet" href="/guides.css?v=${guideVersion}"><link rel="stylesheet" href="/gallery.css?v=${assetVersion}"><script src="/gallery.js?v=${assetVersion}" defer></script>`,
   }));
 }
 

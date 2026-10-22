@@ -1,3 +1,4 @@
+import { renderScreens } from './showcase.mjs';
 // 首頁：App 與遊戲工作室。Steam 資訊僅呈現已確認的準備狀態。
 export function renderHome({ apps, media, L, T, messageId, esc, appURL, catL, mailto, email, arrow, brandAsset }) {
   const bySlug = Object.fromEntries(apps.map(a => [a.slug, a]));
@@ -15,6 +16,7 @@ export function renderHome({ apps, media, L, T, messageId, esc, appURL, catL, ma
     </article>`;
   };
   const list = apps.map((a,i) => `<article class="app-card reveal" data-category="${a.category}" data-search="${esc([a.nameZhHant,a.short,a.en,a.shortDescription,a.enDesc,a.category].join(' ').toLowerCase())}">
+    <div class="card-preview" aria-hidden="true">${renderScreens({app:a,media,esc,messageId,interactive:false})}</div>
     <span class="card-no" aria-hidden="true">${String(i+1).padStart(2,'0')}</span><img class="card-icon" src="${a.iconPath}" alt="" loading="lazy" width="64" height="64"><div class="card-content"><p class="card-category">${catL(a.category)}</p><h3><a class="card-main-link" href="${appURL(a)}">${L(esc(a.short),esc(a.en))}</a></h3><p class="card-desc">${L(esc(a.shortDescription),esc(a.enDesc))}</p></div><span class="card-arrow" aria-hidden="true">${arrow('↗')}</span></article>`).join('');
   return `
 <section class="dawn-hero" aria-labelledby="hero-title">

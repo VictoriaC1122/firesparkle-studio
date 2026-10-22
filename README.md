@@ -12,8 +12,9 @@ GitHub Pages 已設定自訂網域並強制 HTTPS；HTTP 與 `www.firesparkle.co
 - 2026-10-21 新增「圖解半導體」、「哩程管家：信用卡換機票試算」及「我決定自己的未來-大學選系指南」，放在 作品列表前方；資料、圖示及截圖經 Apple 官方頁與工作室原作品集核對。
 - 遊戲精選包含已於 App Store 上架的「賴瑞的調酒研究室」與「完美養豬」；Steam 區塊只呈現上架準備狀態，尚未指定作品、商店連結或發售日期
 - 15 款作品各自保留介紹頁 `/app/<slug>/` 與隱私頁 `/app/<slug>/privacy/`；有官方截圖的作品頁另提供畫面展示
-- 遊戲玩法 `/guides/games/`：兩款遊戲各四個入門步驟，搭配完整遊戲截圖與放大檢視
-- App 使用指南 `/guides/apps/`：13 款非遊戲 App 各三個使用步驟；作品目錄、產品頁與下載連結可互相導覽
+- 遊戲玩法 `/guides/games/`：兩款遊戲各兩張介面圖、簡介與可展開的四步教學
+- App 使用指南 `/guides/apps/`：13 款 App 各兩張介面圖、用途簡介、下載入口與可展開的三步教學；手機可滑動圖片或點開放大
+- 首頁 15 款作品均有介面雙圖與簡介；15 個作品介紹頁也都有兩張官方畫面。全站共用 30 張原圖，保留官方宣傳文字及完整比例，不重繪介面
 - 隱私中心 `/privacy/`、支援與常見問題 `/support/`、網站隱私說明 `/website-privacy/`、404、sitemap
 
 ## 修改
@@ -21,6 +22,7 @@ GitHub Pages 已設定自訂網域並強制 HTTPS；HTTP 與 `www.firesparkle.co
 - `src/content.mjs`：網址、信箱、作品排序、分類、英文名稱與英文簡介
 - `src/home.mjs`：首頁版型與中英文案，包含遊戲精選、Steam 進度、全部作品、工作室與聯絡區塊
 - `src/guides.mjs`、`public/guides.css`：兩個指南頁的目錄、教學步驟、遊戲畫面與響應式閱讀版型
+- `src/showcase.mjs`、`public/showcase.css`：共用介面雙圖展示，驗證每款至少兩圖及尺寸；以原比例呈現，支援小螢幕橫向滑動與減少動畫偏好
 - `data/guides/{games,apps}.json`：15 款作品共 47 組中英步驟與核對來源；`ui-translations.json` 與 `translations/<locale>.json` 保存其餘 48 種語言的介面及步驟翻譯
 - `src/guide-i18n.mjs`：驗證指南翻譯完整性並併入共用語言檔；不接受缺句或以 HTML 寫入的翻譯
 - `scripts/build.mjs`：共用頁首／頁尾、作品與政策等內頁的版型及中英文案；載入首頁模組並產生全站頁面

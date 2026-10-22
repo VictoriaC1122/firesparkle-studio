@@ -291,3 +291,29 @@ html[lang=en] .dawn-copy h1 em { font-size: .9em; letter-spacing: -.035em; margi
   .dawn-actions .button { padding-inline: 17px; gap: 14px; font-size: 13px; }
   .dawn-actions .text-link { gap: 12px; font-size: 13px; }
 }
+
+/* The complete catalogue pairs every description with its actual interface. */
+.is-home .app-grid { row-gap:24px; }
+.is-home .app-card { padding-top:24px; }
+.is-home .card-preview { grid-column:1/-1; margin-bottom:10px; min-width:0; }
+.is-home .card-preview .screen-stage { padding:34px 24px; }
+.is-home .card-preview .screen-image img { max-height:360px; }
+.is-home .card-preview .screen-stage-wide .screen-pair { flex-direction:row; }
+.is-home .card-preview .screen-stage-wide .screen-image { max-width:calc(50% - 11px); }
+.is-home .card-preview .screen-stage-wide { min-height:428px; display:grid; align-items:center; }
+.is-home .card-preview .screen-stage-wide .screen-image:first-child { transform:translateY(-12px); }
+.is-home .card-preview .screen-stage-wide .screen-image:last-child { transform:translateY(12px); }
+@media(max-width:960px) {
+ .is-home .card-preview .screen-stage { padding:30px 18px; }
+ .is-home .card-preview .screen-image img { max-height:300px; }
+ .is-home .card-preview .screen-stage-wide { min-height:360px; }
+}
+@media(max-width:680px) {
+ .is-home .app-grid { row-gap:16px; }
+ .is-home .card-preview { margin-bottom:8px; }
+ .is-home .card-preview .screen-pair { justify-content:center; overflow:visible; gap:12px; padding:0; }
+ .is-home .card-preview .screen-image { flex:initial; max-width:calc(50% - 6px); }
+ .is-home .card-preview .screen-image img { width:auto; }
+ .is-home .card-preview .screen-stage-wide { min-height:260px; }
+ .is-home .card-preview .screen-stage-wide .screen-image { max-width:calc(50% - 6px); }
+}
