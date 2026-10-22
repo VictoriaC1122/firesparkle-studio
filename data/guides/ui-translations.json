@@ -1,0 +1,290 @@
+{
+  "zh-Hans": {
+    "Game guides": "游戏玩法",
+    "App guides": "App 使用指南",
+    "Learn the basics of our two games, from your first choices to revisiting your progress.": "从首次选择到回顾进度，了解我们两款游戏的基础玩法。",
+    "Choose an app and follow three steps to get started.": "选择一款 App，跟着三个步骤开始使用。"
+  },
+  "ja": {
+    "Game guides": "ゲームの遊び方",
+    "App guides": "アプリガイド",
+    "Learn the basics of our two games, from your first choices to revisiting your progress.": "最初の選択から進行状況の振り返りまで、2つのゲームの基本的な遊び方を紹介します。",
+    "Choose an app and follow three steps to get started.": "アプリを選んで、3つのステップで使い始めましょう。"
+  },
+  "ko": {
+    "Game guides": "게임 가이드",
+    "App guides": "앱 사용 가이드",
+    "Learn the basics of our two games, from your first choices to revisiting your progress.": "첫 선택부터 진행 상황을 돌아보는 방법까지, 두 게임의 기본 플레이 방법을 알아보세요.",
+    "Choose an app and follow three steps to get started.": "앱을 선택하고 세 단계에 따라 시작해 보세요."
+  },
+  "es": {
+    "Game guides": "Guías de juegos",
+    "App guides": "Guías de apps",
+    "Learn the basics of our two games, from your first choices to revisiting your progress.": "Aprende lo básico de nuestros dos juegos, desde tus primeras decisiones hasta revisar tu progreso.",
+    "Choose an app and follow three steps to get started.": "Elige una app y sigue tres pasos para empezar."
+  },
+  "fr": {
+    "Game guides": "Guides des jeux",
+    "App guides": "Guides des applications",
+    "Learn the basics of our two games, from your first choices to revisiting your progress.": "Découvrez les bases de nos deux jeux, de vos premiers choix au bilan de votre progression.",
+    "Choose an app and follow three steps to get started.": "Choisissez une application et suivez trois étapes pour commencer."
+  },
+  "de": {
+    "Game guides": "Spielanleitungen",
+    "App guides": "App-Anleitungen",
+    "Learn the basics of our two games, from your first choices to revisiting your progress.": "Lerne die Grundlagen unserer beiden Spiele kennen – von deinen ersten Entscheidungen bis zum Rückblick auf deinen Fortschritt.",
+    "Choose an app and follow three steps to get started.": "Wähle eine App und lege in drei Schritten los."
+  },
+  "pt": {
+    "Game guides": "Guias dos jogos",
+    "App guides": "Guias dos aplicativos",
+    "Learn the basics of our two games, from your first choices to revisiting your progress.": "Aprenda o básico dos nossos dois jogos, desde as primeiras escolhas até a revisão do seu progresso.",
+    "Choose an app and follow three steps to get started.": "Escolha um aplicativo e siga três passos para começar."
+  },
+  "it": {
+    "Game guides": "Guide ai giochi",
+    "App guides": "Guide alle app",
+    "Learn the basics of our two games, from your first choices to revisiting your progress.": "Scopri le basi dei nostri due giochi, dalle prime scelte alla verifica dei tuoi progressi.",
+    "Choose an app and follow three steps to get started.": "Scegli un’app e segui tre passaggi per iniziare."
+  },
+  "ru": {
+    "Game guides": "Руководства по играм",
+    "App guides": "Руководства по приложениям",
+    "Learn the basics of our two games, from your first choices to revisiting your progress.": "Освойте основы наших двух игр: от первых решений до просмотра своего прогресса.",
+    "Choose an app and follow three steps to get started.": "Выберите приложение и выполните три шага, чтобы начать."
+  },
+  "ar": {
+    "Game guides": "أدلة الألعاب",
+    "App guides": "أدلة التطبيقات",
+    "Learn the basics of our two games, from your first choices to revisiting your progress.": "تعرّف على أساسيات لعبتينا، من خياراتك الأولى إلى مراجعة تقدّمك.",
+    "Choose an app and follow three steps to get started.": "اختر تطبيقًا واتبع ثلاث خطوات للبدء."
+  },
+  "hi": {
+    "Game guides": "गेम गाइड",
+    "App guides": "ऐप गाइड",
+    "Learn the basics of our two games, from your first choices to revisiting your progress.": "पहले विकल्प चुनने से लेकर अपनी प्रगति की समीक्षा तक, हमारे दोनों गेम की बुनियादी बातें जानें।",
+    "Choose an app and follow three steps to get started.": "कोई ऐप चुनें और तीन चरणों में शुरुआत करें।"
+  },
+  "bn": {
+    "Game guides": "গেমের নির্দেশিকা",
+    "App guides": "অ্যাপের নির্দেশিকা",
+    "Learn the basics of our two games, from your first choices to revisiting your progress.": "প্রথম সিদ্ধান্ত নেওয়া থেকে নিজের অগ্রগতি ফিরে দেখা পর্যন্ত, আমাদের দুটি গেমের মূল বিষয়গুলো জানুন।",
+    "Choose an app and follow three steps to get started.": "একটি অ্যাপ বেছে নিন এবং তিনটি ধাপে শুরু করুন।"
+  },
+  "ur": {
+    "Game guides": "گیم گائیڈز",
+    "App guides": "ایپ گائیڈز",
+    "Learn the basics of our two games, from your first choices to revisiting your progress.": "ابتدائی انتخاب سے لے کر اپنی پیش رفت کا جائزہ لینے تک، ہماری دونوں گیمز کی بنیادی باتیں جانیں۔",
+    "Choose an app and follow three steps to get started.": "کوئی ایپ منتخب کریں اور تین مراحل میں آغاز کریں۔"
+  },
+  "id": {
+    "Game guides": "Panduan game",
+    "App guides": "Panduan aplikasi",
+    "Learn the basics of our two games, from your first choices to revisiting your progress.": "Pelajari dasar-dasar kedua game kami, dari pilihan pertama hingga meninjau progresmu.",
+    "Choose an app and follow three steps to get started.": "Pilih aplikasi dan ikuti tiga langkah untuk mulai menggunakannya."
+  },
+  "ms": {
+    "Game guides": "Panduan permainan",
+    "App guides": "Panduan aplikasi",
+    "Learn the basics of our two games, from your first choices to revisiting your progress.": "Pelajari asas kedua-dua permainan kami, daripada pilihan pertama hingga meninjau kemajuan anda.",
+    "Choose an app and follow three steps to get started.": "Pilih aplikasi dan ikuti tiga langkah untuk bermula."
+  },
+  "vi": {
+    "Game guides": "Hướng dẫn chơi game",
+    "App guides": "Hướng dẫn dùng ứng dụng",
+    "Learn the basics of our two games, from your first choices to revisiting your progress.": "Tìm hiểu cách chơi cơ bản của hai trò chơi, từ những lựa chọn đầu tiên đến việc xem lại tiến trình.",
+    "Choose an app and follow three steps to get started.": "Chọn một ứng dụng và làm theo ba bước để bắt đầu."
+  },
+  "th": {
+    "Game guides": "คู่มือเกม",
+    "App guides": "คู่มือแอป",
+    "Learn the basics of our two games, from your first choices to revisiting your progress.": "เรียนรู้พื้นฐานของเกมทั้งสองของเรา ตั้งแต่การตัดสินใจครั้งแรกไปจนถึงการย้อนดูความคืบหน้า",
+    "Choose an app and follow three steps to get started.": "เลือกแอปแล้วทำตามสามขั้นตอนเพื่อเริ่มใช้งาน"
+  },
+  "fil": {
+    "Game guides": "Mga gabay sa laro",
+    "App guides": "Mga gabay sa app",
+    "Learn the basics of our two games, from your first choices to revisiting your progress.": "Alamin ang mga pangunahing kaalaman sa aming dalawang laro, mula sa mga unang pagpili hanggang sa pagbabalik-tanaw sa iyong pag-usad.",
+    "Choose an app and follow three steps to get started.": "Pumili ng app at sundin ang tatlong hakbang para makapagsimula."
+  },
+  "tr": {
+    "Game guides": "Oyun rehberleri",
+    "App guides": "Uygulama rehberleri",
+    "Learn the basics of our two games, from your first choices to revisiting your progress.": "İlk seçimlerinizden ilerlemenizi gözden geçirmeye kadar iki oyunumuzun temellerini öğrenin.",
+    "Choose an app and follow three steps to get started.": "Bir uygulama seçin ve başlamak için üç adımı izleyin."
+  },
+  "fa": {
+    "Game guides": "راهنمای بازی‌ها",
+    "App guides": "راهنمای برنامه‌ها",
+    "Learn the basics of our two games, from your first choices to revisiting your progress.": "با اصول دو بازی ما آشنا شوید؛ از اولین انتخاب‌ها تا مرور پیشرفت خود.",
+    "Choose an app and follow three steps to get started.": "یک برنامه انتخاب کنید و با دنبال کردن سه مرحله شروع کنید."
+  },
+  "uk": {
+    "Game guides": "Посібники з ігор",
+    "App guides": "Посібники із застосунків",
+    "Learn the basics of our two games, from your first choices to revisiting your progress.": "Опануйте основи наших двох ігор: від перших рішень до перегляду свого прогресу.",
+    "Choose an app and follow three steps to get started.": "Виберіть застосунок і виконайте три кроки, щоб почати."
+  },
+  "pl": {
+    "Game guides": "Poradniki do gier",
+    "App guides": "Poradniki do aplikacji",
+    "Learn the basics of our two games, from your first choices to revisiting your progress.": "Poznaj podstawy naszych dwóch gier — od pierwszych wyborów po przegląd swoich postępów.",
+    "Choose an app and follow three steps to get started.": "Wybierz aplikację i wykonaj trzy kroki, aby zacząć."
+  },
+  "nl": {
+    "Game guides": "Spelgidsen",
+    "App guides": "App-handleidingen",
+    "Learn the basics of our two games, from your first choices to revisiting your progress.": "Leer de basis van onze twee spellen, van je eerste keuzes tot het terugkijken op je voortgang.",
+    "Choose an app and follow three steps to get started.": "Kies een app en ga in drie stappen aan de slag."
+  },
+  "ro": {
+    "Game guides": "Ghiduri pentru jocuri",
+    "App guides": "Ghiduri pentru aplicații",
+    "Learn the basics of our two games, from your first choices to revisiting your progress.": "Învață elementele de bază ale celor două jocuri, de la primele alegeri până la trecerea în revistă a progresului tău.",
+    "Choose an app and follow three steps to get started.": "Alege o aplicație și urmează trei pași pentru a începe."
+  },
+  "cs": {
+    "Game guides": "Průvodci hrami",
+    "App guides": "Návody k aplikacím",
+    "Learn the basics of our two games, from your first choices to revisiting your progress.": "Poznejte základy našich dvou her, od prvních rozhodnutí až po ohlédnutí za svým postupem.",
+    "Choose an app and follow three steps to get started.": "Vyberte si aplikaci a začněte ve třech krocích."
+  },
+  "el": {
+    "Game guides": "Οδηγοί παιχνιδιών",
+    "App guides": "Οδηγοί εφαρμογών",
+    "Learn the basics of our two games, from your first choices to revisiting your progress.": "Μάθετε τα βασικά των δύο παιχνιδιών μας, από τις πρώτες επιλογές έως την ανασκόπηση της προόδου σας.",
+    "Choose an app and follow three steps to get started.": "Επιλέξτε μια εφαρμογή και ακολουθήστε τρία βήματα για να ξεκινήσετε."
+  },
+  "hu": {
+    "Game guides": "Játékútmutatók",
+    "App guides": "Alkalmazásútmutatók",
+    "Learn the basics of our two games, from your first choices to revisiting your progress.": "Ismerd meg két játékunk alapjait, az első döntésektől a haladásod áttekintéséig.",
+    "Choose an app and follow three steps to get started.": "Válassz egy alkalmazást, és kezdd el három lépésben."
+  },
+  "sv": {
+    "Game guides": "Spelguider",
+    "App guides": "Appguider",
+    "Learn the basics of our two games, from your first choices to revisiting your progress.": "Lär dig grunderna i våra två spel, från dina första val till att se tillbaka på dina framsteg.",
+    "Choose an app and follow three steps to get started.": "Välj en app och kom igång i tre steg."
+  },
+  "da": {
+    "Game guides": "Spilguider",
+    "App guides": "Appguider",
+    "Learn the basics of our two games, from your first choices to revisiting your progress.": "Lær det grundlæggende i vores to spil, fra dine første valg til et tilbageblik på dine fremskridt.",
+    "Choose an app and follow three steps to get started.": "Vælg en app, og kom i gang i tre trin."
+  },
+  "fi": {
+    "Game guides": "Pelioppaat",
+    "App guides": "Sovellusoppaat",
+    "Learn the basics of our two games, from your first choices to revisiting your progress.": "Opi kahden pelimme perusteet ensimmäisistä valinnoista oman edistymisesi tarkasteluun.",
+    "Choose an app and follow three steps to get started.": "Valitse sovellus ja aloita kolmessa vaiheessa."
+  },
+  "no": {
+    "Game guides": "Spillguider",
+    "App guides": "Appguider",
+    "Learn the basics of our two games, from your first choices to revisiting your progress.": "Lær det grunnleggende i de to spillene våre, fra dine første valg til et tilbakeblikk på fremgangen din.",
+    "Choose an app and follow three steps to get started.": "Velg en app og kom i gang i tre trinn."
+  },
+  "he": {
+    "Game guides": "מדריכי משחקים",
+    "App guides": "מדריכי אפליקציות",
+    "Learn the basics of our two games, from your first choices to revisiting your progress.": "הכירו את יסודות שני המשחקים שלנו, מהבחירות הראשונות ועד לסקירת ההתקדמות שלכם.",
+    "Choose an app and follow three steps to get started.": "בחרו אפליקציה והתחילו בשלושה צעדים."
+  },
+  "ta": {
+    "Game guides": "விளையாட்டு வழிகாட்டிகள்",
+    "App guides": "செயலி வழிகாட்டிகள்",
+    "Learn the basics of our two games, from your first choices to revisiting your progress.": "முதல் தேர்வுகள் முதல் உங்கள் முன்னேற்றத்தைத் திரும்பிப் பார்ப்பது வரை, எங்கள் இரண்டு விளையாட்டுகளின் அடிப்படைகளைக் கற்றுக்கொள்ளுங்கள்.",
+    "Choose an app and follow three steps to get started.": "ஒரு செயலியைத் தேர்ந்தெடுத்து, மூன்று படிகளில் தொடங்குங்கள்."
+  },
+  "te": {
+    "Game guides": "ఆటల మార్గదర్శకాలు",
+    "App guides": "యాప్ మార్గదర్శకాలు",
+    "Learn the basics of our two games, from your first choices to revisiting your progress.": "తొలి ఎంపికల నుంచి మీ పురోగతిని సమీక్షించడం వరకు, మా రెండు ఆటల ప్రాథమిక అంశాలను తెలుసుకోండి.",
+    "Choose an app and follow three steps to get started.": "ఒక యాప్‌ను ఎంచుకుని, మూడు దశల్లో ప్రారంభించండి."
+  },
+  "mr": {
+    "Game guides": "गेम मार्गदर्शिका",
+    "App guides": "अॅप मार्गदर्शिका",
+    "Learn the basics of our two games, from your first choices to revisiting your progress.": "पहिल्या निवडींपासून तुमच्या प्रगतीचा आढावा घेण्यापर्यंत, आमच्या दोन्ही गेमच्या मूलभूत गोष्टी जाणून घ्या.",
+    "Choose an app and follow three steps to get started.": "एक अॅप निवडा आणि तीन टप्प्यांत सुरुवात करा."
+  },
+  "gu": {
+    "Game guides": "ગેમ માર્ગદર્શિકા",
+    "App guides": "ઍપ માર્ગદર્શિકા",
+    "Learn the basics of our two games, from your first choices to revisiting your progress.": "શરૂઆતની પસંદગીઓથી લઈને તમારી પ્રગતિની સમીક્ષા સુધી, અમારી બંને ગેમની મૂળભૂત બાબતો જાણો.",
+    "Choose an app and follow three steps to get started.": "એક ઍપ પસંદ કરો અને ત્રણ પગલાંમાં શરૂઆત કરો."
+  },
+  "pa": {
+    "Game guides": "ਗੇਮ ਗਾਈਡਾਂ",
+    "App guides": "ਐਪ ਗਾਈਡਾਂ",
+    "Learn the basics of our two games, from your first choices to revisiting your progress.": "ਪਹਿਲੀਆਂ ਚੋਣਾਂ ਤੋਂ ਆਪਣੀ ਤਰੱਕੀ ਦੀ ਸਮੀਖਿਆ ਤੱਕ, ਸਾਡੀਆਂ ਦੋਵੇਂ ਗੇਮਾਂ ਦੀਆਂ ਬੁਨਿਆਦੀ ਗੱਲਾਂ ਜਾਣੋ।",
+    "Choose an app and follow three steps to get started.": "ਇੱਕ ਐਪ ਚੁਣੋ ਅਤੇ ਤਿੰਨ ਪੜਾਵਾਂ ਵਿੱਚ ਸ਼ੁਰੂ ਕਰੋ।"
+  },
+  "sw": {
+    "Game guides": "Miongozo ya michezo",
+    "App guides": "Miongozo ya programu",
+    "Learn the basics of our two games, from your first choices to revisiting your progress.": "Jifunze misingi ya michezo yetu miwili, kuanzia chaguo zako za kwanza hadi kutazama tena maendeleo yako.",
+    "Choose an app and follow three steps to get started.": "Chagua programu na ufuate hatua tatu ili kuanza."
+  },
+  "af": {
+    "Game guides": "Spelgidse",
+    "App guides": "Appgidse",
+    "Learn the basics of our two games, from your first choices to revisiting your progress.": "Leer die basiese beginsels van ons twee speletjies, van jou eerste keuses tot ’n terugblik op jou vordering.",
+    "Choose an app and follow three steps to get started.": "Kies ’n app en volg drie stappe om te begin."
+  },
+  "bg": {
+    "Game guides": "Ръководства за игри",
+    "App guides": "Ръководства за приложения",
+    "Learn the basics of our two games, from your first choices to revisiting your progress.": "Научете основите на двете ни игри — от първите избори до прегледа на напредъка си.",
+    "Choose an app and follow three steps to get started.": "Изберете приложение и следвайте три стъпки, за да започнете."
+  },
+  "hr": {
+    "Game guides": "Vodiči za igre",
+    "App guides": "Vodiči za aplikacije",
+    "Learn the basics of our two games, from your first choices to revisiting your progress.": "Upoznajte osnove naših dviju igara, od prvih odluka do pregleda svojeg napretka.",
+    "Choose an app and follow three steps to get started.": "Odaberite aplikaciju i započnite u tri koraka."
+  },
+  "sr": {
+    "Game guides": "Водичи за игре",
+    "App guides": "Водичи за апликације",
+    "Learn the basics of our two games, from your first choices to revisiting your progress.": "Упознајте основе наше две игре, од првих избора до прегледа свог напретка.",
+    "Choose an app and follow three steps to get started.": "Изаберите апликацију и почните у три корака."
+  },
+  "sk": {
+    "Game guides": "Sprievodcovia hrami",
+    "App guides": "Návody k aplikáciám",
+    "Learn the basics of our two games, from your first choices to revisiting your progress.": "Spoznajte základy našich dvoch hier, od prvých rozhodnutí až po ohliadnutie za svojím postupom.",
+    "Choose an app and follow three steps to get started.": "Vyberte si aplikáciu a začnite v troch krokoch."
+  },
+  "sl": {
+    "Game guides": "Vodniki za igre",
+    "App guides": "Vodniki za aplikacije",
+    "Learn the basics of our two games, from your first choices to revisiting your progress.": "Spoznajte osnove naših dveh iger, od prvih odločitev do pregleda svojega napredka.",
+    "Choose an app and follow three steps to get started.": "Izberite aplikacijo in začnite v treh korakih."
+  },
+  "lt": {
+    "Game guides": "Žaidimų vadovai",
+    "App guides": "Programėlių vadovai",
+    "Learn the basics of our two games, from your first choices to revisiting your progress.": "Susipažinkite su mūsų dviejų žaidimų pagrindais – nuo pirmųjų pasirinkimų iki savo pažangos apžvalgos.",
+    "Choose an app and follow three steps to get started.": "Pasirinkite programėlę ir pradėkite atlikę tris veiksmus."
+  },
+  "lv": {
+    "Game guides": "Spēļu ceļveži",
+    "App guides": "Lietotņu ceļveži",
+    "Learn the basics of our two games, from your first choices to revisiting your progress.": "Apgūstiet abu mūsu spēļu pamatus — no pirmajām izvēlēm līdz sava progresa pārskatam.",
+    "Choose an app and follow three steps to get started.": "Izvēlieties lietotni un sāciet to lietot trīs soļos."
+  },
+  "et": {
+    "Game guides": "Mängujuhendid",
+    "App guides": "Rakenduste juhendid",
+    "Learn the basics of our two games, from your first choices to revisiting your progress.": "Õpi selgeks meie kahe mängu põhitõed, esimestest valikutest oma edenemise ülevaatamiseni.",
+    "Choose an app and follow three steps to get started.": "Vali rakendus ja alusta kolme sammuga."
+  },
+  "ca": {
+    "Game guides": "Guies dels jocs",
+    "App guides": "Guies de les apps",
+    "Learn the basics of our two games, from your first choices to revisiting your progress.": "Aprèn les bases dels nostres dos jocs, des de les primeres decisions fins a revisar el teu progrés.",
+    "Choose an app and follow three steps to get started.": "Tria una app i segueix tres passos per començar."
+  }
+}

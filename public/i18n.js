@@ -62,7 +62,7 @@
     setPolicyVersion(current.startsWith('zh')?'zh-Hant':'en');
     const title=document.querySelector('main h1')?.innerText?.trim().replace(/\s+/g,' ');
     if(title){document.title=title+' | FireSparkle.Studio';document.querySelector('meta[property="og:title"]')?.setAttribute('content',document.title);}
-    const lead=document.querySelector('.dawn-lead,.app-intro-copy .lead,body:not([data-nav]) .page-heading .lead');
+    const lead=document.querySelector('.dawn-lead,.app-intro-copy .lead,.guide-heading .lead,body:not([data-nav]) .page-heading .lead');
     if(lead&&!document.querySelector('.policy-body')){
       for(const el of document.querySelectorAll('meta[name="description"],meta[property="og:description"]'))el.content=lead.textContent.trim();
     }
@@ -115,5 +115,10 @@
   let stored;try{stored=resolveLocale(localStorage.getItem('fs-lang'));}catch{}
   const detected=(navigator.languages||[navigator.language]).map(resolveLocale).find(code=>supported.has(code));
   const initial=param||stored||detected||'en';
-  changeLanguage(initial,{updateURL:!!param});
+  changeLanguage(initial,{updateURL:!!param}).then(loaded=>{
+    // Translation changes article heights after the browser's initial hash jump.
+    if(!loaded||!document.body.classList.contains('is-guide')||!location.hash)return;
+    let target;try{target=document.getElementById(decodeURIComponent(location.hash.slice(1)));}catch{return;}
+    if(target?.classList.contains('guide-entry'))requestAnimationFrame(()=>requestAnimationFrame(()=>target.scrollIntoView({behavior:'instant',block:'start'})));
+  });
 })();

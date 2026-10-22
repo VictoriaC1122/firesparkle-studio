@@ -1,0 +1,58 @@
+{
+  "larry-cocktail": {
+    "steps": [
+      {
+        "zh": "從新遊戲開始閱讀，依畫面提示推進對話，認識酒吧裡的角色與故事背景。",
+        "en": "Start a new game and follow the on-screen prompts to read the dialogue and meet the characters in the bar."
+      },
+      {
+        "zh": "遇到對話選項時，選擇你想說的回應，觀察角色反應與接下來的故事分支。",
+        "en": "When dialogue choices appear, choose your response and see how the characters and story react."
+      },
+      {
+        "zh": "想保留目前路線時先存檔，用不同存檔格記錄想再探索的段落，方便之後接續。",
+        "en": "Save your progress in separate slots to keep track of passages you want to revisit and continue later."
+      },
+      {
+        "zh": "想探索另一條路線時，讀取先前的存檔，再嘗試不同回應，回看故事與結局。",
+        "en": "Load an earlier save and try different responses to explore other story branches and endings."
+      }
+    ],
+    "sources": [
+      "https://apps.apple.com/tw/app/id6761377948",
+      "data/apple-catalog.json: slug larry-cocktail",
+      "data/apple-lookup-raw.json: trackId 6761377948, description (dialogue choices, story branches, local save slots)",
+      "Local project Larry's Bar Game: Larry's Bar Game/GameContent/index.html (startGameFromHome, loadGameFromHome, openSaveFilePanel)",
+      "Local project 賴瑞的調酒研究室: README.md (local save/load behaviour)"
+    ]
+  },
+  "perfect-pig": {
+    "steps": [
+      {
+        "zh": "依初次開啟的設定選擇語言與外觀，再替小豬取名，進入豬舍開始日常陪伴。",
+        "en": "Choose your language and appearance during first-time setup, name your piglet, and enter its home to begin caring for it."
+      },
+      {
+        "zh": "在豬舍選擇餵食、散步或聊天，觀察小豬的狀態與反應，累積親密並培養個性。",
+        "en": "Choose feeding, walking, or chatting in the pig house, and watch your piglet’s condition and reactions as you build your bond and shape its personality."
+      },
+      {
+        "zh": "透過打工賺取金幣補充食物，持續照顧並留意成長進度，成熟後再決定是否結算。",
+        "en": "Earn coins through jobs to buy food, keep caring for your piglet, and decide when to finish the generation once it matures."
+      },
+      {
+        "zh": "結算後到收藏中查看解鎖的卡牌與故事，重讀已獲得的結局，再嘗試不同養成方式。",
+        "en": "After finishing a generation, view the cards and stories you unlocked in your collection, reread the endings, and try a different approach to raising your next piglet."
+      }
+    ],
+    "sources": [
+      "https://apps.apple.com/tw/app/id6811446129",
+      "data/apple-catalog.json: slug perfect-pig",
+      "data/apple-lookup-raw.json: trackId 6811446129, description and version 1.1.0 releaseNotes",
+      "Local project 完美養豬: 完美養豬/OnboardingView.swift (language, appearance, pig profile setup)",
+      "Local project 完美養豬: 完美養豬/GameTutorialView.swift (care, jobs, optional settlement after maturity, retained collection)",
+      "Local project 完美養豬: marketing/app-store/verified-2026-09-24/iphone/A213BDF0-5188-44A8-AB74-6ADF11529440.png (iPhone pig house and care controls)",
+      "Local project 完美養豬: marketing/app-store/verified-2026-09-24/iphone-layout-fixed/417D182D-2D02-45E8-A110-6F39DD2256B8.png (iPhone collection)"
+    ]
+  }
+}

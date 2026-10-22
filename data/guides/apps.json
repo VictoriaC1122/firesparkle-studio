@@ -1,0 +1,251 @@
+{
+  "future-major-guide": {
+    "steps": [
+      {
+        "zh": "先從台灣選系瀏覽院校與科系，查看各校的學習地圖，並確認資料標示的年度與來源。",
+        "en": "Start with Taiwan's university and major listings, explore the study maps, and check each entry's year and source."
+      },
+      {
+        "zh": "完成十題興趣測驗，閱讀各項推薦的理由，再查看相關科系的課程與學習方向。",
+        "en": "Complete the ten-question interest quiz, read the reasons behind each suggestion, and explore the related majors and courses."
+      },
+      {
+        "zh": "收藏想比較的台灣校系，選擇最多四筆並排查看，再用決策筆記記下差異與疑問。",
+        "en": "Save Taiwan university and major options, compare up to four side by side, and record differences and questions in your decision notes."
+      }
+    ],
+    "sources": [
+      "https://apps.apple.com/tw/app/id6824004640"
+    ]
+  },
+  "milebutler": {
+    "steps": [
+      {
+        "zh": "設定出發地、目的地、艙等與日期，先查看這趟行程在各計畫中的哩程需求。",
+        "en": "Enter your departure point, destination, cabin and dates to see the miles required by each programme."
+      },
+      {
+        "zh": "輸入已有哩程與銀行點數，查看扣除後的差額，再試算累積所需的消費與時間。",
+        "en": "Enter your existing miles and bank points, then estimate the spending and time needed to cover the remaining balance."
+      },
+      {
+        "zh": "選擇二至四個方案並排比較，逐項查看買哩成本、信用卡轉點條件與機票票規。",
+        "en": "Compare two to four options side by side, checking mile-purchase costs, card-point transfer conditions and award-ticket rules."
+      }
+    ],
+    "sources": [
+      "https://apps.apple.com/tw/app/id6823824323"
+    ]
+  },
+  "semiconductors-illustrated": {
+    "steps": [
+      {
+        "zh": "從已開放的入門課選一課，先讀概念與案例，再對照課內出現的相關術語。",
+        "en": "Choose an available introductory lesson, read its concepts and examples, then look up the related terms."
+      },
+      {
+        "zh": "打開互動圖解，依序查看光阻、曝光、顯影與蝕刻，觀察製程各步驟的變化。",
+        "en": "Open the interactive diagrams and follow the photoresist, exposure, development and etching steps to see how the process changes."
+      },
+      {
+        "zh": "完成課後三題測驗，回看答錯的題目，並用課程筆記記下還需要查的觀念。",
+        "en": "Take the three-question lesson quiz, revisit any incorrect answers, and note the concepts you want to look up."
+      }
+    ],
+    "sources": [
+      "https://apps.apple.com/tw/app/id6822188590"
+    ]
+  },
+  "dream-journal": {
+    "steps": [
+      {
+        "zh": "醒來先用文字記下一段夢境，保留記得的畫面、對話或感受，不必急著寫完整。",
+        "en": "Write down a fragment of your dream when you wake, capturing an image, conversation or feeling without needing a complete account."
+      },
+      {
+        "zh": "為這則夢境補上情緒、清晰度與標籤，之後便能透過搜尋找回相關的紀錄。",
+        "en": "Add a mood, clarity rating and tags to your dream so you can find related entries later."
+      },
+      {
+        "zh": "用夢境月曆選擇日期回看內容；需要補充時，編輯原紀錄，更新記得的細節。",
+        "en": "Use the dream calendar to revisit an entry by date, then edit it to add any details you remember."
+      }
+    ],
+    "sources": [
+      "https://apps.apple.com/tw/app/id6761692228"
+    ]
+  },
+  "coffee-chat": {
+    "steps": [
+      {
+        "zh": "先新增一位聯絡人，填入姓名，再補上公司、職務與認識方式，作為會面準備。",
+        "en": "Add a person by name, then fill in their company, role and how you met to prepare for a conversation."
+      },
+      {
+        "zh": "建立一場會面，選擇參與者並記下想問的問題，會後再補上對話重點與自己的心得。",
+        "en": "Create a Coffee Chat, select its participants and add your questions, then return afterwards to record notes and reflections."
+      },
+      {
+        "zh": "建立一項後續待辦，連結到聯絡人或對話並設定日期，需要時再開啟本機提醒。",
+        "en": "Create a follow-up linked to a person or conversation, set a date, and enable a local reminder if you need one."
+      }
+    ],
+    "sources": [
+      "https://apps.apple.com/tw/app/id6820863958",
+      "https://victoriac1122.github.io/coffee-chat-note-support/"
+    ]
+  },
+  "design-it": {
+    "steps": [
+      {
+        "zh": "從客廳、臥室或工作區模板開始，切換牆面、地板與家具，先比較空間配置。",
+        "en": "Start with a living room, bedroom or workspace template, then try different walls, floors and furniture."
+      },
+      {
+        "zh": "加入一張房間照片，手動調整四角範圍來試色，再比較原圖與調整後的效果。",
+        "en": "Add a room photo, adjust the four-corner selection to try a colour, and compare the result with the original."
+      },
+      {
+        "zh": "收藏想比較的材料，填入數量、運送與安裝費，整理好預算後再分享明細。",
+        "en": "Save materials to compare, enter quantities, delivery and installation costs, then share the budget breakdown."
+      }
+    ],
+    "sources": [
+      "https://apps.apple.com/tw/app/id6818286088"
+    ]
+  },
+  "time-manager": {
+    "steps": [
+      {
+        "zh": "新增一項待辦，填上預估時間、優先順序與截止日期，需要時再歸入專案。",
+        "en": "Add a task with an estimated duration, priority and deadline, and assign it to a project if needed."
+      },
+      {
+        "zh": "查看今天的時間軸與可用時間，手動安排任務，或先預覽自動排列後再套用。",
+        "en": "Check today's timeline and available time, then schedule tasks manually or preview the automatic arrangement before applying it."
+      },
+      {
+        "zh": "從任務啟動專注計時，結束時選擇完成、延長或休息，再到回顧查看實際時間。",
+        "en": "Start a focus timer from a task, choose to finish, extend or rest when it ends, and review the time recorded."
+      }
+    ],
+    "sources": [
+      "https://apps.apple.com/tw/app/id6754973616"
+    ]
+  },
+  "vitamins": {
+    "steps": [
+      {
+        "zh": "把正在使用的補充品加入每日方案，依自己的作息安排提醒，方便之後逐項記錄。",
+        "en": "Add the supplements you already take to a daily plan and set reminders around your routine."
+      },
+      {
+        "zh": "服用後在程式內標記已服用；收到提醒時，也可直接從通知標記或延後提醒。",
+        "en": "Mark a supplement as taken in the app, or use its notification to record it or postpone the reminder."
+      },
+      {
+        "zh": "打開月曆查看每天的服用紀錄，再查看每週與每月完成率，核對是否有漏記。",
+        "en": "Check your daily records in the calendar, then review weekly and monthly completion rates for any missing entries."
+      }
+    ],
+    "sources": [
+      "https://apps.apple.com/tw/app/id6761441866"
+    ]
+  },
+  "easy-draw": {
+    "steps": [
+      {
+        "zh": "準備參加者名單並貼入程式，確認每個名字都已列入，再開始整理這次抽獎。",
+        "en": "Paste your participant list into the app and check that everyone you want to include is listed."
+      },
+      {
+        "zh": "查看程式自動整理、去除重複後的名單，核對參加者姓名是否有遺漏或誤植。",
+        "en": "Review the automatically cleaned list after duplicates are removed, checking for missing names or spelling errors."
+      },
+      {
+        "zh": "確認名單後開始抽獎，查看畫面選出的名字，再向參加者公布這一輪的結果。",
+        "en": "Start the draw once the list is ready, check the selected name, and announce the result to the participants."
+      }
+    ],
+    "sources": [
+      "https://apps.apple.com/tw/app/id6755403297"
+    ]
+  },
+  "compound-calculator": {
+    "steps": [
+      {
+        "zh": "選擇複利試算，填入金額、投入方式與期間，先查看這組條件下的計算結果。",
+        "en": "Open the compound-growth calculator, enter the amount, contribution pattern and period, and view the result for those assumptions."
+      },
+      {
+        "zh": "加入通膨假設，對照名義與實質報酬，查看相同條件下購買力換算的差異。",
+        "en": "Add an inflation assumption and compare nominal and real returns to see the difference in purchasing power."
+      },
+      {
+        "zh": "改變定期投入或試算期間後重新計算，對照前一次結果，觀察假設如何影響數字。",
+        "en": "Change the regular contribution or calculation period, calculate again, and compare with the previous result."
+      }
+    ],
+    "sources": [
+      "https://apps.apple.com/tw/app/id6756014104",
+      "https://victoriac1122.github.io/compound-calculator-support-site/index.html"
+    ]
+  },
+  "stock-simulator": {
+    "steps": [
+      {
+        "zh": "先選擇台股或美股練習，搜尋台股或從美股內建清單選取標的，確認虛擬資金。",
+        "en": "Choose Taiwan or US paper trading, search Taiwan securities or select from the built-in US list, and check your virtual funds."
+      },
+      {
+        "zh": "台股可依盤後收盤價或自訂價格模擬下單；美股自行輸入價格，並留下交易理由。",
+        "en": "Place a simulated Taiwan order at the displayed closing price or a custom price, or enter your own price for a US order, and note your reason."
+      },
+      {
+        "zh": "完成模擬後查看持倉與交易紀錄，對照當時留下的理由，回顧這筆練習的結果。",
+        "en": "Review your holdings and transaction history after the simulation, and compare the outcome with the reason you recorded."
+      }
+    ],
+    "sources": [
+      "https://apps.apple.com/tw/app/id6815299678"
+    ]
+  },
+  "crypto-dictionary": {
+    "steps": [
+      {
+        "zh": "從區塊鏈基礎路線選一篇課程，先讀概念，再用全域搜尋查詢不熟悉的術語。",
+        "en": "Choose a lesson from the blockchain basics path, read the concepts, and use the global search to look up unfamiliar terms."
+      },
+      {
+        "zh": "閱讀錢包、私鑰與助記詞等資產安全主題，將想重看的內容加入收藏，方便查找。",
+        "en": "Read the asset-security topics on wallets, private keys and seed phrases, and save material you want to revisit."
+      },
+      {
+        "zh": "打開每日複習，回顧依收藏與最近閱讀整理的內容，需要時切換繁體中文或英文。",
+        "en": "Open the daily review to revisit material from your saved items and recent reading, switching between Traditional Chinese and English as needed."
+      }
+    ],
+    "sources": [
+      "https://apps.apple.com/tw/app/id6761411130"
+    ]
+  },
+  "pr-diary": {
+    "steps": [
+      {
+        "zh": "在首頁選擇符合自己身份的日記入口，先用快速記錄寫下今天的工作或互動重點。",
+        "en": "Choose your role's diary from the home screen and use a quick entry to record today's work or interactions."
+      },
+      {
+        "zh": "依所選身份補上相關欄位，例如花費、收入或排班，整理完成後保存這篇日記。",
+        "en": "Fill in the fields for your role, such as spending, income or shifts, then save the diary entry."
+      },
+      {
+        "zh": "用日期篩選、搜尋或月曆找回日記，進入詳情查看，並補寫或修改先前的內容。",
+        "en": "Find an entry using date filters, search or the calendar, then open its details to add to or edit it."
+      }
+    ],
+    "sources": [
+      "https://apps.apple.com/tw/app/id6761694656"
+    ]
+  }
+}

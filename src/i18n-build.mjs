@@ -2,9 +2,13 @@ import { createHash } from 'node:crypto';
 import { readFile, writeFile, mkdir, readdir, unlink } from 'node:fs/promises';
 import { resolve } from 'node:path';
 import { locales } from './locales.mjs';
+import { prepareGuideMessages } from './guide-i18n.mjs';
 export const messageId = en => createHash('sha256').update(en).digest('hex').slice(0,12);
 export async function prepareI18n(root) {
-  const source = JSON.parse(await readFile(resolve(root,'data/i18n/source.json'),'utf8'));
+  const baseSource = JSON.parse(await readFile(resolve(root,'data/i18n/source.json'),'utf8'));
+  const guides = await prepareGuideMessages(root, messageId);
+  const source = [...baseSource, ...guides.source];
+  const baseIds = new Set(baseSource.map(row=>row.id));
   const byId = new Map(source.map(row=>[row.id,row]));
   if(byId.size!==source.length||source.some(row=>typeof row.en!=='string'||typeof row.zh!=='string'||row.id!==messageId(row.en)))throw new Error('Source messages must have unique, matching IDs');
   const escape = value=>String(value).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -22,8 +26,9 @@ export async function prepareI18n(root) {
     else if(locale.code==='en') messages=source.map(row=>row.en);
     else {
       try {
-        const catalog=JSON.parse(await readFile(resolve(root,`data/i18n/${locale.code}.json`),'utf8'));
-        if(!catalog||Array.isArray(catalog)||Object.keys(catalog).length!==source.length||Object.keys(catalog).some(key=>!byId.has(key)))throw new Error(`${locale.code}: translation IDs must match the source catalog`);
+        const baseCatalog=JSON.parse(await readFile(resolve(root,`data/i18n/${locale.code}.json`),'utf8'));
+        if(!baseCatalog||Array.isArray(baseCatalog)||Object.keys(baseCatalog).length!==baseSource.length||Object.keys(baseCatalog).some(key=>!baseIds.has(key)))throw new Error(`${locale.code}: translation IDs must match the source catalog`);
+        const catalog={...baseCatalog,...await guides.dictionary(locale.code)};
         messages=source.map(row=>catalog[row.id]);
       }
       catch(error){ if(process.env.PREVIEW_PARTIAL_LOCALES==='1' && error.code==='ENOENT') continue; throw error; }

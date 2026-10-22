@@ -61,13 +61,10 @@ html[data-script] .dawn-actions .button, html[data-script] .dawn-actions .text-l
 html[data-script] .dawn-caption > span { min-width: 0; overflow-wrap: anywhere; }
 html[data-script] .card-content h3, html[data-script] .feature-copy h3 { overflow-wrap: anywhere; }
 html[data-script] h1, html[data-script] h2 { overflow-wrap: anywhere; }
+html[data-script] .site-nav a { overflow-wrap: anywhere; min-width: 0; }
 @media(max-width:1100px) {
-  html[data-script] .header-inner { gap: 18px; }
-  html[data-script] .site-nav { gap: 16px; font-size: 13px; }
-}
-@media(max-width:900px) {
   html[data-script] .header-inner { display: grid; grid-template-columns: 1fr auto; min-height: 0; gap: 4px 16px; padding-top: 12px; padding-bottom: 4px; }
-  html[data-script] .site-nav { grid-column: 1/-1; grid-row: 2; width: 100%; margin: 0; justify-content: space-between; flex-wrap: wrap; gap: 0 16px; }
+  html[data-script] .site-nav { grid-column: 1/-1; grid-row: 2; width: 100%; margin: 0; justify-content: space-between; flex-wrap: wrap; gap: 0 16px; font-size: 13px; }
   html[data-script] .lang-toggle { grid-column: 2; grid-row: 1; }
   html[data-script] { scroll-padding-top: 154px; }
 }
@@ -78,7 +75,7 @@ html[data-script] h1, html[data-script] h2 { overflow-wrap: anywhere; }
   .language-native { font-size: 15px; }
   html[data-script=latin] .dawn-copy h1 { font-size: clamp(40px,10.5vw,58px); line-height: 1.12; }
   html[data-script]:not([data-script=latin]):not([data-script=cjk]) .dawn-copy h1 { font-size: clamp(32px,8.6vw,48px); }
-  html[data-script] .site-nav { font-size: 12px; gap: 0 12px; }
+  html[data-script] .site-nav { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); font-size: 12px; gap: 0 12px; }
   html[data-script] .header-inner { gap: 4px 10px; }
   .lang-toggle { min-width: 67px; }
   html[dir=rtl] .dawn-count { margin-inline-start: 0; }
@@ -90,3 +87,4 @@ html[data-script] h1, html[data-script] h2 { overflow-wrap: anywhere; }
   html[data-script] .brand-mark { width: 29px; }
   html[data-script] .brand { gap: 7px; }
 }
+html[data-script] { scroll-padding-top: calc(var(--site-header-height, 138px) + 16px); }

@@ -1,5 +1,13 @@
 // 花火工作室 FireSparkle.Studio — 作品搜尋與目前位置
 document.documentElement.classList.add('js');
+// Keep anchored guide entries below the header when translated navigation wraps.
+const offsetHeader = document.querySelector('.site-header');
+if (offsetHeader) {
+  const setHeaderOffset = () => document.documentElement.style.setProperty('--site-header-height', `${offsetHeader.offsetHeight}px`);
+  setHeaderOffset();
+  if ('ResizeObserver' in window) new ResizeObserver(setHeaderOffset).observe(offsetHeader);
+  else window.addEventListener('resize', setHeaderOffset);
+}
 // ---------- 作品篩選與搜尋（首頁） ----------
 const bar = document.querySelector('.filter-bar');
 const searchBox = document.querySelector('.search');
@@ -56,11 +64,12 @@ if (bar && input) {
 const navLinks = [...document.querySelectorAll('.site-nav a')];
 let currentNavGroup;
 const markCurrent = (group) => {
+  if (group === 'games') group = 'apps';
   if (group === currentNavGroup) return;
   currentNavGroup = group;
   for (const link of navLinks) {
     const url = new URL(link.href, window.location.href);
-    const key = url.hash.slice(1) || (/\/support\/?$/.test(url.pathname) ? 'support' : '');
+    const key = link.dataset.navKey || url.hash.slice(1) || (/\/support\/?$/.test(url.pathname) ? 'support' : '');
     if (group && key === group) link.setAttribute('aria-current', 'location');
     else link.removeAttribute('aria-current');
   }
