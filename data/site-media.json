@@ -1,16 +1,27 @@
 {
   "perfect-pig": {
     "images": [
-      "/assets/screenshots/perfect-pig/01.jpg",
-      "/assets/screenshots/perfect-pig/02.jpg"
+      "/assets/screenshots/perfect-pig/iphone-01.jpg",
+      "/assets/screenshots/perfect-pig/iphone-02.jpg"
     ],
     "source": "https://apps.apple.com/tw/app/id6811446129",
     "imageSources": [
-      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9a/81/09/9a81098d-6a6c-b813-43aa-a612cded9f4f/FD84031A-5AA0-460F-B76D-221EAAA501A1.png/900x900bb.jpg",
-      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/08/96/76/08967604-c686-7296-4a82-48f9d33161af/29E01E80-CA01-4A55-BDAC-00DC10E61719.png/900x900bb.jpg"
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3d/a7/4c/3da74cef-a449-7efc-06f0-2703bad983eb/A213BDF0-5188-44A8-AB74-6ADF11529440.png/900x900bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/62/57/cb/6257cb89-7a83-4818-d1d7-73cb5396ff5c/BA647D12-2EB7-47F7-A958-93CDBF60E815.png/900x900bb.jpg"
     ],
     "appName": "完美養豬",
-    "retrievedOn": "2026-10-19"
+    "retrievedOn": "2026-10-23",
+    "device": "iPhone",
+    "imageDimensions": [
+      {
+        "width": 415,
+        "height": 900
+      },
+      {
+        "width": 415,
+        "height": 900
+      }
+    ]
   },
   "larry-cocktail": {
     "images": [

@@ -116,8 +116,8 @@ html[lang=en] .dawn-copy h1 em { font-size: .9em; letter-spacing: -.035em; margi
 .is-home .game-grid { gap: 48px; }
 .is-home .game-image { border-radius: 1px; border-color: var(--line); }
 .is-home .game-amber .game-image { background: #ede2d0; padding: 22px; }
-.is-home .game-rose .game-image { background: #f0e7db; padding: 22px 30px; }
-.is-home .game-rose .game-image img { filter: none; }
+.is-home .game-rose .game-image { display: flex; align-items: center; justify-content: center; gap: 18px; background: #f0e7db; padding: 22px 30px; }
+.is-home .game-rose .game-image img { width: auto; max-width: calc(50% - 9px); height: 100%; object-fit: contain; filter: none; }
 .is-home .image-note { background: #fcf8efed; color: var(--ink-soft); border: 0; border-radius: 0; }
 .is-home .game-info { padding-top: 25px; }
 .is-home .game-info h3 { font-size: 25px; letter-spacing: .04em; }

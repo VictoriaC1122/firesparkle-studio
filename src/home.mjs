@@ -6,8 +6,9 @@ export function renderHome({ apps, media, L, T, messageId, esc, appURL, catL, ma
   const image = (slug, n = 0) => media[slug].images[n];
   const game = (slug, index, tone, zhType, enType, zhDesc, enDesc, shot = 0) => {
     const a = bySlug[slug];
+    const screenshots = slug === 'perfect-pig' ? media[slug].images.slice(0, 2) : [image(slug, shot)];
     return `<article class="game-card ${tone} reveal">
-      <a class="game-image" href="${appURL(a)}" aria-label="${esc(a.short)}" data-i18n-label="${messageId(esc(a.en))}"><img src="${image(slug, shot)}" alt="${esc(a.short)} App Store 遊戲畫面" data-i18n-alt="${messageId(esc(a.en))}" data-i18n-alt-suffix="${messageId('Game screenshot')}" width="${slug === 'larry-cocktail' ? 900 : 675}" height="${slug === 'larry-cocktail' ? 675 : 900}" loading="lazy"><span class="image-note">${L('遊戲畫面', 'Game screenshot')}</span></a>
+      <a class="game-image" href="${appURL(a)}" aria-label="${esc(a.short)}" data-i18n-label="${messageId(esc(a.en))}">${screenshots.map(src => `<img src="${src}" alt="${esc(a.short)} App Store 遊戲畫面" data-i18n-alt="${messageId(esc(a.en))}" data-i18n-alt-suffix="${messageId('Game screenshot')}" width="${slug === 'larry-cocktail' ? 900 : 415}" height="${slug === 'larry-cocktail' ? 675 : 900}" loading="lazy">`).join('')}<span class="image-note">${L('遊戲畫面', 'Game screenshot')}</span></a>
       <div class="game-info"><div class="work-meta"><span>${index} / ${L(zhType, enType)}</span><span>iOS · App Store</span></div>
       <h3><a href="${appURL(a)}">${L(esc(a.short), esc(a.en))}</a></h3><p>${L(zhDesc, enDesc)}</p>
       <div class="work-actions"><a class="text-link" href="${appURL(a)}">${L('遊戲介紹', 'Game details')} ${arrow()}</a><a class="store-link" href="${a.storeUrl}">App Store ${arrow('↗')}</a></div></div>
