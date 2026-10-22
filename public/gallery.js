@@ -79,6 +79,13 @@
   }
 
   for (const gallery of galleries) {
+    gallery.addEventListener('focusin', (event) => {
+      const link = event.target.closest('a[data-full-image]');
+      const rail = link?.closest('.screen-pair');
+      if (rail && rail.scrollWidth > rail.clientWidth) {
+        link.scrollIntoView({ block:'nearest', inline:'center', behavior:'instant' });
+      }
+    });
     gallery.addEventListener('click', (event) => {
       if (event.defaultPrevented || event.button !== 0 || event.altKey ||
           event.ctrlKey || event.metaKey || event.shiftKey) return;
