@@ -1,10 +1,6 @@
-Refine the website with serif typography and a quiet ivory palette
+Fit the navigation on narrow phones
 
-- Chinese set in self-hosted Noto Serif TC, Latin in Times New Roman with Tinos as the fallback
-- Ivory background, ink text and a single antique-gold accent; brand colour kept to the logo itself
-- Hairline-bordered cards replace glass panels and gradients; screenshots shown without extra device frames
-- Share image, website privacy notice and README updated
-- Remove the unused Plus Jakarta Sans files
+- Slightly smaller nav labels and padding below 480px so all six items fit on a 360–390px screen without clipping
 
 Co-Authored-By: Claude Fable 5.1 <noreply@anthropic.com>
 Claude-Session: https://claude.ai/code/session_01ChroGNbZezvQHV9GM4nHnZ

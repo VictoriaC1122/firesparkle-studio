@@ -271,6 +271,9 @@ html[data-script=cjk] em, html[data-script=arabic] em, html[data-script=hebrew] 
 @media (max-width: 480px) {
   .header-tools .social-link { display: none; }
   .brand-cjk { display: none; }
+  .site-nav { gap: 0; }
+  .site-nav a { padding: 6px 6px; font-size: 13px; letter-spacing: 0; }
+  .site-nav a::after { left: 6px; right: 6px; }
   .app-hero-icon { width: 84px; height: 84px; }
   .step { padding: 20px; }
   .spec-list { grid-template-columns: 1fr; }
