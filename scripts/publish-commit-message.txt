@@ -1,9 +1,11 @@
-Order works by sales and add fuller descriptions and guides to every app page
+Add per-app support pages and move app privacy and contact here from GitHub Pages
 
-- Works now follow the App Store Connect sales ranking (Compound Interest Calculator, Easy Lucky Draw, Larry's Cocktail Lab, Crypto Essentials Dictionary, Vitamin Today, ...); the homepage grid, the hero orbit, the share image, the guide indexes and "Other apps and games" all use the new order
-- Each app and game page gains an About section (two to three paragraphs and a key-features list), a detailed explanation under every how-to step, and "More ways to use it" and "Tips" panels, written from the official App Store descriptions and screenshots in Traditional Chinese and English (data/guides/details/)
-- Chinese interfaces show the Chinese text and every other language shows the English text with a one-line note; six new interface strings are translated into all 48 other languages
-- README documents the order and the details files
+- Each app has a support page at /app/<slug>/support/ with its icon, an email button that puts the app name in the subject, links to its privacy policy, the FAQ, how-to steps and the App Store, and the studio copyright (#copyright); App Store Connect support URLs point here, and the old GitHub Pages support sites redirect here
+- Privacy and support pages show the app icon and a thin rule in the app's own colour (accent in src/content.mjs, from each app's AccentColor or theme colours); the rest of the site keeps the gold accent
+- Privacy pages link to the app's support page instead of the original GitHub page, which now redirects back here
+- App pages gain #support and a link to the support page; the sitemap lists the 15 support pages
+- The footer copyright reads "© 花火工作室 FireSparkle.Studio" (site.copyright)
+- README documents the support pages, accents, copyright and the GitHub Pages redirects
 
 Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>
-Claude-Session: https://claude.ai/code/session_01ChroGNbZezvQHV9GM4nHnZ
+Claude-Session: https://claude.ai/code/session_01KeFuX6fHp7ZyDLM5svhNQL

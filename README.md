@@ -13,12 +13,16 @@ GitHub Pages 已設定自訂網域並強制 HTTPS；HTTP 與 `www.firesparkle.co
 - 作品頁 `/app/<slug>/`：主視覺與簡介、`#about` 關於這款 App／遊戲（兩到三段完整介紹＋主要功能）、App Store 全部官方截圖（可橫向捲動、點選放大）、`#howto` 使用方式（App 三步驟、遊戲四步驟，每步搭配對應畫面，下方附詳細操作說明），接著「更多用法」與「小提醒」、系統需求與分級、下載與支援、其他作品；隱私頁 `/app/<slug>/privacy/` 維持原網址
 - 指南總覽 `/guides/apps/`、`/guides/games/`：各作品的畫面、簡介與步驟，連到作品頁
 - 隱私中心 `/privacy/`、支援與常見問題 `/support/`、網站隱私說明 `/website-privacy/`、404、sitemap
+- 支援與聯絡頁 `/app/<slug>/support/`：作品圖示、寄信聯絡（主旨帶作品名稱）、隱私政策、常見問題、使用方式、App Store 連結與版權標示（`#copyright`）。App Store Connect 的「支援網址」用這頁，「隱私權政策網址」用 `/app/<slug>/privacy/`
+- 作品主色：`src/content.mjs` 各作品的 `accent`〔淺色, 深色〕取自 App 的 AccentColor 或主題色，只用在作品頁、隱私頁與支援頁的細線與小標記
+- 版權標示：全站與各 App 統一為「© 花火工作室 FireSparkle.Studio」（`site.copyright`）
+- 2026-10-23 起，原本放在 GitHub Pages 的各 App 支援、隱私與版權頁（victoriac1122.github.io/…）都改成轉址頁，轉到本站對應的隱私或支援頁，並保留語言（`?lang=`）
 - 社群：Instagram 與 Threads 皆為 `@firesparkle.studio`，出現在頁首、首頁、支援頁與頁尾；網址設定在 `src/content.mjs` 的 `site.social`
 - 2026-10-21 新增「圖解半導體」、「哩程管家：信用卡換機票試算」及「我決定自己的未來-大學選系指南」；資料、圖示及截圖經 Apple 官方頁核對
 
 ## 修改
 
-- `src/content.mjs`：網址、信箱、社群帳號、成立年份、作品排序、分類、英文名稱與英文簡介
+- `src/content.mjs`：網址、信箱、社群帳號、成立年份、版權標示、作品排序、分類、作品主色、英文名稱與英文簡介
 - `src/home.mjs`、`public/home.css`：首頁版型與中英文案
 - `scripts/build.mjs`：共用頁首／頁尾、作品頁（介紹、畫面、使用方式）、隱私頁、支援與政策頁的版型及中英文案
 - `src/details.mjs`、`data/guides/details/<slug>.json`：作品頁的詳細內容。每款一個檔案，`zh`／`en` 兩種版本，各含 `intro`（介紹段落）、`features`（主要功能：［標題, 說明］）、`stepDetails`（每個使用步驟的詳細說明，數量必須等於 `data/guides/*.json` 的步驟數）、`more`（更多用法：［標題, 說明］）與 `tips`（小提醒）。內容依 App Store 官方說明、更新記錄（`data/apple-lookup-<日期>.json`）與官方截圖撰寫，只寫商店頁面看得到的功能與畫面上的名稱；App 或截圖更新時請一併核對。建置時檢查兩種語言的區塊數量是否一致

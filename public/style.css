@@ -311,3 +311,14 @@ html[lang="en"] .detail-note, html[lang^="zh"] .detail-note { display: none; }
   .spec-list div { border-inline-start: 0; }
   .spec-list div:nth-child(n+2) { border-top: 1px solid var(--line); }
 }
+
+/* ---------- 作品主題：作品頁、隱私頁、支援頁 ----------
+   全站仍以古金色為主；作品主色（src/content.mjs 的 accent）只出現在細線與小標記，讓每頁對應到該 App 的風格。 */
+.app-themed { --app-line: var(--app-accent, var(--accent)); }
+@media (prefers-color-scheme: dark) { .app-themed { --app-line: var(--app-accent-dark, var(--app-accent, var(--accent))); } }
+.app-themed .eyebrow::before { background: var(--app-line); }
+.page-heading-app { position: relative; margin-bottom: 30px; border-bottom: 1px solid var(--line); }
+.page-heading-app::after { content: ""; position: absolute; inset-inline-start: 0; bottom: -1px; width: 72px; height: 2px; background: var(--app-line, var(--accent)); }
+.page-app-icon { width: 72px; height: 72px; margin-bottom: 22px; }
+.support-links { display: flex; flex-wrap: wrap; gap: 12px 26px; margin-top: 20px; padding: 22px 26px; }
+.copyright-line { margin: 28px 0 0; padding-top: 20px; border-top: 1px solid var(--line); font-size: 14px; letter-spacing: .04em; color: var(--muted); }
