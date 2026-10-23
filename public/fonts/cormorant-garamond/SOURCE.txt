@@ -1,6 +1,0 @@
-Package: @fontsource-variable/cormorant-garamond@5.3.0
-Source: https://fontsource.org/fonts/cormorant-garamond
-Upstream: https://github.com/google/fonts
-License: SIL Open Font License 1.1 (LICENSE.txt)
-
-Original WOFF2 binaries; CSS uses local URLs and retains Fontsource unicode ranges.

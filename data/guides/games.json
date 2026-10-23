@@ -18,6 +18,12 @@
         "en": "Load an earlier save and try different responses to explore other story branches and endings."
       }
     ],
+    "screenshots": [
+      2,
+      4,
+      0,
+      9
+    ],
     "sources": [
       "https://apps.apple.com/tw/app/id6761377948",
       "data/apple-catalog.json: slug larry-cocktail",
@@ -44,6 +50,12 @@
         "zh": "結算後到收藏中查看解鎖的卡牌與故事，重讀已獲得的結局，再嘗試不同養成方式。",
         "en": "After finishing a generation, view the cards and stories you unlocked in your collection, reread the endings, and try a different approach to raising your next piglet."
       }
+    ],
+    "screenshots": [
+      0,
+      3,
+      1,
+      2
     ],
     "sources": [
       "https://apps.apple.com/tw/app/id6811446129",

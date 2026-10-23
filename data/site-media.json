@@ -2,360 +2,723 @@
   "perfect-pig": {
     "images": [
       "/assets/screenshots/perfect-pig/iphone-01.jpg",
-      "/assets/screenshots/perfect-pig/iphone-02.jpg"
+      "/assets/screenshots/perfect-pig/iphone-02.jpg",
+      "/assets/screenshots/perfect-pig/iphone-03.jpg",
+      "/assets/screenshots/perfect-pig/iphone-04.jpg",
+      "/assets/screenshots/perfect-pig/iphone-05.jpg",
+      "/assets/screenshots/perfect-pig/iphone-06.jpg",
+      "/assets/screenshots/perfect-pig/iphone-07.jpg"
     ],
     "source": "https://apps.apple.com/tw/app/id6811446129",
     "imageSources": [
-      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3d/a7/4c/3da74cef-a449-7efc-06f0-2703bad983eb/A213BDF0-5188-44A8-AB74-6ADF11529440.png/900x900bb.jpg",
-      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/62/57/cb/6257cb89-7a83-4818-d1d7-73cb5396ff5c/BA647D12-2EB7-47F7-A958-93CDBF60E815.png/900x900bb.jpg"
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4d/7f/df/4d7fdf21-5202-7865-0cc0-584e747a03a6/01-companion.png/1400x1400bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/55/fb/7f/55fb7f47-be69-2c08-e499-7f6b2522be17/02-chat.png/1400x1400bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/8a/aa/24/8aaa243d-72b0-8e42-5e31-d55f0fadf1e5/03-card-stories.png/1400x1400bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3d/a7/4c/3da74cef-a449-7efc-06f0-2703bad983eb/A213BDF0-5188-44A8-AB74-6ADF11529440.png/1400x1400bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/62/57/cb/6257cb89-7a83-4818-d1d7-73cb5396ff5c/BA647D12-2EB7-47F7-A958-93CDBF60E815.png/1400x1400bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a6/5d/70/a65d701b-6592-93cc-a1b5-4b663e2973f7/417D182D-2D02-45E8-A110-6F39DD2256B8.png/1400x1400bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/25/0d/97/250d976b-532c-1c6e-3873-56831d209bcd/0353F29F-A994-45B5-8992-45392F293141.png/1400x1400bb.jpg"
     ],
     "appName": "完美養豬",
+    "version": "1.3.0",
     "retrievedOn": "2026-10-23",
     "device": "iPhone",
     "imageDimensions": [
       {
-        "width": 415,
-        "height": 900
+        "width": 646,
+        "height": 1400
       },
       {
-        "width": 415,
-        "height": 900
+        "width": 646,
+        "height": 1400
+      },
+      {
+        "width": 646,
+        "height": 1400
+      },
+      {
+        "width": 646,
+        "height": 1400
+      },
+      {
+        "width": 646,
+        "height": 1400
+      },
+      {
+        "width": 646,
+        "height": 1400
+      },
+      {
+        "width": 646,
+        "height": 1400
       }
     ]
   },
   "larry-cocktail": {
     "images": [
-      "/assets/screenshots/larry-cocktail/01.jpg",
-      "/assets/screenshots/larry-cocktail/02.jpg"
+      "/assets/screenshots/larry-cocktail/iphone-01.jpg",
+      "/assets/screenshots/larry-cocktail/iphone-02.jpg",
+      "/assets/screenshots/larry-cocktail/iphone-03.jpg",
+      "/assets/screenshots/larry-cocktail/iphone-04.jpg",
+      "/assets/screenshots/larry-cocktail/iphone-05.jpg",
+      "/assets/screenshots/larry-cocktail/iphone-06.jpg",
+      "/assets/screenshots/larry-cocktail/iphone-07.jpg",
+      "/assets/screenshots/larry-cocktail/iphone-08.jpg",
+      "/assets/screenshots/larry-cocktail/iphone-09.jpg",
+      "/assets/screenshots/larry-cocktail/iphone-10.jpg"
     ],
     "source": "https://apps.apple.com/tw/app/id6761377948",
     "imageSources": [
-      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/0e/80/45/0e80458f-c4a9-7bec-66c7-1f7b91a42122/Simulator_Screenshot_-_iPad_Pro_13-inch__U0028M4_U0029_-_2026-03-30_at_23.41.09.png/900x900bb.jpg",
-      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/79/8c/67/798c6702-3885-b4eb-29a0-dee026a0c2dd/Simulator_Screenshot_-_iPad_Pro_13-inch__U0028M4_U0029_-_2026-03-30_at_23.41.15.png/900x900bb.jpg"
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/80/ff/7b/80ff7bef-2ee4-b078-440c-782e9e96df0d/Simulator_Screenshot_-_iPhone_16_Pro_-_2026-03-30_at_21.04.54.png/1400x1400bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b9/63/09/b96309bc-8e1b-2ac3-d6af-7973ade6feb1/Simulator_Screenshot_-_iPhone_16_Pro_-_2026-03-30_at_21.05.02.png/1400x1400bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/44/10/e8/4410e8c0-8acb-f75f-2902-85ee09090920/Simulator_Screenshot_-_iPhone_16_Pro_-_2026-03-30_at_21.05.12.png/1400x1400bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/75/37/3e/75373e50-dfe6-968c-d164-77e29af0c9dd/Simulator_Screenshot_-_iPhone_16_Pro_-_2026-03-30_at_21.05.34.png/1400x1400bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e9/fa/2b/e9fa2b61-34c8-e91c-1227-697c1e7a933b/Simulator_Screenshot_-_iPhone_16_Pro_-_2026-03-30_at_21.05.38.png/1400x1400bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/79/6f/7f/796f7f95-7f64-4c1d-71e2-adf04837fc5a/Simulator_Screenshot_-_iPhone_16_Pro_-_2026-03-30_at_21.06.28.png/1400x1400bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e7/d5/c6/e7d5c6b0-524a-9cac-bfb8-01d763b12a16/Simulator_Screenshot_-_iPhone_16_Pro_-_2026-03-30_at_21.06.10.png/1400x1400bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/33/48/a2/3348a266-46ac-3e40-04ca-340d5189cd5e/Simulator_Screenshot_-_iPhone_16_Pro_-_2026-03-30_at_21.06.52.png/1400x1400bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f2/2f/86/f22f8687-2307-1eea-e3ab-144c8b7b3ad4/Simulator_Screenshot_-_iPhone_16_Pro_-_2026-03-30_at_21.07.59.png/1400x1400bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a8/cf/4e/a8cf4ebf-b8fe-6078-52d6-5892f6ee5fc8/Simulator_Screenshot_-_iPhone_16_Pro_-_2026-03-30_at_21.08.37.png/1400x1400bb.jpg"
     ],
     "appName": "賴瑞的調酒研究室",
-    "retrievedOn": "2026-10-19",
+    "version": "1.1",
+    "retrievedOn": "2026-10-23",
+    "device": "iPhone",
     "imageDimensions": [
       {
-        "width": 900,
-        "height": 675
+        "width": 1400,
+        "height": 647
       },
       {
-        "width": 900,
-        "height": 675
+        "width": 1400,
+        "height": 647
+      },
+      {
+        "width": 1400,
+        "height": 647
+      },
+      {
+        "width": 1400,
+        "height": 647
+      },
+      {
+        "width": 1400,
+        "height": 647
+      },
+      {
+        "width": 1400,
+        "height": 647
+      },
+      {
+        "width": 1400,
+        "height": 647
+      },
+      {
+        "width": 1400,
+        "height": 647
+      },
+      {
+        "width": 1400,
+        "height": 647
+      },
+      {
+        "width": 1400,
+        "height": 647
       }
     ]
   },
   "dream-journal": {
     "images": [
       "/assets/screenshots/dream-journal/iphone-01.jpg",
-      "/assets/screenshots/dream-journal/iphone-02.jpg"
+      "/assets/screenshots/dream-journal/iphone-02.jpg",
+      "/assets/screenshots/dream-journal/iphone-03.jpg"
     ],
     "source": "https://apps.apple.com/tw/app/id6761692228",
     "imageSources": [
-      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c3/1f/f4/c31ff4ba-67d3-9def-be4e-0a9f80322dc4/01-capture.png/600x1300bb-60.jpg",
-      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/49/a5/b5/49a5b5b2-ca01-09a9-4f75-11974fe8bd64/02-insight.png/600x1300bb-60.jpg"
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c3/1f/f4/c31ff4ba-67d3-9def-be4e-0a9f80322dc4/01-capture.png/1400x1400bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/49/a5/b5/49a5b5b2-ca01-09a9-4f75-11974fe8bd64/02-insight.png/1400x1400bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ea/26/e9/ea26e9b9-2d15-200c-91a5-670cc31e8206/03-review.png/1400x1400bb.jpg"
     ],
     "appName": "把夢遺留下來",
+    "version": "1.7",
     "retrievedOn": "2026-10-23",
     "device": "iPhone",
     "imageDimensions": [
       {
-        "width": 598,
-        "height": 1300
+        "width": 644,
+        "height": 1400
       },
       {
-        "width": 598,
-        "height": 1300
+        "width": 644,
+        "height": 1400
+      },
+      {
+        "width": 644,
+        "height": 1400
       }
     ]
   },
   "coffee-chat": {
     "images": [
-      "/assets/screenshots/coffee-chat/01.jpg",
-      "/assets/screenshots/coffee-chat/iphone-02.jpg"
+      "/assets/screenshots/coffee-chat/iphone-01.jpg",
+      "/assets/screenshots/coffee-chat/iphone-02.jpg",
+      "/assets/screenshots/coffee-chat/iphone-03.jpg",
+      "/assets/screenshots/coffee-chat/iphone-04.jpg"
     ],
     "source": "https://apps.apple.com/tw/app/id6820863958",
     "imageSources": [
-      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d8/f2/95/d8f295c2-3dde-afa6-feb3-5242ad6f3e13/01-home.png/900x900bb.jpg",
-      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a7/3d/8f/a73d8f34-553f-62d6-4ab9-a6594c66a51f/02-questions.png/600x1334bb-60.jpg"
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d8/f2/95/d8f295c2-3dde-afa6-feb3-5242ad6f3e13/01-home.png/1400x1400bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a7/3d/8f/a73d8f34-553f-62d6-4ab9-a6594c66a51f/02-questions.png/1400x1400bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d3/ba/3c/d3ba3c79-7880-a289-1c24-8b7a25555f5d/03-people.png/1400x1400bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e1/1e/55/e11e554a-127a-d774-ae47-da2e974f090c/04-agenda.png/1400x1400bb.jpg"
     ],
     "appName": "Coffee Chat 筆記",
+    "version": "1.2",
     "retrievedOn": "2026-10-23",
     "device": "iPhone",
     "imageDimensions": [
       {
-        "width": 414,
-        "height": 900
+        "width": 644,
+        "height": 1400
       },
       {
-        "width": 600,
-        "height": 1304
+        "width": 644,
+        "height": 1400
+      },
+      {
+        "width": 644,
+        "height": 1400
+      },
+      {
+        "width": 644,
+        "height": 1400
       }
     ]
   },
   "semiconductors-illustrated": {
     "images": [
-      "/assets/screenshots/semiconductors-illustrated/01.jpg",
-      "/assets/screenshots/semiconductors-illustrated/02.jpg"
+      "/assets/screenshots/semiconductors-illustrated/iphone-01.jpg",
+      "/assets/screenshots/semiconductors-illustrated/iphone-02.jpg",
+      "/assets/screenshots/semiconductors-illustrated/iphone-03.jpg",
+      "/assets/screenshots/semiconductors-illustrated/iphone-04.jpg"
     ],
     "source": "https://apps.apple.com/tw/app/id6822188590",
     "imageSources": [
-      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3d/b4/81/3db4816b-724e-e900-1c0e-34ad8218875f/01-Home.png/600x1300bb.jpg",
-      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5d/bc/70/5dbc70bc-e2dd-7748-e440-e9f80f46727f/02-Lesson.png/600x1300bb.jpg"
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/1a/fc/e0/1afce067-6c1e-1f27-b2aa-a57b7159a19b/01-world.png/1400x1400bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c7/55/72/c75572f3-fd04-4492-6581-2a4d01056ca8/02-manufacturing.png/1400x1400bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1f/49/23/1f49238d-eddb-46c6-eb74-69e02995b4f8/03-transistor.png/1400x1400bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a1/a6/5f/a1a65f40-df56-352d-f34c-6dde7e3e40c4/04-practice.png/1400x1400bb.jpg"
     ],
     "appName": "圖解半導體",
-    "retrievedOn": "2026-10-21",
+    "version": "1.1",
+    "retrievedOn": "2026-10-23",
+    "device": "iPhone",
     "imageDimensions": [
       {
-        "width": 598,
-        "height": 1300
+        "width": 644,
+        "height": 1400
       },
       {
-        "width": 598,
-        "height": 1300
+        "width": 644,
+        "height": 1400
+      },
+      {
+        "width": 644,
+        "height": 1400
+      },
+      {
+        "width": 644,
+        "height": 1400
       }
     ]
   },
   "milebutler": {
     "images": [
-      "/assets/screenshots/milebutler/01.jpg",
-      "/assets/screenshots/milebutler/02.jpg"
+      "/assets/screenshots/milebutler/iphone-01.jpg",
+      "/assets/screenshots/milebutler/iphone-02.jpg",
+      "/assets/screenshots/milebutler/iphone-03.jpg",
+      "/assets/screenshots/milebutler/iphone-04.jpg",
+      "/assets/screenshots/milebutler/iphone-05.jpg",
+      "/assets/screenshots/milebutler/iphone-06.jpg"
     ],
     "source": "https://apps.apple.com/tw/app/id6823824323",
     "imageSources": [
-      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f9/53/1e/f9531e6c-030a-d2b5-719e-e3090886a4c2/01-results.png/600x1300bb.jpg",
-      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f9/64/34/f964340e-9d0e-ba28-f989-bb36dc5ea223/02-detail.png/600x1300bb.jpg"
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f9/53/1e/f9531e6c-030a-d2b5-719e-e3090886a4c2/01-results.png/1400x1400bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f9/64/34/f964340e-9d0e-ba28-f989-bb36dc5ea223/02-detail.png/1400x1400bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9d/bf/34/9dbf34c0-21e6-be6d-95f3-5fa7c12c543e/03-goals.png/1400x1400bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/12/63/45/1263458e-0bcf-9ce7-3db3-9b4bb1b4d024/04-redeemable.png/1400x1400bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/93/d0/16/93d01638-2c8c-c331-bf8f-3bd413e9baac/05-portfolio.png/1400x1400bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6f/5f/f7/6f5ff7aa-50bc-4be1-2ed0-a71b11e62db1/06-cards.png/1400x1400bb.jpg"
     ],
     "appName": "哩程管家：信用卡換機票試算",
-    "retrievedOn": "2026-10-21",
+    "version": "1.0",
+    "retrievedOn": "2026-10-23",
+    "device": "iPhone",
     "imageDimensions": [
       {
-        "width": 598,
-        "height": 1300
+        "width": 644,
+        "height": 1400
       },
       {
-        "width": 598,
-        "height": 1300
+        "width": 644,
+        "height": 1400
+      },
+      {
+        "width": 644,
+        "height": 1400
+      },
+      {
+        "width": 644,
+        "height": 1400
+      },
+      {
+        "width": 644,
+        "height": 1400
+      },
+      {
+        "width": 644,
+        "height": 1400
       }
     ]
   },
   "future-major-guide": {
     "images": [
-      "/assets/screenshots/future-major-guide/01.jpg",
-      "/assets/screenshots/future-major-guide/02.jpg"
+      "/assets/screenshots/future-major-guide/iphone-01.jpg",
+      "/assets/screenshots/future-major-guide/iphone-02.jpg",
+      "/assets/screenshots/future-major-guide/iphone-03.jpg",
+      "/assets/screenshots/future-major-guide/iphone-04.jpg",
+      "/assets/screenshots/future-major-guide/iphone-05.jpg",
+      "/assets/screenshots/future-major-guide/iphone-06.jpg",
+      "/assets/screenshots/future-major-guide/iphone-07.jpg",
+      "/assets/screenshots/future-major-guide/iphone-08.jpg"
     ],
     "source": "https://apps.apple.com/tw/app/id6824004640",
     "imageSources": [
-      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/85/07/9d/85079d01-3a3c-4313-86d4-157197c5e10d/iphone63-zh-Hant-01-02-home-v2.png/600x1300bb.jpg",
-      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f9/90/28/f99028fe-c411-0fa0-5778-f89f1149ee77/iphone63-zh-Hant-02-06-checklist-school-v2.png/600x1300bb.jpg"
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/85/07/9d/85079d01-3a3c-4313-86d4-157197c5e10d/iphone63-zh-Hant-01-02-home-v2.png/1400x1400bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f9/90/28/f99028fe-c411-0fa0-5778-f89f1149ee77/iphone63-zh-Hant-02-06-checklist-school-v2.png/1400x1400bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5f/dd/17/5fdd17fc-ac05-02a5-0a2f-414d9b726f19/iphone63-zh-Hant-03-04-saved-v2.png/1400x1400bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d5/7f/66/d57f6627-a54d-48e8-5b55-52eba7113ef9/iphone63-zh-Hant-04-07-pro-v2.png/1400x1400bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/cb/75/e0/cb75e03e-0071-227c-0518-ad491dd752b6/iphone63-zh-Hant-05-03-university-v2.png/1400x1400bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5c/d4/97/5cd497f7-fa21-501a-b8e1-8ed725089317/iphone63-zh-Hant-06-08-majors-v2.png/1400x1400bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c3/ee/6c/c3ee6ca3-93c2-4681-8d16-3e19a317dab8/iphone63-zh-Hant-07-09-quiz-v2.png/1400x1400bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3e/6f/c6/3e6fc6ed-2183-86bf-0ef1-ddd91188213c/iphone63-zh-Hant-08-01-language-v2.png/1400x1400bb.jpg"
     ],
     "appName": "我決定自己的未來-大學選系指南",
-    "retrievedOn": "2026-10-21",
+    "version": "1.0.2",
+    "retrievedOn": "2026-10-23",
+    "device": "iPhone",
     "imageDimensions": [
       {
-        "width": 598,
-        "height": 1300
+        "width": 644,
+        "height": 1400
       },
       {
-        "width": 598,
-        "height": 1300
+        "width": 644,
+        "height": 1400
+      },
+      {
+        "width": 644,
+        "height": 1400
+      },
+      {
+        "width": 644,
+        "height": 1400
+      },
+      {
+        "width": 644,
+        "height": 1400
+      },
+      {
+        "width": 644,
+        "height": 1400
+      },
+      {
+        "width": 644,
+        "height": 1400
+      },
+      {
+        "width": 644,
+        "height": 1400
       }
     ]
   },
   "design-it": {
     "images": [
-      "/assets/screenshots/design-it/01.jpg",
-      "/assets/screenshots/design-it/02.jpg"
+      "/assets/screenshots/design-it/iphone-01.jpg",
+      "/assets/screenshots/design-it/iphone-02.jpg",
+      "/assets/screenshots/design-it/iphone-03.jpg"
     ],
     "source": "https://apps.apple.com/tw/app/id6818286088",
     "imageSources": [
-      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c7/d1/4d/c7d14dd9-0576-63ca-6ba4-6f57cb6d6ea8/iPhone-zh-Hant-01-room.png/600x1300bb.jpg",
-      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/05/88/70/05887008-8e7e-5ea9-eb1e-f41a0a73593c/iPhone-zh-Hant-02-materials.png/600x1300bb.jpg"
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c7/d1/4d/c7d14dd9-0576-63ca-6ba4-6f57cb6d6ea8/iPhone-zh-Hant-01-room.png/1400x1400bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/05/88/70/05887008-8e7e-5ea9-eb1e-f41a0a73593c/iPhone-zh-Hant-02-materials.png/1400x1400bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/1b/ba/cf/1bbacf11-782a-19af-a1ba-fd06ca439e70/iPhone-zh-Hant-03-budget.png/1400x1400bb.jpg"
     ],
     "appName": "自己來設計",
+    "version": "1.2.0",
     "retrievedOn": "2026-10-23",
     "device": "iPhone",
     "imageDimensions": [
       {
-        "width": 598,
-        "height": 1300
+        "width": 644,
+        "height": 1400
       },
       {
-        "width": 598,
-        "height": 1300
+        "width": 644,
+        "height": 1400
+      },
+      {
+        "width": 644,
+        "height": 1400
       }
-    ],
-    "presentation": "Official App Store promotional screenshots containing app interfaces; complete original composition, not cropped."
+    ]
   },
   "time-manager": {
     "images": [
-      "/assets/screenshots/time-manager/01.jpg",
-      "/assets/screenshots/time-manager/02.jpg"
+      "/assets/screenshots/time-manager/iphone-01.jpg",
+      "/assets/screenshots/time-manager/iphone-02.jpg",
+      "/assets/screenshots/time-manager/iphone-03.jpg",
+      "/assets/screenshots/time-manager/iphone-04.jpg",
+      "/assets/screenshots/time-manager/iphone-05.jpg",
+      "/assets/screenshots/time-manager/iphone-06.jpg",
+      "/assets/screenshots/time-manager/iphone-07.jpg",
+      "/assets/screenshots/time-manager/iphone-08.jpg"
     ],
     "source": "https://apps.apple.com/tw/app/id6754973616",
     "imageSources": [
-      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a8/1d/f8/a81df83d-18de-ad25-898c-8051b0fb5cca/00-smart-continuum-01-idea.jpg/600x1300bb.jpg",
-      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e2/26/c1/e226c148-e70e-fe31-c0e3-0fcf468df201/00-smart-continuum-02-breakdown.jpg/600x1300bb.jpg"
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a8/1d/f8/a81df83d-18de-ad25-898c-8051b0fb5cca/00-smart-continuum-01-idea.jpg/1400x1400bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e2/26/c1/e226c148-e70e-fe31-c0e3-0fcf468df201/00-smart-continuum-02-breakdown.jpg/1400x1400bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3b/b8/e4/3bb8e4d9-70b9-0f47-0d71-e39cf1e5bf85/00-smart-continuum-03-focus.jpg/1400x1400bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ef/84/90/ef849088-63bc-de1f-8dfa-1abd4c16a2b8/01-turn-goals-into-steps.jpg/1400x1400bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/37/9f/b5/379fb58e-27bf-5872-641a-c8172569c316/02-smart-task-breakdown.jpg/1400x1400bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/08/c9/6d/08c96d30-4cc9-2a47-7f08-bc4bd27fbb53/03-immersive-focus.jpg/1400x1400bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/41/dc/4f/41dc4f35-9de2-0bd2-07ce-d8aef7d81f6d/04-reflect-and-continue.jpg/1400x1400bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/21/9d/28/219d2865-391a-ddf8-37a5-7b53da59fef3/05-contextual-thinking.jpg/1400x1400bb.jpg"
     ],
     "appName": "AI時間管理",
+    "version": "2.1",
     "retrievedOn": "2026-10-23",
     "device": "iPhone",
     "imageDimensions": [
       {
-        "width": 598,
-        "height": 1300
+        "width": 644,
+        "height": 1400
       },
       {
-        "width": 598,
-        "height": 1300
+        "width": 644,
+        "height": 1400
+      },
+      {
+        "width": 644,
+        "height": 1400
+      },
+      {
+        "width": 644,
+        "height": 1400
+      },
+      {
+        "width": 644,
+        "height": 1400
+      },
+      {
+        "width": 644,
+        "height": 1400
+      },
+      {
+        "width": 644,
+        "height": 1400
+      },
+      {
+        "width": 644,
+        "height": 1400
       }
-    ],
-    "presentation": "Official App Store promotional screenshots containing app interfaces; complete original composition, not cropped."
+    ]
   },
   "vitamins": {
     "images": [
-      "/assets/screenshots/vitamins/01.jpg",
-      "/assets/screenshots/vitamins/02.jpg"
+      "/assets/screenshots/vitamins/iphone-01.jpg",
+      "/assets/screenshots/vitamins/iphone-02.jpg",
+      "/assets/screenshots/vitamins/iphone-03.jpg",
+      "/assets/screenshots/vitamins/iphone-04.jpg",
+      "/assets/screenshots/vitamins/iphone-05.jpg",
+      "/assets/screenshots/vitamins/iphone-06.jpg"
     ],
     "source": "https://apps.apple.com/tw/app/id6761441866",
     "imageSources": [
-      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2e/63/48/2e6348e2-37a9-a406-004c-519bc4aa7fca/01-dashboard.jpg/600x1300bb.jpg",
-      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3f/9e/73/3f9e7303-c272-76a5-f30f-88ace3225049/02-history.jpg/600x1300bb.jpg"
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2e/63/48/2e6348e2-37a9-a406-004c-519bc4aa7fca/01-dashboard.jpg/1400x1400bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3f/9e/73/3f9e7303-c272-76a5-f30f-88ace3225049/02-history.jpg/1400x1400bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f4/9e/b0/f49eb034-1fd0-8032-40ab-e82c130d52c4/03-knowledge.jpg/1400x1400bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/73/35/bf/7335bf27-4d93-cb78-d71f-f62544b1762b/04-profile.jpg/1400x1400bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2b/3f/03/2b3f03f5-b8c2-7855-c77d-25d9c67f0b9a/05-reminders.jpg/1400x1400bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e8/ca/81/e8ca8165-fd9a-0015-8e9d-455b0fc1b753/06-body-profile.jpg/1400x1400bb.jpg"
     ],
     "appName": "你今天維他命了嗎",
+    "version": "1.7",
     "retrievedOn": "2026-10-23",
     "device": "iPhone",
     "imageDimensions": [
       {
-        "width": 598,
-        "height": 1300
+        "width": 644,
+        "height": 1400
       },
       {
-        "width": 598,
-        "height": 1300
+        "width": 644,
+        "height": 1400
+      },
+      {
+        "width": 644,
+        "height": 1400
+      },
+      {
+        "width": 644,
+        "height": 1400
+      },
+      {
+        "width": 644,
+        "height": 1400
+      },
+      {
+        "width": 644,
+        "height": 1400
       }
-    ],
-    "presentation": "Official App Store promotional screenshots containing app interfaces; complete original composition, not cropped."
+    ]
   },
   "easy-draw": {
     "images": [
-      "/assets/screenshots/easy-draw/01.jpg",
-      "/assets/screenshots/easy-draw/02.jpg"
+      "/assets/screenshots/easy-draw/iphone-01.jpg",
+      "/assets/screenshots/easy-draw/iphone-02.jpg",
+      "/assets/screenshots/easy-draw/iphone-03.jpg",
+      "/assets/screenshots/easy-draw/iphone-04.jpg",
+      "/assets/screenshots/easy-draw/iphone-05.jpg",
+      "/assets/screenshots/easy-draw/iphone-06.jpg"
     ],
     "source": "https://apps.apple.com/tw/app/id6755403297",
     "imageSources": [
-      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/95/3a/46/953a463f-d56a-4e48-ec11-f534f54e5fab/01-instagram-giveaway.png/600x1300bb.jpg",
-      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ca/26/f0/ca26f0b0-99e8-3b36-f63c-0675a1048855/02-ocr-review.png/600x1300bb.jpg"
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/95/3a/46/953a463f-d56a-4e48-ec11-f534f54e5fab/01-instagram-giveaway.png/1400x1400bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ca/26/f0/ca26f0b0-99e8-3b36-f63c-0675a1048855/02-ocr-review.png/1400x1400bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/46/97/3c/46973c88-0197-2c93-60be-f31be68da99f/03-filter-rules.png/1400x1400bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2e/d1/f9/2ed1f9da-238a-23b0-80f5-b4a9f7bab6cf/04-multiple-prizes.png/1400x1400bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9e/95/f5/9e95f531-c4b7-2e13-c21f-f109699b7bc9/05-verifiable-results.png/1400x1400bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/25/cd/81/25cd81cd-9a36-445e-6921-864df6c4ada4/06-classic-draw.png/1400x1400bb.jpg"
     ],
     "appName": "輕鬆抽獎",
+    "version": "1.7",
     "retrievedOn": "2026-10-23",
     "device": "iPhone",
     "imageDimensions": [
       {
-        "width": 598,
-        "height": 1300
+        "width": 644,
+        "height": 1400
       },
       {
-        "width": 598,
-        "height": 1300
+        "width": 644,
+        "height": 1400
+      },
+      {
+        "width": 644,
+        "height": 1400
+      },
+      {
+        "width": 644,
+        "height": 1400
+      },
+      {
+        "width": 644,
+        "height": 1400
+      },
+      {
+        "width": 644,
+        "height": 1400
       }
-    ],
-    "presentation": "Official App Store promotional screenshots containing app interfaces; complete original composition, not cropped."
+    ]
   },
   "compound-calculator": {
     "images": [
       "/assets/screenshots/compound-calculator/iphone-01.jpg",
-      "/assets/screenshots/compound-calculator/iphone-02.jpg"
+      "/assets/screenshots/compound-calculator/iphone-02.jpg",
+      "/assets/screenshots/compound-calculator/iphone-03.jpg",
+      "/assets/screenshots/compound-calculator/iphone-04.jpg",
+      "/assets/screenshots/compound-calculator/iphone-05.jpg",
+      "/assets/screenshots/compound-calculator/iphone-06.jpg"
     ],
     "source": "https://apps.apple.com/tw/app/id6756014104",
     "imageSources": [
-      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/67/16/3d/67163d1e-d206-3ff7-ad42-02b2935ccc1d/01-compound-growth-songti-coffee.jpg/600x1300bb.jpg",
-      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/05/e4/f4/05e4f421-44ff-2e1d-d83c-5759f198afdf/02-pro-workspace-songti-coffee.jpg/600x1300bb.jpg"
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/67/16/3d/67163d1e-d206-3ff7-ad42-02b2935ccc1d/01-compound-growth-songti-coffee.jpg/1400x1400bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/05/e4/f4/05e4f421-44ff-2e1d-d83c-5759f198afdf/02-pro-workspace-songti-coffee.jpg/1400x1400bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b2/00/68/b20068c6-3bf5-ae17-d4b3-20649817e65d/03-autosave-songti-coffee.jpg/1400x1400bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/28/62/82/28628222-ac6d-5f69-8a86-1f8ee001cade/04-field-transfer-songti-coffee.jpg/1400x1400bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ab/43/0b/ab430bf0-1022-890c-3e9e-54a5b41d482f/05-backup-restore-songti-coffee.jpg/1400x1400bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/31/de/91/31de91ff-855b-5f97-51c1-81f5a26ae4e2/06-retirement-reports-songti-coffee.jpg/1400x1400bb.jpg"
     ],
     "appName": "複利計算器-財務自由實現工具",
+    "version": "2.6",
     "retrievedOn": "2026-10-23",
     "device": "iPhone",
     "imageDimensions": [
       {
-        "width": 598,
-        "height": 1300
+        "width": 644,
+        "height": 1400
       },
       {
-        "width": 598,
-        "height": 1300
+        "width": 644,
+        "height": 1400
+      },
+      {
+        "width": 644,
+        "height": 1400
+      },
+      {
+        "width": 644,
+        "height": 1400
+      },
+      {
+        "width": 644,
+        "height": 1400
+      },
+      {
+        "width": 644,
+        "height": 1400
       }
     ]
   },
   "stock-simulator": {
     "images": [
       "/assets/screenshots/stock-simulator/iphone-01.jpg",
-      "/assets/screenshots/stock-simulator/iphone-02.jpg"
+      "/assets/screenshots/stock-simulator/iphone-02.jpg",
+      "/assets/screenshots/stock-simulator/iphone-03.jpg",
+      "/assets/screenshots/stock-simulator/iphone-04.jpg"
     ],
     "source": "https://apps.apple.com/tw/app/id6815299678",
     "imageSources": [
-      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a8/df/0b/a8df0b40-aee1-5bbb-97e7-145588446ab4/01-paper-trading.png/600x1300bb.jpg",
-      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/58/ef/eb/58efeb5c-1a73-e058-9b53-6e4be2f5b0cf/iphone-simulation.png/600x1300bb.jpg"
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a8/df/0b/a8df0b40-aee1-5bbb-97e7-145588446ab4/01-paper-trading.png/1400x1400bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/36/1d/3b/361d3b25-8a20-0ef2-4e46-7e37e14a9eb6/02-virtual-funds.png/1400x1400bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a2/00/d8/a200d860-1568-aad8-3f38-d6fdbec0bff4/03-lookup.png/1400x1400bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/58/ef/eb/58efeb5c-1a73-e058-9b53-6e4be2f5b0cf/iphone-simulation.png/1400x1400bb.jpg"
     ],
     "appName": "股神養成：台美股模擬交易",
+    "version": "2.6.0",
     "retrievedOn": "2026-10-23",
     "device": "iPhone",
     "imageDimensions": [
       {
-        "width": 598,
-        "height": 1300
+        "width": 644,
+        "height": 1400
       },
       {
-        "width": 598,
-        "height": 1300
+        "width": 644,
+        "height": 1400
+      },
+      {
+        "width": 644,
+        "height": 1400
+      },
+      {
+        "width": 644,
+        "height": 1400
       }
     ]
   },
   "crypto-dictionary": {
     "images": [
       "/assets/screenshots/crypto-dictionary/iphone-01.jpg",
-      "/assets/screenshots/crypto-dictionary/iphone-02.jpg"
+      "/assets/screenshots/crypto-dictionary/iphone-02.jpg",
+      "/assets/screenshots/crypto-dictionary/iphone-03.jpg",
+      "/assets/screenshots/crypto-dictionary/iphone-04.jpg",
+      "/assets/screenshots/crypto-dictionary/iphone-05.jpg",
+      "/assets/screenshots/crypto-dictionary/iphone-06.jpg"
     ],
     "source": "https://apps.apple.com/tw/app/id6761411130",
     "imageSources": [
-      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a8/65/0d/a8650def-ac2f-a69c-2edc-2c53c7f1966f/iphone-69-01-learning-paths.png/600x1300bb.jpg",
-      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e0/34/ce/e034ce5a-c757-b804-258b-7ebb2bc7f4fc/iphone-69-02-guided-courses.png/600x1300bb.jpg"
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a8/65/0d/a8650def-ac2f-a69c-2edc-2c53c7f1966f/iphone-69-01-learning-paths.png/1400x1400bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e0/34/ce/e034ce5a-c757-b804-258b-7ebb2bc7f4fc/iphone-69-02-guided-courses.png/1400x1400bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/21/89/c3/2189c3b4-062b-2f72-db42-4124d4382528/iphone-69-03-global-search.png/1400x1400bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/32/24/31/3224319b-ac64-3057-a065-09f6c3ec9c30/iphone-69-04-exchange-atlas.png/1400x1400bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/83/8f/d3/838fd33d-e339-cb3d-ee84-420f9e68fab5/iphone-69-05-asset-categories.png/1400x1400bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3b/36/cc/3b36cc33-8672-805d-4882-62e1217b3276/iphone-69-06-daily-review.png/1400x1400bb.jpg"
     ],
     "appName": "幣圈神器-加密貨幣&區塊鏈學習字典",
+    "version": "2.0",
     "retrievedOn": "2026-10-23",
     "device": "iPhone",
     "imageDimensions": [
       {
-        "width": 598,
-        "height": 1300
+        "width": 644,
+        "height": 1400
       },
       {
-        "width": 598,
-        "height": 1300
+        "width": 644,
+        "height": 1400
+      },
+      {
+        "width": 644,
+        "height": 1400
+      },
+      {
+        "width": 644,
+        "height": 1400
+      },
+      {
+        "width": 644,
+        "height": 1400
+      },
+      {
+        "width": 644,
+        "height": 1400
       }
     ]
   },
   "pr-diary": {
     "images": [
       "/assets/screenshots/pr-diary/iphone-01.jpg",
-      "/assets/screenshots/pr-diary/iphone-02.jpg"
+      "/assets/screenshots/pr-diary/iphone-02.jpg",
+      "/assets/screenshots/pr-diary/iphone-03.jpg",
+      "/assets/screenshots/pr-diary/iphone-04.jpg",
+      "/assets/screenshots/pr-diary/iphone-05.jpg",
+      "/assets/screenshots/pr-diary/iphone-06.jpg",
+      "/assets/screenshots/pr-diary/iphone-07.jpg"
     ],
     "source": "https://apps.apple.com/tw/app/id6761694656",
     "imageSources": [
-      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a4/52/2d/a4522d80-ce89-4a4e-2158-368e96f29c81/promo-01-home.png/600x1300bb.jpg",
-      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9a/e4/99/9ae499d6-2be3-a0dd-9e37-92e716029a7c/promo-05-broker.png/600x1300bb.jpg"
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a4/52/2d/a4522d80-ce89-4a4e-2158-368e96f29c81/promo-01-home.png/1400x1400bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b6/0b/98/b60b9891-5918-940a-79f4-e076218872e8/promo-02-host.png/1400x1400bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/31/01/d5/3101d5e0-a0f4-61e8-6284-1c4ddf6a4e6e/promo-04-male-model.png/1400x1400bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9a/e4/99/9ae499d6-2be3-a0dd-9e37-92e716029a7c/promo-05-broker.png/1400x1400bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/05/3d/a1/053da166-9079-9cff-b494-f744e23ad8af/promo-03-customer.png/1400x1400bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e4/f5/1f/e4f51f38-87d8-417a-1ad1-ed83236dde77/promo-06-industry-guide.png/1400x1400bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3f/4a/f6/3f4af60a-7a3d-9945-9c0e-7f6794c3a2ef/promo-07-weekly-report.png/1400x1400bb.jpg"
     ],
     "appName": "公關日記",
+    "version": "2.1",
     "retrievedOn": "2026-10-23",
     "device": "iPhone",
     "imageDimensions": [
       {
-        "width": 598,
-        "height": 1300
+        "width": 644,
+        "height": 1400
       },
       {
-        "width": 598,
-        "height": 1300
+        "width": 644,
+        "height": 1400
+      },
+      {
+        "width": 644,
+        "height": 1400
+      },
+      {
+        "width": 644,
+        "height": 1400
+      },
+      {
+        "width": 644,
+        "height": 1400
+      },
+      {
+        "width": 644,
+        "height": 1400
+      },
+      {
+        "width": 644,
+        "height": 1400
       }
     ]
   }

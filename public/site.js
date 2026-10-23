@@ -64,7 +64,7 @@ if (bar && input) {
 const navLinks = [...document.querySelectorAll('.site-nav a')];
 let currentNavGroup;
 const markCurrent = (group) => {
-  if (group === 'games') group = 'apps';
+  if (group === 'steam') group = 'games';
   if (group === currentNavGroup) return;
   currentNavGroup = group;
   for (const link of navLinks) {

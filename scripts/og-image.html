@@ -1,0 +1,47 @@
+<!doctype html>
+<!-- 分享預覽圖（1200×630）的版型。由 scripts/render-og.py 以無頭瀏覽器輸出 public/assets/brand/og-image.png -->
+<html lang="zh-Hant"><head><meta charset="utf-8">
+<link rel="stylesheet" href="/fonts/fonts.css">
+<style>
+  html, body { margin: 0; width: 1200px; height: 630px; overflow: hidden; }
+  body { position: relative; font-family: "Plus Jakarta Sans Variable", -apple-system, "PingFang TC", "Noto Sans TC", "Noto Sans CJK TC", sans-serif; color: #15172b; background: #f8f8fc; }
+  .aurora { position: absolute; inset: -20%; background:
+    radial-gradient(38% 42% at 18% 28%, rgba(255,95,162,.42), transparent 70%),
+    radial-gradient(34% 40% at 82% 22%, rgba(92,193,255,.45), transparent 70%),
+    radial-gradient(36% 38% at 68% 74%, rgba(140,108,255,.36), transparent 70%),
+    radial-gradient(30% 34% at 30% 86%, rgba(255,196,102,.36), transparent 70%); filter: blur(30px); }
+  .grid { position: absolute; inset: 0; display: grid; grid-template-columns: 1fr 460px; align-items: center; padding: 0 96px; gap: 24px; }
+  .eyebrow { font-size: 16px; font-weight: 700; letter-spacing: .12em; white-space: nowrap; text-transform: uppercase; color: #6b7190; margin: 0 0 26px; display: flex; align-items: center; gap: 12px; }
+  .eyebrow::before { content: ""; width: 12px; height: 12px; border-radius: 50%; background: linear-gradient(100deg, #ff5fa2, #ff8a5b 32%, #8c6cff 68%, #5cc1ff); }
+  h1 { margin: 0 0 24px; font-size: 76px; line-height: 1.05; font-weight: 800; letter-spacing: -.035em; }
+  h1 em { font-style: normal; background: linear-gradient(100deg, #ff5fa2, #ff8a5b 32%, #8c6cff 68%, #5cc1ff); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  .zh { font-size: 26px; font-weight: 700; letter-spacing: .02em; color: #363a56; margin: 0 0 18px; line-height: 1.5; }
+  .zh b { display: block; font-size: 32px; color: #15172b; }
+  .url { font-size: 22px; font-weight: 600; color: #6b7190; margin: 0; }
+  .art { position: relative; width: 460px; height: 460px; display: grid; place-items: center; }
+  .art::before { content: ""; position: absolute; inset: 12%; border-radius: 50%; background: radial-gradient(circle, rgba(140,108,255,.35), rgba(255,95,162,.18) 60%, transparent 72%); filter: blur(20px); }
+  .art::after { content: ""; position: absolute; inset: 6%; border-radius: 50%; border: 1.5px dashed rgba(21,23,43,.18); }
+  .logo { position: relative; width: 250px; filter: drop-shadow(0 30px 40px rgba(140,108,255,.4)); }
+  .icon { position: absolute; width: 62px; height: 62px; border-radius: 14px; box-shadow: 0 16px 30px -14px rgba(21,23,43,.5); }
+</style></head><body>
+<div class="aurora"></div>
+<div class="grid">
+  <div>
+    <p class="eyebrow">Independent app &amp; game studio · Est. 2026</p>
+    <h1>Small sparks,<br><em>big ideas.</em></h1>
+    <p class="zh"><b>花火工作室</b>將微小的靈感火花，化為精彩的創意</p>
+    <p class="url">firesparkle.com</p>
+  </div>
+  <div class="art">
+    <img class="logo" src="/assets/brand/icon-512.png" alt="">
+    <img class="icon" style="top:2%;left:46%" src="/assets/apps/6824004640.jpg" alt="">
+    <img class="icon" style="top:16%;left:82%" src="/assets/apps/6823824323.jpg" alt="">
+    <img class="icon" style="top:50%;left:93%" src="/assets/apps/6822188590.jpg" alt="">
+    <img class="icon" style="top:80%;left:76%" src="/assets/apps/6820863958.jpg" alt="">
+    <img class="icon" style="top:88%;left:40%" src="/assets/apps/6818286088.jpg" alt="">
+    <img class="icon" style="top:72%;left:6%" src="/assets/apps/6811446129.jpg" alt="">
+    <img class="icon" style="top:38%;left:-2%" src="/assets/apps/6761441866.jpg" alt="">
+    <img class="icon" style="top:10%;left:12%" src="/assets/apps/6755403297.jpg" alt="">
+  </div>
+</div>
+</body></html>

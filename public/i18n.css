@@ -1,90 +1,58 @@
-/* A compact language control that belongs to the existing paper-and-serif design. */
-.lang-toggle { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-width: 70px; white-space: nowrap; font: 500 12px/1.3 var(--font-body); letter-spacing: .02em; }
-.lang-toggle svg { width: 18px; height: 18px; flex: none; }
-.language-dialog { width: min(760px,calc(100% - 32px)); max-height: min(820px,calc(100dvh - 40px)); padding: 32px; border: 1px solid #c6b69e; background: #fcf8f1; color: #443c33; box-shadow: 0 25px 100px #30281c33; overscroll-behavior: contain; }
+/* 語言選單、各書寫系統的字型與 RTL 調整 */
+.language-dialog { width: min(760px, calc(100% - 32px)); max-height: min(820px, calc(100dvh - 40px)); padding: 28px; border: 1px solid var(--line-strong); border-radius: var(--radius-lg); background: var(--surface); color: var(--ink-soft); box-shadow: var(--shadow-lg); overscroll-behavior: contain; }
 .language-dialog[open] { display: flex; flex-direction: column; overflow: hidden; }
 .language-dialog-head, .language-search-label, #language-search, .language-load-status, .language-help { flex-shrink: 0; }
-.language-dialog::backdrop { background: #463b2b66; backdrop-filter: blur(4px); }
-.language-dialog-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 24px; margin-bottom: 24px; }
-.language-dialog-head .eyebrow { font: 400 17px/1.3 var(--font-latin); color: #776a5b; letter-spacing: .01em; margin-bottom: 10px; text-transform: none; }
-.language-dialog h2 { font-size: 28px; font-weight: 400; line-height: 1.5; }
-.language-close { display: grid; place-items: center; flex: none; width: 44px; height: 44px; border: 1px solid #e0d6c5; background: transparent; color: #62594f; font: 300 30px/1 Georgia,serif; }
-.language-search-label { display: block; font-size: 13px; margin-bottom: 8px; }
-#language-search { width: 100%; min-height: 48px; padding: 10px 14px; border: 1px solid #c6b69e; border-radius: 0; background: #fffdf8; color: #443c33; font-size: 16px; }
-.language-load-status { margin: 8px 0; min-height: 24px; font-size: 13px; color: #795b3f; }
-.language-options { min-height: 0; overflow-y: auto; overscroll-behavior: contain; flex: 0 1 auto; scrollbar-gutter: stable; display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 0 16px; }
-.language-options button { position: relative; display: flex; flex-direction: column; align-items: flex-start; justify-content: center; min-height: 72px; padding: 11px 28px 11px 10px; gap: 4px; border: 0; border-top: 1px solid #e0d6c5; background: transparent; color: #443c33; text-align: start; }
-.language-options button:hover { background: #f1e9db; }
-.language-options button[aria-current=true] { background: #eee3d0; }
-.language-native { font: 400 16px/1.5 "Noto Serif TC Variable", "Times New Roman", serif; overflow-wrap: anywhere; }
-.language-options small { font: 400 12px/1.4 Georgia,serif; color: #776a5b; }
-.language-check { display: none; position: absolute; inset-inline-end: 8px; top: 15px; font-size: 15px; }
+.language-dialog::backdrop { background: rgba(13,14,26,.5); backdrop-filter: blur(8px); }
+.language-dialog-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 24px; margin-bottom: 18px; }
+.language-dialog-head .eyebrow { margin-bottom: 8px; }
+.language-dialog h2 { font-size: 24px; }
+.language-close { display: grid; place-items: center; flex: none; width: 42px; height: 42px; border: 1px solid var(--line-strong); border-radius: 50%; background: var(--glass); color: var(--ink); font-size: 24px; line-height: 1; }
+.language-close:hover { border-color: var(--accent); }
+.language-search-label { display: block; font-size: 13px; font-weight: 600; margin-bottom: 8px; }
+#language-search { width: 100%; min-height: 46px; padding: 10px 16px; border: 1px solid var(--line-strong); border-radius: 999px; background: var(--glass); color: var(--ink); font-size: 16px; }
+#language-search:focus { outline: 2px solid var(--accent); outline-offset: 2px; }
+.language-load-status { margin: 8px 0; min-height: 22px; font-size: 13px; color: var(--accent-ink); }
+.language-options { min-height: 0; overflow-y: auto; overscroll-behavior: contain; flex: 0 1 auto; scrollbar-gutter: stable; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 4px; padding: 2px; }
+.language-options button { position: relative; display: flex; flex-direction: column; align-items: flex-start; justify-content: center; min-height: 60px; padding: 8px 30px 8px 12px; gap: 2px; border: 1px solid transparent; border-radius: 12px; background: transparent; color: var(--ink-soft); text-align: start; }
+.language-options button:hover { background: var(--accent-soft); }
+.language-options button[aria-current=true] { background: var(--accent-soft); border-color: var(--accent); color: var(--ink); }
+.language-native { font-size: 15px; font-weight: 600; line-height: 1.4; overflow-wrap: anywhere; }
+.language-options small { font-size: 12px; color: var(--muted); }
+.language-check { display: none; position: absolute; inset-inline-end: 10px; top: 50%; translate: 0 -50%; font-size: 14px; color: var(--accent-ink); }
 .language-options button[aria-current=true] .language-check { display: block; }
-.language-help { border-top: 1px solid #e0d6c5; padding-top: 20px; margin: 20px 0 0; font-size: 13px; line-height: 1.8; color: #706252; }
-[data-no-languages] { font-size: 15px; padding-block: 24px; }
-.policy-original-note { margin-top: 18px; }
-.policy-language-controls { display: flex; flex-wrap: wrap; gap: 12px; margin: 22px 0 30px; }
-.policy-language-controls button { min-height: 44px; padding: 8px 16px; background: transparent; border: 1px solid var(--line-strong); color: var(--ink); }
-.policy-language-controls button[aria-pressed=true] { background: var(--bg-deep); border-color: var(--accent); }
+.language-help { border-top: 1px solid var(--line); padding-top: 16px; margin: 16px 0 0; font-size: 13px; line-height: 1.7; color: var(--muted); }
+[data-no-languages] { font-size: 15px; padding-block: 24px; color: var(--muted); }
 .policy-body[lang] { direction: ltr; text-align: start; }
-.policy-body[lang=zh-Hant] { font-family: "Noto Serif TC Variable","Songti TC",serif; }
-.policy-body[lang=en] { font-family: Georgia,"Times New Roman",serif; }
-/* The selected script chooses familiar, readable serif fallbacks on each platform. */
-html[data-script=latin] { --font-body: Georgia,"Times New Roman","Noto Serif TC Variable",serif; --font-display: "Cormorant Garamond Variable",Georgia,"Noto Serif TC Variable",serif; }
-html[data-script=latin] h1, html[data-script=latin] h2 { font-family: var(--font-latin); letter-spacing: -.02em; }
-html[data-script=latin] .dawn-copy h1 { font-size: clamp(45px,5.1vw,72px); line-height: 1.15; letter-spacing: -.02em; }
-html[data-script=latin] .dawn-copy h1 em { font-size: .88em; letter-spacing: -.02em; font-style: italic; }
-html[data-script=cyrillic], html[data-script=greek] { --font-display: Georgia,"Times New Roman",serif; --font-body: Georgia,"Times New Roman",serif; }
-html[data-script=arabic] { --font-display: "Noto Naskh Arabic","Geeza Pro","Times New Roman",serif; --font-body: "Noto Naskh Arabic","Geeza Pro","Times New Roman",serif; }
-html[data-script=hebrew] { --font-display: "Noto Serif Hebrew","Times New Roman",serif; --font-body: "Noto Serif Hebrew","Times New Roman",serif; }
-html[data-script=indic] { --font-display: "Noto Serif Devanagari","Kohinoor Devanagari","Noto Serif Bengali","Noto Serif Tamil","Noto Serif Telugu",serif; --font-body: var(--font-display); }
-html[data-script=thai] { --font-display: "Noto Serif Thai","Thonburi",serif; --font-body: var(--font-display); }
-html[lang=ja] { --font-display: "Hiragino Mincho ProN","Yu Mincho","Noto Serif TC Variable",serif; --font-body: var(--font-display); }
-html[lang=ko] { --font-display: "AppleMyungjo","Batang","Noto Serif TC Variable",serif; --font-body: var(--font-display); }
-html[data-script]:not([data-script=latin]):not([data-script=cjk]) .dawn-copy h1 { font-size: clamp(37px,4.4vw,57px); line-height: 1.55; letter-spacing: 0; white-space: normal; }
-html[data-script]:not([data-script=latin]):not([data-script=cjk]) .dawn-copy h1 em { font-size: .7em; letter-spacing: 0; }
-html[data-script=arabic] body, html[data-script=hebrew] body, html[data-script=indic] body, html[data-script=thai] body { letter-spacing: 0; }
-html[data-script=arabic] :is(h1,h2,h3,.eyebrow), html[data-script=indic] :is(h1,h2,h3,.eyebrow) { letter-spacing: 0; text-transform: none; }
-html[dir=rtl] .site-nav { margin-left: 0; margin-inline-start: auto; }
-html[dir=rtl] .brand-latin, html[dir=rtl] .dawn-signature, html[dir=rtl] .contact-email, html[dir=rtl] .email-link { direction: ltr; unicode-bidi: isolate; }
-html[dir=rtl] .dawn-count { margin-left: 0; margin-inline-start: auto; }
-html[dir=rtl] .dawn-foot > a { margin-left: 0; margin-inline-start: 36px; }
-html[dir=rtl] .language-options button { padding-inline: 10px 28px; }
-html[dir=rtl] .steam-teaser > .arrow { margin-left: 0; margin-inline-start: auto; }
-html[dir=rtl] .card-no { left: auto; inset-inline-start: 14px; }
-html[dir=rtl] .is-home .card-no { inset-inline-start: 0; }
+
+/* 各書寫系統：Latin 使用 Plus Jakarta Sans，其餘使用各平台可讀的系統字型 */
+html[data-script=cjk] { --font-body: "Plus Jakarta Sans Variable", -apple-system, BlinkMacSystemFont, "PingFang TC", "Noto Sans TC", "Microsoft JhengHei", "Segoe UI", Roboto, sans-serif; }
+html[lang=zh-Hans] { --font-body: "Plus Jakarta Sans Variable", -apple-system, BlinkMacSystemFont, "PingFang SC", "Noto Sans SC", "Microsoft YaHei", "Segoe UI", Roboto, sans-serif; }
+html[lang=ja] { --font-body: "Plus Jakarta Sans Variable", -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic UI", Meiryo, sans-serif; }
+html[lang=ko] { --font-body: "Plus Jakarta Sans Variable", -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", sans-serif; }
+html[data-script=latin], html[data-script=cyrillic], html[data-script=greek] { --font-body: "Plus Jakarta Sans Variable", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
+html[data-script=arabic] { --font-body: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans Arabic", "Noto Naskh Arabic", "Geeza Pro", Tahoma, sans-serif; }
+html[data-script=hebrew] { --font-body: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans Hebrew", Arial, sans-serif; }
+html[data-script=indic] { --font-body: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans Devanagari", "Noto Sans Bengali", "Noto Sans Tamil", "Noto Sans Telugu", "Noto Sans Gujarati", "Noto Sans Gurmukhi", "Kohinoor Devanagari", sans-serif; }
+html[data-script=thai] { --font-body: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans Thai", Thonburi, sans-serif; }
+html[data-script=arabic] :is(h1, h2, h3, .eyebrow), html[data-script=indic] :is(h1, h2, h3, .eyebrow), html[data-script=thai] :is(h1, h2, h3) { letter-spacing: 0; }
+html[data-script=arabic] .eyebrow, html[data-script=indic] .eyebrow { text-transform: none; }
+html[data-script]:not([data-script=latin]):not([data-script=cjk]) .hero-copy h1 { font-size: clamp(34px, 4.8vw, 62px); line-height: 1.3; letter-spacing: 0; }
+html[data-script]:not([data-script=latin]):not([data-script=cjk]) h1, html[data-script]:not([data-script=latin]):not([data-script=cjk]) h2 { line-height: 1.35; }
+html[data-script=arabic] .hero-copy h1 em, html[data-script=hebrew] .hero-copy h1 em { padding-bottom: .15em; }
+
+/* RTL */
+html[dir=rtl] .brand-latin, html[dir=rtl] .steam-word, html[dir=rtl] .email-link, html[dir=rtl] .store-link, html[dir=rtl] .social-link, html[dir=rtl] .follow-card strong, html[dir=rtl] .follow-card .handle { direction: ltr; unicode-bidi: isolate; }
+html[dir=rtl] .arrow { transform: scaleX(-1); }
+html[dir=rtl] .button:hover .arrow, html[dir=rtl] .text-link:hover .arrow, html[dir=rtl] .button-glass:hover .arrow { transform: scaleX(-1) translate(3px, -2px); }
 html[dir=rtl] .gallery-modal-previous > span[aria-hidden], html[dir=rtl] .gallery-modal-next > span[aria-hidden] { display: inline-block; transform: scaleX(-1); }
-html[data-script] .site-nav { gap: clamp(14px,2vw,28px); }
-html[data-script] .dawn-actions { flex-wrap: wrap; gap: 16px 28px; }
-html[data-script] .dawn-actions a { max-width: 100%; }
-html[data-script] .dawn-actions .button, html[data-script] .dawn-actions .text-link { white-space: normal; }
-html[data-script] .dawn-caption > span { min-width: 0; overflow-wrap: anywhere; }
-html[data-script] .card-content h3, html[data-script] .feature-copy h3 { overflow-wrap: anywhere; }
-html[data-script] h1, html[data-script] h2 { overflow-wrap: anywhere; }
+html[dir=rtl] .orbit-icon { animation: none; }
+
+/* 翻譯後的導覽可能較長 */
 html[data-script] .site-nav a { overflow-wrap: anywhere; min-width: 0; }
-@media(max-width:1100px) {
-  html[data-script] .header-inner { display: grid; grid-template-columns: 1fr auto; min-height: 0; gap: 4px 16px; padding-top: 12px; padding-bottom: 4px; }
-  html[data-script] .site-nav { grid-column: 1/-1; grid-row: 2; width: 100%; margin: 0; justify-content: space-between; flex-wrap: wrap; gap: 0 16px; font-size: 13px; }
-  html[data-script] .lang-toggle { grid-column: 2; grid-row: 1; }
-  html[data-script] { scroll-padding-top: 154px; }
+html[data-script] .hero-actions a { max-width: 100%; white-space: normal; }
+@media (max-width: 680px) {
+  .language-dialog { padding: 20px 16px; max-height: calc(100dvh - 24px); }
+  .language-dialog h2 { font-size: 20px; }
+  .language-options { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .language-native { font-size: 14px; }
 }
-@media(max-width:680px) {
-  .language-dialog { padding: 22px 18px; max-height: calc(100dvh - 24px); }
-  .language-dialog h2 { font-size: 24px; }
-  .language-options { grid-template-columns: repeat(2,minmax(0,1fr)); gap: 0 10px; }
-  .language-native { font-size: 15px; }
-  html[data-script=latin] .dawn-copy h1 { font-size: clamp(40px,10.5vw,58px); line-height: 1.12; }
-  html[data-script]:not([data-script=latin]):not([data-script=cjk]) .dawn-copy h1 { font-size: clamp(32px,8.6vw,48px); }
-  html[data-script] .site-nav { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); font-size: 12px; gap: 0 12px; }
-  html[data-script] .header-inner { gap: 4px 10px; }
-  .lang-toggle { min-width: 67px; }
-  html[dir=rtl] .dawn-count { margin-inline-start: 0; }
-  html[dir=rtl] .dawn-foot > a { margin-inline-start: auto; }
-  html[data-script] .work-actions { flex-wrap: wrap; gap: 8px 20px; }
-}
-@media(max-width:380px) {
-  html[data-script] .brand-latin { font-size: 19px; }
-  html[data-script] .brand-mark { width: 29px; }
-  html[data-script] .brand { gap: 7px; }
-}
-html[data-script] { scroll-padding-top: calc(var(--site-header-height, 138px) + 16px); }

@@ -6,9 +6,20 @@ export const site = {
   nameZh: '花火工作室',
   nameEn: 'FireSparkle.Studio',
   email: 'firesparkle.studio@gmail.com',
-  tagline: 'App & Game Development',
-  updatedZh: '2026 年 10 月 18 日',
-  updatedEn: 'October 18, 2026',
+  tagline: 'Small sparks, big ideas.',
+  founded: 2026,
+  // 社群帳號：Instagram 與 Threads 皆為 @firesparkle.studio
+  social: {
+    handle: 'firesparkle.studio',
+    instagram: 'https://www.instagram.com/firesparkle.studio/',
+    threads: 'https://www.threads.com/@firesparkle.studio',
+  },
+  // 網站隱私說明的更新日期（變更時需同步新增各語言的「Last updated …」文字，見 data/i18n/additions-*.json）
+  updatedZh: '2026 年 10 月 23 日',
+  updatedEn: 'October 23, 2026',
+  // 各 App 隱私政策彙整日期的預設值（manifest 未指定 compiledZh/compiledEn 時使用）
+  policyCompiledZh: '2026 年 10 月 18 日',
+  policyCompiledEn: 'October 18, 2026',
 };
 
 // 作品排序（首頁、作品頁編號依此順序）
