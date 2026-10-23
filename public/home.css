@@ -95,9 +95,10 @@ html[data-script=latin] .hero-copy h1 em { font-style: italic; }
 .studio-grid { display: grid; grid-template-columns: .8fr 1.2fr; gap: clamp(24px, 5vw, 72px); align-items: center; }
 .studio-identity { display: flex; flex-direction: column; align-items: center; text-align: center; padding: 44px 30px; }
 .studio-identity > img { width: 140px; margin-bottom: 22px; filter: drop-shadow(0 16px 26px rgba(120,100,140,.22)); }
-.studio-identity > p { margin: 0 0 6px; font-family: var(--font-latin); font-size: 28px; letter-spacing: .01em; color: var(--ink); direction: ltr; unicode-bidi: isolate; }
-.studio-identity > p > span { color: var(--accent); }
-.studio-identity > small { font-size: 13px; letter-spacing: .1em; color: var(--muted); margin-bottom: 22px; }
+.studio-identity > p { margin: 0 0 8px; padding-inline-start: .16em; font-family: var(--font-brand-cjk); font-size: 28px; font-weight: 600; letter-spacing: .16em; color: var(--ink); }
+.studio-identity > small { font-size: 13px; letter-spacing: .08em; color: var(--muted); margin-bottom: 22px; }
+.studio-identity .studio-latin { font-family: var(--font-latin); font-size: 14px; letter-spacing: .04em; color: var(--ink-soft); direction: ltr; unicode-bidi: isolate; }
+.studio-identity .studio-latin span { color: var(--accent); }
 .studio-identity .hero-social { justify-content: center; }
 .studio-copy h2 { margin-bottom: 18px; }
 .studio-copy > p:not(.eyebrow) { font-size: 17px; color: var(--ink-soft); max-width: 40em; }

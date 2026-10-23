@@ -70,7 +70,7 @@ GitHub Pages 已設定自訂網域並強制 HTTPS；HTTP 與 `www.firesparkle.co
 
 字型：中文 Noto Serif TC（宋體，可變字重 200–900，依 Unicode 分片載入），英文優先使用裝置內建的 Times New Roman，沒有時使用度量相容的 Tinos；標題中文 600 字重、英文 Times 常規體搭配斜體強調。其他書寫系統在 `public/i18n.css` 指定各平台可讀的襯線字型。
 
-品牌商標使用 2026-10-21 提供的透明 PNG，原檔保存在 `data/brand/firesparkle-logo-original.png`。頁首、頁尾、工作室介紹、404、分享圖片與瀏覽器圖示共用此圖的等比縮小版本。品牌圖片與樣式網址帶內容雜湊，避免訪客快取舊版。
+品牌商標使用 2026-10-21 提供的透明 PNG，原檔保存在 `data/brand/firesparkle-logo-original.png`。頁首、頁尾、工作室介紹、404、分享圖片與瀏覽器圖示共用此圖的等比縮小版本。標誌旁的品牌名稱以中文「花火工作室」為主（Noto Serif TC 600 字重），下方以小字放英文 FireSparkle.Studio（句點為古金色）；頁首、頁尾與首頁工作室介紹卡片採同一排法，所有語言版本與手機寬度都顯示中文名，樣式在 `public/style.css` 的 `.brand-*` 與 `public/home.css` 的 `.studio-identity`。品牌圖片與樣式網址帶內容雜湊，避免訪客快取舊版。
 
 ## 部署
 
