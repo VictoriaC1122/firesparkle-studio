@@ -1,8 +1,9 @@
-Put the Chinese studio name first in the brand lockup
+Order works by sales and add fuller descriptions and guides to every app page
 
-- Header and footer brand: 花火工作室 as the main line in Noto Serif TC, FireSparkle.Studio as a smaller line below; shown in every language and on phones (it was hidden below 480px)
-- Homepage studio card uses the same Chinese-first lockup
-- README documents the brand lockup
+- Works now follow the App Store Connect sales ranking (Compound Interest Calculator, Easy Lucky Draw, Larry's Cocktail Lab, Crypto Essentials Dictionary, Vitamin Today, ...); the homepage grid, the hero orbit, the share image, the guide indexes and "Other apps and games" all use the new order
+- Each app and game page gains an About section (two to three paragraphs and a key-features list), a detailed explanation under every how-to step, and "More ways to use it" and "Tips" panels, written from the official App Store descriptions and screenshots in Traditional Chinese and English (data/guides/details/)
+- Chinese interfaces show the Chinese text and every other language shows the English text with a one-line note; six new interface strings are translated into all 48 other languages
+- README documents the order and the details files
 
 Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>
-Claude-Session: https://claude.ai/code/session_014ctCtQDidxovHiqweC7MkE
+Claude-Session: https://claude.ai/code/session_01ChroGNbZezvQHV9GM4nHnZ

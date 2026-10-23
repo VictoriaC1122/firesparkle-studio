@@ -1,0 +1,69 @@
+{
+  "source": "App Store 官方說明、2.0 更新記錄與 6 張官方截圖（2026-10-23 查詢，data/apple-lookup-2026-10-23.json、public/assets/screenshots/crypto-dictionary/）",
+  "zh": {
+    "intro": [
+      "「幣圈神器」是一款以區塊鏈與加密貨幣為主題的雙語學習工具。從比特幣的誕生背景、中本聰白皮書、區塊、節點與共識機制，到錢包、智能合約、Layer 2 與實際應用，入門課程讓第一次接觸的人也能循序讀懂。",
+      "2.0 版加入「加密投資與研究學院」：12 大知識模組、180 篇文章，每篇都包含定義、原理、應用案例、公式、研究上的重要性、常見誤解、風險與 3 題測驗；另有 7 條學習路線、12 個月雙軌訓練計畫、10 個實作研究專案與風險計算練習室，讓你從入門一路讀到能自己做投資研究。",
+      "介面與詞典提供繁體中文與英文，學院 12 個模組的文章也都有完整英文版，學院進度可透過 iCloud 在 iPhone、iPad 與 Mac 之間同步。App 只提供教育與資訊整理，不提供即時行情、不連接交易所、不執行任何真實交易，也不提供投資建議。"
+    ],
+    "features": [
+      ["兩條入門路線", "區塊鏈基礎與投資實務分開整理，涵蓋交易所選擇、法幣入出金、下單方式、多空方向、槓桿與風險管理。"],
+      ["加密投資與研究學院", "12 模組、180 篇文章，涵蓋代幣經濟學與估值、鏈上數據、技術分析、量化交易、衍生品、風險管理、DeFi、研究方法與產業職涯。"],
+      ["學習路線與訓練計畫", "7 條依目標安排的路線、12 個月雙軌訓練計畫（每週 4、7 或 10 小時）與 10 個可放進作品集的實作研究專案。"],
+      ["風險計算練習室", "部位規模、VaR、回撤、強制平倉價格、資金費率、無常損失與定期定額試算。"],
+      ["全域搜尋與每日複習", "一次查找詞條、課程、學院文章、交易所與幣種分類；答錯的題目依 1、3、7、14、30 天間隔回到複習。"],
+      ["雙語與同步", "繁中與英文內容、iCloud 同步，桌面小工具每天一則詞條或學院術語。"]
+    ],
+    "stepDetails": [
+      "第一次開啟時先設定學習目標與每週時數，課程頁與每日提醒會以推薦路線為主。首頁的「今日導覽」可以接著上次的進度，或從區塊鏈基礎、投資實務兩條路線選一條開始；讀到不熟的名詞，就用全域搜尋直接查詞條或相關課程。",
+      "錢包、私鑰、助記詞與託管方式是資產安全的核心主題。把想重看的詞條與課程加入收藏；要選交易所時，到交易所總覽用託管方式、產品結構與使用情境等一致的維度比較，逐步建立自己的安全觀念。",
+      "打開每日複習，內容會從收藏、最近閱讀與詞典中安排；每則看完按「完成回顧」，隔天會換一組。學院測驗答錯的題目也會依間隔回到複習，介面與內容可隨時在繁體中文與英文之間切換。"
+    ],
+    "more": [
+      ["幣種分類", "從用途、代表資產、常見誤解與風險，理解不同類別的幣種與核心敘事。"],
+      ["學習路線", "依目標選一條路線，照前置知識、實作任務與階段測驗的順序完成。"],
+      ["風險計算練習室", "在做任何決定前，先用部位規模、回撤與強制平倉價格試算，把風險具體化。"],
+      ["學院術語索引", "700 個以上關鍵術語附中英文定義與出處文章，可以當作查閱手冊。"],
+      ["Crypto Guide Pro（選用）", "研究工作台的畫重點與筆記、投資論點追蹤、進階風險練習室、模組考試與結業證書、750 個以上的間隔複習字卡；免費內容全部維持免費。"]
+    ],
+    "tips": [
+      "先走完入門課程再進學院，模組裡的公式與案例會好懂很多。",
+      "每日複習與桌面小工具每天只給一點內容，持續比一次讀很多更有效。",
+      "時效性內容（如升級參數、各地監管進度）都標示查核日期，實際仍以相關專案與主管機關公告為準。",
+      "App 不提供行情、交易或投資建議；回測與模擬結果不代表未來績效。"
+    ]
+  },
+  "en": {
+    "intro": [
+      "Crypto Essentials Dictionary is a bilingual learning tool for blockchain and cryptocurrency. The introductory courses start from the origins of Bitcoin, the Nakamoto white paper, blocks, nodes and consensus, and continue through wallets, smart contracts, Layer 2 and real-world applications, so a complete beginner can read in order and keep up.",
+      "Version 2.0 adds the Crypto Investment and Research Academy: 12 modules and 180 articles, each with a definition, the underlying principle, use cases, formulas, why it matters in research, common misconceptions, risks and a three-question quiz. Seven learning paths, a twelve-month dual-track training plan, ten hands-on research projects and a risk calculation lab take you from first contact to doing your own research.",
+      "The interface and dictionary are available in Traditional Chinese and English, every Academy module has a full English version, and Academy progress syncs through iCloud across iPhone, iPad and Mac. The app is educational only: no live prices, no exchange connections, no real trades and no investment advice."
+    ],
+    "features": [
+      ["Two starter paths", "Blockchain basics and investing practice are kept separate, covering exchange choice, fiat on- and off-ramps, order types, long and short positions, leverage and risk management."],
+      ["The Academy", "12 modules and 180 articles spanning tokenomics and valuation, on-chain data, technical analysis, quantitative trading, derivatives, risk management, DeFi, research methods and industry careers."],
+      ["Paths and training plans", "Seven goal-based learning paths, a twelve-month dual-track plan at 4, 7 or 10 hours a week, and ten portfolio-ready research projects."],
+      ["Risk calculation lab", "Position sizing, VaR, drawdown, liquidation price, funding rates, impermanent loss and dollar-cost averaging."],
+      ["Global search and daily review", "Search terms, courses, Academy articles, exchanges and coin categories at once; missed questions return at 1, 3, 7, 14 and 30 days."],
+      ["Bilingual and synced", "Traditional Chinese and English content, iCloud sync and a home-screen widget with a daily term."]
+    ],
+    "stepDetails": [
+      "On first launch, set a learning goal and weekly hours; the course page and daily reminders then follow the recommended path. The home screen's daily guide picks up where you left off or lets you start one of two paths, blockchain basics or investing practice. Whenever a term is unfamiliar, use global search to jump to its entry or a related course.",
+      "Wallets, private keys, seed phrases and custody are the heart of asset security. Save the entries and courses you want to reread, and when choosing an exchange, use the exchange overview to compare them on the same dimensions — custody model, product structure and use case — as you build your own safety habits.",
+      "Open the daily review: it draws on your saved items, recent reading and the dictionary. Mark each one as reviewed and tomorrow brings a fresh set. Academy quiz questions you missed come back at intervals, and the interface and content switch between Traditional Chinese and English at any time."
+    ],
+    "more": [
+      ["Coin categories", "Understand each category of coin and its core narrative through its purpose, representative assets, common misconceptions and risks."],
+      ["Learning paths", "Choose a path by goal and work through its prerequisites, practical tasks and stage quizzes in order."],
+      ["Risk lab", "Before any decision, run position size, drawdown and liquidation price through the lab to make the risk concrete."],
+      ["Academy term index", "More than 700 key terms with bilingual definitions and links to the articles they come from, usable as a reference manual."],
+      ["Crypto Guide Pro (optional)", "Highlights and notes in the research workbench, thesis tracking, an advanced risk lab, module exams with certificates and more than 750 spaced-repetition flashcards; all free content stays free."]
+    ],
+    "tips": [
+      "Finish the introductory courses before the Academy; the modules' formulas and cases make far more sense with the basics in place.",
+      "The daily review and widget serve a little each day: steady beats binge reading.",
+      "Time-sensitive content, such as upgrade parameters and regional regulation, carries a verification date; the projects and regulators themselves remain the authority.",
+      "The app offers no prices, trading or investment advice, and backtests or simulations never predict future results."
+    ]
+  }
+}

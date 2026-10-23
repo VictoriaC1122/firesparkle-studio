@@ -1,0 +1,135 @@
+{
+  "source": "App Store 官方說明、更新記錄與 3 張官方截圖（2026-10-23 查詢，data/apple-lookup-2026-10-23.json、public/assets/screenshots/dream-journal/）",
+  "zh": {
+    "intro": [
+      "醒來後，夢通常只會停留幾分鐘。「把夢遺留下來」讓你先記住一個畫面、一句話或當時的感受，不必一開始就把故事整理完整。文字與選用的語音輸入、草稿自動保存，讓片段不會在刷牙的時候溜走。",
+      "每則夢境可以標上情緒、清晰度與標籤並加入收藏；裝置內的規則式解讀會串連夢裡的情節、情緒與人物互動，提供整體解讀、引導思考的問題與研究來源。搜尋、夢境月曆與基本趨勢回顧，讓你看見反覆出現的畫面。",
+      "夢境、草稿與個人字典都保存在裝置上，無廣告、無第三方分析追蹤，不需註冊帳號；語音輸入只在你主動使用時啟動。解讀與特質問卷供自我回顧使用，不提供醫療或心理診斷。支援 iPhone、iPad，以及繁體中文、簡體中文、英文、日文、德文、西班牙文與韓文。"
+    ],
+    "features": [
+      [
+        "快速記下片段",
+        "文字或選用語音輸入，草稿自動保存；快速記夢小工具一點就回到輸入區。"
+      ],
+      [
+        "情緒、清晰度與標籤",
+        "為每則夢境加上情緒、清晰度評分與標籤，並收藏重要的夢。"
+      ],
+      [
+        "情境式解讀",
+        "裝置內的規則式解讀串連情節、情緒與人物互動，附引導問題與研究來源，不使用雲端 AI。"
+      ],
+      [
+        "回顧工具",
+        "搜尋、編輯、刪除、夢境月曆與基本趨勢回顧。"
+      ],
+      [
+        "每日提醒",
+        "本機通知提醒記夢，不需註冊帳號。"
+      ],
+      [
+        "Pro 夢境圖譜（選用）",
+        "主題與情緒的長期累積、個人夢境字典、月份回顧與 30 天比較、以 Mini-IPIP 為基礎的 20 題特質問卷與可分享的特質圖卡。"
+      ]
+    ],
+    "stepDetails": [
+      "一醒來就打開 App（或從主畫面的快速記夢小工具進入），點「寫一則夢」，用文字或語音先寫下記得的畫面、對話或感受。不必完整，先記畫面、再補情緒，草稿會自動保存，之後想到什麼再補。",
+      "為這則夢境選擇情緒與清晰度，加上幾個標籤，例如出現的人、地點或主題；重要的夢可以收藏。打開夢境詳情，可以看到在裝置上整理的內容：先說感覺、哪些線索比較清楚、以前是否也夢過，以及研究上怎麼看。",
+      "在夢境回顧選擇月份，看當月紀錄數、有夢的日子、常見情緒與重複出現的象徵，再從夢境月曆點進某一天回看內容。記起新的細節時，直接編輯原紀錄；刪除夢境時，衍生的回顧也會一起更新。"
+    ],
+    "more": [
+      [
+        "情境式解讀",
+        "讀完解讀與對應的原文，再回答引導思考的問題，把夢和最近的生活連起來；解讀是裝置內的規則式整理，不是醫療或心理判斷。"
+      ],
+      [
+        "趨勢回顧",
+        "從基本趨勢看情緒與標籤的變化；Pro 的長期紀錄趨勢會從累積的夢境觀察反覆出現的關係、選擇與感受。"
+      ],
+      [
+        "個人夢境字典（Pro）",
+        "為常出現的符號寫下自己的意思，之後的夢境可以連回曾出現的線索；文字由你提供，並非 App 推測的事實。"
+      ],
+      [
+        "特質問卷（Pro）",
+        "完成以 Mini-IPIP 為基礎的 20 題自陳問卷，查看五軸特質雷達，並可分享不含夢境內容的特質圖卡。"
+      ],
+      [
+        "提醒與語言",
+        "在設定調整每日提醒、切換語言與重新設定偏好，也可以再看一次教學。"
+      ]
+    ],
+    "tips": [
+      "先記畫面再記故事；一個清楚的畫面，往往比勉強拼湊的情節更有價值。",
+      "標籤保持一致（同一個人、同一個地點用同一個詞），趨勢回顧才看得出模式。",
+      "紀錄數不等於睡眠品質，也不能證明心理狀態或夢的成因；把解讀當作自我回顧的起點就好。",
+      "語音輸入視裝置與語言支援，音訊可能由 Apple 語音辨識服務處理。"
+    ]
+  },
+  "en": {
+    "intro": [
+      "A dream usually lingers only a few minutes after waking. Leave Your Dream Behind lets you hold on to one image, one line or the feeling of the moment, without having to tidy the whole story first. Text or optional voice input and autosaved drafts mean the fragment survives even when you are half awake.",
+      "Each dream can carry a mood, a clarity rating, tags and a place in your favourites. On-device, rule-based interpretation links the dream's events, emotions and interactions into an overall reading, with guiding questions and research sources. Search, a dream calendar and basic trend reviews reveal the images that keep returning.",
+      "Dreams, drafts and your personal dictionary stay on the device, with no ads, no third-party analytics and no account. Voice input runs only when you choose to use it. Interpretations and the trait questionnaire are for self-reflection, not medical or psychological diagnosis. The app supports iPhone and iPad in Traditional Chinese, Simplified Chinese, English, Japanese, German, Spanish and Korean."
+    ],
+    "features": [
+      [
+        "Capture fragments fast",
+        "Text or optional voice input with autosaved drafts, plus a quick-entry widget that jumps straight to the editor."
+      ],
+      [
+        "Mood, clarity and tags",
+        "Give every dream a mood, a clarity rating and tags, and keep the important ones in your favourites."
+      ],
+      [
+        "Contextual interpretation",
+        "On-device, rule-based readings link events, emotions and interactions, with guiding questions and research sources — no cloud AI."
+      ],
+      [
+        "Review tools",
+        "Search, edit, delete, a dream calendar and basic trend reviews."
+      ],
+      [
+        "Daily reminder",
+        "A local notification to write your dream down, with no account required."
+      ],
+      [
+        "Pro dream map (optional)",
+        "Long-term themes and moods, a personal dream dictionary, monthly reviews with a 30-day comparison, a 20-item Mini-IPIP-based trait questionnaire and a shareable trait card."
+      ]
+    ],
+    "stepDetails": [
+      "Open the app as soon as you wake (or tap the quick-entry widget on the home screen), start a new dream and write or dictate the image, conversation or feeling you remember. It does not need to be complete — capture the image first and add the mood later; the draft saves itself as you go.",
+      "Choose a mood and clarity rating, add a few tags — the people, places or themes in it — and favourite the dreams that matter. The dream's detail page shows what was put together on your device: how it felt, which clues stand out, whether you have dreamed something similar before, and what research has to say.",
+      "In the dream review, pick a month to see how many entries you made, how many nights you dreamed, the most common mood and the symbols that keep returning, then tap a day in the dream calendar to reread it. When a new detail surfaces, edit the original entry; deleting a dream updates the reviews derived from it."
+    ],
+    "more": [
+      [
+        "Contextual interpretation",
+        "Read the interpretation alongside the passages it refers to, then answer the guiding questions to connect the dream with your recent life. The reading is on-device and rule-based, not a medical or psychological judgement."
+      ],
+      [
+        "Trend reviews",
+        "Watch how moods and tags shift in the basic trends; the Pro long-term view looks across accumulated dreams for recurring relationships, choices and feelings."
+      ],
+      [
+        "Personal dream dictionary (Pro)",
+        "Write your own meaning for recurring symbols so later dreams can link back to earlier clues. The words are yours, not facts the app has inferred."
+      ],
+      [
+        "Trait questionnaire (Pro)",
+        "Complete the 20-item Mini-IPIP-based self-report, view the five-axis trait radar and share a trait card that contains none of your dream text."
+      ],
+      [
+        "Reminders and language",
+        "Adjust the daily reminder, switch language, reset preferences and replay the tutorial from Settings."
+      ]
+    ],
+    "tips": [
+      "Record the image before the story; one clear picture is usually worth more than a plot pieced together by force.",
+      "Keep tags consistent — the same word for the same person or place — so trend reviews can show patterns.",
+      "The number of entries says nothing about sleep quality, mental state or what caused a dream; treat interpretations as a starting point for reflection.",
+      "Depending on device and language, voice input may be processed by Apple's speech recognition service."
+    ]
+  }
+}

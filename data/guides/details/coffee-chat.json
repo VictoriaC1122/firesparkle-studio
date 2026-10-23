@@ -1,0 +1,135 @@
+{
+  "source": "App Store 官方說明、1.2 更新記錄與 4 張官方截圖（2026-10-23 查詢，data/apple-lookup-2026-10-23.json、public/assets/screenshots/coffee-chat/）",
+  "zh": {
+    "intro": [
+      "每次交流，都是新的可能。「Coffee Chat 筆記」是一款為求職與職場交流打造的私人手帳，從會前準備、對話紀錄到後續跟進，把散落的資訊整理成清楚、可搜尋的職涯脈絡。",
+      "聯絡人頁整理對方的公司、職務、背景與互動紀錄，讓下一次見面更有準備；對話頁記錄 Coffee Chat 的提問、重點洞見與反思，之後可以編輯、搜尋與回顧；後續待辦與本機提醒接住每個下一步，並整理職涯機會。",
+      "不需要註冊 App 帳號，筆記儲存在裝置上，支援完整 JSON 備份與還原以及資料匯出，並可開啟 Face ID、Touch ID 或裝置密碼保護。介面支援繁體中文、英文、日文等 12 種語言，可跟隨系統或選擇淺色、深色外觀。"
+    ],
+    "features": [
+      [
+        "聯絡人",
+        "公司、職務、背景與互動紀錄，認識方式與歷次見面一目了然。"
+      ],
+      [
+        "對話紀錄",
+        "Coffee Chat 的提問、重點洞見與反思；可編輯、搜尋與回顧。"
+      ],
+      [
+        "後續跟進",
+        "待辦連結到聯絡人或對話，設定日期與本機提醒；整理職涯機會。"
+      ],
+      [
+        "資料由你掌握",
+        "不需註冊，筆記儲存在裝置；完整 JSON 備份與還原、資料匯出、Face ID／Touch ID／裝置密碼保護。"
+      ],
+      [
+        "Pro 進階工具（選用）",
+        "會前簡報、每月人脈目標、名片掃描與通訊錄匯入、「該聯絡誰了」清單、16 套交流模板、72 則常用語與 160 題提問題庫、PDF 報告、機會看板、人脈關係圖等。"
+      ],
+      [
+        "12 種語言與外觀",
+        "繁體中文、簡體中文、英文、日文、西班牙文、法文、韓文、德文、巴西葡萄牙文、印尼文、印地文與阿拉伯文；淺色、深色或跟隨系統。"
+      ]
+    ],
+    "stepDetails": [
+      "在首頁按「新增人物」，填上姓名，再補上公司、職務、背景與關係資訊（例如類別與初次認識的日期）。人物檔案會集中顯示關係脈絡與未完成的待辦，見面前翻一下，就能想起上次聊到哪裡。",
+      "按「新增 Coffee Chat」，選擇參與者，先列出想問的問題；聊的時候逐一打勾，沒問到的可以直接帶到下一次。會後回到這則對話，記下重點洞見與自己的反思，之後都能搜尋與回顧。",
+      "從對話或人物建立後續待辦，例如寄出感謝信與作品集，設定日期並開啟本機提醒。「行程總覽」會把對話、跟進待辦與機會日期集中整理，方便安排下一次聯繫。"
+    ],
+    "more": [
+      [
+        "搜尋與回顧",
+        "用關鍵字找回某次對話的提問、洞見或反思，準備下一次交流時特別有用。"
+      ],
+      [
+        "備份與匯出",
+        "製作完整 JSON 備份，換機後還原；資料也可以匯出。備份與分享檔案可能含有私人資料，請存放在可信任的位置。"
+      ],
+      [
+        "解鎖保護",
+        "開啟 Face ID、Touch ID 或裝置密碼，打開 App 時需要驗證。"
+      ],
+      [
+        "Pro 會前簡報與人脈目標",
+        "見面前一頁看完對方資料、上次聊了什麼、未完成的待辦與想問的問題；設定每月 Coffee Chat 場數，追蹤連續達標月數。"
+      ],
+      [
+        "Pro 快速建檔與提醒",
+        "拍名片在裝置上辨識文字並帶入資料（名片影像不會被儲存），或從通訊錄匯入；「該聯絡誰了」依聯絡紀錄與週期列出該跟進的人。"
+      ]
+    ],
+    "tips": [
+      "會前列好三個真正想問的問題，比準備十個泛泛的問題更有收穫。",
+      "會後當天就補筆記，印象最清楚；隔幾天再回頭看，寫下反思。",
+      "每位聯絡人都記下「認識方式」，日後要再聯絡時，開場會自然很多。",
+      "筆記只保存在裝置上，請定期匯出 JSON 備份。"
+    ]
+  },
+  "en": {
+    "intro": [
+      "Every conversation opens a new possibility. Coffee Chat Note is a private notebook for job hunting and professional networking. From preparation before a meeting, through the conversation itself, to the follow-up afterwards, it gathers scattered information into a clear, searchable career thread.",
+      "Contact pages hold a person's company, role, background and your history together, so the next meeting starts better prepared. Conversation pages record each coffee chat's questions, key insights and reflections, ready to edit, search and revisit. Follow-up tasks with local reminders catch every next step, and opportunities are kept in order.",
+      "No app account is needed. Notes live on the device, with full JSON backup and restore plus data export, and you can protect access with Face ID, Touch ID or the device passcode. The interface comes in 12 languages, including Traditional Chinese, English and Japanese, and follows the system or your choice of light or dark appearance."
+    ],
+    "features": [
+      [
+        "Contacts",
+        "Company, role, background and interaction history, with how you met and every meeting at a glance."
+      ],
+      [
+        "Conversation notes",
+        "Each coffee chat's questions, key insights and reflections, ready to edit, search and revisit."
+      ],
+      [
+        "Follow-ups",
+        "Tasks linked to a person or conversation with a date and a local reminder; opportunities kept in order."
+      ],
+      [
+        "Your data, your device",
+        "No registration; notes stored on the device with full JSON backup and restore, data export and Face ID, Touch ID or passcode protection."
+      ],
+      [
+        "Pro tools (optional)",
+        "Pre-meeting briefs, monthly networking goals, business-card scanning and contact import, a \"who to contact next\" list, 16 conversation templates, 72 phrases and 160 question prompts, PDF reports, an opportunity board, a relationship map and more."
+      ],
+      [
+        "Twelve languages and appearance",
+        "Traditional Chinese, Simplified Chinese, English, Japanese, Spanish, French, Korean, German, Brazilian Portuguese, Indonesian, Hindi and Arabic; light, dark or system."
+      ]
+    ],
+    "stepDetails": [
+      "On the home screen, add a person by name, then fill in their company, role, background and relationship details (such as category and the date you first met). The person's page brings together your history and any open tasks, so a quick look before meeting reminds you where you left off.",
+      "Start a new coffee chat, choose the participants and list the questions you want to ask; tick them off as you talk, and anything you did not get to can roll over to next time. Afterwards, return to the conversation to record the key insights and your own reflections, all searchable later.",
+      "Create a follow-up from the conversation or the person — sending a thank-you note and your portfolio, for example — set a date and turn on a local reminder. The schedule overview gathers conversations, follow-ups and opportunity dates in one place so you can plan the next contact."
+    ],
+    "more": [
+      [
+        "Search and review",
+        "Find the questions, insights or reflections from a past conversation by keyword — especially useful when preparing for the next one."
+      ],
+      [
+        "Backup and export",
+        "Make a full JSON backup and restore it on a new phone; data can also be exported. Backup and shared files may contain private information, so keep them somewhere you trust."
+      ],
+      [
+        "Unlock protection",
+        "Turn on Face ID, Touch ID or the device passcode so opening the app requires verification."
+      ],
+      [
+        "Pro briefs and goals",
+        "See a person's details, what you discussed last time, open tasks and planned questions on one page before a meeting; set a monthly coffee-chat target and track consecutive months achieved."
+      ],
+      [
+        "Pro quick capture and reminders",
+        "Photograph a business card to recognise the text on the device and fill in the record (the image is not stored), or import from Contacts; \"who to contact next\" lists people due a follow-up based on your history and chosen cadence."
+      ]
+    ],
+    "tips": [
+      "Three questions you actually want answered beat ten generic ones; write them down before the meeting.",
+      "Add your notes the same day, while the impression is fresh, and come back a few days later for the reflection.",
+      "Record how you met each person; it makes reopening the conversation much more natural later on.",
+      "Notes live only on your device, so export a JSON backup regularly."
+    ]
+  }
+}

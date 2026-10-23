@@ -1,14 +1,15 @@
 // 花火工作室 FireSparkle.Studio 官網 — 靜態網站產生器
 // 執行：node scripts/build.mjs
-// 讀取 src/content.mjs、data/apple-catalog.json、data/site-media.json、data/guides/、data/privacy-sources/manifest.json，
-// 產出 public/ 底下的首頁、各作品頁（介紹、畫面、使用方式）與隱私頁、指南總覽、隱私中心、支援頁、網站隱私說明、404、sitemap。
-// 內容與介面使用本站語言檔；隱私正文保留既有來源語言。
+// 讀取 src/content.mjs、data/apple-catalog.json、data/site-media.json、data/guides/（含 details/ 的詳細介紹）、data/privacy-sources/manifest.json，
+// 產出 public/ 底下的首頁、各作品頁（介紹、主要功能、畫面、使用方式、更多用法與小提醒）與隱私頁、指南總覽、隱私中心、支援頁、網站隱私說明、404、sitemap。
+// 介面文字使用本站 50 種語言檔；作品的詳細介紹與操作說明為繁體中文／英文雙語，隱私正文保留既有來源語言。
 import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { createHash } from 'node:crypto';
 import { renderHome } from '../src/home.mjs';
 import { renderGuide, guideCopy } from '../src/guides.mjs';
+import { loadDetails, renderAbout, renderStepDetail, renderMore } from '../src/details.mjs';
 import { renderShots, renderPhone, renderShot, mediaFor, stepImageIndex, isLandscape } from '../src/showcase.mjs';
 import { prepareI18n } from '../src/i18n-build.mjs';
 import { site, order, categoryEn, genreEn, apps as appInfo } from '../src/content.mjs';
@@ -114,19 +115,21 @@ for (const [i, a] of apps.entries()) {
   const item = mediaFor(media, a.slug);
   const entry = guideEntries[isGame ? 'games' : 'apps'][a.slug];
   if (!entry?.steps?.length) throw new Error(`Missing usage steps: ${a.slug}`);
+  const detail = await loadDetails(root, a.slug, entry.steps.length);
   const landscape = isLandscape(item.imageDimensions[0]);
   // 主視覺：直式截圖取前兩張交錯擺放；橫式（iPad）截圖只放一張
   const heroShots = (landscape ? [0] : [0, Math.min(1, item.images.length - 1)]).map((n, k) => renderPhone({ app: a, media, index: n, esc, messageId, eager: k === 0 })).join('');
-  const steps = entry.steps.map((step, n) => `<li class="step glass reveal" style="animation-delay:${n * 80}ms"><span class="step-no" aria-hidden="true">${pad(n + 1)}</span>${renderShot({ app: a, media, index: stepImageIndex(entry, n, item.images.length), esc, messageId, className: 'step-shot' })}<div class="step-text"><p>${L(esc(step.zh), esc(step.en))}</p></div></li>`).join('');
+  const steps = entry.steps.map((step, n) => `<li class="step glass reveal" style="animation-delay:${n * 80}ms"><span class="step-no" aria-hidden="true">${pad(n + 1)}</span>${renderShot({ app: a, media, index: stepImageIndex(entry, n, item.images.length), esc, messageId, className: 'step-shot' })}<div class="step-text"><p class="step-lead">${L(esc(step.zh), esc(step.en))}</p>${renderStepDetail({ detail, index: n, esc })}</div></li>`).join('');
   const spec = `<dl class="spec-list glass reveal"><div><dt>${L('類別', 'Category')}</dt><dd>${L(esc(a.genres.join(' · ')), esc(a.genres.map((g) => genreEn[g] || g).join(' · ')))}</dd></div><div><dt>${L('系統需求', 'Requires')}</dt><dd>${L(`iOS ${esc(minOS)} 或以上`, `iOS ${esc(minOS)} or later`)}</dd></div><div><dt>${L('年齡分級', 'Age rating')}</dt><dd>${esc(a.contentRating)}</dd></div><div><dt>${L('開發者', 'Developer')}</dt><dd>${esc(a.artistName)}</dd></div></dl>`;
   const content = `<div class="wrap">${breadcrumb(L(esc(a.short), esc(a.en)))}
 <section class="app-hero"><div class="app-hero-copy reveal"><p class="eyebrow">${isGame ? T('Games') : T('Apps')} <span aria-hidden="true">·</span> <span class="keep" dir="ltr">iOS</span>${isGame ? '' : ` <span aria-hidden="true">·</span> ${catL(a.category)}`}</p><img class="app-icon app-hero-icon" src="${a.iconPath}" alt="${esc(a.short)}" data-i18n-alt="${messageId(esc(a.en))}" width="160" height="160"><h1>${L(esc(a.nameZhHant), esc(a.en))}</h1><p class="lead">${L(esc(a.shortDescription), esc(a.enDesc))}</p><div class="actions"><a class="button" href="${a.storeUrl}">${L('在 App Store 查看', 'View on the App Store')} ${arrow('↗')}</a><a class="button-glass" href="#howto">${T('How to use')} ${arrow('↓')}</a><a class="text-link" href="${policyURL(a)}">${isWebsiteOnly(a) ? L('隱私資訊', 'Privacy information') : L('隱私政策', 'Privacy policy')} ${arrow()}</a></div><div class="app-meta"><span class="pill" dir="ltr">iOS ${esc(minOS)}+</span><span class="pill">${esc(a.contentRating)}</span><span class="pill">${L(esc(a.genres.join(' · ')), esc(a.genres.map((g) => genreEn[g] || g).join(' · ')))}</span></div></div><div class="app-hero-shots reveal" aria-hidden="true">${heroShots}</div></section>
+${renderAbout({ detail, isGame, T, esc })}
 <section class="section" id="screens" aria-labelledby="screens-title"><div class="section-head reveal"><div><p class="eyebrow">App Store</p><h2 id="screens-title">${T('Screenshots')}</h2></div><p class="shot-count" dir="ltr">${item.images.length} / ${esc(item.device || 'iPhone')}</p></div>${renderShots({ app: a, media, esc, messageId })}</section>
-<section class="section" id="howto" aria-labelledby="howto-title"><div class="section-head reveal"><div><p class="eyebrow">${L(guideCopy[isGame ? 'games' : 'apps'].zh, guideCopy[isGame ? 'games' : 'apps'].en)}</p><h2 id="howto-title">${T('How to use')}</h2></div></div><ol class="howto" data-gallery>${steps}</ol><div class="howto-foot"><a class="button" href="${a.storeUrl}">${L('在 App Store 查看', 'View on the App Store')} ${arrow('↗')}</a><a class="text-link" href="/guides/${isGame ? 'games' : 'apps'}/">${L(guideCopy[isGame ? 'games' : 'apps'].zh, guideCopy[isGame ? 'games' : 'apps'].en)} ${arrow()}</a><a class="text-link" href="/support/">${T('Support & FAQ')} ${arrow()}</a></div></section>
+<section class="section" id="howto" aria-labelledby="howto-title"><div class="section-head reveal"><div><p class="eyebrow">${L(guideCopy[isGame ? 'games' : 'apps'].zh, guideCopy[isGame ? 'games' : 'apps'].en)}</p><h2 id="howto-title">${T('How to use')}</h2></div></div><ol class="howto" data-gallery>${steps}</ol>${renderMore({ detail, T, esc })}<div class="howto-foot"><a class="button" href="${a.storeUrl}">${L('在 App Store 查看', 'View on the App Store')} ${arrow('↗')}</a><a class="text-link" href="/guides/${isGame ? 'games' : 'apps'}/">${L(guideCopy[isGame ? 'games' : 'apps'].zh, guideCopy[isGame ? 'games' : 'apps'].en)} ${arrow()}</a><a class="text-link" href="/support/">${T('Support & FAQ')} ${arrow()}</a></div></section>
 <section class="section">${spec}</section>
 <section class="section app-support"><div class="app-support-copy glass reveal"><p class="eyebrow">${T('Downloads and support')}</p><h2>${L('下載與支援', 'Downloads and support')}</h2><p>${L('功能、系統需求、價格及 App 內購買項目，請以 App Store 的最新說明為準。', 'See the App Store listing for current features, requirements, pricing and in-app purchases.')}</p><div class="info-links"><a class="text-link" href="${policyURL(a)}">${L('閱讀隱私資訊', 'Read privacy information')} ${arrow()}</a><a class="text-link" href="/support/">${L('支援與常見問題', 'Support & FAQ')} ${arrow()}</a></div></div>${contactBox(a)}</section>
 </div><section class="section more-works"><div class="wrap"><div class="section-head reveal"><div><p class="eyebrow">${T('More from FireSparkle')}</p><h2>${L('其他作品', 'Other apps and games')}</h2></div><a class="text-link" href="/${isGame ? '#games' : '#apps'}">${isGame ? L('所有遊戲', 'All games') : L('所有 App', 'All apps')} ${arrow()}</a></div><div class="resource-list reveal">${appRows('app', others)}</div></div></section>`;
-  await save(`app/${a.slug}/index.html`, page({ path: appURL(a), title: `${a.nameZhHant}｜使用方式與畫面｜花火工作室 FireSparkle.Studio`, description: `${a.shortDescription} 官方畫面、使用方式與 App Store 下載連結。`, content, navGroup: isGame ? 'games' : 'apps', extraHead: galleryHead }));
+  await save(`app/${a.slug}/index.html`, page({ path: appURL(a), title: `${a.nameZhHant}｜介紹、使用方式與畫面｜花火工作室 FireSparkle.Studio`, description: `${a.shortDescription} 完整介紹、主要功能、官方畫面、使用步驟與小提醒，以及 App Store 下載連結。`, content, navGroup: isGame ? 'games' : 'apps', extraHead: galleryHead }));
 
   const p = a.policy;
   const original = await read(`data/privacy-sources/${p.policyTextFile}`);

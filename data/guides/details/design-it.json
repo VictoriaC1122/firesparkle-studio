@@ -1,0 +1,135 @@
+{
+  "source": "App Store 官方說明、1.2.0 更新記錄與 3 張官方截圖（2026-10-23 查詢，data/apple-lookup-2026-10-23.json、public/assets/screenshots/design-it/）",
+  "zh": {
+    "intro": [
+      "想整理家的樣子，不必先學會專業繪圖。「自己來設計」把空間預覽、房間照片試色、材料比較與預算整理放在一起，讓你把想法整理成能和家人或設計師討論的方案。",
+      "從客廳、臥室或工作區模板開始，切換地板、牆面、家具與日夜燈光；加入房間參考照片後，可以移動、旋轉家具並保存配置。照片試色採用手動選取與本機影像處理：手動調整四角範圍試色，比較原圖與效果，再匯出試色圖。支援 LiDAR 的 iPhone 與 iPad 還可以用 RoomPlan 掃描房間。",
+      "收藏候選材料，整理數量、運送與安裝費，分享預算明細；3D 格局則在 App 內使用 Sweet Home 3D 官方線上編輯器畫平面圖與擺家具（需要網路）。支援 20 種語言，不需註冊，核心功能離線可用。照片、掃描與配置保存在裝置上；模擬圖與預算僅供前期規劃參考，不是施工圖或正式報價。"
+    ],
+    "features": [
+      [
+        "空間模板",
+        "客廳、臥室或工作區，切換地板、牆面、家具與日夜燈光，比較不同配置。"
+      ],
+      [
+        "房間照片與家具配置",
+        "加入參考照片，移動、旋轉家具並保存；參考收納建議與內建尺寸模型。"
+      ],
+      [
+        "照片試色",
+        "在裝置上查看主要色彩與明暗，手動調整四角範圍試色，比較原圖並匯出試色圖。"
+      ],
+      [
+        "RoomPlan 掃描",
+        "支援 LiDAR 的裝置可掃描房間，其他裝置仍可使用範例空間與照片功能。"
+      ],
+      [
+        "材料與預算",
+        "收藏候選材料，整理數量、運送與安裝費，分享預算明細。"
+      ],
+      [
+        "3D 格局與小工具",
+        "App 內使用 Sweet Home 3D 線上編輯器畫平面圖、切換 2D／3D；桌面小工具一鍵開啟常用功能並顯示每日設計小提示。"
+      ]
+    ],
+    "stepDetails": [
+      "按「選擇空間模板」，從客廳、臥室或工作區開始（空間範例的封面是風格示意，點選即可開啟 3D 模板）。在 3D 選材工作區，地板、牆面與家具分成不同圖層，可以切換白天或夜晚的光線、家具擺位（居中、靠窗、會客）與視角，並旋轉、縮放查看。",
+      "加入一張房間照片，App 會在裝置上分析主要色彩與明暗。手動把四角範圍對準想試色的牆面或區域，選擇顏色，再對照原圖與效果；滿意的結果可以匯出成試色圖。",
+      "瀏覽材料並收藏候選項目，填入數量、運送與安裝費，整理成預算明細後，可以分享給家人或設計師，或匯出成文字檔。材料、供應商與價格是內建範例，實際費用請向廠商確認。"
+    ],
+    "more": [
+      [
+        "家具配置",
+        "在參考照片上移動、旋轉家具並保存配置，參考內建尺寸模型與收納建議檢查動線。"
+      ],
+      [
+        "RoomPlan 掃描",
+        "支援 LiDAR 的 iPhone 或 iPad 可掃描房間取得空間尺寸；掃描尺寸僅供前期規劃參考。"
+      ],
+      [
+        "3D 格局",
+        "在 App 內用 Sweet Home 3D 線上編輯器畫平面圖、擺家具，切換 2D／3D 查看（需要網路；線上設計與帳號由該服務管理）。"
+      ],
+      [
+        "桌面小工具",
+        "一鍵開啟 3D 格局、空間模板、預算或收藏，每天顯示一則設計小提示。"
+      ],
+      [
+        "語言與提醒",
+        "在設定或新手教學第一頁切換 20 種語言；提醒時間可選 1 天、3 天、7 天後或不提醒。"
+      ]
+    ],
+    "tips": [
+      "試色照片盡量在自然光下拍，色彩判斷會比較接近實際。",
+      "影像明暗不等於實際照度；燈光與材質請以現場為準。",
+      "模板的尺寸備註不會自動改變 3D 空間或計算用量，預算數量請自行填寫。",
+      "模擬圖、掃描尺寸與預算僅供前期規劃參考，正式施工與報價請與專業人員確認。"
+    ]
+  },
+  "en": {
+    "intro": [
+      "Sorting out how your home should look does not require learning professional drafting. Design It Yourself brings space previews, colour tests on room photos, material comparison and budgeting together, so your ideas become a proposal you can discuss with family or a designer.",
+      "Start from a living room, bedroom or workspace template and switch floors, walls, furniture and day or night lighting. Add a reference photo of your room, then move and rotate furniture and save the arrangement. Colour testing is manual and processed on the device: adjust a four-corner area, compare the result with the original and export the image. On LiDAR-equipped iPhones and iPads you can also scan a room with RoomPlan.",
+      "Save candidate materials, work out quantities, delivery and installation costs and share the budget breakdown. For 3D layouts, the official Sweet Home 3D online editor runs inside the app for drawing floor plans and placing furniture (internet required). The app comes in 20 languages, needs no account and works offline for its core features. Photos, scans and layouts stay on the device, and renderings and budgets are early-planning references, not construction drawings or formal quotes."
+    ],
+    "features": [
+      [
+        "Space templates",
+        "Living room, bedroom or workspace, with switchable floors, walls, furniture and day or night lighting for comparing layouts."
+      ],
+      [
+        "Room photos and furniture",
+        "Add a reference photo, move and rotate furniture and save the arrangement, with storage suggestions and built-in sizing models."
+      ],
+      [
+        "Colour testing",
+        "Read the photo's main colours and brightness on the device, adjust a four-corner area to test a colour, compare with the original and export."
+      ],
+      [
+        "RoomPlan scanning",
+        "LiDAR-equipped devices can scan a room; others can still use the sample spaces and photo tools."
+      ],
+      [
+        "Materials and budget",
+        "Save candidate materials, work out quantities, delivery and installation costs and share the breakdown."
+      ],
+      [
+        "3D layouts and widgets",
+        "The Sweet Home 3D online editor inside the app for floor plans with 2D and 3D views; home-screen widgets open common tools and show a daily design tip."
+      ]
+    ],
+    "stepDetails": [
+      "Tap to choose a space template and start from a living room, bedroom or workspace (the sample covers show the style; tap one to open its 3D template). In the 3D materials workspace, floors, walls and furniture sit on separate layers, and you can switch between day and night lighting, furniture placements (centred, by the window or for conversation) and viewpoints, rotating and zooming as you go.",
+      "Add a photo of the room and the app reads its main colours and brightness on the device. Drag the four-corner area over the wall or surface you want to test, choose a colour, then compare the result with the original; export the image when you are happy with it.",
+      "Browse materials and save the candidates, enter quantities, delivery and installation costs, and once the budget breakdown is ready, share it with family or a designer or export it as a text file. Materials, suppliers and prices are built-in samples; confirm actual costs with suppliers."
+    ],
+    "more": [
+      [
+        "Furniture layouts",
+        "Move and rotate furniture over a reference photo and save the arrangement, checking circulation against the built-in sizing models and storage suggestions."
+      ],
+      [
+        "RoomPlan scanning",
+        "Scan a room on a LiDAR-equipped iPhone or iPad to capture its dimensions; scanned measurements are for early planning only."
+      ],
+      [
+        "3D layouts",
+        "Draw a floor plan and place furniture in the Sweet Home 3D online editor inside the app and switch between 2D and 3D (internet required; online designs and accounts are managed by that service)."
+      ],
+      [
+        "Home-screen widgets",
+        "Open 3D layouts, templates, the budget or your favourites with one tap, with a daily design tip."
+      ],
+      [
+        "Language and reminders",
+        "Switch among 20 languages in Settings or on the first tutorial page; reminders can be set for 1, 3 or 7 days later, or off."
+      ]
+    ],
+    "tips": [
+      "Shoot colour-test photos in natural light; the colours will be closer to reality.",
+      "Image brightness is not a measure of real illumination; judge lighting and materials in the room itself.",
+      "Size notes on templates do not change the 3D space or calculate quantities — enter quantities in the budget yourself.",
+      "Renderings, scanned dimensions and budgets are early-planning references; confirm construction and quotes with professionals."
+    ]
+  }
+}

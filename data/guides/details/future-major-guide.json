@@ -1,0 +1,135 @@
+{
+  "source": "App Store 官方說明與 8 張官方截圖（2026-10-23 查詢，data/apple-lookup-2026-10-23.json、public/assets/screenshots/future-major-guide/）",
+  "zh": {
+    "intro": [
+      "選大學、選科系，不用一次想清楚。「我決定自己的未來」陪台灣與美國的高中生、大學生和家長一起探索院校與學習方向：先看懂自己，再把選項整理成可以比較、可以準備的下一步。轉系、轉學與 gap year 的你也適用。",
+      "台灣選系收錄 159 所院校、1,346 個科系／學程、2,747 筆實際校系，以及 1,338 筆逐校系學習地圖：年級必修、選修方向、特色課程與職涯，並附 115／116 學年度招生參考，逐筆標示年度與來源。10 題興趣測驗以本機規則式推薦，清楚說明為什麼推薦；可收藏校系、寫決策筆記，最多 4 筆並排比較。",
+      "美國大學部分涵蓋 4,031 所 IPEDS 官方名錄院校，可依州別、公私立與學制篩選，附歷史學科學位紀錄、CIP 領域定義與職涯對照。介面提供 20 種語言，不需註冊、不使用追蹤 SDK，測驗、收藏、筆記與申請清單只存在你的裝置。App 不代表任何學校或招生單位，也不保證錄取；正式申請請以校方最新公告為準。"
+    ],
+    "features": [
+      [
+        "台灣選系資料庫",
+        "159 所院校、1,346 個科系／學程、2,747 筆實際校系，逐筆標示年度與來源。"
+      ],
+      [
+        "逐校系學習地圖",
+        "1,338 筆年級必修、選修方向、特色課程與職涯整理。"
+      ],
+      [
+        "興趣測驗與推薦",
+        "10 題測驗，本機規則式推薦並說明理由。"
+      ],
+      [
+        "收藏、筆記與比較",
+        "收藏校系、寫決策筆記，最多 4 筆並排比較。"
+      ],
+      [
+        "美國大學名錄",
+        "4,031 所 IPEDS 院校，依州別、公私立、學制篩選；歷史學位紀錄、CIP 領域定義與職涯對照，部分學校的官方逐年修課規劃。"
+      ],
+      [
+        "美國入學 Pro（選用）",
+        "2026–27 Common App 941 校的期限、申請費、文章、推薦與考試政策；我的申請清單、期限提醒、同年度費用比較與依考試政策找校。"
+      ]
+    ],
+    "stepDetails": [
+      "首頁的快速入口有找大學、看科系、看錄取參考與取得推薦。在科系列表可依工程、商管、醫藥衛生、文史哲等分類瀏覽或搜尋，打開校系查看學習地圖：各年級必修、選修方向、特色課程與職涯；每筆資料都標示年度與來源。",
+      "做 10 題興趣測驗，從學習、思考與互動方式整理你目前的偏好線索；作答會自動保存在這台裝置，可以稍後接著做。推薦由裝置內的規則產生並說明理由，順著推薦點進相關科系，看看課程是否符合想像。",
+      "把想比較的學校與科系加入收藏，最多 4 筆並排比較，再用決策筆記記下差異、疑問與想請教老師或學長姊的問題。訂閱美國入學 Pro 時，申請清單與截止日倒數也會出現在收藏頁。"
+    ],
+    "more": [
+      [
+        "美國大學",
+        "依州別、公私立與學制篩選 4,031 所院校，查看歷史學科學位紀錄、CIP 領域定義與職涯對照，部分學校另有官方逐年修課規劃。"
+      ],
+      [
+        "美國入學 Pro",
+        "查看 2026–27 Common App 新生要求，用「我的申請清單」依新生／轉學與國際申請者身分自動整理每校要準備的文件、期限、財力與 I-20 步驟。"
+      ],
+      [
+        "期限提醒（Pro）",
+        "確認日期後，在到期前 7 天、1 天與當天收到本機提醒。"
+      ],
+      [
+        "費用比較（Pro）",
+        "同一學年、同一居住情境比較最多 4 校的學費與生活費，缺值不會被當成 0。"
+      ],
+      [
+        "考試與申請指南（Pro）",
+        "依 SAT／ACT 政策找學校，並閱讀 SAT、ACT、英檢、AP／IB、EA／ED 與轉學指南。"
+      ]
+    ],
+    "tips": [
+      "先做測驗、再看資料，比較不會被校名牽著走。",
+      "資料是標示年度的官方快照，歷史統計不等於當期規定；正式申請以校方最新公告為準。",
+      "決策筆記裡記下「為什麼」，幾週後回看會更清楚自己真正在意的事。",
+      "收藏、筆記與申請清單只存在你的裝置上，刪除 App 前請先整理需要留下的內容。"
+    ]
+  },
+  "en": {
+    "intro": [
+      "Choosing a university and a major does not have to be settled all at once. Future Major Guide walks high-school and university students and their parents in Taiwan and the United States through institutions and fields of study: understand yourself first, then turn the options into next steps you can compare and prepare for. It works just as well if you are changing majors, transferring or taking a gap year.",
+      "The Taiwan section covers 159 institutions, 1,346 departments and programmes and 2,747 actual admissions entries, with 1,338 programme-level study maps — required courses by year, elective directions, signature courses and careers — plus admissions references for the 115 and 116 academic years, each marked with its year and source. A ten-question interest quiz uses on-device rules to recommend programmes and explains why; save programmes, write decision notes and compare up to four side by side.",
+      "The US section lists 4,031 institutions from the official IPEDS directory, filterable by state, public or private status and programme level, with historical degree records, CIP field definitions and career mappings. The interface comes in 20 languages, there is no registration or tracking SDK, and quizzes, saved items, notes and application lists stay on your device. The app represents no school or admissions body and guarantees no admission; for a formal application, follow each school's latest announcements."
+    ],
+    "features": [
+      [
+        "Taiwan programme database",
+        "159 institutions, 1,346 departments and programmes and 2,747 admissions entries, each marked with year and source."
+      ],
+      [
+        "Programme study maps",
+        "1,338 maps of required courses by year, elective directions, signature courses and careers."
+      ],
+      [
+        "Interest quiz and recommendations",
+        "Ten questions, with on-device rule-based suggestions and the reasons behind them."
+      ],
+      [
+        "Save, note and compare",
+        "Save programmes, write decision notes and compare up to four side by side."
+      ],
+      [
+        "US university directory",
+        "4,031 IPEDS institutions filterable by state, control and level, with historical degree records, CIP field definitions, career mappings and official year-by-year course plans for some schools."
+      ],
+      [
+        "US Admissions Pro (optional)",
+        "2026–27 Common App requirements for 941 schools — deadlines, fees, essays, recommendations and testing policies — plus My Application List, deadline reminders, same-year cost comparison and search by testing policy."
+      ]
+    ],
+    "stepDetails": [
+      "The home screen's shortcuts lead to universities, majors, admission references and recommendations. In the list of majors, browse by category — engineering, business, medicine and health, humanities and more — or search, then open a programme to read its study map: required courses by year, elective directions, signature courses and careers. Every entry shows its year and source.",
+      "Take the ten-question interest quiz, which looks at how you learn, think and work with others to sketch your current preferences; answers save on this device so you can finish later. Recommendations come from on-device rules and explain their reasons — follow them into the related majors to see whether the courses match what you imagined.",
+      "Save the schools and programmes you want to weigh up, compare up to four side by side, and use decision notes to record differences, doubts and questions for teachers or current students. With US Admissions Pro, your application list and deadline countdowns appear on the saved page too."
+    ],
+    "more": [
+      [
+        "US universities",
+        "Filter 4,031 institutions by state, control and level, read historical degree records, CIP field definitions and career mappings, and official year-by-year course plans where available."
+      ],
+      [
+        "US Admissions Pro",
+        "Browse 2026–27 Common App first-year requirements and let My Application List organise each school's documents, deadlines, financial evidence and I-20 steps by first-year, transfer or international status."
+      ],
+      [
+        "Deadline reminders (Pro)",
+        "Once you confirm a date, local reminders arrive 7 days before, 1 day before and on the day."
+      ],
+      [
+        "Cost comparison (Pro)",
+        "Compare tuition and living costs for up to four schools in the same academic year and residency scenario, with missing values never treated as zero."
+      ],
+      [
+        "Test and application guides (Pro)",
+        "Find schools by SAT or ACT policy and read guides on the SAT, ACT, English proficiency tests, AP and IB, EA and ED, and transfers."
+      ]
+    ],
+    "tips": [
+      "Take the quiz before browsing; it keeps school names from steering the decision.",
+      "The data are official snapshots marked by year, and past statistics are not current rules; follow each school's latest announcements for formal applications.",
+      "Write the \"why\" in your decision notes; reading them back weeks later shows what you really care about.",
+      "Saved items, notes and application lists exist only on your device, so sort out what to keep before deleting the app."
+    ]
+  }
+}

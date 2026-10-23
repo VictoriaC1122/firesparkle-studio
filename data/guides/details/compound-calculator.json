@@ -1,0 +1,69 @@
+{
+  "source": "App Store 官方說明、更新記錄與 6 張官方截圖（2026-10-23 查詢，data/apple-lookup-2026-10-23.json、public/assets/screenshots/compound-calculator/）",
+  "zh": {
+    "intro": [
+      "「複利計算器」是一套以長期規劃為核心的財務試算工具。它同時計算名義報酬與實質報酬，把通膨對購買力的影響一起算進去，讓你看到的不只是帳面數字，而是未來真正能用的金額。",
+      "App 分成投資複利、財務自由、貸款試算與退休規劃幾個部分：從複利與定期投入、收入配置與存錢規劃，到財務自由（FIRE）目標、退休資產需求，以及房貸、信貸、車貸、證券貸款與保單貸款的還款壓力，都用圖表、壓力判讀與整理後的結果呈現。介面簡潔易懂，適合投資新手、上班族與正在做財務規劃的人。",
+      "財務顧問、貸款與退休規劃的輸入會自動保存在裝置上，下次打開可以接著調整；設定頁提供備份檔的匯出與匯入。金額固定以新臺幣計算，所有結果都是假設下的估算，不保證報酬，也不構成投資建議。"
+    ],
+    "features": [
+      ["名義與實質報酬", "同一組條件同時看帳面成長，以及扣除通膨後的購買力。"],
+      ["成長圖表與年度里程碑", "實線是總資產、虛線是累計投入的本金，下方逐年列出累積金額。"],
+      ["財務自由與退休規劃", "估算 FIRE 目標與退休後需要的資產，支出可用年支出或月支出輸入。"],
+      ["貸款壓力試算", "房貸、信貸、車貸、證券貸款與保單貸款的還款負擔與壓力判讀。"],
+      ["自動保存與備份", "財務顧問、貸款與退休的輸入自動保存；可手動匯出、匯入備份，匯入前保留可還原的復原副本。"],
+      ["12 種介面語言", "金額固定為新臺幣，切換語言不會換匯或套用各地稅制。"]
+    ],
+    "stepDetails": [
+      "在「投資複利」輸入本金、報酬率、期間與定期投入。成長圖表的實線是總資產、虛線是累計投入的本金，兩條線之間的距離，大致就是時間與報酬替你累積的部分；下方的年度里程碑會逐年列出金額。",
+      "加入通膨假設，對照名義報酬與扣除通膨後的實質報酬，看出同一筆錢在未來的購買力。Pro 會員還能把其他工具已儲存的數值（例如通膨率、安全提領率、退休年齡與退休後支出）先預覽、再勾選帶入，不必重複輸入。",
+      "改變定期投入或期間後再試算一次，和前一次的結果比較，觀察假設如何影響數字。想看更長遠的安排，可以到「退休規劃」估算退休後需要多少資產；Pro 的退休報告會用三種情境整理資產可支撐的年數、可能耗盡的年齡等結果，並匯出 PDF 或 TXT。"
+    ],
+    "more": [
+      ["財務自由目標", "在「財務自由」估算達到 FIRE 目標需要的資產；Pro 另外提供三種情境、壓力測試與缺口分析。"],
+      ["退休規劃", "設定年支出或月支出與退休年齡等條件，估算退休後需要多少資產；Pro 加上提領規劃與壓力測試。"],
+      ["貸款試算", "選擇貸款種類並填入條件，查看還款負擔與壓力判讀；Pro 的貸款分析加入升息壓力與償債安全的檢查。"],
+      ["Pro 專屬工作室", "人生模擬（人生事件與達標時間）、財務顧問（年度健檢、目標反推與報告）與投資分析（情境比較與敏感度）。"],
+      ["備份與還原", "在設定匯出備份檔，內容包含已儲存的貸款、退休、顧問、人生模擬與投資計畫，以及計算預設值；換機或重裝後再匯入。"]
+    ],
+    "tips": [
+      "報酬率請用保守一點的假設，並對照實質報酬一起看；所有數字都是情境估算，不是保證。",
+      "想比較兩種做法時，先記下第一組結果，再只改一個條件重新試算，差異會更清楚。",
+      "備份檔含有你輸入的財務資料，請存放在私人的位置。",
+      "金額固定以新臺幣計算，切換介面語言不會自動換匯。"
+    ]
+  },
+  "en": {
+    "intro": [
+      "Compound Interest Calculator is a financial planning tool built around the long term. It calculates nominal and real returns side by side, so inflation's effect on purchasing power is part of every result rather than an afterthought.",
+      "The app is organised into compound investing, financial independence, loans and retirement. Compound growth and regular contributions, income allocation and savings plans, financial independence (FIRE) targets, retirement asset needs, and the repayment pressure of mortgages, personal, car, securities-backed and policy loans are all presented with charts, a pressure reading and clear summaries. The interface is deliberately simple, and it suits beginners, salaried workers and anyone putting together a financial plan.",
+      "Inputs for the financial advisor, loans and retirement planning are saved automatically on the device, so you can pick up where you left off, and Settings offers backup export and import. Amounts are always in New Taiwan dollars. Every result is an estimate under stated assumptions; nothing is a guarantee of returns or investment advice."
+    ],
+    "features": [
+      ["Nominal and real returns", "See paper growth and inflation-adjusted purchasing power for the same assumptions."],
+      ["Growth chart and yearly milestones", "The solid line is total assets and the dashed line is the principal paid in, with a year-by-year list of balances below."],
+      ["Financial independence and retirement", "Estimate FIRE targets and the assets retirement will need, entering spending per year or per month."],
+      ["Loan pressure", "Repayment burden and a pressure reading for mortgages, personal, car, securities-backed and policy loans."],
+      ["Autosave and backup", "Advisor, loan and retirement inputs save themselves; export and import backups by hand, with a restore copy kept before any import."],
+      ["Twelve interface languages", "Amounts stay in New Taiwan dollars; switching language never converts currency or applies local tax rules."]
+    ],
+    "stepDetails": [
+      "In Compound Investing, enter the principal, rate of return, period and regular contributions. On the growth chart the solid line is total assets and the dashed line is the principal you have paid in; the gap between them is roughly what time and returns have added. The yearly milestones below list the balance for each year.",
+      "Add an inflation assumption to compare nominal returns with real, inflation-adjusted returns and see what the same money will buy in the future. Pro members can also preview values saved in other tools — inflation rate, safe withdrawal rate, retirement age and spending after retirement — and tick the ones to carry over instead of typing them again.",
+      "Change the contribution or the period, calculate again and compare with the previous result to see how each assumption moves the numbers. For the longer view, Retirement estimates the assets you will need after you stop working; the Pro retirement report sets out three scenarios with how many years the assets last and the age at which they might run out, exportable as PDF or TXT."
+    ],
+    "more": [
+      ["Financial independence target", "Estimate the assets a FIRE target requires in Financial Independence; Pro adds three scenarios, stress tests and a gap analysis."],
+      ["Retirement planning", "Set annual or monthly spending, retirement age and other conditions to estimate the assets you will need; Pro adds withdrawal planning and stress tests."],
+      ["Loan calculator", "Choose a loan type and enter its terms to read the repayment burden and pressure rating; Pro's loan analysis adds rate-rise stress and debt-service safety checks."],
+      ["Pro studio", "Life simulation (life events and when goals are reached), a financial advisor (annual check-up, working back from goals, reports) and investment analysis (scenario comparison and sensitivity)."],
+      ["Backup and restore", "Export a backup from Settings covering saved loan, retirement, advisor, life-simulation and investment plans plus your calculation defaults, then import it after changing or resetting your phone."]
+    ],
+    "tips": [
+      "Use a conservative rate of return and always read the real return alongside it; the figures are scenario estimates, not promises.",
+      "To compare two approaches, note the first result, change a single assumption and calculate again — the difference is much easier to see.",
+      "Backup files contain the financial details you entered; keep them somewhere private.",
+      "Amounts are always in New Taiwan dollars; switching the interface language does not convert currencies."
+    ]
+  }
+}

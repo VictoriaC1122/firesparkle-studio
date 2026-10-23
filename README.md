@@ -9,7 +9,8 @@ GitHub Pages 已設定自訂網域並強制 HTTPS；HTTP 與 `www.firesparkle.co
 ## 內容
 
 - 首頁 `/`：主視覺（品牌標誌＋作品圖示星軌）、作品數量、已推出的遊戲（賴瑞的調酒研究室、完美養豬）、Steam 上架準備狀態、15 款作品（分類篩選與搜尋，卡片連到各作品頁）、關於工作室、追蹤我們（Instagram、Threads、Email）
-- 作品頁 `/app/<slug>/`：介紹、系統需求與分級、App Store 全部官方截圖（可橫向捲動、點選放大）、`#howto` 使用方式（App 三步驟、遊戲四步驟，每步搭配對應畫面）、下載與支援、其他作品；隱私頁 `/app/<slug>/privacy/` 維持原網址
+- 作品排序：依 App Store Connect 的累積銷售數量由高到低（2026-10-23）：複利計算器、輕鬆抽獎、賴瑞的調酒研究室、幣圈神器、你今天維他命了嗎、股神養成、公關日記、AI 時間管理、把夢遺留下來、自己來設計、Coffee Chat 筆記、完美養豬、哩程管家、我決定自己的未來、圖解半導體。首頁作品格、星軌與分享圖的前六款圖示、指南總覽與作品頁的「其他作品」都依這個順序；新的銷售資料出來時改 `src/content.mjs` 的 `order`，並同步 `scripts/og-image.html` 的六個圖示後重新輸出分享圖
+- 作品頁 `/app/<slug>/`：主視覺與簡介、`#about` 關於這款 App／遊戲（兩到三段完整介紹＋主要功能）、App Store 全部官方截圖（可橫向捲動、點選放大）、`#howto` 使用方式（App 三步驟、遊戲四步驟，每步搭配對應畫面，下方附詳細操作說明），接著「更多用法」與「小提醒」、系統需求與分級、下載與支援、其他作品；隱私頁 `/app/<slug>/privacy/` 維持原網址
 - 指南總覽 `/guides/apps/`、`/guides/games/`：各作品的畫面、簡介與步驟，連到作品頁
 - 隱私中心 `/privacy/`、支援與常見問題 `/support/`、網站隱私說明 `/website-privacy/`、404、sitemap
 - 社群：Instagram 與 Threads 皆為 `@firesparkle.studio`，出現在頁首、首頁、支援頁與頁尾；網址設定在 `src/content.mjs` 的 `site.social`
@@ -20,6 +21,7 @@ GitHub Pages 已設定自訂網域並強制 HTTPS；HTTP 與 `www.firesparkle.co
 - `src/content.mjs`：網址、信箱、社群帳號、成立年份、作品排序、分類、英文名稱與英文簡介
 - `src/home.mjs`、`public/home.css`：首頁版型與中英文案
 - `scripts/build.mjs`：共用頁首／頁尾、作品頁（介紹、畫面、使用方式）、隱私頁、支援與政策頁的版型及中英文案
+- `src/details.mjs`、`data/guides/details/<slug>.json`：作品頁的詳細內容。每款一個檔案，`zh`／`en` 兩種版本，各含 `intro`（介紹段落）、`features`（主要功能：［標題, 說明］）、`stepDetails`（每個使用步驟的詳細說明，數量必須等於 `data/guides/*.json` 的步驟數）、`more`（更多用法：［標題, 說明］）與 `tips`（小提醒）。內容依 App Store 官方說明、更新記錄（`data/apple-lookup-<日期>.json`）與官方截圖撰寫，只寫商店頁面看得到的功能與畫面上的名稱；App 或截圖更新時請一併核對。建置時檢查兩種語言的區塊數量是否一致
 - `src/showcase.mjs`：截圖共用呈現（手機外框、橫向截圖列、步驟配圖）；只顯示完整原圖，不裁切或重繪
 - `src/guides.mjs`、`public/guides.css`：指南總覽
 - `public/style.css`：設計代幣（色彩、字型、圓角、陰影，含深色模式）、頁首頁尾、按鈕、卡片、內頁
@@ -52,11 +54,11 @@ GitHub Pages 已設定自訂網域並強制 HTTPS；HTTP 與 `www.firesparkle.co
 
 清單兼顧常用語言與 App／遊戲市場，不宣稱是全球人口前 50 名的精確排名。選擇參考 [Ethnologue 的使用人口統計口徑](https://shop.ethnologue.com/products/2026-ethnologue-200)及 [Steam 官方語言調查](https://store.steampowered.com/hwsurvey/hw/)。
 
-首頁、作品頁、指南、支援、導覽、搜尋、圖片檢視及政策說明介面使用本機翻譯檔。各 App 的隱私政策正文保留已發布的繁中原文；網站隱私說明保留既有繁中及英文版本，並在各語言介面明確標示可閱讀的版本。網站語言選項不代表 App 或遊戲本身支援相同語言。
+首頁、作品頁、指南、支援、導覽、搜尋、圖片檢視及政策說明介面使用本機翻譯檔。各 App 的隱私政策正文保留已發布的繁中原文；網站隱私說明保留既有繁中及英文版本，並在各語言介面明確標示可閱讀的版本。作品頁的詳細介紹、步驟詳細說明、更多用法與小提醒（`data/guides/details/`）同樣提供繁中與英文：繁中與簡中介面顯示繁中版，其他語言顯示英文版並附上一行說明（與網站隱私說明共用 `data-policy-version` 切換）；區塊標題與作品頁其餘介面文字則有 50 種語言。網站語言選項不代表 App 或遊戲本身支援相同語言。
 
 訪客可用語言原名、英文名或中文名搜尋。優先順序為網址 `?lang=ja`、已儲存的 `fs-lang` 偏好、瀏覽器語言，最後英文。切換會更新站內連結及網址，方便分享；阿拉伯、波斯、希伯來及烏爾都語使用 RTL。翻譯由本站提供，選擇時只下載一個含內容雜湊的 JSON，不連外部翻譯服務；載入失敗保留原頁面並顯示重試提示。未啟用 JavaScript 時顯示繁中內容。
 
-新增或調整文字時，同步更新來源、所有翻譯與模板。來源 ID 為英文 HTML 的 SHA-256 前 12 碼；各語言檔使用 `{ "文字ID": "翻譯" }`，更動來源順序不影響對應，修改英文會要求同步更新各語言。翻譯中保留原有 HTML 標籤、網址及聯絡信箱。作品總數使用 `{count}` 參數，由資料筆數帶入，不必為新增作品重翻計數文字。新增文字的做法：把英文、繁中與 48 種翻譯寫進 `data/i18n/additions-<日期>.json`，執行 `node scripts/apply-i18n-additions.mjs data/i18n/additions-<日期>.json`。指南另外提供 51 項文字（4 項介面與 47 個步驟），與基本文字合併成每個語言 254 項。`npm run build` 會檢查來源 ID、完整性與 HTML 結構，缺少任何語言即停止。開發中可暫用 `PREVIEW_PARTIAL_LOCALES=1 npm run build` 預覽已完成的語言；正式部署不可設定此變數。
+新增或調整文字時，同步更新來源、所有翻譯與模板。來源 ID 為英文 HTML 的 SHA-256 前 12 碼；各語言檔使用 `{ "文字ID": "翻譯" }`，更動來源順序不影響對應，修改英文會要求同步更新各語言。翻譯中保留原有 HTML 標籤、網址及聯絡信箱。作品總數使用 `{count}` 參數，由資料筆數帶入，不必為新增作品重翻計數文字。新增文字的做法：把英文、繁中與 48 種翻譯寫進 `data/i18n/additions-<日期>.json`，執行 `node scripts/apply-i18n-additions.mjs data/i18n/additions-<日期>.json`。指南另外提供 51 項文字（4 項介面與 47 個步驟），與基本文字（209 項）合併成每個語言 260 項。`npm run build` 會檢查來源 ID、完整性與 HTML 結構，缺少任何語言即停止。開發中可暫用 `PREVIEW_PARTIAL_LOCALES=1 npm run build` 預覽已完成的語言；正式部署不可設定此變數。
 
 ## 文案
 

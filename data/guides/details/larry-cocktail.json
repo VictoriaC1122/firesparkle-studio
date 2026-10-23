@@ -1,0 +1,119 @@
+{
+  "source": "App Store 官方說明與 10 張官方截圖（2026-10-23 查詢，data/apple-lookup-2026-10-23.json、public/assets/screenshots/larry-cocktail/）",
+  "zh": {
+    "intro": [
+      "「賴瑞的調酒研究室」是一款以劇情閱讀與選項互動為核心的戀愛向文字遊戲。在溫暖迷人的酒吧空間裡，你會一步步認識賴瑞，透過對話、選擇與劇情分支，推進只屬於你的故事路線。",
+      "故事從街頭、海島沙灘一路來到酒吧，途中還會遇見黛黛、藝寶、雅英等角色。每一次回應都可能影響角色關係與後續發展；遊戲提供多條故事路線與分支選擇，可以自由存檔、讀檔，最多 40 格本機存檔，方便回收不同的結局。",
+      "如果你喜歡角色的陪伴感、曖昧拉扯與慢慢升溫的節奏，這會是一段值得細細品味的故事旅程；適合喜歡乙女遊戲、視覺小說與劇情向作品的玩家。"
+    ],
+    "features": [
+      [
+        "沉浸式戀愛劇情",
+        "以酒吧為舞台，細膩呈現角色互動與情緒變化。"
+      ],
+      [
+        "選項影響故事",
+        "每個回應都可能改變角色關係與後續劇情。"
+      ],
+      [
+        "多條路線與分支",
+        "不同選擇通往不同的故事走向與結局。"
+      ],
+      [
+        "自由存檔讀檔",
+        "最多 40 格本機存檔，方便分別保留不同的路線。"
+      ],
+      [
+        "新手友善的開場",
+        "第一次玩可以先「聽故事」了解背景，也能直接開始或查看遊戲說明。"
+      ]
+    ],
+    "stepDetails": [
+      "在標題畫面選「新開始遊戲」。第一次玩建議先點「聽故事」了解背景，也可以選「直接開始」，或先看「遊戲說明」。之後點按畫面推進對話，認識賴瑞，以及黛黛、藝寶、雅英等角色。",
+      "劇情走到關鍵處會出現選項，例如邀約她在島上兜風、邀約她來酒吧，或繼續在沙灘聊煩惱。選擇你想要的回應，接著留意角色的反應與對話走向；不同的回應會把故事帶往不同的分支。",
+      "走到想保留的段落時先存檔。最多 40 格本機存檔，可以把不同路線分開存放，並記下哪一格是哪一條路線；回到標題畫面點「開啟存檔」就能讀取。",
+      "讀取先前的存檔，在同一個選項做出另一種回應，比較故事與結局的差異。慢慢蒐集每一條路線，是這款遊戲最耐玩的地方。"
+    ],
+    "more": [
+      [
+        "分辨路線",
+        "對話裡語氣與關係的細微變化，往往預告故事就要轉向。"
+      ],
+      [
+        "整理存檔",
+        "40 格本機存檔足以在每個關鍵選項前各留一格，回收結局時不必從頭開始。"
+      ],
+      [
+        "重讀結局",
+        "讀取不同結局前的存檔，重溫角色在各路線中的轉變。"
+      ],
+      [
+        "本機保存",
+        "存檔保存在你的裝置上，隨時都能接續先前的進度。"
+      ]
+    ],
+    "tips": [
+      "第一次遊玩先憑直覺選擇，走完一條完整的路線，再回頭用存檔探索其他分支。",
+      "在每個重要選項前留一格存檔，是回收不同結局最省時間的方法。",
+      "找一段安靜的時間慢慢讀，故事的層次會更明顯。"
+    ]
+  },
+  "en": {
+    "intro": [
+      "Larry's Cocktail Lab is a romance-leaning text game built on reading and choice. In the warm, inviting space of a bar you get to know Larry step by step, and your dialogue choices and the branches they open shape a story that belongs to you.",
+      "The story moves from city streets and an island beach to the bar, and along the way you meet a cast of other characters. Every reply can change how the characters relate to one another and what happens next. There are several story routes and branching choices, and you can save and load freely, with up to 40 local save slots for collecting different endings.",
+      "If you enjoy the company of a well-drawn character, the push and pull of ambiguity and a story that warms slowly, this is a journey worth savouring. It is made for players who like otome games, visual novels and story-driven titles."
+    ],
+    "features": [
+      [
+        "Immersive romance",
+        "A bar setting with finely drawn character interactions and shifting moods."
+      ],
+      [
+        "Choices that matter",
+        "Each reply can alter relationships and the story that follows."
+      ],
+      [
+        "Multiple routes and branches",
+        "Different decisions lead to different storylines and endings."
+      ],
+      [
+        "Free saving and loading",
+        "Up to 40 local save slots, so every route can be kept separately."
+      ],
+      [
+        "A gentle start",
+        "First-time players can listen to the story's background first, or start straight away or read the instructions."
+      ]
+    ],
+    "stepDetails": [
+      "Choose New Game on the title screen. On a first play, pick the story introduction to learn the background; you can also start straight away or read the game instructions first. Then tap through the dialogue to meet Larry and the people around him.",
+      "At key moments a set of choices appears — invite her for a drive around the island, invite her to the bar, or keep talking about her worries on the beach, for example. Pick the reply you want, then watch how the characters respond and where the conversation goes; different replies lead to different branches.",
+      "When you reach a passage worth keeping, save first. With up to 40 local slots you can keep each route in its own slot — note which slot holds which route — and load any of them from the title screen.",
+      "Load an earlier save, answer the same choice differently and compare how the story and ending change. Gradually collecting every route is where the game rewards patience."
+    ],
+    "more": [
+      [
+        "Spotting a branch",
+        "Small shifts in tone and in how the characters treat each other usually signal that the story is about to turn."
+      ],
+      [
+        "Organising saves",
+        "Forty local slots are enough to leave one before every key choice, so collecting endings never means starting over."
+      ],
+      [
+        "Rereading endings",
+        "Load the save before each ending to revisit how the characters changed along that route."
+      ],
+      [
+        "Local saves",
+        "Your progress is stored on your device, ready to continue whenever you return."
+      ]
+    ],
+    "tips": [
+      "Play your first run on instinct and finish one full route before using saves to explore the other branches.",
+      "Leaving a save before every important choice is the quickest way to collect the different endings.",
+      "Set aside a quiet stretch of time; the story's layers come through best when it is read slowly."
+    ]
+  }
+}

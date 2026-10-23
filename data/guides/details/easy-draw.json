@@ -1,0 +1,69 @@
+{
+  "source": "App Store 官方說明、更新記錄與 6 張官方截圖（2026-10-23 查詢，data/apple-lookup-2026-10-23.json、public/assets/screenshots/easy-draw/）",
+  "zh": {
+    "intro": [
+      "「輕鬆抽獎」是一款簡潔、直覺、沒有廣告的抽籤工具。活動抽獎、聚會遊戲、課堂分組或名單點選，只要把名單整批貼上，App 會自動去除空白與重複項目，再一鍵抽出結果。",
+      "除了一般的幸運抽獎機，也提供 Instagram 留言抽獎：不用手抄名單，把留言截圖貼進來，確認辨識結果後就能開抽。留言關鍵字、Tag 人數、留言字數與留言期間都能依活動規則設定，一次也能設定多個獎項。",
+      "介面以柔和的莫蘭迪色系為主，乾淨不刺眼。名單、規則與開獎結果都會保留下來，可以複製摘要、分享結果或匯出 CSV，活動結束後也找得到是誰中獎。"
+    ],
+    "features": [
+      ["貼上名單就能抽", "支援整批貼上，自動去除空白與重複；可設定加權，也能抽出多位得主。"],
+      ["避免重複中獎", "可開啟避免重複中獎，並即時顯示參加人數、總權重與已抽出人數。"],
+      ["Instagram 留言抽獎", "貼上留言截圖辨識帳號與內容，匯入前可以修正，只匯入勾選的留言。"],
+      ["依活動規則篩選", "關鍵字、至少 Tag 幾位好友、留言字數、排除主辦帳號、同帳號只留一筆或只能中一次，以及留言期間。"],
+      ["多個獎項一次抽完", "最多 20 個獎項，每個獎項最多 100 位得獎者。"],
+      ["結果回頭找得到", "開獎結果附結果代碼，可複製摘要、分享結果或匯出 CSV。"]
+    ],
+    "stepDetails": [
+      "把參加者名單從試算表、群組訊息或報名表複製後，整批貼到「名單輸入」。想讓某人多一些機會時，可以在名字後面加上權重（例如「Alex x3」）；不確定格式時，先按「示範名單」看看。第一次使用時，新手引導會帶你走一遍流程。",
+      "按「整理名單」後，App 會去除空白與重複，並顯示參加人數與總權重，開抽前快速核對一遍。如果是 Instagram 留言抽獎，貼上留言截圖後會進入「確認辨識留言」：截圖辨識可能看錯帳號或標點，請當場修正，只有勾選的留言會被匯入。",
+      "確認後開始抽獎；設定了多個獎項時，各獎項要抽幾位由你決定，可以一次開完。畫面會列出每個獎項的得獎者，開獎結果也會保留下來，可以複製摘要、分享結果或匯出 CSV，之後回頭查得到。"
+    ],
+    "more": [
+      ["IG 留言抽獎流程", "先確認活動貼文與主辦帳號，再貼上留言截圖並核對辨識結果，接著設定篩選規則與獎項；開獎後保存結果代碼，分享摘要或匯出 CSV。"],
+      ["篩選規則", "可設定留言需包含的文字、至少 Tag 幾位好友、留言至少幾個字、排除主辦帳號、重複帳號只保留一筆、每個帳號只能中一次，以及留言的開始與截止時間。"],
+      ["獎項設定", "最多 20 個獎項，每個獎項最多 100 位得獎者；可以替活動命名，並在開獎前預覽符合資格的名單。"],
+      ["保留與重設", "名單、規則與開獎結果都會留下；一般抽獎可以只重設損壞的草稿，保留得獎結果與歷史紀錄。"],
+      ["iPhone 與 iPad", "在 iPad 上用多個視窗編輯時，內容衝突會先提醒，避免舊內容覆蓋新資料。"]
+    ],
+    "tips": [
+      "截圖辨識可能看錯帳號或標點，匯入前務必逐筆核對。",
+      "同名的不同人請加上部門或編號區分，以免被當成重複而移除。",
+      "開獎後記下結果代碼，日後回查或公布時更方便。",
+      "匯出的 CSV 已加強防護，降低姓名或留言被試算表當成公式的風險。"
+    ]
+  },
+  "en": {
+    "intro": [
+      "Easy Lucky Draw is a simple, intuitive, ad-free drawing tool. For event prize draws, party games, class groupings or picking names from a list, paste the whole list in at once; the app strips blanks and duplicates, then draws with a single tap.",
+      "Alongside the standard lucky draw there is an Instagram comment giveaway mode: instead of copying names by hand, paste screenshots of the comments, check what was recognised and start the draw. Keywords, the number of friends tagged, comment length and the comment period can all follow your giveaway's rules, and several prizes can be set up at once.",
+      "The interface uses a soft, muted palette that is easy on the eyes. Lists, rules and results are all kept, so you can copy a summary, share the results or export a CSV, and still find out who won long after the event."
+    ],
+    "features": [
+      ["Paste a list and draw", "Paste in bulk and blanks and duplicates are removed; add weights and draw several winners."],
+      ["No repeat winners", "Turn on repeat-winner prevention and see participants, total weight and how many have been drawn at a glance."],
+      ["Instagram comment giveaways", "Paste comment screenshots to recognise accounts and text, correct them before import, and import only the comments you tick."],
+      ["Rules that match your giveaway", "Keywords, a minimum number of tagged friends, comment length, excluding the host, one entry or one win per account, and a comment period."],
+      ["Several prizes in one go", "Up to 20 prizes with up to 100 winners each."],
+      ["Results you can find again", "Each draw gets a result code, with copy summary, share results and CSV export."]
+    ],
+    "stepDetails": [
+      "Copy the names from a spreadsheet, group chat or sign-up form and paste them all into the list field. To give someone extra chances, add a weight after the name (for example \"Alex x3\"); if you are unsure of the format, tap the sample list first. On first use, a short walkthrough takes you through the process.",
+      "Tap to tidy the list and the app removes blanks and duplicates and shows the number of participants and the total weight, so you can check it before drawing. For an Instagram giveaway, pasting comment screenshots opens a confirmation screen: recognition can misread an account name or punctuation, so fix it there — only ticked comments are imported.",
+      "Once everything looks right, start the draw; with several prizes you decide how many winners each one gets and can draw them all at once. The winners for every prize are listed, and the result is kept so you can copy a summary, share it or export a CSV and look it up again later."
+    ],
+    "more": [
+      ["Instagram giveaway flow", "Confirm the giveaway post and host account, paste the comment screenshots and check the recognised text, set your filters and prizes, then keep the result code and share a summary or export a CSV."],
+      ["Filters", "Required words in the comment, a minimum number of tagged friends, a minimum comment length, excluding the host account, keeping one comment per account, letting each account win only once, and comment start and end times."],
+      ["Prizes", "Up to 20 prizes with up to 100 winners each; name the event and preview the eligible list before you draw."],
+      ["Keep or reset", "Lists, rules and results are kept; a standard draw can reset just a damaged draft while keeping winners and history."],
+      ["iPhone and iPad", "When you edit in several windows on iPad, the app warns about conflicts before older content can overwrite newer edits."]
+    ],
+    "tips": [
+      "Screenshot recognition can misread account names or punctuation, so check every entry before importing.",
+      "If two different people share a name, add a department or number so they are not removed as duplicates.",
+      "Note the result code after each draw; it makes later checks and announcements easier.",
+      "CSV exports are guarded to reduce the risk of names or comments being treated as spreadsheet formulas."
+    ]
+  }
+}

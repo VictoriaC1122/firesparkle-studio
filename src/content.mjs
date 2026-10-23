@@ -23,10 +23,11 @@ export const site = {
 };
 
 // 作品排序（首頁、作品頁編號依此順序）
+// 依 App Store Connect 的累積銷售數量由高到低排列（2026 年 10 月 23 日），新資料出來時請調整順序。
 export const order = [
-  'future-major-guide', 'milebutler', 'semiconductors-illustrated',
-  'dream-journal', 'coffee-chat', 'design-it', 'perfect-pig', 'time-manager', 'vitamins',
-  'easy-draw', 'compound-calculator', 'stock-simulator', 'crypto-dictionary', 'pr-diary', 'larry-cocktail',
+  'compound-calculator', 'easy-draw', 'larry-cocktail', 'crypto-dictionary', 'vitamins',
+  'stock-simulator', 'pr-diary', 'time-manager', 'dream-journal', 'design-it',
+  'coffee-chat', 'perfect-pig', 'milebutler', 'future-major-guide', 'semiconductors-illustrated',
 ];
 
 export const categoryEn = {

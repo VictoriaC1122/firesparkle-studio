@@ -1,0 +1,137 @@
+{
+  "source": "App Store 官方說明、1.3.0 更新記錄與 7 張官方截圖（2026-10-23 查詢，data/apple-lookup-2026-10-23.json、public/assets/screenshots/perfect-pig/）",
+  "zh": {
+    "intro": [
+      "用七天，陪一隻小豬過一段有故事的生活。「完美養豬」以七日為一代，餵食、散步、聊天與打工成為每天的小小陪伴；認識吃貨豬、陽光豬、認真豬、夢幻豬與撒嬌豬五種個性的小豬，收集 100 張故事卡，從日常互動裡發現牠的心情與故事。",
+      "用家具布置房間、在衣櫃挑選裝扮，打造屬於你們的生活角落。遊戲包含金幣，也提供可選擇購買的寶石 App 內購項目。日常養成可以離線進行，和小豬的聊天內容只留在裝置上。",
+      "1.3.0 版加入獨立的「豬友園地」分頁：在 App 內建立園地身份（不需要電子郵件、密碼或 ChatGPT 帳號），名片可設為公開或私密，透過雙方同意的好友邀請留言、私訊，一步步從認識到表白、約會、求婚與結婚。園地的雲端功能需要網路連線；主遊戲支援繁體中文、簡體中文、英文與日文，園地目前以繁體中文提供。"
+    ],
+    "features": [
+      [
+        "七日一代的養成",
+        "餵食、散步、聊天與打工，每天的互動都會影響小豬的心情與個性。"
+      ],
+      [
+        "五種個性與 100 張故事卡",
+        "吃貨豬、陽光豬、認真豬、夢幻豬與撒嬌豬；卡牌分為日常、工作、節慶與隱藏四個系列，收集卡牌與故事結局。"
+      ],
+      [
+        "房間與裝扮",
+        "用家具布置房間，在衣櫃挑選裝扮。"
+      ],
+      [
+        "豬友園地",
+        "園地身份、公開或私密名片、雙方同意的好友關係、留言板與私訊，從表白、約會到求婚與結婚。"
+      ],
+      [
+        "安全機制",
+        "隨機 NPC 情敵為虛構事件；提供封鎖、檢舉與刪除園地帳號；換機時以五分鐘有效的一次性配對碼接續身份。"
+      ],
+      [
+        "離線養成與多語言",
+        "日常養成可離線進行；主遊戲支援繁體中文、簡體中文、英文與日文。"
+      ]
+    ],
+    "stepDetails": [
+      "第一次開啟時選擇語言與外觀，替小豬取名後進入豬舍。遊戲教學會說明照顧、打工，以及小豬成熟後可以選擇是否結算。",
+      "在豬舍選擇餵食、散步、聊天、劇情、摸摸或拍拍，每一項都會顯示今天還能成長幾次或增加多少親密。觀察小豬的心情與反應，不同的互動會影響親密度與個性走向。",
+      "到「打工」賺取金幣，再到「補給」補充食物，讓照顧持續下去。聊天時可以挑選話題（例如今天也陪你、點心研究會、被窩晚安話），用快速回覆或自己輸入一句話。持續照顧並留意成長進度，小豬成熟後再決定是否結算這一代。",
+      "結算後到「圖鑑」查看卡牌收藏與故事結局：100 張卡分為日常、工作、節慶與隱藏四個系列，會依養成條件逐步現身，也能依五種個性篩選。重讀已獲得的結局，下一代換個方式陪伴，解鎖還沒看過的卡牌。"
+    ],
+    "more": [
+      [
+        "布置與裝扮",
+        "用家具布置房間、在衣櫃挑選裝扮，為每一代留下不同的生活角落。"
+      ],
+      [
+        "豬友園地",
+        "分別設定主人暱稱與豬名，在 App 內建立園地身份；名片可設為公開或私密，依自己的步調認識其他主人。"
+      ],
+      [
+        "好友與感情線",
+        "好友邀請需雙方同意；可在好友留言板留言或私訊，從互相表白到約會，完成至少兩次約會後才能求婚，對方同意後結婚。"
+      ],
+      [
+        "封鎖與檢舉",
+        "園地中會出現隨機 NPC 情敵，皆為虛構事件與角色；不想要的互動可用封鎖與檢舉處理，也能在 App 內刪除園地帳號。"
+      ],
+      [
+        "換手機",
+        "舊 App 保持登入時，取得有效五分鐘、只能使用一次的配對碼，在新裝置接續園地身份。"
+      ]
+    ],
+    "tips": [
+      "一代只有七天，每天花幾分鐘陪牠，比較容易看到完整的故事。",
+      "想集滿 100 張故事卡，每一代試著用不同的互動方式養成，解鎖不同個性的故事。",
+      "園地裡的情敵、互動與事件都是遊戲的虛構內容，不代表現實人物。",
+      "換手機前先確認舊 App 仍保持登入，配對碼只有五分鐘有效且只能使用一次。"
+    ]
+  },
+  "en": {
+    "intro": [
+      "Spend seven days giving a piglet a life with a story in it. In Perfect Pig each generation lasts a week, and feeding, walks, chats and part-time jobs become small daily companionship. Meet piglets of five personalities — foodie, sunny, earnest, dreamy and cuddly — collect 100 story cards, and discover its moods and story through everyday interactions.",
+      "Furnish its room and pick outfits from the wardrobe to build a corner of life that belongs to the two of you. The game includes coins, and gems are available as optional in-app purchases. Daily care works offline, and your chats with the piglet stay on your device.",
+      "Version 1.3.0 adds a separate Pig Friends Garden tab: create a garden identity inside the app (no email, password or ChatGPT account), set your profile card to public or private, and, through mutually accepted friend invitations, leave messages and chat privately — moving step by step from getting acquainted to confessions, dates, a proposal and marriage. The garden's online features need an internet connection. The main game is in Traditional Chinese, Simplified Chinese, English and Japanese; the garden is currently in Traditional Chinese."
+    ],
+    "features": [
+      [
+        "Seven-day generations",
+        "Feeding, walks, chats and jobs, where every interaction shapes the piglet's mood and personality."
+      ],
+      [
+        "Five personalities and 100 story cards",
+        "Foodie, sunny, earnest, dreamy and cuddly piglets; cards come in four series — everyday, work, festival and hidden — alongside story endings."
+      ],
+      [
+        "Room and wardrobe",
+        "Furnish the room and choose outfits."
+      ],
+      [
+        "Pig Friends Garden",
+        "A garden identity, public or private profile cards, mutually accepted friendships, a message board and private messages, from confessions and dates to a proposal and marriage."
+      ],
+      [
+        "Safety",
+        "Random NPC rivals are fictional events; block, report and delete your garden account at any time; move to a new phone with a one-time pairing code valid for five minutes."
+      ],
+      [
+        "Offline care and languages",
+        "Daily care works offline; the main game is in Traditional Chinese, Simplified Chinese, English and Japanese."
+      ]
+    ],
+    "stepDetails": [
+      "On first launch, choose a language and appearance, name your piglet and enter the pig house. The tutorial covers care, part-time jobs and the option to settle a generation once the piglet matures.",
+      "In the pig house, choose feeding, a walk, a chat, a story scene, a stroke or a pat; each shows how much growth or closeness it can still add today. Watch the piglet's mood and reactions — different interactions shape your bond and the personality it grows into.",
+      "Earn coins through part-time jobs and restock food from the supplies tab so the care can go on. In chats, pick a topic — everyday company, snack research, bedtime talk and more — and answer with a quick reply or a line of your own. Keep caring for the piglet and watch its growth; once it matures, decide whether to settle the generation.",
+      "After settling, open the collection to see your cards and story endings: the 100 cards are split into everyday, work, festival and hidden series, appear gradually as you meet their conditions, and can be filtered by the five personalities. Reread the endings you have, then raise the next piglet differently to unlock the cards you have not seen."
+    ],
+    "more": [
+      [
+        "Decorating",
+        "Furnish the room and pick outfits from the wardrobe to give each generation its own corner of life."
+      ],
+      [
+        "Pig Friends Garden",
+        "Set an owner nickname and a pig name separately and create a garden identity inside the app; make your profile card public or private and meet other owners at your own pace."
+      ],
+      [
+        "Friends and romance",
+        "Friend invitations need both sides to agree; leave messages on a friend's board or chat privately, move from mutual confessions to dates, and after at least two dates you can propose — marriage follows when the other side agrees."
+      ],
+      [
+        "Blocking and reporting",
+        "Random NPC rivals appear in the garden as fictional events and characters; handle unwanted interactions with block and report, and delete your garden account inside the app whenever you wish."
+      ],
+      [
+        "Changing phones",
+        "While the old app is still signed in, get a one-time pairing code valid for five minutes to continue your garden identity on the new device."
+      ]
+    ],
+    "tips": [
+      "A generation is only seven days; a few minutes of care each day makes the full story easier to see.",
+      "To fill all 100 story cards, raise each generation differently and unlock the stories of every personality.",
+      "Rivals, interactions and events in the garden are fictional game content and do not represent real people.",
+      "Before changing phones, make sure the old app is still signed in; the pairing code lasts five minutes and works only once."
+    ]
+  }
+}

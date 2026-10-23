@@ -1,0 +1,69 @@
+{
+  "source": "App Store 官方說明、更新記錄與 6 張官方截圖（2026-10-23 查詢，data/apple-lookup-2026-10-23.json、public/assets/screenshots/vitamins/）",
+  "zh": {
+    "intro": [
+      "「你今天維他命了嗎」是一款為日常補充習慣設計的健康記錄 App。首頁集中顯示今天的方案、提醒與完成率，把維他命方案、每日打卡、週月統計與常見營養知識整理在同一個地方，讓每天的保養更清楚、更容易持續。",
+      "建立方案後，服用時一鍵打卡；提醒可依早餐後、午餐後、晚餐後或睡前安排，收到通知時直接標記已服用，或延後 15 分鐘。日曆會留下每天的完成情況，連續打卡與每週、每月完成率讓你一眼看出哪些日子漏了。App 也整理了 47 種營養知識，並能依年齡、BMI、慢性病與用藥資訊給出一般性的提醒。",
+      "資料保留在裝置與 App Group 儲存空間，核心功能不需要登入或網路連線，並提供本機 JSON 備份與還原。App 提供的是一般營養教育與日常記錄，不是診斷、治療或個人醫療建議，也不取代醫師、藥師或營養師的專業意見。"
+    ],
+    "features": [
+      ["每日方案", "建立維他命與補充品清單，首頁一眼看到今天的進度。"],
+      ["一鍵打卡", "快速記錄今天是否已服用，也能從通知直接標記或延後 15 分鐘。"],
+      ["四個提醒時段", "早餐後、午餐後、晚餐後或睡前；開啟前會先說明用途，由你決定。"],
+      ["日曆與完成率", "日曆檢視每天的完成情況，並查看連續打卡、每週與每月完成率。"],
+      ["47 種營養知識", "維他命、礦物質、草本與機能補充品的功效、來源與注意事項。"],
+      ["個人化參考", "依年齡、性別、BMI、慢性病與用藥資訊整理一般性的提醒；身體資料都可以略過。"]
+    ],
+    "stepDetails": [
+      "第一次開啟時，引導會先說明提醒的用途，再由你決定是否開啟並選擇每日提醒時間；性別、年齡、身高與體重可以填，也可以略過。接著把正在使用的補充品逐項加入每日方案，為每一項選擇早餐後、午餐後、晚餐後或睡前。",
+      "首頁會顯示今天完成了幾項與連續打卡天數。服用後一鍵打卡；收到提醒時，也可以直接在通知上標記已服用，或延後 15 分鐘再提醒，不必特地打開 App。",
+      "在服用歷史的日曆查看每天的完成比例，再看最近的紀錄與每週、每月完成率，找出漏記的日子；連續打卡天數也是持續下去的小小動力。"
+    ],
+    "more": [
+      ["營養知識", "依維他命、礦物質、草本與機能等分類瀏覽或搜尋 47 種營養知識；內容參考美國國家衛生研究院（NIH）膳食補充品辦公室等公開資料。"],
+      ["我的設定", "填寫性別、年齡、身高、體重、健康目標，以及慢性病或用藥資訊，首頁的今日建議會依這些條件與方案劑量給出一般性的提醒。"],
+      ["桌面小工具", "支援 iPhone 與 iPad 的主畫面小工具。"],
+      ["備份與還原", "匯出 JSON 備份檔，換機後再還原；還原前 App 會先驗證檔案，避免無效檔案覆蓋現有資料。"],
+      ["語言", "支援繁體中文、簡體中文、英文、日文、西班牙文、法文與義大利文。"]
+    ],
+    "tips": [
+      "把提醒設在固定會做的事情之後（例如早餐後），比設定一個時間更容易記得。",
+      "每週看一次完成率，比每天盯著數字更容易維持習慣。",
+      "App 提供的是一般營養資訊；若有慢性病、懷孕、正在用藥或需要高劑量補充，請先與醫師、藥師或營養師確認。",
+      "換手機前先匯出 JSON 備份，方案與紀錄才能一起帶走。"
+    ]
+  },
+  "en": {
+    "intro": [
+      "Vitamin Today is a health log built around daily supplement habits. The home screen gathers today's plan, reminders and completion rate, and the app keeps your vitamin plan, daily check-ins, weekly and monthly statistics and general nutrition knowledge in one place, so the routine is clearer and easier to keep up.",
+      "Once a plan is set, logging a dose is a single tap. Reminders can be timed after breakfast, lunch or dinner or before bed, and a notification can be marked as taken or snoozed for 15 minutes on the spot. The calendar records each day, and your streak and weekly and monthly completion rates show at a glance which days were missed. The app also covers 47 nutrition topics and can offer general reminders based on age, BMI, chronic conditions and medication.",
+      "Data stays on the device and in App Group storage; the core features need no sign-in or internet connection, and a local JSON backup and restore is included. The app offers general nutrition education and record keeping, not diagnosis, treatment or personal medical advice, and it does not replace a doctor, pharmacist or dietitian."
+    ],
+    "features": [
+      ["Daily plan", "Build a list of vitamins and supplements and see today's progress on the home screen."],
+      ["One-tap check-in", "Record today's dose quickly, or mark it as taken or snooze for 15 minutes straight from the notification."],
+      ["Four reminder slots", "After breakfast, lunch or dinner, or before bed; the app explains what reminders do before you choose to turn them on."],
+      ["Calendar and completion rates", "A calendar of each day's completion, plus your streak and weekly and monthly rates."],
+      ["47 nutrition topics", "What vitamins, minerals, herbal and functional supplements do, where they come from and what to watch for."],
+      ["Personal reference", "General reminders based on age, sex, BMI, chronic conditions and medication; every body detail is optional."]
+    ],
+    "stepDetails": [
+      "On first launch the setup explains what reminders are for and lets you decide whether to turn them on and choose a daily time; sex, age, height and weight can be filled in or skipped. Then add each supplement you already take to the daily plan and choose a slot for it: after breakfast, lunch or dinner, or before bed.",
+      "The home screen shows how many doses you have completed today and your current streak. After taking one, check it off with a tap; when a reminder arrives you can mark the dose as taken or snooze it for 15 minutes right from the notification, without opening the app.",
+      "Open the calendar in your intake history to see each day's completion, then look at recent records and the weekly and monthly rates to catch days you may have missed; your streak is a small nudge to keep going."
+    ],
+    "more": [
+      ["Nutrition knowledge", "Browse or search 47 topics by category — vitamins, minerals, herbal and functional supplements — drawing on public sources such as the NIH Office of Dietary Supplements."],
+      ["My settings", "Enter sex, age, height, weight, health goals and any chronic conditions or medication, and the home screen's daily suggestions give general reminders based on them and your plan's doses."],
+      ["Home-screen widgets", "Widgets are available for iPhone and iPad."],
+      ["Backup and restore", "Export a JSON backup and restore it on a new phone; the app validates the file first so an invalid one never overwrites your data."],
+      ["Languages", "Traditional Chinese, Simplified Chinese, English, Japanese, Spanish, French and Italian."]
+    ],
+    "tips": [
+      "Anchor reminders to something you already do, such as after breakfast; it is easier to remember than a clock time.",
+      "Check the completion rate once a week rather than watching the numbers daily; habits hold better that way.",
+      "The app provides general nutrition information only. If you have a chronic condition, are pregnant, take medication or need high doses, check with a doctor, pharmacist or dietitian first.",
+      "Export a JSON backup before changing phones so your plan and records travel with you."
+    ]
+  }
+}

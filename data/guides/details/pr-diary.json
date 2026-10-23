@@ -1,0 +1,135 @@
+{
+  "source": "App Store 官方說明、更新記錄與 7 張官方截圖（2026-10-23 查詢，data/apple-lookup-2026-10-23.json、public/assets/screenshots/pr-diary/）",
+  "zh": {
+    "intro": [
+      "「公關日記」是一款以本機保存為主的多角色日記與工作整理 App，用來記錄每天的工作、互動、收入與待辦。首頁提供客人、小姐、男模與經紀四種身份入口，各自有對應的日記欄位，也整理了台灣在地的產業指南：常見店型、用語、消費觀念與安全提醒。",
+      "客人日記適合記錄產業筆記、遇到的人、當日花費與互動心得；小姐與男模日記用來設定目標、記錄收入支出與存錢進度，以及上岸日期與目前進度；經紀筆記則整理排班與包廂安排、客人追蹤與業績，以及後續追蹤事項。",
+      "日記與名單資料預設只保存在裝置本機，App 不要求帳號，也不會把內容傳送到開發者伺服器；可選擇 Face ID、Touch ID 或裝置密碼保護，並以自行設定的密碼製作加密備份。這是一款私人筆記與整理工具，不提供預約、交易、付款、媒合、招攬或使用者間訊息服務。"
+    ],
+    "features": [
+      [
+        "四種身份入口",
+        "客人、小姐、男模與經紀各有對應欄位，從首頁一鍵進入。"
+      ],
+      [
+        "台灣在地產業指南",
+        "整理常見店型、用語、消費觀念與安全提醒。"
+      ],
+      [
+        "日記管理",
+        "多篇保存、列表、搜尋與日期篩選、月曆標示有寫日記的日子、詳情回看、編輯與刪除。"
+      ],
+      [
+        "快速記錄與提醒中心",
+        "用少量欄位先記重點，再補成完整日記；集中查看待回訪、待補日記與排班狀態。"
+      ],
+      [
+        "隱私保護",
+        "Face ID、Touch ID 或裝置密碼解鎖，自設密碼的加密備份與安全匯入。"
+      ],
+      [
+        "桌面小工具與多語言",
+        "依身份一鍵進入記錄頁；支援繁體中文、簡體中文、英文與日文。"
+      ]
+    ],
+    "stepDetails": [
+      "在首頁選擇符合自己的身份：小姐、男模、客人或經紀，各自有常用功能，例如寫今天日記、客人總覽、記帳與排班。忙碌的當下先用「快速記錄」，只填幾個欄位把今天的重點留下，之後再補成完整日記。",
+      "有空時打開那篇日記，依身份補上欄位：小姐與男模日記有財務與今日心情（例如週結薪資、今日實拿與散裝支出），客人日記記錄消費、互動對象與當日印象，經紀筆記則整理旗下藝人、業績與今日班表。確認後保存。",
+      "要回看時，用日期篩選、搜尋或月曆找到那一天，進入詳情頁查看，需要補充或修改就直接編輯。首頁的「今天重點」會整理待補日記、到期回訪與今日排班，簡單記帳摘要則把收支整理成一眼可見的數字。"
+    ],
+    "more": [
+      [
+        "提醒中心",
+        "集中查看待回訪的客人、尚未補完的日記與排班狀態，當作每天開工前的檢查清單。"
+      ],
+      [
+        "產業指南",
+        "可搜尋店型、術語或說明，並依產業與店型概覽、常見術語等分類查閱；第一次接觸這個行業時，先讀過消費觀念與安全提醒再開始記錄。"
+      ],
+      [
+        "解鎖保護",
+        "開啟 Face ID、Touch ID 或裝置密碼保護後，每次打開 App 都需要驗證。"
+      ],
+      [
+        "加密備份",
+        "用自己設定的密碼匯出加密備份，換機時再安全匯入；密碼請自行妥善保管。"
+      ],
+      [
+        "公關日記 Pro（選用）",
+        "財務統計、回訪管理、每週摘要（可保存下週三項計畫）、行動計畫、進階報表與自訂期間、CSV／PDF 匯出、快速記錄範本與優先提醒；未訂閱仍可使用核心日記功能與本機紀錄。"
+      ]
+    ],
+    "tips": [
+      "當天先用快速記錄留下重點，細節等有空再補，比事後回想完整得多。",
+      "日記只保存在裝置上，請定期製作加密備份；手機遺失或重裝時，沒有備份就無法復原。",
+      "備份與分享的檔案可能含有私人資料，請存放在可信任的位置。",
+      "App 是私人筆記工具，請勿把它當作預約或交易的管道。"
+    ]
+  },
+  "en": {
+    "intro": [
+      "PR Diary is a multi-role diary and work organiser that keeps its data on the device. It records each day's work, interactions, income and tasks. The home screen offers four roles — guest, hostess, host and manager — each with its own diary fields, alongside a guide to the Taiwanese industry covering common venue types, vocabulary, spending norms and safety reminders.",
+      "The guest diary suits industry notes, the people you met, the day's spending and impressions. The hostess and host diaries cover goal setting, income, expenses and savings progress, and a planned leaving date with progress towards it. The manager notebook organises shifts and room assignments, guest follow-up and performance, and items that need attention later.",
+      "Diaries and contact lists are stored only on the device by default; the app requires no account and never sends your entries to the developer's servers. You can protect it with Face ID, Touch ID or the device passcode and create encrypted backups with a password of your own. It is a private notebook and organising tool: it offers no booking, transactions, payments, matching, solicitation or messaging between users."
+    ],
+    "features": [
+      [
+        "Four roles",
+        "Guest, hostess, host and manager, each with its own fields and a one-tap entry from the home screen."
+      ],
+      [
+        "Taiwan industry guide",
+        "Common venue types, vocabulary, spending norms and safety reminders in one place."
+      ],
+      [
+        "Diary management",
+        "Multiple entries, a list view, search and date filters, a calendar marking days with entries, detail view, editing and deletion."
+      ],
+      [
+        "Quick entries and the reminder centre",
+        "Capture the essentials in a few fields and expand them later; see follow-ups, unfinished entries and shift status together."
+      ],
+      [
+        "Privacy protection",
+        "Unlock with Face ID, Touch ID or the device passcode; encrypted backups with your own password and safe import."
+      ],
+      [
+        "Widgets and languages",
+        "Jump straight to your role's entry page from the home screen; Traditional Chinese, Simplified Chinese, English and Japanese."
+      ]
+    ],
+    "stepDetails": [
+      "On the home screen, choose your role — hostess, host, guest or manager. Each has its own shortcuts, such as writing today's diary, a guest overview, bookkeeping and shifts. In the middle of a busy day, use a quick entry: fill in just a few fields to capture the day's key points, then expand it into a full diary later.",
+      "When you have a moment, open that entry and complete the fields for your role. Hostess and host diaries cover finances and today's mood (weekly pay, take-home for the day, small expenses and so on), the guest diary records spending, the people you met and your impressions, and the manager notebook organises your talent roster, performance and today's shifts. Save when done.",
+      "To look back, find the day with the date filter, search or the calendar, open its detail page and edit whenever you need to add or correct something. The home screen's highlights gather unfinished entries, follow-ups that are due and today's shifts, and the simple accounting summary turns income and spending into figures you can read at a glance."
+    ],
+    "more": [
+      [
+        "Reminder centre",
+        "See guests due a follow-up, unfinished entries and shift status together, and use it as a checklist before each day begins."
+      ],
+      [
+        "Industry guide",
+        "Search venue types, terms or explanations and browse by category, such as the industry and venue overview or common vocabulary; if you are new to the industry, read the spending norms and safety reminders before you start recording."
+      ],
+      [
+        "Unlock protection",
+        "Turn on Face ID, Touch ID or device-passcode protection so every launch requires verification."
+      ],
+      [
+        "Encrypted backups",
+        "Export an encrypted backup with a password you choose and import it safely on a new phone; keep that password somewhere secure."
+      ],
+      [
+        "PR Diary Pro (optional)",
+        "Financial statistics, follow-up management, a weekly summary that keeps three plans for the week ahead, action plans, advanced reports over custom periods, CSV and PDF export, quick-entry templates and priority reminders; the core diary and local records work without a subscription."
+      ]
+    ],
+    "tips": [
+      "Capture the key points with a quick entry on the day and fill in details later; it is far more complete than reconstructing from memory.",
+      "Entries live only on your device, so make encrypted backups regularly — without one, a lost or reset phone means the diary is gone.",
+      "Backup and shared files may contain private information; keep them somewhere you trust.",
+      "The app is a private notebook, not a channel for bookings or transactions."
+    ]
+  }
+}

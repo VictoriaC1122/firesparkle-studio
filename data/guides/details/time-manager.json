@@ -1,0 +1,135 @@
+{
+  "source": "App Store 官方說明、2.1 更新記錄與 8 張官方截圖（2026-10-23 查詢，data/apple-lookup-2026-10-23.json、public/assets/screenshots/time-manager/）",
+  "zh": {
+    "intro": [
+      "「AI 時間管理」把想做的事整理成今天能完成的一步。它整合任務庫、每日排程、專注計時與回顧，協助你從規劃走到實際行動，而不是停在清單上。",
+      "任務可以記下備註、預估時間、優先順序與截止日期，依專案整理，並設定每日、平日或每週重複。每日規劃會顯示今天的時間軸與可用時間，可以手動安排，或先預覽自動排列的結果再套用。不知道從哪裡開始時，輸入一句目標，智慧建議會依關鍵字提出延伸思考的問題（超過 600 種），並拆解成附預估時間的子任務。",
+      "智慧建議使用裝置內的關鍵字規則與預設範本，不連線呼叫生成式 AI，也不會上傳任務文字。資料保存在裝置上，無需登入、沒有廣告或追蹤；支援繁體中文與英文、深色與淺色外觀，以及 iPhone、iPad 和 Mac。"
+    ],
+    "features": [
+      [
+        "任務與專案",
+        "備註、預估時間、優先順序、截止日期，依專案整理，支援每日、平日或每週重複。"
+      ],
+      [
+        "每日規劃",
+        "今日時間軸與可用時間，手動安排或預覽自動排列後套用，避開已占用的時段。"
+      ],
+      [
+        "智慧建議",
+        "輸入一句目標，取得 600 多種延伸思考提問與可編輯的子任務拆解；全程在裝置內運作。"
+      ],
+      [
+        "專注計時",
+        "15、25 或 45 分鐘快速開始，也能從任務或排程直接啟動；顯示剩餘時間與進度。"
+      ],
+      [
+        "今日總結與回顧",
+        "已專注時間、完成率、完成與未完成的任務，搭配 500 種鼓勵與行動建議。"
+      ],
+      [
+        "小工具與捷徑",
+        "主畫面小工具、App 捷徑與 iPhone 即時動態掌握進度；JSON 備份可匯出與匯入。"
+      ]
+    ],
+    "stepDetails": [
+      "在任務庫新增待辦，填上預估時間、優先順序與截止日期，需要時歸入專案；固定要做的事可以設成每日、平日或每週重複。還不確定從哪裡開始時，也可以在「今天想專注完成什麼？」輸入一句目標，App 會依關鍵字提出延伸思考的問題，幫你把模糊的想法說清楚。",
+      "到每日規劃查看今天的時間軸與剩餘的可用時間，手動把任務排進想做的時段，或先預覽自動排列的結果再套用；已占用的時段會自動避開。智慧建議也能把一個目標拆成數個附預估時間的子任務，勾選要開始的項目後直接進入專注。",
+      "專注模式會顯示剩餘時間、進度與預估時間，可以從任務或排程直接開始，也能快速選擇 15、25 或 45 分鐘。時間到時選擇完成、延長、休息或略過，休息不計入專注時間。一天結束後，今日總結會整理已專注時間、完成率，以及完成與未完成的任務。"
+    ],
+    "more": [
+      [
+        "智慧建議",
+        "提問角度會依你輸入的關鍵字切換（例如規劃與決策），拆解出的子任務都可以編輯；建議由裝置內的規則與範本產生，不會上傳任何文字。"
+      ],
+      [
+        "常用流程",
+        "把常重複的一組任務收藏成流程，下次直接套用，不必重新建立。"
+      ],
+      [
+        "回顧",
+        "檢視實際專注時間、完成情況與近期趨勢，順手記下當時的能量與中斷原因，找出最適合自己的時段。"
+      ],
+      [
+        "復原近期操作",
+        "誤刪或誤改時，可以復原最近的操作。"
+      ],
+      [
+        "備份",
+        "匯出 JSON 備份，保留任務、排程、流程與專注紀錄，換機後再匯入。"
+      ]
+    ],
+    "tips": [
+      "預估時間寧可估長一點，排程才不會一開始就塞滿。",
+      "先從 15 分鐘的專注開始，習慣後再拉長到 25 或 45 分鐘。",
+      "自動排列只是建議，套用前先預覽，把最重要的任務放在精神最好的時段。",
+      "通知提醒與桌面小工具都可以在設定頁調整。"
+    ]
+  },
+  "en": {
+    "intro": [
+      "AI Time Manager turns what you want to do into a step you can finish today. It brings together a task library, daily scheduling, focus timers and reviews so that planning leads to action rather than stopping at a list.",
+      "Tasks carry notes, an estimated duration, priority and deadline, are organised by project, and can repeat daily, on weekdays or weekly. Daily planning shows today's timeline and available time; schedule tasks by hand, or preview the automatic arrangement before applying it. When you are not sure where to begin, type a single goal and smart suggestions offer follow-up questions chosen by keyword (more than 600 of them) and break the goal into subtasks with time estimates.",
+      "Smart suggestions use on-device keyword rules and built-in templates — no calls to generative AI and no upload of your task text. Data stays on the device with no sign-in, ads or tracking. The app supports Traditional Chinese and English, light and dark appearance, and iPhone, iPad and Mac."
+    ],
+    "features": [
+      [
+        "Tasks and projects",
+        "Notes, estimated duration, priority and deadline, organised by project, with daily, weekday or weekly repeats."
+      ],
+      [
+        "Daily planning",
+        "Today's timeline and available time; schedule by hand or preview the automatic arrangement before applying, avoiding occupied slots."
+      ],
+      [
+        "Smart suggestions",
+        "Type one goal to get more than 600 follow-up questions and an editable subtask breakdown, all worked out on the device."
+      ],
+      [
+        "Focus timer",
+        "Start 15, 25 or 45 minutes instantly or straight from a task or schedule, with time remaining and progress on screen."
+      ],
+      [
+        "Daily summary and review",
+        "Focus time, completion rate and finished and unfinished tasks, with 500 pieces of encouragement and next-step advice."
+      ],
+      [
+        "Widgets and shortcuts",
+        "Home-screen widgets, App Shortcuts and Live Activities on iPhone keep progress in view; JSON backups export and import."
+      ]
+    ],
+    "stepDetails": [
+      "Add a task to the library with an estimated duration, priority and deadline, and file it under a project if you like; recurring commitments can repeat daily, on weekdays or weekly. If you are not yet sure where to start, type one sentence into \"What do you want to focus on today?\" and the app asks follow-up questions based on its keywords to help turn a vague idea into a clear one.",
+      "Open daily planning to see today's timeline and the time still available. Place tasks into the slots you want by hand, or preview the automatic arrangement and apply it only if it looks right; occupied slots are avoided automatically. Smart suggestions can also split a goal into several subtasks with time estimates — tick the ones to start and go straight into focus.",
+      "Focus mode shows time remaining, progress and the estimate; start it from a task or the schedule, or pick 15, 25 or 45 minutes. When time is up, choose finish, extend, rest or skip — rest is not counted as focus time. At the end of the day, the daily summary sets out your focus time, completion rate and finished and unfinished tasks."
+    ],
+    "more": [
+      [
+        "Smart suggestions",
+        "The questions change angle with the keywords you type (planning and decisions, for example), and every suggested subtask can be edited; everything comes from on-device rules and templates, and no text is uploaded."
+      ],
+      [
+        "Saved flows",
+        "Keep a recurring set of tasks as a flow and apply it next time instead of rebuilding it."
+      ],
+      [
+        "Review",
+        "Look at actual focus time, completion and recent trends, and note your energy and what interrupted you to find the hours that suit you best."
+      ],
+      [
+        "Undo",
+        "Recent actions can be reversed if something is deleted or changed by mistake."
+      ],
+      [
+        "Backup",
+        "Export a JSON backup covering tasks, schedules, flows and focus records, and import it on a new device."
+      ]
+    ],
+    "tips": [
+      "Estimate generously; a schedule that starts out packed rarely survives the day.",
+      "Begin with 15-minute sessions and stretch to 25 or 45 once the habit holds.",
+      "Automatic arrangement is only a suggestion: preview it first and put the task that matters most into your sharpest hours.",
+      "Notifications and the home-screen widget can be adjusted at any time in Settings."
+    ]
+  }
+}

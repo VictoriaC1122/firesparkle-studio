@@ -1,0 +1,135 @@
+{
+  "source": "App Store 官方說明、2.6.0 更新記錄與 4 張官方截圖（2026-10-23 查詢，data/apple-lookup-2026-10-23.json、public/assets/screenshots/stock-simulator/）",
+  "zh": {
+    "intro": [
+      "「股神養成」是給股市新手的模擬交易工作台。用虛擬資金練習下單、寫下每一筆的理由，再回頭檢視持倉與交易結果；基本的股票模擬與教學完全免費，不需要註冊或登入。",
+      "台股部分使用證交所與櫃買中心的開放盤後資料，可查看大盤、漲跌家數、成交排行、估值資料與除權息日程，搜尋股票與 ETF 建立自選清單，並依收盤價、自訂價格成交或建立指定價模擬委託。美股則在每個交易日收盤後自動更新全部美股與 ETF 的收盤價，以美元虛擬資金練習買賣。台幣與美元帳戶分開計算。",
+      "可選購的 Pro 訂閱加入期貨與選擇權模擬：臺指、小型與微型臺指、電子與金融期貨，微型 S&P 500、Nasdaq-100、黃金與 WTI 原油期貨，以及臺指選擇權與美股標準股票選擇權，並可設定情境日期練習到期情境。所有行情皆標示資料日期、非即時報價；App 不是券商，不提供真實下單、投資建議或報酬保證。"
+    ],
+    "features": [
+      [
+        "台股盤後練習",
+        "證交所與櫃買中心開放資料，大盤、排行、估值與除權息一次查看；收盤價、自訂價格或指定價模擬委託。"
+      ],
+      [
+        "美股每日收盤價模擬",
+        "每個交易日收盤後自動更新收盤價（取自 Nasdaq.com 公開網頁），持倉依最新收盤價估值。"
+      ],
+      [
+        "下單理由與紀錄",
+        "每筆模擬交易都能寫下理由，之後對照結果回顧；紀錄保存在裝置上，不需帳號。"
+      ],
+      [
+        "Pro 期貨與選擇權",
+        "台灣與海外期貨、臺指選擇權與美股選擇權，自訂到期日、履約價、保證金與費用，按「前進一天」練習到期情境。"
+      ],
+      [
+        "教學與查詢",
+        "三步新手說明、完整操作指南、111 個常用名詞、常見投資詐騙手法與官方查證入口，以及台灣證券、期貨相關測驗與證照說明。"
+      ],
+      [
+        "12 種語言與小工具",
+        "介面語言可選擇或跟隨系統；桌面小工具提供台股盤後摘要與每日新知。"
+      ]
+    ],
+    "stepDetails": [
+      "第一次使用可以跟著「新手快速開始」的三個步驟，了解資金、價格與下單。台股與美股是各自獨立的練習帳戶，預設資金分別是 NT$1,000,000 與 US$100,000；台股可以搜尋股票與 ETF 加入自選，美股則從內建清單選擇標的。",
+      "按「選擇股票下單」：台股可依顯示的收盤價或自訂價格成交，也可以建立指定價模擬委託；美股可用最新收盤價或自訂價格下單。送出前在筆記寫下這筆交易的理由，這是之後回顧最有價值的資料。",
+      "到「我的持倉」查看持倉成本、估值、可用資金與已實現、未實現損益，再對照交易紀錄與當時寫下的理由。週一到週五 18:00 的回顧提醒，可以當作固定檢視的時間；想從頭練習時，可以重設模擬帳戶。"
+    ],
+    "more": [
+      [
+        "指定價模擬委託",
+        "台股指定價單會在 App 取得後續交易日資料時，依日線高低價檢查是否成交，不重播逐筆交易。"
+      ],
+      [
+        "市場資訊",
+        "查看大盤、漲跌家數、成交排行、估值資料與除權息日程，練習時把它們當作判斷依據。"
+      ],
+      [
+        "Pro 衍生品工作台",
+        "開立期貨或選擇權的多空部位，支援加倉、部分與全部平倉；自訂情境日期後按「前進一天」練習到期，兩個衍生品帳戶共用時間。"
+      ],
+      [
+        "教學區",
+        "常用查詢（ETF、本益比、交割、殖利率、融資）與依主題瀏覽（第一次接觸、開戶與交易、商品全覽、公司與財報、風險管理、防詐與查證），收錄 111 個常用名詞；教學可隨時跳過，不影響模擬功能。"
+      ],
+      [
+        "匯出與設定",
+        "衍生品紀錄可以匯出；背景更新與語言可在設定調整，回顧提醒也能隨時關閉。"
+      ]
+    ],
+    "tips": [
+      "每筆模擬都寫理由，幾週後回看，比損益數字更能看出自己的習慣。",
+      "行情標示的是資料日期，不是即時報價；自訂價格未經驗證，不代表可成交的行情。",
+      "保證金不是最大損失，期貨與賣方選擇權的虧損可能超過保證金，練習時也請記得這點。",
+      "模擬只用虛擬資金，不連接銀行或券商；真實交易請以交易所與券商的正式資訊為準。"
+    ]
+  },
+  "en": {
+    "intro": [
+      "Stock Master is a paper-trading workbench for people new to the stock market. Practise placing orders with virtual funds, write down the reason behind each trade, then go back and review your holdings and results. Basic stock simulation and the tutorials are free, with no registration or sign-in.",
+      "The Taiwan side uses open after-hours data from the Taiwan Stock Exchange and the TPEx: market overview, advances and declines, turnover rankings, valuation data and ex-dividend schedules. Search stocks and ETFs to build a watchlist, then fill orders at the closing price or a custom price, or create a limit-price simulated order. For US stocks, closing prices for every US stock and ETF update automatically after each trading day, and you practise buying and selling with virtual US dollars. The NT dollar and US dollar accounts are kept separate.",
+      "An optional Pro subscription adds futures and options: TAIEX, mini and micro TAIEX, electronics and finance futures; micro S&P 500, Nasdaq-100, gold and WTI crude oil futures; TAIEX options and standard US stock options, with a scenario date you can advance to practise expiry. Every quote carries its data date and is never live. The app is not a broker and offers no real orders, investment advice or guaranteed returns."
+    ],
+    "features": [
+      [
+        "Taiwan after-hours practice",
+        "Open TWSE and TPEx data with market overview, rankings, valuations and ex-dividend dates; fill at the close, a custom price or a limit-price simulated order."
+      ],
+      [
+        "US daily closing-price simulation",
+        "Closing prices for all US stocks and ETFs update after each trading day (from Nasdaq.com's public pages), and holdings are valued at the latest close."
+      ],
+      [
+        "Reasons and records",
+        "Write a reason for every simulated trade and compare it with the outcome later; records stay on the device with no account."
+      ],
+      [
+        "Pro futures and options",
+        "Taiwan and overseas futures, TAIEX options and US stock options, with custom expiry, strike, margin and fees and an \"advance one day\" control for expiry practice."
+      ],
+      [
+        "Tutorials and reference",
+        "A three-step starter guide, a full manual, 111 common terms, common investment scams with official verification links, and notes on Taiwan securities and futures exams."
+      ],
+      [
+        "Twelve languages and widgets",
+        "Choose an interface language or follow the system; the home-screen widget shows a Taiwan after-hours summary and a daily lesson."
+      ]
+    ],
+    "stepDetails": [
+      "On first use, the three-step quick start explains virtual funds, prices and placing orders. Taiwan and US trading are separate practice accounts with NT$1,000,000 and US$100,000 to start; search Taiwan stocks and ETFs to add to your watchlist, and pick US symbols from the built-in list.",
+      "Tap to choose a stock and place an order. Taiwan orders can fill at the displayed close or a custom price, or sit as a limit-price simulated order; US orders use the latest close or a custom price. Before submitting, write the reason for the trade in the note — it is the most valuable thing to look back on.",
+      "Open your holdings to see cost, valuation, available funds and realised and unrealised profit or loss, then compare the transaction history with the reasons you wrote down. The weekday 18:00 review reminder makes a good fixed time for this, and you can reset the practice account whenever you want to start over."
+    ],
+    "more": [
+      [
+        "Limit-price simulated orders",
+        "A Taiwan limit order is checked against the daily high and low when the app receives the next trading day's data; trades are not replayed tick by tick."
+      ],
+      [
+        "Market information",
+        "Use the market overview, advances and declines, turnover rankings, valuation data and ex-dividend schedule as the basis for practice decisions."
+      ],
+      [
+        "Pro derivatives workbench",
+        "Open long or short futures and options positions, add to them and close partially or fully; set a scenario date and advance one day at a time to practise expiry, with both derivatives accounts sharing the same clock."
+      ],
+      [
+        "Learning area",
+        "Quick look-ups (ETF, P/E ratio, settlement, dividend yield, margin) and topics from first steps, accounts and trading, products, companies and financial statements, risk management to scams and verification, with 111 common terms; the tutorials can be skipped at any time without affecting the simulation."
+      ],
+      [
+        "Export and settings",
+        "Derivatives records can be exported; background updates and language are set in Settings, and the review reminder can be turned off at any time."
+      ]
+    ],
+    "tips": [
+      "Write a reason for every simulated trade; reading them back after a few weeks reveals your habits better than the profit and loss ever will.",
+      "Quotes carry a data date and are never live, and custom prices are unverified — they do not represent a price you could actually get.",
+      "Margin is not your maximum loss: futures and short options can lose more than the margin posted, in practice as in reality.",
+      "The simulation uses virtual funds only and connects to no bank or broker; for real trading, rely on the exchange's and your broker's official information."
+    ]
+  }
+}

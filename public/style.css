@@ -173,7 +173,32 @@ html[data-script=cjk] em, html[data-script=arabic] em, html[data-script=hebrew] 
 .step-shot.landscape { width: 100%; }
 .step p { margin: 0; font-size: 15px; line-height: 1.8; color: var(--ink-soft); }
 .step-text { display: flex; flex-direction: column; gap: 10px; }
+.step-lead { color: var(--ink); }
+.step-detail { font-size: 14px; color: var(--muted); }
 .howto-foot { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 24px; margin-top: 28px; }
+/* 作品頁：介紹、主要功能、更多用法與小提醒（繁中／英文雙語區塊，依語言切換） */
+.detail-note { font-size: 14px; }
+html[lang="en"] .detail-note, html[lang^="zh"] .detail-note { display: none; }
+.about-grid { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, .9fr); gap: 28px; align-items: start; }
+.about-copy { font-size: 17px; line-height: 1.95; }
+.about-copy p { margin: 0 0 1.1em; color: var(--ink-soft); }
+.about-copy p:last-child { margin-bottom: 0; }
+.feature-list, .more-list, .tips-list { padding: 28px; }
+.feature-list h3, .more-list h3, .tips-list h3 { font-size: 18px; margin-bottom: 18px; }
+.feature-list ul, .tips-list ul { margin: 0; padding: 0; list-style: none; display: grid; gap: 14px; }
+.feature-list li { display: flex; flex-direction: column; gap: 4px; padding-top: 14px; border-top: 1px solid var(--line); font-size: 15px; line-height: 1.7; }
+.feature-list li:first-child { padding-top: 0; border-top: 0; }
+.feature-list strong { color: var(--ink); }
+.feature-list span { color: var(--ink-soft); }
+.howto-more { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, .85fr); gap: 20px; align-items: start; margin-top: 20px; }
+.more-list dl { margin: 0; display: grid; gap: 14px; }
+.more-list dl > div { padding-top: 14px; border-top: 1px solid var(--line); }
+.more-list dl > div:first-child { padding-top: 0; border-top: 0; }
+.more-list dt { font-weight: 600; color: var(--ink); margin-bottom: 4px; }
+.more-list dd { margin: 0; font-size: 15px; line-height: 1.75; color: var(--ink-soft); }
+.tips-list { background: var(--surface-2); counter-reset: tip; }
+.tips-list li { position: relative; padding-inline-start: 40px; counter-increment: tip; font-size: 15px; line-height: 1.75; color: var(--ink-soft); }
+.tips-list li::before { content: counter(tip, decimal-leading-zero); position: absolute; inset-inline-start: 0; top: 0; font-family: var(--font-latin); font-style: italic; color: var(--accent-ink); }
 .spec-list { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); margin: 0; overflow: hidden; }
 .spec-list div { padding: 22px 24px; border-inline-start: 1px solid var(--line); }
 .spec-list div:first-child { border: 0; }
@@ -262,7 +287,8 @@ html[data-script=cjk] em, html[data-script=arabic] em, html[data-script=hebrew] 
   .header-tools .social-link .social-at { display: none; }
   .header-tools .social-link { padding: 3px 10px; }
   .site-nav a { padding: 6px 10px; font-size: 14px; }
-  .app-support, .support-grid { grid-template-columns: 1fr; }
+  .app-support, .support-grid, .about-grid, .howto-more { grid-template-columns: 1fr; }
+  .feature-list, .more-list, .tips-list { padding: 22px; }
   .section-head { flex-direction: column; align-items: flex-start; gap: 12px; }
   .resource-list, .privacy-list .resource-list { grid-template-columns: 1fr; }
   .footer-grid { grid-template-columns: 1fr; gap: 28px; }

@@ -1,0 +1,135 @@
+{
+  "source": "App Store 官方說明與 6 張官方截圖（2026-10-23 查詢，data/apple-lookup-2026-10-23.json、public/assets/screenshots/milebutler/）",
+  "zh": {
+    "intro": [
+      "想用哩程換機票，卻不知道該選哪家航空、刷哪張卡，還是乾脆直接買哩程？「哩程管家」把獎勵機票票表、買哩程成本和台灣信用卡的轉點條件整理在一起。選好出發地、目的地、艙等和日期，就能一次比較各種換票方案。",
+      "可試算長榮、華航、星宇、日航、全日空等 9 個常旅客計畫需要多少哩程，直接買哩程要花多少錢（含海外刷卡手續費估算），以及用哪張信用卡刷、要刷多少、大約幾個月能湊齊。已有的哩程與銀行點數會自動扣除，只算你真正還缺的部分；125 張台灣信用卡的轉點比例、最低轉點量和年費一次看清楚。",
+      "票規整理單程、停留、改票與退票規則，可並排比較 2–4 個方案，iPhone、iPad 和 Mac 都能用，並支援 20 種語言。資料來源皆為航空公司與發卡機構的公開資料，App 本身不蒐集任何個人資料；獎勵機位、實際稅費與轉點條件請以最新公告為準，App 不提供訂位、開票或代辦服務。"
+    ],
+    "features": [
+      [
+        "一次比較",
+        "依出發地、目的地、艙等與日期，比較 9 個常旅客計畫的哩程需求。"
+      ],
+      [
+        "買哩程成本",
+        "估算直接買哩程的花費（含海外刷卡手續費）；需依帳戶報價的計畫改提供官方報價入口。"
+      ],
+      [
+        "信用卡轉點",
+        "收錄 125 張台灣信用卡的轉點比例、最低轉點量與年費，算出要刷哪張卡、刷多少、幾個月湊齊。"
+      ],
+      [
+        "自動扣除已有資產",
+        "輸入現有哩程與銀行點數，只算真正還缺的部分。"
+      ],
+      [
+        "票規與並排比較",
+        "單程、停留、改票與退票規則；2–4 個方案並排對照。"
+      ],
+      [
+        "多平台與小工具",
+        "iPhone、iPad 和 Mac 都能用；主畫面小工具顯示目標進度；支援 20 種語言。"
+      ]
+    ],
+    "stepDetails": [
+      "設定出發地、目的地、艙等、單程或來回與出發日期，需要時再調整每月刷卡預算與入帳時間。比較結果會依你的哩程餘額與可用卡片，列出各計畫的所需哩程，並可切換總覽、買哩程、刷卡與適合我。",
+      "打開方案細節，可以看到所需哩程、直接買哩程是否可行（例如超過當次可購買上限）、用哪張信用卡刷多少錢、大約幾個月能湊齊。已有的哩程與銀行點數會自動扣除；看好的方案可以設定兌換前提醒，或設為哩程目標。",
+      "在「取得哩程」的信用卡哩程選擇目標計畫與目標哩程，直接比較各張卡要刷多少；收錄 20 家發卡機構的 110 張現行卡片，另有 15 張停止申辦的卡片可選擇是否顯示。也可以並排比較 2–4 個方案，逐項對照買哩成本、轉點條件與票規。"
+    ],
+    "more": [
+      [
+        "票規",
+        "換票前先看單程、停留、改票與退票規則，避免湊到哩程後才發現限制。"
+      ],
+      [
+        "轉點條件",
+        "查看各張卡的最低轉點量與年費，有些卡要累積到一定數量才能轉。"
+      ],
+      [
+        "官方報價入口",
+        "需要依帳戶報價的計畫，App 會提供官方入口，直接查詢實際價格。"
+      ],
+      [
+        "Pro「現在能換什麼」",
+        "用你手上的哩程與可轉的銀行點數，依單程或來回與艙等列出現在就能換、轉點後能換、差一點能換的機票，並可直接設為哩程目標。"
+      ],
+      [
+        "Pro 目標與提醒",
+        "無限哩程目標、多卡組合規劃、哩程到期前 90 天與 30 天提醒、依出發日提醒開放訂位日、哩程資產總覽、iCloud 同步、CSV 匯出與完整備份。"
+      ]
+    ],
+    "tips": [
+      "獎勵機位、實際稅費、動態票價與轉點比例會變動，下單前請以航空公司和發卡機構的最新公告為準。",
+      "先輸入所有已有的哩程與點數，試算結果才會反映真正的缺口。",
+      "比較方案時，把票規（尤其是改票與退票）和哩程數一起看。",
+      "App 不提供訂位、開票或代辦服務，實際兌換請到航空公司完成。"
+    ]
+  },
+  "en": {
+    "intro": [
+      "You want to fly on miles but cannot tell which airline programme to use, which card to put the spending on, or whether simply buying miles would be cheaper. MileButler puts award charts, mile-purchase costs and the point-transfer terms of Taiwanese credit cards in one place. Choose your origin, destination, cabin and dates and compare every route to the ticket at once.",
+      "It estimates the miles needed across nine frequent-flyer programmes, including EVA Air, China Airlines, STARLUX, JAL and ANA; what buying the miles outright would cost, with an estimate of overseas card fees; and which card to use, how much to spend and roughly how many months it takes. Miles and bank points you already hold are deducted automatically so only the real shortfall is counted, and 125 Taiwanese credit cards are listed with transfer ratios, minimum transfer amounts and annual fees.",
+      "Fare rules cover one-way, stopover, change and refund conditions, two to four plans can be compared side by side, and the app runs on iPhone, iPad and Mac in 20 languages. All data comes from public airline and card-issuer sources, and the app collects no personal data. Award availability, taxes and transfer terms are always subject to the latest official announcements; the app does not book or issue tickets."
+    ],
+    "features": [
+      [
+        "One comparison",
+        "Miles required across nine frequent-flyer programmes for your origin, destination, cabin and dates."
+      ],
+      [
+        "Cost of buying miles",
+        "An estimate of buying miles outright, including overseas card fees; programmes that quote per account link to the official quote page instead."
+      ],
+      [
+        "Credit-card transfers",
+        "125 Taiwanese cards with transfer ratios, minimum transfer amounts and annual fees, worked into which card to use, how much to spend and how many months it takes."
+      ],
+      [
+        "Automatic deduction",
+        "Enter the miles and bank points you already hold and only the real shortfall is counted."
+      ],
+      [
+        "Fare rules and side-by-side comparison",
+        "One-way, stopover, change and refund rules; compare two to four plans at once."
+      ],
+      [
+        "Platforms and widgets",
+        "iPhone, iPad and Mac; a home-screen widget with goal progress; 20 languages."
+      ]
+    ],
+    "stepDetails": [
+      "Set your origin, destination, cabin, one-way or return and departure date, and adjust your monthly card budget and posting timing if needed. The comparison lists the miles each programme requires based on your balances and available cards, with tabs for the overview, buying miles, card spending and what suits you.",
+      "Open a plan's details to see the miles required, whether buying the miles is possible (it may exceed the purchase limit, for example), which card to use, how much to spend and roughly how many months it will take. Miles and bank points you already hold are deducted automatically; set a reminder before redeeming or make a plan your mileage goal.",
+      "Under Earn Miles, choose a target programme and mileage on the credit-card tab to compare how much each card needs; it covers 110 current cards from 20 issuers, and 15 discontinued cards can be shown or hidden. You can also compare two to four plans side by side, checking mile-purchase costs, transfer terms and fare rules."
+    ],
+    "more": [
+      [
+        "Fare rules",
+        "Read the one-way, stopover, change and refund rules before committing, so there are no surprises once the miles are in hand."
+      ],
+      [
+        "Transfer terms",
+        "Check each card's minimum transfer amount and annual fee; some cards only transfer once you reach a threshold."
+      ],
+      [
+        "Official quote links",
+        "For programmes that quote per account, the app links to the official page so you can look up the actual price."
+      ],
+      [
+        "Pro \"what can I book now\"",
+        "Using your miles and transferable bank points, lists tickets — by one-way or return and cabin — that you can book now, after a transfer or with a little more, and turns any of them into a mileage goal."
+      ],
+      [
+        "Pro goals and reminders",
+        "Unlimited mile goals, multi-card planning, reminders 90 and 30 days before miles expire and when booking opens for your travel date, a mileage asset overview, iCloud sync, CSV export and full backup."
+      ]
+    ],
+    "tips": [
+      "Award seats, taxes, dynamic pricing and transfer ratios change; check the airline's and card issuer's latest announcements before acting.",
+      "Enter every mile and point you already hold first, so the estimate reflects the true shortfall.",
+      "When comparing plans, weigh the fare rules — especially changes and refunds — together with the mileage.",
+      "The app does not book or issue tickets; complete the actual redemption with the airline."
+    ]
+  }
+}

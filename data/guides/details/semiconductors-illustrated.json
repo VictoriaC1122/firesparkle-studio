@@ -1,0 +1,135 @@
+{
+  "source": "App Store 官方說明、更新記錄與 4 張官方截圖（2026-10-23 查詢，data/apple-lookup-2026-10-23.json、public/assets/screenshots/semiconductors-illustrated/）",
+  "zh": {
+    "intro": [
+      "給半導體初學者，每天 5 分鐘，看懂晶片與產業。不論你是學生、準備轉職，或剛進入半導體產業的非工程職新人，「圖解半導體」都能從沒有背景知識開始：選一個概念，用圖解與短篇解說理解，再透過互動實驗、小測驗與術語翻卡確認所學。",
+      "24 堂完整入門課涵蓋半導體原理、晶片類型、IC 設計與晶圓製造，每課附概念解說、比喻、實際案例、相關術語與 3 題測驗。互動部分可以拖動電晶體的閘極電壓滑桿、在晶片圖鑑切換 CPU、GPU、NPU、DRAM、NAND、MCU 與 SoC、以 6 個概念階段探索製程並比較前後步驟，還能調整晶粒面積與缺陷密度觀察簡化良率模型。",
+      "147 個術語支援搜尋、分類、收藏與翻卡練習，15 家公司檔案說明主要產品、技術與商業模式。介面與全部教材提供 20 種語系，可離線閱讀；不需建立帳號、無廣告。圖解與良率計算是標示假設的教學模型，不代表特定公司的真實製程或報價，公司比較也不提供股票推薦。"
+    ],
+    "features": [
+      [
+        "24 堂入門課",
+        "半導體原理、晶片類型、IC 設計與晶圓製造；每課附比喻、案例、術語與 3 題測驗，共 72 題。"
+      ],
+      [
+        "電晶體實驗室",
+        "拖動閘極電壓滑桿，觀察相對臨界值與導電通道的變化，或直接切換關閉／導通。"
+      ],
+      [
+        "晶片圖鑑與製程探索",
+        "7 種晶片的結構與用途；晶圓、薄膜、圖案化、元件、金屬互連與封裝 6 個階段，附前後步驟比較與光阻循環剖面圖。"
+      ],
+      [
+        "良率與產業角色",
+        "調整晶粒面積與缺陷密度觀察簡化良率模型；點選設計、製造、設備、材料與封裝測試的分工。"
+      ],
+      [
+        "術語與公司檔案",
+        "147 個術語可搜尋、分類、收藏並翻卡練習；15 家公司檔案說明產品、技術與商業模式。"
+      ],
+      [
+        "20 種語系、離線可用",
+        "介面與教材一起切換；學習進度、筆記與測驗紀錄保存在本機。"
+      ]
+    ],
+    "stepDetails": [
+      "從首頁開始第一堂課「半導體為什麼能控制電？」（約 4 分鐘），或到課程頁挑一個概念。先讀概念解說、比喻與實際案例，再對照課內列出的相關術語；首頁的學習旅程會記錄你完成了 24 堂中的幾堂。",
+      "到「探索」打開晶圓製程實驗室：先看從一片矽到會工作的晶片的製造全貌，再深入光阻、曝光、顯影、蝕刻與去除光阻的一輪循環；打開「比較前後步驟」，觀察材料、元件與連線如何改變。",
+      "完成課後 3 題測驗，回看答錯的題目，用課程筆記記下還要查的觀念。也可以用術語翻卡練習：每輪最多 10 張，先回想、再揭曉解釋，以「已記住」或「再複習」自評；自評只用於該輪練習，不計入測驗成績。"
+    ],
+    "more": [
+      [
+        "電晶體實驗室",
+        "拖動閘極電壓滑桿，觀察導電通道隨相對臨界值改變，建立對「開關」的直覺。"
+      ],
+      [
+        "晶片圖鑑",
+        "切換 CPU、GPU、NPU、DRAM、NAND、MCU 與 SoC，比較結構與用途。"
+      ],
+      [
+        "良率模型",
+        "調整晶粒面積與缺陷密度，理解為什麼晶片做得越大、良率越敏感；模型為標示假設的教學用途。"
+      ],
+      [
+        "術語翻卡",
+        "依分類抽卡，每輪最多 10 張，先回想、再揭示解釋，以「已記住」或「再複習」自評，重練待加強的卡片。"
+      ],
+      [
+        "公司檔案與 Pro",
+        "閱讀 15 家公司的產品、技術、商業模式與觀察重點；Pro 可對照兩家公司的商業模式，並比較兩組良率與成本假設。"
+      ]
+    ],
+    "tips": [
+      "遇到不懂的術語先收藏，讀完課再一次翻卡，比中途一直查更順。",
+      "切換語言會保留學習進度、收藏、測驗紀錄與筆記；英文課名與技術用語保留作為對照。",
+      "課程與本機紀錄可離線使用；開啟外部來源與處理訂閱時需要網路。",
+      "學習紀錄保存在這台裝置上，App 不提供跨裝置同步。"
+    ]
+  },
+  "en": {
+    "intro": [
+      "Five minutes a day for semiconductor beginners to understand chips and the industry. Whether you are a student, preparing for a career change or new to a non-engineering role in the industry, Semiconductors Illustrated starts from no background at all: pick a concept, understand it through illustrations and a short explanation, then confirm it with interactive experiments, quizzes and term flashcards.",
+      "Twenty-four introductory lessons cover semiconductor principles, chip types, IC design and wafer fabrication, each with an explanation, an analogy, a real-world case, related terms and a three-question quiz. The interactive parts let you drag a transistor's gate-voltage slider, switch between CPU, GPU, NPU, DRAM, NAND, MCU and SoC in the chip atlas, explore the process in six conceptual stages with before-and-after comparisons, and adjust die area and defect density in a simplified yield model.",
+      "A glossary of 147 terms supports search, categories, favourites and flashcard practice, and 15 company profiles explain products, technologies and business models. The interface and all course material come in 20 languages and can be read offline; no account is needed and there are no ads. The diagrams and yield calculations are teaching models with stated assumptions, not any company's real process or pricing, and the company comparisons are not stock recommendations."
+    ],
+    "features": [
+      [
+        "24 introductory lessons",
+        "Principles, chip types, IC design and wafer fabrication, each with an analogy, a case, terms and a three-question quiz — 72 questions in all."
+      ],
+      [
+        "Transistor lab",
+        "Drag the gate-voltage slider to watch the relative threshold and conduction channel change, or toggle off and on directly."
+      ],
+      [
+        "Chip atlas and process explorer",
+        "The structure and purpose of seven chip types; six process stages — wafer, thin film, patterning, devices, interconnect and packaging — with before-and-after comparisons and a cross-section of the photoresist cycle."
+      ],
+      [
+        "Yield and industry roles",
+        "Adjust die area and defect density in a simplified yield model; tap through the division of labour across design, fabrication, equipment, materials and packaging and test."
+      ],
+      [
+        "Terms and company profiles",
+        "147 searchable, categorised terms with favourites and flashcards; 15 company profiles covering products, technology and business models."
+      ],
+      [
+        "Twenty languages, offline",
+        "Interface and course material switch together; progress, notes and quiz records are stored on the device."
+      ]
+    ],
+    "stepDetails": [
+      "Start the first lesson from the home screen — why semiconductors can control electricity, about four minutes — or pick a concept from the lessons tab. Read the explanation, the analogy and the real-world case, then look at the related terms listed in the lesson; the learning journey on the home screen tracks how many of the 24 lessons you have finished.",
+      "In Explore, open the wafer process lab: see the whole journey from a slice of silicon to a working chip, then follow one cycle of photoresist, exposure, development, etching and resist removal. Turn on the before-and-after comparison to watch how materials, devices and connections change.",
+      "Take the three-question quiz, review any wrong answers and note the concepts you still need to look up. You can also practise with term flashcards — up to ten per round: recall first, then reveal the explanation and rate it as remembered or review again. Ratings apply only to that round and do not count towards quiz scores."
+    ],
+    "more": [
+      [
+        "Transistor lab",
+        "Drag the gate-voltage slider and watch the conduction channel respond to the relative threshold, building an intuition for the \"switch\"."
+      ],
+      [
+        "Chip atlas",
+        "Switch among CPU, GPU, NPU, DRAM, NAND, MCU and SoC to compare structure and purpose."
+      ],
+      [
+        "Yield model",
+        "Adjust die area and defect density to see why larger chips are so sensitive to yield; the model is a teaching tool with stated assumptions."
+      ],
+      [
+        "Term flashcards",
+        "Draw up to ten cards per round by category, recall before revealing, rate each as remembered or review again, and retry the weak ones."
+      ],
+      [
+        "Company profiles and Pro",
+        "Read the products, technology, business model and points to watch for 15 companies; Pro compares two companies' business models and two sets of yield and cost assumptions."
+      ]
+    ],
+    "tips": [
+      "Favourite unfamiliar terms as you go and run a flashcard round after the lesson instead of looking everything up mid-read.",
+      "Switching language keeps your progress, favourites, quiz records and notes; English lesson titles and technical terms stay for reference.",
+      "Lessons and local records work offline; opening external sources and handling subscriptions need a connection.",
+      "Learning records live on this device only — the app does not sync across devices."
+    ]
+  }
+}
