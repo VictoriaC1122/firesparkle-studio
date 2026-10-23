@@ -1,9 +1,10 @@
-Redesign the website with a new homepage and per-app usage pages
+Refine the website with serif typography and a quiet ivory palette
 
-- New homepage: aurora and glass design built around the brand flame, studio introduction, Instagram and Threads links, released games, works grid, studio and contact sections
-- Every app and game now has its own page with all official App Store screenshots and step-by-step usage instructions
-- Dark mode, self-hosted Plus Jakarta Sans with system CJK fonts, new share image
-- UI strings extended across all 50 languages; README updated
+- Chinese set in self-hosted Noto Serif TC, Latin in Times New Roman with Tinos as the fallback
+- Ivory background, ink text and a single antique-gold accent; brand colour kept to the logo itself
+- Hairline-bordered cards replace glass panels and gradients; screenshots shown without extra device frames
+- Share image, website privacy notice and README updated
+- Remove the unused Plus Jakarta Sans files
 
 Co-Authored-By: Claude Fable 5.1 <noreply@anthropic.com>
 Claude-Session: https://claude.ai/code/session_01ChroGNbZezvQHV9GM4nHnZ

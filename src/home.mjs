@@ -7,8 +7,8 @@ export function renderHome({ site, apps, media, L, T, messageId, esc, appURL, ca
   const games = apps.filter(a => a.genres.includes('遊戲'));
   const groups = ['全部', ...new Set(apps.map(a => a.category))];
 
-  // 星軌：品牌標誌置中，周圍環繞作品圖示（依作品排序取前 10 款）。
-  const orbitIcons = apps.slice(0, 10).map((a, i) => `<img class="orbit-icon${i % 2 ? ' far' : ''}" style="--a:${Math.round(i * 36)}deg;--d:${(i * .7).toFixed(1)}s" src="${a.iconPath}" alt="" width="128" height="128" loading="lazy">`).join('');
+  // 星軌：品牌標誌置中，周圍環繞作品圖示（依作品排序取前 6 款）。
+  const orbitIcons = apps.slice(0, 6).map((a, i) => `<img class="orbit-icon${i % 2 ? ' far' : ''}" style="--a:${Math.round(i * 60 + 15)}deg;--d:${(i * .9).toFixed(1)}s" src="${a.iconPath}" alt="" width="128" height="128" loading="lazy">`).join('');
 
   const gameCard = (slug, tone, zhType, enType, zhDesc, enDesc, mediaMarkup, character) => {
     const a = bySlug[slug];
@@ -23,7 +23,9 @@ export function renderHome({ site, apps, media, L, T, messageId, esc, appURL, ca
   const larry = bySlug['larry-cocktail'];
   const pig = bySlug['perfect-pig'];
   const larryMedia = renderPhone({ app: larry, media, index: 0, esc, messageId });
-  const pigMedia = [0, 1].map(i => renderPhone({ app: pig, media, index: i, esc, messageId })).join('');
+  // 完美養豬在首頁使用兩張素面的遊戲畫面（豬舍與聊天），而非前兩張宣傳合成圖，維持清雅的整體感。
+  const pigShots = media[pig.slug].images.length > 4 ? [3, 4] : [0, 1];
+  const pigMedia = pigShots.map(i => renderPhone({ app: pig, media, index: i, esc, messageId })).join('');
 
   const cards = apps.map((a, i) => `<article class="app-card glass reveal" style="animation-delay:${Math.min(i, 8) * 40}ms" data-category="${a.category}" data-search="${esc([a.nameZhHant, a.short, a.en, a.shortDescription, a.enDesc, a.category].join(' ').toLowerCase())}">
     <div class="card-top"><img class="app-icon card-icon" src="${a.iconPath}" alt="" loading="lazy" width="120" height="120"><div><p class="card-category">${catL(a.category)}</p><h3><a class="card-main-link" href="${appURL(a)}">${L(esc(a.short), esc(a.en))}</a></h3></div></div>

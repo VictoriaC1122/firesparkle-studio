@@ -6,17 +6,17 @@
 .language-dialog-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 24px; margin-bottom: 18px; }
 .language-dialog-head .eyebrow { margin-bottom: 8px; }
 .language-dialog h2 { font-size: 24px; }
-.language-close { display: grid; place-items: center; flex: none; width: 42px; height: 42px; border: 1px solid var(--line-strong); border-radius: 50%; background: var(--glass); color: var(--ink); font-size: 24px; line-height: 1; }
+.language-close { display: grid; place-items: center; flex: none; width: 42px; height: 42px; border: 1px solid var(--line-strong); border-radius: 50%; background: transparent; color: var(--ink); font-size: 24px; line-height: 1; }
 .language-close:hover { border-color: var(--accent); }
-.language-search-label { display: block; font-size: 13px; font-weight: 600; margin-bottom: 8px; }
-#language-search { width: 100%; min-height: 46px; padding: 10px 16px; border: 1px solid var(--line-strong); border-radius: 999px; background: var(--glass); color: var(--ink); font-size: 16px; }
+.language-search-label { display: block; font-size: 13px; margin-bottom: 8px; }
+#language-search { width: 100%; min-height: 46px; padding: 10px 16px; border: 1px solid var(--line-strong); border-radius: 999px; background: var(--surface-2); color: var(--ink); font-size: 16px; }
 #language-search:focus { outline: 2px solid var(--accent); outline-offset: 2px; }
 .language-load-status { margin: 8px 0; min-height: 22px; font-size: 13px; color: var(--accent-ink); }
 .language-options { min-height: 0; overflow-y: auto; overscroll-behavior: contain; flex: 0 1 auto; scrollbar-gutter: stable; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 4px; padding: 2px; }
 .language-options button { position: relative; display: flex; flex-direction: column; align-items: flex-start; justify-content: center; min-height: 60px; padding: 8px 30px 8px 12px; gap: 2px; border: 1px solid transparent; border-radius: 12px; background: transparent; color: var(--ink-soft); text-align: start; }
 .language-options button:hover { background: var(--accent-soft); }
 .language-options button[aria-current=true] { background: var(--accent-soft); border-color: var(--accent); color: var(--ink); }
-.language-native { font-size: 15px; font-weight: 600; line-height: 1.4; overflow-wrap: anywhere; }
+.language-native { font-size: 15px; line-height: 1.4; overflow-wrap: anywhere; }
 .language-options small { font-size: 12px; color: var(--muted); }
 .language-check { display: none; position: absolute; inset-inline-end: 10px; top: 50%; translate: 0 -50%; font-size: 14px; color: var(--accent-ink); }
 .language-options button[aria-current=true] .language-check { display: block; }
@@ -24,20 +24,20 @@
 [data-no-languages] { font-size: 15px; padding-block: 24px; color: var(--muted); }
 .policy-body[lang] { direction: ltr; text-align: start; }
 
-/* 各書寫系統：Latin 使用 Plus Jakarta Sans，其餘使用各平台可讀的系統字型 */
-html[data-script=cjk] { --font-body: "Plus Jakarta Sans Variable", -apple-system, BlinkMacSystemFont, "PingFang TC", "Noto Sans TC", "Microsoft JhengHei", "Segoe UI", Roboto, sans-serif; }
-html[lang=zh-Hans] { --font-body: "Plus Jakarta Sans Variable", -apple-system, BlinkMacSystemFont, "PingFang SC", "Noto Sans SC", "Microsoft YaHei", "Segoe UI", Roboto, sans-serif; }
-html[lang=ja] { --font-body: "Plus Jakarta Sans Variable", -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic UI", Meiryo, sans-serif; }
-html[lang=ko] { --font-body: "Plus Jakarta Sans Variable", -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", sans-serif; }
-html[data-script=latin], html[data-script=cyrillic], html[data-script=greek] { --font-body: "Plus Jakarta Sans Variable", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
-html[data-script=arabic] { --font-body: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans Arabic", "Noto Naskh Arabic", "Geeza Pro", Tahoma, sans-serif; }
-html[data-script=hebrew] { --font-body: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans Hebrew", Arial, sans-serif; }
-html[data-script=indic] { --font-body: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans Devanagari", "Noto Sans Bengali", "Noto Sans Tamil", "Noto Sans Telugu", "Noto Sans Gujarati", "Noto Sans Gurmukhi", "Kohinoor Devanagari", sans-serif; }
-html[data-script=thai] { --font-body: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans Thai", Thonburi, sans-serif; }
+/* 各書寫系統：中文宋體＋Times；其他書寫系統使用各平台可讀的襯線字型 */
+html[data-script=cjk] { --font-body: "Times New Roman", Tinos, Times, "Noto Serif TC Variable", "Songti TC", PMingLiU, serif; }
+html[lang=zh-Hans] { --font-body: "Times New Roman", Tinos, Times, "Noto Serif TC Variable", "Songti SC", SimSun, serif; }
+html[lang=ja] { --font-body: "Times New Roman", Tinos, Times, "Hiragino Mincho ProN", "Yu Mincho", "Noto Serif JP", "Noto Serif TC Variable", serif; }
+html[lang=ko] { --font-body: "Times New Roman", Tinos, Times, "AppleMyungjo", "Nanum Myeongjo", "Noto Serif KR", Batang, "Noto Serif TC Variable", serif; }
+html[data-script=latin], html[data-script=cyrillic], html[data-script=greek] { --font-body: "Times New Roman", Tinos, Times, Georgia, serif; }
+html[data-script=arabic] { --font-body: "Noto Naskh Arabic", "Geeza Pro", "Times New Roman", Tinos, serif; }
+html[data-script=hebrew] { --font-body: "Noto Serif Hebrew", "Times New Roman", Tinos, serif; }
+html[data-script=indic] { --font-body: "Noto Serif Devanagari", "Kohinoor Devanagari", "Noto Serif Bengali", "Noto Serif Tamil", "Noto Serif Telugu", "Noto Serif Gujarati", "Noto Serif Gurmukhi", "Times New Roman", serif; }
+html[data-script=thai] { --font-body: "Noto Serif Thai", Thonburi, "Times New Roman", serif; }
 html[data-script=arabic] :is(h1, h2, h3, .eyebrow), html[data-script=indic] :is(h1, h2, h3, .eyebrow), html[data-script=thai] :is(h1, h2, h3) { letter-spacing: 0; }
 html[data-script=arabic] .eyebrow, html[data-script=indic] .eyebrow { text-transform: none; }
-html[data-script]:not([data-script=latin]):not([data-script=cjk]) .hero-copy h1 { font-size: clamp(34px, 4.8vw, 62px); line-height: 1.3; letter-spacing: 0; }
-html[data-script]:not([data-script=latin]):not([data-script=cjk]) h1, html[data-script]:not([data-script=latin]):not([data-script=cjk]) h2 { line-height: 1.35; }
+html[data-script]:not([data-script=latin]):not([data-script=cjk]) .hero-copy h1 { font-size: clamp(32px, 4.4vw, 56px); line-height: 1.35; letter-spacing: 0; }
+html[data-script]:not([data-script=latin]):not([data-script=cjk]) h1, html[data-script]:not([data-script=latin]):not([data-script=cjk]) h2 { line-height: 1.4; }
 html[data-script=arabic] .hero-copy h1 em, html[data-script=hebrew] .hero-copy h1 em { padding-bottom: .15em; }
 
 /* RTL */

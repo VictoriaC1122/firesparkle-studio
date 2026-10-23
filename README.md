@@ -4,7 +4,7 @@
 
 GitHub Pages 已設定自訂網域並強制 HTTPS；HTTP 與 `www.firesparkle.com` 會轉到正式網址。
 
-以 App 與遊戲作品為主軸的獨立工作室官網。2026-10-23 全站改版：白底搭配品牌玻璃火焰的極光漸層與玻璃卡片，支援深色模式；首頁為工作室入口（主視覺、作品星軌、已推出的遊戲、全部作品、工作室介紹、Instagram／Threads 與聯絡），15 款作品各自擁有獨立頁面，包含 App Store 官方截圖與逐步使用方式。Latin 字型自託管 Plus Jakarta Sans（可變字重），中文與其他書寫系統使用各裝置的系統字型；提供 50 個語言選項。
+以 App 與遊戲作品為主軸的獨立工作室官網。2026-10-23 全站改版：暖象牙底、墨色文字、單一古金色點綴與細線框，清雅克制，品牌彩色只保留在玻璃火焰標誌本身；支援深色模式。首頁為工作室入口（主視覺、作品圖示星軌、已推出的遊戲、全部作品、工作室介紹、Instagram／Threads 與聯絡），15 款作品各自擁有獨立頁面，包含 App Store 官方截圖與逐步使用方式。中文使用自託管的 Noto Serif TC 宋體，英文使用 Times New Roman（備援自託管的 Tinos）；提供 50 個語言選項。
 
 ## 內容
 
@@ -66,7 +66,9 @@ GitHub Pages 已設定自訂網域並強制 HTTPS；HTTP 與 `www.firesparkle.co
 
 ## 視覺
 
-`public/style.css` 以 CSS 變數定義色彩與字型：白底 `#f8f8fc`、深靛墨色文字，品牌漸層（粉、珊瑚、紫、天空藍）只用於標語、數字、裝飾光暈與社群圖示；深色模式透過 `prefers-color-scheme` 切換同一組變數。卡片使用半透明玻璃背景與細邊框，截圖放在深色手機外框內，橫式畫面改用寬外框。首頁主視覺以品牌標誌為中心，周圍環繞前十款作品圖示並緩慢漂浮，`prefers-reduced-motion` 時停止所有動畫。原始圖檔不裁切或重繪；角色圖來源與雜湊記錄於 `data/character-assets.json`。
+`public/style.css` 以 CSS 變數定義色彩與字型：暖象牙底 `#f7f5f0`、墨色文字 `#1b1a1f`、古金色 `#9a7d49` 作為唯一點綴（細線、小標、斜體數字、連結 hover），深色模式透過 `prefers-color-scheme` 切換同一組變數。卡片為象牙白面加 1px 細線，不使用模糊玻璃與漸層；截圖以細線框與淺陰影呈現，不另加手機外框。品牌彩色只出現在標誌本身，首頁主視覺以標誌為中心，外圍一圈細線與前六款作品圖示緩慢漂浮，標誌後方保留一層很淡的暖光；`prefers-reduced-motion` 時停止所有動畫。原始圖檔不裁切或重繪；角色圖來源與雜湊記錄於 `data/character-assets.json`。
+
+字型：中文 Noto Serif TC（宋體，可變字重 200–900，依 Unicode 分片載入），英文優先使用裝置內建的 Times New Roman，沒有時使用度量相容的 Tinos；標題中文 600 字重、英文 Times 常規體搭配斜體強調。其他書寫系統在 `public/i18n.css` 指定各平台可讀的襯線字型。
 
 品牌商標使用 2026-10-21 提供的透明 PNG，原檔保存在 `data/brand/firesparkle-logo-original.png`。頁首、頁尾、工作室介紹、404、分享圖片與瀏覽器圖示共用此圖的等比縮小版本。品牌圖片與樣式網址帶內容雜湊，避免訪客快取舊版。
 
@@ -100,4 +102,7 @@ DNS（在網域商設定）：
 
 ## 字型授權
 
-Plus Jakarta Sans（SIL Open Font License 1.1）自託管於 `public/fonts/plus-jakarta-sans/`，含 Latin、Latin Extended 與越南文子集，授權全文在同資料夾的 `LICENSE.txt`。中文、日文、韓文及其他書寫系統使用各裝置的系統字型，不向第三方字型服務發出請求。
+- Noto Serif TC（SIL Open Font License 1.1）：`public/fonts/noto-serif-tc/`，含授權與來源說明；中文採 Unicode 分片，只載入當頁需要的字型檔。
+- Tinos（SIL Open Font License 1.1）：`public/fonts/tinos/`，Latin 與 Latin Extended 的常規／粗體／斜體，作為沒有 Times New Roman 的裝置之備援。
+
+其他書寫系統使用各裝置的系統字型，不向第三方字型服務發出請求。
