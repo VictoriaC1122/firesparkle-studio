@@ -45,5 +45,8 @@
   "Open the daily review to revisit material from your saved items and recent reading, switching between Traditional Chinese and English as needed.": "Avaa päivittäinen kertaus palataksesi tallennettuun ja viimeksi luettuun aineistoon ja vaihda tarvittaessa perinteisen kiinan ja englannin välillä.",
   "Choose your role's diary from the home screen and use a quick entry to record today's work or interactions.": "Valitse aloitusnäytöstä roolisi päiväkirja ja kirjaa tämän päivän työ tai vuorovaikutustilanteet pikamerkinnällä.",
   "Fill in the fields for your role, such as spending, income or shifts, then save the diary entry.": "Täytä roolisi kentät, kuten menot, tulot tai työvuorot, ja tallenna päiväkirjamerkintä.",
-  "Find an entry using date filters, search or the calendar, then open its details to add to or edit it.": "Etsi merkintä päivämääräsuodattimilla, haulla tai kalenterista ja avaa sen tiedot täydentääksesi tai muokataksesi sitä."
+  "Find an entry using date filters, search or the calendar, then open its details to add to or edit it.": "Etsi merkintä päivämääräsuodattimilla, haulla tai kalenterista ja avaa sen tiedot täydentääksesi tai muokataksesi sitä.",
+  "Import a PDF, image or document scan into your library.": "Tuo PDF, kuva tai skannattu asiakirja kirjastoosi.",
+  "Read the original alongside your notes and review the paper breakdown.": "Lue alkuperäistä tekstiä muistiinpanojesi rinnalla ja tarkastele artikkelin erittelyä.",
+  "Organise keywords and citations, then export a backup.": "Järjestä avainsanat ja lähdeviitteet ja vie sitten varmuuskopio."
 }

@@ -45,5 +45,8 @@
   "Open the daily review to revisit material from your saved items and recent reading, switching between Traditional Chinese and English as needed.": "เปิดการทบทวนประจำวันเพื่อย้อนดูเนื้อหาจากรายการที่บันทึกและการอ่านล่าสุด โดยสลับระหว่างภาษาจีนตัวเต็มกับภาษาอังกฤษได้ตามต้องการ",
   "Choose your role's diary from the home screen and use a quick entry to record today's work or interactions.": "เลือกไดอารีที่ตรงกับบทบาทของคุณจากหน้าหลัก แล้วใช้การบันทึกด่วนเพื่อจดงานหรือการปฏิสัมพันธ์ของวันนี้",
   "Fill in the fields for your role, such as spending, income or shifts, then save the diary entry.": "กรอกช่องข้อมูลสำหรับบทบาทของคุณ เช่น ค่าใช้จ่าย รายรับ หรือกะงาน แล้วบันทึกไดอารี",
-  "Find an entry using date filters, search or the calendar, then open its details to add to or edit it.": "ค้นหาบันทึกด้วยตัวกรองวันที่ การค้นหา หรือปฏิทิน แล้วเปิดรายละเอียดเพื่อเพิ่มหรือแก้ไขเนื้อหา"
+  "Find an entry using date filters, search or the calendar, then open its details to add to or edit it.": "ค้นหาบันทึกด้วยตัวกรองวันที่ การค้นหา หรือปฏิทิน แล้วเปิดรายละเอียดเพื่อเพิ่มหรือแก้ไขเนื้อหา",
+  "Import a PDF, image or document scan into your library.": "นำเข้า PDF รูปภาพ หรือเอกสารที่สแกนไว้ไปยังคลังเอกสารของคุณ",
+  "Read the original alongside your notes and review the paper breakdown.": "อ่านต้นฉบับควบคู่กับบันทึกของคุณ และตรวจดูบทวิเคราะห์แยกส่วนของบทความ",
+  "Organise keywords and citations, then export a backup.": "จัดระเบียบคำสำคัญและข้อมูลอ้างอิง จากนั้นส่งออกข้อมูลสำรอง"
 }

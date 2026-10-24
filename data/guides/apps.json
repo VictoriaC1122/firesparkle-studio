@@ -15,9 +15,9 @@
       }
     ],
     "screenshots": [
+      3,
       5,
-      6,
-      2
+      6
     ],
     "sources": [
       "https://apps.apple.com/tw/app/id6824004640"
@@ -311,6 +311,31 @@
     ],
     "sources": [
       "https://apps.apple.com/tw/app/id6761694656"
+    ]
+  },
+  "paper-reading-desk": {
+    "steps": [
+      {
+        "en": "Import a PDF, image or document scan into your library.",
+        "zh": "將 PDF、圖片或文件掃描匯入書庫。"
+      },
+      {
+        "en": "Read the original alongside your notes and review the paper breakdown.",
+        "zh": "對照原文閱讀與筆記，查看論文拆解。"
+      },
+      {
+        "en": "Organise keywords and citations, then export a backup.",
+        "zh": "整理關鍵字與引用資料，再匯出備份。"
+      }
+    ],
+    "screenshots": [
+      0,
+      0,
+      1
+    ],
+    "sources": [
+      "https://apps.apple.com/tw/app/id6818310524",
+      "https://apps.apple.com/us/app/id6818310524"
     ]
   }
 }

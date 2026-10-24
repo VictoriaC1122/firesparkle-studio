@@ -1,15 +1,15 @@
 {
-  "source": "App Store 官方說明與 8 張官方截圖（2026-10-23 查詢，data/apple-lookup-2026-10-23.json、public/assets/screenshots/future-major-guide/）",
+  "source": "App Store 台灣與美國官方說明，版本 1.1.0（2026-10-25 查詢：https://apps.apple.com/tw/app/id6824004640、https://apps.apple.com/us/app/id6824004640）；操作配圖沿用既有官方截圖。",
   "zh": {
     "intro": [
       "選大學、選科系，不用一次想清楚。「我決定自己的未來」陪台灣與美國的高中生、大學生和家長一起探索院校與學習方向：先看懂自己，再把選項整理成可以比較、可以準備的下一步。轉系、轉學與 gap year 的你也適用。",
-      "台灣選系收錄 159 所院校、1,346 個科系／學程、2,747 筆實際校系，以及 1,338 筆逐校系學習地圖：年級必修、選修方向、特色課程與職涯，並附 115／116 學年度招生參考，逐筆標示年度與來源。10 題興趣測驗以本機規則式推薦，清楚說明為什麼推薦；可收藏校系、寫決策筆記，最多 4 筆並排比較。",
-      "美國大學部分涵蓋 4,031 所 IPEDS 官方名錄院校，可依州別、公私立與學制篩選，附歷史學科學位紀錄、CIP 領域定義與職涯對照。介面提供 20 種語言，不需註冊、不使用追蹤 SDK，測驗、收藏、筆記與申請清單只存在你的裝置。App 不代表任何學校或招生單位，也不保證錄取；正式申請請以校方最新公告為準。"
+      "台灣選系收錄 158 所現行院校、1,346 個科系／學程、2,747 筆實際校系，以及 1,338 筆逐校系學習地圖：年級必修、選修方向、特色課程與職涯，並附 115／116 學年度招生參考，逐筆標示年度與來源。10 題興趣測驗以本機規則式推薦，清楚說明為什麼推薦；可收藏校系、寫決策筆記，最多 4 筆並排比較。",
+      "所有美國資料與工具均需有效 Pro 權益。美國大學部分涵蓋 4,031 所 IPEDS 官方名錄院校，可依州別、公私立與學制篩選，附歷史學科學位紀錄、CIP 領域定義與職涯對照。介面提供 20 種語言，不需註冊、不使用追蹤 SDK，測驗、收藏、筆記與申請清單只存在你的裝置。App 不代表任何學校或招生單位，也不保證錄取；正式申請請以校方最新公告為準。"
     ],
     "features": [
       [
         "台灣選系資料庫",
-        "159 所院校、1,346 個科系／學程、2,747 筆實際校系，逐筆標示年度與來源。"
+        "158 所現行院校、1,346 個科系／學程、2,747 筆實際校系，逐筆標示年度與來源。"
       ],
       [
         "逐校系學習地圖",
@@ -24,12 +24,12 @@
         "收藏校系、寫決策筆記，最多 4 筆並排比較。"
       ],
       [
-        "美國大學名錄",
+        "美國大學名錄（Pro）",
         "4,031 所 IPEDS 院校，依州別、公私立、學制篩選；歷史學位紀錄、CIP 領域定義與職涯對照，部分學校的官方逐年修課規劃。"
       ],
       [
         "美國入學 Pro（選用）",
-        "2026–27 Common App 941 校的期限、申請費、文章、推薦與考試政策；我的申請清單、期限提醒、同年度費用比較與依考試政策找校。"
+        "包含所有美國資料與工具：學校名錄、學科、課程、歷史統計、招生、考試指南與費用資料，以及大學部和碩博士準備指引；月繳與年繳權益相同。"
       ]
     ],
     "stepDetails": [
@@ -39,7 +39,7 @@
     ],
     "more": [
       [
-        "美國大學",
+        "美國大學（Pro）",
         "依州別、公私立與學制篩選 4,031 所院校，查看歷史學科學位紀錄、CIP 領域定義與職涯對照，部分學校另有官方逐年修課規劃。"
       ],
       [
@@ -69,13 +69,13 @@
   "en": {
     "intro": [
       "Choosing a university and a major does not have to be settled all at once. Future Major Guide walks high-school and university students and their parents in Taiwan and the United States through institutions and fields of study: understand yourself first, then turn the options into next steps you can compare and prepare for. It works just as well if you are changing majors, transferring or taking a gap year.",
-      "The Taiwan section covers 159 institutions, 1,346 departments and programmes and 2,747 actual admissions entries, with 1,338 programme-level study maps — required courses by year, elective directions, signature courses and careers — plus admissions references for the 115 and 116 academic years, each marked with its year and source. A ten-question interest quiz uses on-device rules to recommend programmes and explains why; save programmes, write decision notes and compare up to four side by side.",
-      "The US section lists 4,031 institutions from the official IPEDS directory, filterable by state, public or private status and programme level, with historical degree records, CIP field definitions and career mappings. The interface comes in 20 languages, there is no registration or tracking SDK, and quizzes, saved items, notes and application lists stay on your device. The app represents no school or admissions body and guarantees no admission; for a formal application, follow each school's latest announcements."
+      "The Taiwan section covers 158 current institutions, 1,346 departments and programmes and 2,747 actual admissions entries, with 1,338 programme-level study maps — required courses by year, elective directions, signature courses and careers — plus admissions references for the 115 and 116 academic years, each marked with its year and source. A ten-question interest quiz uses on-device rules to recommend programmes and explains why; save programmes, write decision notes and compare up to four side by side.",
+      "All US data and tools require valid Pro access. The US section lists 4,031 institutions from the official IPEDS directory, filterable by state, public or private status and programme level, with historical degree records, CIP field definitions and career mappings. The interface comes in 20 languages, there is no registration or tracking SDK, and quizzes, saved items, notes and application lists stay on your device. The app represents no school or admissions body and guarantees no admission; for a formal application, follow each school's latest announcements."
     ],
     "features": [
       [
         "Taiwan programme database",
-        "159 institutions, 1,346 departments and programmes and 2,747 admissions entries, each marked with year and source."
+        "158 current institutions, 1,346 departments and programmes and 2,747 admissions entries, each marked with year and source."
       ],
       [
         "Programme study maps",
@@ -90,12 +90,12 @@
         "Save programmes, write decision notes and compare up to four side by side."
       ],
       [
-        "US university directory",
+        "US university directory (Pro)",
         "4,031 IPEDS institutions filterable by state, control and level, with historical degree records, CIP field definitions, career mappings and official year-by-year course plans for some schools."
       ],
       [
         "US Admissions Pro (optional)",
-        "2026–27 Common App requirements for 941 schools — deadlines, fees, essays, recommendations and testing policies — plus My Application List, deadline reminders, same-year cost comparison and search by testing policy."
+        "Includes all US data and tools: school directories, fields, courses, historical statistics, admissions, test guides and costs, plus undergraduate and graduate preparation. Monthly and annual plans provide the same access."
       ]
     ],
     "stepDetails": [
@@ -105,7 +105,7 @@
     ],
     "more": [
       [
-        "US universities",
+        "US universities (Pro)",
         "Filter 4,031 institutions by state, control and level, read historical degree records, CIP field definitions and career mappings, and official year-by-year course plans where available."
       ],
       [

@@ -1,0 +1,65 @@
+{
+  "source": "App Store 台灣與美國官方說明，版本 1.0（2026-10-25 查詢：https://apps.apple.com/tw/app/id6818310524、https://apps.apple.com/us/app/id6818310524）",
+  "zh": {
+    "intro": [
+      "「研究生讀 Paper 神器」把文獻、閱讀紀錄與研究想法集中保存在自己的裝置上。匯入 PDF、圖片、照片或文件掃描，保留原檔副本，並在裝置上擷取文字，建立自己的文獻庫。",
+      "閱讀時可以記下自己的筆記、修改關鍵字與理論建議，並查看依原文章節與關鍵句整理的研究目的、樣本、方法、發現與限制。在寬視窗的 iPad 上，原始文件與筆記可以並排顯示；窄視窗則切換查看。",
+      "不需要註冊帳號、AI 帳號或 API 金鑰；閱讀、整理與拆解都在裝置上完成。這個版本沒有雲端 AI 分析或 App 內購買，支援匯出完整備份，或另外匯出筆記與書目。"
+    ],
+    "features": [
+      ["文獻庫與原始文件", "匯入 PDF、圖片、照片與相機掃描檔，保留完整原檔副本，在裝置上擷取文字。"],
+      ["原文與筆記對照", "寬視窗的 iPad 可並排閱讀原始文件與筆記，方便核對圖表與段落；窄視窗可切換查看。"],
+      ["閱讀拆解", "依文章內容與規則整理研究目的、樣本、方法、發現與限制；摘錄有頁碼資料時，可點回原始頁面核對。"],
+      ["逐段翻譯", "選擇裝置支援的語言，下載所需語言套件後在裝置上翻譯，對照原文與譯文；可用功能依系統版本而異。"],
+      ["筆記、搜尋與引用", "編輯關鍵字、理論、標籤與書目，搜尋擷取文字與筆記，複製 APA、MLA、BibTeX 或 RIS 引用，並可用 DOI 補齊書目。"],
+      ["備份與資料匯出", "匯出包含原檔的完整 .paperbackup，或另外匯出筆記與書目 JSON；完整備份還原只加入新文獻。"]
+    ],
+    "stepDetails": [
+      "將 PDF、圖片、照片或相機掃描檔匯入文獻庫。App 會保留原檔副本並在裝置上擷取文字；檢查辨識結果，再補上或修正文獻資料。掃描 PDF 的 OCR 最多辨識前 32 頁，完整原檔仍會保留供閱讀。",
+      "打開文獻，對照原始文件寫下自己的閱讀筆記。在寬視窗的 iPad 可並排查看，窄視窗可切換。閱讀拆解整理目的、樣本、方法、發現與限制；有頁碼資料的摘錄可回到原始頁面核對，翻譯與拆解都應配合原文閱讀。",
+      "修改或補充關鍵字、理論、標籤與書目，按需要複製 APA、MLA、BibTeX 或 RIS 引用，也可透過 DOI 查詢補齊書目。保存完整資料時匯出 .paperbackup；另行匯出的筆記與書目 JSON 不包含原檔，不能當作完整備份還原。"
+    ],
+    "more": [
+      ["可自行修正的建議", "關鍵字與理論只是閱讀建議，可以修改、補充或留白，並用自己的筆記保留研究想法。"],
+      ["翻譯與系統版本", "App 內逐段翻譯需要 iOS／iPadOS 18 以上；17.4–17.x 使用系統翻譯面板，17.0–17.3 不提供翻譯。語言依裝置與系統支援，首次下載套件需要網路。"],
+      ["找回研究資料", "以搜尋找回擷取文字、筆記與書目；需要引用時複製對應格式，並核對原文及書目內容。"]
+    ],
+    "tips": [
+      "翻譯與閱讀拆解是閱讀輔助，引用研究結果前請核對原文。",
+      "掃描 PDF 的 OCR 最多涵蓋前 32 頁；這個限制不會截短保留的原始文件。",
+      "完整備份使用 .paperbackup；筆記 JSON 不含原檔，也不能當作完整備份還原。",
+      "還原只加入新文獻，不是跨裝置同步。匯出檔案未加密，請保存在可信任的位置。"
+    ]
+  },
+  "en": {
+    "intro": [
+      "Paper Reading Desk keeps papers, reading records and research ideas together on your own device. Import PDFs, images, photos or document scans, retain copies of the originals and extract text locally to build a personal research library.",
+      "Write your own notes, edit keyword and theory suggestions, and review a rule-based breakdown of a paper's purpose, sample, methods, findings and limitations. A wide iPad window shows the original document beside your notes; switch views in a narrow window.",
+      "No app account, AI account or API key is needed. Reading, organising and the breakdown run on the device. This version has no cloud AI analysis or in-app purchases, and you can export a full backup or a separate copy of your notes and bibliography."
+    ],
+    "features": [
+      ["Library and originals", "Import PDFs, images, photos and document scans, preserve complete copies of the originals and extract text on the device."],
+      ["Documents beside notes", "Read an original document alongside your notes in a wide iPad window to check figures and passages, or switch views in a narrow window."],
+      ["Reading breakdown", "Review a rule-based outline of purpose, sample, methods, findings and limitations, with links back to original pages when page information is available."],
+      ["Paragraph translation", "Choose a language supported by your device, download the required language packs and compare on-device translations with the source. Available features depend on the OS version."],
+      ["Notes, search and citations", "Edit keywords, theories, tags and bibliography, search extracted text and notes, copy APA, MLA, BibTeX or RIS citations, and optionally retrieve metadata by DOI."],
+      ["Backup and export", "Export a full .paperbackup including originals, or separate notes and bibliography JSON. Restoring a full backup adds new papers only."]
+    ],
+    "stepDetails": [
+      "Import a PDF, image, photo or document scan into your library. The app preserves a copy of the original and extracts text on the device; review the result and complete or correct the paper's details. Scanned-PDF OCR covers up to the first 32 pages while keeping the complete original available to read.",
+      "Open a paper and write your notes while checking the original. Use the side-by-side view in a wide iPad window or switch views in a narrow one. Review the breakdown of purpose, sample, methods, findings and limitations, and follow excerpts back to their source pages where available. Use both translations and the breakdown alongside the original.",
+      "Edit or add keywords, theories, tags and bibliographic details. Copy an APA, MLA, BibTeX or RIS citation as needed, or retrieve metadata by DOI. Export a .paperbackup to preserve the complete library; a separate notes and bibliography JSON file excludes originals and cannot restore a full backup."
+    ],
+    "more": [
+      ["Suggestions you can edit", "Keywords and theories are reading suggestions. Edit them, add your own or leave them blank, and keep your research ideas in your own notes."],
+      ["Translation and OS versions", "In-app paragraph translation requires iOS or iPadOS 18 or later. Versions 17.4–17.x use the system translation panel; 17.0–17.3 do not offer translation. Languages depend on the device and OS, and the first language-pack download needs internet access."],
+      ["Find research material again", "Search extracted text, notes and bibliographic details. Copy the citation format you need, then check it against the source and bibliography."]
+    ],
+    "tips": [
+      "Translation and the reading breakdown are aids; check the original before quoting research findings.",
+      "Scanned-PDF OCR covers up to the first 32 pages without shortening the preserved original document.",
+      "Full backups use .paperbackup. Notes JSON excludes originals and is not a restorable full backup.",
+      "Restore adds new papers only and is not cross-device synchronisation. Exported files are not encrypted; keep them somewhere you trust."
+    ]
+  }
+}

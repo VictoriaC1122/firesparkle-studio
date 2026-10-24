@@ -1,4 +1,4 @@
-// 下載 15 款作品在 App Store（台灣）的官方截圖。
+// 下載作品清單中每款作品在 App Store（台灣）的官方截圖。
 // 執行（需要能連到 itunes.apple.com 與 mzstatic.com 的網路）：node scripts/fetch-screenshots.mjs --force（--force 重新下載既有檔案，確保與 App Store 目前順序一致）
 // 輸出：public/assets/screenshots/<slug>/iphone-NN.jpg（賴瑞另有 ipad-NN.jpg）、
 //       data/screenshot-manifest.json（來源網址、尺寸、版本、取得日期）、data/apple-lookup-<日期>.json（原始查詢結果）。

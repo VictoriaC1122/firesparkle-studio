@@ -1,10 +1,10 @@
 {
-  "source": "App Store 官方說明、更新記錄與 4 張官方截圖（2026-10-23 查詢，data/apple-lookup-2026-10-23.json、public/assets/screenshots/semiconductors-illustrated/）",
+  "source": "App Store 官方說明、1.2 更新記錄與 4 張官方截圖（2026-10-25 查詢，data/apple-lookup-2026-10-25-tw.json、public/assets/screenshots/semiconductors-illustrated/）",
   "zh": {
     "intro": [
       "給半導體初學者，每天 5 分鐘，看懂晶片與產業。不論你是學生、準備轉職，或剛進入半導體產業的非工程職新人，「圖解半導體」都能從沒有背景知識開始：選一個概念，用圖解與短篇解說理解，再透過互動實驗、小測驗與術語翻卡確認所學。",
       "24 堂完整入門課涵蓋半導體原理、晶片類型、IC 設計與晶圓製造，每課附概念解說、比喻、實際案例、相關術語與 3 題測驗。互動部分可以拖動電晶體的閘極電壓滑桿、在晶片圖鑑切換 CPU、GPU、NPU、DRAM、NAND、MCU 與 SoC、以 6 個概念階段探索製程並比較前後步驟，還能調整晶粒面積與缺陷密度觀察簡化良率模型。",
-      "147 個術語支援搜尋、分類、收藏與翻卡練習，15 家公司檔案說明主要產品、技術與商業模式。介面與全部教材提供 20 種語系，可離線閱讀；不需建立帳號、無廣告。圖解與良率計算是標示假設的教學模型，不代表特定公司的真實製程或報價，公司比較也不提供股票推薦。"
+      "153 個術語支援搜尋、分類、收藏與翻卡練習，21 家公司檔案說明主要產品、技術與商業模式。介面、課程、公司介紹與術語提供 20 種語系，可離線閱讀；不需建立帳號、無廣告。圖解與良率計算是標示假設的教學模型，不代表特定公司的真實製程或報價，公司比較也不提供股票推薦。"
     ],
     "features": [
       [
@@ -25,11 +25,15 @@
       ],
       [
         "術語與公司檔案",
-        "147 個術語可搜尋、分類、收藏並翻卡練習；15 家公司檔案說明產品、技術與商業模式。"
+        "153 個術語可搜尋、分類、收藏並翻卡練習；21 家公司檔案說明產品、技術與商業模式。"
       ],
       [
         "20 種語系、離線可用",
         "介面與教材一起切換；學習進度、筆記與測驗紀錄保存在本機。"
+      ],
+      [
+        "半導體學習地圖",
+        "繁體中文學習地圖整理入門影片、書單、76 家公司簡介、職位學習方向、全球產業佈局與非本科進修管道。"
       ]
     ],
     "stepDetails": [
@@ -56,21 +60,26 @@
       ],
       [
         "公司檔案與 Pro",
-        "閱讀 15 家公司的產品、技術、商業模式與觀察重點；Pro 可對照兩家公司的商業模式，並比較兩組良率與成本假設。"
+        "閱讀 21 家公司的產品、技術、商業模式與觀察重點；Pro 可對照兩家公司的商業模式，並比較兩組良率與成本假設。"
+      ],
+      [
+        "結構與封裝對照",
+        "在探索頁比較平面、FinFET 與 GAA 電晶體，以及打線和倒裝銅柱封裝，理解各種結構的差異。"
       ]
     ],
     "tips": [
       "遇到不懂的術語先收藏，讀完課再一次翻卡，比中途一直查更順。",
       "切換語言會保留學習進度、收藏、測驗紀錄與筆記；英文課名與技術用語保留作為對照。",
       "課程與本機紀錄可離線使用；開啟外部來源與處理訂閱時需要網路。",
-      "學習紀錄保存在這台裝置上，App 不提供跨裝置同步。"
+      "學習紀錄保存在這台裝置上，App 不提供跨裝置同步。",
+      "半導體學習地圖目前只有繁體中文；其他介面、課程、公司介紹與術語可切換 20 種語言。"
     ]
   },
   "en": {
     "intro": [
       "Five minutes a day for semiconductor beginners to understand chips and the industry. Whether you are a student, preparing for a career change or new to a non-engineering role in the industry, Semiconductors Illustrated starts from no background at all: pick a concept, understand it through illustrations and a short explanation, then confirm it with interactive experiments, quizzes and term flashcards.",
       "Twenty-four introductory lessons cover semiconductor principles, chip types, IC design and wafer fabrication, each with an explanation, an analogy, a real-world case, related terms and a three-question quiz. The interactive parts let you drag a transistor's gate-voltage slider, switch between CPU, GPU, NPU, DRAM, NAND, MCU and SoC in the chip atlas, explore the process in six conceptual stages with before-and-after comparisons, and adjust die area and defect density in a simplified yield model.",
-      "A glossary of 147 terms supports search, categories, favourites and flashcard practice, and 15 company profiles explain products, technologies and business models. The interface and all course material come in 20 languages and can be read offline; no account is needed and there are no ads. The diagrams and yield calculations are teaching models with stated assumptions, not any company's real process or pricing, and the company comparisons are not stock recommendations."
+      "A glossary of 153 terms supports search, categories, favourites and flashcard practice, and 21 company profiles explain products, technologies and business models. The interface and all course material come in 20 languages and can be read offline; no account is needed and there are no ads. The diagrams and yield calculations are teaching models with stated assumptions, not any company's real process or pricing, and the company comparisons are not stock recommendations."
     ],
     "features": [
       [
@@ -91,11 +100,15 @@
       ],
       [
         "Terms and company profiles",
-        "147 searchable, categorised terms with favourites and flashcards; 15 company profiles covering products, technology and business models."
+        "153 searchable, categorised terms with favourites and flashcards; 21 company profiles covering products, technology and business models."
       ],
       [
         "Twenty languages, offline",
         "Interface and course material switch together; progress, notes and quiz records are stored on the device."
+      ],
+      [
+        "Semiconductor learning map",
+        "A Traditional Chinese learning map brings together introductory videos, reading lists, 76 company summaries, role-based learning paths, the global industry landscape and further-study options for career changers."
       ]
     ],
     "stepDetails": [
@@ -122,14 +135,19 @@
       ],
       [
         "Company profiles and Pro",
-        "Read the products, technology, business model and points to watch for 15 companies; Pro compares two companies' business models and two sets of yield and cost assumptions."
+        "Read the products, technology, business model and points to watch for 21 companies; Pro compares two companies' business models and two sets of yield and cost assumptions."
+      ],
+      [
+        "Compare structures and packaging",
+        "In Explore, compare planar, FinFET and GAA transistors, as well as wire bonding and flip-chip copper-pillar packaging, to understand the differences."
       ]
     ],
     "tips": [
       "Favourite unfamiliar terms as you go and run a flashcard round after the lesson instead of looking everything up mid-read.",
       "Switching language keeps your progress, favourites, quiz records and notes; English lesson titles and technical terms stay for reference.",
       "Lessons and local records work offline; opening external sources and handling subscriptions need a connection.",
-      "Learning records live on this device only — the app does not sync across devices."
+      "Learning records live on this device only — the app does not sync across devices.",
+      "The semiconductor learning map is currently available only in Traditional Chinese; the interface, lessons, company profiles and glossary support 20 languages."
     ]
   }
 }

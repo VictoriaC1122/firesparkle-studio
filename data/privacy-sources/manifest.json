@@ -2238,26 +2238,95 @@
       },
       "compiledZh": "2026 年 10 月 21 日",
       "compiledEn": "October 21, 2026"
+    },
+    "6818310524": {
+      "appId": "6818310524",
+      "appName": "研究生讀 Paper 神器",
+      "appStoreURL": "https://apps.apple.com/tw/app/id6818310524",
+      "privacyURL": "https://victoriac1122.github.io/paper-reader-support-site/privacy.html",
+      "supportURL": "https://victoriac1122.github.io/paper-reader-support-site/",
+      "marketingURL": null,
+      "contactEmail": "victoriacheng1122@gmail.com",
+      "contactEmails": [
+        "victoriacheng1122@gmail.com"
+      ],
+      "policyTextFile": "6818310524-policy-body.txt",
+      "policySourceURL": "https://victoriac1122.github.io/paper-reader-support-site/#privacy-policy",
+      "policyStatus": "full_text_available",
+      "policyUpdatedText": "更新日期：2026 年 10 月 16 日・適用於 1.0 本機版",
+      "policyCompiledDate": "2026-10-25",
+      "policyTextCharacterCount": 1998,
+      "policyTextExtraction": "Extracted existing Traditional Chinese text from #privacy-policy article.policy-card. Removed the decorative English eyebrow label and navigation-only text; whitespace normalized. Policy wording and original contact information retained.",
+      "evidenceFile": "6818310524-policy-evidence.json",
+      "source": {
+        "url": "https://apps.apple.com/tw/app/id6818310524",
+        "file": "6818310524-app-store-tw.html",
+        "sha256": "f98407605f72d874cddcd319df9e2ba98479aa8d143eac773366d20ab94ea69f",
+        "developerLinks": [
+          {
+            "label": "支援",
+            "url": "https://victoriac1122.github.io/paper-reader-support-site/"
+          }
+        ],
+        "privacyLinks": [
+          {
+            "label": "開發者的隱私權政策",
+            "url": "https://victoriac1122.github.io/paper-reader-support-site/privacy.html"
+          }
+        ],
+        "developerLinkJSONPath": "data[0].data.shelfMapping.description.items[0].developerLinks",
+        "privacyLinkJSONPath": "data[0].data.shelfMapping.privacyHeader.items[0].bodyText.linkedSubstrings"
+      },
+      "evidenceSources": [
+        "https://apps.apple.com/tw/app/id6818310524",
+        "https://apps.apple.com/us/app/id6818310524",
+        "https://victoriac1122.github.io/paper-reader-support-site/privacy.html",
+        "https://victoriac1122.github.io/paper-reader-support-site/#privacy-policy"
+      ],
+      "policyHeadings": [
+        "研究生讀 Paper 神器 隱私權政策",
+        "1. 政策總覽",
+        "2. App 本機資料",
+        "3. Apple 翻譯",
+        "4. 資料匯出與備份",
+        "5. 帳戶與購買",
+        "6. 其他第三方服務",
+        "7. 系統權限",
+        "8. 保存、控制與刪除",
+        "9. 兒少隱私",
+        "10. 政策更新",
+        "11. 聯繫方式"
+      ],
+      "notes": [
+        "App Store 隱私權政策網址為 privacy.html；該頁以 HTML refresh 與 JavaScript 指向 index.html#privacy-policy。正文擷取實際政策 article，未混入 FAQ、支援或使用條款。"
+      ],
+      "supportSource": {
+        "url": "https://victoriac1122.github.io/paper-reader-support-site/",
+        "file": "6818310524-policy.html",
+        "readable": true
+      },
+      "compiledZh": "2026 年 10 月 25 日",
+      "compiledEn": "October 25, 2026"
     }
   },
   "schemaVersion": 2,
   "extractionNotes": [
     "App Store web pages exposed privacy/developer website URLs, but no per-App supportURL field. supportURL values are public support/contact destinations observed in the linked official sites; appStoreSupportURL remains null.",
     "policyTextFile is complete source policy wording with navigation and unrelated copyright/support sections removed; source HTML/TXT files retain the full pages. Summaries are descriptive research notes, not revised legal promises.",
-    "14 policies have full text available; 1 (Larry) only describes the public information website. No App behavior was independently audited.",
+    "15 policies have full text available; 1 (Larry) only describes the public information website. No App behavior was independently audited.",
     "Contact difference: Compound Calculator uses victoriacheeng1122@gmail.com; nine apps use victoriacheng1122@gmail.com; AI TimeManager has GitHub-only public contact."
   ],
   "coverage": {
-    "apps": 15,
-    "appStorePagesReadable": 15,
-    "privacyURLsFound": 15,
-    "fullPolicyTexts": 14,
+    "apps": 16,
+    "appStorePagesReadable": 16,
+    "privacyURLsFound": 16,
+    "fullPolicyTexts": 15,
     "websiteOnlyPrivacyTexts": 1,
-    "appsWithEmail": 14,
+    "appsWithEmail": 15,
     "distinctEmails": [
       "victoriacheeng1122@gmail.com",
       "victoriacheng1122@gmail.com"
     ]
   },
-  "lastUpdatedOn": "2026-10-21"
+  "lastUpdatedOn": "2026-10-25"
 }

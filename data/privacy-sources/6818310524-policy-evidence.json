@@ -1,0 +1,76 @@
+{
+  "retrievedOn": "2026-10-25",
+  "appId": "6818310524",
+  "appName": "研究生讀 Paper 神器",
+  "appStoreSources": [
+    {
+      "url": "https://apps.apple.com/tw/app/id6818310524",
+      "file": "6818310524-app-store-tw.html",
+      "sha256": "f98407605f72d874cddcd319df9e2ba98479aa8d143eac773366d20ab94ea69f",
+      "developerLinks": [
+        {
+          "label": "支援",
+          "url": "https://victoriac1122.github.io/paper-reader-support-site/"
+        }
+      ],
+      "privacyLinks": [
+        {
+          "label": "開發者的隱私權政策",
+          "url": "https://victoriac1122.github.io/paper-reader-support-site/privacy.html"
+        }
+      ],
+      "developerLinkJSONPath": "data[0].data.shelfMapping.description.items[0].developerLinks",
+      "privacyLinkJSONPath": "data[0].data.shelfMapping.privacyHeader.items[0].bodyText.linkedSubstrings"
+    },
+    {
+      "url": "https://apps.apple.com/us/app/id6818310524",
+      "file": "6818310524-app-store-us.html",
+      "sha256": "18e370c7294e153e1124fec1fe189542cfd4968c960832ad0f8318b8c98e28d4",
+      "developerLinks": [
+        {
+          "label": "Support",
+          "url": "https://victoriac1122.github.io/paper-reader-support-site/"
+        }
+      ],
+      "privacyLinks": [
+        {
+          "label": "developer’s privacy policy",
+          "url": "https://victoriac1122.github.io/paper-reader-support-site/privacy.html"
+        }
+      ],
+      "developerLinkJSONPath": "data[0].data.shelfMapping.description.items[0].developerLinks",
+      "privacyLinkJSONPath": "data[0].data.shelfMapping.privacyHeader.items[0].bodyText.linkedSubstrings"
+    }
+  ],
+  "privacyRedirect": {
+    "url": "https://victoriac1122.github.io/paper-reader-support-site/privacy.html",
+    "file": "6818310524-privacy-redirect.html",
+    "sha256": "a3d705ff587368f8f52f677f6a5ae13a422a11444d6cb032e1ea777e49b7db56",
+    "target": "https://victoriac1122.github.io/paper-reader-support-site/index.html#privacy-policy"
+  },
+  "policyDocument": {
+    "url": "https://victoriac1122.github.io/paper-reader-support-site/#privacy-policy",
+    "file": "6818310524-policy.html",
+    "sha256": "05217daea01c727893734d493c350113b2764987215fdd086c20fc1ec812e470",
+    "selector": "#privacy-policy article.policy-card",
+    "headings": [
+      "研究生讀 Paper 神器 隱私權政策",
+      "1. 政策總覽",
+      "2. App 本機資料",
+      "3. Apple 翻譯",
+      "4. 資料匯出與備份",
+      "5. 帳戶與購買",
+      "6. 其他第三方服務",
+      "7. 系統權限",
+      "8. 保存、控制與刪除",
+      "9. 兒少隱私",
+      "10. 政策更新",
+      "11. 聯繫方式"
+    ],
+    "policyUpdatedText": "更新日期：2026 年 10 月 16 日・適用於 1.0 本機版",
+    "contactEmails": [
+      "victoriacheng1122@gmail.com"
+    ]
+  },
+  "policyTextExtraction": "Extracted existing Traditional Chinese text from #privacy-policy article.policy-card. Removed the decorative English eyebrow label and navigation-only text; whitespace normalized. Policy wording and original contact information retained."
+}

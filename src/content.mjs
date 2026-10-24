@@ -30,6 +30,7 @@ export const order = [
   'compound-calculator', 'easy-draw', 'larry-cocktail', 'crypto-dictionary', 'vitamins',
   'stock-simulator', 'pr-diary', 'time-manager', 'dream-journal', 'design-it',
   'coffee-chat', 'perfect-pig', 'milebutler', 'future-major-guide', 'semiconductors-illustrated',
+  'paper-reading-desk',
 ];
 
 export const categoryEn = {
@@ -39,12 +40,18 @@ export const categoryEn = {
 export const genreEn = {
   工具程式: 'Utilities', 財經: 'Finance', 生產力工具: 'Productivity', 教育: 'Education', 健康與健身: 'Health & Fitness',
   遊戲: 'Games', 家庭: 'Family', 模擬: 'Simulation', 圖像與設計: 'Graphics & Design', 生活風格: 'Lifestyle',
-  參考: 'Reference', 旅遊: 'Travel',
+  參考: 'Reference', 旅遊: 'Travel', 商業: 'Business', 休閒: 'Casual',
 };
 
 // 每款 App：分類、中文簡稱、英文名稱與中英文簡介
 // accent：作品主色〔淺色模式, 深色模式〕，取自各 App 的 AccentColor 或主題色；只用於作品頁、隱私頁與支援頁的細線和小標記，全站仍以古金色為主
 export const apps = {
+  'paper-reading-desk': {
+    accent: ['#8f6736', '#d7b582'],
+    category: '學習與規劃', short: '研究生讀 Paper 神器', en: 'Paper Reading Desk',
+    shortDescription: '將文獻、閱讀筆記與引用資料保存在裝置上，匯入文件、查看論文拆解並匯出備份。',
+    enDesc: 'Keep papers, reading notes and citations on your device. Import documents, review paper breakdowns and export backups.',
+  },
   'future-major-guide': {
     accent: ['#1469de', '#99ccff'],
     category: '學習與規劃', short: '我決定自己的未來-大學選系指南', en: 'Future Major Guide',
