@@ -1284,17 +1284,18 @@
       "policyTextFile": "6811446129-policy-body.txt",
       "policySourceURL": "https://victoriac1122.github.io/perfect-pig-legal-center/?lang=zh-Hant&doc=privacy",
       "policyStatus": "full_text_available",
-      "policyUpdatedText": "最後更新日期：2026 年 9 月 13 日",
+      "policyUpdatedText": "最後更新日期：2026 年 10 月 25 日",
       "policySummary": [
-        "原文列出養成、聊天、遊戲進度與設定在裝置上處理；iCloud 僅同步永久解鎖項目識別碼。",
-        "原文揭露取得 Apple 伺服器時間的輕量請求、StoreKit 內購、本機通知及原網站的 GitHub Pages／Google Fonts。"
+        "本機養成與自己小豬的聊天在裝置上處理；iCloud 合併永久解鎖、造型、收藏及養成紀錄，不同步完整聊天與錢包。",
+        "選擇加入豬友園地後，服務端保存身份、名片、私訊、留言、好友／關係、檢舉及操作紀錄；刪帳後的歷史快照與安全保留界線詳見政策。"
       ],
       "notes": [
         "原頁用公開 script.js 的 COPY[\"zh-Hant\"].privacy 載入正文；已原樣擷取其八節文字，並保留整份 JS 與政策 JSON。",
-        "政策含原網站 GitHub Pages／Google Fonts 服務描述；更換網站服務後需核對。"
+        "政策含原網站 GitHub Pages／Google Fonts 服務描述；更換網站服務後需核對。",
+        "2026-10-25：依完美養豬與 PigPalsCloud 原始碼校正文案，加入選用線上園地、iCloud 收藏與刪帳保留界線；原始擷取文件與其雜湊保留作歷史證據。"
       ],
-      "policyTextExtraction": "Only navigation/other document sections removed; source policy wording retained. Whitespace normalized.",
-      "policyTextCharacterCount": 1110,
+      "policyTextExtraction": "2026-10-25 source-audited revision; original captured policy remains in policy-body.json and policy_script.js as historical evidence.",
+      "policyTextCharacterCount": 3187,
       "appStoreSupportURL": null,
       "contactEmailEvidence": [
         {
