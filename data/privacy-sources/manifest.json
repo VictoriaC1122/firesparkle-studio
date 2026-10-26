@@ -1402,19 +1402,20 @@
       "policyTextFile": "6818286088-policy-body.txt",
       "policySourceURL": "https://victoriac1122.github.io/design-it-yourself-privacy-policy/#privacy",
       "policyStatus": "full_text_available",
-      "policyUpdatedText": "最後更新：2026 年 10 月 25 日",
+      "policyUpdatedText": "最後更新：2026 年 10 月 27 日",
       "policySummary": [
         "原生房間照片、RoomPlan、規劃資料與使用者選取檔案在本機處理；不自動上傳至花火工作室。",
-        "選用 Sweet Home 3D 線上編輯器時，帳號、線上設計與網站資料由第三方服務管理；內建瀏覽器與 Safari 的保存及清除方式已分別說明。",
+        "選用 Sweet Home 3D 時，帳號、Email、線上設計與使用者自行匯入的圖片由第三方保存並與帳號連結；1.2.1 起內建瀏覽器隔離已查證廣告與分析請求。",
         "保留選用相機與通知、手動分享、備份排除與本機刪除說明，並使用花火工作室官方聯絡信箱。"
       ],
       "notes": [
         "更新日期原本在同頁頁首，已與政策正文一併保存；原文未改寫。",
         "政策含原網站 GitHub Pages／Google Fonts 服務描述；更換網站服務後需核對。",
-        "2026-10-25：依目前 App 的 SweetHome3DDestination、SweetHome3DBrowser、SweetHome3DScreen 與 SettingsScreens 原始碼，以及 Sweet Home 3D 官方隱私政策校正；原始擷取文件及其雜湊保留作歷史證據。"
+        "2026-10-25：依目前 App 的 SweetHome3DDestination、SweetHome3DBrowser、SweetHome3DScreen 與 SettingsScreens 原始碼，以及 Sweet Home 3D 官方隱私政策校正；原始擷取文件及其雜湊保留作歷史證據。",
+        "2026-10-27：依實際 editor HTML、GTM 公開設定與官方 Online 功能說明，新增明確圖片上傳與 1.2.1 內容封鎖規則說明；官方帳號及雲端設計功能保留。"
       ],
-      "policyTextExtraction": "2026-10-25 source-audited revision for the optional Sweet Home 3D hosted editor; original captured HTML and TXT remain unchanged as historical evidence.",
-      "policyTextCharacterCount": 2833,
+      "policyTextExtraction": "2026-10-27 source-audited revision for embedded web privacy protection and explicit account-linked online image uploads; historical captures retained.",
+      "policyTextCharacterCount": 3188,
       "appStoreSupportURL": null,
       "contactEmailEvidence": [
         {
@@ -1435,7 +1436,7 @@
       "compiledZh": "2026 年 10 月 25 日",
       "compiledEn": "October 25, 2026",
       "policyRevisionEvidence": {
-        "reviewedOn": "2026-10-25",
+        "reviewedOn": "2026-10-27",
         "officialVendorPolicy": "https://www.sweethome3d.com/privacy-policy/",
         "websitePrivacyNotice": "https://firesparkle.com/website-privacy/",
         "sourceFiles": [
@@ -1443,7 +1444,10 @@
           "Views/Components/SweetHome3DBrowser.swift",
           "Views/Screens/SweetHome3DScreen.swift",
           "Views/Screens/SettingsScreens.swift"
-        ]
+        ],
+        "officialOnlineFeatures": "https://www.sweethome3d.com/blog/more-modification-capabilities-in-sweet-home-3d-online/",
+        "hostedEditor": "https://www.sweethome3d.com/SweetHome3DJSOnline.jsp",
+        "appleWebViewPrivacy": "https://developer.apple.com/app-store/app-privacy-details/"
       }
     },
     "6761694656": {
