@@ -7,6 +7,7 @@ import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { createHash } from 'node:crypto';
+import { renderLuxuryLegal, renderLuxurySupport } from '../src/luxury-guide-legal.mjs';
 import { renderHome } from '../src/home.mjs';
 import { renderGuide, guideCopy } from '../src/guides.mjs';
 import { loadDetails, renderAbout, renderStepDetail, renderMore } from '../src/details.mjs';
@@ -152,10 +153,16 @@ ${renderAbout({ detail, isGame, T, esc })}
   await save(`app/${a.slug}/support/index.html`, page({ path: supportURL(a), title: `${a.short}支援與聯絡｜花火工作室 FireSparkle.Studio`, description: `${a.nameZhHant}的使用支援、問題回報與聯絡方式。`, content: supportContent, navGroup: isGame ? 'games' : 'apps' }));
 }
 
+const luxuryLegal=JSON.parse(await read('data/luxury-guide-legal.json'));
+for (const kind of ['privacy','terms']) {
+  await save(`app/luxury-guide/${kind}/index.html`,page({path:`/app/luxury-guide/${kind}/`,title:`名牌指南 Luxury Guide｜${kind==='privacy'?'隱私政策 Privacy Policy':'使用條款 Terms of Use'}`,description:'名牌指南的資料處理、使用規則與聯絡方式。Luxury Guide privacy, terms and contact.',content:renderLuxuryLegal(kind,luxuryLegal[kind],esc)}));
+}
+await save('app/luxury-guide/support/index.html',page({path:'/app/luxury-guide/support/',title:'名牌指南 Luxury Guide｜支援與聯絡',description:'名牌指南的使用支援、資料管理與聯絡方式。Luxury Guide support.',content:renderLuxurySupport()}));
+
 // --------------------------------------------------------------------------
 // 隱私中心、支援、網站隱私說明、404
 // --------------------------------------------------------------------------
-await save('privacy/index.html', page({ path: '/privacy/', title: 'App 隱私政策｜花火工作室 FireSparkle.Studio', description: '依 App 查閱花火工作室各款 App 的資料處理、權限、保存與刪除方式。', content: `<div class="wrap reading-wrap privacy-list">${breadcrumb(L('App 隱私政策', 'App privacy'))}<header class="page-heading"><p class="eyebrow">${T('Privacy')}</p><h1>${L('隱私資訊', 'Privacy information')}</h1><p class="lead">${L('依作品查閱現有隱私說明與聯絡方式。', 'Find the available privacy information and contact details for each app or game.')}</p></header><div class="resource-list reveal">${appRows('privacy')}</div><p class="section-note">${L('這個官網本身的資料處理，請參閱<a href="/website-privacy/">網站隱私說明</a>。', 'For this website itself, see the <a href="/website-privacy/">website privacy notice</a>.')}</p></div>` }));
+await save('privacy/index.html', page({ path: '/privacy/', title: 'App 隱私政策｜花火工作室 FireSparkle.Studio', description: '依 App 查閱花火工作室各款 App 的資料處理、權限、保存與刪除方式。', content: `<div class="wrap reading-wrap privacy-list">${breadcrumb(L('App 隱私政策', 'App privacy'))}<header class="page-heading"><p class="eyebrow">${T('Privacy')}</p><h1>${L('隱私資訊', 'Privacy information')}</h1><p class="lead">${L('依作品查閱現有隱私說明與聯絡方式。', 'Find the available privacy information and contact details for each app or game.')}</p></header><div class="resource-list reveal">${appRows('privacy')}<a href="/app/luxury-guide/privacy/" class="resource-row"><span>名牌指南 Luxury Guide</span><span>隱私政策 / Privacy Policy →</span></a></div><p class="section-note">${L('這個官網本身的資料處理，請參閱<a href="/website-privacy/">網站隱私說明</a>。', 'For this website itself, see the <a href="/website-privacy/">website privacy notice</a>.')}</p></div>` }));
 
 const faq = [
   ['如何管理訂閱或申請退款？', 'How do I manage a subscription or ask for a refund?',
@@ -176,7 +183,7 @@ await save('website-privacy/index.html', page({ path: '/website-privacy/', title
 
 await save('404.html', page({ path: '/404.html', title: '找不到頁面｜花火工作室 FireSparkle.Studio', description: '找不到指定頁面，請返回花火工作室首頁。', content: `<section class="wrap page-heading not-found"><img class="not-found-mark" src="${brandAsset('/assets/brand/firesparkle-mark-720.webp')}" alt="" width="180" height="180"><p class="eyebrow">${T('Page not found')}</p><h1>${L('找不到這個頁面', 'Page not found')}</h1><p class="lead">${L('網址可能有誤，或頁面已經移動。請返回首頁查看作品。', 'The address may be incorrect, or the page may have moved. Return to the homepage to browse our apps and games.')}</p><a class="button" href="/">${L('返回首頁', 'Back to home')} ${arrow()}</a></section>` }));
 
-const urls = ['/', '/guides/games/', '/guides/apps/', '/privacy/', '/support/', '/website-privacy/', ...apps.flatMap((a) => [appURL(a), policyURL(a), supportURL(a)])];
+const urls = ['/app/luxury-guide/privacy/', '/app/luxury-guide/terms/', '/app/luxury-guide/support/', '/', '/guides/games/', '/guides/apps/', '/privacy/', '/support/', '/website-privacy/', ...apps.flatMap((a) => [appURL(a), policyURL(a), supportURL(a)])];
 await save('sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map((u) => `  <url><loc>${siteURL}${u}</loc></url>`).join('\n')}\n</urlset>\n`);
 await save('robots.txt', `User-agent: *\nAllow: /\nSitemap: ${siteURL}/sitemap.xml\n`);
 console.log(`Built FireSparkle.Studio website: ${apps.length} work pages, ${apps.length} privacy pages, ${apps.length} support pages, 7 shared pages, ${Object.values(media).reduce((n, m) => n + m.images.length, 0)} screenshots${base ? ` (base ${base})` : ''}.`);

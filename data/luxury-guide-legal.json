@@ -1,0 +1,91 @@
+{
+  "updated": "2026-10-29",
+  "privacy": [
+    [
+      "適用範圍與聯絡",
+      "Scope and contact",
+      "本政策適用於花火工作室 FireSparkle.Studio（Apple 開發者：Yung Wen Cheng）提供的《名牌指南 Luxury Guide》1.0 本機功能版本。生效及更新日期：2026 年 10 月 29 日。資料或隱私問題請寄至 firesparkle.studio@gmail.com，主旨註明「名牌指南隱私」。",
+      "This policy covers the local-feature version 1.0 of Luxury Guide, provided by FireSparkle.Studio (Apple developer: Yung Wen Cheng). Effective and updated: 29 October 2026. Contact firesparkle.studio@gmail.com with “Luxury Guide privacy” in the subject for data or privacy requests."
+    ],
+    [
+      "保存在裝置上的資料",
+      "Data stored on your device",
+      "你不必建立帳號即可使用。暱稱（選填）、語言、幣別、地區、外觀、興趣、收藏、個人單品與筆記、課程進度、測驗答案、分數及學習紀錄保存在 App 的本機資料區。搜尋字詞、選購條件及價格試算輸入用於當次操作，App 不會把這些內容傳至工作室伺服器。目前未啟用帳號登入、開發者雲端同步、遠端 AI、廣告或第三方行為分析 SDK；我們不販售個人資料，也不進行跨 App 廣告追蹤。",
+      "No account is required. Your optional display name, language, currency, region, appearance, interests, saved items, collection notes, course progress, quiz answers, scores and learning records are stored in the app’s local storage. Search text, buying preferences and manual price inputs are used for the current interaction and are not uploaded to studio servers. Developer accounts, cloud sync, remote AI, advertising and third-party behavioral analytics SDKs are not enabled in this version. We do not sell personal data or perform cross-app advertising tracking."
+    ],
+    [
+      "地圖、外部網站與 Apple 服務",
+      "Maps, external websites and Apple services",
+      "開啟地圖或送出店家搜尋時，Apple MapKit 會連線取得地圖與搜尋結果；你輸入的地點或店名會交由 Apple 處理，連線亦可能涉及 IP 位址、裝置及技術資訊。App 不要求 GPS 定位權限，也不建立你的移動紀錄。點開品牌官網、資料來源、支援或法律頁面後，該網站依自己的隱私規則處理連線資料。請勿在地圖搜尋輸入不必要的個人資料。App 可能透過 StoreKit 查詢 Apple 提供的購買權限或回復紀錄；Apple 處理商店帳號與付款資訊，工作室不會取得你的完整付款卡號。正式付費購買目前關閉。",
+      "Opening maps or submitting a boutique search connects to Apple MapKit. Apple processes the place or business name you enter, and connections may involve IP addresses, device details and technical information. The app does not request GPS permission or create a movement history. Brand, source, support and legal websites handle visits under their own policies. Avoid entering unnecessary personal details in map searches. StoreKit may check purchase entitlements or restore records supplied by Apple. Apple handles store accounts and payments; the studio does not receive full payment-card numbers. Production paid purchases are currently disabled."
+    ],
+    [
+      "提醒與資料分享",
+      "Reminders and sharing",
+      "學習提醒只在你選擇開啟並允許通知後，由裝置排程本機通知；不使用開發者推播伺服器。你可以在 App 或 iOS 設定關閉。匯出功能會在裝置產生含個人設定、收藏與學習資料的檔案；若原始儲存資料損壞，匯出亦可能包含供復原的原始資料。分享單品比較或匯出檔案時，只有你選取的分享目的地會接收你主動分享的內容。請先檢查檔案，並自行管理已寄送或儲存的副本。",
+      "Learning reminders are scheduled locally only after you enable them and grant notification permission. We do not operate a push-notification server for this feature. Disable reminders in the app or iOS Settings. Export creates an on-device file containing your preferences, saved items and learning records; damaged storage may also be included as recovery data. Sharing a comparison or export sends the selected content to the destination you choose. Check files before sharing and manage copies you have sent or saved."
+    ],
+    [
+      "聯絡支援、保存與服務供應者",
+      "Support, retention and service providers",
+      "你主動寄信時，我們會收到寄件地址、你提供的姓名、訊息與附件，只用於回覆、排除問題及處理資料權利請求。請不要寄送密碼、付款卡號或非必要敏感資料。信箱使用 Gmail，郵件可能在其他國家處理；往來內容保留至處理請求及必要後續聯繫不再需要時，之後刪除不必要內容，但依法或為處理爭議必要者除外。郵件服務商備份依其規則處理。官網由 GitHub Pages 提供，瀏覽時 GitHub 可能為傳送頁面與安全維運處理連線紀錄。",
+      "When you email us, we receive your address, any name you provide, message and attachments, and use them to respond, troubleshoot and handle data-rights requests. Do not send passwords, payment-card numbers or unnecessary sensitive information. Gmail hosts our mailbox and may process messages in other countries. We retain correspondence while needed to resolve the request and necessary follow-up, then delete unnecessary material unless legally required or needed for a dispute. Provider backups follow the provider’s rules. GitHub Pages hosts this website and may process connection logs to deliver pages and maintain security."
+    ],
+    [
+      "查閱、匯出、更正與刪除",
+      "Access, export, correction and deletion",
+      "你可在 App 的個人頁調整偏好、收藏及單品筆記，在「隱私」頁匯出或清除本機資料。清除會移除 App 管理的本機收藏、學習紀錄與偏好；清除失敗時 App 會提示錯誤，不表示刪除已完成。已分享的檔案、郵件、Apple 商店紀錄與作業系統備份不會因此一併刪除。iOS／iCloud 備份可能依你的系統設定保存 App 資料，請使用 Apple 提供的備份管理方式處理。我們無法遠端讀取或代為復原你的本機筆記。若要查閱、更正或刪除你透過 Email 提供的個人資料，請寄信提出；我們可能要求必要的身分確認，並依適用法令處理與回覆。",
+      "Use Profile to manage preferences, saved items and notes, and Privacy to export or erase local app data. Erasure removes the local saved items, learning records and preferences managed by the app. A failed operation displays an error and does not mean deletion succeeded. Shared files, emails, Apple store records and operating-system backups are separate. iOS/iCloud backups may include app data according to your settings; manage those through Apple’s backup controls. We cannot remotely read or recover your local notes. Email us to request access, correction or deletion of personal information you supplied by email. We may request necessary identity verification and handle requests under applicable law."
+    ],
+    [
+      "兒童、安全與政策更新",
+      "Children, security and policy changes",
+      "本 App 是一般教育參考工具，並非兒童專屬服務，不要求兒童提交個人資料。家長若發現兒童透過支援信箱提交了不必要資料，可聯絡我們處理。App 使用 iOS 的本機儲存及系統保護，但任何裝置或傳輸都無法保證絕對安全。若未來加入帳號、雲端、AI 或改變資料用途，我們會先更新本政策與 App 內說明，並在依法需要時取得同意；不會因本政策提及未來功能而自動啟用資料傳送。",
+      "This is a general educational reference tool, not a child-directed service, and does not require children to submit personal information. Parents may contact us about unnecessary information a child sent to support. The app uses iOS local storage and system protections, but no device or transmission is absolutely secure. Before introducing accounts, cloud services, AI or new data purposes, we will update this policy and in-app disclosures and obtain consent where required. Mentioning future features here does not enable data transfers."
+    ]
+  ],
+  "terms": [
+    [
+      "服務與適用文件",
+      "Service and applicable documents",
+      "本條款適用於花火工作室 FireSparkle.Studio（Apple 開發者：Yung Wen Cheng）提供的《名牌指南 Luxury Guide》。生效及更新日期：2026 年 10 月 29 日。App Store 取得之 App 授權依 Apple 標準使用者授權合約（Standard EULA）；本頁補充本服務的使用方式，不排除強制適用的消費者權益或開放原始碼授權。",
+      "These terms cover Luxury Guide provided by FireSparkle.Studio (Apple developer: Yung Wen Cheng). Effective and updated: 29 October 2026. Apps obtained through the App Store are licensed under Apple’s Standard EULA. This page supplements service-use information without limiting mandatory consumer rights or open-source licenses."
+    ],
+    [
+      "可用功能與教育用途",
+      "Available features and educational use",
+      "目前版本提供品牌與創辦人介紹、單品系列圖鑑與比較、課程、詞彙、測驗、本機收藏與筆記、手動價格試算、選購參考和地圖搜尋。內容供一般教育與參考，不是商品鑑定、投資、法律或稅務專業意見。App 不販售、代購、預訂或保證商品，也不提供官方認證。部分內容為入門整理，可能有錯誤、缺漏或未及更新；請查看所附來源並向相關品牌確認重要資訊。",
+      "The current version provides brand and founder introductions, product-family references and comparisons, lessons, glossary entries, quizzes, local saves and notes, manual price scenarios, buying guidance and map search. Content is general educational information, not authentication, investment, legal or tax advice. The app does not sell, source, reserve or guarantee products, or issue official certifications. Introductory content can contain errors, omissions or outdated information; consult cited sources and brands for important details."
+    ],
+    [
+      "價格與店家結果",
+      "Price scenarios and place results",
+      "價格試算依你輸入的價格、匯率、退稅及費用計算，不提供即時報價、可退稅資格或最終成交價保證。未知費用不是零元。地圖結果來自 Apple，不能視為已驗證的授權精品店。請自行核對店家、型號、規格、庫存、維修、交易條件與當地適用規則。",
+      "Price scenarios use the prices, exchange rates, refunds and costs you enter. They do not provide live quotes or guarantee tax-refund eligibility or final transaction prices. Unknown costs are not zero. Apple map results are not verified authorized luxury retailers. Check sellers, references, specifications, availability, servicing, transaction conditions and applicable local rules."
+    ],
+    [
+      "智慧財產與獨立性",
+      "Intellectual property and independence",
+      "品牌名稱、標誌、產品名稱與相關權利屬各權利人。名牌指南是獨立教育工具，與文中品牌（包括 CHANEL）無隸屬、合作或背書關係。照片、字型與其他第三方素材依個別授權與署名使用，可在 App 的來源或圖片資訊查閱。請勿未經許可轉售、重製或以資料及圖片冒充品牌官方服務；依法及個別授權容許的使用不受影響。若發現侵權或錯誤，請附具體頁面及說明寄信聯絡。",
+      "Brand names, marks, product names and related rights belong to their respective owners. Luxury Guide is an independent educational tool and is not affiliated with or endorsed by the brands discussed, including CHANEL. Photos, fonts and other third-party materials are used under their individual licenses and credits, available in source or image information. Do not resell, reproduce without permission or use content to impersonate an official brand service. Uses permitted by law or individual licenses remain permitted. Email specific pages and details for rights concerns or corrections."
+    ],
+    [
+      "個人資料與你的內容",
+      "Privacy and your content",
+      "個人資料處理方式請見本 App 隱私政策。你保留自己輸入的筆記與個人內容之權利，並應確認有權使用所輸入或分享的內容。請勿利用 App 或支援信箱從事違法、侵權、騷擾或破壞服務的行為。你可隨時停止使用；清除本機資料或移除 App 前，請先匯出需要保留的資料。工作室無法保證恢復遺失的本機紀錄。",
+      "See the app Privacy Policy for personal-data handling. You retain rights in your notes and personal content and should have permission to use anything you enter or share. Do not use the app or support mailbox for unlawful activity, infringement, harassment or disruption. You may stop using the app at any time. Export records you need before erasing data or removing the app. The studio cannot guarantee recovery of lost local records."
+    ],
+    [
+      "費用、Apple 服務與未啟用項目",
+      "Charges, Apple services and unavailable features",
+      "目前正式版本不提供付費訂閱購買；Pro、雲端同步、遠端 AI、即時價格與價格提醒不得視為已提供的付費服務。未來若推出收費功能，會在購買前明確列出可用服務、價格、期間及取消方式，依 App Store 當時顯示與你的確認為準。Apple 處理其商店交易、退款及訂閱管理；刪除 App 不會取消任何既有 Apple 訂閱。外部網站與服務有自己的規則，本 App 不控制其可用性。",
+      "Production subscription purchasing is not offered in this version. Pro, cloud sync, remote AI, live prices and price alerts are not available paid services. If paid features are introduced, available services, price, duration and cancellation details will be disclosed before purchase, subject to the App Store display and your confirmation. Apple handles its store transactions, refunds and subscription management. Deleting an app does not cancel an existing Apple subscription. External websites and services have their own rules and availability."
+    ],
+    [
+      "更新、責任與聯絡",
+      "Changes, responsibility and contact",
+      "功能可能隨更新調整；重大變更會透過版本說明、App 內或本頁告知。請使用適合你的裝置及系統版本。內容錯誤、網路中斷或第三方變動可能影響使用，我們會依實際狀況處理支援；本條款不免除依法不得排除的責任，不限制你依法享有的退費、損害賠償或其他救濟。未成年使用者應依所在地規定取得監護人協助或同意。使用、資料或權利問題請聯絡 firesparkle.studio@gmail.com；若有爭議，適用的強制法律與管轄規則仍予保留。",
+      "Features may change with updates; material changes will be described in release notes, the app or this page. Use a compatible device and system version. Errors, connectivity failures and third-party changes can affect service, and support will respond to the circumstances. These terms do not exclude liability that cannot lawfully be excluded or limit statutory refunds, damages or other remedies. Minors should obtain guardian assistance or consent as required locally. Contact firesparkle.studio@gmail.com for support, data or rights concerns. Mandatory applicable law and jurisdiction rules remain unaffected."
+    ]
+  ]
+}
