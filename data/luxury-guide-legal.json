@@ -1,11 +1,11 @@
 {
-  "updated": "2026-10-29",
+  "updated": "2026-11-05",
   "privacy": [
     [
       "適用範圍與聯絡",
       "Scope and contact",
-      "本政策適用於花火工作室 FireSparkle.Studio（Apple 開發者：Yung Wen Cheng）提供的《名牌指南 Luxury Guide》1.0 本機功能版本。生效及更新日期：2026 年 10 月 29 日。資料或隱私問題請寄至 firesparkle.studio@gmail.com，主旨註明「名牌指南隱私」。",
-      "This policy covers the local-feature version 1.0 of Luxury Guide, provided by FireSparkle.Studio (Apple developer: Yung Wen Cheng). Effective and updated: 29 October 2026. Contact firesparkle.studio@gmail.com with “Luxury Guide privacy” in the subject for data or privacy requests."
+      "本政策適用於花火工作室 FireSparkle.Studio（Apple 開發者：Yung Wen Cheng）提供的《名牌指南 Luxury Guide》1.0 本機功能版本。生效日期：2026 年 10 月 29 日；更新日期：2026 年 11 月 5 日。資料或隱私問題請寄至 firesparkle.studio@gmail.com，主旨註明「名牌指南隱私」。",
+      "This policy covers the local-feature version 1.0 of Luxury Guide, provided by FireSparkle.Studio (Apple developer: Yung Wen Cheng). Effective: 29 October 2026; updated: 5 November 2026. Contact firesparkle.studio@gmail.com with “Luxury Guide privacy” in the subject for data or privacy requests."
     ],
     [
       "保存在裝置上的資料",
@@ -16,8 +16,8 @@
     [
       "地圖、外部網站與 Apple 服務",
       "Maps, external websites and Apple services",
-      "開啟地圖或送出店家搜尋時，Apple MapKit 會連線取得地圖與搜尋結果；你輸入的地點或店名會交由 Apple 處理，連線亦可能涉及 IP 位址、裝置及技術資訊。App 不要求 GPS 定位權限，也不建立你的移動紀錄。點開品牌官網、資料來源、支援或法律頁面後，該網站依自己的隱私規則處理連線資料。請勿在地圖搜尋輸入不必要的個人資料。App 可能透過 StoreKit 查詢 Apple 提供的購買權限或回復紀錄；Apple 處理商店帳號與付款資訊，工作室不會取得你的完整付款卡號。正式付費購買目前關閉。",
-      "Opening maps or submitting a boutique search connects to Apple MapKit. Apple processes the place or business name you enter, and connections may involve IP addresses, device details and technical information. The app does not request GPS permission or create a movement history. Brand, source, support and legal websites handle visits under their own policies. Avoid entering unnecessary personal details in map searches. StoreKit may check purchase entitlements or restore records supplied by Apple. Apple handles store accounts and payments; the studio does not receive full payment-card numbers. Production paid purchases are currently disabled."
+      "開啟地圖或送出店家搜尋時，Apple MapKit 會連線取得地圖與搜尋結果；你輸入的地點或店名會交由 Apple 處理，連線亦可能涉及 IP 位址、裝置及技術資訊。App 不要求 GPS 定位權限，也不建立你的移動紀錄。點開品牌官網、資料來源、支援或法律頁面後，該網站依自己的隱私規則處理連線資料。請勿在地圖搜尋輸入不必要的個人資料。此免費版本不提供 App 內購買或訂閱，也不查詢或恢復 Apple 購買紀錄。",
+      "Opening maps or submitting a boutique search connects to Apple MapKit. Apple processes the place or business name you enter, and connections may involve IP addresses, device details and technical information. The app does not request GPS permission or create a movement history. Brand, source, support and legal websites handle visits under their own policies. Avoid entering unnecessary personal details in map searches. This free version has no in-app purchases or subscriptions and does not query or restore Apple purchase records."
     ],
     [
       "提醒與資料分享",
@@ -48,8 +48,8 @@
     [
       "服務與適用文件",
       "Service and applicable documents",
-      "本條款適用於花火工作室 FireSparkle.Studio（Apple 開發者：Yung Wen Cheng）提供的《名牌指南 Luxury Guide》。生效及更新日期：2026 年 10 月 29 日。App Store 取得之 App 授權依 Apple 標準使用者授權合約（Standard EULA）；本頁補充本服務的使用方式，不排除強制適用的消費者權益或開放原始碼授權。",
-      "These terms cover Luxury Guide provided by FireSparkle.Studio (Apple developer: Yung Wen Cheng). Effective and updated: 29 October 2026. Apps obtained through the App Store are licensed under Apple’s Standard EULA. This page supplements service-use information without limiting mandatory consumer rights or open-source licenses."
+      "本條款適用於花火工作室 FireSparkle.Studio（Apple 開發者：Yung Wen Cheng）提供的《名牌指南 Luxury Guide》。生效日期：2026 年 10 月 29 日；更新日期：2026 年 11 月 5 日。App Store 取得之 App 授權依 Apple 標準使用者授權合約（Standard EULA）；本頁補充本服務的使用方式，不排除強制適用的消費者權益或開放原始碼授權。",
+      "These terms cover Luxury Guide provided by FireSparkle.Studio (Apple developer: Yung Wen Cheng). Effective: 29 October 2026; updated: 5 November 2026. Apps obtained through the App Store are licensed under Apple’s Standard EULA. This page supplements service-use information without limiting mandatory consumer rights or open-source licenses."
     ],
     [
       "可用功能與教育用途",
