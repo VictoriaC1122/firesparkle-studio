@@ -1083,5 +1083,25 @@
     "id": "dd167905de0d",
     "en": "Version",
     "zh": "版本"
+  },
+  {
+    "id": "4f7d64017689",
+    "en": "Coming soon",
+    "zh": "即將推出"
+  },
+  {
+    "id": "f1bbd6eb77dc",
+    "en": "Coming soon on Steam",
+    "zh": "Steam 即將推出"
+  },
+  {
+    "id": "bd84924cadae",
+    "en": "Release date",
+    "zh": "發售日期"
+  },
+  {
+    "id": "a56ea8c0278d",
+    "en": "Add to wishlist",
+    "zh": "加入願望清單"
   }
 ]

@@ -1,11 +1,3 @@
-Add per-app support pages and move app privacy and contact here from GitHub Pages
+Announce Larry’s Cocktail Lab Steam release and wishlist links
 
-- Each app has a support page at /app/<slug>/support/ with its icon, an email button that puts the app name in the subject, links to its privacy policy, the FAQ, how-to steps and the App Store, and the studio copyright (#copyright); App Store Connect support URLs point here, and the old GitHub Pages support sites redirect here
-- Privacy and support pages show the app icon and a thin rule in the app's own colour (accent in src/content.mjs, from each app's AccentColor or theme colours); the rest of the site keeps the gold accent
-- Privacy pages link to the app's support page instead of the original GitHub page, which now redirects back here
-- App pages gain #support and a link to the support page; the sitemap lists the 15 support pages
-- The footer copyright reads "© 花火工作室 FireSparkle.Studio" (site.copyright)
-- README documents the support pages, accents, copyright and the GitHub Pages redirects
-
-Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>
-Claude-Session: https://claude.ai/code/session_01KeFuX6fHp7ZyDLM5svhNQL
+Add the November 13 release date, supported desktop platforms, and Steam store links to the homepage and Larry product page. Translate new interface text across all 50 website locales.

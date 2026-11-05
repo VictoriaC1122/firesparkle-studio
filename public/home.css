@@ -55,6 +55,7 @@ html[data-script=latin] .hero-copy h1 em { font-style: italic; }
 .steam-band { display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 28px; margin-top: 20px; padding: 24px 30px; background: var(--surface-2); }
 .steam-band .steam-word { font-family: var(--font-latin); font-size: 30px; letter-spacing: .02em; color: var(--ink); }
 .steam-band .steam-copy h2 { font-size: 19px; margin-bottom: 4px; }
+.steam-band .steam-wishlist { justify-self: start; }
 .steam-band .steam-copy p { margin: 0; font-size: 14px; color: var(--muted); }
 .status-label { display: inline-flex; align-items: center; gap: 8px; margin-bottom: 8px; font-family: var(--font-latin); font-size: 12px; letter-spacing: .16em; text-transform: uppercase; color: var(--muted); }
 
@@ -129,7 +130,7 @@ html[data-script=latin] .hero-copy h1 em { font-style: italic; }
   .studio-grid { grid-template-columns: 1fr; }
   .follow-grid { grid-template-columns: 1fr 1fr; }
   .steam-band { grid-template-columns: auto 1fr; }
-  .steam-band > .text-link { grid-column: 2; }
+  .steam-band > .steam-wishlist { grid-column: 2; }
 }
 @media (max-width: 760px) {
   .hero { padding-top: 24px; }
@@ -146,7 +147,7 @@ html[data-script=latin] .hero-copy h1 em { font-style: italic; }
   .character-pig { width: 26%; }
   .studio-principles { grid-template-columns: 1fr; }
   .steam-band { grid-template-columns: 1fr; gap: 12px; padding: 22px; }
-  .steam-band > .text-link { grid-column: 1; }
+  .steam-band > .steam-wishlist { grid-column: 1; }
   .collection-tools { flex-direction: column; align-items: stretch; }
   .search { width: 100%; }
 }

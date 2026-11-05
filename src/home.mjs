@@ -1,6 +1,6 @@
 import { renderPhone } from './showcase.mjs';
 // 首頁：工作室主視覺（品牌標誌與作品星軌）、已推出的遊戲、全部作品、工作室介紹、社群與聯絡。
-// Steam 只呈現已確認的準備狀態。
+// Steam 發售資訊與已公開商店連結。
 export function renderHome({ site, apps, media, L, T, messageId, esc, appURL, catL, mailto, email, arrow, brandAsset, socialLink }) {
   const bySlug = Object.fromEntries(apps.map(a => [a.slug, a]));
   const utilities = apps.filter(a => !a.genres.includes('遊戲'));
@@ -52,14 +52,14 @@ export function renderHome({ site, apps, media, L, T, messageId, esc, appURL, ca
   <div class="glass"><strong>${utilities.length}</strong><span>${T('Apps')}</span></div>
   <div class="glass"><strong>${games.length}</strong><span>${T('Games')}</span></div>
   <div class="glass"><strong dir="ltr">iOS</strong><span dir="ltr">App Store</span></div>
-  <div class="glass"><span class="status-dot" aria-hidden="true"></span><strong dir="ltr">Steam</strong><span>${T('Preparing for Steam')}</span></div>
+  <div class="glass"><span class="status-dot" aria-hidden="true"></span><strong dir="ltr"><a href="https://store.steampowered.com/app/5466570/">Steam</a></strong><span>${T('Coming soon')}</span></div>
  </div>
 </section>
 
 <section id="games" class="games" aria-labelledby="games-title"><div class="wrap">
  <div class="section-head reveal"><div><p class="eyebrow">${T('Games')}</p><h2 id="games-title">${L('已推出的遊戲', 'Released games')}</h2></div><p>${L('在酒吧裡透過對話推進故事，或照顧一隻小豬。<br>介紹頁有遊戲畫面、玩法說明與下載連結。', 'Choose how a conversation unfolds in a bar, or spend seven days raising a piglet. Each game page has screenshots, a description and a download link.')}</p></div>
  <div class="game-grid">${gameCard('larry-cocktail', 'game-amber', '互動敘事 · 戀愛文字', 'Interactive fiction · Romance', '以酒吧為背景的文字戀愛遊戲。對話選項會影響故事走向，可用存檔回到不同分支。', 'A romance game set in a bar. Dialogue choices lead to different story branches, which you can revisit using saved games.', larryMedia, `<img class="game-character character-larry" src="/assets/characters/larry-smiling.gif" alt="" width="530" height="650" loading="lazy">`)}${gameCard('perfect-pig', 'game-rose', '養成 · 模擬', 'Life sim · Raising', '照顧小豬七天，安排餵食、散步與聊天，收集個性卡牌與故事結局。', 'Raise a piglet over seven days. Feed, walk and chat with it to collect personality cards and story endings.', pigMedia, `<img class="game-character character-pig" src="/assets/characters/perfect-pig-celebrating.png" alt="" width="412" height="354" loading="lazy">`)}</div>
- <div id="steam" class="steam-band glass reveal" aria-labelledby="steam-title"><div class="steam-word" dir="ltr">Steam</div><div class="steam-copy"><span class="status-label"><span class="status-dot" aria-hidden="true"></span>${L('上架準備中', 'Preparing for Steam')}</span><h2 id="steam-title">${L('Steam 上架進度', 'Steam release status')}</h2><p>${L('我們正在準備 Steam 上架。<br>作品資訊與商店連結確認後，會在這裡更新。', 'We are preparing a Steam release. Game details and the store link will be added here once confirmed.')}</p></div><a class="text-link" href="${mailto('FireSparkle.Studio｜遊戲與合作 Games & collaboration')}">${L('遊戲合作與媒體聯繫', 'Games, press & collaboration')} ${arrow('↗')}</a></div>
+ <div id="steam" class="steam-band glass reveal" aria-labelledby="steam-title"><a class="steam-word" dir="ltr" href="https://store.steampowered.com/app/5466570/">Steam</a><div class="steam-copy"><span class="status-label"><span class="status-dot" aria-hidden="true"></span>${T('Coming soon')}</span><h2 id="steam-title">${L(esc(larry.short), esc(larry.en))}</h2><p>${T('Release date')} · <time datetime="2026-11-13T02:00:00+08:00" dir="ltr">2026/11/13 02:00 (UTC+8)</time><br><span dir="ltr">Windows / macOS / Linux</span></p></div><a class="button steam-wishlist" href="https://store.steampowered.com/app/5466570/">${T('Add to wishlist')} ${arrow('↗')}</a></div>
 </div></section>
 
 <section id="apps" class="apps" aria-labelledby="apps-title"><div class="wrap">
