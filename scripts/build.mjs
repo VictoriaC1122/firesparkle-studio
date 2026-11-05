@@ -1,3 +1,4 @@
+import { renderCompassPage } from '../src/adhd-compass.mjs';
 // 花火工作室 FireSparkle.Studio 官網 — 靜態網站產生器
 // 執行：node scripts/build.mjs
 // 讀取 src/content.mjs、data/apple-catalog.json、data/site-media.json、data/guides/（含 details/ 的詳細介紹）、data/privacy-sources/manifest.json，
@@ -192,7 +193,11 @@ await save('website-privacy/index.html', page({ path: '/website-privacy/', title
 
 await save('404.html', page({ path: '/404.html', title: '找不到頁面｜花火工作室 FireSparkle.Studio', description: '找不到指定頁面，請返回花火工作室首頁。', content: `<section class="wrap page-heading not-found"><img class="not-found-mark" src="${brandAsset('/assets/brand/firesparkle-mark-720.webp')}" alt="" width="180" height="180"><p class="eyebrow">${T('Page not found')}</p><h1>${L('找不到這個頁面', 'Page not found')}</h1><p class="lead">${L('網址可能有誤，或頁面已經移動。請返回首頁查看作品。', 'The address may be incorrect, or the page may have moved. Return to the homepage to browse our apps and games.')}</p><a class="button" href="/">${L('返回首頁', 'Back to home')} ${arrow()}</a></section>` }));
 
-const urls = ['/app/finatlas/privacy/', '/app/luxury-guide/privacy/', '/app/luxury-guide/terms/', '/app/luxury-guide/support/', '/', '/guides/games/', '/guides/apps/', '/privacy/', '/support/', '/website-privacy/', ...apps.flatMap((a) => [appURL(a), policyURL(a), supportURL(a)])];
+for (const kind of ['privacy', 'terms', 'support']) {
+ await save(`app/adhd-compass/${kind}/index.html`, page({path: `/app/adhd-compass/${kind}/`, title: `ADHD Compass｜花火工作室 FireSparkle.Studio`, description: 'ADHD Compass 隱私、條款與支援資訊。', content: renderCompassPage(kind, esc)}));
+}
+
+const urls = ['/app/adhd-compass/privacy/', '/app/adhd-compass/terms/', '/app/adhd-compass/support/', '/app/finatlas/privacy/', '/app/luxury-guide/privacy/', '/app/luxury-guide/terms/', '/app/luxury-guide/support/', '/', '/guides/games/', '/guides/apps/', '/privacy/', '/support/', '/website-privacy/', ...apps.flatMap((a) => [appURL(a), policyURL(a), supportURL(a)])];
 await save('sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map((u) => `  <url><loc>${siteURL}${u}</loc></url>`).join('\n')}\n</urlset>\n`);
 await save('robots.txt', `User-agent: *\nAllow: /\nSitemap: ${siteURL}/sitemap.xml\n`);
 console.log(`Built FireSparkle.Studio website: ${apps.length} work pages, ${apps.length} privacy pages, ${apps.length} support pages, 7 shared pages, ${Object.values(media).reduce((n, m) => n + m.images.length, 0)} screenshots${base ? ` (base ${base})` : ''}.`);
