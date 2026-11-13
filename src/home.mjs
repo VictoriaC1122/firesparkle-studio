@@ -1,3 +1,4 @@
+import { renderSteamRelease } from './steam.mjs';
 import { renderPhone } from './showcase.mjs';
 // 首頁：工作室主視覺（品牌標誌與作品星軌）、已推出的遊戲、全部作品、工作室介紹、社群與聯絡。
 // Steam 發售資訊與已公開商店連結。
@@ -40,7 +41,7 @@ export function renderHome({ site, apps, media, L, T, messageId, esc, appURL, ca
    <p class="eyebrow">${T('Independent app & game studio')} <span aria-hidden="true">·</span> <span class="keep" dir="ltr">Est. ${site.founded}</span></p>
    <h1 id="hero-title">${L('將微小的靈感火花，<br><em>化為精彩的創意</em>', 'Small sparks,<br><em>big ideas.</em>')}</h1>
    <p class="lead">${T('Founded in 2026, FireSparkle.Studio is an independent studio making iOS apps, indie games and practical tools.')}</p>
-   <div class="hero-actions"><a class="button" href="#apps">${T('All works')} ${arrow()}</a><a class="button-glass" href="#games">${T('Games')} ${arrow()}</a></div>
+   <div class="hero-actions"><a class="button" href="#apps">${T('All works')} ${arrow()}</a><a class="button-glass" href="#games">${T('Games')} ${arrow()}</a><a class="text-link" href="#steam">${T('Coming soon on Steam')} ${arrow()}</a></div>
    <div class="hero-social"><span>${T('Follow us')}</span>${socialLink('instagram')}${socialLink('threads')}</div>
   </div>
   <div class="hero-art reveal" aria-hidden="true">
@@ -52,14 +53,14 @@ export function renderHome({ site, apps, media, L, T, messageId, esc, appURL, ca
   <div class="glass"><strong>${utilities.length}</strong><span>${T('Apps')}</span></div>
   <div class="glass"><strong>${games.length}</strong><span>${T('Games')}</span></div>
   <div class="glass"><strong dir="ltr">iOS</strong><span dir="ltr">App Store</span></div>
-  <div class="glass"><span class="status-dot" aria-hidden="true"></span><strong dir="ltr"><a href="https://store.steampowered.com/app/5466570/">Steam</a></strong><span>${T('Coming soon')}</span></div>
+  <div class="glass"><span class="status-dot" aria-hidden="true"></span><strong dir="ltr"><a href="${site.steam.storeUrl}">Steam</a></strong><span>${T('Coming soon')}</span></div>
  </div>
 </section>
 
 <section id="games" class="games" aria-labelledby="games-title"><div class="wrap">
  <div class="section-head reveal"><div><p class="eyebrow">${T('Games')}</p><h2 id="games-title">${L('已推出的遊戲', 'Released games')}</h2></div><p>${L('在酒吧裡透過對話推進故事，或照顧一隻小豬。<br>介紹頁有遊戲畫面、玩法說明與下載連結。', 'Choose how a conversation unfolds in a bar, or spend seven days raising a piglet. Each game page has screenshots, a description and a download link.')}</p></div>
  <div class="game-grid">${gameCard('larry-cocktail', 'game-amber', '互動敘事 · 戀愛文字', 'Interactive fiction · Romance', '以酒吧為背景的文字戀愛遊戲。對話選項會影響故事走向，可用存檔回到不同分支。', 'A romance game set in a bar. Dialogue choices lead to different story branches, which you can revisit using saved games.', larryMedia, `<img class="game-character character-larry" src="/assets/characters/larry-smiling.gif" alt="" width="530" height="650" loading="lazy">`)}${gameCard('perfect-pig', 'game-rose', '養成 · 模擬', 'Life sim · Raising', esc(pig.shortDescription), esc(pig.enDesc), pigMedia, `<img class="game-character character-pig" src="/assets/characters/perfect-pig-celebrating.png" alt="" width="412" height="354" loading="lazy">`)}</div>
- <div id="steam" class="steam-band glass reveal" aria-labelledby="steam-title"><a class="steam-word" dir="ltr" href="https://store.steampowered.com/app/5466570/">Steam</a><div class="steam-copy"><span class="status-label"><span class="status-dot" aria-hidden="true"></span>${T('Coming soon')}</span><h2 id="steam-title">${L(esc(larry.short), esc(larry.en))}</h2><p>${T('Release date')} · <time datetime="2026-11-13T02:00:00+08:00" dir="ltr">2026/11/13 02:00 (UTC+8)</time><br><span dir="ltr">Windows / macOS / Linux</span></p></div><a class="button steam-wishlist" href="https://store.steampowered.com/app/5466570/">${T('Add to wishlist')} ${arrow('↗')}</a></div>
+ ${renderSteamRelease({ site, app: larry, L, T, esc, arrow })}
 </div></section>
 
 <section id="apps" class="apps" aria-labelledby="apps-title"><div class="wrap">

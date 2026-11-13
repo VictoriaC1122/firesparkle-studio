@@ -135,6 +135,21 @@ html[data-script=cjk] em, html[data-script=arabic] em, html[data-script=hebrew] 
 .shot:hover .screen-enlarge, .shot:focus-within .screen-enlarge { opacity: 1; }
 @media (hover: none) { .shot .screen-enlarge { opacity: .9; } }
 
+/* ---------- Steam release & demo keys ---------- */
+.steam-release { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr); gap: clamp(24px, 4vw, 40px); margin: 28px 0; padding: clamp(24px, 4vw, 40px); background: var(--surface-2); }
+.steam-release-copy, .steam-demo { min-width: 0; }
+.steam-release .eyebrow { margin-bottom: 16px; }
+.steam-release h2 { font-size: clamp(24px, 3vw, 34px); margin-bottom: 10px; }
+.steam-release p { color: var(--ink-soft); font-size: 16px; }
+.steam-release .steam-platforms { font-family: var(--font-latin); font-size: 14px; letter-spacing: .06em; margin-bottom: 18px; color: var(--muted); }
+.steam-release-actions { display: flex; flex-wrap: wrap; gap: 12px; margin: 22px 0 16px; }
+.steam-release .button, .steam-release .button-glass { max-width: 100%; white-space: normal; overflow-wrap: anywhere; text-align: center; }
+.steam-release .steam-release-note { margin-bottom: 0; color: var(--muted); font-size: 13px; }
+.steam-demo { border-inline-start: 1px solid var(--line); padding-inline-start: clamp(24px, 4vw, 40px); }
+.steam-demo h3 { margin-bottom: 14px; font-size: 22px; }
+.steam-demo p { margin-bottom: 22px; }
+.steam-demo .email-link { display: block; margin-top: 16px; }
+
 /* ---------- Inner pages ---------- */
 .breadcrumb { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; padding-top: 26px; font-size: 14px; color: var(--muted); }
 .breadcrumb a:hover { color: var(--accent-ink); }
@@ -283,6 +298,8 @@ html[lang="en"] .detail-note, html[lang^="zh"] .detail-note { display: none; }
   .resource-list { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 @media (max-width: 760px) {
+  .steam-release { grid-template-columns: 1fr; gap: 24px; }
+  .steam-demo { border-inline-start: 0; border-top: 1px solid var(--line); padding-inline-start: 0; padding-top: 24px; }
   body { font-size: 16px; }
   .header-tools .social-link .social-at { display: none; }
   .header-tools .social-link { padding: 3px 10px; }
