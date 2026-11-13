@@ -142,8 +142,8 @@ ${renderAbout({ detail, isGame, T, esc })}
 </div><section class="section more-works"><div class="wrap"><div class="section-head reveal"><div><p class="eyebrow">${T('More from FireSparkle')}</p><h2>${L('其他作品', 'Other apps and games')}</h2></div><a class="text-link" href="/${isGame ? '#games' : '#apps'}">${isGame ? L('所有遊戲', 'All games') : L('所有 App', 'All apps')} ${arrow()}</a></div><div class="resource-list reveal">${appRows('app', others)}</div></div></section>`;
   await save(`app/${a.slug}/index.html`, page({ path: appURL(a), title: `${a.nameZhHant}｜介紹、使用方式與畫面｜花火工作室 FireSparkle.Studio`, description: `${a.shortDescription} 完整介紹、主要功能、官方畫面、使用步驟與小提醒，以及 App Store 下載連結。`, content, navGroup: isGame ? 'games' : 'apps', extraHead: galleryHead }));
 
-  // FinAtlas retains its already published bilingual policy below.
-  if (a.slug !== 'finatlas') {
+  // These apps retain their already published bilingual policy pages below.
+  if (!['finatlas', 'luxury-guide'].includes(a.slug)) {
     const p = a.policy;
     const original = await read(`data/privacy-sources/${p.policyTextFile}`);
     const text = original.replace(oldEmails, email);
@@ -153,6 +153,9 @@ ${renderAbout({ detail, isGame, T, esc })}
     const privacyContent = `<div class="wrap reading-wrap app-themed"${appTheme(a)}>${breadcrumb(L('隱私資訊', 'Privacy'), crumbLink(appURL(a), L(esc(a.short), esc(a.en))))}<header class="page-heading page-heading-app">${pageIcon(a)}<p class="eyebrow">${T('Privacy')}</p><h1>${L(`${esc(a.short)}<br>${isWebsiteOnly(a) ? '隱私資訊' : '隱私權政策'}`, `${esc(a.en)}<br>Privacy Policy`)}</h1><p class="lead">${p.policyUpdatedText ? `<span lang="zh-Hant" dir="ltr">${esc(p.policyUpdatedText)}</span>` : T('Based on the existing published policy')}</p></header>${notice}<article class="policy-body" lang="zh-Hant">${blocks}</article><div class="policy-source"><p><a href="${supportURL(a)}">${L('支援與聯絡', 'Support & contact')} ${arrow()}</a></p><p>${L('隱私或資料問題：', 'Privacy questions: ')}<a href="${mailto(`${a.short}｜隱私問題 Privacy`)}">${email}</a></p><p class="small">${L(`彙整日期：${p.compiledZh || site.policyCompiledZh}`, `Compiled on ${p.compiledEn || site.policyCompiledEn}`)}</p></div></div>`;
     await save(`app/${a.slug}/privacy/index.html`, page({ path: policyURL(a), title: `${a.short}隱私資訊｜花火工作室 FireSparkle.Studio`, description: `${a.nameZhHant}的隱私政策與聯絡方式。`, content: privacyContent, navGroup: isGame ? 'games' : 'apps' }));
   }
+
+  // Luxury Guide keeps its original bilingual support page below.
+  if (a.slug === 'luxury-guide') continue;
 
   // 支援與聯絡頁：App Store Connect 的支援網址；舊 GitHub 支援站的 support、contact、copyright 網址都轉到這裡
   const supportContent = `<div class="wrap reading-wrap app-themed"${appTheme(a)}>${breadcrumb(L('支援與聯絡', 'Support & contact'), crumbLink(appURL(a), L(esc(a.short), esc(a.en))))}<header class="page-heading page-heading-app">${pageIcon(a)}<p class="eyebrow">${T('Support & Contact')}</p><h1>${L(esc(a.nameZhHant), esc(a.en))}</h1><p class="lead">${L(esc(a.shortDescription), esc(a.enDesc))}</p></header>${a.slug === site.steam.slug ? renderSteamRelease({ site, app: a, L, T, esc, arrow }) : ''}${contactBox(a)}<nav class="support-links glass" aria-label="${esc(a.short)}"><a class="text-link" href="${policyURL(a)}">${isWebsiteOnly(a) ? L('隱私資訊', 'Privacy information') : L('隱私政策', 'Privacy policy')} ${arrow()}</a><a class="text-link" href="/support/">${L('支援與常見問題', 'Support & FAQ')} ${arrow()}</a><a class="text-link" href="${appURL(a)}#howto">${T('How to use')} ${arrow()}</a><a class="text-link" href="${a.storeUrl}">${L('在 App Store 查看', 'View on the App Store')} ${arrow('↗')}</a></nav><p class="copyright-line" id="copyright" lang="zh-Hant">${esc(site.copyright)}</p></div>`;
@@ -177,7 +180,7 @@ await save('app/finatlas/privacy/index.html', page({
   content: `<div class="wrap reading-wrap">${breadcrumb('FinAtlas 隱私政策 / Privacy Policy')}<header class="page-heading"><p class="eyebrow">FINATLAS</p><h1>隱私政策 / Privacy Policy</h1></header><nav class="policy-language-controls" aria-label="Policy language"><a href="#finatlas-zh" lang="zh-Hant">繁體中文</a><a href="#finatlas-en" lang="en">English</a></nav><article id="finatlas-zh" class="policy-body" lang="zh-Hant"><h2>FinAtlas 隱私政策</h2>${finatlasPrivacy['zh-Hant']}</article><article id="finatlas-en" class="policy-body" lang="en"><h2>FinAtlas Privacy Policy</h2>${finatlasPrivacy.en}</article><div class="policy-source"><a href="${mailto('FinAtlas | Privacy')}">${email}</a><p><a href="/support/">支援與聯絡 / Support</a></p></div></div>`
 }));
 
-await save('privacy/index.html', page({ path: '/privacy/', title: 'App 隱私政策｜花火工作室 FireSparkle.Studio', description: '依 App 查閱花火工作室各款 App 的資料處理、權限、保存與刪除方式。', content: `<div class="wrap reading-wrap privacy-list">${breadcrumb(L('App 隱私政策', 'App privacy'))}<header class="page-heading"><p class="eyebrow">${T('Privacy')}</p><h1>${L('隱私資訊', 'Privacy information')}</h1><p class="lead">${L('依作品查閱現有隱私說明與聯絡方式。', 'Find the available privacy information and contact details for each app or game.')}</p></header><div class="resource-list reveal">${appRows('privacy')}<a href="/app/luxury-guide/privacy/" class="resource-row"><span>名牌指南 Luxury Guide</span><span>隱私政策 / Privacy Policy →</span></a></div><p class="section-note">${L('這個官網本身的資料處理，請參閱<a href="/website-privacy/">網站隱私說明</a>。', 'For this website itself, see the <a href="/website-privacy/">website privacy notice</a>.')}</p></div>` }));
+await save('privacy/index.html', page({ path: '/privacy/', title: 'App 隱私政策｜花火工作室 FireSparkle.Studio', description: '依 App 查閱花火工作室各款 App 的資料處理、權限、保存與刪除方式。', content: `<div class="wrap reading-wrap privacy-list">${breadcrumb(L('App 隱私政策', 'App privacy'))}<header class="page-heading"><p class="eyebrow">${T('Privacy')}</p><h1>${L('隱私資訊', 'Privacy information')}</h1><p class="lead">${L('依作品查閱現有隱私說明與聯絡方式。', 'Find the available privacy information and contact details for each app or game.')}</p></header><div class="resource-list reveal">${appRows('privacy')}</div><p class="section-note">${L('這個官網本身的資料處理，請參閱<a href="/website-privacy/">網站隱私說明</a>。', 'For this website itself, see the <a href="/website-privacy/">website privacy notice</a>.')}</p></div>` }));
 
 const faq = [
   ['如何管理訂閱或申請退款？', 'How do I manage a subscription or ask for a refund?',
@@ -203,6 +206,6 @@ for (const kind of ['privacy', 'terms', 'support']) {
 }
 
 const urls = ['/app/adhd-compass/privacy/', '/app/adhd-compass/terms/', '/app/adhd-compass/support/', '/app/luxury-guide/privacy/', '/app/luxury-guide/terms/', '/app/luxury-guide/support/', '/', '/guides/games/', '/guides/apps/', '/privacy/', '/support/', '/website-privacy/', ...apps.flatMap((a) => [appURL(a), policyURL(a), supportURL(a)])];
-await save('sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map((u) => `  <url><loc>${siteURL}${u}</loc></url>`).join('\n')}\n</urlset>\n`);
+await save('sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${[...new Set(urls)].map((u) => `  <url><loc>${siteURL}${u}</loc></url>`).join('\n')}\n</urlset>\n`);
 await save('robots.txt', `User-agent: *\nAllow: /\nSitemap: ${siteURL}/sitemap.xml\n`);
 console.log(`Built FireSparkle.Studio website: ${apps.length} work pages, ${apps.length} privacy pages, ${apps.length} support pages, 7 shared pages, ${Object.values(media).reduce((n, m) => n + m.images.length, 0)} screenshots${base ? ` (base ${base})` : ''}.`);

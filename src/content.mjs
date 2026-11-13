@@ -37,7 +37,7 @@ export const order = [
   'compound-calculator', 'easy-draw', 'larry-cocktail', 'crypto-dictionary', 'vitamins',
   'stock-simulator', 'pr-diary', 'time-manager', 'dream-journal', 'design-it',
   'coffee-chat', 'perfect-pig', 'milebutler', 'future-major-guide', 'semiconductors-illustrated',
-  'paper-reading-desk', 'finatlas',
+  'paper-reading-desk', 'finatlas', 'luxury-guide',
 ];
 
 export const categoryEn = {
@@ -53,6 +53,12 @@ export const genreEn = {
 // 每款 App：分類、中文簡稱、英文名稱與中英文簡介
 // accent：作品主色〔淺色模式, 深色模式〕，取自各 App 的 AccentColor 或主題色；只用於作品頁、隱私頁與支援頁的細線和小標記，全站仍以古金色為主
 export const apps = {
+  'luxury-guide': {
+    accent: ['#8e7548', '#c8b183'],
+    category: '學習與規劃', short: '名牌指南', en: 'Luxury Guide',
+    shortDescription: "探索名牌故事、經典單品與製作工藝，閱讀課程與測驗、保存筆記，並比較選購情境。",
+    enDesc: "Explore luxury brands, classic designs and craftsmanship. Learn with lessons and quizzes, save notes and compare buying scenarios.",
+  },
   finatlas: {
     accent: ['#9a7d49', '#d6bd81'],
     category: '學習與規劃', short: 'FinAtlas 金融產業與職涯', en: 'FinAtlas: Finance & Careers',

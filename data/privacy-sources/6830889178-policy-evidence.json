@@ -1,0 +1,18 @@
+{
+  "appId": 6830889178,
+  "verifiedOn": "2026-11-13",
+  "appStoreURLs": [
+    "https://apps.apple.com/tw/app/id6830889178",
+    "https://apps.apple.com/us/app/id6830889178"
+  ],
+  "metadataFiles": [
+    "data/apple-lookup-2026-11-13-2153-tw.json",
+    "data/apple-lookup-2026-11-13-2153-us.json"
+  ],
+  "policyURL": "https://firesparkle.com/app/luxury-guide/privacy/",
+  "policySourceFile": "data/luxury-guide-legal.json",
+  "policySourceSHA256": "b77df81d26eea3b75fe10bc3ade1d3e53c8d6d49135dec1273ee1983a46440fd",
+  "publishedArticleSHA256": "8925ca10835bbb6ce00354e44a7015dea2a7bb02b04b7aaeadb6ced4aa1736b9",
+  "supportURL": "https://firesparkle.com/app/luxury-guide/support/",
+  "notes": "App Store description links to the existing bilingual privacy and terms pages. Keep their original dedicated renderer and published text."
+}

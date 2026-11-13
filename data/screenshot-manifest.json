@@ -980,6 +980,31 @@
         }
       ],
       "ipad": []
+    },
+    "luxury-guide": {
+      "trackId": 6830889178,
+      "name": "名牌指南",
+      "version": "1.0",
+      "source": "https://apps.apple.com/tw/app/id6830889178",
+      "iphone": [
+        {
+          "file": "/assets/screenshots/luxury-guide/iphone-01.jpg",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c9/bf/e5/c9bfe536-865b-e00c-24c4-60697c024fb0/zh-Hant-03-Academy.jpg/1400x1400bb.jpg",
+          "original": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c9/bf/e5/c9bfe536-865b-e00c-24c4-60697c024fb0/zh-Hant-03-Academy.jpg/320x480bb.jpg",
+          "width": 644,
+          "height": 1400,
+          "bytes": 91838
+        },
+        {
+          "file": "/assets/screenshots/luxury-guide/iphone-02.jpg",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/48/5f/8f/485f8f23-91a7-badb-d421-689ffd65cce3/zh-Hant-04-Lesson.jpg/1400x1400bb.jpg",
+          "original": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/48/5f/8f/485f8f23-91a7-badb-d421-689ffd65cce3/zh-Hant-04-Lesson.jpg/320x480bb.jpg",
+          "width": 644,
+          "height": 1400,
+          "bytes": 124731
+        }
+      ],
+      "ipad": []
     }
   }
 }

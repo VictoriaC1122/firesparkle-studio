@@ -1,0 +1,67 @@
+{
+  "source": "App Store 台灣與美國官方說明，版本 1.0（2026-11-13 查詢：data/apple-lookup-2026-11-13-2153-tw.json、data/apple-lookup-2026-11-13-2153-us.json；https://apps.apple.com/tw/app/id6830889178、https://apps.apple.com/us/app/id6830889178）。官方 iPhone 截圖僅提供學院與課程畫面，其他功能依官方文字說明整理。",
+  "zh": {
+    "intro": [
+      "名牌指南從品牌與創辦人的故事出發，介紹經典單品、材質與製作工藝。內容收錄 50 個品牌、30 個經典產品家族、15 堂入門課、100 個詞彙與 100 道題庫，並提供內容來源，讓你按自己的步調閱讀與複習。",
+      "瀏覽品牌與產品參考資料，透過課程與測驗整理理解，再保存收藏、個人筆記與學習進度。也可自行輸入價格、匯率與稅費條件試算選購情境，或透過 Apple 地圖搜尋店家。",
+      "無須註冊帳號，個人紀錄保存在裝置上，可在隱私頁匯出或清除。此免費版本沒有 App 內購買或訂閱；介面與品牌、產品、課程、詞彙及測驗內容提供 10 種語言。"
+    ],
+    "features": [
+      ["品牌故事與經典單品", "閱讀 50 個品牌與創辦人的故事，認識 30 個經典產品家族、材質與工藝，查看內容來源並比較產品參考資料。"],
+      ["課程、詞彙與測驗", "透過 15 堂入門課、100 個詞彙與 100 道題庫複習，查看作答紀錄並重練錯題。"],
+      ["收藏與個人筆記", "收藏品牌、單品與詞彙，保存個人筆記及學習進度，也可選擇開啟每日學習提醒。"],
+      ["手動選購情境試算", "自行輸入價格、匯率與稅費條件，計算不同選購情境；結果不代表即時售價、庫存或退稅資格。"],
+      ["Apple 地圖搜尋", "透過 Apple 地圖搜尋店家、查看相關位置；地圖結果不代表品牌授權認證。"],
+      ["10 種內容語言", "介面及品牌、產品、課程、詞彙與測驗內容提供繁中、簡中、英文、德文、法文、西班牙文、義大利文、日文、韓文與泰文。"],
+      ["本機紀錄與資料管理", "不必註冊，個人紀錄留在裝置上，可在隱私頁匯出或清除。免費版本沒有 App 內購買或訂閱。"]
+    ],
+    "stepDetails": [
+      "從感興趣的品牌開始，閱讀品牌與創辦人的故事，查看內容來源，再認識經典產品家族、材質與工藝。需要整理差異時，可並排比較產品參考資料；這些內容用於學習，不提供真偽鑑定。",
+      "選擇一堂入門課程，搭配詞彙內容理解相關概念，再透過測驗複習。查看作答紀錄並重練錯題，回到還想釐清的內容。",
+      "將想再閱讀的品牌、單品與詞彙加入收藏，保存自己的筆記並回顧學習進度。可選擇開啟每日學習提醒；需要保留副本或清除紀錄時，在隱私頁匯出或清除裝置上的個人資料。"
+    ],
+    "more": [
+      ["練習不同選購條件", "手動調整價格、匯率與稅費假設，觀察輸入條件如何影響試算結果。實際售價、庫存與退稅資格仍需另外確認。"],
+      ["查找店家位置", "使用 Apple 地圖搜尋相關店家；查詢會連線至 Apple MapKit，搜尋結果不能作為品牌授權證明。"],
+      ["安排自己的複習節奏", "搭配每日學習提醒、收藏與作答紀錄，重新閱讀課程或練習答錯的題目。"]
+    ],
+    "tips": [
+      "名牌指南是獨立教育工具，與介紹的品牌沒有隸屬或背書關係；不提供真偽鑑定、投資建議或商品銷售。",
+      "價格試算使用自行輸入的條件，不提供即時售價或庫存，也不確認退稅資格。",
+      "個人紀錄保存在裝置上；地圖搜尋會連線至 Apple MapKit，外部網站依各自政策處理連線。主動寄送支援郵件時，工作室會收到你提供的內容。",
+      "此免費版本沒有 App 內購買或訂閱，可在隱私頁匯出或清除個人紀錄。"
+    ]
+  },
+  "en": {
+    "intro": [
+      "Luxury Guide introduces classic designs, materials and craftsmanship through the stories of brands and their founders. It includes 50 brand profiles, 30 classic product families, 15 introductory lessons, 100 glossary entries and 100 quiz questions, with source references for learning at your own pace.",
+      "Explore brand and product references, review concepts through lessons and quizzes, then save favorites, personal notes and learning progress. You can also enter prices, exchange rates and tax assumptions to calculate buying scenarios, or search for shops using Apple Maps.",
+      "No account is required. Personal records stay on your device and can be exported or erased in Privacy. This free version has no in-app purchases or subscriptions. The interface and brand, product, lesson, glossary and quiz content are available in 10 languages."
+    ],
+    "features": [
+      ["Brand stories and classic designs", "Explore 50 brand profiles and founder stories, 30 classic product families, materials and craftsmanship. Check source references and compare product information."],
+      ["Lessons, glossary and quizzes", "Learn with 15 introductory lessons, 100 glossary entries and 100 quiz questions. Revisit your answers and retry missed questions."],
+      ["Favorites and personal notes", "Save brands, items and glossary entries, keep personal notes and track learning progress. An optional daily reminder can help you return to learning."],
+      ["Manual buying scenarios", "Enter prices, exchange rates and tax assumptions to calculate buying scenarios. Results do not confirm live prices, stock or tax eligibility."],
+      ["Apple Maps search", "Search for shops and view their locations using Apple Maps. Map results do not certify authorized retailers."],
+      ["Content in 10 languages", "The interface and brand, product, lesson, glossary and quiz content are available in Traditional Chinese, Simplified Chinese, English, German, French, Spanish, Italian, Japanese, Korean and Thai."],
+      ["Local records and data controls", "No registration is needed. Personal records remain on the device and can be exported or erased in Privacy. This free version has no in-app purchases or subscriptions."]
+    ],
+    "stepDetails": [
+      "Start with a brand that interests you. Read its history and founder story, check the source references, then explore classic product families, materials and craftsmanship. Compare product references side by side when you want to understand differences. This is educational information, not authenticity certification.",
+      "Choose an introductory lesson, use the glossary to understand relevant concepts, then review with a quiz. Revisit your answers and retry missed questions to identify topics to read again.",
+      "Save brands, items and glossary entries you want to revisit, keep personal notes and review learning progress. You can enable an optional daily learning reminder. When you need a copy of your records or want to erase them, use the export or erase options in Privacy."
+    ],
+    "more": [
+      ["Explore buying assumptions", "Manually change prices, exchange rates and tax assumptions to see how they affect a calculation. Confirm actual prices, availability and tax eligibility separately."],
+      ["Find shop locations", "Use Apple Maps to search for relevant shops. Searches connect to Apple MapKit, and results do not establish that a retailer is authorized by a brand."],
+      ["Set your own review pace", "Use optional daily reminders, favorites and quiz records to return to lessons or retry questions you missed."]
+    ],
+    "tips": [
+      "Luxury Guide is an independent educational tool and is not affiliated with or endorsed by the brands discussed. It does not provide authenticity certification, investment advice or product sales.",
+      "Buying calculations use your own inputs. They do not provide live prices or stock information, or confirm tax eligibility.",
+      "Personal records stay on your device. Map searches connect to Apple MapKit, and external websites handle visits under their own policies. If you choose to email support, the studio receives the information you send.",
+      "This free version has no in-app purchases or subscriptions. You can export or erase personal records in Privacy."
+    ]
+  }
+}

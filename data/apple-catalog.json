@@ -11,7 +11,9 @@
   "sourceUrls": [
     "https://itunes.apple.com/lookup?id=1851202446&entity=software&country=tw&limit=200",
     "https://itunes.apple.com/lookup?id=1851202446&entity=software&country=us&limit=200",
-    "https://itunes.apple.com/lookup?id=1851202446&entity=macSoftware&country=tw&limit=200"
+    "https://itunes.apple.com/lookup?id=1851202446&entity=macSoftware&country=tw&limit=200",
+    "https://itunes.apple.com/lookup?country=tw&entity=software&id=1851202446&limit=200&timestamp=202611132153",
+    "https://itunes.apple.com/lookup?country=us&entity=software&id=1851202446&limit=200&timestamp=202611132153"
   ],
   "rawMetadataFiles": [
     "apple-lookup-raw.json",
@@ -21,14 +23,17 @@
     "apple-lookup-2026-10-25-us.json",
     "apple-lookup-2026-11-13-tw.json",
     "apple-lookup-2026-11-13-us.json",
-    "apple-mac-lookup-2026-11-13-tw.json"
+    "apple-mac-lookup-2026-11-13-tw.json",
+    "apple-lookup-2026-11-13-2153-tw.json",
+    "apple-lookup-2026-11-13-2153-us.json"
   ],
   "verification": {
-    "softwareAppCount": 17,
+    "softwareAppCount": 18,
     "standaloneMacAppCount": 0,
-    "scope": "2026-11-13 比對 Apple TW/US 開發者 lookup 完整清單，共17款；同步全部版本與 metadata。",
-    "publicPortfolioAppCount": 17,
-    "newAppsVerifiedOn": "2026-11-13"
+    "scope": "2026-11-13 晚間重新比對 Apple TW/US 開發者最新清單，共 18 款；新增名牌指南 1.0，既有 17 款版本與主要 metadata 均未變動。",
+    "publicPortfolioAppCount": 18,
+    "newAppsVerifiedOn": "2026-11-13",
+    "lastCheckedAt": "2026-11-13T21:53:00+08:00"
   },
   "apps": [
     {
@@ -535,6 +540,37 @@
       ],
       "retrievedOn": "2026-11-13",
       "englishDisplayName": "FinAtlas: Finance & Careers",
+      "englishDisplayNameSource": "Apple US lookup"
+    },
+    {
+      "trackId": 6830889178,
+      "slug": "luxury-guide",
+      "nameZhHant": "名牌指南",
+      "trackName": "名牌指南",
+      "shortDescription": "探索名牌故事、經典單品與製作工藝，閱讀課程與測驗、保存筆記，並比較選購情境。",
+      "category": "教育",
+      "genres": [
+        "教育",
+        "生活風格"
+      ],
+      "storeUrl": "https://apps.apple.com/tw/app/id6830889178",
+      "originalStoreUrl": "https://apps.apple.com/tw/app/%E5%90%8D%E7%89%8C%E6%8C%87%E5%8D%97/id6830889178?uo=4",
+      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/82/38/e4/8238e433-1345-8ed1-2a5b-cd875b14e8d5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "iconPath": "/assets/apps/6830889178.jpg",
+      "version": "1.0",
+      "versionReleasedAt": "2026-11-13T11:32:12Z",
+      "bundleId": "app.luxuryguide.ios",
+      "artistId": 1851202446,
+      "artistName": "Yung Wen Cheng",
+      "minimumOsVersion": "17.0",
+      "contentRating": "4+",
+      "originalSupportUrl": "https://firesparkle.com/app/luxury-guide/support/",
+      "descriptionUrls": [
+        "https://firesparkle.com/app/luxury-guide/privacy/",
+        "https://firesparkle.com/app/luxury-guide/terms/"
+      ],
+      "retrievedOn": "2026-11-13",
+      "englishDisplayName": "Luxury Guide",
       "englishDisplayNameSource": "Apple US lookup"
     }
   ],

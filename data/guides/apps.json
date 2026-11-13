@@ -363,5 +363,30 @@
       "https://apps.apple.com/tw/app/id6830943408",
       "https://apps.apple.com/us/app/id6830943408"
     ]
+  },
+  "luxury-guide": {
+    "steps": [
+      {
+        "en": "Explore brand stories, classic designs and craftsmanship.",
+        "zh": "探索品牌故事、經典單品與製作工藝。"
+      },
+      {
+        "en": "Read an introductory lesson and review what you learned with a quiz.",
+        "zh": "閱讀入門課程，透過測驗複習所學。"
+      },
+      {
+        "en": "Save favourite items and notes, and track your learning progress.",
+        "zh": "收藏喜歡的項目與筆記，追蹤學習進度。"
+      }
+    ],
+    "screenshots": [
+      0,
+      1,
+      1
+    ],
+    "sources": [
+      "https://apps.apple.com/tw/app/id6830889178",
+      "https://apps.apple.com/us/app/id6830889178"
+    ]
   }
 }

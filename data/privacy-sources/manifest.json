@@ -2398,6 +2398,28 @@
       },
       "compiledZh": "2026 年 11 月 13 日",
       "compiledEn": "November 13, 2026"
+    },
+    "6830889178": {
+      "appId": "6830889178",
+      "appName": "名牌指南",
+      "appStoreURL": "https://apps.apple.com/tw/app/id6830889178",
+      "privacyURL": "https://firesparkle.com/app/luxury-guide/privacy/",
+      "supportURL": "https://firesparkle.com/app/luxury-guide/support/",
+      "marketingURL": "https://firesparkle.com/",
+      "contactEmail": "firesparkle.studio@gmail.com",
+      "contactEmails": [
+        "firesparkle.studio@gmail.com"
+      ],
+      "policyTextFile": "6830889178-policy-body.txt",
+      "policySourceURL": "https://firesparkle.com/app/luxury-guide/privacy/",
+      "policyStatus": "full_text_available",
+      "policyUpdatedText": "2026-11-05 · 繁體中文與 English",
+      "policyCompiledDate": "2026-11-13",
+      "policyTextCharacterCount": 5614,
+      "policyTextExtraction": "Extracted existing bilingual article text for source records; the original dedicated HTML renderer and legal wording remain unchanged.",
+      "evidenceFile": "6830889178-policy-evidence.json",
+      "compiledZh": "2026 年 11 月 13 日",
+      "compiledEn": "November 13, 2026"
     }
   },
   "schemaVersion": 2,

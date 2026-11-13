@@ -777,5 +777,30 @@
         "height": 1400
       }
     ]
+  },
+  "luxury-guide": {
+    "images": [
+      "/assets/screenshots/luxury-guide/iphone-01.jpg",
+      "/assets/screenshots/luxury-guide/iphone-02.jpg"
+    ],
+    "source": "https://apps.apple.com/tw/app/id6830889178",
+    "imageSources": [
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c9/bf/e5/c9bfe536-865b-e00c-24c4-60697c024fb0/zh-Hant-03-Academy.jpg/1400x1400bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/48/5f/8f/485f8f23-91a7-badb-d421-689ffd65cce3/zh-Hant-04-Lesson.jpg/1400x1400bb.jpg"
+    ],
+    "appName": "名牌指南",
+    "version": "1.0",
+    "retrievedOn": "2026-11-13",
+    "device": "iPhone",
+    "imageDimensions": [
+      {
+        "width": 644,
+        "height": 1400
+      },
+      {
+        "width": 644,
+        "height": 1400
+      }
+    ]
   }
 }

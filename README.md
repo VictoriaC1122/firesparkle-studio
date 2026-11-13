@@ -4,16 +4,18 @@
 
 GitHub Pages 已設定自訂網域並強制 HTTPS；HTTP 與 `www.firesparkle.com` 會轉到正式網址。
 
-以 App 與遊戲作品為主軸的獨立工作室官網。2026-10-23 全站改版：暖象牙底、墨色文字、單一古金色點綴與細線框，清雅克制，品牌彩色只保留在玻璃火焰標誌本身；支援深色模式。首頁為工作室入口（主視覺、作品圖示星軌、已推出的遊戲、全部作品、工作室介紹、Instagram／Threads 與聯絡），17 款作品各自擁有獨立頁面，包含 App Store 官方截圖與逐步使用方式。中文使用自託管的 Noto Serif TC 宋體，英文使用 Times New Roman（備援自託管的 Tinos）；提供 50 個語言選項。
+以 App 與遊戲作品為主軸的獨立工作室官網。2026-10-23 全站改版：暖象牙底、墨色文字、單一古金色點綴與細線框，清雅克制，品牌彩色只保留在玻璃火焰標誌本身；支援深色模式。首頁為工作室入口（主視覺、作品圖示星軌、已推出的遊戲、全部作品、工作室介紹、Instagram／Threads 與聯絡），18 款作品各自擁有獨立頁面，包含 App Store 官方截圖與逐步使用方式。中文使用自託管的 Noto Serif TC 宋體，英文使用 Times New Roman（備援自託管的 Tinos）；提供 50 個語言選項。
 
 ## 內容
+
+- 2026-11-13 晚間再次查核作者的台灣／美國清單，新增剛上架的「名牌指南 / Luxury Guide」1.0（6830889178），共 18 款。官方圖示、2 張完整 iPhone 截圖、雙語詳細介紹與使用方式已加入；既有 17 款版本及主要 metadata 無變動。快照為 `data/apple-lookup-2026-11-13-2153-{tw,us}.json`。Apple 的原查詢網址短暫回傳舊清單，已使用新的查詢參數核對；新作既有隱私、條款與支援頁沿用原文。 本次驗證通過 65 個 HTML、3,170 個本機資源與錨點、64 條唯一 sitemap 路由，以及 50 語各 293 項文字；24 個既有法律／支援頁正文逐字不變。
 
 - 2026-11-13 已核對 Apple 台灣與美國商店的 17 款作品：新增 FinAtlas 金融產業與職涯，更新 15 個既有版本，並同步圖示、截圖及新版使用說明。原始來源為 `data/apple-lookup-2026-11-13-{tw,us}.json`；另查核 Mac 開發者清單，沒有獨立 Mac 上架項目。FinAtlas 沿用原本已發布的中英文隱私政策。 本次建置通過 50 個完整語系（各 282 項文字）、64 個 HTML 頁面、2,917 個站內資源與錨點，以及 63 條不重複 sitemap 路由的檢查；原有 7 個獨立法律／支援頁正文保持不變。
 
 - 2026-11-13 新增 Steam 預告與試玩碼區塊：首頁 `/#steam`、賴瑞作品頁、賴瑞支援頁及全站支援頁均提供願望清單、Steam 商店／發售後購買入口，以及寄到 `firesparkle.studio@gmail.com` 的預填試玩碼申請郵件。Steam 官方商店仍標示「即將推出」，發售時間以商店公告為準；查核資料保存於 `data/steam-larry-2026-11-13.json`。 本次驗證包含 64 個 HTML、3,098 個本機資源／錨點（含 CSS）、50 語各 287 項文字，以及桌面／390px 手機的三個操作入口。
 
-- 首頁 `/`：主視覺（品牌標誌＋作品圖示星軌）、作品數量、已推出的遊戲（賴瑞的調酒研究室、完美養豬）、Steam 上架準備狀態、17 款作品（分類篩選與搜尋，卡片連到各作品頁）、關於工作室、追蹤我們（Instagram、Threads、Email）
-- 作品排序：依 App Store Connect 的累積銷售數量由高到低（2026-10-23）：複利計算器、輕鬆抽獎、賴瑞的調酒研究室、幣圈神器、你今天維他命了嗎、股神養成、公關日記、AI 時間管理、把夢遺留下來、自己來設計、Coffee Chat 筆記、完美養豬、哩程管家、我決定自己的未來、圖解半導體；2026-10-25 新增的研究生讀 Paper 神器、2026-11-13 新增的 FinAtlas 依新增順序列於末位，待新的銷售資料再排序。首頁作品格、星軌與分享圖的前六款圖示、指南總覽與作品頁的「其他作品」都依這個順序；新的銷售資料出來時改 `src/content.mjs` 的 `order`，並同步 `scripts/og-image.html` 的六個圖示後重新輸出分享圖
+- 首頁 `/`：主視覺（品牌標誌＋作品圖示星軌）、作品數量、已推出的遊戲（賴瑞的調酒研究室、完美養豬）、Steam 上架準備狀態、18 款作品（分類篩選與搜尋，卡片連到各作品頁）、關於工作室、追蹤我們（Instagram、Threads、Email）
+- 作品排序：依 App Store Connect 的累積銷售數量由高到低（2026-10-23）：複利計算器、輕鬆抽獎、賴瑞的調酒研究室、幣圈神器、你今天維他命了嗎、股神養成、公關日記、AI 時間管理、把夢遺留下來、自己來設計、Coffee Chat 筆記、完美養豬、哩程管家、我決定自己的未來、圖解半導體；2026-10-25 新增的研究生讀 Paper 神器、2026-11-13 新增的 FinAtlas 與名牌指南依新增順序列於末位，待新的銷售資料再排序。首頁作品格、星軌與分享圖的前六款圖示、指南總覽與作品頁的「其他作品」都依這個順序；新的銷售資料出來時改 `src/content.mjs` 的 `order`，並同步 `scripts/og-image.html` 的六個圖示後重新輸出分享圖
 - 作品頁 `/app/<slug>/`：主視覺與簡介、`#about` 關於這款 App／遊戲（兩到三段完整介紹＋主要功能）、App Store 全部官方截圖（可橫向捲動、點選放大）、`#howto` 使用方式（App 三步驟、遊戲四步驟，每步搭配對應畫面，下方附詳細操作說明），接著「更多用法」與「小提醒」、目前版本、系統需求與分級、下載與支援、其他作品；隱私頁 `/app/<slug>/privacy/` 維持原網址
 - 指南總覽 `/guides/apps/`、`/guides/games/`：各作品的畫面、簡介與步驟，連到作品頁
 - 隱私中心 `/privacy/`、支援與常見問題 `/support/`、網站隱私說明 `/website-privacy/`、404、sitemap
@@ -49,7 +51,7 @@ GitHub Pages 已設定自訂網域並強制 HTTPS；HTTP 與 `www.firesparkle.co
 
 ### 更新 App Store 截圖
 
-1. `node scripts/fetch-screenshots.mjs --force`（需要能連到 itunes.apple.com 與 mzstatic.com；也可雙擊 `scripts/fetch-screenshots.command`）：查詢 17 款作品的 App Store 資料並下載 iPhone 截圖到 `public/assets/screenshots/<slug>/`，賴瑞另存 iPad 橫式畫面；輸出 `data/screenshot-manifest.json` 與 `data/apple-lookup-<日期>.json`
+1. `node scripts/fetch-screenshots.mjs --force`（需要能連到 itunes.apple.com 與 mzstatic.com；也可雙擊 `scripts/fetch-screenshots.command`）：查詢 18 款作品的 App Store 資料並下載 iPhone 截圖到 `public/assets/screenshots/<slug>/`，賴瑞另存 iPad 橫式畫面；輸出 `data/screenshot-manifest.json` 與 `data/apple-lookup-<日期>.json`
 2. `node scripts/apply-screenshot-manifest.mjs`：依下載紀錄更新 `data/site-media.json`
 3. 檢查 `data/guides/*.json` 的 `screenshots` 索引是否仍對應正確畫面，再 `node scripts/build.mjs`
 
@@ -67,7 +69,7 @@ GitHub Pages 已設定自訂網域並強制 HTTPS；HTTP 與 `www.firesparkle.co
 
 訪客可用語言原名、英文名或中文名搜尋。優先順序為網址 `?lang=ja`、已儲存的 `fs-lang` 偏好、瀏覽器語言，最後英文。切換會更新站內連結及網址，方便分享；阿拉伯、波斯、希伯來及烏爾都語使用 RTL。翻譯由本站提供，選擇時只下載一個含內容雜湊的 JSON，不連外部翻譯服務；載入失敗保留原頁面並顯示重試提示。未啟用 JavaScript 時顯示繁中內容。
 
-新增或調整文字時，同步更新來源、所有翻譯與模板。來源 ID 為英文 HTML 的 SHA-256 前 12 碼；各語言檔使用 `{ "文字ID": "翻譯" }`，更動來源順序不影響對應，修改英文會要求同步更新各語言。翻譯中保留原有 HTML 標籤、網址及聯絡信箱。作品總數使用 `{count}` 參數，由資料筆數帶入，不必為新增作品重翻計數文字。新增文字的做法：把英文、繁中與 48 種翻譯寫進 `data/i18n/additions-<日期>.json`，執行 `node scripts/apply-i18n-additions.mjs data/i18n/additions-<日期>.json`。指南另外提供 57 項文字（4 項介面與 53 個步驟），與基本文字（230 項）合併成每個語言 287 項。`npm run build` 會檢查來源 ID、完整性與 HTML 結構，缺少任何語言即停止。開發中可暫用 `PREVIEW_PARTIAL_LOCALES=1 npm run build` 預覽已完成的語言；正式部署不可設定此變數。
+新增或調整文字時，同步更新來源、所有翻譯與模板。來源 ID 為英文 HTML 的 SHA-256 前 12 碼；各語言檔使用 `{ "文字ID": "翻譯" }`，更動來源順序不影響對應，修改英文會要求同步更新各語言。翻譯中保留原有 HTML 標籤、網址及聯絡信箱。作品總數使用 `{count}` 參數，由資料筆數帶入，不必為新增作品重翻計數文字。新增文字的做法：把英文、繁中與 48 種翻譯寫進 `data/i18n/additions-<日期>.json`，執行 `node scripts/apply-i18n-additions.mjs data/i18n/additions-<日期>.json`。指南另外提供 60 項文字（4 項介面與 56 個步驟），與基本文字（233 項）合併成每個語言 293 項。`npm run build` 會檢查來源 ID、完整性與 HTML 結構，缺少任何語言即停止。開發中可暫用 `PREVIEW_PARTIAL_LOCALES=1 npm run build` 預覽已完成的語言；正式部署不可設定此變數。
 
 ## 文案
 
