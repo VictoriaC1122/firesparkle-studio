@@ -1,5 +1,5 @@
 {
-  "source": "App Store 官方說明、1.2 更新記錄與 4 張官方截圖（2026-10-25 查詢，data/apple-lookup-2026-10-25-tw.json、public/assets/screenshots/semiconductors-illustrated/）",
+  "source": "App Store 台灣與美國官方說明及 1.2.1 更新記錄（2026-11-13 查詢，data/apple-lookup-2026-11-13-tw.json、data/apple-lookup-2026-11-13-us.json；trackId 6822188590）；既有操作細節另參照官方截圖 public/assets/screenshots/semiconductors-illustrated/。",
   "zh": {
     "intro": [
       "給半導體初學者，每天 5 分鐘，看懂晶片與產業。不論你是學生、準備轉職，或剛進入半導體產業的非工程職新人，「圖解半導體」都能從沒有背景知識開始：選一個概念，用圖解與短篇解說理解，再透過互動實驗、小測驗與術語翻卡確認所學。",
@@ -37,7 +37,7 @@
       ]
     ],
     "stepDetails": [
-      "從首頁開始第一堂課「半導體為什麼能控制電？」（約 4 分鐘），或到課程頁挑一個概念。先讀概念解說、比喻與實際案例，再對照課內列出的相關術語；首頁的學習旅程會記錄你完成了 24 堂中的幾堂。",
+      "首次開啟可跟著新手教學熟悉操作，之後也能在「我的」重新查看。從首頁開始第一堂課「為什麼半導體能控制電？」（約四分鐘），或在課程分頁挑一個概念，依序讀解說、比喻與實際例子，再查看相關術語；首頁的學習旅程會顯示 24 堂課的完成進度。",
       "到「探索」打開晶圓製程實驗室：先看從一片矽到會工作的晶片的製造全貌，再深入光阻、曝光、顯影、蝕刻與去除光阻的一輪循環；打開「比較前後步驟」，觀察材料、元件與連線如何改變。",
       "完成課後 3 題測驗，回看答錯的題目，用課程筆記記下還要查的觀念。也可以用術語翻卡練習：每輪最多 10 張，先回想、再揭曉解釋，以「已記住」或「再複習」自評；自評只用於該輪練習，不計入測驗成績。"
     ],
@@ -112,7 +112,7 @@
       ]
     ],
     "stepDetails": [
-      "Start the first lesson from the home screen — why semiconductors can control electricity, about four minutes — or pick a concept from the lessons tab. Read the explanation, the analogy and the real-world case, then look at the related terms listed in the lesson; the learning journey on the home screen tracks how many of the 24 lessons you have finished.",
+      "Follow the tutorial on first launch, and revisit it from Me whenever needed. Start the first lesson from the home screen — why semiconductors can control electricity, about four minutes — or pick a concept from the lessons tab. Read the explanation, the analogy and the real-world case, then look at the related terms; the learning journey on the home screen tracks how many of the 24 lessons you have finished.",
       "In Explore, open the wafer process lab: see the whole journey from a slice of silicon to a working chip, then follow one cycle of photoresist, exposure, development, etching and resist removal. Turn on the before-and-after comparison to watch how materials, devices and connections change.",
       "Take the three-question quiz, review any wrong answers and note the concepts you still need to look up. You can also practise with term flashcards — up to ten per round: recall first, then reveal the explanation and rate it as remembered or review again. Ratings apply only to that round and do not count towards quiz scores."
     ],

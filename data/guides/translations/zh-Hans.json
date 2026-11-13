@@ -38,7 +38,6 @@
   "Add an inflation assumption and compare nominal and real returns to see the difference in purchasing power.": "加入通胀假设，比较名义与实际回报，了解购买力的差异。",
   "Change the regular contribution or calculation period, calculate again, and compare with the previous result.": "更改定期投入金额或计算期间，重新计算，并与上次结果比较。",
   "Choose Taiwan or US paper trading, search Taiwan securities or select from the built-in US list, and check your virtual funds.": "选择台股或美股模拟交易，搜索台湾证券或从内置美股列表选择，并确认虚拟资金。",
-  "Place a simulated Taiwan order at the displayed closing price or a custom price, or enter your own price for a US order, and note your reason.": "台股可按显示的收盘价或自定价格模拟下单，美股则自行输入价格，并记录交易理由。",
   "Review your holdings and transaction history after the simulation, and compare the outcome with the reason you recorded.": "模拟后查看持仓和交易记录，将结果与当时记录的理由比较。",
   "Choose a lesson from the blockchain basics path, read the concepts, and use the global search to look up unfamiliar terms.": "从区块链基础学习路线选择一堂课，阅读概念，再用全局搜索查询不熟悉的术语。",
   "Read the asset-security topics on wallets, private keys and seed phrases, and save material you want to revisit.": "阅读钱包、私钥和助记词等资产安全主题，并收藏想要重看的资料。",
@@ -48,5 +47,9 @@
   "Find an entry using date filters, search or the calendar, then open its details to add to or edit it.": "通过日期筛选、搜索或日历找回记录，再打开详情补充或编辑内容。",
   "Import a PDF, image or document scan into your library.": "将 PDF、图片或文档扫描件导入书库。",
   "Read the original alongside your notes and review the paper breakdown.": "对照原文阅读和记录笔记，并查看论文解析。",
-  "Organise keywords and citations, then export a backup.": "整理关键词与引用资料，然后导出备份。"
+  "Organise keywords and citations, then export a backup.": "整理关键词与引用资料，然后导出备份。",
+  "Read an introductory lesson and check your understanding with a quiz.": "阅读入门课程，通过测验检验理解。",
+  "Browse and compare financial institutions by type, checking sources and data dates.": "按类型浏览和比较金融机构，核对来源及数据日期。",
+  "Explore finance roles and related qualifications to identify skills to learn.": "探索金融岗位与相关资格证书，了解需要学习的技能。",
+  "Use the latest closing price or a custom price for a simulated Taiwan or US order, and record your reason.": "使用最新收盘价或自定义价格模拟台湾或美国股票下单，并记录交易理由。"
 }

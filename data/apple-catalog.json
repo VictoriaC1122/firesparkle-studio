@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "retrievedOn": "2026-10-25",
+  "retrievedOn": "2026-11-13",
   "storefront": "TW",
   "locale": "zh-TW",
   "developer": {
@@ -10,21 +10,25 @@
   },
   "sourceUrls": [
     "https://itunes.apple.com/lookup?id=1851202446&entity=software&country=tw&limit=200",
-    "https://itunes.apple.com/lookup?id=1851202446&entity=software&country=us&limit=200"
+    "https://itunes.apple.com/lookup?id=1851202446&entity=software&country=us&limit=200",
+    "https://itunes.apple.com/lookup?id=1851202446&entity=macSoftware&country=tw&limit=200"
   ],
   "rawMetadataFiles": [
     "apple-lookup-raw.json",
     "apple-mac-lookup-raw.json",
     "apple-2026-10-21-new-apps.json",
     "apple-lookup-2026-10-25-tw.json",
-    "apple-lookup-2026-10-25-us.json"
+    "apple-lookup-2026-10-25-us.json",
+    "apple-lookup-2026-11-13-tw.json",
+    "apple-lookup-2026-11-13-us.json",
+    "apple-mac-lookup-2026-11-13-tw.json"
   ],
   "verification": {
-    "softwareAppCount": 16,
+    "softwareAppCount": 17,
     "standaloneMacAppCount": 0,
-    "scope": "2026-10-25 比對 Apple TW/US 開發者 lookup 完整清單，共16款；全部metadata及版本已同步。",
-    "publicPortfolioAppCount": 16,
-    "newAppsVerifiedOn": "2026-10-25"
+    "scope": "2026-11-13 比對 Apple TW/US 開發者 lookup 完整清單，共17款；同步全部版本與 metadata。",
+    "publicPortfolioAppCount": 17,
+    "newAppsVerifiedOn": "2026-11-13"
   },
   "apps": [
     {
@@ -40,10 +44,10 @@
       ],
       "storeUrl": "https://apps.apple.com/tw/app/id6756014104",
       "originalStoreUrl": "https://apps.apple.com/tw/app/%E8%A4%87%E5%88%A9%E8%A8%88%E7%AE%97%E5%99%A8-%E8%B2%A1%E5%8B%99%E8%87%AA%E7%94%B1%E5%AF%A6%E7%8F%BE%E5%B7%A5%E5%85%B7/id6756014104?uo=4",
-      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5c/c7/2b/5cc72bec-7a81-8e16-19c9-ed21a33c4cc4/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/54/c8/c8/54c8c897-5aa9-ca69-aa62-471ce0ef034f/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
       "iconPath": "/assets/apps/6756014104.jpg",
-      "version": "2.6",
-      "versionReleasedAt": "2026-10-21T21:46:13Z",
+      "version": "2.6.1",
+      "versionReleasedAt": "2026-10-29T17:43:49Z",
       "bundleId": "com.ywcheng.compoundcalculator",
       "artistId": 1851202446,
       "artistName": "Yung Wen Cheng",
@@ -52,9 +56,9 @@
       "originalSupportUrl": null,
       "descriptionUrls": [
         "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
-        "https://victoriac1122.github.io/compound-calculator-support-site/privacy.html"
+        "https://firesparkle.com/app/compound-calculator/privacy/"
       ],
-      "retrievedOn": "2026-10-25",
+      "retrievedOn": "2026-11-13",
       "englishDisplayName": "Investment Growth",
       "englishDisplayNameSource": "Apple US lookup"
     },
@@ -71,10 +75,10 @@
       ],
       "storeUrl": "https://apps.apple.com/tw/app/id6755403297",
       "originalStoreUrl": "https://apps.apple.com/tw/app/%E8%BC%95%E9%AC%86%E6%8A%BD%E7%8D%8E/id6755403297?uo=4",
-      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3f/e1/41/3fe14128-cfe0-41d7-d3f6-aef85601655a/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3c/3f/73/3c3f73e7-b2a4-f324-6de7-98b2769fff50/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
       "iconPath": "/assets/apps/6755403297.jpg",
-      "version": "1.7",
-      "versionReleasedAt": "2026-10-14T16:46:44Z",
+      "version": "1.7.1",
+      "versionReleasedAt": "2026-10-28T22:42:38Z",
       "bundleId": "com.victoria.luckydraw",
       "artistId": 1851202446,
       "artistName": "Yung Wen Cheng",
@@ -82,7 +86,7 @@
       "contentRating": "4+",
       "originalSupportUrl": null,
       "descriptionUrls": [],
-      "retrievedOn": "2026-10-25",
+      "retrievedOn": "2026-11-13",
       "englishDisplayName": "輕鬆抽獎",
       "englishDisplayNameSource": "Apple US lookup"
     },
@@ -99,10 +103,10 @@
       ],
       "storeUrl": "https://apps.apple.com/tw/app/id6815299678",
       "originalStoreUrl": "https://apps.apple.com/tw/app/%E8%82%A1%E7%A5%9E%E9%A4%8A%E6%88%90-%E5%8F%B0%E7%BE%8E%E8%82%A1%E6%A8%A1%E6%93%AC%E4%BA%A4%E6%98%93/id6815299678?uo=4",
-      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7d/15/dc/7d15dcdd-69e5-d3fe-3bdc-5bc04bd2395d/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/16/48/2b/16482bab-5c0f-313f-7141-43aae8fd2f67/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
       "iconPath": "/assets/apps/6815299678.jpg",
-      "version": "2.6.0",
-      "versionReleasedAt": "2026-10-18T05:22:53Z",
+      "version": "2.7.1",
+      "versionReleasedAt": "2026-11-02T18:38:14Z",
       "bundleId": "com.victoriac1122.badaogushen",
       "artistId": 1851202446,
       "artistName": "Yung Wen Cheng",
@@ -110,10 +114,10 @@
       "contentRating": "4+",
       "originalSupportUrl": "https://victoriac1122.github.io/badaogushen-support-site/",
       "descriptionUrls": [
-        "https://victoriac1122.github.io/badaogushen-support-site/#privacy",
+        "https://firesparkle.com/app/stock-simulator/privacy/",
         "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/"
       ],
-      "retrievedOn": "2026-10-25",
+      "retrievedOn": "2026-11-13",
       "englishDisplayName": "Stock Mastery: Paper Trading",
       "englishDisplayNameSource": "Apple US lookup"
     },
@@ -129,10 +133,10 @@
       ],
       "storeUrl": "https://apps.apple.com/tw/app/id6761441866",
       "originalStoreUrl": "https://apps.apple.com/tw/app/%E4%BD%A0%E4%BB%8A%E5%A4%A9%E7%B6%AD%E4%BB%96%E5%91%BD%E4%BA%86%E5%97%8E/id6761441866?uo=4",
-      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c5/5c/fe/c55cfedb-8af1-f317-0c90-23b67e085400/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9b/5e/ef/9b5eef2b-52a2-35a6-9b78-49c7d24185c8/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
       "iconPath": "/assets/apps/6761441866.jpg",
-      "version": "1.7",
-      "versionReleasedAt": "2026-09-28T20:15:58Z",
+      "version": "1.7.1",
+      "versionReleasedAt": "2026-10-29T01:17:03Z",
       "bundleId": "com.yungwencheng.vitamintracker.--------",
       "artistId": 1851202446,
       "artistName": "Yung Wen Cheng",
@@ -140,7 +144,7 @@
       "contentRating": "4+",
       "originalSupportUrl": null,
       "descriptionUrls": [],
-      "retrievedOn": "2026-10-25",
+      "retrievedOn": "2026-11-13",
       "englishDisplayName": "Vitamin Today",
       "englishDisplayNameSource": "Apple US lookup"
     },
@@ -156,10 +160,10 @@
       ],
       "storeUrl": "https://apps.apple.com/tw/app/id6761411130",
       "originalStoreUrl": "https://apps.apple.com/tw/app/%E5%B9%A3%E5%9C%88%E7%A5%9E%E5%99%A8-%E5%8A%A0%E5%AF%86%E8%B2%A8%E5%B9%A3-%E5%8D%80%E5%A1%8A%E9%8F%88%E5%AD%B8%E7%BF%92%E5%AD%97%E5%85%B8/id6761411130?uo=4",
-      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2a/21/36/2a2136d0-c176-8cc6-4f6b-5645ff900776/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/54/c9/82/54c98252-a312-87ac-1bdd-4c6748c4cda5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
       "iconPath": "/assets/apps/6761411130.jpg",
-      "version": "2.0",
-      "versionReleasedAt": "2026-10-18T12:40:33Z",
+      "version": "2.0.1",
+      "versionReleasedAt": "2026-11-12T07:52:53Z",
       "bundleId": "com.victoriacheng.biquanshenqi",
       "artistId": 1851202446,
       "artistName": "Yung Wen Cheng",
@@ -170,7 +174,7 @@
         "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
         "https://victoriac1122.github.io/crypto-guide-support-site/privacy.html"
       ],
-      "retrievedOn": "2026-10-25",
+      "retrievedOn": "2026-11-13",
       "englishDisplayName": "Crypto Guide: Bitcoin & Web3",
       "englishDisplayNameSource": "Apple US lookup"
     },
@@ -188,10 +192,10 @@
       ],
       "storeUrl": "https://apps.apple.com/tw/app/id6811446129",
       "originalStoreUrl": "https://apps.apple.com/tw/app/%E5%AE%8C%E7%BE%8E%E9%A4%8A%E8%B1%AC/id6811446129?uo=4",
-      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/17/e7/d6/17e7d67d-9c81-a7af-fea8-30892d8f667d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b0/ea/ec/b0eaec6c-af45-5999-f20a-d1df39bb489e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
       "iconPath": "/assets/apps/6811446129.jpg",
-      "version": "1.3.1",
-      "versionReleasedAt": "2026-10-24T02:11:55Z",
+      "version": "1.5.1",
+      "versionReleasedAt": "2026-11-12T02:41:58Z",
       "bundleId": "com.perfectpiggame.app",
       "artistId": 1851202446,
       "artistName": "Yung Wen Cheng",
@@ -199,7 +203,7 @@
       "contentRating": "9+",
       "originalSupportUrl": "https://victoriac1122.github.io/perfect-pig-legal-center/?lang=zh-Hant",
       "descriptionUrls": [],
-      "retrievedOn": "2026-10-25",
+      "retrievedOn": "2026-11-13",
       "englishDisplayName": "Perfect Pig",
       "englishDisplayNameSource": "Apple US lookup"
     },
@@ -216,10 +220,10 @@
       ],
       "storeUrl": "https://apps.apple.com/tw/app/id6818286088",
       "originalStoreUrl": "https://apps.apple.com/tw/app/%E8%87%AA%E5%B7%B1%E4%BE%86%E8%A8%AD%E8%A8%88/id6818286088?uo=4",
-      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e7/2c/bb/e72cbbc1-a492-b393-d3b5-55618eb21cab/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/99/da/61/99da618f-ed4d-3e36-7245-b0fdb3f77337/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
       "iconPath": "/assets/apps/6818286088.jpg",
-      "version": "1.2.0",
-      "versionReleasedAt": "2026-10-17T00:28:32Z",
+      "version": "1.2.1",
+      "versionReleasedAt": "2026-11-12T07:29:35Z",
       "bundleId": "com.victoriacheng.designityourself",
       "artistId": 1851202446,
       "artistName": "Yung Wen Cheng",
@@ -229,7 +233,7 @@
       "descriptionUrls": [
         "https://victoriac1122.github.io/design-it-yourself-privacy-policy/"
       ],
-      "retrievedOn": "2026-10-25",
+      "retrievedOn": "2026-11-13",
       "englishDisplayName": "Build It Yourself: Room Design",
       "englishDisplayNameSource": "Apple US lookup"
     },
@@ -245,10 +249,10 @@
       ],
       "storeUrl": "https://apps.apple.com/tw/app/id6761694656",
       "originalStoreUrl": "https://apps.apple.com/tw/app/%E5%85%AC%E9%97%9C%E6%97%A5%E8%A8%98/id6761694656?uo=4",
-      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/47/f5/09/47f509c3-589f-6d9b-e5e6-568637ce590a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8a/4f/2e/8a4f2efd-d189-bc3d-4c49-c24aa66ecc08/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
       "iconPath": "/assets/apps/6761694656.jpg",
-      "version": "2.1",
-      "versionReleasedAt": "2026-10-03T00:49:59Z",
+      "version": "2.1.1",
+      "versionReleasedAt": "2026-11-11T19:31:36Z",
       "bundleId": "com.victoriacheng.publicrelationsdiary",
       "artistId": 1851202446,
       "artistName": "Yung Wen Cheng",
@@ -258,7 +262,7 @@
       "descriptionUrls": [
         "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/"
       ],
-      "retrievedOn": "2026-10-25",
+      "retrievedOn": "2026-11-13",
       "englishDisplayName": "PR Diary",
       "englishDisplayNameSource": "Apple US lookup"
     },
@@ -285,7 +289,7 @@
       "contentRating": "17+",
       "originalSupportUrl": null,
       "descriptionUrls": [],
-      "retrievedOn": "2026-10-25",
+      "retrievedOn": "2026-11-13",
       "englishDisplayName": "賴瑞的調酒研究室",
       "englishDisplayNameSource": "Apple US lookup"
     },
@@ -302,10 +306,10 @@
       ],
       "storeUrl": "https://apps.apple.com/tw/app/id6754973616",
       "originalStoreUrl": "https://apps.apple.com/tw/app/ai%E6%99%82%E9%96%93%E7%AE%A1%E7%90%86/id6754973616?uo=4",
-      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/df/6c/87/df6c8735-3c8e-27a3-cbba-e0d09d7721fc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/40/e1/22/40e12211-6fe4-dc95-2e47-b8947af75b74/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
       "iconPath": "/assets/apps/6754973616.jpg",
-      "version": "2.1",
-      "versionReleasedAt": "2026-10-07T02:21:56Z",
+      "version": "2.1.1",
+      "versionReleasedAt": "2026-10-29T00:57:16Z",
       "bundleId": "com.yungwencheng.altimemanager",
       "artistId": 1851202446,
       "artistName": "Yung Wen Cheng",
@@ -313,7 +317,7 @@
       "contentRating": "4+",
       "originalSupportUrl": null,
       "descriptionUrls": [],
-      "retrievedOn": "2026-10-25",
+      "retrievedOn": "2026-11-13",
       "englishDisplayName": "AI Time Management",
       "englishDisplayNameSource": "Apple US lookup"
     },
@@ -329,10 +333,10 @@
       ],
       "storeUrl": "https://apps.apple.com/tw/app/id6761692228",
       "originalStoreUrl": "https://apps.apple.com/tw/app/%E6%8A%8A%E5%A4%A2%E9%81%BA%E7%95%99%E4%B8%8B%E4%BE%86/id6761692228?uo=4",
-      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5d/47/0c/5d470cf5-e872-3549-b089-e10f7261121e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/83/3b/28/833b28e8-c934-de5a-57da-5c53c02f3939/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
       "iconPath": "/assets/apps/6761692228.jpg",
-      "version": "1.7",
-      "versionReleasedAt": "2026-10-07T16:40:24Z",
+      "version": "1.7.1",
+      "versionReleasedAt": "2026-10-30T21:05:03Z",
       "bundleId": "com.dreamfriend.leaveyourdream",
       "artistId": 1851202446,
       "artistName": "Yung Wen Cheng",
@@ -340,10 +344,10 @@
       "contentRating": "12+",
       "originalSupportUrl": "https://victoriac1122.github.io/dream-journal-support-site/",
       "descriptionUrls": [
-        "https://victoriac1122.github.io/dream-journal-support-site/privacy.html",
+        "https://firesparkle.com/app/dream-journal/privacy/",
         "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/"
       ],
-      "retrievedOn": "2026-10-25",
+      "retrievedOn": "2026-11-13",
       "englishDisplayName": "Dream Keepsake",
       "englishDisplayNameSource": "Apple US lookup"
     },
@@ -360,10 +364,10 @@
       ],
       "storeUrl": "https://apps.apple.com/tw/app/id6820863958",
       "originalStoreUrl": "https://apps.apple.com/tw/app/coffee-chat-%E7%AD%86%E8%A8%98/id6820863958?uo=4",
-      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c9/c4/dd/c9c4dd9c-7942-4132-cd04-9189a628d5fe/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a7/d3/2e/a7d32ee5-d252-746e-09e9-826174df8b15/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
       "iconPath": "/assets/apps/6820863958.jpg",
-      "version": "1.2.1",
-      "versionReleasedAt": "2026-10-23T03:06:08Z",
+      "version": "1.2.2",
+      "versionReleasedAt": "2026-11-12T00:31:31Z",
       "bundleId": "com.victoria.coffeechatnote",
       "artistId": 1851202446,
       "artistName": "Yung Wen Cheng",
@@ -371,10 +375,10 @@
       "contentRating": "4+",
       "originalSupportUrl": "https://victoriac1122.github.io/coffee-chat-note-support/",
       "descriptionUrls": [
-        "https://victoriac1122.github.io/coffee-chat-note-support/privacy.html",
+        "https://firesparkle.com/app/coffee-chat/privacy/",
         "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/"
       ],
-      "retrievedOn": "2026-10-25",
+      "retrievedOn": "2026-11-13",
       "englishDisplayName": "Coffee Chat Note",
       "englishDisplayNameSource": "Apple US lookup"
     },
@@ -391,10 +395,10 @@
       ],
       "storeUrl": "https://apps.apple.com/tw/app/id6822188590",
       "originalStoreUrl": "https://apps.apple.com/tw/app/%E5%9C%96%E8%A7%A3%E5%8D%8A%E5%B0%8E%E9%AB%94/id6822188590?uo=4",
-      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/dd/bf/ba/ddbfba4d-3aac-2653-4d6c-5471ccb409e3/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2e/74/06/2e7406bf-ef09-090a-41ae-edeb036685ea/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
       "iconPath": "/assets/apps/6822188590.jpg",
-      "version": "1.2",
-      "versionReleasedAt": "2026-10-24T00:07:17Z",
+      "version": "1.2.1",
+      "versionReleasedAt": "2026-11-12T08:10:15Z",
       "bundleId": "com.semiverse.app",
       "artistId": 1851202446,
       "artistName": "Yung Wen Cheng",
@@ -403,10 +407,10 @@
       "originalSupportUrl": "https://victoriac1122.github.io/semiverse-support-site/index.html",
       "descriptionUrls": [
         "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
-        "https://victoriac1122.github.io/semiverse-support-site/privacy.html"
+        "https://firesparkle.com/app/semiconductors-illustrated/privacy/"
       ],
-      "retrievedOn": "2026-10-25",
-      "englishDisplayName": "圖解半導體",
+      "retrievedOn": "2026-11-13",
+      "englishDisplayName": "SemiVerse: Chips Illustrated",
       "englishDisplayNameSource": "Apple US lookup"
     },
     {
@@ -422,10 +426,10 @@
       ],
       "storeUrl": "https://apps.apple.com/tw/app/id6823824323",
       "originalStoreUrl": "https://apps.apple.com/tw/app/%E5%93%A9%E7%A8%8B%E7%AE%A1%E5%AE%B6-%E4%BF%A1%E7%94%A8%E5%8D%A1%E6%8F%9B%E6%A9%9F%E7%A5%A8%E8%A9%A6%E7%AE%97/id6823824323?uo=4",
-      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/eb/46/91/eb4691c2-246f-10f2-ad30-dcac198c509d/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d1/20/a1/d120a105-be6e-8dc0-caf0-eaab3ede4734/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
       "iconPath": "/assets/apps/6823824323.jpg",
-      "version": "1.0.1",
-      "versionReleasedAt": "2026-10-23T17:31:47Z",
+      "version": "1.0.2",
+      "versionReleasedAt": "2026-10-30T19:52:28Z",
       "bundleId": "com.flyingoutsky.feifeifeimileagecalculator",
       "artistId": 1851202446,
       "artistName": "Yung Wen Cheng",
@@ -434,9 +438,9 @@
       "originalSupportUrl": "https://victoriac1122.github.io/milebutler-support/#support",
       "descriptionUrls": [
         "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
-        "https://victoriac1122.github.io/milebutler-support/#privacy-policy"
+        "https://firesparkle.com/app/milebutler/privacy/"
       ],
-      "retrievedOn": "2026-10-25",
+      "retrievedOn": "2026-11-13",
       "englishDisplayName": "MileButler: Miles & Card Plans",
       "englishDisplayNameSource": "Apple US lookup"
     },
@@ -453,10 +457,10 @@
       ],
       "storeUrl": "https://apps.apple.com/tw/app/id6824004640",
       "originalStoreUrl": "https://apps.apple.com/tw/app/%E6%88%91%E6%B1%BA%E5%AE%9A%E8%87%AA%E5%B7%B1%E7%9A%84%E6%9C%AA%E4%BE%86-%E5%A4%A7%E5%AD%B8%E9%81%B8%E7%B3%BB%E6%8C%87%E5%8D%97/id6824004640?uo=4",
-      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ec/1f/ab/ec1fab0f-97d6-58d6-2479-e1dec6caf0a0/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e5/39/bb/e539bb81-2ae3-380c-68df-05fb9dfafecc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
       "iconPath": "/assets/apps/6824004640.jpg",
-      "version": "1.1.0",
-      "versionReleasedAt": "2026-10-23T13:24:56Z",
+      "version": "1.1.1",
+      "versionReleasedAt": "2026-11-04T16:10:39Z",
       "bundleId": "com.yungwencheng.futuremajorguide.---------------",
       "artistId": 1851202446,
       "artistName": "Yung Wen Cheng",
@@ -464,10 +468,10 @@
       "contentRating": "4+",
       "originalSupportUrl": "https://victoriac1122.github.io/future-major-guide-support-site/",
       "descriptionUrls": [
-        "https://victoriac1122.github.io/future-major-guide-support-site/privacy.html",
+        "https://firesparkle.com/app/future-major-guide/privacy/",
         "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/"
       ],
-      "retrievedOn": "2026-10-25",
+      "retrievedOn": "2026-11-13",
       "englishDisplayName": "Future Major Guide",
       "englishDisplayNameSource": "Apple US lookup"
     },
@@ -485,20 +489,52 @@
       ],
       "storeUrl": "https://apps.apple.com/tw/app/id6818310524",
       "originalStoreUrl": "https://apps.apple.com/tw/app/%E7%A0%94%E7%A9%B6%E7%94%9F%E8%AE%80-paper-%E7%A5%9E%E5%99%A8/id6818310524?uo=4",
-      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9d/4f/0d/9d4f0de6-9220-e213-4976-a101999c09dc/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/eb/b1/09/ebb10916-1c40-55d7-357a-d6c18fb0f8f9/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
       "iconPath": "/assets/apps/6818310524.jpg",
-      "version": "1.0",
-      "versionReleasedAt": "2026-10-23T13:04:11Z",
+      "version": "1.1.1",
+      "versionReleasedAt": "2026-11-12T00:37:12Z",
       "bundleId": "com.victoriacheng.paperreader",
       "artistId": 1851202446,
       "artistName": "Yung Wen Cheng",
       "minimumOsVersion": "17.0",
       "contentRating": "4+",
       "descriptionUrls": [
-        "https://victoriac1122.github.io/paper-reader-support-site/"
+        "https://firesparkle.com/app/paper-reading-desk/support/",
+        "https://firesparkle.com/app/paper-reading-desk/privacy/"
       ],
-      "retrievedOn": "2026-10-25",
+      "retrievedOn": "2026-11-13",
       "englishDisplayName": "Paper Reading Desk",
+      "englishDisplayNameSource": "Apple US lookup"
+    },
+    {
+      "trackId": 6830943408,
+      "slug": "finatlas",
+      "shortDescription": "學習金融產業與職涯，查詢金融機構、閱讀課程與測驗，整理筆記及學習進度。",
+      "originalSupportUrl": "https://firesparkle.com/support/",
+      "nameZhHant": "FinAtlas 金融產業與職涯",
+      "trackName": "FinAtlas 金融產業與職涯",
+      "category": "教育",
+      "genres": [
+        "教育"
+      ],
+      "storeUrl": "https://apps.apple.com/tw/app/id6830943408",
+      "originalStoreUrl": "https://apps.apple.com/tw/app/finatlas-%E9%87%91%E8%9E%8D%E7%94%A2%E6%A5%AD%E8%88%87%E8%81%B7%E6%B6%AF/id6830943408?uo=4",
+      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/aa/70/90/aa7090dd-0aea-e2f5-81f5-9782536bc7e2/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "iconPath": "/assets/apps/6830943408.jpg",
+      "version": "1.0",
+      "versionReleasedAt": "2026-11-13T04:09:56Z",
+      "bundleId": "com.finatlas.education",
+      "artistId": 1851202446,
+      "artistName": "Yung Wen Cheng",
+      "minimumOsVersion": "17.0",
+      "contentRating": "4+",
+      "descriptionUrls": [
+        "https://firesparkle.com/support/",
+        "https://firesparkle.com/app/finatlas/privacy/",
+        "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/"
+      ],
+      "retrievedOn": "2026-11-13",
+      "englishDisplayName": "FinAtlas: Finance & Careers",
       "englishDisplayNameSource": "Apple US lookup"
     }
   ],

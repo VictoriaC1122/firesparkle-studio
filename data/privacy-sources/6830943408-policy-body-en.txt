@@ -1,0 +1,28 @@
+FinAtlas Privacy Policy
+Document version: November 5, 2026
+FinAtlas is provided by 花火工作室 FireSparkle.Studio. This policy describes how the FinAtlas app handles data and how we handle information you send us for support.
+Learning records and preferences
+FinAtlas does not require an account. Lesson completion, quiz attempts, notes, bookmarks, learning preferences, language and appearance settings, and fictional corporate credit simulation records are stored on your device. They are used to display progress, arrange lessons and retain practice results. The simulator keeps the latest 30 results, which can be reviewed while a Pro subscription is active.
+The current app has no custom backend, developer-operated cross-device sync, advertising SDK or third-party analytics SDK. It does not itself transmit these learning records to the studio or send notes or practice content to generative AI services. Do not enter bank passwords, payment card numbers, client records or other unnecessary sensitive information in notes or simulation fields.
+Purchases and subscriptions
+Apple processes subscriptions through the App Store. FinAtlas uses StoreKit to read and verify transactions and subscription status to determine access to Pro features. The studio does not receive your payment card number or Apple Account password through the app and does not operate a server that receives purchase receipts.
+Apple handles purchases, payments and related records under its own terms and privacy policy. Deleting learning data or the app does not cancel a subscription or delete Apple's purchase records. Manage or cancel subscriptions in your Apple Account subscription settings.
+Device backups
+System backups may include local app data. Backup and restoration depend on your Apple device, iCloud or computer backup settings. This is separate from studio-operated cloud sync. The studio cannot access your device backups. Restoring an older backup may restore previously saved data.
+Support email
+When you email firesparkle.studio@gmail.com, we receive your sender address, any name you provide, your message and attachments. You may choose to include your device model, system version or screenshots to help us investigate. Contacting support is optional and is not required to use the app.
+We use this information to answer inquiries, address problems and provide necessary follow-up. We do not use it for advertising or marketing lists. Please remove account details, transaction information and unrelated personal information from screenshots. We do not ask for passwords or payment card numbers.
+We use Gmail to send, receive and store support messages. The provider processes messages under its terms, potentially outside your country or region. We retain support information for the time needed to resolve an issue, provide necessary follow-up and meet legal retention requirements, then delete personal information no longer needed for those purposes. You may email us to request access to, correction of or deletion of support information you supplied. If a legal requirement prevents deletion of some information, we will explain why.
+External websites
+Source, support and terms links open third-party or studio websites. Those sites and their providers may process IP addresses, browser information or server logs under their own privacy policies. FinAtlas does not track your browsing on external websites through the app. The studio website's policy is available at https://firesparkle.com/website-privacy/ .
+Retention and deletion
+In Profile, select Delete learning data to remove local notes, bookmarks, lesson progress, quiz records and simulation records. This keeps your language, appearance and learning preferences, which you can adjust in Profile. To remove the app and its local data, use Delete App in iOS, rather than Offload App, which keeps documents and data. Manage backup copies separately through your backup service settings.
+We do not hold a copy of your local learning records and cannot access, delete or restore them for you. Deleting data in the app does not delete support messages you previously sent. Contact us by email for requests concerning those messages.
+Sharing and changes
+The studio does not sell this personal information or provide it to data brokers. Apart from providers needed to handle support, information is disclosed only where required by law or necessary for related legal proceedings.
+This policy reflects the current app's features. If our data practices change, we will update this policy and its version date. Where notice or consent is legally required, we will provide it or obtain it before the change applies.
+Contact
+花火工作室 FireSparkle.Studio
+Email: firesparkle.studio@gmail.com
+Support: https://firesparkle.com/support/
+Please include “FinAtlas” in privacy-related inquiries.

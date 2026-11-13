@@ -38,7 +38,6 @@
   "Add an inflation assumption and compare nominal and real returns to see the difference in purchasing power.": "Afegeix un supòsit d'inflació i compara els rendiments nominals i reals per veure la diferència de poder adquisitiu.",
   "Change the regular contribution or calculation period, calculate again, and compare with the previous result.": "Canvia l'aportació periòdica o el període de càlcul, torna a calcular i compara-ho amb el resultat anterior.",
   "Choose Taiwan or US paper trading, search Taiwan securities or select from the built-in US list, and check your virtual funds.": "Tria la simulació de negociació de Taiwan o dels EUA, busca valors de Taiwan o selecciona'n de la llista integrada dels EUA i comprova els fons virtuals.",
-  "Place a simulated Taiwan order at the displayed closing price or a custom price, or enter your own price for a US order, and note your reason.": "Envia una ordre simulada de Taiwan al preu de tancament mostrat o a un preu propi, o introdueix el teu preu per a una ordre dels EUA, i anota'n el motiu.",
   "Review your holdings and transaction history after the simulation, and compare the outcome with the reason you recorded.": "Després de la simulació, revisa les posicions i l'historial d'operacions i compara el resultat amb el motiu que havies anotat.",
   "Choose a lesson from the blockchain basics path, read the concepts, and use the global search to look up unfamiliar terms.": "Tria una lliçó de l'itinerari de fonaments de la cadena de blocs, llegeix els conceptes i utilitza la cerca global per consultar termes desconeguts.",
   "Read the asset-security topics on wallets, private keys and seed phrases, and save material you want to revisit.": "Llegeix els temes de seguretat d'actius sobre moneders, claus privades i frases de recuperació i desa el material que vulguis tornar a consultar.",
@@ -48,5 +47,9 @@
   "Find an entry using date filters, search or the calendar, then open its details to add to or edit it.": "Troba una entrada amb els filtres de data, la cerca o el calendari i obre'n els detalls per ampliar-la o editar-la.",
   "Import a PDF, image or document scan into your library.": "Importa un PDF, una imatge o un document escanejat a la teva biblioteca.",
   "Read the original alongside your notes and review the paper breakdown.": "Llegeix l’original al costat de les teves notes i revisa l’anàlisi de l’article.",
-  "Organise keywords and citations, then export a backup.": "Organitza les paraules clau i les citacions i, després, exporta una còpia de seguretat."
+  "Organise keywords and citations, then export a backup.": "Organitza les paraules clau i les citacions i, després, exporta una còpia de seguretat.",
+  "Read an introductory lesson and check your understanding with a quiz.": "Llegeix una lliçó introductòria i comprova què has entès amb un qüestionari.",
+  "Browse and compare financial institutions by type, checking sources and data dates.": "Consulta i compara institucions financeres per tipus, comprovant les fonts i les dates de les dades.",
+  "Explore finance roles and related qualifications to identify skills to learn.": "Explora les professions financeres i les qualificacions relacionades per identificar les habilitats que cal aprendre.",
+  "Use the latest closing price or a custom price for a simulated Taiwan or US order, and record your reason.": "Utilitza l’últim preu de tancament o un preu personalitzat per a una ordre simulada d’accions de Taiwan o dels Estats Units i anota el teu motiu."
 }

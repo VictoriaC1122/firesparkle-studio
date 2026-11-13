@@ -248,8 +248,8 @@
         "en": "Choose Taiwan or US paper trading, search Taiwan securities or select from the built-in US list, and check your virtual funds."
       },
       {
-        "zh": "台股可依盤後收盤價或自訂價格模擬下單；美股自行輸入價格，並留下交易理由。",
-        "en": "Place a simulated Taiwan order at the displayed closing price or a custom price, or enter your own price for a US order, and note your reason."
+        "zh": "選擇最新收盤價或自訂價格模擬台股與美股下單，並記錄交易理由。",
+        "en": "Use the latest closing price or a custom price for a simulated Taiwan or US order, and record your reason."
       },
       {
         "zh": "完成模擬後查看持倉與交易紀錄，對照當時留下的理由，回顧這筆練習的結果。",
@@ -258,11 +258,12 @@
     ],
     "screenshots": [
       0,
-      1,
-      3
+      2,
+      1
     ],
     "sources": [
-      "https://apps.apple.com/tw/app/id6815299678"
+      "https://apps.apple.com/tw/app/id6815299678",
+      "data/apple-lookup-2026-11-13-tw.json: current description and official screenshots"
     ]
   },
   "crypto-dictionary": {
@@ -336,6 +337,31 @@
     "sources": [
       "https://apps.apple.com/tw/app/id6818310524",
       "https://apps.apple.com/us/app/id6818310524"
+    ]
+  },
+  "finatlas": {
+    "steps": [
+      {
+        "zh": "閱讀入門課程，透過測驗檢視理解。",
+        "en": "Read an introductory lesson and check your understanding with a quiz."
+      },
+      {
+        "zh": "依類型查詢與比較金融機構，核對來源和資料日期。",
+        "en": "Browse and compare financial institutions by type, checking sources and data dates."
+      },
+      {
+        "zh": "探索金融職務與相關證照，整理需要學習的技能。",
+        "en": "Explore finance roles and related qualifications to identify skills to learn."
+      }
+    ],
+    "screenshots": [
+      1,
+      0,
+      2
+    ],
+    "sources": [
+      "https://apps.apple.com/tw/app/id6830943408",
+      "https://apps.apple.com/us/app/id6830943408"
     ]
   }
 }

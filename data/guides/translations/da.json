@@ -38,7 +38,6 @@
   "Add an inflation assumption and compare nominal and real returns to see the difference in purchasing power.": "Tilføj en antagelse om inflation, og sammenlign nominelle og reale afkast for at se forskellen i købekraft.",
   "Change the regular contribution or calculation period, calculate again, and compare with the previous result.": "Ændr den faste indbetaling eller beregningsperioden, beregn igen, og sammenlign med det foregående resultat.",
   "Choose Taiwan or US paper trading, search Taiwan securities or select from the built-in US list, and check your virtual funds.": "Vælg simuleret handel i Taiwan eller USA, søg efter taiwanske værdipapirer eller vælg fra den indbyggede USA-liste, og kontrollér dine virtuelle midler.",
-  "Place a simulated Taiwan order at the displayed closing price or a custom price, or enter your own price for a US order, and note your reason.": "Afgiv en simuleret Taiwan-ordre til den viste lukkekurs eller en selvvalgt pris, eller indtast din egen pris til en USA-ordre, og notér din begrundelse.",
   "Review your holdings and transaction history after the simulation, and compare the outcome with the reason you recorded.": "Gennemgå dine beholdninger og din transaktionshistorik efter simuleringen, og sammenlign udfaldet med den begrundelse, du noterede.",
   "Choose a lesson from the blockchain basics path, read the concepts, and use the global search to look up unfamiliar terms.": "Vælg en lektion fra forløbet om blockchainens grundprincipper, læs begreberne, og brug den globale søgning til ukendte termer.",
   "Read the asset-security topics on wallets, private keys and seed phrases, and save material you want to revisit.": "Læs emnerne om aktivsikkerhed vedrørende wallets, private nøgler og gendannelsesfraser, og gem det materiale, du vil vende tilbage til.",
@@ -48,5 +47,9 @@
   "Find an entry using date filters, search or the calendar, then open its details to add to or edit it.": "Find et indlæg med datofiltre, søgning eller kalenderen, og åbn detaljerne for at tilføje noget eller redigere det.",
   "Import a PDF, image or document scan into your library.": "Importér en PDF, et billede eller et scannet dokument til dit bibliotek.",
   "Read the original alongside your notes and review the paper breakdown.": "Læs originalen ved siden af dine noter, og gennemgå artikelanalysen.",
-  "Organise keywords and citations, then export a backup.": "Organisér nøgleord og kildehenvisninger, og eksportér derefter en sikkerhedskopi."
+  "Organise keywords and citations, then export a backup.": "Organisér nøgleord og kildehenvisninger, og eksportér derefter en sikkerhedskopi.",
+  "Read an introductory lesson and check your understanding with a quiz.": "Læs en introduktionslektion, og tjek din forståelse med en quiz.",
+  "Browse and compare financial institutions by type, checking sources and data dates.": "Gennemse og sammenlign finansielle institutioner efter type, og kontrollér kilderne og oplysningernes datoer.",
+  "Explore finance roles and related qualifications to identify skills to learn.": "Udforsk job i finansbranchen og tilhørende kvalifikationer for at se, hvilke færdigheder du skal lære.",
+  "Use the latest closing price or a custom price for a simulated Taiwan or US order, and record your reason.": "Brug den seneste lukkekurs eller en egen pris til en simuleret ordre på taiwanske eller amerikanske aktier, og notér din begrundelse."
 }

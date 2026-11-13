@@ -38,7 +38,6 @@
   "Add an inflation assumption and compare nominal and real returns to see the difference in purchasing power.": "Додајте претпоставку инфлације и упоредите номиналне и реалне приносе да бисте видели разлику у куповној моћи.",
   "Change the regular contribution or calculation period, calculate again, and compare with the previous result.": "Промените редовну уплату или период обрачуна, израчунајте поново и упоредите са претходним резултатом.",
   "Choose Taiwan or US paper trading, search Taiwan securities or select from the built-in US list, and check your virtual funds.": "Одаберите симулирано трговање на Тајвану или у САД, претражите тајванске хартије од вредности или одаберите са уграђеног америчког списка и проверите виртуелна средства.",
-  "Place a simulated Taiwan order at the displayed closing price or a custom price, or enter your own price for a US order, and note your reason.": "Поставите симулирани тајвански налог по приказаној закључној или сопственој цени, односно унесите сопствену цену за амерички налог, и забележите разлог.",
   "Review your holdings and transaction history after the simulation, and compare the outcome with the reason you recorded.": "После симулације прегледајте позиције и историју трансакција и упоредите исход са разлогом који сте записали.",
   "Choose a lesson from the blockchain basics path, read the concepts, and use the global search to look up unfamiliar terms.": "Одаберите лекцију из основа блокчејна, прочитајте објашњења и користите глобалну претрагу за непознате појмове.",
   "Read the asset-security topics on wallets, private keys and seed phrases, and save material you want to revisit.": "Прочитајте теме о безбедности имовине које обрађују новчанике, приватне кључеве и фразе за опоравак и сачувајте садржај коме желите да се вратите.",
@@ -48,5 +47,9 @@
   "Find an entry using date filters, search or the calendar, then open its details to add to or edit it.": "Пронађите запис помоћу филтера датума, претраге или календара, па отворите детаље да бисте га допунили или изменили.",
   "Import a PDF, image or document scan into your library.": "Увезите PDF, слику или скенирани документ у своју библиотеку.",
   "Read the original alongside your notes and review the paper breakdown.": "Читајте изворни текст уз своје белешке и прегледајте анализу рада.",
-  "Organise keywords and citations, then export a backup.": "Организујте кључне речи и библиографске наводе, а затим извезите резервну копију."
+  "Organise keywords and citations, then export a backup.": "Организујте кључне речи и библиографске наводе, а затим извезите резервну копију.",
+  "Read an introductory lesson and check your understanding with a quiz.": "Прочитајте уводну лекцију и проверите разумевање квизом.",
+  "Browse and compare financial institutions by type, checking sources and data dates.": "Прегледајте и упоредите финансијске институције према врсти, проверавајући изворе и датуме података.",
+  "Explore finance roles and related qualifications to identify skills to learn.": "Истражите финансијска занимања и повезане квалификације да бисте препознали које вештине треба да научите.",
+  "Use the latest closing price or a custom price for a simulated Taiwan or US order, and record your reason.": "За симулирани налог за тајванске или америчке акције користите последњу цену на затварању или цену коју сами одредите и забележите свој разлог."
 }

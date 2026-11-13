@@ -38,7 +38,6 @@
   "Add an inflation assumption and compare nominal and real returns to see the difference in purchasing power.": "Voeg een inflatieaanname toe en vergelijk nominale en reële rendementen om het verschil in koopkracht te zien.",
   "Change the regular contribution or calculation period, calculate again, and compare with the previous result.": "Wijzig de periodieke inleg of de berekeningsperiode, bereken opnieuw en vergelijk met de vorige uitkomst.",
   "Choose Taiwan or US paper trading, search Taiwan securities or select from the built-in US list, and check your virtual funds.": "Kies gesimuleerd handelen in Taiwan of de VS, zoek Taiwanese effecten of kies uit de ingebouwde Amerikaanse lijst en controleer je virtuele saldo.",
-  "Place a simulated Taiwan order at the displayed closing price or a custom price, or enter your own price for a US order, and note your reason.": "Plaats een gesimuleerde Taiwanese order tegen de getoonde slotkoers of een eigen prijs, of vul je eigen prijs in voor een Amerikaanse order, en noteer je reden.",
   "Review your holdings and transaction history after the simulation, and compare the outcome with the reason you recorded.": "Bekijk na de simulatie je posities en transactiegeschiedenis en vergelijk de uitkomst met de reden die je hebt vastgelegd.",
   "Choose a lesson from the blockchain basics path, read the concepts, and use the global search to look up unfamiliar terms.": "Kies een les uit het leerpad over blockchainbasiskennis, lees de begrippen en gebruik de algemene zoekfunctie voor onbekende termen.",
   "Read the asset-security topics on wallets, private keys and seed phrases, and save material you want to revisit.": "Lees de onderwerpen over vermogensbeveiliging rond wallets, privésleutels en herstelzinnen en bewaar materiaal dat je opnieuw wilt bekijken.",
@@ -48,5 +47,9 @@
   "Find an entry using date filters, search or the calendar, then open its details to add to or edit it.": "Vind een notitie met datumfilters, de zoekfunctie of de kalender en open de details om deze aan te vullen of te bewerken.",
   "Import a PDF, image or document scan into your library.": "Importeer een PDF, afbeelding of documentscan in je bibliotheek.",
   "Read the original alongside your notes and review the paper breakdown.": "Lees het origineel naast je notities en bekijk de gestructureerde analyse van het artikel.",
-  "Organise keywords and citations, then export a backup.": "Orden trefwoorden en bronverwijzingen en exporteer vervolgens een reservekopie."
+  "Organise keywords and citations, then export a backup.": "Orden trefwoorden en bronverwijzingen en exporteer vervolgens een reservekopie.",
+  "Read an introductory lesson and check your understanding with a quiz.": "Lees een inleidende les en toets je begrip met een quiz.",
+  "Browse and compare financial institutions by type, checking sources and data dates.": "Bekijk en vergelijk financiële instellingen per type en controleer de bronnen en datums van de gegevens.",
+  "Explore finance roles and related qualifications to identify skills to learn.": "Verken functies in de financiële sector en bijbehorende kwalificaties om te bepalen welke vaardigheden je wilt leren.",
+  "Use the latest closing price or a custom price for a simulated Taiwan or US order, and record your reason.": "Gebruik de laatste slotkoers of een zelfgekozen prijs voor een gesimuleerde order in een Taiwanees of Amerikaans aandeel en noteer je reden."
 }

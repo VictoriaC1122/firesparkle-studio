@@ -38,7 +38,6 @@
   "Add an inflation assumption and compare nominal and real returns to see the difference in purchasing power.": "Bir enflasyon varsayımı ekleyin ve satın alma gücü farkını görmek için nominal ve reel getirileri karşılaştırın.",
   "Change the regular contribution or calculation period, calculate again, and compare with the previous result.": "Düzenli katkıyı veya hesaplama süresini değiştirin, yeniden hesaplayın ve önceki sonuçla karşılaştırın.",
   "Choose Taiwan or US paper trading, search Taiwan securities or select from the built-in US list, and check your virtual funds.": "Tayvan veya ABD sanal işlemlerini seçin; Tayvan menkul kıymetlerini arayın ya da yerleşik ABD listesinden seçim yapın ve sanal bakiyenizi kontrol edin.",
-  "Place a simulated Taiwan order at the displayed closing price or a custom price, or enter your own price for a US order, and note your reason.": "Tayvan için gösterilen kapanış fiyatından veya belirlediğiniz fiyattan sanal emir verin; ABD emri için kendi fiyatınızı girin ve gerekçenizi not edin.",
   "Review your holdings and transaction history after the simulation, and compare the outcome with the reason you recorded.": "Simülasyon sonrasında varlıklarınızı ve işlem geçmişinizi inceleyin; sonucu kaydettiğiniz gerekçeyle karşılaştırın.",
   "Choose a lesson from the blockchain basics path, read the concepts, and use the global search to look up unfamiliar terms.": "Blokzincir temelleri yolundan bir ders seçin, kavramları okuyun ve bilmediğiniz terimler için genel aramayı kullanın.",
   "Read the asset-security topics on wallets, private keys and seed phrases, and save material you want to revisit.": "Cüzdanlar, özel anahtarlar ve kurtarma ifadeleriyle ilgili varlık güvenliği konularını okuyun ve yeniden bakmak istediğiniz içerikleri kaydedin.",
@@ -48,5 +47,9 @@
   "Find an entry using date filters, search or the calendar, then open its details to add to or edit it.": "Tarih filtreleri, arama veya takvimle bir kayıt bulun; ekleme ya da düzenleme yapmak için ayrıntılarını açın.",
   "Import a PDF, image or document scan into your library.": "Kitaplığınıza bir PDF, görsel veya taranmış belge aktarın.",
   "Read the original alongside your notes and review the paper breakdown.": "Özgün metni notlarınızla birlikte okuyun ve makalenin bölümlere ayrılmış incelemesini gözden geçirin.",
-  "Organise keywords and citations, then export a backup.": "Anahtar sözcükleri ve kaynak bilgilerini düzenleyip bir yedeği dışa aktarın."
+  "Organise keywords and citations, then export a backup.": "Anahtar sözcükleri ve kaynak bilgilerini düzenleyip bir yedeği dışa aktarın.",
+  "Read an introductory lesson and check your understanding with a quiz.": "Bir giriş dersini okuyun ve bir testle ne kadar anladığınızı kontrol edin.",
+  "Browse and compare financial institutions by type, checking sources and data dates.": "Finans kuruluşlarını türlerine göre inceleyip karşılaştırın; kaynakları ve verilerin tarihlerini kontrol edin.",
+  "Explore finance roles and related qualifications to identify skills to learn.": "Öğrenmeniz gereken becerileri belirlemek için finans alanındaki görevleri ve ilgili yeterlilikleri keşfedin.",
+  "Use the latest closing price or a custom price for a simulated Taiwan or US order, and record your reason.": "Tayvan veya ABD hisseleri için son kapanış fiyatıyla ya da kendi belirlediğiniz fiyatla bir deneme emri verin ve gerekçenizi kaydedin."
 }

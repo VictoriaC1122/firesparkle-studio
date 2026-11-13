@@ -38,7 +38,6 @@
   "Add an inflation assumption and compare nominal and real returns to see the difference in purchasing power.": "Pridajte predpoklad inflácie a porovnajte nominálne a reálne výnosy, aby ste videli rozdiel v kúpnej sile.",
   "Change the regular contribution or calculation period, calculate again, and compare with the previous result.": "Zmeňte pravidelný vklad alebo obdobie výpočtu, prepočítajte a porovnajte s predchádzajúcim výsledkom.",
   "Choose Taiwan or US paper trading, search Taiwan securities or select from the built-in US list, and check your virtual funds.": "Vyberte simulované obchodovanie na Taiwane alebo v USA, vyhľadajte taiwanské cenné papiere alebo vyberte zo vstavaného amerického zoznamu a skontrolujte virtuálne prostriedky.",
-  "Place a simulated Taiwan order at the displayed closing price or a custom price, or enter your own price for a US order, and note your reason.": "Zadajte simulovaný taiwanský pokyn za zobrazenú záverečnú alebo vlastnú cenu, prípadne vlastnú cenu amerického pokynu, a poznačte si dôvod.",
   "Review your holdings and transaction history after the simulation, and compare the outcome with the reason you recorded.": "Po simulácii skontrolujte držané pozície a históriu transakcií a porovnajte výsledok so zaznamenaným dôvodom.",
   "Choose a lesson from the blockchain basics path, read the concepts, and use the global search to look up unfamiliar terms.": "Vyberte lekciu zo základov blockchainu, prečítajte si vysvetlenia a pomocou globálneho vyhľadávania nájdite neznáme pojmy.",
   "Read the asset-security topics on wallets, private keys and seed phrases, and save material you want to revisit.": "Prečítajte si témy zabezpečenia aktív o peňaženkách, súkromných kľúčoch a obnovovacích frázach a uložte si obsah, ku ktorému sa chcete vrátiť.",
@@ -48,5 +47,9 @@
   "Find an entry using date filters, search or the calendar, then open its details to add to or edit it.": "Nájdite záznam pomocou filtra dátumu, vyhľadávania alebo kalendára a potom otvorte podrobnosti na doplnenie či úpravu.",
   "Import a PDF, image or document scan into your library.": "Importujte PDF, obrázok alebo naskenovaný dokument do svojej knižnice.",
   "Read the original alongside your notes and review the paper breakdown.": "Čítajte pôvodný text vedľa svojich poznámok a prezrite si rozbor článku.",
-  "Organise keywords and citations, then export a backup.": "Usporiadajte kľúčové slová a citácie a potom exportujte zálohu."
+  "Organise keywords and citations, then export a backup.": "Usporiadajte kľúčové slová a citácie a potom exportujte zálohu.",
+  "Read an introductory lesson and check your understanding with a quiz.": "Prečítajte si úvodnú lekciu a overte svoje porozumenie pomocou kvízu.",
+  "Browse and compare financial institutions by type, checking sources and data dates.": "Prezerajte a porovnávajte finančné inštitúcie podľa typu a overujte zdroje aj dátumy údajov.",
+  "Explore finance roles and related qualifications to identify skills to learn.": "Preskúmajte finančné profesie a súvisiace kvalifikácie a zistite, ktoré zručnosti si osvojiť.",
+  "Use the latest closing price or a custom price for a simulated Taiwan or US order, and record your reason.": "Pri simulovanom pokyne na taiwanské alebo americké akcie použite poslednú záverečnú cenu alebo vlastnú cenu a zaznamenajte svoj dôvod."
 }

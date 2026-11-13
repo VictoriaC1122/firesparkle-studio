@@ -1,10 +1,10 @@
 {
-  "source": "App Store 官方說明、1.2 更新記錄與 4 張官方截圖（2026-10-23 查詢，data/apple-lookup-2026-10-23.json、public/assets/screenshots/coffee-chat/）",
+  "source": "App Store 台灣與美國官方說明及 1.2.2 更新記錄（2026-11-13 查詢，data/apple-lookup-2026-11-13-tw.json、data/apple-lookup-2026-11-13-us.json；trackId 6820863958）；既有操作細節另參照官方截圖 public/assets/screenshots/coffee-chat/。",
   "zh": {
     "intro": [
       "每次交流，都是新的可能。「Coffee Chat 筆記」是一款為求職與職場交流打造的私人手帳，從會前準備、對話紀錄到後續跟進，把散落的資訊整理成清楚、可搜尋的職涯脈絡。",
       "聯絡人頁整理對方的公司、職務、背景與互動紀錄，讓下一次見面更有準備；對話頁記錄 Coffee Chat 的提問、重點洞見與反思，之後可以編輯、搜尋與回顧；後續待辦與本機提醒接住每個下一步，並整理職涯機會。",
-      "不需要註冊 App 帳號，筆記儲存在裝置上，支援完整 JSON 備份與還原以及資料匯出，並可開啟 Face ID、Touch ID 或裝置密碼保護。介面支援繁體中文、英文、日文等 12 種語言，可跟隨系統或選擇淺色、深色外觀。"
+      "不需要註冊 App 帳號，筆記儲存在裝置上，支援完整 JSON 備份與還原以及資料匯出，並可開啟 Face ID、Touch ID 或裝置密碼保護。介面支援繁體中文、英文、日文等 20 種語言，可跟隨系統或選擇淺色、深色外觀。"
     ],
     "features": [
       [
@@ -28,8 +28,8 @@
         "會前簡報、每月人脈目標、名片掃描與通訊錄匯入、「該聯絡誰了」清單、16 套交流模板、72 則常用語與 160 題提問題庫、PDF 報告、機會看板、人脈關係圖等。"
       ],
       [
-        "12 種語言與外觀",
-        "繁體中文、簡體中文、英文、日文、西班牙文、法文、韓文、德文、巴西葡萄牙文、印尼文、印地文與阿拉伯文；淺色、深色或跟隨系統。"
+        "20 種語言與外觀",
+        "繁體中文、簡體中文、英文、日文、韓文、西班牙文、法文、德文、巴西葡萄牙文、俄文、阿拉伯文、印地文、印尼文、越南文、土耳其文、孟加拉文、烏爾都文、坦米爾文、泰盧固文與馬拉地文；淺色、深色或跟隨系統。"
       ]
     ],
     "stepDetails": [
@@ -70,7 +70,7 @@
     "intro": [
       "Every conversation opens a new possibility. Coffee Chat Note is a private notebook for job hunting and professional networking. From preparation before a meeting, through the conversation itself, to the follow-up afterwards, it gathers scattered information into a clear, searchable career thread.",
       "Contact pages hold a person's company, role, background and your history together, so the next meeting starts better prepared. Conversation pages record each coffee chat's questions, key insights and reflections, ready to edit, search and revisit. Follow-up tasks with local reminders catch every next step, and opportunities are kept in order.",
-      "No app account is needed. Notes live on the device, with full JSON backup and restore plus data export, and you can protect access with Face ID, Touch ID or the device passcode. The interface comes in 12 languages, including Traditional Chinese, English and Japanese, and follows the system or your choice of light or dark appearance."
+      "No app account is needed. Notes live on the device, with full JSON backup and restore plus data export, and you can protect access with Face ID, Touch ID or the device passcode. The interface comes in 20 languages, including Traditional Chinese, English and Japanese, and follows the system or your choice of light or dark appearance."
     ],
     "features": [
       [
@@ -94,8 +94,8 @@
         "Pre-meeting briefs, monthly networking goals, business-card scanning and contact import, a \"who to contact next\" list, 16 conversation templates, 72 phrases and 160 question prompts, PDF reports, an opportunity board, a relationship map and more."
       ],
       [
-        "Twelve languages and appearance",
-        "Traditional Chinese, Simplified Chinese, English, Japanese, Spanish, French, Korean, German, Brazilian Portuguese, Indonesian, Hindi and Arabic; light, dark or system."
+        "Twenty languages and appearance",
+        "Traditional Chinese, Simplified Chinese, English, Japanese, Korean, Spanish, French, German, Brazilian Portuguese, Russian, Arabic, Hindi, Indonesian, Vietnamese, Turkish, Bengali, Urdu, Tamil, Telugu and Marathi; light, dark or system appearance."
       ]
     ],
     "stepDetails": [

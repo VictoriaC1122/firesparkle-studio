@@ -1,0 +1,99 @@
+{
+  "retrievedOn": "2026-11-13",
+  "appId": "6830943408",
+  "appName": "FinAtlas 金融產業與職涯",
+  "appStoreSources": [
+    {
+      "url": "https://apps.apple.com/tw/app/id6830943408",
+      "file": "6830943408-app-store-tw.html",
+      "sha256": "e6f54b93fe20891a099915a11c10aaeee95f2554ec41d7a45f237b1286ac37cd",
+      "developerLinks": [
+        {
+          "label": "網站",
+          "url": "https://firesparkle.com/"
+        },
+        {
+          "label": "支援",
+          "url": "https://firesparkle.com/support/"
+        }
+      ],
+      "privacyLinks": [
+        {
+          "label": "開發者的隱私權政策",
+          "url": "https://firesparkle.com/app/finatlas/privacy/"
+        }
+      ],
+      "developerLinkJSONPath": "data[0].data.shelfMapping.description.items[0].developerLinks",
+      "privacyLinkJSONPath": "data[0].data.shelfMapping.privacyHeader.items[0].bodyText.linkedSubstrings"
+    },
+    {
+      "url": "https://apps.apple.com/us/app/id6830943408",
+      "file": "6830943408-app-store-us.html",
+      "sha256": "9808109ae05c8ce2a55a767aace3899baa01d7e6880a3c669242ec4853030ec1",
+      "developerLinks": [
+        {
+          "label": "Website",
+          "url": "https://firesparkle.com/"
+        },
+        {
+          "label": "Support",
+          "url": "https://firesparkle.com/support/"
+        }
+      ],
+      "privacyLinks": [
+        {
+          "label": "developer’s privacy policy",
+          "url": "https://firesparkle.com/app/finatlas/privacy/"
+        }
+      ],
+      "developerLinkJSONPath": "data[0].data.shelfMapping.description.items[0].developerLinks",
+      "privacyLinkJSONPath": "data[0].data.shelfMapping.privacyHeader.items[0].bodyText.linkedSubstrings"
+    }
+  ],
+  "policyDocument": {
+    "url": "https://firesparkle.com/app/finatlas/privacy/",
+    "file": "6830943408-policy.html",
+    "sha256": "9dd81af78f9d690b85d0e9bd493bd92ec9f8f71652476cd53439d6c9ce1e0cde",
+    "selector": "#finatlas-zh",
+    "englishSelector": "#finatlas-en",
+    "headings": [
+      "FinAtlas 隱私政策",
+      "學習資料與偏好",
+      "購買與訂閱",
+      "裝置備份",
+      "支援信件",
+      "外部網站",
+      "保留與刪除",
+      "資料分享與政策更新",
+      "聯絡方式"
+    ],
+    "englishHeadings": [
+      "FinAtlas Privacy Policy",
+      "Learning records and preferences",
+      "Purchases and subscriptions",
+      "Device backups",
+      "Support email",
+      "External websites",
+      "Retention and deletion",
+      "Sharing and changes",
+      "Contact"
+    ],
+    "policyUpdatedText": "文件版本：2026-11-05",
+    "contactEmails": [
+      "firesparkle.studio@gmail.com"
+    ]
+  },
+  "authoritativeLocalSource": {
+    "file": "data/finatlas-privacy.json",
+    "sha256": "76406e49f9873dbc2ca62b55a5bc0c448ec5fd7ba7064afc549a52f30b70203b",
+    "liveArticlesMatchExactly": true
+  },
+  "policyTextFile": "6830943408-policy-body.txt",
+  "englishPolicyTextFile": "6830943408-policy-body-en.txt",
+  "supportDocument": {
+    "url": "https://firesparkle.com/support/",
+    "file": "6830943408-support.html",
+    "sha256": "77f2ca9b78140ab634b9fd28faa3c21f66e186d240deb56b0668c2c860775472"
+  },
+  "policyTextExtraction": "Extracted existing Traditional Chinese and English text from articles #finatlas-zh and #finatlas-en. HTML entities decoded and layout whitespace normalized; original policy wording and contact information retained. Both live article HTML bodies exactly match the authoritative data/finatlas-privacy.json used by the existing bilingual legal renderer."
+}

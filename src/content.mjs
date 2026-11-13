@@ -30,7 +30,7 @@ export const order = [
   'compound-calculator', 'easy-draw', 'larry-cocktail', 'crypto-dictionary', 'vitamins',
   'stock-simulator', 'pr-diary', 'time-manager', 'dream-journal', 'design-it',
   'coffee-chat', 'perfect-pig', 'milebutler', 'future-major-guide', 'semiconductors-illustrated',
-  'paper-reading-desk',
+  'paper-reading-desk', 'finatlas',
 ];
 
 export const categoryEn = {
@@ -46,6 +46,12 @@ export const genreEn = {
 // 每款 App：分類、中文簡稱、英文名稱與中英文簡介
 // accent：作品主色〔淺色模式, 深色模式〕，取自各 App 的 AccentColor 或主題色；只用於作品頁、隱私頁與支援頁的細線和小標記，全站仍以古金色為主
 export const apps = {
+  finatlas: {
+    accent: ['#9a7d49', '#d6bd81'],
+    category: '學習與規劃', short: 'FinAtlas 金融產業與職涯', en: 'FinAtlas: Finance & Careers',
+    shortDescription: '學習金融產業與職涯，查詢金融機構、閱讀課程與測驗，整理筆記及學習進度。',
+    enDesc: 'Explore the financial industry and careers with institution references, lessons and quizzes. Keep notes and track your learning progress.',
+  },
   'paper-reading-desk': {
     accent: ['#8f6736', '#d7b582'],
     category: '學習與規劃', short: '研究生讀 Paper 神器', en: 'Paper Reading Desk',
@@ -91,8 +97,8 @@ export const apps = {
   'perfect-pig': {
     accent: ['#d4566c', '#f59aaa'],
     category: '遊戲', short: '完美養豬', en: 'Perfect Pig',
-    shortDescription: '以七天為一代的小豬養成遊戲。透過餵食、散步與聊天培養個性，收集卡牌和故事結局。',
-    enDesc: 'Raise a piglet over seven days. Feed it, take it for walks and chat to shape its personality and collect cards and story endings.',
+    shortDescription: '透過日常照顧培養小豬，七天後自行選擇結算故事或繼續陪伴，收集卡牌與結局。',
+    enDesc: 'Raise a piglet through daily care, then choose whether to finish its story or keep it company after seven days. Collect cards and endings.',
   },
   'time-manager': {
     accent: ['#1a78d6', '#7db4f0'],
@@ -121,8 +127,8 @@ export const apps = {
   'stock-simulator': {
     accent: ['#245f9e', '#70b5e2'],
     category: '學習與規劃', short: '股神養成', en: 'Stock Master: TW & US Paper Trading',
-    shortDescription: '用虛擬資金練習台股盤後交易與美股自訂價格下單，記錄交易理由並查看持倉。',
-    enDesc: 'Practise Taiwan after-hours trades and US orders at custom prices with virtual funds. Record your reasons and review your holdings.',
+    shortDescription: '以虛擬資金練習台股與美股交易，依收盤價或自訂價格下單，記錄理由並查看持倉。',
+    enDesc: 'Practise Taiwan and US stock trading with virtual funds, using closing or custom prices. Record your reasons and review your holdings.',
   },
   'crypto-dictionary': {
     accent: ['#3d6bd1', '#93b2f2'],

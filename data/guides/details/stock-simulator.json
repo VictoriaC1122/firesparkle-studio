@@ -1,5 +1,5 @@
 {
-  "source": "App Store 官方說明、2.6.0 更新記錄與 4 張官方截圖（2026-10-23 查詢，data/apple-lookup-2026-10-23.json、public/assets/screenshots/stock-simulator/）",
+  "source": "App Store 台灣與美國官方說明及 2.7.1 更新記錄（2026-11-13 查詢，data/apple-lookup-2026-11-13-tw.json、data/apple-lookup-2026-11-13-us.json；trackId 6815299678）；既有操作細節另參照官方截圖 public/assets/screenshots/stock-simulator/。",
   "zh": {
     "intro": [
       "「股神養成」是給股市新手的模擬交易工作台。用虛擬資金練習下單、寫下每一筆的理由，再回頭檢視持倉與交易結果；基本的股票模擬與教學完全免費，不需要註冊或登入。",
@@ -21,7 +21,7 @@
       ],
       [
         "Pro 期貨與選擇權",
-        "台灣與海外期貨、臺指選擇權與美股選擇權，自訂到期日、履約價、保證金與費用，按「前進一天」練習到期情境。"
+        "台灣與海外期貨、臺指選擇權與美股選擇權，自訂到期日、履約價、保證金與費用；台灣部位可選期交所月份／週別合約追蹤盤後最後成交參考價，海外參考價仍手動輸入。"
       ],
       [
         "教學與查詢",
@@ -34,8 +34,8 @@
     ],
     "stepDetails": [
       "第一次使用可以跟著「新手快速開始」的三個步驟，了解資金、價格與下單。台股與美股是各自獨立的練習帳戶，預設資金分別是 NT$1,000,000 與 US$100,000；台股可以搜尋股票與 ETF 加入自選，美股則從內建清單選擇標的。",
-      "按「選擇股票下單」：台股可依顯示的收盤價或自訂價格成交，也可以建立指定價模擬委託；美股可用最新收盤價或自訂價格下單。送出前在筆記寫下這筆交易的理由，這是之後回顧最有價值的資料。",
-      "到「我的持倉」查看持倉成本、估值、可用資金與已實現、未實現損益，再對照交易紀錄與當時寫下的理由。週一到週五 18:00 的回顧提醒，可以當作固定檢視的時間；想從頭練習時，可以重設模擬帳戶。"
+      "在行情、自選或個股頁查看成交價、漲跌與幅度，再從個股頁底部的「買進／賣出」進入下單。台股可依顯示的收盤價或自訂價格成交，也可以建立指定價模擬委託；美股可用最新收盤價或自訂價格下單。送出前查看底部的預估金額與可買張數，並寫下交易理由，方便日後回顧。",
+      "到「我的持倉」查看持倉成本、估值、可用資金與已實現、未實現損益，再對照交易紀錄與當時寫下的理由。可選擇開啟裝置當地時間週一到週五 18:00 的回顧提醒，包含休市日；這不是價格或成交通知。想從頭練習時，可以重設模擬帳戶。"
     ],
     "more": [
       [
@@ -48,7 +48,7 @@
       ],
       [
         "Pro 衍生品工作台",
-        "開立期貨或選擇權的多空部位，支援加倉、部分與全部平倉；自訂情境日期後按「前進一天」練習到期，兩個衍生品帳戶共用時間。"
+        "開立期貨或選擇權的多空部位，支援加倉、部分與全部平倉。兩個衍生品帳戶共用情境時間；推進日期不會載入歷史行情或自動改價，到期仍需手動平倉。台灣合約追蹤只更新參考價，不改成交價；自訂時間會暫停追蹤，手動改價、加倉或部分平倉後回到手動。"
       ],
       [
         "教學區",
@@ -57,6 +57,10 @@
       [
         "匯出與設定",
         "衍生品紀錄可以匯出；背景更新與語言可在設定調整，回顧提醒也能隨時關閉。"
+      ],
+      [
+        "Pro 權益與既有紀錄",
+        "有效訂閱用於開立新的衍生品部位；權益失效後，既有紀錄仍可查看、更新參考價、平倉與匯出。基本股票模擬與教學維持免費。"
       ]
     ],
     "tips": [
@@ -68,7 +72,7 @@
   },
   "en": {
     "intro": [
-      "Stock Master is a paper-trading workbench for people new to the stock market. Practise placing orders with virtual funds, write down the reason behind each trade, then go back and review your holdings and results. Basic stock simulation and the tutorials are free, with no registration or sign-in.",
+      "Stock Mastery is a paper-trading workbench for people new to the stock market. Practise placing orders with virtual funds, write down the reason behind each trade, then go back and review your holdings and results. Basic stock simulation and the tutorials are free, with no registration or sign-in.",
       "The Taiwan side uses open after-hours data from the Taiwan Stock Exchange and the TPEx: market overview, advances and declines, turnover rankings, valuation data and ex-dividend schedules. Search stocks and ETFs to build a watchlist, then fill orders at the closing price or a custom price, or create a limit-price simulated order. For US stocks, closing prices for every US stock and ETF update automatically after each trading day, and you practise buying and selling with virtual US dollars. The NT dollar and US dollar accounts are kept separate.",
       "An optional Pro subscription adds futures and options: TAIEX, mini and micro TAIEX, electronics and finance futures; micro S&P 500, Nasdaq-100, gold and WTI crude oil futures; TAIEX options and standard US stock options, with a scenario date you can advance to practise expiry. Every quote carries its data date and is never live. The app is not a broker and offers no real orders, investment advice or guaranteed returns."
     ],
@@ -87,7 +91,7 @@
       ],
       [
         "Pro futures and options",
-        "Taiwan and overseas futures, TAIEX options and US stock options, with custom expiry, strike, margin and fees and an \"advance one day\" control for expiry practice."
+        "Taiwan and overseas futures, TAIEX options and US stock options, with custom expiry, strike, margin and fees. Taiwan positions can track a selected TAIFEX monthly/weekly contract's regular-session last traded reference price; overseas reference prices remain manual."
       ],
       [
         "Tutorials and reference",
@@ -100,8 +104,8 @@
     ],
     "stepDetails": [
       "On first use, the three-step quick start explains virtual funds, prices and placing orders. Taiwan and US trading are separate practice accounts with NT$1,000,000 and US$100,000 to start; search Taiwan stocks and ETFs to add to your watchlist, and pick US symbols from the built-in list.",
-      "Tap to choose a stock and place an order. Taiwan orders can fill at the displayed close or a custom price, or sit as a limit-price simulated order; US orders use the latest close or a custom price. Before submitting, write the reason for the trade in the note — it is the most valuable thing to look back on.",
-      "Open your holdings to see cost, valuation, available funds and realised and unrealised profit or loss, then compare the transaction history with the reasons you wrote down. The weekday 18:00 review reminder makes a good fixed time for this, and you can reset the practice account whenever you want to start over."
+      "Review the last price, change and percentage change in Quotes, Watchlist or a stock page, then use the Buy or Sell control pinned at the bottom of the stock page. Taiwan orders can fill at the displayed close or a custom price, or sit as a limit-price simulated order; US orders use the latest close or a custom price. Before submitting, check the estimate and how many lots you can buy, and write the reason for the trade so you can review it later.",
+      "Open your holdings to see cost, valuation, available funds and realised and unrealised profit or loss, then compare the transaction history with the reasons you wrote down. An optional review reminder runs Monday to Friday at 18:00 device-local time, including market holidays; it is not a price or fill alert. Reset the practice account whenever you want to start over."
     ],
     "more": [
       [
@@ -114,7 +118,7 @@
       ],
       [
         "Pro derivatives workbench",
-        "Open long or short futures and options positions, add to them and close partially or fully; set a scenario date and advance one day at a time to practise expiry, with both derivatives accounts sharing the same clock."
+        "Open long or short futures and options positions, add to them and close partially or fully. Both derivatives accounts share the scenario clock; advancing it does not load historical quotes or change prices automatically, and expired positions still close manually. Taiwan contract tracking updates reference prices, not fills; custom time pauses tracking, and manual marks, additions or partial closes return the position to manual mode."
       ],
       [
         "Learning area",
@@ -123,6 +127,10 @@
       [
         "Export and settings",
         "Derivatives records can be exported; background updates and language are set in Settings, and the review reminder can be turned off at any time."
+      ],
+      [
+        "Pro access and existing records",
+        "A valid subscription is required to open new derivatives positions. After access ends, existing records, reference-price updates, closing and export remain available; basic stock simulation and guides stay free."
       ]
     ],
     "tips": [

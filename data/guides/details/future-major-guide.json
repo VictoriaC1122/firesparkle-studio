@@ -1,10 +1,10 @@
 {
-  "source": "App Store 台灣與美國官方說明，版本 1.1.0（2026-10-25 查詢：https://apps.apple.com/tw/app/id6824004640、https://apps.apple.com/us/app/id6824004640）；操作配圖沿用既有官方截圖。",
+  "source": "App Store 台灣與美國官方說明及 1.1.1 更新記錄（2026-11-13 查詢，data/apple-lookup-2026-11-13-tw.json、data/apple-lookup-2026-11-13-us.json；trackId 6824004640）；既有操作細節另參照官方截圖 public/assets/screenshots/future-major-guide/。",
   "zh": {
     "intro": [
-      "選大學、選科系，不用一次想清楚。「我決定自己的未來」陪台灣與美國的高中生、大學生和家長一起探索院校與學習方向：先看懂自己，再把選項整理成可以比較、可以準備的下一步。轉系、轉學與 gap year 的你也適用。",
+      "選大學、選科系，不用一次想清楚。「我決定自己的未來」讓你從高中生、大學生、預備研究生以上或家長四種身份開始，取得對應的導覽與首頁；之後也能更改身份，保留收藏與筆記。從探索台灣校系到準備美國大學部與碩博士申請，把選項整理成可以比較、可以準備的下一步。",
       "台灣選系收錄 158 所現行院校、1,346 個科系／學程、2,747 筆實際校系，以及 1,338 筆逐校系學習地圖：年級必修、選修方向、特色課程與職涯，並附 115／116 學年度招生參考，逐筆標示年度與來源。10 題興趣測驗以本機規則式推薦，清楚說明為什麼推薦；可收藏校系、寫決策筆記，最多 4 筆並排比較。",
-      "所有美國資料與工具均需有效 Pro 權益。美國大學部分涵蓋 4,031 所 IPEDS 官方名錄院校，可依州別、公私立與學制篩選，附歷史學科學位紀錄、CIP 領域定義與職涯對照。介面提供 20 種語言，不需註冊、不使用追蹤 SDK，測驗、收藏、筆記與申請清單只存在你的裝置。App 不代表任何學校或招生單位，也不保證錄取；正式申請請以校方最新公告為準。"
+      "所有美國資料與工具均需有效 Pro 權益。美國大學部分涵蓋 4,031 所 IPEDS 官方名錄院校，可依州別、公私立與學制篩選，附歷史學科學位紀錄、CIP 領域定義與職涯對照。介面提供 25 種語言，指南主要為繁體中文與英文，不需註冊、不使用追蹤 SDK，測驗、收藏、筆記與申請清單只存在你的裝置。App 不代表任何學校或招生單位，也不保證錄取；正式申請請以校方最新公告為準。"
     ],
     "features": [
       [
@@ -30,10 +30,14 @@
       [
         "美國入學 Pro（選用）",
         "包含所有美國資料與工具：學校名錄、學科、課程、歷史統計、招生、考試指南與費用資料，以及大學部和碩博士準備指引；月繳與年繳權益相同。"
+      ],
+      [
+        "研究所準備路線",
+        "台灣研究所甄試、考試、博士與在職準備路線免費提供；Pro 加入美國碩士與 PhD 的分開準備路線，以及 2,081 所具有校級研究所教育標示的院校。"
       ]
     ],
     "stepDetails": [
-      "首頁的快速入口有找大學、看科系、看錄取參考與取得推薦。在科系列表可依工程、商管、醫藥衛生、文史哲等分類瀏覽或搜尋，打開校系查看學習地圖：各年級必修、選修方向、特色課程與職涯；每筆資料都標示年度與來源。",
+      "首次開啟先選擇目前身份，首頁會提供對應導覽；之後更改身份仍會保留收藏與筆記。在台灣科系列表依工程、商管、醫藥衛生、文史哲等分類瀏覽或搜尋，打開校系查看學習地圖：各年級必修、選修方向、特色課程與職涯；每筆資料都標示年度與來源。",
       "做 10 題興趣測驗，從學習、思考與互動方式整理你目前的偏好線索；作答會自動保存在這台裝置，可以稍後接著做。推薦由裝置內的規則產生並說明理由，順著推薦點進相關科系，看看課程是否符合想像。",
       "把想比較的學校與科系加入收藏，最多 4 筆並排比較，再用決策筆記記下差異、疑問與想請教老師或學長姊的問題。訂閱美國入學 Pro 時，申請清單與截止日倒數也會出現在收藏頁。"
     ],
@@ -44,7 +48,7 @@
       ],
       [
         "美國入學 Pro",
-        "查看 2026–27 Common App 新生要求，用「我的申請清單」依新生／轉學與國際申請者身分自動整理每校要準備的文件、期限、財力與 I-20 步驟。"
+        "查看 941 校的 2026–27 Common App 新生要求與已收錄申請資料，依新生／轉學與國際身份整理申請清單；學校名錄與歷史資料不代表當期招生或完整逐學程要求。"
       ],
       [
         "期限提醒（Pro）",
@@ -52,11 +56,15 @@
       ],
       [
         "費用比較（Pro）",
-        "同一學年、同一居住情境比較最多 4 校的學費與生活費，缺值不會被當成 0。"
+        "同一學年、同一居住情境比較最多 4 校的歷史大學部學費與生活費，缺值不會被當成 0，也不套用為研究所費用。"
       ],
       [
         "考試與申請指南（Pro）",
-        "依 SAT／ACT 政策找學校，並閱讀 SAT、ACT、英檢、AP／IB、EA／ED 與轉學指南。"
+        "大學部 SAT／ACT 與研究所 GRE／GMAT 分開呈現，另有共用英語檢定說明；GMAT 對應商管研究所。是否必考、替代考試與豁免規則，請依目標學程確認。"
+      ],
+      [
+        "美國碩博士（Pro）",
+        "依碩士或 PhD 路線整理研究方向、成績單、SOP／CV、推薦函、時間規劃與經費，並保存本機準備清單。院校的研究所教育標示不代表同時提供碩士、博士或當期招生。"
       ]
     ],
     "tips": [
@@ -68,9 +76,9 @@
   },
   "en": {
     "intro": [
-      "Choosing a university and a major does not have to be settled all at once. Future Major Guide walks high-school and university students and their parents in Taiwan and the United States through institutions and fields of study: understand yourself first, then turn the options into next steps you can compare and prepare for. It works just as well if you are changing majors, transferring or taking a gap year.",
+      "Choosing a university and a major does not have to be settled all at once. Future Major Guide starts with four roles: high-school student, university student, prospective graduate student or parent, each with its own navigation and home screen. Change roles later while keeping saved items and notes. From exploring Taiwan programmes to preparing US undergraduate and graduate applications, turn the options into next steps you can compare and prepare for.",
       "The Taiwan section covers 158 current institutions, 1,346 departments and programmes and 2,747 actual admissions entries, with 1,338 programme-level study maps — required courses by year, elective directions, signature courses and careers — plus admissions references for the 115 and 116 academic years, each marked with its year and source. A ten-question interest quiz uses on-device rules to recommend programmes and explains why; save programmes, write decision notes and compare up to four side by side.",
-      "All US data and tools require valid Pro access. The US section lists 4,031 institutions from the official IPEDS directory, filterable by state, public or private status and programme level, with historical degree records, CIP field definitions and career mappings. The interface comes in 20 languages, there is no registration or tracking SDK, and quizzes, saved items, notes and application lists stay on your device. The app represents no school or admissions body and guarantees no admission; for a formal application, follow each school's latest announcements."
+      "All US data and tools require valid Pro access. The US section lists 4,031 institutions from the official IPEDS directory, filterable by state, public or private status and programme level, with historical degree records, CIP field definitions and career mappings. The interface comes in 25 languages, with guides mainly in Traditional Chinese and English; there is no registration or tracking SDK, and quizzes, saved items, notes and application lists stay on your device. The app represents no school or admissions body and guarantees no admission; for a formal application, follow each school's latest announcements."
     ],
     "features": [
       [
@@ -96,10 +104,14 @@
       [
         "US Admissions Pro (optional)",
         "Includes all US data and tools: school directories, fields, courses, historical statistics, admissions, test guides and costs, plus undergraduate and graduate preparation. Monthly and annual plans provide the same access."
+      ],
+      [
+        "Graduate preparation",
+        "Taiwan graduate admission, exam, doctoral and in-service preparation routes are free. Pro adds separate US master's and PhD preparation routes and 2,081 institutions identified as offering graduate education at the institution level."
       ]
     ],
     "stepDetails": [
-      "The home screen's shortcuts lead to universities, majors, admission references and recommendations. In the list of majors, browse by category — engineering, business, medicine and health, humanities and more — or search, then open a programme to read its study map: required courses by year, elective directions, signature courses and careers. Every entry shows its year and source.",
+      "Choose your current role on first launch to get the matching navigation; changing roles later keeps your saved items and notes. In Taiwan's list of majors, browse by category — engineering, business, medicine and health, humanities and more — or search, then open a programme to read its study map: required courses by year, elective directions, signature courses and careers. Every entry shows its year and source.",
       "Take the ten-question interest quiz, which looks at how you learn, think and work with others to sketch your current preferences; answers save on this device so you can finish later. Recommendations come from on-device rules and explain their reasons — follow them into the related majors to see whether the courses match what you imagined.",
       "Save the schools and programmes you want to weigh up, compare up to four side by side, and use decision notes to record differences, doubts and questions for teachers or current students. With US Admissions Pro, your application list and deadline countdowns appear on the saved page too."
     ],
@@ -110,7 +122,7 @@
       ],
       [
         "US Admissions Pro",
-        "Browse 2026–27 Common App first-year requirements and let My Application List organise each school's documents, deadlines, financial evidence and I-20 steps by first-year, transfer or international status."
+        "Review recorded application information and 2026–27 Common App first-year requirements for 941 schools, and organise checklists by first-year, transfer and international status. Directory entries and historical data do not establish current admissions or complete programme-level requirements."
       ],
       [
         "Deadline reminders (Pro)",
@@ -118,11 +130,15 @@
       ],
       [
         "Cost comparison (Pro)",
-        "Compare tuition and living costs for up to four schools in the same academic year and residency scenario, with missing values never treated as zero."
+        "Compare historical undergraduate tuition and living costs for up to four schools in the same academic year and residency scenario; missing values are never treated as zero, and undergraduate costs are not applied to graduate study."
       ],
       [
         "Test and application guides (Pro)",
-        "Find schools by SAT or ACT policy and read guides on the SAT, ACT, English proficiency tests, AP and IB, EA and ED, and transfers."
+        "Undergraduate SAT/ACT guidance is separate from graduate GRE/GMAT guidance, with shared English-proficiency information; GMAT relates to business graduate programmes. Check required tests, alternatives and waivers with the target programme."
+      ],
+      [
+        "US graduate study (Pro)",
+        "Follow separate master's and PhD routes for research interests, transcripts, SOP/CV, recommendations, timing and funding, with preparation checklists saved locally. An institution's graduate-education designation does not mean it offers both degrees or is currently admitting students."
       ]
     ],
     "tips": [

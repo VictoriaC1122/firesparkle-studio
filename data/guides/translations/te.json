@@ -38,7 +38,6 @@
   "Add an inflation assumption and compare nominal and real returns to see the difference in purchasing power.": "ద్రవ్యోల్బణ అంచనాను జోడించి, కొనుగోలు శక్తిలో తేడాను చూడటానికి నామమాత్రపు, వాస్తవ రాబడులను పోల్చండి.",
   "Change the regular contribution or calculation period, calculate again, and compare with the previous result.": "క్రమం తప్పకుండా జమ చేసే మొత్తాన్ని లేదా లెక్కింపు కాలాన్ని మార్చి, మళ్లీ లెక్కించి, మునుపటి ఫలితంతో పోల్చండి.",
   "Choose Taiwan or US paper trading, search Taiwan securities or select from the built-in US list, and check your virtual funds.": "తైవాన్ లేదా అమెరికా అనుకరణ ట్రేడింగ్‌ను ఎంచుకుని, తైవాన్ సెక్యూరిటీలను వెతకండి లేదా అంతర్నిర్మిత అమెరికా జాబితా నుంచి ఎంచుకుని, వర్చువల్ నిధులను తనిఖీ చేయండి.",
-  "Place a simulated Taiwan order at the displayed closing price or a custom price, or enter your own price for a US order, and note your reason.": "చూపిన ముగింపు ధర లేదా మీ సొంత ధరతో తైవాన్ అనుకరణ ఆర్డర్ పెట్టండి లేదా అమెరికా ఆర్డర్‌కు మీ ధరను నమోదు చేసి, కారణాన్ని రాయండి.",
   "Review your holdings and transaction history after the simulation, and compare the outcome with the reason you recorded.": "అనుకరణ తరువాత మీ హోల్డింగ్‌లు, లావాదేవీల చరిత్రను చూసి, ఫలితాన్ని మీరు నమోదు చేసిన కారణంతో పోల్చండి.",
   "Choose a lesson from the blockchain basics path, read the concepts, and use the global search to look up unfamiliar terms.": "బ్లాక్‌చెయిన్ ప్రాథమికాల మార్గం నుంచి ఒక పాఠాన్ని ఎంచుకుని, భావనలను చదివి, తెలియని పదాలను సాధారణ శోధనతో వెతకండి.",
   "Read the asset-security topics on wallets, private keys and seed phrases, and save material you want to revisit.": "వాలెట్లు, ప్రైవేట్ కీలు, రికవరీ పదబంధాలపై ఆస్తి భద్రత అంశాలను చదివి, మళ్లీ చూడాలనుకునే విషయాలను సేవ్ చేయండి.",
@@ -48,5 +47,9 @@
   "Find an entry using date filters, search or the calendar, then open its details to add to or edit it.": "తేదీ ఫిల్టర్లు, శోధన లేదా క్యాలెండర్‌తో నమోదును కనుగొని, దానికి వివరాలు జోడించేందుకు లేదా దాన్ని సవరించేందుకు వివరాలను తెరవండి.",
   "Import a PDF, image or document scan into your library.": "PDF, చిత్రం లేదా స్కాన్ చేసిన పత్రాన్ని మీ గ్రంథాలయంలోకి దిగుమతి చేసుకోండి.",
   "Read the original alongside your notes and review the paper breakdown.": "మీ గమనికలతో పాటు మూల పాఠ్యాన్ని చదవండి, పరిశోధన పత్రం విశ్లేషణను పరిశీలించండి.",
-  "Organise keywords and citations, then export a backup.": "కీలక పదాలు, గ్రంథసూచనలను క్రమబద్ధీకరించి, ఆపై బ్యాకప్‌ను ఎగుమతి చేయండి."
+  "Organise keywords and citations, then export a backup.": "కీలక పదాలు, గ్రంథసూచనలను క్రమబద్ధీకరించి, ఆపై బ్యాకప్‌ను ఎగుమతి చేయండి.",
+  "Read an introductory lesson and check your understanding with a quiz.": "పరిచయ పాఠాన్ని చదివి, ప్రశ్నావళితో మీ అవగాహనను పరీక్షించుకోండి.",
+  "Browse and compare financial institutions by type, checking sources and data dates.": "ఆర్థిక సంస్థలను రకం ఆధారంగా వెతికి పోల్చండి; సమాచార మూలాలను, డేటా తేదీలను తనిఖీ చేయండి.",
+  "Explore finance roles and related qualifications to identify skills to learn.": "ఆర్థిక రంగంలోని ఉద్యోగాలను, సంబంధిత అర్హతలను తెలుసుకుని, నేర్చుకోవాల్సిన నైపుణ్యాలను గుర్తించండి.",
+  "Use the latest closing price or a custom price for a simulated Taiwan or US order, and record your reason.": "తైవాన్ లేదా అమెరికా స్టాక్‌కు అనుకరణ ఆర్డర్ ఇవ్వడానికి తాజా ముగింపు ధరను లేదా మీరు నిర్ణయించిన ధరను ఉపయోగించి, మీ కారణాన్ని నమోదు చేయండి."
 }

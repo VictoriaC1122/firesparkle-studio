@@ -1,0 +1,65 @@
+{
+  "source": "App Store 台灣與美國官方說明，版本 1.0，及 4 張官方 iPhone 截圖（2026-11-13 查詢：data/apple-lookup-2026-11-13-tw.json、data/apple-lookup-2026-11-13-us.json、public/assets/screenshots/finatlas/；https://apps.apple.com/tw/app/id6830943408、https://apps.apple.com/us/app/id6830943408）",
+  "zh": {
+    "intro": [
+      "FinAtlas 是金融產業與職涯學習指南，把入門課程、台灣金融機構名錄、職務與證照資訊整理在一起。從閱讀一堂課開始，透過測驗檢視理解，再保存自己的筆記、收藏與學習進度。",
+      "機構名錄可依類型查詢與比較，並提供官方來源及資料日期；職涯資訊則說明工作內容、所需技能與相關證照，幫助你整理想了解的方向。基礎課程、名錄與職涯資料可免費使用。",
+      "不需建立帳號，學習資料保存在裝置上，沒有廣告或第三方分析追蹤。FinAtlas Pro 另提供以虛構案例練習的企業授信模擬；其他工作模擬器與進階課程目前尚未提供。"
+    ],
+    "features": [
+      ["金融課程與測驗", "閱讀繁體中文或英文入門課程，透過測驗檢視理解，保存筆記、收藏與學習進度。"],
+      ["台灣金融機構名錄", "依機構類型查詢與比較，查看官方來源及資料日期；未確認欄位會標示狀態。"],
+      ["職涯與證照探索", "了解金融職務的工作內容、所需技能與相關證照，整理下一步的學習方向。"],
+      ["Pro 企業授信模擬", "以虛構案例調整貸款條件、營收衰退與擔保品，查看財務比率、提交決策並閱讀解析。裝置保留最近 30 次結果，有效訂閱期間可重新檢視。"],
+      ["語言選擇", "介面可選繁中、簡中、英文、德文、泰文、日文、韓文、西班牙文、法文與葡萄牙文。完整課程提供繁中與英文，其他語言的部分介面尚未翻譯，會以英文顯示。"],
+      ["本機學習紀錄", "無須註冊，筆記、收藏與學習進度留在裝置上；開啟外部來源、購買與回復購買需要網路。"]
+    ],
+    "stepDetails": [
+      "選擇一堂入門課程，以繁體中文或英文閱讀內容，再透過測驗檢視自己對概念的理解。將想保留的重點寫進筆記或加入收藏，學習進度會保存在裝置上。",
+      "在台灣金融機構名錄依類型查詢，查看感興趣的機構並進行比較。閱讀每筆資料的來源、日期與欄位狀態；名錄是資料快照，需要確認目前資訊時再開啟官方來源。",
+      "閱讀金融職務的工作內容與所需技能，再查看相關證照資訊，整理需要進一步學習的方向。職涯探索不代表錄取機會或資格認定，實際考試與資格要求應以官方最新公告為準。"
+    ],
+    "more": [
+      ["回顧學習重點", "使用已保存的筆記、收藏與學習進度，回到想繼續理解的課程內容。"],
+      ["嘗試授信情境（Pro）", "改變虛構企業案例的貸款條件、營收衰退與擔保品，觀察財務比率，再提交決策並閱讀解析。"],
+      ["重新檢視模擬結果（Pro）", "裝置保留最近 30 次企業授信模擬結果；在有效訂閱期間重新檢視，回顧不同條件下的練習。"]
+    ],
+    "tips": [
+      "機構名錄與考試資訊有資料日期；需要確認當期資訊時，請查閱官方最新公告。",
+      "完整課程目前提供繁體中文與英文；其他語言只有部分介面翻譯，未翻譯文字會顯示英文。",
+      "Pro 月訂閱與年訂閱提供相同功能。刪除學習資料或 App 不會取消訂閱，請在 Apple 帳號訂閱設定管理。",
+      "FinAtlas 用於金融教育與職涯探索，不提供個人化投資建議、真實交易、正式授信決策或資格認證。"
+    ]
+  },
+  "en": {
+    "intro": [
+      "FinAtlas brings together introductory lessons, a Taiwan financial institution directory, roles and qualifications in a guide to the financial industry and careers. Read a lesson, check your understanding with a quiz, and save your notes, bookmarks and learning progress.",
+      "Browse and compare institutions by type with official sources and data dates. Career information explains responsibilities, required skills and related qualifications to help you identify areas to explore. Basic lessons, the directory and career information are free.",
+      "No account is required. Learning records stay on your device, with no ads or third-party analytics trackers. FinAtlas Pro adds corporate credit simulations using fictional cases; other work simulators and advanced courses are not yet available."
+    ],
+    "features": [
+      ["Finance lessons and quizzes", "Read introductory lessons in Traditional Chinese or English, check your understanding with quizzes, and save notes, bookmarks and progress."],
+      ["Taiwan institution directory", "Browse and compare institutions by type, with official sources and data dates. Unverified fields are identified."],
+      ["Careers and qualifications", "Explore finance job responsibilities, required skills and related qualifications to identify what you want to learn next."],
+      ["Pro corporate credit simulation", "Adjust loan terms, revenue stress and collateral in fictional cases, review financial ratios, submit decisions and read explanations. The latest 30 results stay on your device and can be reviewed with an active subscription."],
+      ["Language options", "Choose Traditional Chinese, Simplified Chinese, English, German, Thai, Japanese, Korean, Spanish, French or Portuguese. Full lessons are available in Traditional Chinese and English; other languages have partial interface translations, with English for untranslated text."],
+      ["Local learning records", "No registration is needed. Notes, bookmarks and progress remain on the device; external sources, purchases and restoring purchases need an internet connection."]
+    ],
+    "stepDetails": [
+      "Choose an introductory lesson and read it in Traditional Chinese or English, then use the quiz to check your understanding. Save key points in your notes or bookmarks; learning progress is kept on your device.",
+      "Browse the Taiwan financial institution directory by type, open institutions that interest you and compare them. Check each entry's source, date and field status. The directory is a dated snapshot, so follow the official source when you need to confirm current information.",
+      "Read about finance roles, their responsibilities and required skills, then explore related qualifications to identify subjects to study. Career exploration does not predict recruitment outcomes or establish eligibility; verify current examination and qualification requirements with official sources."
+    ],
+    "more": [
+      ["Revisit learning points", "Use saved notes, bookmarks and progress to return to lesson material you want to understand further."],
+      ["Try credit scenarios (Pro)", "Change loan terms, revenue stress and collateral in fictional corporate cases, observe the financial ratios, then submit a decision and read the explanation."],
+      ["Review simulation results (Pro)", "The device keeps the latest 30 corporate credit simulation results. Revisit them while your subscription is active to review practice under different conditions."]
+    ],
+    "tips": [
+      "Institution and examination information has data dates. Check official announcements when you need current information.",
+      "Full lessons are currently available in Traditional Chinese and English. Other languages have partial interface translations, with untranslated text shown in English.",
+      "Monthly and yearly Pro plans offer the same features. Deleting learning data or the app does not cancel a subscription; manage it in your Apple Account subscription settings.",
+      "FinAtlas is for financial education and career exploration. It does not provide personalized investment advice, real trading, formal credit decisions or certification."
+    ]
+  }
+}

@@ -38,7 +38,6 @@
   "Add an inflation assumption and compare nominal and real returns to see the difference in purchasing power.": "Pievienojiet inflācijas pieņēmumu un salīdziniet nominālo un reālo ienesīgumu, lai redzētu pirktspējas atšķirību.",
   "Change the regular contribution or calculation period, calculate again, and compare with the previous result.": "Mainiet regulāro iemaksu vai aprēķina periodu, pārrēķiniet un salīdziniet ar iepriekšējo rezultātu.",
   "Choose Taiwan or US paper trading, search Taiwan securities or select from the built-in US list, and check your virtual funds.": "Izvēlieties Taivānas vai ASV tirdzniecības simulāciju, meklējiet Taivānas vērtspapīrus vai izvēlieties no iebūvētā ASV saraksta un pārbaudiet virtuālos līdzekļus.",
-  "Place a simulated Taiwan order at the displayed closing price or a custom price, or enter your own price for a US order, and note your reason.": "Iesniedziet simulētu Taivānas rīkojumu par parādīto slēgšanas vai paša norādītu cenu vai ievadiet savu cenu ASV rīkojumam un pierakstiet iemeslu.",
   "Review your holdings and transaction history after the simulation, and compare the outcome with the reason you recorded.": "Pēc simulācijas pārskatiet savas pozīcijas un darījumu vēsturi un salīdziniet iznākumu ar pierakstīto iemeslu.",
   "Choose a lesson from the blockchain basics path, read the concepts, and use the global search to look up unfamiliar terms.": "Izvēlieties nodarbību blokķēdes pamatu kursā, izlasiet skaidrojumus un ar kopējo meklēšanu sameklējiet nepazīstamus terminus.",
   "Read the asset-security topics on wallets, private keys and seed phrases, and save material you want to revisit.": "Lasiet aktīvu drošības tēmas par makiem, privātajām atslēgām un atkopšanas frāzēm un saglabājiet materiālus, kurus vēlaties pārskatīt.",
@@ -48,5 +47,9 @@
   "Find an entry using date filters, search or the calendar, then open its details to add to or edit it.": "Atrodiet ierakstu ar datuma filtriem, meklēšanu vai kalendāru, tad atveriet informāciju, lai to papildinātu vai rediģētu.",
   "Import a PDF, image or document scan into your library.": "Importējiet PDF, attēlu vai skenētu dokumentu savā bibliotēkā.",
   "Read the original alongside your notes and review the paper breakdown.": "Lasiet oriģinālu līdzās savām piezīmēm un pārskatiet raksta analīzi.",
-  "Organise keywords and citations, then export a backup.": "Sakārtojiet atslēgvārdus un bibliogrāfiskās atsauces, pēc tam eksportējiet rezerves kopiju."
+  "Organise keywords and citations, then export a backup.": "Sakārtojiet atslēgvārdus un bibliogrāfiskās atsauces, pēc tam eksportējiet rezerves kopiju.",
+  "Read an introductory lesson and check your understanding with a quiz.": "Izlasiet ievada nodarbību un pārbaudiet izpratni ar testu.",
+  "Browse and compare financial institutions by type, checking sources and data dates.": "Pārlūkojiet un salīdziniet finanšu iestādes pēc veida, pārbaudot avotus un datu datumus.",
+  "Explore finance roles and related qualifications to identify skills to learn.": "Izpētiet finanšu profesijas un saistītās kvalifikācijas, lai noteiktu apgūstamās prasmes.",
+  "Use the latest closing price or a custom price for a simulated Taiwan or US order, and record your reason.": "Simulētam Taivānas vai ASV akciju rīkojumam izmantojiet jaunāko slēgšanas cenu vai pašu noteiktu cenu un pierakstiet savu iemeslu."
 }

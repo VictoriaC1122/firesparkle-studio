@@ -38,7 +38,6 @@
   "Add an inflation assumption and compare nominal and real returns to see the difference in purchasing power.": "Pridėkite infliacijos prielaidą ir palyginkite nominalią bei realią grąžą, kad pamatytumėte perkamosios galios skirtumą.",
   "Change the regular contribution or calculation period, calculate again, and compare with the previous result.": "Pakeiskite reguliarią įmoką arba skaičiavimo laikotarpį, apskaičiuokite iš naujo ir palyginkite su ankstesniu rezultatu.",
   "Choose Taiwan or US paper trading, search Taiwan securities or select from the built-in US list, and check your virtual funds.": "Pasirinkite Taivano ar JAV prekybos simuliaciją, ieškokite Taivano vertybinių popierių arba rinkitės iš įtraukto JAV sąrašo ir patikrinkite virtualias lėšas.",
-  "Place a simulated Taiwan order at the displayed closing price or a custom price, or enter your own price for a US order, and note your reason.": "Pateikite simuliacinį Taivano pavedimą pagal rodomą uždarymo ar pasirinktą kainą arba įveskite savo kainą JAV pavedimui ir užrašykite priežastį.",
   "Review your holdings and transaction history after the simulation, and compare the outcome with the reason you recorded.": "Po simuliacijos peržiūrėkite turimas pozicijas bei sandorių istoriją ir palyginkite rezultatą su užrašyta priežastimi.",
   "Choose a lesson from the blockchain basics path, read the concepts, and use the global search to look up unfamiliar terms.": "Pasirinkite pamoką iš blokų grandinės pagrindų kurso, perskaitykite paaiškinimus ir bendroje paieškoje susiraskite nepažįstamus terminus.",
   "Read the asset-security topics on wallets, private keys and seed phrases, and save material you want to revisit.": "Perskaitykite turto saugumo temas apie pinigines, privačius raktus ir atkūrimo frazes, o norimą pakartoti medžiagą išsaugokite.",
@@ -48,5 +47,9 @@
   "Find an entry using date filters, search or the calendar, then open its details to add to or edit it.": "Raskite įrašą naudodami datos filtrus, paiešką ar kalendorių, tada atverkite išsamią informaciją ir jį papildykite arba redaguokite.",
   "Import a PDF, image or document scan into your library.": "Importuokite PDF, vaizdą arba nuskaitytą dokumentą į savo biblioteką.",
   "Read the original alongside your notes and review the paper breakdown.": "Skaitykite originalą šalia savo užrašų ir peržiūrėkite straipsnio analizę.",
-  "Organise keywords and citations, then export a backup.": "Sutvarkykite reikšminius žodžius ir bibliografines nuorodas, tada eksportuokite atsarginę kopiją."
+  "Organise keywords and citations, then export a backup.": "Sutvarkykite reikšminius žodžius ir bibliografines nuorodas, tada eksportuokite atsarginę kopiją.",
+  "Read an introductory lesson and check your understanding with a quiz.": "Perskaitykite įvadinę pamoką ir pasitikrinkite supratimą atlikdami testą.",
+  "Browse and compare financial institutions by type, checking sources and data dates.": "Naršykite ir lyginkite finansų įstaigas pagal tipą, tikrindami šaltinius ir duomenų datas.",
+  "Explore finance roles and related qualifications to identify skills to learn.": "Susipažinkite su finansų srities pareigomis ir susijusiomis kvalifikacijomis, kad nustatytumėte, kokių įgūdžių verta išmokti.",
+  "Use the latest closing price or a custom price for a simulated Taiwan or US order, and record your reason.": "Imituojamam Taivano ar JAV akcijų pavedimui naudokite paskutinę uždarymo arba savo nustatytą kainą ir užrašykite savo motyvą."
 }

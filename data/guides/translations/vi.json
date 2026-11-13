@@ -38,7 +38,6 @@
   "Add an inflation assumption and compare nominal and real returns to see the difference in purchasing power.": "Thêm giả định lạm phát và so sánh lợi nhuận danh nghĩa với thực tế để thấy khác biệt về sức mua.",
   "Change the regular contribution or calculation period, calculate again, and compare with the previous result.": "Thay đổi khoản đóng góp định kỳ hoặc thời gian tính, tính lại rồi so sánh với kết quả trước.",
   "Choose Taiwan or US paper trading, search Taiwan securities or select from the built-in US list, and check your virtual funds.": "Chọn giao dịch mô phỏng Đài Loan hoặc Mỹ, tìm chứng khoán Đài Loan hoặc chọn từ danh sách Mỹ có sẵn rồi kiểm tra vốn ảo.",
-  "Place a simulated Taiwan order at the displayed closing price or a custom price, or enter your own price for a US order, and note your reason.": "Đặt lệnh mô phỏng Đài Loan theo giá đóng cửa hiển thị hoặc giá tự chọn, hoặc nhập giá riêng cho lệnh Mỹ, rồi ghi lại lý do.",
   "Review your holdings and transaction history after the simulation, and compare the outcome with the reason you recorded.": "Xem danh mục nắm giữ và lịch sử giao dịch sau khi mô phỏng, rồi so sánh kết quả với lý do đã ghi.",
   "Choose a lesson from the blockchain basics path, read the concepts, and use the global search to look up unfamiliar terms.": "Chọn một bài trong lộ trình blockchain cơ bản, đọc các khái niệm rồi dùng tìm kiếm toàn bộ để tra thuật ngữ chưa quen.",
   "Read the asset-security topics on wallets, private keys and seed phrases, and save material you want to revisit.": "Đọc các chủ đề bảo mật tài sản về ví, khóa riêng và cụm từ khôi phục, rồi lưu tài liệu muốn xem lại.",
@@ -48,5 +47,9 @@
   "Find an entry using date filters, search or the calendar, then open its details to add to or edit it.": "Tìm mục bằng bộ lọc ngày, tìm kiếm hoặc lịch, rồi mở chi tiết để bổ sung hay chỉnh sửa.",
   "Import a PDF, image or document scan into your library.": "Nhập PDF, hình ảnh hoặc bản quét tài liệu vào thư viện của bạn.",
   "Read the original alongside your notes and review the paper breakdown.": "Đọc bản gốc cùng với ghi chú và xem phân tích cấu trúc bài báo.",
-  "Organise keywords and citations, then export a backup.": "Sắp xếp từ khóa và tài liệu trích dẫn, rồi xuất bản sao lưu."
+  "Organise keywords and citations, then export a backup.": "Sắp xếp từ khóa và tài liệu trích dẫn, rồi xuất bản sao lưu.",
+  "Read an introductory lesson and check your understanding with a quiz.": "Đọc một bài học nhập môn và kiểm tra mức độ hiểu bằng một bài trắc nghiệm.",
+  "Browse and compare financial institutions by type, checking sources and data dates.": "Tra cứu và so sánh các tổ chức tài chính theo loại, đồng thời kiểm tra nguồn và ngày dữ liệu.",
+  "Explore finance roles and related qualifications to identify skills to learn.": "Khám phá các vị trí trong ngành tài chính và chứng chỉ liên quan để xác định kỹ năng cần học.",
+  "Use the latest closing price or a custom price for a simulated Taiwan or US order, and record your reason.": "Dùng giá đóng cửa mới nhất hoặc giá tự đặt để đặt lệnh mô phỏng cổ phiếu Đài Loan hoặc Mỹ, rồi ghi lại lý do."
 }

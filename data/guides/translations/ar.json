@@ -38,7 +38,6 @@
   "Add an inflation assumption and compare nominal and real returns to see the difference in purchasing power.": "أضف افتراضًا للتضخم، وقارن العائد الاسمي والحقيقي لترى الفرق في القوة الشرائية.",
   "Change the regular contribution or calculation period, calculate again, and compare with the previous result.": "غيّر المساهمة الدورية أو فترة الحساب، وأعد الحساب، ثم قارنه بالنتيجة السابقة.",
   "Choose Taiwan or US paper trading, search Taiwan securities or select from the built-in US list, and check your virtual funds.": "اختر محاكاة التداول في تايوان أو الولايات المتحدة، وابحث عن الأوراق المالية التايوانية أو اختر من القائمة الأمريكية المدمجة، ثم تحقق من أموالك الافتراضية.",
-  "Place a simulated Taiwan order at the displayed closing price or a custom price, or enter your own price for a US order, and note your reason.": "ضع أمرًا محاكى في تايوان بسعر الإغلاق المعروض أو بسعر تحدده، أو أدخل سعرك لأمر أمريكي، ودوّن السبب.",
   "Review your holdings and transaction history after the simulation, and compare the outcome with the reason you recorded.": "راجع ممتلكاتك وسجل المعاملات بعد المحاكاة، وقارن النتيجة بالسبب الذي سجّلته.",
   "Choose a lesson from the blockchain basics path, read the concepts, and use the global search to look up unfamiliar terms.": "اختر درسًا من مسار أساسيات البلوك تشين، واقرأ المفاهيم، واستخدم البحث الشامل للعثور على المصطلحات غير المألوفة.",
   "Read the asset-security topics on wallets, private keys and seed phrases, and save material you want to revisit.": "اقرأ موضوعات أمان الأصول عن المحافظ والمفاتيح الخاصة وعبارات الاسترداد، واحفظ المواد التي تريد مراجعتها.",
@@ -48,5 +47,9 @@
   "Find an entry using date filters, search or the calendar, then open its details to add to or edit it.": "اعثر على سجل باستخدام تصفية التاريخ أو البحث أو التقويم، ثم افتح تفاصيله للإضافة أو التعديل.",
   "Import a PDF, image or document scan into your library.": "استورد ملف PDF أو صورة أو مستندًا ممسوحًا ضوئيًا إلى مكتبتك.",
   "Read the original alongside your notes and review the paper breakdown.": "اقرأ النص الأصلي إلى جانب ملاحظاتك وراجع التحليل المنظّم للورقة البحثية.",
-  "Organise keywords and citations, then export a backup.": "نظّم الكلمات المفتاحية والمراجع، ثم صدّر نسخة احتياطية."
+  "Organise keywords and citations, then export a backup.": "نظّم الكلمات المفتاحية والمراجع، ثم صدّر نسخة احتياطية.",
+  "Read an introductory lesson and check your understanding with a quiz.": "اقرأ درسًا تمهيديًا واختبر فهمك من خلال اختبار قصير.",
+  "Browse and compare financial institutions by type, checking sources and data dates.": "تصفّح المؤسسات المالية وقارن بينها حسب النوع، مع التحقّق من المصادر وتواريخ البيانات.",
+  "Explore finance roles and related qualifications to identify skills to learn.": "استكشف الوظائف المالية والمؤهلات المرتبطة بها لتحديد المهارات التي تحتاج إلى تعلّمها.",
+  "Use the latest closing price or a custom price for a simulated Taiwan or US order, and record your reason.": "استخدم أحدث سعر إغلاق أو سعرًا تحدده بنفسك لأمر تداول افتراضي لسهم تايواني أو أمريكي، ودوّن سبب قرارك."
 }

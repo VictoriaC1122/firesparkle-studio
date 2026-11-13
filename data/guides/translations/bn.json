@@ -38,7 +38,6 @@
   "Add an inflation assumption and compare nominal and real returns to see the difference in purchasing power.": "মূল্যস্ফীতির একটি অনুমান যোগ করে নামমাত্র ও প্রকৃত রিটার্ন তুলনা করুন, যাতে ক্রয়ক্ষমতার পার্থক্য বুঝতে পারেন।",
   "Change the regular contribution or calculation period, calculate again, and compare with the previous result.": "নিয়মিত জমার পরিমাণ বা হিসাবের সময়কাল বদলে আবার হিসাব করুন এবং আগের ফলের সঙ্গে তুলনা করুন।",
   "Choose Taiwan or US paper trading, search Taiwan securities or select from the built-in US list, and check your virtual funds.": "তাইওয়ান বা যুক্তরাষ্ট্রের অনুশীলনী ট্রেডিং বেছে নিন, তাইওয়ানের সিকিউরিটি খুঁজুন বা অ্যাপের যুক্তরাষ্ট্রের তালিকা থেকে বাছুন এবং ভার্চুয়াল তহবিল দেখুন।",
-  "Place a simulated Taiwan order at the displayed closing price or a custom price, or enter your own price for a US order, and note your reason.": "তাইওয়ানের অনুশীলনী অর্ডার দেখানো সমাপনী দাম বা নিজের দামে দিন, অথবা যুক্তরাষ্ট্রের অর্ডারের দাম নিজে লিখুন এবং কারণ নোট করুন।",
   "Review your holdings and transaction history after the simulation, and compare the outcome with the reason you recorded.": "সিমুলেশনের পর আপনার ধারণকৃত সম্পদ ও লেনদেনের ইতিহাস দেখুন এবং ফলের সঙ্গে লিখে রাখা কারণ তুলনা করুন।",
   "Choose a lesson from the blockchain basics path, read the concepts, and use the global search to look up unfamiliar terms.": "ব্লকচেইনের প্রাথমিক শিক্ষাপথ থেকে একটি পাঠ বেছে ধারণাগুলো পড়ুন এবং অপরিচিত পরিভাষা খুঁজতে সামগ্রিক অনুসন্ধান ব্যবহার করুন।",
   "Read the asset-security topics on wallets, private keys and seed phrases, and save material you want to revisit.": "ওয়ালেট, প্রাইভেট কি ও সিড ফ্রেজ সম্পর্কে সম্পদ নিরাপত্তার বিষয়গুলো পড়ুন এবং আবার দেখতে চান এমন উপকরণ সেভ করুন।",
@@ -48,5 +47,9 @@
   "Find an entry using date filters, search or the calendar, then open its details to add to or edit it.": "তারিখের ফিল্টার, অনুসন্ধান বা ক্যালেন্ডার দিয়ে লেখা খুঁজে বিস্তারিত খুলুন, তারপর তথ্য যোগ করুন বা সম্পাদনা করুন।",
   "Import a PDF, image or document scan into your library.": "আপনার লাইব্রেরিতে PDF, ছবি বা স্ক্যান করা নথি আমদানি করুন।",
   "Read the original alongside your notes and review the paper breakdown.": "নিজের নোটের পাশাপাশি মূল লেখাটি পড়ুন এবং গবেষণাপত্রের বিভাগভিত্তিক বিশ্লেষণ দেখুন।",
-  "Organise keywords and citations, then export a backup.": "মূল শব্দ ও তথ্যসূত্র গুছিয়ে নিন, তারপর ব্যাকআপ রপ্তানি করুন।"
+  "Organise keywords and citations, then export a backup.": "মূল শব্দ ও তথ্যসূত্র গুছিয়ে নিন, তারপর ব্যাকআপ রপ্তানি করুন।",
+  "Read an introductory lesson and check your understanding with a quiz.": "একটি প্রাথমিক পাঠ পড়ুন এবং কুইজের মাধ্যমে বোঝাপড়া যাচাই করুন।",
+  "Browse and compare financial institutions by type, checking sources and data dates.": "ধরন অনুযায়ী আর্থিক প্রতিষ্ঠান খুঁজুন ও তুলনা করুন, সঙ্গে উৎস এবং তথ্যের তারিখ যাচাই করুন।",
+  "Explore finance roles and related qualifications to identify skills to learn.": "আর্থিক খাতের পদ ও সংশ্লিষ্ট যোগ্যতা সম্পর্কে জেনে কোন দক্ষতা শিখতে হবে তা নির্ধারণ করুন।",
+  "Use the latest closing price or a custom price for a simulated Taiwan or US order, and record your reason.": "তাইওয়ান বা যুক্তরাষ্ট্রের শেয়ারের অনুশীলনী অর্ডারে সর্বশেষ সমাপনী দাম বা নিজের নির্ধারিত দাম ব্যবহার করুন এবং কারণ লিখে রাখুন।"
 }

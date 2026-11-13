@@ -38,7 +38,6 @@
   "Add an inflation assumption and compare nominal and real returns to see the difference in purchasing power.": "ਮਹਿੰਗਾਈ ਦੀ ਧਾਰਨਾ ਜੋੜੋ ਅਤੇ ਖਰੀਦ-ਸ਼ਕਤੀ ਦਾ ਫ਼ਰਕ ਵੇਖਣ ਲਈ ਨਾਮਾਤਰ ਤੇ ਅਸਲ ਰਿਟਰਨ ਦੀ ਤੁਲਨਾ ਕਰੋ।",
   "Change the regular contribution or calculation period, calculate again, and compare with the previous result.": "ਨਿਯਮਤ ਯੋਗਦਾਨ ਜਾਂ ਗਿਣਤੀ ਦੀ ਮਿਆਦ ਬਦਲੋ, ਮੁੜ ਗਿਣਤੀ ਕਰੋ ਅਤੇ ਪਿਛਲੇ ਨਤੀਜੇ ਨਾਲ ਤੁਲਨਾ ਕਰੋ।",
   "Choose Taiwan or US paper trading, search Taiwan securities or select from the built-in US list, and check your virtual funds.": "ਤਾਈਵਾਨ ਜਾਂ ਅਮਰੀਕਾ ਦੀ ਅਭਿਆਸੀ ਟ੍ਰੇਡਿੰਗ ਚੁਣੋ, ਤਾਈਵਾਨ ਦੀਆਂ ਪ੍ਰਤੀਭੂਤੀਆਂ ਲੱਭੋ ਜਾਂ ਅੰਦਰਲੀ ਅਮਰੀਕੀ ਸੂਚੀ ਵਿੱਚੋਂ ਚੁਣੋ ਅਤੇ ਵਰਚੁਅਲ ਫੰਡ ਜਾਂਚੋ।",
-  "Place a simulated Taiwan order at the displayed closing price or a custom price, or enter your own price for a US order, and note your reason.": "ਦਿਖਾਏ ਗਏ ਬੰਦ ਭਾਅ ਜਾਂ ਆਪਣੀ ਕੀਮਤ ਉੱਤੇ ਤਾਈਵਾਨ ਦਾ ਅਭਿਆਸੀ ਆਰਡਰ ਦਿਓ ਜਾਂ ਅਮਰੀਕੀ ਆਰਡਰ ਲਈ ਆਪਣੀ ਕੀਮਤ ਭਰੋ ਅਤੇ ਕਾਰਨ ਲਿਖੋ।",
   "Review your holdings and transaction history after the simulation, and compare the outcome with the reason you recorded.": "ਸਿਮੂਲੇਸ਼ਨ ਮਗਰੋਂ ਆਪਣੀਆਂ ਹੋਲਡਿੰਗਾਂ ਅਤੇ ਲੈਣ-ਦੇਣ ਦਾ ਇਤਿਹਾਸ ਵੇਖੋ ਅਤੇ ਨਤੀਜੇ ਦੀ ਦਰਜ ਕੀਤੇ ਕਾਰਨ ਨਾਲ ਤੁਲਨਾ ਕਰੋ।",
   "Choose a lesson from the blockchain basics path, read the concepts, and use the global search to look up unfamiliar terms.": "ਬਲਾਕਚੇਨ ਦੇ ਮੁੱਢਲੇ ਅਧਿਐਨ ਮਾਰਗ ਤੋਂ ਪਾਠ ਚੁਣੋ, ਵਿਚਾਰ ਪੜ੍ਹੋ ਅਤੇ ਅਣਜਾਣ ਸ਼ਬਦਾਂ ਲਈ ਸਮੁੱਚੀ ਖੋਜ ਵਰਤੋ।",
   "Read the asset-security topics on wallets, private keys and seed phrases, and save material you want to revisit.": "ਵਾਲਿਟ, ਨਿੱਜੀ ਕੁੰਜੀਆਂ ਅਤੇ ਰਿਕਵਰੀ ਵਾਕਾਂਸ਼ਾਂ ਬਾਰੇ ਸੰਪਤੀ ਸੁਰੱਖਿਆ ਦੇ ਵਿਸ਼ੇ ਪੜ੍ਹੋ ਅਤੇ ਮੁੜ ਵੇਖਣ ਵਾਲੀ ਸਮੱਗਰੀ ਸੰਭਾਲੋ।",
@@ -48,5 +47,9 @@
   "Find an entry using date filters, search or the calendar, then open its details to add to or edit it.": "ਤਾਰੀਖ ਦੇ ਫਿਲਟਰਾਂ, ਖੋਜ ਜਾਂ ਕੈਲੰਡਰ ਨਾਲ ਐਂਟਰੀ ਲੱਭੋ, ਫਿਰ ਉਸ ਵਿੱਚ ਜੋੜਨ ਜਾਂ ਸੰਪਾਦਨ ਲਈ ਵੇਰਵੇ ਖੋਲ੍ਹੋ।",
   "Import a PDF, image or document scan into your library.": "PDF, ਤਸਵੀਰ ਜਾਂ ਸਕੈਨ ਕੀਤਾ ਦਸਤਾਵੇਜ਼ ਆਪਣੀ ਲਾਇਬ੍ਰੇਰੀ ਵਿੱਚ ਆਯਾਤ ਕਰੋ।",
   "Read the original alongside your notes and review the paper breakdown.": "ਆਪਣੇ ਨੋਟਾਂ ਦੇ ਨਾਲ ਮੂਲ ਪਾਠ ਪੜ੍ਹੋ ਅਤੇ ਖੋਜ ਪੱਤਰ ਦਾ ਵਿਸ਼ਲੇਸ਼ਣ ਵੇਖੋ।",
-  "Organise keywords and citations, then export a backup.": "ਮੁੱਖ ਸ਼ਬਦ ਅਤੇ ਹਵਾਲੇ ਸੰਗਠਿਤ ਕਰੋ, ਫਿਰ ਬੈਕਅੱਪ ਨਿਰਯਾਤ ਕਰੋ।"
+  "Organise keywords and citations, then export a backup.": "ਮੁੱਖ ਸ਼ਬਦ ਅਤੇ ਹਵਾਲੇ ਸੰਗਠਿਤ ਕਰੋ, ਫਿਰ ਬੈਕਅੱਪ ਨਿਰਯਾਤ ਕਰੋ।",
+  "Read an introductory lesson and check your understanding with a quiz.": "ਇੱਕ ਜਾਣ-ਪਛਾਣ ਵਾਲਾ ਪਾਠ ਪੜ੍ਹੋ ਅਤੇ ਪ੍ਰਸ਼ਨੋਤਰੀ ਨਾਲ ਆਪਣੀ ਸਮਝ ਦੀ ਜਾਂਚ ਕਰੋ।",
+  "Browse and compare financial institutions by type, checking sources and data dates.": "ਵਿੱਤੀ ਸੰਸਥਾਵਾਂ ਨੂੰ ਕਿਸਮ ਅਨੁਸਾਰ ਲੱਭੋ ਅਤੇ ਤੁਲਨਾ ਕਰੋ; ਸਰੋਤਾਂ ਅਤੇ ਜਾਣਕਾਰੀ ਦੀਆਂ ਤਾਰੀਖਾਂ ਦੀ ਜਾਂਚ ਕਰੋ।",
+  "Explore finance roles and related qualifications to identify skills to learn.": "ਵਿੱਤੀ ਖੇਤਰ ਦੀਆਂ ਭੂਮਿਕਾਵਾਂ ਅਤੇ ਸੰਬੰਧਿਤ ਯੋਗਤਾਵਾਂ ਬਾਰੇ ਜਾਣ ਕੇ ਸਿੱਖਣ ਵਾਲੇ ਹੁਨਰਾਂ ਦੀ ਪਛਾਣ ਕਰੋ।",
+  "Use the latest closing price or a custom price for a simulated Taiwan or US order, and record your reason.": "ਤਾਈਵਾਨ ਜਾਂ ਅਮਰੀਕਾ ਦੇ ਸ਼ੇਅਰ ਲਈ ਸਿਮੂਲੇਟਿਡ ਆਰਡਰ ਵਿੱਚ ਸਭ ਤੋਂ ਨਵਾਂ ਬੰਦ ਭਾਅ ਜਾਂ ਆਪਣਾ ਤੈਅ ਕੀਤਾ ਭਾਅ ਵਰਤੋ ਅਤੇ ਆਪਣਾ ਕਾਰਨ ਦਰਜ ਕਰੋ।"
 }

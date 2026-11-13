@@ -38,7 +38,6 @@
   "Add an inflation assumption and compare nominal and real returns to see the difference in purchasing power.": "Προσθέστε μια παραδοχή πληθωρισμού και συγκρίνετε ονομαστικές και πραγματικές αποδόσεις για να δείτε τη διαφορά αγοραστικής δύναμης.",
   "Change the regular contribution or calculation period, calculate again, and compare with the previous result.": "Αλλάξτε την τακτική καταβολή ή την περίοδο υπολογισμού, υπολογίστε ξανά και συγκρίνετε με το προηγούμενο αποτέλεσμα.",
   "Choose Taiwan or US paper trading, search Taiwan securities or select from the built-in US list, and check your virtual funds.": "Επιλέξτε εικονικές συναλλαγές Ταϊβάν ή ΗΠΑ, αναζητήστε τίτλους της Ταϊβάν ή επιλέξτε από την ενσωματωμένη λίστα ΗΠΑ και ελέγξτε τα εικονικά σας κεφάλαια.",
-  "Place a simulated Taiwan order at the displayed closing price or a custom price, or enter your own price for a US order, and note your reason.": "Δώστε μια εικονική εντολή για την Ταϊβάν στην εμφανιζόμενη τιμή κλεισίματος ή σε δική σας τιμή, ή εισαγάγετε δική σας τιμή για εντολή ΗΠΑ, και σημειώστε τον λόγο.",
   "Review your holdings and transaction history after the simulation, and compare the outcome with the reason you recorded.": "Μετά την προσομοίωση, εξετάστε τις θέσεις και το ιστορικό συναλλαγών σας και συγκρίνετε το αποτέλεσμα με τον λόγο που καταγράψατε.",
   "Choose a lesson from the blockchain basics path, read the concepts, and use the global search to look up unfamiliar terms.": "Επιλέξτε μάθημα από τη διαδρομή βασικών γνώσεων blockchain, διαβάστε τις έννοιες και χρησιμοποιήστε τη γενική αναζήτηση για άγνωστους όρους.",
   "Read the asset-security topics on wallets, private keys and seed phrases, and save material you want to revisit.": "Διαβάστε τα θέματα ασφάλειας περιουσιακών στοιχείων για πορτοφόλια, ιδιωτικά κλειδιά και φράσεις ανάκτησης και αποθηκεύστε υλικό που θέλετε να ξαναδείτε.",
@@ -48,5 +47,9 @@
   "Find an entry using date filters, search or the calendar, then open its details to add to or edit it.": "Βρείτε μια καταχώριση με φίλτρα ημερομηνίας, αναζήτηση ή ημερολόγιο και ανοίξτε τις λεπτομέρειες για να την εμπλουτίσετε ή να την επεξεργαστείτε.",
   "Import a PDF, image or document scan into your library.": "Εισαγάγετε ένα PDF, μια εικόνα ή ένα σαρωμένο έγγραφο στη βιβλιοθήκη σας.",
   "Read the original alongside your notes and review the paper breakdown.": "Διαβάστε το πρωτότυπο παράλληλα με τις σημειώσεις σας και δείτε την ανάλυση της εργασίας.",
-  "Organise keywords and citations, then export a backup.": "Οργανώστε λέξεις-κλειδιά και παραπομπές και, στη συνέχεια, εξαγάγετε ένα αντίγραφο ασφαλείας."
+  "Organise keywords and citations, then export a backup.": "Οργανώστε λέξεις-κλειδιά και παραπομπές και, στη συνέχεια, εξαγάγετε ένα αντίγραφο ασφαλείας.",
+  "Read an introductory lesson and check your understanding with a quiz.": "Διαβάστε ένα εισαγωγικό μάθημα και ελέγξτε την κατανόησή σας με ένα κουίζ.",
+  "Browse and compare financial institutions by type, checking sources and data dates.": "Περιηγηθείτε σε χρηματοοικονομικά ιδρύματα και συγκρίνετέ τα ανά τύπο, ελέγχοντας τις πηγές και τις ημερομηνίες των δεδομένων.",
+  "Explore finance roles and related qualifications to identify skills to learn.": "Εξερευνήστε χρηματοοικονομικά επαγγέλματα και σχετικά προσόντα για να εντοπίσετε τις δεξιότητες που χρειάζεται να μάθετε.",
+  "Use the latest closing price or a custom price for a simulated Taiwan or US order, and record your reason.": "Χρησιμοποιήστε την τελευταία τιμή κλεισίματος ή μια δική σας τιμή για μια προσομοιωμένη εντολή μετοχών της Ταϊβάν ή των ΗΠΑ και καταγράψτε το σκεπτικό σας."
 }

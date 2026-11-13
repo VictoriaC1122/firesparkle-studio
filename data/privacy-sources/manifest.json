@@ -2328,26 +2328,97 @@
       },
       "compiledZh": "2026 年 10 月 25 日",
       "compiledEn": "October 25, 2026"
+    },
+    "6830943408": {
+      "appId": "6830943408",
+      "appName": "FinAtlas 金融產業與職涯",
+      "appStoreURL": "https://apps.apple.com/tw/app/id6830943408",
+      "privacyURL": "https://firesparkle.com/app/finatlas/privacy/",
+      "supportURL": "https://firesparkle.com/support/",
+      "marketingURL": "https://firesparkle.com/",
+      "contactEmail": "firesparkle.studio@gmail.com",
+      "contactEmails": [
+        "firesparkle.studio@gmail.com"
+      ],
+      "policyTextFile": "6830943408-policy-body.txt",
+      "policySourceURL": "https://firesparkle.com/app/finatlas/privacy/",
+      "policyStatus": "full_text_available",
+      "policyUpdatedText": "文件版本：2026-11-05",
+      "policyCompiledDate": "2026-11-13",
+      "policyTextCharacterCount": 1712,
+      "policyTextExtraction": "Extracted existing Traditional Chinese and English text from articles #finatlas-zh and #finatlas-en. HTML entities decoded and layout whitespace normalized; original policy wording and contact information retained. Both live article HTML bodies exactly match the authoritative data/finatlas-privacy.json used by the existing bilingual legal renderer.",
+      "evidenceFile": "6830943408-policy-evidence.json",
+      "source": {
+        "url": "https://apps.apple.com/tw/app/id6830943408",
+        "file": "6830943408-app-store-tw.html",
+        "sha256": "e6f54b93fe20891a099915a11c10aaeee95f2554ec41d7a45f237b1286ac37cd",
+        "developerLinks": [
+          {
+            "label": "網站",
+            "url": "https://firesparkle.com/"
+          },
+          {
+            "label": "支援",
+            "url": "https://firesparkle.com/support/"
+          }
+        ],
+        "privacyLinks": [
+          {
+            "label": "開發者的隱私權政策",
+            "url": "https://firesparkle.com/app/finatlas/privacy/"
+          }
+        ],
+        "developerLinkJSONPath": "data[0].data.shelfMapping.description.items[0].developerLinks",
+        "privacyLinkJSONPath": "data[0].data.shelfMapping.privacyHeader.items[0].bodyText.linkedSubstrings"
+      },
+      "evidenceSources": [
+        "https://apps.apple.com/tw/app/id6830943408",
+        "https://apps.apple.com/us/app/id6830943408",
+        "https://firesparkle.com/app/finatlas/privacy/",
+        "https://firesparkle.com/support/"
+      ],
+      "policyHeadings": [
+        "FinAtlas 隱私政策",
+        "學習資料與偏好",
+        "購買與訂閱",
+        "裝置備份",
+        "支援信件",
+        "外部網站",
+        "保留與刪除",
+        "資料分享與政策更新",
+        "聯絡方式"
+      ],
+      "notes": [
+        "既有 data/finatlas-privacy.json 的繁中及英文正文與正式網站兩個政策 article 完全一致；保留原專用雙語法律頁產生流程，不以通用政策頁覆寫。"
+      ],
+      "supportSource": {
+        "url": "https://firesparkle.com/support/",
+        "file": "6830943408-support.html",
+        "readable": true
+      },
+      "compiledZh": "2026 年 11 月 13 日",
+      "compiledEn": "November 13, 2026"
     }
   },
   "schemaVersion": 2,
   "extractionNotes": [
     "App Store web pages exposed privacy/developer website URLs, but no per-App supportURL field. supportURL values are public support/contact destinations observed in the linked official sites; appStoreSupportURL remains null.",
     "policyTextFile is complete source policy wording with navigation and unrelated copyright/support sections removed; source HTML/TXT files retain the full pages. Summaries are descriptive research notes, not revised legal promises.",
-    "15 policies have full text available; 1 (Larry) only describes the public information website. No App behavior was independently audited.",
+    "16 policies have full text available; 1 (Larry) only describes the public information website. No App behavior was independently audited.",
     "Contact difference: Compound Calculator uses victoriacheeng1122@gmail.com; nine apps use victoriacheng1122@gmail.com; AI TimeManager has GitHub-only public contact."
   ],
   "coverage": {
-    "apps": 16,
-    "appStorePagesReadable": 16,
-    "privacyURLsFound": 16,
-    "fullPolicyTexts": 15,
+    "apps": 17,
+    "appStorePagesReadable": 17,
+    "privacyURLsFound": 17,
+    "fullPolicyTexts": 16,
     "websiteOnlyPrivacyTexts": 1,
-    "appsWithEmail": 15,
+    "appsWithEmail": 16,
     "distinctEmails": [
+      "firesparkle.studio@gmail.com",
       "victoriacheeng1122@gmail.com",
       "victoriacheng1122@gmail.com"
     ]
   },
-  "lastUpdatedOn": "2026-10-25"
+  "lastUpdatedOn": "2026-11-13"
 }

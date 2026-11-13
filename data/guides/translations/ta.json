@@ -38,7 +38,6 @@
   "Add an inflation assumption and compare nominal and real returns to see the difference in purchasing power.": "பணவீக்க அனுமானத்தைச் சேர்த்து, வாங்கும் திறனில் உள்ள வேறுபாட்டைக் காண பெயரளவு மற்றும் உண்மையான வருமானங்களை ஒப்பிடுங்கள்.",
   "Change the regular contribution or calculation period, calculate again, and compare with the previous result.": "வழக்கமான பங்களிப்பையோ கணக்கீட்டுக் காலத்தையோ மாற்றி, மீண்டும் கணக்கிட்டு முந்தைய முடிவுடன் ஒப்பிடுங்கள்.",
   "Choose Taiwan or US paper trading, search Taiwan securities or select from the built-in US list, and check your virtual funds.": "தைவான் அல்லது அமெரிக்கப் பயிற்சி வர்த்தகத்தைத் தேர்ந்தெடுத்து, தைவான் பத்திரங்களைத் தேடுங்கள் அல்லது உள்ளமைந்த அமெரிக்கப் பட்டியலிலிருந்து தேர்ந்தெடுத்து மெய்நிகர் நிதியைச் சரிபாருங்கள்.",
-  "Place a simulated Taiwan order at the displayed closing price or a custom price, or enter your own price for a US order, and note your reason.": "காட்டப்படும் இறுதி விலையிலோ உங்கள் விலையிலோ தைவான் மாதிரி ஆணையை இடுங்கள் அல்லது அமெரிக்க ஆணைக்கு உங்கள் விலையை உள்ளிட்டு, அதற்கான காரணத்தைப் பதிவு செய்யுங்கள்.",
   "Review your holdings and transaction history after the simulation, and compare the outcome with the reason you recorded.": "உருவகப்படுத்தலுக்குப் பிறகு உங்கள் இருப்புகளையும் பரிவர்த்தனை வரலாற்றையும் பார்த்து, பதிவு செய்த காரணத்துடன் முடிவை ஒப்பிடுங்கள்.",
   "Choose a lesson from the blockchain basics path, read the concepts, and use the global search to look up unfamiliar terms.": "பிளாக்செயின் அடிப்படைப் பாதையிலிருந்து ஒரு பாடத்தைத் தேர்ந்தெடுத்து, கருத்துகளைப் படித்து, அறிமுகமற்ற சொற்களைப் பொதுத் தேடலில் கண்டறியுங்கள்.",
   "Read the asset-security topics on wallets, private keys and seed phrases, and save material you want to revisit.": "பணப்பைகள், தனிப்பட்ட சாவிகள் மற்றும் மீட்புச் சொற்றொடர்கள் பற்றிய சொத்துப் பாதுகாப்புத் தலைப்புகளைப் படித்து, மீண்டும் பார்க்க விரும்பும் உள்ளடக்கத்தைச் சேமியுங்கள்.",
@@ -48,5 +47,9 @@
   "Find an entry using date filters, search or the calendar, then open its details to add to or edit it.": "தேதி வடிகட்டிகள், தேடல் அல்லது நாட்காட்டி மூலம் பதிவைக் கண்டுபிடித்து, அதில் விவரங்களைச் சேர்க்கவோ திருத்தவோ அதன் விவரங்களைத் திறக்கவும்.",
   "Import a PDF, image or document scan into your library.": "PDF, படம் அல்லது ஸ்கேன் செய்யப்பட்ட ஆவணத்தை உங்கள் நூலகத்தில் இறக்குமதி செய்யுங்கள்.",
   "Read the original alongside your notes and review the paper breakdown.": "உங்கள் குறிப்புகளுடன் மூல உரையையும் ஒப்பிட்டுப் படித்து, கட்டுரையின் பகுப்பாய்வைப் பாருங்கள்.",
-  "Organise keywords and citations, then export a backup.": "முக்கியச் சொற்கள் மற்றும் மேற்கோள் விவரங்களை ஒழுங்குபடுத்தி, பின்னர் காப்புப்பிரதியை ஏற்றுமதி செய்யுங்கள்."
+  "Organise keywords and citations, then export a backup.": "முக்கியச் சொற்கள் மற்றும் மேற்கோள் விவரங்களை ஒழுங்குபடுத்தி, பின்னர் காப்புப்பிரதியை ஏற்றுமதி செய்யுங்கள்.",
+  "Read an introductory lesson and check your understanding with a quiz.": "ஓர் அறிமுகப் பாடத்தைப் படித்து, வினாடி வினா மூலம் உங்கள் புரிதலைச் சரிபாருங்கள்.",
+  "Browse and compare financial institutions by type, checking sources and data dates.": "நிதி நிறுவனங்களை வகை வாரியாகத் தேடி ஒப்பிடுங்கள்; தகவல் ஆதாரங்களையும் தரவுத் தேதிகளையும் சரிபாருங்கள்.",
+  "Explore finance roles and related qualifications to identify skills to learn.": "நிதித்துறைப் பணிகளையும் தொடர்புடைய தகுதிகளையும் ஆராய்ந்து, கற்றுக்கொள்ள வேண்டிய திறன்களை அடையாளம் காணுங்கள்.",
+  "Use the latest closing price or a custom price for a simulated Taiwan or US order, and record your reason.": "தைவான் அல்லது அமெரிக்கப் பங்கிற்கான மாதிரி வர்த்தக ஆணையில் சமீபத்திய சந்தை முடிவு விலையையோ நீங்கள் அமைக்கும் விலையையோ பயன்படுத்தி, உங்கள் காரணத்தைப் பதிவு செய்யுங்கள்."
 }

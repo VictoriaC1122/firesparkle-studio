@@ -38,7 +38,6 @@
   "Add an inflation assumption and compare nominal and real returns to see the difference in purchasing power.": "Tambahkan asumsi inflasi dan bandingkan imbal hasil nominal serta riil untuk melihat perbedaan daya beli.",
   "Change the regular contribution or calculation period, calculate again, and compare with the previous result.": "Ubah setoran berkala atau jangka waktu perhitungan, hitung ulang, lalu bandingkan dengan hasil sebelumnya.",
   "Choose Taiwan or US paper trading, search Taiwan securities or select from the built-in US list, and check your virtual funds.": "Pilih simulasi perdagangan Taiwan atau AS, cari sekuritas Taiwan atau pilih dari daftar AS bawaan, lalu periksa dana virtualmu.",
-  "Place a simulated Taiwan order at the displayed closing price or a custom price, or enter your own price for a US order, and note your reason.": "Buat pesanan simulasi Taiwan dengan harga penutupan yang ditampilkan atau harga sendiri, atau masukkan harga sendiri untuk pesanan AS, lalu catat alasannya.",
   "Review your holdings and transaction history after the simulation, and compare the outcome with the reason you recorded.": "Tinjau kepemilikan dan riwayat transaksi setelah simulasi, lalu bandingkan hasilnya dengan alasan yang kamu catat.",
   "Choose a lesson from the blockchain basics path, read the concepts, and use the global search to look up unfamiliar terms.": "Pilih pelajaran dari jalur dasar blockchain, baca konsepnya, lalu gunakan pencarian global untuk mencari istilah yang belum dikenal.",
   "Read the asset-security topics on wallets, private keys and seed phrases, and save material you want to revisit.": "Baca topik keamanan aset tentang dompet, kunci privat, dan frasa pemulihan, lalu simpan materi yang ingin dibaca kembali.",
@@ -48,5 +47,9 @@
   "Find an entry using date filters, search or the calendar, then open its details to add to or edit it.": "Cari entri memakai filter tanggal, pencarian, atau kalender, lalu buka detailnya untuk menambah atau mengedit isi.",
   "Import a PDF, image or document scan into your library.": "Impor PDF, gambar, atau hasil pemindaian dokumen ke pustaka Anda.",
   "Read the original alongside your notes and review the paper breakdown.": "Baca dokumen asli berdampingan dengan catatan Anda dan tinjau analisis terstruktur makalah.",
-  "Organise keywords and citations, then export a backup.": "Atur kata kunci dan referensi, lalu ekspor cadangan."
+  "Organise keywords and citations, then export a backup.": "Atur kata kunci dan referensi, lalu ekspor cadangan.",
+  "Read an introductory lesson and check your understanding with a quiz.": "Baca pelajaran pengantar dan uji pemahaman Anda dengan kuis.",
+  "Browse and compare financial institutions by type, checking sources and data dates.": "Telusuri dan bandingkan lembaga keuangan berdasarkan jenisnya, serta periksa sumber dan tanggal datanya.",
+  "Explore finance roles and related qualifications to identify skills to learn.": "Jelajahi pekerjaan di bidang keuangan dan kualifikasi terkait untuk menentukan keterampilan yang perlu dipelajari.",
+  "Use the latest closing price or a custom price for a simulated Taiwan or US order, and record your reason.": "Gunakan harga penutupan terbaru atau harga yang Anda tentukan untuk pesanan simulasi saham Taiwan atau AS, lalu catat alasan Anda."
 }

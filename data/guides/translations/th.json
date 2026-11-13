@@ -38,7 +38,6 @@
   "Add an inflation assumption and compare nominal and real returns to see the difference in purchasing power.": "เพิ่มสมมติฐานเงินเฟ้อ แล้วเปรียบเทียบผลตอบแทนตัวเงินกับผลตอบแทนที่แท้จริงเพื่อดูความต่างของกำลังซื้อ",
   "Change the regular contribution or calculation period, calculate again, and compare with the previous result.": "เปลี่ยนเงินลงทุนประจำหรือระยะเวลาคำนวณ คำนวณใหม่ แล้วเปรียบเทียบกับผลก่อนหน้า",
   "Choose Taiwan or US paper trading, search Taiwan securities or select from the built-in US list, and check your virtual funds.": "เลือกการซื้อขายจำลองของไต้หวันหรือสหรัฐฯ ค้นหาหลักทรัพย์ไต้หวันหรือเลือกจากรายชื่อสหรัฐฯ ที่มีในแอป แล้วตรวจสอบเงินเสมือน",
-  "Place a simulated Taiwan order at the displayed closing price or a custom price, or enter your own price for a US order, and note your reason.": "ส่งคำสั่งซื้อขายจำลองของไต้หวันที่ราคาปิดที่แสดงหรือราคาที่กำหนดเอง หรือกรอกราคาเองสำหรับคำสั่งสหรัฐฯ แล้วจดเหตุผล",
   "Review your holdings and transaction history after the simulation, and compare the outcome with the reason you recorded.": "หลังการจำลอง ให้ทบทวนสินทรัพย์ที่ถือและประวัติธุรกรรม แล้วเปรียบเทียบผลกับเหตุผลที่บันทึกไว้",
   "Choose a lesson from the blockchain basics path, read the concepts, and use the global search to look up unfamiliar terms.": "เลือกบทเรียนจากเส้นทางพื้นฐานบล็อกเชน อ่านแนวคิด แล้วใช้การค้นหาทั้งแอปเพื่อหาคำศัพท์ที่ไม่คุ้นเคย",
   "Read the asset-security topics on wallets, private keys and seed phrases, and save material you want to revisit.": "อ่านหัวข้อความปลอดภัยของสินทรัพย์เกี่ยวกับกระเป๋าเงิน คีย์ส่วนตัว และวลีกู้คืน แล้วบันทึกเนื้อหาที่ต้องการกลับมาอ่าน",
@@ -48,5 +47,9 @@
   "Find an entry using date filters, search or the calendar, then open its details to add to or edit it.": "ค้นหาบันทึกด้วยตัวกรองวันที่ การค้นหา หรือปฏิทิน แล้วเปิดรายละเอียดเพื่อเพิ่มหรือแก้ไขเนื้อหา",
   "Import a PDF, image or document scan into your library.": "นำเข้า PDF รูปภาพ หรือเอกสารที่สแกนไว้ไปยังคลังเอกสารของคุณ",
   "Read the original alongside your notes and review the paper breakdown.": "อ่านต้นฉบับควบคู่กับบันทึกของคุณ และตรวจดูบทวิเคราะห์แยกส่วนของบทความ",
-  "Organise keywords and citations, then export a backup.": "จัดระเบียบคำสำคัญและข้อมูลอ้างอิง จากนั้นส่งออกข้อมูลสำรอง"
+  "Organise keywords and citations, then export a backup.": "จัดระเบียบคำสำคัญและข้อมูลอ้างอิง จากนั้นส่งออกข้อมูลสำรอง",
+  "Read an introductory lesson and check your understanding with a quiz.": "อ่านบทเรียนเบื้องต้น แล้วทำแบบทดสอบเพื่อตรวจสอบความเข้าใจ",
+  "Browse and compare financial institutions by type, checking sources and data dates.": "ค้นหาและเปรียบเทียบสถาบันการเงินตามประเภท พร้อมตรวจสอบแหล่งที่มาและวันที่ของข้อมูล",
+  "Explore finance roles and related qualifications to identify skills to learn.": "สำรวจตำแหน่งงานด้านการเงินและคุณวุฒิที่เกี่ยวข้อง เพื่อระบุทักษะที่ต้องเรียนรู้",
+  "Use the latest closing price or a custom price for a simulated Taiwan or US order, and record your reason.": "ใช้ราคาปิดล่าสุดหรือราคาที่กำหนดเองเพื่อจำลองคำสั่งซื้อขายหุ้นไต้หวันหรือสหรัฐฯ แล้วบันทึกเหตุผลของคุณ"
 }

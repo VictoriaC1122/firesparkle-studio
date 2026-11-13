@@ -38,7 +38,6 @@
   "Add an inflation assumption and compare nominal and real returns to see the difference in purchasing power.": "Lisa inflatsioonieeldus ning võrdle nominaalset ja reaalset tootlust, et näha ostujõu erinevust.",
   "Change the regular contribution or calculation period, calculate again, and compare with the previous result.": "Muuda regulaarset sissemakset või arvutusperioodi, arvuta uuesti ning võrdle eelmise tulemusega.",
   "Choose Taiwan or US paper trading, search Taiwan securities or select from the built-in US list, and check your virtual funds.": "Vali Taiwani või USA kauplemissimulatsioon, otsi Taiwani väärtpabereid või vali sisseehitatud USA loendist ning kontrolli oma virtuaalraha.",
-  "Place a simulated Taiwan order at the displayed closing price or a custom price, or enter your own price for a US order, and note your reason.": "Esita Taiwani simuleeritud korraldus kuvatud sulgemishinnaga või enda hinnaga või sisesta USA korraldusele oma hind ning märgi põhjus üles.",
   "Review your holdings and transaction history after the simulation, and compare the outcome with the reason you recorded.": "Vaata pärast simulatsiooni üle oma positsioonid ja tehinguajalugu ning võrdle tulemust kirja pandud põhjusega.",
   "Choose a lesson from the blockchain basics path, read the concepts, and use the global search to look up unfamiliar terms.": "Vali plokiahela aluste õpiteelt õppetund, loe mõistete selgitusi ning otsi võõraid termineid üldotsinguga.",
   "Read the asset-security topics on wallets, private keys and seed phrases, and save material you want to revisit.": "Loe rahakottide, privaatvõtmete ja taastefraasidega seotud varaturbe teemasid ning salvesta materjal, mida soovid uuesti vaadata.",
@@ -48,5 +47,9 @@
   "Find an entry using date filters, search or the calendar, then open its details to add to or edit it.": "Leia sissekanne kuupäevafiltrite, otsingu või kalendri abil ning ava üksikasjad selle täiendamiseks või muutmiseks.",
   "Import a PDF, image or document scan into your library.": "Importige PDF, pilt või skannitud dokument oma kogusse.",
   "Read the original alongside your notes and review the paper breakdown.": "Lugege algteksti kõrvuti oma märkmetega ja vaadake artikli analüüsi.",
-  "Organise keywords and citations, then export a backup.": "Korrastage märksõnad ja allikaviited ning eksportige seejärel varukoopia."
+  "Organise keywords and citations, then export a backup.": "Korrastage märksõnad ja allikaviited ning eksportige seejärel varukoopia.",
+  "Read an introductory lesson and check your understanding with a quiz.": "Lugege sissejuhatavat õppetundi ja kontrollige oma arusaamist viktoriiniga.",
+  "Browse and compare financial institutions by type, checking sources and data dates.": "Sirvige ja võrrelge finantsasutusi tüübi järgi, kontrollides allikaid ja andmete kuupäevi.",
+  "Explore finance roles and related qualifications to identify skills to learn.": "Tutvuge finantsvaldkonna ametite ja nendega seotud kvalifikatsioonidega, et leida oskused, mida õppida.",
+  "Use the latest closing price or a custom price for a simulated Taiwan or US order, and record your reason.": "Kasutage Taiwani või USA aktsia simuleeritud tehingukorralduseks viimast sulgemishinda või enda määratud hinda ja kirjutage üles oma põhjendus."
 }

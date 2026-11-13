@@ -1,0 +1,158 @@
+{
+  "5466570": {
+    "success": true,
+    "data": {
+      "type": "game",
+      "name": "賴瑞的調酒研究室",
+      "steam_appid": 5466570,
+      "required_age": 0,
+      "is_free": false,
+      "detailed_description": "<h2 class=\"bb_tag\" >關於遊戲</h2><p class=\"bb_paragraph\" >《賴瑞的調酒研究室》是一款以對話與選擇推進的單人文字冒險遊戲。你將扮演酒吧主人賴瑞，在證券公司、大學、街道與綠島等場景與不同角色互動。選擇可能影響角色好感、劇情分支與結局。</p><p class=\"bb_paragraph\" ></p><h2 class=\"bb_tag\" >遊戲特色</h2><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" ><strong>多條角色路線與多重結局</strong>：閱讀對話並做出選擇，嘗試不同的劇情分支。</p></li><li><p class=\"bb_paragraph\" ><strong>40 格本機存檔</strong>：分開保存不同路線的進度，也可使用快速存檔與快速讀取。</p></li><li><p class=\"bb_paragraph\" ><strong>結局蒐集</strong>：自動記錄已達成的結局，查看各路線的完成進度。</p></li><li><p class=\"bb_paragraph\" ><strong>滑鼠與鍵盤操作</strong>：點擊對話框、按 Enter 或空白鍵推進劇情，按 F11 切換全螢幕。</p></li><li><p class=\"bb_paragraph\" ><strong>支援 8 種語言</strong>：繁體中文、英文、日文、韓文、簡體中文、泰文、德文、西班牙文，可在主畫面切換遊戲介面與劇本文字的語言，無角色語音。</p></li></ul>",
+      "about_the_game": "<h2 class=\"bb_tag\" >關於遊戲</h2><p class=\"bb_paragraph\" >《賴瑞的調酒研究室》是一款以對話與選擇推進的單人文字冒險遊戲。你將扮演酒吧主人賴瑞，在證券公司、大學、街道與綠島等場景與不同角色互動。選擇可能影響角色好感、劇情分支與結局。</p><p class=\"bb_paragraph\" ></p><h2 class=\"bb_tag\" >遊戲特色</h2><ul class=\"bb_ul\"><li><p class=\"bb_paragraph\" ><strong>多條角色路線與多重結局</strong>：閱讀對話並做出選擇，嘗試不同的劇情分支。</p></li><li><p class=\"bb_paragraph\" ><strong>40 格本機存檔</strong>：分開保存不同路線的進度，也可使用快速存檔與快速讀取。</p></li><li><p class=\"bb_paragraph\" ><strong>結局蒐集</strong>：自動記錄已達成的結局，查看各路線的完成進度。</p></li><li><p class=\"bb_paragraph\" ><strong>滑鼠與鍵盤操作</strong>：點擊對話框、按 Enter 或空白鍵推進劇情，按 F11 切換全螢幕。</p></li><li><p class=\"bb_paragraph\" ><strong>支援 8 種語言</strong>：繁體中文、英文、日文、韓文、簡體中文、泰文、德文、西班牙文，可在主畫面切換遊戲介面與劇本文字的語言，無角色語音。</p></li></ul>",
+      "short_description": "《賴瑞的調酒研究室》是一款單人文字冒險遊戲。扮演酒吧主人賴瑞，透過對話與選擇進入不同角色路線，影響角色關係與結局。提供 40 格本機存檔、快速存讀檔及結局蒐集。",
+      "supported_languages": "繁體中文, 英文, 德文, 西班牙文 - 西班牙, 日文, 泰文, 簡體中文, 韓文",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5466570/5f677c1ee4ea96e7d470ba235570b640f53846e9/header.jpg?t=1793917161",
+      "capsule_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5466570/e1137bebec098b397ad438d9f0260f38ae1481c9/capsule_231x87.jpg?t=1793917161",
+      "capsule_imagev5": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5466570/e1137bebec098b397ad438d9f0260f38ae1481c9/capsule_184x69.jpg?t=1793917161",
+      "website": "https://firesparkle.com/",
+      "pc_requirements": {
+        "minimum": "<strong>最低配備:</strong><br><ul class=\"bb_ul\"><li>需要 64 位元的處理器及作業系統<br></li><li><strong>作業系統:</strong> Windows 10 64-bit<br></li><li><strong>處理器:</strong> Dual-core 2 GHz<br></li><li><strong>記憶體:</strong> 4 GB 記憶體<br></li><li><strong>顯示卡:</strong> Integrated graphics supporting DirectX 11<br></li><li><strong>儲存空間:</strong> 1 GB 可用空間</li></ul>",
+        "recommended": "<strong>建議配備:</strong><br><ul class=\"bb_ul\"><li>需要 64 位元的處理器及作業系統</li></ul>"
+      },
+      "mac_requirements": {
+        "minimum": "<strong>最低配備:</strong><br><ul class=\"bb_ul\"><li><strong>作業系統:</strong> macOS 13 Ventura or later<br></li><li><strong>處理器:</strong> Intel Mac or Apple Silicon with Rosetta 2<br></li><li><strong>記憶體:</strong> 4 GB 記憶體<br></li><li><strong>儲存空間:</strong> 1 GB 可用空間</li></ul>",
+        "recommended": "<strong>建議配備:</strong><br><ul class=\"bb_ul\"></ul>"
+      },
+      "linux_requirements": {
+        "minimum": "<strong>最低配備:</strong><br><ul class=\"bb_ul\"><li><strong>作業系統:</strong> Ubuntu 20.04 or later (64-bit)<br></li><li><strong>處理器:</strong> Dual-core 2 GHz<br></li><li><strong>記憶體:</strong> 4 GB 記憶體<br></li><li><strong>儲存空間:</strong> 1 GB 可用空間</li></ul>",
+        "recommended": "<strong>建議配備:</strong><br><ul class=\"bb_ul\"></ul>"
+      },
+      "developers": [
+        "花火工作室 FireSparkle Studio"
+      ],
+      "publishers": [
+        "花火工作室 FireSparkle Studio"
+      ],
+      "package_groups": [],
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": true
+      },
+      "categories": [
+        {
+          "id": 2,
+          "description": "單人"
+        },
+        {
+          "id": 62,
+          "description": "親友同享"
+        }
+      ],
+      "genres": [
+        {
+          "id": "25",
+          "description": "冒險"
+        },
+        {
+          "id": "4",
+          "description": "休閒"
+        },
+        {
+          "id": "23",
+          "description": "獨立製作"
+        }
+      ],
+      "screenshots": [
+        {
+          "id": 0,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5466570/e86effa16be3d65d3e70d8298320e99caa5622d3/ss_e86effa16be3d65d3e70d8298320e99caa5622d3.600x338.jpg?t=1793917161",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5466570/e86effa16be3d65d3e70d8298320e99caa5622d3/ss_e86effa16be3d65d3e70d8298320e99caa5622d3.1920x1080.jpg?t=1793917161"
+        },
+        {
+          "id": 1,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5466570/6307d130687d6bb50741bad312d32be00b070271/ss_6307d130687d6bb50741bad312d32be00b070271.600x338.jpg?t=1793917161",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5466570/6307d130687d6bb50741bad312d32be00b070271/ss_6307d130687d6bb50741bad312d32be00b070271.1920x1080.jpg?t=1793917161"
+        },
+        {
+          "id": 2,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5466570/252ba084b79d8f968c8c95a30ff31d7232584c25/ss_252ba084b79d8f968c8c95a30ff31d7232584c25.600x338.jpg?t=1793917161",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5466570/252ba084b79d8f968c8c95a30ff31d7232584c25/ss_252ba084b79d8f968c8c95a30ff31d7232584c25.1920x1080.jpg?t=1793917161"
+        },
+        {
+          "id": 3,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5466570/ffb4b2ce0ed13ab8a144e28865620ed52e74b0a4/ss_ffb4b2ce0ed13ab8a144e28865620ed52e74b0a4.600x338.jpg?t=1793917161",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5466570/ffb4b2ce0ed13ab8a144e28865620ed52e74b0a4/ss_ffb4b2ce0ed13ab8a144e28865620ed52e74b0a4.1920x1080.jpg?t=1793917161"
+        },
+        {
+          "id": 4,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5466570/75bb6f6e11df78250d6579cf90086aad2b9caea4/ss_75bb6f6e11df78250d6579cf90086aad2b9caea4.600x338.jpg?t=1793917161",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5466570/75bb6f6e11df78250d6579cf90086aad2b9caea4/ss_75bb6f6e11df78250d6579cf90086aad2b9caea4.1920x1080.jpg?t=1793917161"
+        },
+        {
+          "id": 5,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5466570/3a1b3def878bd1ef757246d6d550697735100c97/ss_3a1b3def878bd1ef757246d6d550697735100c97.600x338.jpg?t=1793917161",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5466570/3a1b3def878bd1ef757246d6d550697735100c97/ss_3a1b3def878bd1ef757246d6d550697735100c97.1920x1080.jpg?t=1793917161"
+        },
+        {
+          "id": 6,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5466570/237e448a713124bca5dd3989d4f8f5303405e9cf/ss_237e448a713124bca5dd3989d4f8f5303405e9cf.600x338.jpg?t=1793917161",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5466570/237e448a713124bca5dd3989d4f8f5303405e9cf/ss_237e448a713124bca5dd3989d4f8f5303405e9cf.1920x1080.jpg?t=1793917161"
+        },
+        {
+          "id": 7,
+          "path_thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5466570/1f5a784a5bcfed07226840907a91008860106090/ss_1f5a784a5bcfed07226840907a91008860106090.600x338.jpg?t=1793917161",
+          "path_full": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5466570/1f5a784a5bcfed07226840907a91008860106090/ss_1f5a784a5bcfed07226840907a91008860106090.1920x1080.jpg?t=1793917161"
+        }
+      ],
+      "movies": [
+        {
+          "id": 257471379,
+          "name": "Gameplay Screenshot Preview",
+          "thumbnail": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257471379/b6c30ebe7bd6dffa04eaad7fa361d488d891e0c9/movie_600x337.jpg?t=1793083540",
+          "dash_av1": "https://video.akamai.steamstatic.com/store_trailers/5466570/628194024/dc9da1d88b474fff1da423191a894000829ae201/1793083456/dash_av1.mpd?t=1793083540",
+          "dash_h264": "https://video.akamai.steamstatic.com/store_trailers/5466570/628194024/dc9da1d88b474fff1da423191a894000829ae201/1793083456/dash_h264.mpd?t=1793083540",
+          "hls_h264": "https://video.akamai.steamstatic.com/store_trailers/5466570/628194024/dc9da1d88b474fff1da423191a894000829ae201/1793083456/hls_264_master.m3u8?t=1793083540",
+          "highlight": true
+        }
+      ],
+      "release_date": {
+        "coming_soon": true,
+        "date": "即將推出"
+      },
+      "support_info": {
+        "url": "https://firesparkle.com/support/",
+        "email": "firesparkle.studio@gmail.com"
+      },
+      "background": "https://store.akamai.steamstatic.com/images/storepagebackground/app/5466570?t=1793917161",
+      "background_raw": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5466570/c41b24ea62e4bb2c4f728cb25fa46489a8ae54dd/page_bg_raw.jpg?t=1793917161",
+      "content_descriptors": {
+        "ids": [
+          1,
+          3,
+          4,
+          5
+        ],
+        "notes": "本遊戲僅適合成年人。含露骨性行為文字描寫、裸露、性侵與非自願性行為情節，以及暴力、死亡、自殺相關提及和飲酒。部分內容可能令玩家不適。所有涉及性情節的角色均已滿 18 歲，且沒有血親關係。"
+      },
+      "ratings": {
+        "dejus": {
+          "rating_generated": "1",
+          "rating": "18",
+          "required_age": "18",
+          "banned": "0",
+          "use_age_gate": "0",
+          "descriptors": "Nudez\nViolência\nTemas sensíveis"
+        },
+        "steam_germany": {
+          "rating_generated": "1",
+          "rating": "BANNED",
+          "required_age": "0",
+          "banned": "1",
+          "use_age_gate": "0",
+          "descriptors": "Sexualisierte Gewalt / Sexual violence\nSelbstmord\nAlkohol / Tabak"
+        }
+      }
+    }
+  }
+}

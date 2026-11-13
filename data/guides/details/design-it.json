@@ -1,10 +1,10 @@
 {
-  "source": "App Store 官方說明、1.2.0 更新記錄與 3 張官方截圖（2026-10-23 查詢，data/apple-lookup-2026-10-23.json、public/assets/screenshots/design-it/）",
+  "source": "App Store 台灣與美國官方說明及 1.2.1 更新記錄（2026-11-13 查詢，data/apple-lookup-2026-11-13-tw.json、data/apple-lookup-2026-11-13-us.json；trackId 6818286088）；既有操作細節另參照官方截圖 public/assets/screenshots/design-it/。",
   "zh": {
     "intro": [
       "想整理家的樣子，不必先學會專業繪圖。「自己來設計」把空間預覽、房間照片試色、材料比較與預算整理放在一起，讓你把想法整理成能和家人或設計師討論的方案。",
       "從客廳、臥室或工作區模板開始，切換地板、牆面、家具與日夜燈光；加入房間參考照片後，可以移動、旋轉家具並保存配置。照片試色採用手動選取與本機影像處理：手動調整四角範圍試色，比較原圖與效果，再匯出試色圖。支援 LiDAR 的 iPhone 與 iPad 還可以用 RoomPlan 掃描房間。",
-      "收藏候選材料，整理數量、運送與安裝費，分享預算明細；3D 格局則在 App 內使用 Sweet Home 3D 官方線上編輯器畫平面圖與擺家具（需要網路）。支援 20 種語言，不需註冊，核心功能離線可用。照片、掃描與配置保存在裝置上；模擬圖與預算僅供前期規劃參考，不是施工圖或正式報價。"
+      "收藏候選材料，整理數量、運送與安裝費，分享預算明細；3D 格局則在 App 內使用 Sweet Home 3D 官方線上編輯器畫平面圖與擺家具（需要網路）。支援 25 種語言，不需註冊，核心功能離線可用。照片、掃描與配置保存在裝置上；模擬圖與預算僅供前期規劃參考，不是施工圖或正式報價。"
     ],
     "features": [
       [
@@ -56,7 +56,7 @@
       ],
       [
         "語言與提醒",
-        "在設定或新手教學第一頁切換 20 種語言；提醒時間可選 1 天、3 天、7 天後或不提醒。"
+        "在設定或新手教學中切換 25 種語言；教學途中切換會保留目前步驟與已輸入的預算。提醒時間可選 1 天、3 天、7 天後或不提醒。"
       ]
     ],
     "tips": [
@@ -70,7 +70,7 @@
     "intro": [
       "Sorting out how your home should look does not require learning professional drafting. Design It Yourself brings space previews, colour tests on room photos, material comparison and budgeting together, so your ideas become a proposal you can discuss with family or a designer.",
       "Start from a living room, bedroom or workspace template and switch floors, walls, furniture and day or night lighting. Add a reference photo of your room, then move and rotate furniture and save the arrangement. Colour testing is manual and processed on the device: adjust a four-corner area, compare the result with the original and export the image. On LiDAR-equipped iPhones and iPads you can also scan a room with RoomPlan.",
-      "Save candidate materials, work out quantities, delivery and installation costs and share the budget breakdown. For 3D layouts, the official Sweet Home 3D online editor runs inside the app for drawing floor plans and placing furniture (internet required). The app comes in 20 languages, needs no account and works offline for its core features. Photos, scans and layouts stay on the device, and renderings and budgets are early-planning references, not construction drawings or formal quotes."
+      "Save candidate materials, work out quantities, delivery and installation costs and share the budget breakdown. For 3D layouts, the official Sweet Home 3D online editor runs inside the app for drawing floor plans and placing furniture (internet required). The app comes in 25 languages, needs no account and works offline for its core features. Photos, scans and layouts stay on the device, and renderings and budgets are early-planning references, not construction drawings or formal quotes."
     ],
     "features": [
       [
@@ -122,7 +122,7 @@
       ],
       [
         "Language and reminders",
-        "Switch among 20 languages in Settings or on the first tutorial page; reminders can be set for 1, 3 or 7 days later, or off."
+        "Switch among 25 languages in Settings or during the tutorial; switching mid-tutorial keeps your current step and any budget already entered. Reminders can be set for 1, 3 or 7 days later, or off."
       ]
     ],
     "tips": [

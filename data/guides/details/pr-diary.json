@@ -1,5 +1,5 @@
 {
-  "source": "App Store 官方說明、更新記錄與 7 張官方截圖（2026-10-23 查詢，data/apple-lookup-2026-10-23.json、public/assets/screenshots/pr-diary/）",
+  "source": "App Store 台灣與美國官方說明及 2.1.1 更新記錄（2026-11-13 查詢，data/apple-lookup-2026-11-13-tw.json、data/apple-lookup-2026-11-13-us.json；trackId 6761694656）；既有操作細節另參照官方截圖 public/assets/screenshots/pr-diary/。",
   "zh": {
     "intro": [
       "「公關日記」是一款以本機保存為主的多角色日記與工作整理 App，用來記錄每天的工作、互動、收入與待辦。首頁提供客人、小姐、男模與經紀四種身份入口，各自有對應的日記欄位，也整理了台灣在地的產業指南：常見店型、用語、消費觀念與安全提醒。",
@@ -28,14 +28,14 @@
         "Face ID、Touch ID 或裝置密碼解鎖，自設密碼的加密備份與安全匯入。"
       ],
       [
-        "桌面小工具與多語言",
-        "依身份一鍵進入記錄頁；支援繁體中文、簡體中文、英文與日文。"
+        "桌面小工具與 20 種語言",
+        "依身份一鍵進入記錄頁；App 與小工具支援 20 種語言，跟隨裝置偏好語言，阿拉伯文與烏爾都文採由右至左版面。"
       ]
     ],
     "stepDetails": [
       "在首頁選擇符合自己的身份：小姐、男模、客人或經紀，各自有常用功能，例如寫今天日記、客人總覽、記帳與排班。忙碌的當下先用「快速記錄」，只填幾個欄位把今天的重點留下，之後再補成完整日記。",
       "有空時打開那篇日記，依身份補上欄位：小姐與男模日記有財務與今日心情（例如週結薪資、今日實拿與散裝支出），客人日記記錄消費、互動對象與當日印象，經紀筆記則整理旗下藝人、業績與今日班表。確認後保存。",
-      "要回看時，用日期篩選、搜尋或月曆找到那一天，進入詳情頁查看，需要補充或修改就直接編輯。首頁的「今天重點」會整理待補日記、到期回訪與今日排班，簡單記帳摘要則把收支整理成一眼可見的數字。"
+      "要回看時，用日期篩選、搜尋或月曆找到那一天，進入詳情頁查看，需要補充或修改就直接編輯。首頁的「今天重點」會整理待補日記、到期回訪與今日排班，簡單記帳摘要則把收支整理成一眼可見的數字。 開啟已存日記時，未儲存的草稿會保留，直到你確認捨棄。"
     ],
     "more": [
       [
@@ -94,14 +94,14 @@
         "Unlock with Face ID, Touch ID or the device passcode; encrypted backups with your own password and safe import."
       ],
       [
-        "Widgets and languages",
-        "Jump straight to your role's entry page from the home screen; Traditional Chinese, Simplified Chinese, English and Japanese."
+        "Widgets and twenty languages",
+        "Jump straight to your role's entry page from the home screen. The app and widgets support 20 languages and follow the device preference, with right-to-left layouts for Arabic and Urdu."
       ]
     ],
     "stepDetails": [
       "On the home screen, choose your role — hostess, host, guest or manager. Each has its own shortcuts, such as writing today's diary, a guest overview, bookkeeping and shifts. In the middle of a busy day, use a quick entry: fill in just a few fields to capture the day's key points, then expand it into a full diary later.",
       "When you have a moment, open that entry and complete the fields for your role. Hostess and host diaries cover finances and today's mood (weekly pay, take-home for the day, small expenses and so on), the guest diary records spending, the people you met and your impressions, and the manager notebook organises your talent roster, performance and today's shifts. Save when done.",
-      "To look back, find the day with the date filter, search or the calendar, open its detail page and edit whenever you need to add or correct something. The home screen's highlights gather unfinished entries, follow-ups that are due and today's shifts, and the simple accounting summary turns income and spending into figures you can read at a glance."
+      "To look back, find the day with the date filter, search or the calendar, open its detail page and edit whenever you need to add or correct something. The home screen's highlights gather unfinished entries, follow-ups that are due and today's shifts, and the simple accounting summary turns income and spending into figures you can read at a glance. When you open a saved entry, an unsaved draft is kept until you confirm discarding it."
     ],
     "more": [
       [

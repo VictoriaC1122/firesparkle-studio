@@ -38,7 +38,6 @@
   "Add an inflation assumption and compare nominal and real returns to see the difference in purchasing power.": "インフレ率の想定を加え、名目リターンと実質リターンを比較して購買力の違いを見てみましょう。",
   "Change the regular contribution or calculation period, calculate again, and compare with the previous result.": "定期積立額や計算期間を変更して再計算し、前回の結果と比較しましょう。",
   "Choose Taiwan or US paper trading, search Taiwan securities or select from the built-in US list, and check your virtual funds.": "台湾株か米国株の模擬取引を選び、台湾の証券を検索するか米国株の内蔵リストから選んで、仮想資金を確認しましょう。",
-  "Place a simulated Taiwan order at the displayed closing price or a custom price, or enter your own price for a US order, and note your reason.": "台湾株は表示された終値か指定価格で模擬注文し、米国株は自分で価格を入力して、取引理由も記録しましょう。",
   "Review your holdings and transaction history after the simulation, and compare the outcome with the reason you recorded.": "模擬取引後に保有資産と取引履歴を確認し、結果を記録した理由と照らし合わせましょう。",
   "Choose a lesson from the blockchain basics path, read the concepts, and use the global search to look up unfamiliar terms.": "ブロックチェーン基礎コースからレッスンを選び、概念を読んで、わからない用語を全体検索で調べましょう。",
   "Read the asset-security topics on wallets, private keys and seed phrases, and save material you want to revisit.": "ウォレット、秘密鍵、シードフレーズなど資産保護の内容を読み、再確認したい資料を保存しましょう。",
@@ -48,5 +47,9 @@
   "Find an entry using date filters, search or the calendar, then open its details to add to or edit it.": "日付フィルター、検索、カレンダーで記録を探し、詳細を開いて追記や編集をしましょう。",
   "Import a PDF, image or document scan into your library.": "PDF、画像、またはスキャンした文書をライブラリに取り込みます。",
   "Read the original alongside your notes and review the paper breakdown.": "原文とメモを見比べながら読み、論文の構成を確認します。",
-  "Organise keywords and citations, then export a backup.": "キーワードと引用情報を整理し、バックアップを書き出します。"
+  "Organise keywords and citations, then export a backup.": "キーワードと引用情報を整理し、バックアップを書き出します。",
+  "Read an introductory lesson and check your understanding with a quiz.": "入門講座を読み、クイズで理解を確かめましょう。",
+  "Browse and compare financial institutions by type, checking sources and data dates.": "金融機関を種類別に探して比較し、情報源とデータの日付を確認しましょう。",
+  "Explore finance roles and related qualifications to identify skills to learn.": "金融業界の職種と関連資格を調べ、身につけたいスキルを整理しましょう。",
+  "Use the latest closing price or a custom price for a simulated Taiwan or US order, and record your reason.": "最新の終値または自分で設定した価格で台湾株・米国株の模擬注文を出し、取引の理由を記録しましょう。"
 }

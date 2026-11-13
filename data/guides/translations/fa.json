@@ -38,7 +38,6 @@
   "Add an inflation assumption and compare nominal and real returns to see the difference in purchasing power.": "یک فرض برای تورم اضافه کنید و بازده اسمی و واقعی را مقایسه کنید تا تفاوت قدرت خرید را ببینید.",
   "Change the regular contribution or calculation period, calculate again, and compare with the previous result.": "واریز دوره‌ای یا بازهٔ محاسبه را تغییر دهید، دوباره محاسبه کنید و با نتیجهٔ قبلی مقایسه کنید.",
   "Choose Taiwan or US paper trading, search Taiwan securities or select from the built-in US list, and check your virtual funds.": "معاملات آزمایشی تایوان یا آمریکا را انتخاب کنید، اوراق بهادار تایوان را جست‌وجو کنید یا از فهرست داخلی آمریکا انتخاب کنید و موجودی مجازی خود را ببینید.",
-  "Place a simulated Taiwan order at the displayed closing price or a custom price, or enter your own price for a US order, and note your reason.": "سفارش آزمایشی تایوان را با قیمت پایانی نمایش‌داده‌شده یا قیمت دلخواه ثبت کنید، یا برای سفارش آمریکا قیمت خودتان را وارد کنید و دلیلش را یادداشت کنید.",
   "Review your holdings and transaction history after the simulation, and compare the outcome with the reason you recorded.": "پس از شبیه‌سازی، دارایی‌ها و سابقهٔ معاملات را مرور کنید و نتیجه را با دلیلی که ثبت کرده‌اید مقایسه کنید.",
   "Choose a lesson from the blockchain basics path, read the concepts, and use the global search to look up unfamiliar terms.": "از مسیر مبانی بلاک‌چین یک درس انتخاب کنید، مفاهیم را بخوانید و برای اصطلاحات ناآشنا از جست‌وجوی سراسری استفاده کنید.",
   "Read the asset-security topics on wallets, private keys and seed phrases, and save material you want to revisit.": "مطالب امنیت دارایی دربارهٔ کیف پول، کلید خصوصی و عبارت بازیابی را بخوانید و مطالبی را که می‌خواهید دوباره ببینید ذخیره کنید.",
@@ -48,5 +47,9 @@
   "Find an entry using date filters, search or the calendar, then open its details to add to or edit it.": "با فیلتر تاریخ، جست‌وجو یا تقویم، نوشته‌ای را پیدا کنید و جزئیات آن را برای افزودن یا ویرایش باز کنید.",
   "Import a PDF, image or document scan into your library.": "یک فایل PDF، تصویر یا اسکن سند را به کتابخانهٔ خود وارد کنید.",
   "Read the original alongside your notes and review the paper breakdown.": "متن اصلی را در کنار یادداشت‌هایتان بخوانید و تحلیل بخش‌بندی‌شدهٔ مقاله را مرور کنید.",
-  "Organise keywords and citations, then export a backup.": "کلیدواژه‌ها و اطلاعات ارجاع را مرتب کنید، سپس از نسخهٔ پشتیبان خروجی بگیرید."
+  "Organise keywords and citations, then export a backup.": "کلیدواژه‌ها و اطلاعات ارجاع را مرتب کنید، سپس از نسخهٔ پشتیبان خروجی بگیرید.",
+  "Read an introductory lesson and check your understanding with a quiz.": "یک درس مقدماتی بخوانید و درک خود را با آزمونی کوتاه بسنجید.",
+  "Browse and compare financial institutions by type, checking sources and data dates.": "مؤسسات مالی را بر اساس نوع مرور و مقایسه کنید و منابع و تاریخ داده‌ها را بررسی کنید.",
+  "Explore finance roles and related qualifications to identify skills to learn.": "نقش‌های شغلی مالی و مدارک مرتبط را بررسی کنید تا مهارت‌های لازم برای یادگیری را بشناسید.",
+  "Use the latest closing price or a custom price for a simulated Taiwan or US order, and record your reason.": "برای یک سفارش شبیه‌سازی‌شدهٔ سهام تایوان یا آمریکا از آخرین قیمت پایانی یا قیمت دلخواه استفاده کنید و دلیل خود را ثبت کنید."
 }

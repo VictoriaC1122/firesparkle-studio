@@ -38,7 +38,6 @@
   "Add an inflation assumption and compare nominal and real returns to see the difference in purchasing power.": "Aggiungi un’ipotesi d’inflazione e confronta rendimenti nominali e reali per vedere la differenza di potere d’acquisto.",
   "Change the regular contribution or calculation period, calculate again, and compare with the previous result.": "Modifica il versamento regolare o il periodo di calcolo, ricalcola e confronta con il risultato precedente.",
   "Choose Taiwan or US paper trading, search Taiwan securities or select from the built-in US list, and check your virtual funds.": "Scegli il trading simulato di Taiwan o degli Stati Uniti, cerca titoli taiwanesi o selezionali dall’elenco statunitense integrato e controlla i fondi virtuali.",
-  "Place a simulated Taiwan order at the displayed closing price or a custom price, or enter your own price for a US order, and note your reason.": "Inserisci un ordine simulato taiwanese al prezzo di chiusura mostrato o a un prezzo personalizzato, oppure scegli il prezzo di un ordine statunitense, e annotane il motivo.",
   "Review your holdings and transaction history after the simulation, and compare the outcome with the reason you recorded.": "Dopo la simulazione, controlla le posizioni e la cronologia delle transazioni e confronta il risultato con il motivo annotato.",
   "Choose a lesson from the blockchain basics path, read the concepts, and use the global search to look up unfamiliar terms.": "Scegli una lezione del percorso sui fondamenti della blockchain, leggi i concetti e usa la ricerca globale per consultare i termini sconosciuti.",
   "Read the asset-security topics on wallets, private keys and seed phrases, and save material you want to revisit.": "Leggi i temi sulla sicurezza degli asset relativi a wallet, chiavi private e frasi di recupero e salva i materiali che vuoi rivedere.",
@@ -48,5 +47,9 @@
   "Find an entry using date filters, search or the calendar, then open its details to add to or edit it.": "Trova una voce con i filtri per data, la ricerca o il calendario, poi aprine i dettagli per aggiungere informazioni o modificarla.",
   "Import a PDF, image or document scan into your library.": "Importa un PDF, un’immagine o un documento scansionato nella tua biblioteca.",
   "Read the original alongside your notes and review the paper breakdown.": "Leggi il testo originale accanto ai tuoi appunti e consulta l’analisi strutturata dell’articolo.",
-  "Organise keywords and citations, then export a backup.": "Organizza parole chiave e riferimenti, quindi esporta una copia di backup."
+  "Organise keywords and citations, then export a backup.": "Organizza parole chiave e riferimenti, quindi esporta una copia di backup.",
+  "Read an introductory lesson and check your understanding with a quiz.": "Leggi una lezione introduttiva e verifica ciò che hai capito con un quiz.",
+  "Browse and compare financial institutions by type, checking sources and data dates.": "Sfoglia e confronta gli istituti finanziari per tipologia, verificando fonti e date dei dati.",
+  "Explore finance roles and related qualifications to identify skills to learn.": "Esplora le professioni della finanza e le relative qualifiche per individuare le competenze da acquisire.",
+  "Use the latest closing price or a custom price for a simulated Taiwan or US order, and record your reason.": "Usa l’ultimo prezzo di chiusura o un prezzo personalizzato per un ordine simulato su azioni di Taiwan o degli Stati Uniti e annota la tua motivazione."
 }
