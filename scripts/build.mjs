@@ -30,6 +30,7 @@ const brandVersion = await hash('data/brand/firesparkle-logo-original.png', 'pub
 const brandAsset = path => `${path}?v=${brandVersion}`;
 const catalog = JSON.parse(await read('data/apple-catalog.json'));
 const policies = JSON.parse(await read('data/privacy-sources/manifest.json')).apps;
+const androidPolicies = JSON.parse(await read('data/android-privacy.json'));
 const media = JSON.parse(await read('data/site-media.json'));
 const guideEntries = { games: JSON.parse(await read('data/guides/games.json')), apps: JSON.parse(await read('data/guides/apps.json')) };
 const { email } = site;
@@ -38,6 +39,12 @@ const base = (process.env.BASE_PATH || '').trim().replace(/\/+$/, '');
 // SITE_URL 是含部署子路徑的完整網址；未設定時沿用正式網域。
 const siteURL = (process.env.SITE_URL?.trim() || site.url).replace(/\/+$/, '');
 const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+function androidBlockFor(slug) {
+  const policy = androidPolicies[slug];
+  if (!policy) return '';
+  const paragraphs = text => text.split('\n').filter(line => line.trim()).map(line => `<p>${esc(line)}</p>`).join('');
+  return `<section class="policy-body" id="android" lang="zh-Hant"><h2>Android 版隱私政策 · Google Play</h2>${paragraphs(policy.zh)}<details lang="en"><summary>English — Android privacy policy</summary>${paragraphs(policy.en)}</details></section><h2>iOS 版既有隱私政策</h2>`;
+}
 const pad = (n) => String(n).padStart(2, '0');
 
 // --------------------------------------------------------------------------
@@ -150,7 +157,8 @@ ${renderAbout({ detail, isGame, T, esc })}
     const headings = new Set([...policyTitles, ...(p.policyHeadings || [])]);
     const blocks = text.split('\n').filter((x) => x.trim()).map((line) => (numericHeading.test(line) || headings.has(line.trim()) ? `<h2>${esc(line)}</h2>` : `<p>${esc(line)}</p>`)).join('');
     const notice = `<div class="policy-note"><p>${isWebsiteOnly(a) ? T('This existing notice covers the app’s information webpage only, not all data handling within the app. Email us for details about app data, storage or deletion.') : T('This is the app’s existing privacy policy, with the contact address updated to firesparkle.studio@gmail.com. References to the old site concern the original support site. For this website, see the <a href="/website-privacy/">website privacy notice</a>.')}</p><p class="policy-original-note">${T('The privacy policy below is kept in its original Traditional Chinese. Email the studio if you need an explanation in another language.')}</p></div>`;
-    const privacyContent = `<div class="wrap reading-wrap app-themed"${appTheme(a)}>${breadcrumb(L('隱私資訊', 'Privacy'), crumbLink(appURL(a), L(esc(a.short), esc(a.en))))}<header class="page-heading page-heading-app">${pageIcon(a)}<p class="eyebrow">${T('Privacy')}</p><h1>${L(`${esc(a.short)}<br>${isWebsiteOnly(a) ? '隱私資訊' : '隱私權政策'}`, `${esc(a.en)}<br>Privacy Policy`)}</h1><p class="lead">${p.policyUpdatedText ? `<span lang="zh-Hant" dir="ltr">${esc(p.policyUpdatedText)}</span>` : T('Based on the existing published policy')}</p></header>${notice}<article class="policy-body" lang="zh-Hant">${blocks}</article><div class="policy-source"><p><a href="${supportURL(a)}">${L('支援與聯絡', 'Support & contact')} ${arrow()}</a></p><p>${L('隱私或資料問題：', 'Privacy questions: ')}<a href="${mailto(`${a.short}｜隱私問題 Privacy`)}">${email}</a></p><p class="small">${L(`彙整日期：${p.compiledZh || site.policyCompiledZh}`, `Compiled on ${p.compiledEn || site.policyCompiledEn}`)}</p></div></div>`;
+    const androidBlock = androidBlockFor(a.slug);
+  const privacyContent = `<div class="wrap reading-wrap app-themed"${appTheme(a)}>${breadcrumb(L('隱私資訊', 'Privacy'), crumbLink(appURL(a), L(esc(a.short), esc(a.en))))}<header class="page-heading page-heading-app">${pageIcon(a)}<p class="eyebrow">${T('Privacy')}</p><h1>${L(`${esc(a.short)}<br>${isWebsiteOnly(a) ? '隱私資訊' : '隱私權政策'}`, `${esc(a.en)}<br>Privacy Policy`)}</h1><p class="lead">${p.policyUpdatedText ? `<span lang="zh-Hant" dir="ltr">${esc(p.policyUpdatedText)}</span>` : T('Based on the existing published policy')}</p></header>${androidBlock}${notice}<article class="policy-body" lang="zh-Hant">${blocks}</article><div class="policy-source"><p><a href="${supportURL(a)}">${L('支援與聯絡', 'Support & contact')} ${arrow()}</a></p><p>${L('隱私或資料問題：', 'Privacy questions: ')}<a href="${mailto(`${a.short}｜隱私問題 Privacy`)}">${email}</a></p><p class="small">${L(`彙整日期：${p.compiledZh || site.policyCompiledZh}`, `Compiled on ${p.compiledEn || site.policyCompiledEn}`)}</p></div></div>`;
     await save(`app/${a.slug}/privacy/index.html`, page({ path: policyURL(a), title: `${a.short}隱私資訊｜花火工作室 FireSparkle.Studio`, description: `${a.nameZhHant}的隱私政策與聯絡方式。`, content: privacyContent, navGroup: isGame ? 'games' : 'apps' }));
   }
 
@@ -164,7 +172,7 @@ ${renderAbout({ detail, isGame, T, esc })}
 
 const luxuryLegal=JSON.parse(await read('data/luxury-guide-legal.json'));
 for (const kind of ['privacy','terms']) {
-  await save(`app/luxury-guide/${kind}/index.html`,page({path:`/app/luxury-guide/${kind}/`,title:`名牌指南 Luxury Guide｜${kind==='privacy'?'隱私政策 Privacy Policy':'使用條款 Terms of Use'}`,description:'名牌指南的資料處理、使用規則與聯絡方式。Luxury Guide privacy, terms and contact.',content:renderLuxuryLegal(kind,luxuryLegal[kind],esc)}));
+  await save(`app/luxury-guide/${kind}/index.html`,page({path:`/app/luxury-guide/${kind}/`,title:`名牌指南 Luxury Guide｜${kind==='privacy'?'隱私政策 Privacy Policy':'使用條款 Terms of Use'}`,description:'名牌指南的資料處理、使用規則與聯絡方式。Luxury Guide privacy, terms and contact.',content:(kind==='privacy'?`<div class="wrap reading-wrap">${androidBlockFor('luxury-guide')}</div>`:'')+renderLuxuryLegal(kind,luxuryLegal[kind],esc)}));
 }
 await save('app/luxury-guide/support/index.html',page({path:'/app/luxury-guide/support/',title:'名牌指南 Luxury Guide｜支援與聯絡',description:'名牌指南的使用支援、資料管理與聯絡方式。Luxury Guide support.',content:renderLuxurySupport()}));
 
@@ -177,7 +185,7 @@ await save('app/finatlas/privacy/index.html', page({
   path: '/app/finatlas/privacy/',
   title: 'FinAtlas 隱私政策 Privacy Policy｜花火工作室 FireSparkle.Studio',
   description: 'FinAtlas 的本機學習資料、訂閱、備份、支援信件與刪除方式。FinAtlas data, subscriptions, backups, support and deletion.',
-  content: `<div class="wrap reading-wrap">${breadcrumb('FinAtlas 隱私政策 / Privacy Policy')}<header class="page-heading"><p class="eyebrow">FINATLAS</p><h1>隱私政策 / Privacy Policy</h1></header><nav class="policy-language-controls" aria-label="Policy language"><a href="#finatlas-zh" lang="zh-Hant">繁體中文</a><a href="#finatlas-en" lang="en">English</a></nav><article id="finatlas-zh" class="policy-body" lang="zh-Hant"><h2>FinAtlas 隱私政策</h2>${finatlasPrivacy['zh-Hant']}</article><article id="finatlas-en" class="policy-body" lang="en"><h2>FinAtlas Privacy Policy</h2>${finatlasPrivacy.en}</article><div class="policy-source"><a href="${mailto('FinAtlas | Privacy')}">${email}</a><p><a href="/support/">支援與聯絡 / Support</a></p></div></div>`
+  content: `<div class="wrap reading-wrap">${breadcrumb('FinAtlas 隱私政策 / Privacy Policy')}<header class="page-heading"><p class="eyebrow">FINATLAS</p><h1>隱私政策 / Privacy Policy</h1></header>${androidBlockFor('finatlas')}<nav class="policy-language-controls" aria-label="Policy language"><a href="#finatlas-zh" lang="zh-Hant">繁體中文</a><a href="#finatlas-en" lang="en">English</a></nav><article id="finatlas-zh" class="policy-body" lang="zh-Hant"><h2>FinAtlas 隱私政策</h2>${finatlasPrivacy['zh-Hant']}</article><article id="finatlas-en" class="policy-body" lang="en"><h2>FinAtlas Privacy Policy</h2>${finatlasPrivacy.en}</article><div class="policy-source"><a href="${mailto('FinAtlas | Privacy')}">${email}</a><p><a href="/support/">支援與聯絡 / Support</a></p></div></div>`
 }));
 
 await save('privacy/index.html', page({ path: '/privacy/', title: 'App 隱私政策｜花火工作室 FireSparkle.Studio', description: '依 App 查閱花火工作室各款 App 的資料處理、權限、保存與刪除方式。', content: `<div class="wrap reading-wrap privacy-list">${breadcrumb(L('App 隱私政策', 'App privacy'))}<header class="page-heading"><p class="eyebrow">${T('Privacy')}</p><h1>${L('隱私資訊', 'Privacy information')}</h1><p class="lead">${L('依作品查閱現有隱私說明與聯絡方式。', 'Find the available privacy information and contact details for each app or game.')}</p></header><div class="resource-list reveal">${appRows('privacy')}</div><p class="section-note">${L('這個官網本身的資料處理，請參閱<a href="/website-privacy/">網站隱私說明</a>。', 'For this website itself, see the <a href="/website-privacy/">website privacy notice</a>.')}</p></div>` }));
