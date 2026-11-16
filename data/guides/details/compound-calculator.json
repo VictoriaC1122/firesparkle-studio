@@ -1,5 +1,5 @@
 {
-  "source": "App Store 官方說明、更新記錄與 6 張官方截圖（2026-10-23 查詢，data/apple-lookup-2026-10-23.json、public/assets/screenshots/compound-calculator/）",
+  "source": "App Store 台灣與美國官方說明及 2.6.2 更新記錄（2026-11-16 查詢，data/apple-lookup-2026-11-16-tw.json、data/apple-lookup-2026-11-16-us.json）；操作畫面參照官方截圖 public/assets/screenshots/compound-calculator/。",
   "zh": {
     "intro": [
       "「複利計算器」是一套以長期規劃為核心的財務試算工具。它同時計算名義報酬與實質報酬，把通膨對購買力的影響一起算進去，讓你看到的不只是帳面數字，而是未來真正能用的金額。",
@@ -24,7 +24,8 @@
       ["退休規劃", "設定年支出或月支出與退休年齡等條件，估算退休後需要多少資產；Pro 加上提領規劃與壓力測試。"],
       ["貸款試算", "選擇貸款種類並填入條件，查看還款負擔與壓力判讀；Pro 的貸款分析加入升息壓力與償債安全的檢查。"],
       ["Pro 專屬工作室", "人生模擬（人生事件與達標時間）、財務顧問（年度健檢、目標反推與報告）與投資分析（情境比較與敏感度）。"],
-      ["備份與還原", "在設定匯出備份檔，內容包含已儲存的貸款、退休、顧問、人生模擬與投資計畫，以及計算預設值；換機或重裝後再匯入。"]
+      ["備份與還原", "在設定匯出備份檔，內容包含已儲存的貸款、退休、顧問、人生模擬與投資計畫，以及計算預設值；換機或重裝後再匯入。"],
+      ["人生規劃與自訂方案（Pro）", "人生規劃穩定度以 100 分制呈現，可展開查看模型說明。保存、命名、更名、複製或刪除自訂方案，設定基準並比較方案與目前草稿。"]
     ],
     "tips": [
       "報酬率請用保守一點的假設，並對照實質報酬一起看；所有數字都是情境估算，不是保證。",
@@ -57,7 +58,8 @@
       ["Retirement planning", "Set annual or monthly spending, retirement age and other conditions to estimate the assets you will need; Pro adds withdrawal planning and stress tests."],
       ["Loan calculator", "Choose a loan type and enter its terms to read the repayment burden and pressure rating; Pro's loan analysis adds rate-rise stress and debt-service safety checks."],
       ["Pro studio", "Life simulation (life events and when goals are reached), a financial advisor (annual check-up, working back from goals, reports) and investment analysis (scenario comparison and sensitivity)."],
-      ["Backup and restore", "Export a backup from Settings covering saved loan, retirement, advisor, life-simulation and investment plans plus your calculation defaults, then import it after changing or resetting your phone."]
+      ["Backup and restore", "Export a backup from Settings covering saved loan, retirement, advisor, life-simulation and investment plans plus your calculation defaults, then import it after changing or resetting your phone."],
+      ["Life planning and custom plans (Pro)", "Life-planning stability uses a 100-point scale with an expandable model explanation. Save, name, rename, duplicate or delete custom plans, set a baseline and compare saved plans with the current draft."]
     ],
     "tips": [
       "Use a conservative rate of return and always read the real return alongside it; the figures are scenario estimates, not promises.",

@@ -1,12 +1,12 @@
 {
-  "retrievedOn": "2026-11-13",
+  "retrievedOn": "2026-11-16",
   "storefront": "tw",
   "size": "1400x1400bb.jpg",
   "apps": {
     "compound-calculator": {
       "trackId": 6756014104,
       "name": "複利計算器-財務自由實現工具",
-      "version": "2.6.1",
+      "version": "2.6.2",
       "source": "https://apps.apple.com/tw/app/id6756014104",
       "iphone": [
         {
@@ -58,7 +58,8 @@
           "bytes": 125607
         }
       ],
-      "ipad": []
+      "ipad": [],
+      "verifiedOn": "2026-11-16"
     },
     "easy-draw": {
       "trackId": 6755403297,
@@ -115,12 +116,13 @@
           "bytes": 127572
         }
       ],
-      "ipad": []
+      "ipad": [],
+      "verifiedOn": "2026-11-16"
     },
     "stock-simulator": {
       "trackId": 6815299678,
       "name": "股神養成：台美股模擬交易",
-      "version": "2.7.1",
+      "version": "2.8.0",
       "source": "https://apps.apple.com/tw/app/id6815299678",
       "iphone": [
         {
@@ -148,7 +150,8 @@
           "bytes": 136173
         }
       ],
-      "ipad": []
+      "ipad": [],
+      "verifiedOn": "2026-11-16"
     },
     "vitamins": {
       "trackId": 6761441866,
@@ -205,7 +208,8 @@
           "bytes": 128834
         }
       ],
-      "ipad": []
+      "ipad": [],
+      "verifiedOn": "2026-11-16"
     },
     "crypto-dictionary": {
       "trackId": 6761411130,
@@ -262,12 +266,13 @@
           "bytes": 140080
         }
       ],
-      "ipad": []
+      "ipad": [],
+      "verifiedOn": "2026-11-16"
     },
     "perfect-pig": {
       "trackId": 6811446129,
       "name": "完美養豬",
-      "version": "1.5.1",
+      "version": "1.6.0",
       "source": "https://apps.apple.com/tw/app/id6811446129",
       "iphone": [
         {
@@ -327,7 +332,8 @@
           "bytes": 107889
         }
       ],
-      "ipad": []
+      "ipad": [],
+      "verifiedOn": "2026-11-16"
     },
     "design-it": {
       "trackId": 6818286088,
@@ -360,7 +366,8 @@
           "bytes": 165833
         }
       ],
-      "ipad": []
+      "ipad": [],
+      "verifiedOn": "2026-11-16"
     },
     "pr-diary": {
       "trackId": 6761694656,
@@ -425,7 +432,8 @@
           "bytes": 166828
         }
       ],
-      "ipad": []
+      "ipad": [],
+      "verifiedOn": "2026-11-16"
     },
     "larry-cocktail": {
       "trackId": 6761377948,
@@ -595,7 +603,8 @@
           "width": 1400,
           "bytes": 243791
         }
-      ]
+      ],
+      "verifiedOn": "2026-11-16"
     },
     "time-manager": {
       "trackId": 6754973616,
@@ -668,7 +677,8 @@
           "bytes": 143654
         }
       ],
-      "ipad": []
+      "ipad": [],
+      "verifiedOn": "2026-11-16"
     },
     "dream-journal": {
       "trackId": 6761692228,
@@ -701,7 +711,8 @@
           "bytes": 156992
         }
       ],
-      "ipad": []
+      "ipad": [],
+      "verifiedOn": "2026-11-16"
     },
     "coffee-chat": {
       "trackId": 6820863958,
@@ -742,7 +753,8 @@
           "bytes": 107467
         }
       ],
-      "ipad": []
+      "ipad": [],
+      "verifiedOn": "2026-11-16"
     },
     "semiconductors-illustrated": {
       "trackId": 6822188590,
@@ -783,7 +795,8 @@
           "bytes": 111189
         }
       ],
-      "ipad": []
+      "ipad": [],
+      "verifiedOn": "2026-11-16"
     },
     "milebutler": {
       "trackId": 6823824323,
@@ -840,7 +853,8 @@
           "bytes": 149376
         }
       ],
-      "ipad": []
+      "ipad": [],
+      "verifiedOn": "2026-11-16"
     },
     "future-major-guide": {
       "trackId": 6824004640,
@@ -913,12 +927,13 @@
           "bytes": 100177
         }
       ],
-      "ipad": []
+      "ipad": [],
+      "verifiedOn": "2026-11-16"
     },
     "paper-reading-desk": {
       "trackId": 6818310524,
       "name": "研究生讀 Paper 神器",
-      "version": "1.1.1",
+      "version": "1.1.2",
       "source": "https://apps.apple.com/tw/app/id6818310524",
       "iphone": [
         {
@@ -938,45 +953,62 @@
           "bytes": 169370
         }
       ],
-      "ipad": []
+      "ipad": [],
+      "verifiedOn": "2026-11-16"
     },
     "finatlas": {
       "trackId": 6830943408,
       "name": "FinAtlas 金融產業與職涯",
-      "version": "1.0",
+      "version": "1.1",
       "source": "https://apps.apple.com/tw/app/id6830943408",
       "iphone": [
         {
           "file": "/assets/screenshots/finatlas/iphone-01.jpg",
-          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/12/3b/fa/123bfa99-813d-ae86-69bc-5f86d1de484a/Store-zh-Hant-1.png/1400x1400bb.jpg",
-          "original": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/12/3b/fa/123bfa99-813d-ae86-69bc-5f86d1de484a/Store-zh-Hant-1.png/320x480bb.jpg",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/80/85/c1/8085c13b-ce23-f711-2e75-76be73f35c86/Store-zh-Hant-1.png/1400x1400bb.jpg",
+          "original": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/80/85/c1/8085c13b-ce23-f711-2e75-76be73f35c86/Store-zh-Hant-1.png/320x480bb.jpg",
           "height": 1400,
           "width": 644,
-          "bytes": 97516
+          "bytes": 103889
         },
         {
           "file": "/assets/screenshots/finatlas/iphone-02.jpg",
-          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1a/55/51/1a5551b7-ae43-f391-c6de-6eceb09bff67/Store-zh-Hant-2.png/1400x1400bb.jpg",
-          "original": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1a/55/51/1a5551b7-ae43-f391-c6de-6eceb09bff67/Store-zh-Hant-2.png/320x480bb.jpg",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/67/24/78/6724781b-38c8-0a8b-25ee-fc1395f19bcf/Store-zh-Hant-2.png/1400x1400bb.jpg",
+          "original": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/67/24/78/6724781b-38c8-0a8b-25ee-fc1395f19bcf/Store-zh-Hant-2.png/320x480bb.jpg",
           "height": 1400,
           "width": 644,
-          "bytes": 73273
+          "bytes": 79914
         },
         {
           "file": "/assets/screenshots/finatlas/iphone-03.jpg",
-          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/eb/c1/83/ebc1831c-0bec-5548-fc66-bd05b012b803/Store-zh-Hant-3.png/1400x1400bb.jpg",
-          "original": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/eb/c1/83/ebc1831c-0bec-5548-fc66-bd05b012b803/Store-zh-Hant-3.png/320x480bb.jpg",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/65/f2/07/65f2071c-e2ff-5ddd-02b4-df1d725f5728/Store-zh-Hant-3.png/1400x1400bb.jpg",
+          "original": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/65/f2/07/65f2071c-e2ff-5ddd-02b4-df1d725f5728/Store-zh-Hant-3.png/320x480bb.jpg",
           "height": 1400,
           "width": 644,
-          "bytes": 96604
+          "bytes": 106137
         },
         {
           "file": "/assets/screenshots/finatlas/iphone-04.jpg",
-          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/23/b2/e8/23b2e89a-ffd6-00e0-46c3-66a8114e0474/Store-zh-Hant-4-Pro.png/1400x1400bb.jpg",
-          "original": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/23/b2/e8/23b2e89a-ffd6-00e0-46c3-66a8114e0474/Store-zh-Hant-4-Pro.png/320x480bb.jpg",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a2/9c/3f/a29c3fce-5fe2-9b2f-e396-45976126398e/Store-zh-Hant-4-Pro.png/1400x1400bb.jpg",
+          "original": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a2/9c/3f/a29c3fce-5fe2-9b2f-e396-45976126398e/Store-zh-Hant-4-Pro.png/320x480bb.jpg",
           "height": 1400,
           "width": 644,
-          "bytes": 137340
+          "bytes": 150738
+        },
+        {
+          "file": "/assets/screenshots/finatlas/iphone-05.jpg",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f6/01/13/f601134a-9e8f-3fce-24bb-6cd111a13654/Store-zh-Hant-5-ProWorkspace.png/1400x1400bb.jpg",
+          "original": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f6/01/13/f601134a-9e8f-3fce-24bb-6cd111a13654/Store-zh-Hant-5-ProWorkspace.png/320x480bb.jpg",
+          "height": 1400,
+          "width": 644,
+          "bytes": 137642
+        },
+        {
+          "file": "/assets/screenshots/finatlas/iphone-06.jpg",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a7/24/b0/a724b0d2-0868-e14c-c5cd-0084fdf7cbf4/Store-zh-Hant-6-Sensitivity.png/1400x1400bb.jpg",
+          "original": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a7/24/b0/a724b0d2-0868-e14c-c5cd-0084fdf7cbf4/Store-zh-Hant-6-Sensitivity.png/320x480bb.jpg",
+          "height": 1400,
+          "width": 644,
+          "bytes": 90096
         }
       ],
       "ipad": []
@@ -1002,6 +1034,40 @@
           "width": 644,
           "height": 1400,
           "bytes": 124731
+        }
+      ],
+      "ipad": [],
+      "verifiedOn": "2026-11-16"
+    },
+    "adhd-compass": {
+      "trackId": 6830942101,
+      "name": "ADHD Compass",
+      "version": "1.0.0",
+      "source": "https://apps.apple.com/tw/app/id6830942101",
+      "iphone": [
+        {
+          "file": "/assets/screenshots/adhd-compass/iphone-01.jpg",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/84/93/36/84933658-0dc0-ff36-fc9a-8195a42d873a/5E346267-3142-41EE-AD7A-E1168BF34CAD.png/1400x1400bb.jpg",
+          "original": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/84/93/36/84933658-0dc0-ff36-fc9a-8195a42d873a/5E346267-3142-41EE-AD7A-E1168BF34CAD.png/320x480bb.jpg",
+          "height": 1400,
+          "width": 644,
+          "bytes": 100995
+        },
+        {
+          "file": "/assets/screenshots/adhd-compass/iphone-02.jpg",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a3/45/99/a34599e0-810d-ec4c-ba3f-98e922f997eb/A8A4CFE9-AE85-4140-A7FB-372FEFAC6B01.png/1400x1400bb.jpg",
+          "original": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a3/45/99/a34599e0-810d-ec4c-ba3f-98e922f997eb/A8A4CFE9-AE85-4140-A7FB-372FEFAC6B01.png/320x480bb.jpg",
+          "height": 1400,
+          "width": 644,
+          "bytes": 88205
+        },
+        {
+          "file": "/assets/screenshots/adhd-compass/iphone-03.jpg",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e7/0f/51/e70f51eb-4404-b7a2-19b2-08c792cb4ec5/89F5F68C-A16D-43F4-A6AB-E1CCCD1A4EA5.png/1400x1400bb.jpg",
+          "original": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e7/0f/51/e70f51eb-4404-b7a2-19b2-08c792cb4ec5/89F5F68C-A16D-43F4-A6AB-E1CCCD1A4EA5.png/320x480bb.jpg",
+          "height": 1400,
+          "width": 644,
+          "bytes": 96520
         }
       ],
       "ipad": []

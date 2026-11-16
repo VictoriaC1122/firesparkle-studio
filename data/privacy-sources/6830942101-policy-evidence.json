@@ -1,0 +1,9 @@
+{
+  "appId": "6830942101",
+  "retrievedOn": "2026-11-16",
+  "source": "https://firesparkle.com/app/adhd-compass/privacy/",
+  "renderer": "src/adhd-compass.mjs",
+  "rendererSha256": "8f9eef33ee2fd17640dfc31bb91a116357446de98d4d5389423413e21aee1dd8",
+  "baselineCommit": "42df5b3",
+  "notes": "Existing dedicated legal/support wording preserved verbatim; source extracted from the pre-existing privacy article."
+}

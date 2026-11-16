@@ -150,7 +150,7 @@ ${renderAbout({ detail, isGame, T, esc })}
   await save(`app/${a.slug}/index.html`, page({ path: appURL(a), title: `${a.nameZhHant}｜介紹、使用方式與畫面｜花火工作室 FireSparkle.Studio`, description: `${a.shortDescription} 完整介紹、主要功能、官方畫面、使用步驟與小提醒，以及 App Store 下載連結。`, content, navGroup: isGame ? 'games' : 'apps', extraHead: galleryHead }));
 
   // These apps retain their already published bilingual policy pages below.
-  if (!['finatlas', 'luxury-guide'].includes(a.slug)) {
+  if (!['finatlas', 'luxury-guide', 'adhd-compass'].includes(a.slug)) {
     const p = a.policy;
     const original = await read(`data/privacy-sources/${p.policyTextFile}`);
     const text = original.replace(oldEmails, email);
@@ -163,7 +163,7 @@ ${renderAbout({ detail, isGame, T, esc })}
   }
 
   // Luxury Guide keeps its original bilingual support page below.
-  if (a.slug === 'luxury-guide') continue;
+  if (['luxury-guide', 'adhd-compass'].includes(a.slug)) continue;
 
   // 支援與聯絡頁：App Store Connect 的支援網址；舊 GitHub 支援站的 support、contact、copyright 網址都轉到這裡
   const supportContent = `<div class="wrap reading-wrap app-themed"${appTheme(a)}>${breadcrumb(L('支援與聯絡', 'Support & contact'), crumbLink(appURL(a), L(esc(a.short), esc(a.en))))}<header class="page-heading page-heading-app">${pageIcon(a)}<p class="eyebrow">${T('Support & Contact')}</p><h1>${L(esc(a.nameZhHant), esc(a.en))}</h1><p class="lead">${L(esc(a.shortDescription), esc(a.enDesc))}</p></header>${a.slug === site.steam.slug ? renderSteamRelease({ site, app: a, L, T, esc, arrow }) : ''}${contactBox(a)}<nav class="support-links glass" aria-label="${esc(a.short)}"><a class="text-link" href="${policyURL(a)}">${isWebsiteOnly(a) ? L('隱私資訊', 'Privacy information') : L('隱私政策', 'Privacy policy')} ${arrow()}</a><a class="text-link" href="/support/">${L('支援與常見問題', 'Support & FAQ')} ${arrow()}</a><a class="text-link" href="${appURL(a)}#howto">${T('How to use')} ${arrow()}</a><a class="text-link" href="${a.storeUrl}">${L('在 App Store 查看', 'View on the App Store')} ${arrow('↗')}</a></nav><p class="copyright-line" id="copyright" lang="zh-Hant">${esc(site.copyright)}</p></div>`;

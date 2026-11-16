@@ -1,5 +1,5 @@
 {
-  "source": "App Store 台灣與美國官方說明及 1.1.1 更新記錄（2026-11-13 查詢，data/apple-lookup-2026-11-13-tw.json、data/apple-lookup-2026-11-13-us.json；trackId 6818310524）；既有操作細節另參照官方截圖 public/assets/screenshots/paper-reading-desk/。",
+  "source": "App Store 台灣與美國官方說明及 1.1.2 更新記錄（2026-11-16 查詢，data/apple-lookup-2026-11-16-tw.json、data/apple-lookup-2026-11-16-us.json）；操作畫面參照官方截圖 public/assets/screenshots/paper-reading-desk/。",
   "zh": {
     "intro": [
       "「研究生讀 Paper 神器」把文獻、閱讀紀錄與研究想法集中保存在自己的裝置上。匯入 PDF、圖片、照片或文件掃描，保留原檔副本，並在裝置上擷取文字，建立自己的文獻庫。",
@@ -21,7 +21,7 @@
       ],
       [
         "逐段翻譯",
-        "選擇裝置支援的語言，下載所需語言套件後在裝置上翻譯，對照原文與譯文。下載時顯示進度，可重新檢查或再次開啟下載視窗；可用功能依系統版本而異。"
+        "選擇裝置支援的語言，下載所需語言套件後在裝置上翻譯，對照原文與譯文。下載時可查看狀態、取消或重試；可用功能依系統版本而異。"
       ],
       [
         "筆記、搜尋與引用",
@@ -79,7 +79,7 @@
       ],
       [
         "Paragraph translation",
-        "Choose a language supported by your device, download the required language packs and compare on-device translations with the source. Downloads show progress and let you check again or reopen the download prompt; available features depend on the OS version."
+        "Choose a language supported by your device, download the required language packs and compare on-device translations with the source. Check download status, cancel or retry; available features depend on the OS version."
       ],
       [
         "Notes, search and citations",

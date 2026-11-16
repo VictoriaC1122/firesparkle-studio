@@ -1,5 +1,5 @@
 {
-  "source": "App Store 台灣與美國官方說明及 1.5.1 更新記錄（2026-11-13 查詢，data/apple-lookup-2026-11-13-tw.json、data/apple-lookup-2026-11-13-us.json；trackId 6811446129）；既有操作細節另參照官方截圖 public/assets/screenshots/perfect-pig/。",
+  "source": "App Store 台灣與美國官方說明及 1.6.0 更新記錄（2026-11-16 查詢，data/apple-lookup-2026-11-16-tw.json、data/apple-lookup-2026-11-16-us.json）；操作畫面參照官方截圖 public/assets/screenshots/perfect-pig/。",
   "zh": {
     "intro": [
       "替小豬取名字，用每天的餵食、散步、聊天與打工，陪牠養成有故事的生活。「完美養豬」有吃貨豬、陽光豬、認真豬、夢幻豬與撒嬌豬五種個性，以及 100 張卡牌與結局故事。完成七天成長後，可以自行決定結算或繼續陪伴；迎接下一代時，收藏與資源會保留。",
@@ -58,6 +58,10 @@
       [
         "換手機",
         "舊 App 保持登入時，取得有效五分鐘、只能使用一次的配對碼，在新裝置接續園地身份。"
+      ],
+      [
+        "小豬生活手帳",
+        "保存豬友合照與生活日記，參與合作任務、寄送明信片，布置房間並互訪，探索個性故事、每週活動及歷代回憶冊。"
       ]
     ],
     "tips": [
@@ -125,6 +129,10 @@
       [
         "Changing phones",
         "While the old app is still signed in, get a one-time pairing code valid for five minutes to continue your garden identity on the new device."
+      ],
+      [
+        "Piglet life journal",
+        "Keep Pig Pals group photos and daily diaries, join cooperative quests, send postcards, decorate rooms and visit friends, and explore personality stories, weekly events and a memory book across generations."
       ]
     ],
     "tips": [

@@ -1,0 +1,119 @@
+{
+  "source": "App Store 台灣與美國官方說明及 1.0.0 更新記錄（2026-11-16 查詢，data/apple-lookup-2026-11-16-tw.json、data/apple-lookup-2026-11-16-us.json）；操作畫面參照官方截圖 public/assets/screenshots/adhd-compass/。",
+  "zh": {
+    "intro": [
+      "ADHD Compass 將任務、專注計時、用藥與每日紀錄放在同一個地方。從今日總覽記下待辦、開始一段專注時間，再回顧自己填寫的心情、精力、睡眠與專注紀錄。",
+      "照護不同的人時，可分開保存觀察與預約，記下就診問題和後續事項。紀錄保存在裝置上，不需建立帳號，並可匯出或還原資料。",
+      "Pro 另提供命名計時設定、可重用流程與額外趨勢。App 內附九種語言的官方 ASRS v1.1 成人篩檢 PDF，但正式版本尚未開放 App 內作答，仍待獨立審閱；篩檢不是診斷或治療建議。"
+    ],
+    "features": [
+      [
+        "任務與今日總覽",
+        "新增待辦，整理當天的任務、身心狀態與接下來的行程。"
+      ],
+      [
+        "專注計時",
+        "選擇專注或休息時長開始計時；Pro 可保存命名計時設定及重用流程。"
+      ],
+      [
+        "用藥與每日紀錄",
+        "記下用藥與日常狀況，回顧自己填寫的觀察；紀錄不能用來判定藥物療效。"
+      ],
+      [
+        "分開保存照護資料",
+        "為不同受照顧者保存各自的觀察、預約、就診問題與後續事項。"
+      ],
+      [
+        "本機資料與備份",
+        "無須帳號，紀錄留在裝置；可匯出 JSON 或 CSV，並以 JSON 備份還原。"
+      ],
+      [
+        "官方參考資料",
+        "依主題查閱官方教育資源，附九種語言的成人篩檢官方 PDF；App 內作答尚未開放。"
+      ]
+    ],
+    "stepDetails": [
+      "從今日總覽新增任務，選擇要處理的事情。到專注計時器選擇時長，再開始計時；依需要安排休息，逐步完成任務。",
+      "記下用藥及每日狀況，再依日期或時間範圍回顧紀錄。照護多人時，將每位受照顧者的觀察分開保存；這些自我回報不等於診斷，也不能判斷藥物療效。",
+      "將預約、就診問題與後續事項整理在一起，方便回顧。到個人設定匯出 JSON 備份，日後需要時還原；匯出檔案可能包含健康或他人資訊，請妥善保管。"
+    ],
+    "more": [
+      [
+        "回顧一段時間",
+        "使用最近 7 天、最近 30 天或自選日期查看紀錄，觀察日常變化；Pro 另提供額外趨勢。"
+      ],
+      [
+        "保存常用流程（Pro）",
+        "替計時設定命名並保存，重用適合自己的流程。"
+      ],
+      [
+        "備份與裝置資料",
+        "App 資料不納入系統備份；刪除 App 或更換裝置前，先匯出並保留所需的 JSON 備份。"
+      ]
+    ],
+    "tips": [
+      "App 提供任務與個人紀錄工具，不提供診斷、治療或藥物劑量建議；相關問題請向合格醫療人員詢問。",
+      "官方 ASRS v1.1 成人篩檢 PDF 可供參考；App 內作答仍待獨立審閱，正式版本尚未開放。",
+      "記錄他人資料前應取得適當同意，只保存需要的內容。",
+      "介面支援十種語言。Pro 為選用訂閱，取消或管理方案請使用 Apple 訂閱設定。"
+    ]
+  },
+  "en": {
+    "intro": [
+      "ADHD Compass brings tasks, focus timers, medication records and daily notes into one place. Add a task from the daily overview, begin a focus session and review your own entries about mood, energy, sleep and attention.",
+      "Keep separate observations and appointments for each care recipient, including visit questions and follow-up actions. Records stay on your device without an account, with options to export and restore your data.",
+      "Pro adds saved, named timers, reusable routines and extra trends. Official ASRS v1.1 adult screening PDFs are available in nine languages, but in-app answering remains unavailable in the public release pending independent review. Screening is not a diagnosis or treatment recommendation."
+    ],
+    "features": [
+      [
+        "Tasks and daily overview",
+        "Add tasks and organise the day’s priorities, wellbeing entries and upcoming appointments."
+      ],
+      [
+        "Focus timers",
+        "Choose a focus or break duration and start a timer. Pro adds saved, named timer settings and reusable routines."
+      ],
+      [
+        "Medication and daily records",
+        "Record medication and daily notes, then revisit your own observations. These records cannot establish medication effectiveness."
+      ],
+      [
+        "Separate care records",
+        "Keep observations, appointments, visit questions and follow-up actions separately for each care recipient."
+      ],
+      [
+        "Local data and backups",
+        "No account is required. Records stay on the device; export JSON or CSV and restore a JSON backup."
+      ],
+      [
+        "Official references",
+        "Browse official educational resources by topic and adult screening PDFs in nine languages. In-app answering is not yet available."
+      ]
+    ],
+    "stepDetails": [
+      "Add a task from the daily overview and choose something to work on. Open the focus timer, select a duration and begin; plan breaks as needed and work through the task gradually.",
+      "Record medication and daily notes, then review entries by date or time range. Keep observations separate for each care recipient. These self-reported observations are not a diagnosis and cannot determine medication effectiveness.",
+      "Keep appointments, visit questions and follow-up actions together for later review. Export a JSON backup from Profile so you can restore it when needed. Exported files may contain health information or other people’s details; keep them private."
+    ],
+    "more": [
+      [
+        "Review a period",
+        "View records for the last 7 days, last 30 days or selected dates to review daily changes. Pro adds extra trends."
+      ],
+      [
+        "Save routines (Pro)",
+        "Name and save timer settings and reuse routines that suit you."
+      ],
+      [
+        "Backups and device data",
+        "App data is excluded from system backups. Export and keep the JSON backup you need before deleting the app or changing devices."
+      ]
+    ],
+    "tips": [
+      "The app is a task and personal-record tool, not a source of diagnosis, treatment or medication-dose advice. Discuss these questions with a qualified healthcare professional.",
+      "Official ASRS v1.1 adult screening PDFs are available for reference. In-app answering is not enabled in the public release while independent review is pending.",
+      "Obtain appropriate consent before recording another person’s information and keep only what you need.",
+      "The interface supports ten languages. Pro is an optional subscription; use Apple subscription settings to manage or cancel it."
+    ]
+  }
+}

@@ -1,28 +1,55 @@
 {
-  "source": "App Store 台灣與美國官方說明，版本 1.0，及 4 張官方 iPhone 截圖（2026-11-13 查詢：data/apple-lookup-2026-11-13-tw.json、data/apple-lookup-2026-11-13-us.json、public/assets/screenshots/finatlas/；https://apps.apple.com/tw/app/id6830943408、https://apps.apple.com/us/app/id6830943408）",
+  "source": "App Store 台灣與美國官方說明及 1.1 更新記錄（2026-11-16 查詢，data/apple-lookup-2026-11-16-tw.json、data/apple-lookup-2026-11-16-us.json）；操作畫面參照官方截圖 public/assets/screenshots/finatlas/。",
   "zh": {
     "intro": [
-      "FinAtlas 是金融產業與職涯學習指南，把入門課程、台灣金融機構名錄、職務與證照資訊整理在一起。從閱讀一堂課開始，透過測驗檢視理解，再保存自己的筆記、收藏與學習進度。",
-      "機構名錄可依類型查詢與比較，並提供官方來源及資料日期；職涯資訊則說明工作內容、所需技能與相關證照，幫助你整理想了解的方向。基礎課程、名錄與職涯資料可免費使用。",
-      "不需建立帳號，學習資料保存在裝置上，沒有廣告或第三方分析追蹤。FinAtlas Pro 另提供以虛構案例練習的企業授信模擬；其他工作模擬器與進階課程目前尚未提供。"
+      "FinAtlas 是以台灣與美國為主的金融產業與職涯學習指南，將課程、機構參考、科系職位地圖與案例工作簿放在一起。閱讀繁體中文或英文課程與實務案例，透過測驗、筆記及收藏整理學習。",
+      "依類型查詢與比較台灣金融機構及美國代表性機構，查看資料來源與日期。科系、課程與職位地圖連結 9 個科系、27 個課程主題與 22 個職位；能力缺口分析幫助整理下一步的準備方向。美國機構資料是研究導覽，不是完整持牌機構登記冊。",
+      "免費提供 16 個可計算、保存版本及還原輸入的單一情境工作簿。Pro 另有 8 個進階情境工作台，提供雙因子敏感度分析、三情境比較、決策備忘錄與 CSV 報告，並保留原有企業授信決策模擬。無須帳號，學習與案例資料保存在裝置上。"
     ],
     "features": [
-      ["金融課程與測驗", "閱讀繁體中文或英文入門課程，透過測驗檢視理解，保存筆記、收藏與學習進度。"],
-      ["台灣金融機構名錄", "依機構類型查詢與比較，查看官方來源及資料日期；未確認欄位會標示狀態。"],
-      ["職涯與證照探索", "了解金融職務的工作內容、所需技能與相關證照，整理下一步的學習方向。"],
-      ["Pro 企業授信模擬", "以虛構案例調整貸款條件、營收衰退與擔保品，查看財務比率、提交決策並閱讀解析。裝置保留最近 30 次結果，有效訂閱期間可重新檢視。"],
-      ["語言選擇", "介面可選繁中、簡中、英文、德文、泰文、日文、韓文、西班牙文、法文與葡萄牙文。完整課程提供繁中與英文，其他語言的部分介面尚未翻譯，會以英文顯示。"],
-      ["本機學習紀錄", "無須註冊，筆記、收藏與學習進度留在裝置上；開啟外部來源、購買與回復購買需要網路。"]
+      [
+        "金融課程與測驗",
+        "閱讀繁中或英文金融課程、實務案例與名詞，透過測驗、筆記及收藏整理學習；縮寫首次出現附完整英文。"
+      ],
+      [
+        "台美金融機構參考",
+        "依類型查詢與比較台灣名錄及美國代表性機構，查看官方來源、資料日期與欄位狀態。"
+      ],
+      [
+        "科系、課程與職位地圖",
+        "連結 9 個科系、27 個課程主題與 22 個職位，分開查看課程、最近測驗及同市場實作紀錄，找出準備方向。"
+      ],
+      [
+        "免費工作簿與 Pro 情境分析",
+        "16 個免費工作簿可計算及保存版本；Pro 加上 8 個進階工作台、雙因子 5 × 5 敏感度、三情境差額、決策備忘錄與 CSV 報告。"
+      ],
+      [
+        "語言選擇",
+        "介面可選繁中、簡中、英文、德文、泰文、日文、韓文、西班牙文、法文與葡萄牙文。完整課程提供繁中與英文，其他語言的部分介面尚未翻譯，會以英文顯示。"
+      ],
+      [
+        "本機學習紀錄",
+        "無須註冊，學習與案例資料留在裝置，無廣告、第三方分析追蹤、雲端同步或即時報價；外部來源與購買需要網路。"
+      ]
     ],
     "stepDetails": [
       "選擇一堂入門課程，以繁體中文或英文閱讀內容，再透過測驗檢視自己對概念的理解。將想保留的重點寫進筆記或加入收藏，學習進度會保存在裝置上。",
-      "在台灣金融機構名錄依類型查詢，查看感興趣的機構並進行比較。閱讀每筆資料的來源、日期與欄位狀態；名錄是資料快照，需要確認目前資訊時再開啟官方來源。",
-      "閱讀金融職務的工作內容與所需技能，再查看相關證照資訊，整理需要進一步學習的方向。職涯探索不代表錄取機會或資格認定，實際考試與資格要求應以官方最新公告為準。"
+      "依類型探索台灣金融機構及美國代表性機構，查看感興趣的機構並進行比較。閱讀每筆資料的來源、日期與欄位狀態；名錄是資料快照，美國資料也不是完整登記冊，需要確認目前資訊時再開啟官方來源。",
+      "閱讀金融職務與相關證照，透過科系、課程與職位地圖整理需要的技能。記錄目標市場、學位背景與已修主題，再查看課程、最近測驗及同市場實作紀錄。自報學歷與學習紀錄不代表資格認證或錄取機率。"
     ],
     "more": [
-      ["回顧學習重點", "使用已保存的筆記、收藏與學習進度，回到想繼續理解的課程內容。"],
-      ["嘗試授信情境（Pro）", "改變虛構企業案例的貸款條件、營收衰退與擔保品，觀察財務比率，再提交決策並閱讀解析。"],
-      ["重新檢視模擬結果（Pro）", "裝置保留最近 30 次企業授信模擬結果；在有效訂閱期間重新檢視，回顧不同條件下的練習。"]
+      [
+        "免費案例工作簿",
+        "調整估值、併購、授信、跨境交割及風險情境的假設，計算結果、保存版本並還原輸入。市場與計價幣別分開，切換幣別不會換匯。"
+      ],
+      [
+        "比較進階情境（Pro）",
+        "練習現金流或同業估值、槓桿收購、每股盈餘稀釋、綜效出價、授信容量、財務承諾與跨境交割，檢視敏感度及三情境差額，整理決策備忘錄並匯出 CSV。"
+      ],
+      [
+        "企業授信決策模擬（Pro）",
+        "原有虛構企業授信模擬仍可使用，裝置保留最近 30 次結果。專業分析需有效訂閱；已保存的基準假設仍可在免費工作簿使用。"
+      ]
     ],
     "tips": [
       "機構名錄與考試資訊有資料日期；需要確認當期資訊時，請查閱官方最新公告。",
@@ -33,27 +60,54 @@
   },
   "en": {
     "intro": [
-      "FinAtlas brings together introductory lessons, a Taiwan financial institution directory, roles and qualifications in a guide to the financial industry and careers. Read a lesson, check your understanding with a quiz, and save your notes, bookmarks and learning progress.",
-      "Browse and compare institutions by type with official sources and data dates. Career information explains responsibilities, required skills and related qualifications to help you identify areas to explore. Basic lessons, the directory and career information are free.",
-      "No account is required. Learning records stay on your device, with no ads or third-party analytics trackers. FinAtlas Pro adds corporate credit simulations using fictional cases; other work simulators and advanced courses are not yet available."
+      "FinAtlas is a guide to the financial industry and careers focused on Taiwan and the United States. It brings together lessons, institution references, a majors-to-roles map and case workbooks. Read Traditional Chinese or English lessons and practical cases, then organise your learning with quizzes, notes and bookmarks.",
+      "Browse and compare Taiwan financial institutions and representative US institutions with sources and data dates. The careers map connects 9 majors, 27 course topics and 22 roles, while a skills-gap analysis helps identify what to prepare next. The US institution reference is a research guide, not a complete register of licensed institutions.",
+      "Sixteen free single-scenario workbooks let you adjust assumptions, calculate results, save versions and restore inputs. Pro adds eight advanced scenario workbenches with two-factor sensitivity analysis, three-scenario comparisons, decision memos and CSV reports, alongside the existing corporate credit decision simulator. No account is required; learning and case records stay on your device."
     ],
     "features": [
-      ["Finance lessons and quizzes", "Read introductory lessons in Traditional Chinese or English, check your understanding with quizzes, and save notes, bookmarks and progress."],
-      ["Taiwan institution directory", "Browse and compare institutions by type, with official sources and data dates. Unverified fields are identified."],
-      ["Careers and qualifications", "Explore finance job responsibilities, required skills and related qualifications to identify what you want to learn next."],
-      ["Pro corporate credit simulation", "Adjust loan terms, revenue stress and collateral in fictional cases, review financial ratios, submit decisions and read explanations. The latest 30 results stay on your device and can be reviewed with an active subscription."],
-      ["Language options", "Choose Traditional Chinese, Simplified Chinese, English, German, Thai, Japanese, Korean, Spanish, French or Portuguese. Full lessons are available in Traditional Chinese and English; other languages have partial interface translations, with English for untranslated text."],
-      ["Local learning records", "No registration is needed. Notes, bookmarks and progress remain on the device; external sources, purchases and restoring purchases need an internet connection."]
+      [
+        "Finance lessons and quizzes",
+        "Read finance lessons, practical cases and terms in Traditional Chinese or English, with quizzes, notes and bookmarks. Abbreviations are expanded in English on first use."
+      ],
+      [
+        "Taiwan and US institution references",
+        "Browse and compare Taiwan directory entries and representative US institutions by type, with official sources, data dates and field status."
+      ],
+      [
+        "Majors, courses and roles",
+        "Connect 9 majors, 27 course topics and 22 roles. Review course progress, recent quizzes and practical work in the same market separately to identify your next steps."
+      ],
+      [
+        "Free workbooks and Pro scenario analysis",
+        "Calculate results and save versions in 16 free workbooks. Pro adds eight advanced workbenches, two-factor 5 × 5 sensitivity analysis, three-scenario differences, decision memos and CSV reports."
+      ],
+      [
+        "Language options",
+        "Choose Traditional Chinese, Simplified Chinese, English, German, Thai, Japanese, Korean, Spanish, French or Portuguese. Full lessons are available in Traditional Chinese and English; other languages have partial interface translations, with English for untranslated text."
+      ],
+      [
+        "Local learning records",
+        "No registration is needed. Learning and case records stay on the device, with no ads, third-party analytics, cloud sync or live quotes. External sources and purchases need internet access."
+      ]
     ],
     "stepDetails": [
       "Choose an introductory lesson and read it in Traditional Chinese or English, then use the quiz to check your understanding. Save key points in your notes or bookmarks; learning progress is kept on your device.",
-      "Browse the Taiwan financial institution directory by type, open institutions that interest you and compare them. Check each entry's source, date and field status. The directory is a dated snapshot, so follow the official source when you need to confirm current information.",
-      "Read about finance roles, their responsibilities and required skills, then explore related qualifications to identify subjects to study. Career exploration does not predict recruitment outcomes or establish eligibility; verify current examination and qualification requirements with official sources."
+      "Explore Taiwan financial institutions and representative US institutions by type, open entries that interest you and compare them. Check each entry’s source, date and field status. These are dated snapshots, and the US reference is not a complete register; follow the official source when you need current information.",
+      "Read about finance roles and related qualifications, then use the majors, courses and roles map to identify relevant skills. Record your target market, degree background and completed topics, and review course progress, recent quizzes and practical work in the same market. Self-reported education and learning records do not establish certification or recruitment chances."
     ],
     "more": [
-      ["Revisit learning points", "Use saved notes, bookmarks and progress to return to lesson material you want to understand further."],
-      ["Try credit scenarios (Pro)", "Change loan terms, revenue stress and collateral in fictional corporate cases, observe the financial ratios, then submit a decision and read the explanation."],
-      ["Review simulation results (Pro)", "The device keeps the latest 30 corporate credit simulation results. Revisit them while your subscription is active to review practice under different conditions."]
+      [
+        "Free case workbooks",
+        "Adjust assumptions for valuation, mergers and acquisitions, credit, cross-border settlement and risk cases. Calculate results, save versions and restore inputs. Market and reporting currency are separate; switching currency does not convert amounts."
+      ],
+      [
+        "Compare advanced scenarios (Pro)",
+        "Practise cash-flow and peer valuation, leveraged buyouts, earnings-per-share dilution, synergy bids, credit capacity, covenants and cross-border settlement. Review sensitivity and three-scenario differences, write decision memos and export CSV reports."
+      ],
+      [
+        "Corporate credit decisions (Pro)",
+        "The existing fictional corporate credit simulator remains available and keeps the latest 30 results on the device. Professional analysis requires an active subscription; saved baseline assumptions remain usable in free workbooks."
+      ]
     ],
     "tips": [
       "Institution and examination information has data dates. Check official announcements when you need current information.",

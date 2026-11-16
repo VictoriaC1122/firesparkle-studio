@@ -1,0 +1,16 @@
+資料儲存 / Local storage
+任務、用藥紀錄、每日紀錄、照護對象、預約、筆記與草稿保存在裝置上。App 不需要帳號，沒有廣告、分析或追蹤 SDK，也沒有由工作室提供的雲端同步。
+Tasks, medication logs, daily records, care profiles, appointments, notes and drafts stay on your device. No account is required. The app has no advertising, analytics or tracking SDK and no studio-operated cloud sync.
+匯出、還原與刪除 / Export, restore and deletion
+你可匯出 JSON 或 CSV，並以 JSON 還原資料。匯出檔案可能包含健康及他人資料，請自行保管。App 資料排除系統備份；刪除 App 或遺失裝置可能造成資料遺失。刪除 App 內資料不會刪除已分享的副本、支援郵件或 Apple 交易紀錄。
+You can export JSON or CSV and restore a JSON backup. Exports may contain health information or other people’s details; keep them private. App data is excluded from system backups. Deleting the app or losing the device may lose your records. In-app deletion does not remove shared copies, support emails or Apple transaction records.
+Apple 服務與通知 / Apple services and notifications
+購買與訂閱由 Apple StoreKit 處理，App 讀取交易狀態以判定 Pro 權限，不會取得付款卡號。裝置驗證使用 Apple 系統服務，工作室不會取得生物辨識資料或裝置密碼。提醒由本機通知處理；通知不顯示藥名、劑量或健康紀錄。
+Apple StoreKit handles purchases and subscriptions. The app reads transaction status for Pro access and does not receive payment-card numbers. Device authentication uses Apple services; the studio receives no biometric data or device passcode. Reminders are local notifications and do not display medication names, doses or health records.
+外部連結與支援 / External links and support
+App 內官方 PDF 隨程式提供。開啟外部網站時，該網站依自己的政策處理連線資料。寄信聯絡工作室時，我們會收到你的信箱、訊息及附件，僅用於回覆、排除問題或處理隱私請求，保留至處理及必要後續聯繫完成。信箱由 Gmail 提供，網站由 GitHub Pages 提供，其服務政策另行適用。
+Official PDFs are bundled with the app. External websites handle connection data under their own policies. Support emails provide your email address, message and attachments; we use them to respond, troubleshoot or handle privacy requests and retain them through necessary follow-up. Gmail hosts support email and GitHub Pages hosts this site; their policies apply separately.
+照護資料與聯絡 / Care information and contact
+記錄他人資訊前，請取得適當同意並只填寫必要內容。本 App 不提供兒童獨立帳號或兒童診斷問卷。資料權利請求、內容更正與支援請聯絡 firesparkle.studio@gmail.com。政策變更會在本頁標示日期；資料處理方式如有變動，會更新說明。
+Obtain appropriate consent before recording another person’s information and include only necessary details. The app provides no separate child accounts or child diagnostic questionnaires. Contact firesparkle.studio@gmail.com for data requests, corrections or support. Policy changes are dated on this page; changes to data handling will be disclosed.
+Apple Standard EULA · Apple Privacy · Google Privacy · GitHub Privacy

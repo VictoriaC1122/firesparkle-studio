@@ -2421,6 +2421,28 @@
       "evidenceFile": "6830889178-policy-evidence.json",
       "compiledZh": "2026 年 11 月 13 日",
       "compiledEn": "November 13, 2026"
+    },
+    "6830942101": {
+      "appId": "6830942101",
+      "appName": "ADHD Compass",
+      "appStoreURL": "https://apps.apple.com/tw/app/id6830942101",
+      "privacyURL": "https://firesparkle.com/app/adhd-compass/privacy/",
+      "supportURL": "https://firesparkle.com/app/adhd-compass/support/",
+      "marketingURL": "https://firesparkle.com/",
+      "contactEmail": "firesparkle.studio@gmail.com",
+      "contactEmails": [
+        "firesparkle.studio@gmail.com"
+      ],
+      "policyTextFile": "6830942101-policy-body.txt",
+      "policySourceURL": "https://firesparkle.com/app/adhd-compass/privacy/",
+      "policyStatus": "full_text_available",
+      "policyUpdatedText": "2026-11-05 · 繁體中文 / English",
+      "policyCompiledDate": "2026-11-16",
+      "policyTextCharacterCount": 2462,
+      "policyTextExtraction": "Extracted existing bilingual article text for source records; src/adhd-compass.mjs remains the unchanged dedicated renderer for privacy, terms and support.",
+      "evidenceFile": "6830942101-policy-evidence.json",
+      "compiledZh": "2026 年 11 月 16 日",
+      "compiledEn": "November 16, 2026"
     }
   },
   "schemaVersion": 2,

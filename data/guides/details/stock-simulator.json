@@ -1,5 +1,5 @@
 {
-  "source": "App Store 台灣與美國官方說明及 2.7.1 更新記錄（2026-11-13 查詢，data/apple-lookup-2026-11-13-tw.json、data/apple-lookup-2026-11-13-us.json；trackId 6815299678）；既有操作細節另參照官方截圖 public/assets/screenshots/stock-simulator/。",
+  "source": "App Store 台灣與美國官方說明及 2.8.0 更新記錄（2026-11-16 查詢，data/apple-lookup-2026-11-16-tw.json、data/apple-lookup-2026-11-16-us.json）；操作畫面參照官方截圖 public/assets/screenshots/stock-simulator/。",
   "zh": {
     "intro": [
       "「股神養成」是給股市新手的模擬交易工作台。用虛擬資金練習下單、寫下每一筆的理由，再回頭檢視持倉與交易結果；基本的股票模擬與教學完全免費，不需要註冊或登入。",
@@ -35,7 +35,7 @@
     "stepDetails": [
       "第一次使用可以跟著「新手快速開始」的三個步驟，了解資金、價格與下單。台股與美股是各自獨立的練習帳戶，預設資金分別是 NT$1,000,000 與 US$100,000；台股可以搜尋股票與 ETF 加入自選，美股則從內建清單選擇標的。",
       "在行情、自選或個股頁查看成交價、漲跌與幅度，再從個股頁底部的「買進／賣出」進入下單。台股可依顯示的收盤價或自訂價格成交，也可以建立指定價模擬委託；美股可用最新收盤價或自訂價格下單。送出前查看底部的預估金額與可買張數，並寫下交易理由，方便日後回顧。",
-      "到「我的持倉」查看持倉成本、估值、可用資金與已實現、未實現損益，再對照交易紀錄與當時寫下的理由。可選擇開啟裝置當地時間週一到週五 18:00 的回顧提醒，包含休市日；這不是價格或成交通知。想從頭練習時，可以重設模擬帳戶。"
+      "到「我的持倉」查看成本、估值、可用資金與已實現、未實現損益，再對照交易日誌與當時的理由。使用練習任務、每週回顧及可設定的回顧提醒；到期與盤後資金條件提醒也不是即時警報。想從頭練習時，可以重設模擬帳戶。"
     ],
     "more": [
       [
@@ -55,12 +55,16 @@
         "常用查詢（ETF、本益比、交割、殖利率、融資）與依主題瀏覽（第一次接觸、開戶與交易、商品全覽、公司與財報、風險管理、防詐與查證），收錄 111 個常用名詞；教學可隨時跳過，不影響模擬功能。"
       ],
       [
-        "匯出與設定",
-        "衍生品紀錄可以匯出；背景更新與語言可在設定調整，回顧提醒也能隨時關閉。"
+        "練習工具箱與備份",
+        "使用交易日誌、備份與還原、歷史封存及 CSV 匯出整理練習。設定可調整背景更新、語言與回顧提醒。"
       ],
       [
         "Pro 權益與既有紀錄",
         "有效訂閱用於開立新的衍生品部位；權益失效後，既有紀錄仍可查看、更新參考價、平倉與匯出。基本股票模擬與教學維持免費。"
+      ],
+      [
+        "Pro 風險與情境工具",
+        "使用持倉壓力測試、選擇權到期損益圖、既有部位多腿策略快照、情境比較與期貨部位預算規劃，檢視虛構練習假設的影響。"
       ]
     ],
     "tips": [
@@ -105,7 +109,7 @@
     "stepDetails": [
       "On first use, the three-step quick start explains virtual funds, prices and placing orders. Taiwan and US trading are separate practice accounts with NT$1,000,000 and US$100,000 to start; search Taiwan stocks and ETFs to add to your watchlist, and pick US symbols from the built-in list.",
       "Review the last price, change and percentage change in Quotes, Watchlist or a stock page, then use the Buy or Sell control pinned at the bottom of the stock page. Taiwan orders can fill at the displayed close or a custom price, or sit as a limit-price simulated order; US orders use the latest close or a custom price. Before submitting, check the estimate and how many lots you can buy, and write the reason for the trade so you can review it later.",
-      "Open your holdings to see cost, valuation, available funds and realised and unrealised profit or loss, then compare the transaction history with the reasons you wrote down. An optional review reminder runs Monday to Friday at 18:00 device-local time, including market holidays; it is not a price or fill alert. Reset the practice account whenever you want to start over."
+      "Open your holdings to see cost, valuation, available funds and realised and unrealised profit or loss, then review your trading journal and reasons. Use practice tasks, weekly reviews and configurable review reminders. Expiry and after-hours cash-condition reminders are not real-time alerts. Reset the practice account whenever you want to start over."
     ],
     "more": [
       [
@@ -125,12 +129,16 @@
         "Quick look-ups (ETF, P/E ratio, settlement, dividend yield, margin) and topics from first steps, accounts and trading, products, companies and financial statements, risk management to scams and verification, with 111 common terms; the tutorials can be skipped at any time without affecting the simulation."
       ],
       [
-        "Export and settings",
-        "Derivatives records can be exported; background updates and language are set in Settings, and the review reminder can be turned off at any time."
+        "Practice toolbox and backups",
+        "Organise practice with a trading journal, backup and restore, historical archives and CSV export. Settings controls background updates, language and review reminders."
       ],
       [
         "Pro access and existing records",
         "A valid subscription is required to open new derivatives positions. After access ends, existing records, reference-price updates, closing and export remain available; basic stock simulation and guides stay free."
+      ],
+      [
+        "Pro risk and scenario tools",
+        "Explore holding stress tests, option expiry profit-and-loss charts, multi-leg strategy snapshots of existing positions, scenario comparisons and futures position budgeting to examine simulated assumptions."
       ]
     ],
     "tips": [

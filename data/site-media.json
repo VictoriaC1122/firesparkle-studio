@@ -20,7 +20,7 @@
       "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/25/0d/97/250d976b-532c-1c6e-3873-56831d209bcd/0353F29F-A994-45B5-8992-45392F293141.png/1400x1400bb.jpg"
     ],
     "appName": "完美養豬",
-    "version": "1.5.1",
+    "version": "1.6.0",
     "retrievedOn": "2026-11-13",
     "device": "iPhone",
     "imageDimensions": [
@@ -52,7 +52,8 @@
         "width": 646,
         "height": 1400
       }
-    ]
+    ],
+    "verifiedOn": "2026-11-16"
   },
   "larry-cocktail": {
     "images": [
@@ -125,7 +126,8 @@
         "width": 1400,
         "height": 647
       }
-    ]
+    ],
+    "verifiedOn": "2026-11-16"
   },
   "dream-journal": {
     "images": [
@@ -156,7 +158,8 @@
         "width": 644,
         "height": 1400
       }
-    ]
+    ],
+    "verifiedOn": "2026-11-16"
   },
   "coffee-chat": {
     "images": [
@@ -193,7 +196,8 @@
         "width": 644,
         "height": 1400
       }
-    ]
+    ],
+    "verifiedOn": "2026-11-16"
   },
   "semiconductors-illustrated": {
     "images": [
@@ -230,7 +234,8 @@
         "width": 644,
         "height": 1400
       }
-    ]
+    ],
+    "verifiedOn": "2026-11-16"
   },
   "milebutler": {
     "images": [
@@ -279,7 +284,8 @@
         "width": 644,
         "height": 1400
       }
-    ]
+    ],
+    "verifiedOn": "2026-11-16"
   },
   "future-major-guide": {
     "images": [
@@ -340,7 +346,8 @@
         "width": 644,
         "height": 1400
       }
-    ]
+    ],
+    "verifiedOn": "2026-11-16"
   },
   "design-it": {
     "images": [
@@ -371,7 +378,8 @@
         "width": 644,
         "height": 1400
       }
-    ]
+    ],
+    "verifiedOn": "2026-11-16"
   },
   "time-manager": {
     "images": [
@@ -432,7 +440,8 @@
         "width": 644,
         "height": 1400
       }
-    ]
+    ],
+    "verifiedOn": "2026-11-16"
   },
   "vitamins": {
     "images": [
@@ -481,7 +490,8 @@
         "width": 644,
         "height": 1400
       }
-    ]
+    ],
+    "verifiedOn": "2026-11-16"
   },
   "easy-draw": {
     "images": [
@@ -530,7 +540,8 @@
         "width": 644,
         "height": 1400
       }
-    ]
+    ],
+    "verifiedOn": "2026-11-16"
   },
   "compound-calculator": {
     "images": [
@@ -551,7 +562,7 @@
       "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/31/de/91/31de91ff-855b-5f97-51c1-81f5a26ae4e2/06-retirement-reports-songti-coffee.jpg/1400x1400bb.jpg"
     ],
     "appName": "複利計算器-財務自由實現工具",
-    "version": "2.6.1",
+    "version": "2.6.2",
     "retrievedOn": "2026-11-13",
     "device": "iPhone",
     "imageDimensions": [
@@ -579,7 +590,8 @@
         "width": 644,
         "height": 1400
       }
-    ]
+    ],
+    "verifiedOn": "2026-11-16"
   },
   "stock-simulator": {
     "images": [
@@ -594,7 +606,7 @@
       "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/22/1a/65/221a65c6-4617-5119-5d64-528962cab8c4/04-credit-trading.jpg/1400x1400bb.jpg"
     ],
     "appName": "股神養成：台美股模擬交易",
-    "version": "2.7.1",
+    "version": "2.8.0",
     "retrievedOn": "2026-11-13",
     "device": "iPhone",
     "imageDimensions": [
@@ -610,7 +622,8 @@
         "width": 644,
         "height": 1400
       }
-    ]
+    ],
+    "verifiedOn": "2026-11-16"
   },
   "crypto-dictionary": {
     "images": [
@@ -659,7 +672,8 @@
         "width": 644,
         "height": 1400
       }
-    ]
+    ],
+    "verifiedOn": "2026-11-16"
   },
   "pr-diary": {
     "images": [
@@ -714,7 +728,8 @@
         "width": 644,
         "height": 1400
       }
-    ]
+    ],
+    "verifiedOn": "2026-11-16"
   },
   "paper-reading-desk": {
     "images": [
@@ -727,7 +742,7 @@
       "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/73/fd/31/73fd311a-5aab-e815-5034-7da588f1c9b5/02-notes.png/1400x1400bb.jpg"
     ],
     "appName": "研究生讀 Paper 神器",
-    "version": "1.1.1",
+    "version": "1.1.2",
     "retrievedOn": "2026-11-13",
     "device": "iPhone",
     "imageDimensions": [
@@ -739,27 +754,40 @@
         "width": 644,
         "height": 1400
       }
-    ]
+    ],
+    "verifiedOn": "2026-11-16"
   },
   "finatlas": {
     "images": [
       "/assets/screenshots/finatlas/iphone-01.jpg",
       "/assets/screenshots/finatlas/iphone-02.jpg",
       "/assets/screenshots/finatlas/iphone-03.jpg",
-      "/assets/screenshots/finatlas/iphone-04.jpg"
+      "/assets/screenshots/finatlas/iphone-04.jpg",
+      "/assets/screenshots/finatlas/iphone-05.jpg",
+      "/assets/screenshots/finatlas/iphone-06.jpg"
     ],
     "source": "https://apps.apple.com/tw/app/id6830943408",
     "imageSources": [
-      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/12/3b/fa/123bfa99-813d-ae86-69bc-5f86d1de484a/Store-zh-Hant-1.png/1400x1400bb.jpg",
-      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1a/55/51/1a5551b7-ae43-f391-c6de-6eceb09bff67/Store-zh-Hant-2.png/1400x1400bb.jpg",
-      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/eb/c1/83/ebc1831c-0bec-5548-fc66-bd05b012b803/Store-zh-Hant-3.png/1400x1400bb.jpg",
-      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/23/b2/e8/23b2e89a-ffd6-00e0-46c3-66a8114e0474/Store-zh-Hant-4-Pro.png/1400x1400bb.jpg"
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/80/85/c1/8085c13b-ce23-f711-2e75-76be73f35c86/Store-zh-Hant-1.png/1400x1400bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/67/24/78/6724781b-38c8-0a8b-25ee-fc1395f19bcf/Store-zh-Hant-2.png/1400x1400bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/65/f2/07/65f2071c-e2ff-5ddd-02b4-df1d725f5728/Store-zh-Hant-3.png/1400x1400bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a2/9c/3f/a29c3fce-5fe2-9b2f-e396-45976126398e/Store-zh-Hant-4-Pro.png/1400x1400bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f6/01/13/f601134a-9e8f-3fce-24bb-6cd111a13654/Store-zh-Hant-5-ProWorkspace.png/1400x1400bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a7/24/b0/a724b0d2-0868-e14c-c5cd-0084fdf7cbf4/Store-zh-Hant-6-Sensitivity.png/1400x1400bb.jpg"
     ],
     "appName": "FinAtlas 金融產業與職涯",
-    "version": "1.0",
-    "retrievedOn": "2026-11-13",
+    "version": "1.1",
+    "retrievedOn": "2026-11-16",
     "device": "iPhone",
     "imageDimensions": [
+      {
+        "width": 644,
+        "height": 1400
+      },
+      {
+        "width": 644,
+        "height": 1400
+      },
       {
         "width": 644,
         "height": 1400
@@ -793,6 +821,38 @@
     "retrievedOn": "2026-11-13",
     "device": "iPhone",
     "imageDimensions": [
+      {
+        "width": 644,
+        "height": 1400
+      },
+      {
+        "width": 644,
+        "height": 1400
+      }
+    ],
+    "verifiedOn": "2026-11-16"
+  },
+  "adhd-compass": {
+    "images": [
+      "/assets/screenshots/adhd-compass/iphone-01.jpg",
+      "/assets/screenshots/adhd-compass/iphone-02.jpg",
+      "/assets/screenshots/adhd-compass/iphone-03.jpg"
+    ],
+    "source": "https://apps.apple.com/tw/app/id6830942101",
+    "imageSources": [
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/84/93/36/84933658-0dc0-ff36-fc9a-8195a42d873a/5E346267-3142-41EE-AD7A-E1168BF34CAD.png/1400x1400bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a3/45/99/a34599e0-810d-ec4c-ba3f-98e922f997eb/A8A4CFE9-AE85-4140-A7FB-372FEFAC6B01.png/1400x1400bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e7/0f/51/e70f51eb-4404-b7a2-19b2-08c792cb4ec5/89F5F68C-A16D-43F4-A6AB-E1CCCD1A4EA5.png/1400x1400bb.jpg"
+    ],
+    "appName": "ADHD Compass",
+    "version": "1.0.0",
+    "retrievedOn": "2026-11-16",
+    "device": "iPhone",
+    "imageDimensions": [
+      {
+        "width": 644,
+        "height": 1400
+      },
       {
         "width": 644,
         "height": 1400

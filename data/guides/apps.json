@@ -388,5 +388,30 @@
       "https://apps.apple.com/tw/app/id6830889178",
       "https://apps.apple.com/us/app/id6830889178"
     ]
+  },
+  "adhd-compass": {
+    "steps": [
+      {
+        "en": "Add a task and use a focus timer to work on it.",
+        "zh": "新增任務，使用專注計時逐步完成。"
+      },
+      {
+        "en": "Record medication and daily notes, with separate observations for each care recipient.",
+        "zh": "記錄用藥與每日狀況，為每位受照顧者分開保存觀察。"
+      },
+      {
+        "en": "Keep appointments and visit questions together, and export a backup of your records.",
+        "zh": "整理預約與就診問題，並匯出紀錄備份。"
+      }
+    ],
+    "screenshots": [
+      1,
+      2,
+      0
+    ],
+    "sources": [
+      "https://apps.apple.com/tw/app/id6830942101",
+      "https://apps.apple.com/us/app/id6830942101"
+    ]
   }
 }
