@@ -59,7 +59,7 @@
         }
       ],
       "ipad": [],
-      "verifiedOn": "2026-11-17"
+      "verifiedOn": "2026-11-18"
     },
     "easy-draw": {
       "trackId": 6755403297,
@@ -117,7 +117,7 @@
         }
       ],
       "ipad": [],
-      "verifiedOn": "2026-11-17"
+      "verifiedOn": "2026-11-18"
     },
     "stock-simulator": {
       "trackId": 6815299678,
@@ -151,7 +151,7 @@
         }
       ],
       "ipad": [],
-      "verifiedOn": "2026-11-17"
+      "verifiedOn": "2026-11-18"
     },
     "vitamins": {
       "trackId": 6761441866,
@@ -209,7 +209,7 @@
         }
       ],
       "ipad": [],
-      "verifiedOn": "2026-11-17"
+      "verifiedOn": "2026-11-18"
     },
     "crypto-dictionary": {
       "trackId": 6761411130,
@@ -267,7 +267,7 @@
         }
       ],
       "ipad": [],
-      "verifiedOn": "2026-11-17"
+      "verifiedOn": "2026-11-18"
     },
     "perfect-pig": {
       "trackId": 6811446129,
@@ -333,12 +333,12 @@
         }
       ],
       "ipad": [],
-      "verifiedOn": "2026-11-17"
+      "verifiedOn": "2026-11-18"
     },
     "design-it": {
       "trackId": 6818286088,
       "name": "自己來設計",
-      "version": "1.2.1",
+      "version": "1.3.0",
       "source": "https://apps.apple.com/tw/app/id6818286088",
       "iphone": [
         {
@@ -367,7 +367,7 @@
         }
       ],
       "ipad": [],
-      "verifiedOn": "2026-11-17"
+      "verifiedOn": "2026-11-18"
     },
     "pr-diary": {
       "trackId": 6761694656,
@@ -433,7 +433,7 @@
         }
       ],
       "ipad": [],
-      "verifiedOn": "2026-11-17"
+      "verifiedOn": "2026-11-18"
     },
     "larry-cocktail": {
       "trackId": 6761377948,
@@ -604,7 +604,7 @@
           "bytes": 243791
         }
       ],
-      "verifiedOn": "2026-11-17"
+      "verifiedOn": "2026-11-18"
     },
     "time-manager": {
       "trackId": 6754973616,
@@ -678,7 +678,7 @@
         }
       ],
       "ipad": [],
-      "verifiedOn": "2026-11-17"
+      "verifiedOn": "2026-11-18"
     },
     "dream-journal": {
       "trackId": 6761692228,
@@ -712,12 +712,12 @@
         }
       ],
       "ipad": [],
-      "verifiedOn": "2026-11-17"
+      "verifiedOn": "2026-11-18"
     },
     "coffee-chat": {
       "trackId": 6820863958,
       "name": "Coffee Chat 筆記",
-      "version": "1.2.2",
+      "version": "1.2.3",
       "source": "https://apps.apple.com/tw/app/id6820863958",
       "iphone": [
         {
@@ -754,12 +754,12 @@
         }
       ],
       "ipad": [],
-      "verifiedOn": "2026-11-17"
+      "verifiedOn": "2026-11-18"
     },
     "semiconductors-illustrated": {
       "trackId": 6822188590,
       "name": "圖解半導體",
-      "version": "1.2.1",
+      "version": "1.2.2",
       "source": "https://apps.apple.com/tw/app/id6822188590",
       "iphone": [
         {
@@ -796,7 +796,7 @@
         }
       ],
       "ipad": [],
-      "verifiedOn": "2026-11-17"
+      "verifiedOn": "2026-11-18"
     },
     "milebutler": {
       "trackId": 6823824323,
@@ -854,7 +854,7 @@
         }
       ],
       "ipad": [],
-      "verifiedOn": "2026-11-17"
+      "verifiedOn": "2026-11-18"
     },
     "future-major-guide": {
       "trackId": 6824004640,
@@ -928,7 +928,7 @@
         }
       ],
       "ipad": [],
-      "verifiedOn": "2026-11-17"
+      "verifiedOn": "2026-11-18"
     },
     "paper-reading-desk": {
       "trackId": 6818310524,
@@ -954,65 +954,66 @@
         }
       ],
       "ipad": [],
-      "verifiedOn": "2026-11-17"
+      "verifiedOn": "2026-11-18"
     },
     "finatlas": {
       "trackId": 6830943408,
       "name": "FinAtlas 金融產業與職涯",
-      "version": "1.1",
+      "version": "1.2",
       "source": "https://apps.apple.com/tw/app/id6830943408",
       "iphone": [
         {
-          "file": "/assets/screenshots/finatlas/iphone-01.jpg",
-          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/80/85/c1/8085c13b-ce23-f711-2e75-76be73f35c86/Store-zh-Hant-1.png/1400x1400bb.jpg",
-          "original": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/80/85/c1/8085c13b-ce23-f711-2e75-76be73f35c86/Store-zh-Hant-1.png/320x480bb.jpg",
-          "height": 1400,
+          "file": "/assets/screenshots/finatlas/iphone-01.f7f815cf839b.jpg",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/41/32/e5/4132e590-33ae-f911-c8e1-5339087a1bc8/Store12-zh-Hant-1-Map.png/1400x1400bb.jpg",
+          "original": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/41/32/e5/4132e590-33ae-f911-c8e1-5339087a1bc8/Store12-zh-Hant-1-Map.png/320x480bb.jpg",
           "width": 644,
-          "bytes": 103889
+          "height": 1400,
+          "bytes": 99701
         },
         {
-          "file": "/assets/screenshots/finatlas/iphone-02.jpg",
-          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/67/24/78/6724781b-38c8-0a8b-25ee-fc1395f19bcf/Store-zh-Hant-2.png/1400x1400bb.jpg",
-          "original": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/67/24/78/6724781b-38c8-0a8b-25ee-fc1395f19bcf/Store-zh-Hant-2.png/320x480bb.jpg",
-          "height": 1400,
+          "file": "/assets/screenshots/finatlas/iphone-02.69b4880c930d.jpg",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ce/ed/ac/ceedacb4-a005-56f5-7fac-73b52555b098/Store12-zh-Hant-2-Route.png/1400x1400bb.jpg",
+          "original": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ce/ed/ac/ceedacb4-a005-56f5-7fac-73b52555b098/Store12-zh-Hant-2-Route.png/320x480bb.jpg",
           "width": 644,
-          "bytes": 79914
+          "height": 1400,
+          "bytes": 95560
         },
         {
-          "file": "/assets/screenshots/finatlas/iphone-03.jpg",
-          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/65/f2/07/65f2071c-e2ff-5ddd-02b4-df1d725f5728/Store-zh-Hant-3.png/1400x1400bb.jpg",
-          "original": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/65/f2/07/65f2071c-e2ff-5ddd-02b4-df1d725f5728/Store-zh-Hant-3.png/320x480bb.jpg",
-          "height": 1400,
+          "file": "/assets/screenshots/finatlas/iphone-03.ae7c54b61511.jpg",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/95/b0/81/95b0812b-cd55-e37c-564f-2a38331453d0/Store12-zh-Hant-3-Demo.png/1400x1400bb.jpg",
+          "original": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/95/b0/81/95b0812b-cd55-e37c-564f-2a38331453d0/Store12-zh-Hant-3-Demo.png/320x480bb.jpg",
           "width": 644,
-          "bytes": 106137
+          "height": 1400,
+          "bytes": 149248
         },
         {
-          "file": "/assets/screenshots/finatlas/iphone-04.jpg",
-          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a2/9c/3f/a29c3fce-5fe2-9b2f-e396-45976126398e/Store-zh-Hant-4-Pro.png/1400x1400bb.jpg",
-          "original": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a2/9c/3f/a29c3fce-5fe2-9b2f-e396-45976126398e/Store-zh-Hant-4-Pro.png/320x480bb.jpg",
-          "height": 1400,
+          "file": "/assets/screenshots/finatlas/iphone-04.9871d8a865bd.jpg",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/01/74/51/0174519e-24f7-d334-d59e-a5a3d86df238/Store12-zh-Hant-4-Practice.png/1400x1400bb.jpg",
+          "original": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/01/74/51/0174519e-24f7-d334-d59e-a5a3d86df238/Store12-zh-Hant-4-Practice.png/320x480bb.jpg",
           "width": 644,
-          "bytes": 150738
+          "height": 1400,
+          "bytes": 118943
         },
         {
-          "file": "/assets/screenshots/finatlas/iphone-05.jpg",
-          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f6/01/13/f601134a-9e8f-3fce-24bb-6cd111a13654/Store-zh-Hant-5-ProWorkspace.png/1400x1400bb.jpg",
-          "original": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f6/01/13/f601134a-9e8f-3fce-24bb-6cd111a13654/Store-zh-Hant-5-ProWorkspace.png/320x480bb.jpg",
-          "height": 1400,
+          "file": "/assets/screenshots/finatlas/iphone-05.2b6eb333f6bb.jpg",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f4/fb/6d/f4fb6d75-a54a-6e51-f796-fc66c6df1ffd/Store12-zh-Hant-5-Cases.png/1400x1400bb.jpg",
+          "original": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f4/fb/6d/f4fb6d75-a54a-6e51-f796-fc66c6df1ffd/Store12-zh-Hant-5-Cases.png/320x480bb.jpg",
           "width": 644,
-          "bytes": 137642
+          "height": 1400,
+          "bytes": 106855
         },
         {
-          "file": "/assets/screenshots/finatlas/iphone-06.jpg",
-          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a7/24/b0/a724b0d2-0868-e14c-c5cd-0084fdf7cbf4/Store-zh-Hant-6-Sensitivity.png/1400x1400bb.jpg",
-          "original": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a7/24/b0/a724b0d2-0868-e14c-c5cd-0084fdf7cbf4/Store-zh-Hant-6-Sensitivity.png/320x480bb.jpg",
-          "height": 1400,
+          "file": "/assets/screenshots/finatlas/iphone-06.3b54b9ee772b.jpg",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6b/a9/ba/6ba9ba25-1f6a-bbcd-fd26-697ccf82d181/Store12-zh-Hant-6-Professional.png/1400x1400bb.jpg",
+          "original": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6b/a9/ba/6ba9ba25-1f6a-bbcd-fd26-697ccf82d181/Store12-zh-Hant-6-Professional.png/320x480bb.jpg",
           "width": 644,
-          "bytes": 90096
+          "height": 1400,
+          "bytes": 132271
         }
       ],
       "ipad": [],
-      "verifiedOn": "2026-11-17"
+      "verifiedOn": "2026-11-18",
+      "retrievedOn": "2026-11-18"
     },
     "luxury-guide": {
       "trackId": 6830889178,
@@ -1038,42 +1039,35 @@
         }
       ],
       "ipad": [],
-      "verifiedOn": "2026-11-17"
+      "verifiedOn": "2026-11-18"
     },
     "adhd-compass": {
       "trackId": 6830942101,
       "name": "ADHD Compass",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "source": "https://apps.apple.com/tw/app/id6830942101",
       "iphone": [
         {
-          "file": "/assets/screenshots/adhd-compass/iphone-01.jpg",
-          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/84/93/36/84933658-0dc0-ff36-fc9a-8195a42d873a/5E346267-3142-41EE-AD7A-E1168BF34CAD.png/1400x1400bb.jpg",
-          "original": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/84/93/36/84933658-0dc0-ff36-fc9a-8195a42d873a/5E346267-3142-41EE-AD7A-E1168BF34CAD.png/320x480bb.jpg",
+          "file": "/assets/screenshots/adhd-compass/iphone-01.56a1a46a53ec.jpg",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/54/80/cb/5480cbc2-19a9-9c09-d873-d4e4c830aac6/zh-Hant--01-home.png/1400x1400bb.jpg",
+          "original": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/54/80/cb/5480cbc2-19a9-9c09-d873-d4e4c830aac6/zh-Hant--01-home.png/320x480bb.jpg",
+          "width": 646,
           "height": 1400,
-          "width": 644,
-          "bytes": 100995
+          "bytes": 96914
         },
         {
-          "file": "/assets/screenshots/adhd-compass/iphone-02.jpg",
-          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a3/45/99/a34599e0-810d-ec4c-ba3f-98e922f997eb/A8A4CFE9-AE85-4140-A7FB-372FEFAC6B01.png/1400x1400bb.jpg",
-          "original": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a3/45/99/a34599e0-810d-ec4c-ba3f-98e922f997eb/A8A4CFE9-AE85-4140-A7FB-372FEFAC6B01.png/320x480bb.jpg",
+          "file": "/assets/screenshots/adhd-compass/iphone-02.df43c0116658.jpg",
+          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f6/15/96/f6159623-6a94-a621-4bbd-14f76ef2a94a/zh-Hant--02-care.png/1400x1400bb.jpg",
+          "original": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f6/15/96/f6159623-6a94-a621-4bbd-14f76ef2a94a/zh-Hant--02-care.png/320x480bb.jpg",
+          "width": 646,
           "height": 1400,
-          "width": 644,
-          "bytes": 88205
-        },
-        {
-          "file": "/assets/screenshots/adhd-compass/iphone-03.jpg",
-          "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e7/0f/51/e70f51eb-4404-b7a2-19b2-08c792cb4ec5/89F5F68C-A16D-43F4-A6AB-E1CCCD1A4EA5.png/1400x1400bb.jpg",
-          "original": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e7/0f/51/e70f51eb-4404-b7a2-19b2-08c792cb4ec5/89F5F68C-A16D-43F4-A6AB-E1CCCD1A4EA5.png/320x480bb.jpg",
-          "height": 1400,
-          "width": 644,
-          "bytes": 96520
+          "bytes": 111343
         }
       ],
       "ipad": [],
-      "verifiedOn": "2026-11-17"
+      "verifiedOn": "2026-11-18",
+      "retrievedOn": "2026-11-18"
     }
   },
-  "verifiedOn": "2026-11-17"
+  "verifiedOn": "2026-11-18"
 }

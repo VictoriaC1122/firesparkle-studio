@@ -53,7 +53,7 @@
         "height": 1400
       }
     ],
-    "verifiedOn": "2026-11-17"
+    "verifiedOn": "2026-11-18"
   },
   "larry-cocktail": {
     "images": [
@@ -127,7 +127,7 @@
         "height": 647
       }
     ],
-    "verifiedOn": "2026-11-17"
+    "verifiedOn": "2026-11-18"
   },
   "dream-journal": {
     "images": [
@@ -159,7 +159,7 @@
         "height": 1400
       }
     ],
-    "verifiedOn": "2026-11-17"
+    "verifiedOn": "2026-11-18"
   },
   "coffee-chat": {
     "images": [
@@ -176,6 +176,44 @@
       "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e1/1e/55/e11e554a-127a-d774-ae47-da2e974f090c/04-agenda.png/1400x1400bb.jpg"
     ],
     "appName": "Coffee Chat 筆記",
+    "version": "1.2.3",
+    "retrievedOn": "2026-11-13",
+    "device": "iPhone",
+    "imageDimensions": [
+      {
+        "width": 644,
+        "height": 1400
+      },
+      {
+        "width": 644,
+        "height": 1400
+      },
+      {
+        "width": 644,
+        "height": 1400
+      },
+      {
+        "width": 644,
+        "height": 1400
+      }
+    ],
+    "verifiedOn": "2026-11-18"
+  },
+  "semiconductors-illustrated": {
+    "images": [
+      "/assets/screenshots/semiconductors-illustrated/iphone-01.jpg",
+      "/assets/screenshots/semiconductors-illustrated/iphone-02.jpg",
+      "/assets/screenshots/semiconductors-illustrated/iphone-03.jpg",
+      "/assets/screenshots/semiconductors-illustrated/iphone-04.jpg"
+    ],
+    "source": "https://apps.apple.com/tw/app/id6822188590",
+    "imageSources": [
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f7/5b/e6/f75be6b4-ebda-a94c-5732-c9ddf841e1b7/01-world.png/1400x1400bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/8d/c4/85/8dc48550-b3ed-3cea-2aa7-fdb3bf812890/02-manufacturing.png/1400x1400bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/59/ab/7c/59ab7cf1-b1ad-45c9-56eb-9d55ca4f6038/03-transistor.png/1400x1400bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9a/ff/73/9aff7378-f7df-5c12-7ea3-21327a57d6c5/04-practice.png/1400x1400bb.jpg"
+    ],
+    "appName": "圖解半導體",
     "version": "1.2.2",
     "retrievedOn": "2026-11-13",
     "device": "iPhone",
@@ -197,45 +235,7 @@
         "height": 1400
       }
     ],
-    "verifiedOn": "2026-11-17"
-  },
-  "semiconductors-illustrated": {
-    "images": [
-      "/assets/screenshots/semiconductors-illustrated/iphone-01.jpg",
-      "/assets/screenshots/semiconductors-illustrated/iphone-02.jpg",
-      "/assets/screenshots/semiconductors-illustrated/iphone-03.jpg",
-      "/assets/screenshots/semiconductors-illustrated/iphone-04.jpg"
-    ],
-    "source": "https://apps.apple.com/tw/app/id6822188590",
-    "imageSources": [
-      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f7/5b/e6/f75be6b4-ebda-a94c-5732-c9ddf841e1b7/01-world.png/1400x1400bb.jpg",
-      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/8d/c4/85/8dc48550-b3ed-3cea-2aa7-fdb3bf812890/02-manufacturing.png/1400x1400bb.jpg",
-      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/59/ab/7c/59ab7cf1-b1ad-45c9-56eb-9d55ca4f6038/03-transistor.png/1400x1400bb.jpg",
-      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9a/ff/73/9aff7378-f7df-5c12-7ea3-21327a57d6c5/04-practice.png/1400x1400bb.jpg"
-    ],
-    "appName": "圖解半導體",
-    "version": "1.2.1",
-    "retrievedOn": "2026-11-13",
-    "device": "iPhone",
-    "imageDimensions": [
-      {
-        "width": 644,
-        "height": 1400
-      },
-      {
-        "width": 644,
-        "height": 1400
-      },
-      {
-        "width": 644,
-        "height": 1400
-      },
-      {
-        "width": 644,
-        "height": 1400
-      }
-    ],
-    "verifiedOn": "2026-11-17"
+    "verifiedOn": "2026-11-18"
   },
   "milebutler": {
     "images": [
@@ -285,7 +285,7 @@
         "height": 1400
       }
     ],
-    "verifiedOn": "2026-11-17"
+    "verifiedOn": "2026-11-18"
   },
   "future-major-guide": {
     "images": [
@@ -347,7 +347,7 @@
         "height": 1400
       }
     ],
-    "verifiedOn": "2026-11-17"
+    "verifiedOn": "2026-11-18"
   },
   "design-it": {
     "images": [
@@ -362,7 +362,7 @@
       "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/1b/ba/cf/1bbacf11-782a-19af-a1ba-fd06ca439e70/iPhone-zh-Hant-03-budget.png/1400x1400bb.jpg"
     ],
     "appName": "自己來設計",
-    "version": "1.2.1",
+    "version": "1.3.0",
     "retrievedOn": "2026-11-13",
     "device": "iPhone",
     "imageDimensions": [
@@ -379,7 +379,7 @@
         "height": 1400
       }
     ],
-    "verifiedOn": "2026-11-17"
+    "verifiedOn": "2026-11-18"
   },
   "time-manager": {
     "images": [
@@ -441,7 +441,7 @@
         "height": 1400
       }
     ],
-    "verifiedOn": "2026-11-17"
+    "verifiedOn": "2026-11-18"
   },
   "vitamins": {
     "images": [
@@ -491,7 +491,7 @@
         "height": 1400
       }
     ],
-    "verifiedOn": "2026-11-17"
+    "verifiedOn": "2026-11-18"
   },
   "easy-draw": {
     "images": [
@@ -541,7 +541,7 @@
         "height": 1400
       }
     ],
-    "verifiedOn": "2026-11-17"
+    "verifiedOn": "2026-11-18"
   },
   "compound-calculator": {
     "images": [
@@ -591,7 +591,7 @@
         "height": 1400
       }
     ],
-    "verifiedOn": "2026-11-17"
+    "verifiedOn": "2026-11-18"
   },
   "stock-simulator": {
     "images": [
@@ -623,7 +623,7 @@
         "height": 1400
       }
     ],
-    "verifiedOn": "2026-11-17"
+    "verifiedOn": "2026-11-18"
   },
   "crypto-dictionary": {
     "images": [
@@ -673,7 +673,7 @@
         "height": 1400
       }
     ],
-    "verifiedOn": "2026-11-17"
+    "verifiedOn": "2026-11-18"
   },
   "pr-diary": {
     "images": [
@@ -729,7 +729,7 @@
         "height": 1400
       }
     ],
-    "verifiedOn": "2026-11-17"
+    "verifiedOn": "2026-11-18"
   },
   "paper-reading-desk": {
     "images": [
@@ -755,29 +755,29 @@
         "height": 1400
       }
     ],
-    "verifiedOn": "2026-11-17"
+    "verifiedOn": "2026-11-18"
   },
   "finatlas": {
     "images": [
-      "/assets/screenshots/finatlas/iphone-01.jpg",
-      "/assets/screenshots/finatlas/iphone-02.jpg",
-      "/assets/screenshots/finatlas/iphone-03.jpg",
-      "/assets/screenshots/finatlas/iphone-04.jpg",
-      "/assets/screenshots/finatlas/iphone-05.jpg",
-      "/assets/screenshots/finatlas/iphone-06.jpg"
+      "/assets/screenshots/finatlas/iphone-01.f7f815cf839b.jpg",
+      "/assets/screenshots/finatlas/iphone-02.69b4880c930d.jpg",
+      "/assets/screenshots/finatlas/iphone-03.ae7c54b61511.jpg",
+      "/assets/screenshots/finatlas/iphone-04.9871d8a865bd.jpg",
+      "/assets/screenshots/finatlas/iphone-05.2b6eb333f6bb.jpg",
+      "/assets/screenshots/finatlas/iphone-06.3b54b9ee772b.jpg"
     ],
     "source": "https://apps.apple.com/tw/app/id6830943408",
     "imageSources": [
-      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/80/85/c1/8085c13b-ce23-f711-2e75-76be73f35c86/Store-zh-Hant-1.png/1400x1400bb.jpg",
-      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/67/24/78/6724781b-38c8-0a8b-25ee-fc1395f19bcf/Store-zh-Hant-2.png/1400x1400bb.jpg",
-      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/65/f2/07/65f2071c-e2ff-5ddd-02b4-df1d725f5728/Store-zh-Hant-3.png/1400x1400bb.jpg",
-      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a2/9c/3f/a29c3fce-5fe2-9b2f-e396-45976126398e/Store-zh-Hant-4-Pro.png/1400x1400bb.jpg",
-      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f6/01/13/f601134a-9e8f-3fce-24bb-6cd111a13654/Store-zh-Hant-5-ProWorkspace.png/1400x1400bb.jpg",
-      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a7/24/b0/a724b0d2-0868-e14c-c5cd-0084fdf7cbf4/Store-zh-Hant-6-Sensitivity.png/1400x1400bb.jpg"
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/41/32/e5/4132e590-33ae-f911-c8e1-5339087a1bc8/Store12-zh-Hant-1-Map.png/1400x1400bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ce/ed/ac/ceedacb4-a005-56f5-7fac-73b52555b098/Store12-zh-Hant-2-Route.png/1400x1400bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/95/b0/81/95b0812b-cd55-e37c-564f-2a38331453d0/Store12-zh-Hant-3-Demo.png/1400x1400bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/01/74/51/0174519e-24f7-d334-d59e-a5a3d86df238/Store12-zh-Hant-4-Practice.png/1400x1400bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f4/fb/6d/f4fb6d75-a54a-6e51-f796-fc66c6df1ffd/Store12-zh-Hant-5-Cases.png/1400x1400bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6b/a9/ba/6ba9ba25-1f6a-bbcd-fd26-697ccf82d181/Store12-zh-Hant-6-Professional.png/1400x1400bb.jpg"
     ],
     "appName": "FinAtlas 金融產業與職涯",
-    "version": "1.1",
-    "retrievedOn": "2026-11-16",
+    "version": "1.2",
+    "retrievedOn": "2026-11-18",
     "device": "iPhone",
     "imageDimensions": [
       {
@@ -805,7 +805,7 @@
         "height": 1400
       }
     ],
-    "verifiedOn": "2026-11-17"
+    "verifiedOn": "2026-11-18"
   },
   "luxury-guide": {
     "images": [
@@ -831,38 +831,32 @@
         "height": 1400
       }
     ],
-    "verifiedOn": "2026-11-17"
+    "verifiedOn": "2026-11-18"
   },
   "adhd-compass": {
     "images": [
-      "/assets/screenshots/adhd-compass/iphone-01.jpg",
-      "/assets/screenshots/adhd-compass/iphone-02.jpg",
-      "/assets/screenshots/adhd-compass/iphone-03.jpg"
+      "/assets/screenshots/adhd-compass/iphone-01.56a1a46a53ec.jpg",
+      "/assets/screenshots/adhd-compass/iphone-02.df43c0116658.jpg"
     ],
     "source": "https://apps.apple.com/tw/app/id6830942101",
     "imageSources": [
-      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/84/93/36/84933658-0dc0-ff36-fc9a-8195a42d873a/5E346267-3142-41EE-AD7A-E1168BF34CAD.png/1400x1400bb.jpg",
-      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a3/45/99/a34599e0-810d-ec4c-ba3f-98e922f997eb/A8A4CFE9-AE85-4140-A7FB-372FEFAC6B01.png/1400x1400bb.jpg",
-      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e7/0f/51/e70f51eb-4404-b7a2-19b2-08c792cb4ec5/89F5F68C-A16D-43F4-A6AB-E1CCCD1A4EA5.png/1400x1400bb.jpg"
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/54/80/cb/5480cbc2-19a9-9c09-d873-d4e4c830aac6/zh-Hant--01-home.png/1400x1400bb.jpg",
+      "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f6/15/96/f6159623-6a94-a621-4bbd-14f76ef2a94a/zh-Hant--02-care.png/1400x1400bb.jpg"
     ],
     "appName": "ADHD Compass",
-    "version": "1.0.0",
-    "retrievedOn": "2026-11-16",
+    "version": "1.1.0",
+    "retrievedOn": "2026-11-18",
     "device": "iPhone",
     "imageDimensions": [
       {
-        "width": 644,
+        "width": 646,
         "height": 1400
       },
       {
-        "width": 644,
-        "height": 1400
-      },
-      {
-        "width": 644,
+        "width": 646,
         "height": 1400
       }
     ],
-    "verifiedOn": "2026-11-17"
+    "verifiedOn": "2026-11-18"
   }
 }

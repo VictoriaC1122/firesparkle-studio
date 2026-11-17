@@ -1,9 +1,9 @@
 {
-  "source": "App Store 台灣與美國官方說明及 1.2.2 更新記錄（2026-11-13 查詢，data/apple-lookup-2026-11-13-tw.json、data/apple-lookup-2026-11-13-us.json；trackId 6820863958）；既有操作細節另參照官方截圖 public/assets/screenshots/coffee-chat/。",
+  "source": "App Store 台灣與美國官方說明及 1.2.3 更新記錄（2026-11-18 查詢，data/apple-lookup-2026-11-18-tw.json、data/apple-lookup-2026-11-18-us.json；trackId 6820863958）；既有操作細節另參照官方截圖 public/assets/screenshots/coffee-chat/。",
   "zh": {
     "intro": [
       "每次交流，都是新的可能。「Coffee Chat 筆記」是一款為求職與職場交流打造的私人手帳，從會前準備、對話紀錄到後續跟進，把散落的資訊整理成清楚、可搜尋的職涯脈絡。",
-      "聯絡人頁整理對方的公司、職務、背景與互動紀錄，讓下一次見面更有準備；對話頁記錄 Coffee Chat 的提問、重點洞見與反思，之後可以編輯、搜尋與回顧；後續待辦與本機提醒接住每個下一步，並整理職涯機會。",
+      "聯絡人頁整理對方的公司、職務、背景與互動紀錄，讓下一次見面更有準備；對話頁記錄 Coffee Chat 的提問、重點洞見與反思，之後可以編輯、搜尋與回顧；後續待辦與本機提醒接住每個下一步，並整理職涯機會。首頁優先呈現待辦與最近對談，空白筆記本也提供更清楚的入門指引。",
       "不需要註冊 App 帳號，筆記儲存在裝置上，支援完整 JSON 備份與還原以及資料匯出，並可開啟 Face ID、Touch ID 或裝置密碼保護。介面支援繁體中文、英文、日文等 20 種語言，可跟隨系統或選擇淺色、深色外觀。"
     ],
     "features": [
@@ -17,11 +17,11 @@
       ],
       [
         "後續跟進",
-        "待辦連結到聯絡人或對話，設定日期與本機提醒；整理職涯機會。"
+        "待辦連結到聯絡人或對話，設定日期與本機提醒；首頁優先顯示待辦與最近對談，方便接續行動。"
       ],
       [
         "資料由你掌握",
-        "不需註冊，筆記儲存在裝置；完整 JSON 備份與還原、資料匯出、Face ID／Touch ID／裝置密碼保護。"
+        "不需註冊，筆記儲存在裝置；完整 JSON 備份與還原、資料匯出、草稿匣入口，以及 Face ID／Touch ID／裝置密碼保護。還原前可預覽保留或取代紀錄的選項。"
       ],
       [
         "Pro 進階工具（選用）",
@@ -34,8 +34,8 @@
     ],
     "stepDetails": [
       "在首頁按「新增人物」，填上姓名，再補上公司、職務、背景與關係資訊（例如類別與初次認識的日期）。人物檔案會集中顯示關係脈絡與未完成的待辦，見面前翻一下，就能想起上次聊到哪裡。",
-      "按「新增 Coffee Chat」，選擇參與者，先列出想問的問題；聊的時候逐一打勾，沒問到的可以直接帶到下一次。會後回到這則對話，記下重點洞見與自己的反思，之後都能搜尋與回顧。",
-      "從對話或人物建立後續待辦，例如寄出感謝信與作品集，設定日期並開啟本機提醒。「行程總覽」會把對話、跟進待辦與機會日期集中整理，方便安排下一次聯繫。"
+      "按「新增 Coffee Chat」，選擇參與者，先列出想問的問題；聊的時候逐一打勾，沒問到的可以直接帶到下一次。會後回到這則對話，記下重點洞見與自己的反思，之後都能搜尋與回顧。尚未完成的草稿可由備份頁直接開啟草稿匣查看。",
+      "從對話或人物建立後續待辦，例如寄出感謝信與作品集，設定日期並開啟本機提醒。「行程總覽」會把對話、跟進待辦與機會日期集中整理，方便安排下一次聯繫。回到首頁即可優先查看待辦與最近對談，接續下一步。"
     ],
     "more": [
       [
@@ -44,7 +44,7 @@
       ],
       [
         "備份與匯出",
-        "製作完整 JSON 備份，換機後還原；資料也可以匯出。備份與分享檔案可能含有私人資料，請存放在可信任的位置。"
+        "製作完整 JSON 備份，換機後還原；資料也可以匯出。備份頁說明本機保存與草稿，並可直接開啟草稿匣；還原預覽會完整列出保留或取代紀錄的選項，確認後再繼續。備份與分享檔案可能含有私人資料，請存放在可信任的位置。"
       ],
       [
         "解鎖保護",
@@ -63,13 +63,13 @@
       "會前列好三個真正想問的問題，比準備十個泛泛的問題更有收穫。",
       "會後當天就補筆記，印象最清楚；隔幾天再回頭看，寫下反思。",
       "每位聯絡人都記下「認識方式」，日後要再聯絡時，開場會自然很多。",
-      "筆記只保存在裝置上，請定期匯出 JSON 備份。"
+      "筆記只保存在裝置上，請定期匯出 JSON 備份；還原前先查看預覽，確認要保留或取代哪些紀錄。"
     ]
   },
   "en": {
     "intro": [
       "Every conversation opens a new possibility. Coffee Chat Note is a private notebook for job hunting and professional networking. From preparation before a meeting, through the conversation itself, to the follow-up afterwards, it gathers scattered information into a clear, searchable career thread.",
-      "Contact pages hold a person's company, role, background and your history together, so the next meeting starts better prepared. Conversation pages record each coffee chat's questions, key insights and reflections, ready to edit, search and revisit. Follow-up tasks with local reminders catch every next step, and opportunities are kept in order.",
+      "Contact pages hold a person's company, role, background and your history together, so the next meeting starts better prepared. Conversation pages record each coffee chat's questions, key insights and reflections, ready to edit, search and revisit. Follow-up tasks with local reminders catch every next step, and opportunities are kept in order. Home brings follow-ups and recent conversations forward, with clearer starting guidance for an empty notebook.",
       "No app account is needed. Notes live on the device, with full JSON backup and restore plus data export, and you can protect access with Face ID, Touch ID or the device passcode. The interface comes in 20 languages, including Traditional Chinese, English and Japanese, and follows the system or your choice of light or dark appearance."
     ],
     "features": [
@@ -83,11 +83,11 @@
       ],
       [
         "Follow-ups",
-        "Tasks linked to a person or conversation with a date and a local reminder; opportunities kept in order."
+        "Tasks linked to a person or conversation with a date and a local reminder. Home brings follow-ups and recent conversations forward so you can pick up the next step."
       ],
       [
         "Your data, your device",
-        "No registration; notes stored on the device with full JSON backup and restore, data export and Face ID, Touch ID or passcode protection."
+        "No registration; notes stay on the device with full JSON backup and restore, data export, access to unfinished drafts and Face ID, Touch ID or passcode protection. Preview the keep-or-replace choices before restoring."
       ],
       [
         "Pro tools (optional)",
@@ -100,8 +100,8 @@
     ],
     "stepDetails": [
       "On the home screen, add a person by name, then fill in their company, role, background and relationship details (such as category and the date you first met). The person's page brings together your history and any open tasks, so a quick look before meeting reminds you where you left off.",
-      "Start a new coffee chat, choose the participants and list the questions you want to ask; tick them off as you talk, and anything you did not get to can roll over to next time. Afterwards, return to the conversation to record the key insights and your own reflections, all searchable later.",
-      "Create a follow-up from the conversation or the person — sending a thank-you note and your portfolio, for example — set a date and turn on a local reminder. The schedule overview gathers conversations, follow-ups and opportunity dates in one place so you can plan the next contact."
+      "Start a new coffee chat, choose the participants and list the questions you want to ask; tick them off as you talk, and anything you did not get to can roll over to next time. Afterwards, return to the conversation to record the key insights and your own reflections, all searchable later. Open unfinished drafts directly from the backup page.",
+      "Create a follow-up from the conversation or the person — sending a thank-you note and your portfolio, for example — set a date and turn on a local reminder. The schedule overview gathers conversations, follow-ups and opportunity dates in one place so you can plan the next contact. Return to Home to see follow-ups and recent conversations first and continue with the next step."
     ],
     "more": [
       [
@@ -110,7 +110,7 @@
       ],
       [
         "Backup and export",
-        "Make a full JSON backup and restore it on a new phone; data can also be exported. Backup and shared files may contain private information, so keep them somewhere you trust."
+        "Make a full JSON backup and restore it on a new phone; data can also be exported. The backup page explains local storage and drafts and links directly to unfinished drafts. The restore preview shows the full keep-or-replace choices so you can review them before continuing. Backup and shared files may contain private information; keep them somewhere you trust."
       ],
       [
         "Unlock protection",
@@ -129,7 +129,7 @@
       "Three questions you actually want answered beat ten generic ones; write them down before the meeting.",
       "Add your notes the same day, while the impression is fresh, and come back a few days later for the reflection.",
       "Record how you met each person; it makes reopening the conversation much more natural later on.",
-      "Notes live only on your device, so export a JSON backup regularly."
+      "Notes live only on your device, so export a JSON backup regularly. Before restoring, review the preview and confirm which records to keep or replace."
     ]
   }
 }
