@@ -1,0 +1,169 @@
+{
+  "checkedAt": "2026-11-17T11:17:40+08:00",
+  "developer": {
+    "artistId": 1851202446,
+    "name": "Yung Wen Cheng",
+    "url": "https://apps.apple.com/tw/developer/yung-wen-cheng/id1851202446"
+  },
+  "sourceUrls": [
+    "https://itunes.apple.com/lookup?id=1851202446&entity=software&country=tw&limit=200&refresh=20261117031657",
+    "https://itunes.apple.com/lookup?id=1851202446&entity=software&country=us&limit=200&refresh=20261117031657",
+    "https://itunes.apple.com/search?country=tw&entity=software&term=Yung+Wen+Cheng&limit=200&timestamp=20261117031704",
+    "https://itunes.apple.com/search?country=us&entity=software&term=Yung+Wen+Cheng&limit=200&timestamp=20261117031704"
+  ],
+  "storefronts": [
+    "TW",
+    "US"
+  ],
+  "appCount": 19,
+  "newAppIds": [],
+  "versionChanges": [
+    {
+      "id": "6815299678",
+      "from": "2.8.0",
+      "to": "2.9.0"
+    }
+  ],
+  "comparedWith": "2026-11-16 verified 19-app catalog",
+  "crossChecks": [
+    "Existing explicit app IDs in TW and US",
+    "TW and US author search filtered by artistId",
+    "TW and US macSoftware author lookup"
+  ],
+  "standaloneMacAppCount": 0,
+  "apps": [
+    {
+      "id": "6756014104",
+      "titleZh": "複利計算器-財務自由實現工具",
+      "titleEn": "Investment Growth",
+      "versionTW": "2.6.2",
+      "versionUS": "2.6.2"
+    },
+    {
+      "id": "6761377948",
+      "titleZh": "賴瑞的調酒研究室",
+      "titleEn": "賴瑞的調酒研究室",
+      "versionTW": "1.1",
+      "versionUS": "1.1"
+    },
+    {
+      "id": "6755403297",
+      "titleZh": "輕鬆抽獎",
+      "titleEn": "輕鬆抽獎",
+      "versionTW": "1.7.1",
+      "versionUS": "1.7.1"
+    },
+    {
+      "id": "6761411130",
+      "titleZh": "幣圈神器-加密貨幣&區塊鏈學習字典",
+      "titleEn": "Crypto Guide: Bitcoin & Web3",
+      "versionTW": "2.0.1",
+      "versionUS": "2.0.1"
+    },
+    {
+      "id": "6761441866",
+      "titleZh": "你今天維他命了嗎",
+      "titleEn": "Vitamin Today",
+      "versionTW": "1.7.1",
+      "versionUS": "1.7.1"
+    },
+    {
+      "id": "6761692228",
+      "titleZh": "把夢遺留下來",
+      "titleEn": "Dream Keepsake",
+      "versionTW": "1.7.1",
+      "versionUS": "1.7.1"
+    },
+    {
+      "id": "6754973616",
+      "titleZh": "AI時間管理",
+      "titleEn": "AI Time Management",
+      "versionTW": "2.1.1",
+      "versionUS": "2.1.1"
+    },
+    {
+      "id": "6761694656",
+      "titleZh": "公關日記",
+      "titleEn": "PR Diary",
+      "versionTW": "2.1.1",
+      "versionUS": "2.1.1"
+    },
+    {
+      "id": "6818286088",
+      "titleZh": "自己來設計",
+      "titleEn": "Build It Yourself: Room Design",
+      "versionTW": "1.2.1",
+      "versionUS": "1.2.1"
+    },
+    {
+      "id": "6815299678",
+      "titleZh": "股神養成：台美股模擬交易",
+      "titleEn": "Stock Mastery: Paper Trading",
+      "versionTW": "2.9.0",
+      "versionUS": "2.9.0"
+    },
+    {
+      "id": "6811446129",
+      "titleZh": "完美養豬",
+      "titleEn": "Perfect Pig",
+      "versionTW": "1.6.0",
+      "versionUS": "1.6.0"
+    },
+    {
+      "id": "6820863958",
+      "titleZh": "Coffee Chat 筆記",
+      "titleEn": "Coffee Chat Note",
+      "versionTW": "1.2.2",
+      "versionUS": "1.2.2"
+    },
+    {
+      "id": "6822188590",
+      "titleZh": "圖解半導體",
+      "titleEn": "SemiVerse: Chips Illustrated",
+      "versionTW": "1.2.1",
+      "versionUS": "1.2.1"
+    },
+    {
+      "id": "6823824323",
+      "titleZh": "哩程管家：信用卡換機票試算",
+      "titleEn": "MileButler: Miles & Card Plans",
+      "versionTW": "1.0.2",
+      "versionUS": "1.0.2"
+    },
+    {
+      "id": "6824004640",
+      "titleZh": "我決定自己的未來-大學選系指南",
+      "titleEn": "Future Major Guide",
+      "versionTW": "1.1.1",
+      "versionUS": "1.1.1"
+    },
+    {
+      "id": "6818310524",
+      "titleZh": "研究生讀 Paper 神器",
+      "titleEn": "Paper Reading Desk",
+      "versionTW": "1.1.2",
+      "versionUS": "1.1.2"
+    },
+    {
+      "id": "6830943408",
+      "titleZh": "FinAtlas 金融產業與職涯",
+      "titleEn": "FinAtlas: Finance & Careers",
+      "versionTW": "1.1",
+      "versionUS": "1.1"
+    },
+    {
+      "id": "6830889178",
+      "titleZh": "名牌指南",
+      "titleEn": "Luxury Guide",
+      "versionTW": "1.0",
+      "versionUS": "1.0"
+    },
+    {
+      "id": "6830942101",
+      "titleZh": "ADHD Compass",
+      "titleEn": "ADHD Compass",
+      "versionTW": "1.0.0",
+      "versionUS": "1.0.0"
+    }
+  ]
+}

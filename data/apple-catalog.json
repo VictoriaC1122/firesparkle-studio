@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "retrievedOn": "2026-11-16",
+  "retrievedOn": "2026-11-17",
   "storefront": "TW",
   "locale": "zh-TW",
   "developer": {
@@ -17,7 +17,9 @@
     "https://itunes.apple.com/lookup?id=1851202446&entity=software&country=tw&limit=200&refresh=20261114",
     "https://itunes.apple.com/lookup?id=1851202446&entity=software&country=us&limit=200&refresh=20261114",
     "https://itunes.apple.com/lookup?id=1851202446&entity=software&country=tw&limit=200&refresh=20261116121718",
-    "https://itunes.apple.com/lookup?id=1851202446&entity=software&country=us&limit=200&refresh=20261116121718"
+    "https://itunes.apple.com/lookup?id=1851202446&entity=software&country=us&limit=200&refresh=20261116121718",
+    "https://itunes.apple.com/lookup?id=1851202446&entity=software&country=tw&limit=200&refresh=20261117031657",
+    "https://itunes.apple.com/lookup?id=1851202446&entity=software&country=us&limit=200&refresh=20261117031657"
   ],
   "rawMetadataFiles": [
     "apple-lookup-raw.json",
@@ -33,15 +35,17 @@
     "apple-lookup-2026-11-14-tw.json",
     "apple-lookup-2026-11-14-us.json",
     "apple-lookup-2026-11-16-tw.json",
-    "apple-lookup-2026-11-16-us.json"
+    "apple-lookup-2026-11-16-us.json",
+    "apple-lookup-2026-11-17-tw.json",
+    "apple-lookup-2026-11-17-us.json"
   ],
   "verification": {
     "softwareAppCount": 19,
     "standaloneMacAppCount": 0,
-    "scope": "2026-11-16 比對 Apple TW/US 作者清單，兩個商店均為 19 款；新增 ADHD Compass 1.0.0，更新複利計算器 2.6.2、股神養成 2.8.0、完美養豬 1.6.0、Paper Reading Desk 1.1.2、FinAtlas 1.1。詳細交叉查核見 catalog-verification-2026-11-16.json。",
+    "scope": "2026-11-17 比對 Apple TW/US 作者清單及明確 ID，兩個商店均為 19 款、沒有新作；股神養成由 2.8.0 更新為 2.9.0，其餘 18 款版本與主要 metadata 未變，全數官方截圖網址未變。詳細交叉查核見 catalog-verification-2026-11-17.json。",
     "publicPortfolioAppCount": 19,
     "newAppsVerifiedOn": "2026-11-16",
-    "lastCheckedAt": "2026-11-16T20:18:33+08:00"
+    "lastCheckedAt": "2026-11-17T11:17:40+08:00"
   },
   "apps": [
     {
@@ -71,7 +75,7 @@
         "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
         "https://firesparkle.com/app/compound-calculator/privacy/"
       ],
-      "retrievedOn": "2026-11-16",
+      "retrievedOn": "2026-11-17",
       "englishDisplayName": "Investment Growth",
       "englishDisplayNameSource": "Apple US lookup"
     },
@@ -99,7 +103,7 @@
       "contentRating": "4+",
       "originalSupportUrl": null,
       "descriptionUrls": [],
-      "retrievedOn": "2026-11-16",
+      "retrievedOn": "2026-11-17",
       "englishDisplayName": "輕鬆抽獎",
       "englishDisplayNameSource": "Apple US lookup"
     },
@@ -116,10 +120,10 @@
       ],
       "storeUrl": "https://apps.apple.com/tw/app/id6815299678",
       "originalStoreUrl": "https://apps.apple.com/tw/app/%E8%82%A1%E7%A5%9E%E9%A4%8A%E6%88%90-%E5%8F%B0%E7%BE%8E%E8%82%A1%E6%A8%A1%E6%93%AC%E4%BA%A4%E6%98%93/id6815299678?uo=4",
-      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a5/ef/57/a5ef570f-a7fa-1066-a917-f4d1bdcedd89/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/46/ab/af/46abaff8-54ea-d8f0-0743-52af1524704e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
       "iconPath": "/assets/apps/6815299678.jpg",
-      "version": "2.8.0",
-      "versionReleasedAt": "2026-11-15T20:44:01Z",
+      "version": "2.9.0",
+      "versionReleasedAt": "2026-11-16T22:39:21Z",
       "bundleId": "com.victoriac1122.badaogushen",
       "artistId": 1851202446,
       "artistName": "Yung Wen Cheng",
@@ -130,7 +134,7 @@
         "https://firesparkle.com/app/stock-simulator/privacy/",
         "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/"
       ],
-      "retrievedOn": "2026-11-16",
+      "retrievedOn": "2026-11-17",
       "englishDisplayName": "Stock Mastery: Paper Trading",
       "englishDisplayNameSource": "Apple US lookup"
     },
@@ -157,7 +161,7 @@
       "contentRating": "4+",
       "originalSupportUrl": null,
       "descriptionUrls": [],
-      "retrievedOn": "2026-11-16",
+      "retrievedOn": "2026-11-17",
       "englishDisplayName": "Vitamin Today",
       "englishDisplayNameSource": "Apple US lookup"
     },
@@ -187,7 +191,7 @@
         "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
         "https://victoriac1122.github.io/crypto-guide-support-site/privacy.html"
       ],
-      "retrievedOn": "2026-11-16",
+      "retrievedOn": "2026-11-17",
       "englishDisplayName": "Crypto Guide: Bitcoin & Web3",
       "englishDisplayNameSource": "Apple US lookup"
     },
@@ -216,7 +220,7 @@
       "contentRating": "9+",
       "originalSupportUrl": "https://victoriac1122.github.io/perfect-pig-legal-center/?lang=zh-Hant",
       "descriptionUrls": [],
-      "retrievedOn": "2026-11-16",
+      "retrievedOn": "2026-11-17",
       "englishDisplayName": "Perfect Pig",
       "englishDisplayNameSource": "Apple US lookup"
     },
@@ -246,7 +250,7 @@
       "descriptionUrls": [
         "https://victoriac1122.github.io/design-it-yourself-privacy-policy/"
       ],
-      "retrievedOn": "2026-11-16",
+      "retrievedOn": "2026-11-17",
       "englishDisplayName": "Build It Yourself: Room Design",
       "englishDisplayNameSource": "Apple US lookup"
     },
@@ -275,7 +279,7 @@
       "descriptionUrls": [
         "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/"
       ],
-      "retrievedOn": "2026-11-16",
+      "retrievedOn": "2026-11-17",
       "englishDisplayName": "PR Diary",
       "englishDisplayNameSource": "Apple US lookup"
     },
@@ -302,7 +306,7 @@
       "contentRating": "17+",
       "originalSupportUrl": null,
       "descriptionUrls": [],
-      "retrievedOn": "2026-11-16",
+      "retrievedOn": "2026-11-17",
       "englishDisplayName": "賴瑞的調酒研究室",
       "englishDisplayNameSource": "Apple US lookup"
     },
@@ -330,7 +334,7 @@
       "contentRating": "4+",
       "originalSupportUrl": null,
       "descriptionUrls": [],
-      "retrievedOn": "2026-11-16",
+      "retrievedOn": "2026-11-17",
       "englishDisplayName": "AI Time Management",
       "englishDisplayNameSource": "Apple US lookup"
     },
@@ -360,7 +364,7 @@
         "https://firesparkle.com/app/dream-journal/privacy/",
         "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/"
       ],
-      "retrievedOn": "2026-11-16",
+      "retrievedOn": "2026-11-17",
       "englishDisplayName": "Dream Keepsake",
       "englishDisplayNameSource": "Apple US lookup"
     },
@@ -391,7 +395,7 @@
         "https://firesparkle.com/app/coffee-chat/privacy/",
         "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/"
       ],
-      "retrievedOn": "2026-11-16",
+      "retrievedOn": "2026-11-17",
       "englishDisplayName": "Coffee Chat Note",
       "englishDisplayNameSource": "Apple US lookup"
     },
@@ -422,7 +426,7 @@
         "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
         "https://firesparkle.com/app/semiconductors-illustrated/privacy/"
       ],
-      "retrievedOn": "2026-11-16",
+      "retrievedOn": "2026-11-17",
       "englishDisplayName": "SemiVerse: Chips Illustrated",
       "englishDisplayNameSource": "Apple US lookup"
     },
@@ -453,7 +457,7 @@
         "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
         "https://firesparkle.com/app/milebutler/privacy/"
       ],
-      "retrievedOn": "2026-11-16",
+      "retrievedOn": "2026-11-17",
       "englishDisplayName": "MileButler: Miles & Card Plans",
       "englishDisplayNameSource": "Apple US lookup"
     },
@@ -484,7 +488,7 @@
         "https://firesparkle.com/app/future-major-guide/privacy/",
         "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/"
       ],
-      "retrievedOn": "2026-11-16",
+      "retrievedOn": "2026-11-17",
       "englishDisplayName": "Future Major Guide",
       "englishDisplayNameSource": "Apple US lookup"
     },
@@ -515,7 +519,7 @@
         "https://firesparkle.com/app/paper-reading-desk/support/",
         "https://firesparkle.com/app/paper-reading-desk/privacy/"
       ],
-      "retrievedOn": "2026-11-16",
+      "retrievedOn": "2026-11-17",
       "englishDisplayName": "Paper Reading Desk",
       "englishDisplayNameSource": "Apple US lookup"
     },
@@ -546,7 +550,7 @@
         "https://firesparkle.com/app/finatlas/privacy/",
         "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/"
       ],
-      "retrievedOn": "2026-11-16",
+      "retrievedOn": "2026-11-17",
       "englishDisplayName": "FinAtlas: Finance & Careers",
       "englishDisplayNameSource": "Apple US lookup"
     },
@@ -577,7 +581,7 @@
         "https://firesparkle.com/app/luxury-guide/privacy/",
         "https://firesparkle.com/app/luxury-guide/terms/"
       ],
-      "retrievedOn": "2026-11-16",
+      "retrievedOn": "2026-11-17",
       "englishDisplayName": "Luxury Guide",
       "englishDisplayNameSource": "Apple US lookup"
     },
@@ -609,10 +613,10 @@
       "artistName": "Yung Wen Cheng",
       "minimumOsVersion": "17.0",
       "contentRating": "17+",
-      "retrievedOn": "2026-11-16",
+      "retrievedOn": "2026-11-17",
       "englishDisplayName": "ADHD Compass",
       "englishDisplayNameSource": "Apple US lookup"
     }
   ],
-  "lastUpdatedOn": "2026-11-16"
+  "lastUpdatedOn": "2026-11-17"
 }

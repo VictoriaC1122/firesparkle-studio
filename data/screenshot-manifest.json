@@ -59,7 +59,7 @@
         }
       ],
       "ipad": [],
-      "verifiedOn": "2026-11-16"
+      "verifiedOn": "2026-11-17"
     },
     "easy-draw": {
       "trackId": 6755403297,
@@ -117,12 +117,12 @@
         }
       ],
       "ipad": [],
-      "verifiedOn": "2026-11-16"
+      "verifiedOn": "2026-11-17"
     },
     "stock-simulator": {
       "trackId": 6815299678,
       "name": "股神養成：台美股模擬交易",
-      "version": "2.8.0",
+      "version": "2.9.0",
       "source": "https://apps.apple.com/tw/app/id6815299678",
       "iphone": [
         {
@@ -151,7 +151,7 @@
         }
       ],
       "ipad": [],
-      "verifiedOn": "2026-11-16"
+      "verifiedOn": "2026-11-17"
     },
     "vitamins": {
       "trackId": 6761441866,
@@ -209,7 +209,7 @@
         }
       ],
       "ipad": [],
-      "verifiedOn": "2026-11-16"
+      "verifiedOn": "2026-11-17"
     },
     "crypto-dictionary": {
       "trackId": 6761411130,
@@ -267,7 +267,7 @@
         }
       ],
       "ipad": [],
-      "verifiedOn": "2026-11-16"
+      "verifiedOn": "2026-11-17"
     },
     "perfect-pig": {
       "trackId": 6811446129,
@@ -333,7 +333,7 @@
         }
       ],
       "ipad": [],
-      "verifiedOn": "2026-11-16"
+      "verifiedOn": "2026-11-17"
     },
     "design-it": {
       "trackId": 6818286088,
@@ -367,7 +367,7 @@
         }
       ],
       "ipad": [],
-      "verifiedOn": "2026-11-16"
+      "verifiedOn": "2026-11-17"
     },
     "pr-diary": {
       "trackId": 6761694656,
@@ -433,7 +433,7 @@
         }
       ],
       "ipad": [],
-      "verifiedOn": "2026-11-16"
+      "verifiedOn": "2026-11-17"
     },
     "larry-cocktail": {
       "trackId": 6761377948,
@@ -604,7 +604,7 @@
           "bytes": 243791
         }
       ],
-      "verifiedOn": "2026-11-16"
+      "verifiedOn": "2026-11-17"
     },
     "time-manager": {
       "trackId": 6754973616,
@@ -678,7 +678,7 @@
         }
       ],
       "ipad": [],
-      "verifiedOn": "2026-11-16"
+      "verifiedOn": "2026-11-17"
     },
     "dream-journal": {
       "trackId": 6761692228,
@@ -712,7 +712,7 @@
         }
       ],
       "ipad": [],
-      "verifiedOn": "2026-11-16"
+      "verifiedOn": "2026-11-17"
     },
     "coffee-chat": {
       "trackId": 6820863958,
@@ -754,7 +754,7 @@
         }
       ],
       "ipad": [],
-      "verifiedOn": "2026-11-16"
+      "verifiedOn": "2026-11-17"
     },
     "semiconductors-illustrated": {
       "trackId": 6822188590,
@@ -796,7 +796,7 @@
         }
       ],
       "ipad": [],
-      "verifiedOn": "2026-11-16"
+      "verifiedOn": "2026-11-17"
     },
     "milebutler": {
       "trackId": 6823824323,
@@ -854,7 +854,7 @@
         }
       ],
       "ipad": [],
-      "verifiedOn": "2026-11-16"
+      "verifiedOn": "2026-11-17"
     },
     "future-major-guide": {
       "trackId": 6824004640,
@@ -928,7 +928,7 @@
         }
       ],
       "ipad": [],
-      "verifiedOn": "2026-11-16"
+      "verifiedOn": "2026-11-17"
     },
     "paper-reading-desk": {
       "trackId": 6818310524,
@@ -954,7 +954,7 @@
         }
       ],
       "ipad": [],
-      "verifiedOn": "2026-11-16"
+      "verifiedOn": "2026-11-17"
     },
     "finatlas": {
       "trackId": 6830943408,
@@ -1011,7 +1011,8 @@
           "bytes": 90096
         }
       ],
-      "ipad": []
+      "ipad": [],
+      "verifiedOn": "2026-11-17"
     },
     "luxury-guide": {
       "trackId": 6830889178,
@@ -1037,7 +1038,7 @@
         }
       ],
       "ipad": [],
-      "verifiedOn": "2026-11-16"
+      "verifiedOn": "2026-11-17"
     },
     "adhd-compass": {
       "trackId": 6830942101,
@@ -1070,7 +1071,9 @@
           "bytes": 96520
         }
       ],
-      "ipad": []
+      "ipad": [],
+      "verifiedOn": "2026-11-17"
     }
-  }
+  },
+  "verifiedOn": "2026-11-17"
 }
