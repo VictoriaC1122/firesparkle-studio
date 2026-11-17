@@ -15,9 +15,9 @@ export function renderHome({ site, apps, media, L, T, messageId, esc, appURL, ca
     const a = bySlug[slug];
     return `<article class="game-card ${tone} glass reveal">
       <a class="game-media" href="${appURL(a)}" aria-label="${esc(a.short)}" data-i18n-label="${messageId(esc(a.en))}">${mediaMarkup}${character}</a>
-      <div class="game-body"><span class="game-tag">${L(zhType, enType)}<span aria-hidden="true">·</span><span class="keep" dir="ltr">iOS</span></span>
+      <div class="game-body"><span class="game-tag">${L(zhType, enType)}<span aria-hidden="true">·</span><span class="keep" dir="ltr">${a.slug === site.steam.slug ? 'iOS / Steam' : 'iOS'}</span></span>
       <h3><a href="${appURL(a)}">${L(esc(a.short), esc(a.en))}</a></h3><p>${L(zhDesc, enDesc)}</p>
-      <div class="game-links"><a class="text-link" href="${appURL(a)}">${L('遊戲介紹', 'Game details')} ${arrow()}</a><a class="text-link" href="${appURL(a)}#howto">${T('How to use')} ${arrow()}</a><a class="store-link" href="${a.storeUrl}">App Store ${arrow('↗')}</a></div></div>
+      <div class="game-links"><a class="text-link" href="${appURL(a)}">${L('遊戲介紹', 'Game details')} ${arrow()}</a><a class="text-link" href="${appURL(a)}#howto">${T('How to use')} ${arrow()}</a><a class="store-link" href="${a.storeUrl}">App Store ${arrow('↗')}</a>${a.slug === site.steam.slug ? `<a class="store-link" data-steam-action="buy" href="${site.steam.storeUrl}">${T('Buy on Steam')} ${arrow('↗')}</a>` : ''}</div></div>
     </article>`;
   };
 
@@ -41,7 +41,7 @@ export function renderHome({ site, apps, media, L, T, messageId, esc, appURL, ca
    <p class="eyebrow">${T('Independent app & game studio')} <span aria-hidden="true">·</span> <span class="keep" dir="ltr">Est. ${site.founded}</span></p>
    <h1 id="hero-title">${L('將微小的靈感火花，<br><em>化為精彩的創意</em>', 'Small sparks,<br><em>big ideas.</em>')}</h1>
    <p class="lead">${T('Founded in 2026, FireSparkle.Studio is an independent studio making iOS apps, indie games and practical tools.')}</p>
-   <div class="hero-actions"><a class="button" href="#apps">${T('All works')} ${arrow()}</a><a class="button-glass" href="#games">${T('Games')} ${arrow()}</a><a class="text-link" href="#steam">${T('Coming soon on Steam')} ${arrow()}</a></div>
+   <div class="hero-actions"><a class="button" href="#apps">${T('All works')} ${arrow()}</a><a class="button-glass" href="#games">${T('Games')} ${arrow()}</a><a class="text-link" href="${site.steam.storeUrl}">${T('Available now on Steam')} ${arrow()}</a></div>
    <div class="hero-social"><span>${T('Follow us')}</span>${socialLink('instagram')}${socialLink('threads')}</div>
   </div>
   <div class="hero-art reveal" aria-hidden="true">
@@ -53,7 +53,7 @@ export function renderHome({ site, apps, media, L, T, messageId, esc, appURL, ca
   <div class="glass"><strong>${utilities.length}</strong><span>${T('Apps')}</span></div>
   <div class="glass"><strong>${games.length}</strong><span>${T('Games')}</span></div>
   <div class="glass"><strong dir="ltr">iOS</strong><span dir="ltr">App Store</span></div>
-  <div class="glass"><span class="status-dot" aria-hidden="true"></span><strong dir="ltr"><a href="${site.steam.storeUrl}">Steam</a></strong><span>${T('Coming soon')}</span></div>
+  <div class="glass"><span class="status-dot" aria-hidden="true"></span><strong dir="ltr"><a href="${site.steam.storeUrl}">Steam</a></strong><span>${T('Available now')}</span></div>
  </div>
 </section>
 

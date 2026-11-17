@@ -1085,14 +1085,14 @@
     "zh": "版本"
   },
   {
-    "id": "4f7d64017689",
-    "en": "Coming soon",
-    "zh": "即將推出"
+    "id": "2a4729fa7647",
+    "en": "Available now",
+    "zh": "現已推出"
   },
   {
-    "id": "f1bbd6eb77dc",
-    "en": "Coming soon on Steam",
-    "zh": "Steam 即將推出"
+    "id": "1554ccded225",
+    "en": "Available now on Steam",
+    "zh": "Steam 已正式上架"
   },
   {
     "id": "bd84924cadae",
@@ -1125,9 +1125,9 @@
     "zh": "以虛擬資金練習台股與美股交易，依收盤價或自訂價格下單，記錄理由並查看持倉。"
   },
   {
-    "id": "199bf1d8c685",
-    "en": "Steam store / buy",
-    "zh": "Steam 商店／購買"
+    "id": "d2e13e74a61c",
+    "en": "Buy on Steam",
+    "zh": "在 Steam 購買"
   },
   {
     "id": "9d53a4ee525f",
@@ -1135,19 +1135,19 @@
     "zh": "索取試玩碼"
   },
   {
-    "id": "3ca19710ee53",
-    "en": "Wishlist now, then buy from this Steam page when the game is released.",
-    "zh": "現在可加入願望清單；遊戲正式發售後，可從同一個 Steam 商店頁購買。"
+    "id": "59c8084a13a1",
+    "en": "Buy the game now on Steam for Windows, macOS and Linux.",
+    "zh": "現在可在 Steam 購買遊戲，支援 Windows、macOS 與 Linux。"
   },
   {
-    "id": "bf67520196ef",
-    "en": "Want to try the game? Email the studio to request a demo key.",
-    "zh": "想搶先試玩？歡迎寄信到工作室信箱索取試玩碼。"
+    "id": "51cc89a0930c",
+    "en": "For a demo key, email the studio.",
+    "zh": "如需試玩碼，請寄信聯絡工作室。"
   },
   {
-    "id": "3c98ad3046a4",
-    "en": "Release timing follows the Steam store page.",
-    "zh": "實際發售時間以 Steam 商店頁公告為準。"
+    "id": "3034d2622cd3",
+    "en": "See Steam for current pricing, system requirements and supported languages.",
+    "zh": "目前售價、系統需求與支援語言，請以 Steam 商店頁為準。"
   },
   {
     "id": "3d734ba1db91",

@@ -1,0 +1,21 @@
+{
+  "verifiedAt": "2026-11-18T05:37:30+08:00",
+  "appId": 5466570,
+  "storeUrl": "https://store.steampowered.com/app/5466570/",
+  "releasedOn": "2026-11-17",
+  "comingSoon": false,
+  "platforms": {
+    "windows": true,
+    "mac": true,
+    "linux": true
+  },
+  "purchasePackageIds": [
+    1886191
+  ],
+  "sources": [
+    "https://store.steampowered.com/api/appdetails?appids=5466570&cc=tw&l=english&refresh=20261117213437",
+    "https://store.steampowered.com/api/appdetails?appids=5466570&cc=tw&l=tchinese&refresh=20261117213437",
+    "https://store.steampowered.com/api/packagedetails?packageids=1886191&cc=tw&l=english&timestamp=20261117213529"
+  ],
+  "pricingPolicy": "Use the Steam store page for current regional prices; do not copy the launch discount into the website."
+}
