@@ -99,6 +99,7 @@ html[data-script=cjk] em, html[data-script=arabic] em, html[data-script=hebrew] 
 .site-nav a:hover { color: var(--ink); }
 .site-nav a:hover::after, .site-nav a[aria-current]::after { transform: scaleX(1); }
 .site-nav a[aria-current] { color: var(--ink); }
+.site-nav .nav-steam { color: var(--accent-ink); font-weight: 600; }
 .header-tools { display: flex; align-items: center; gap: 8px; flex: none; }
 .header-tools .social-link { min-height: 34px; padding: 3px 11px 3px 3px; font-size: 13px; }
 .header-tools .social-link .social-at { width: 24px; height: 24px; font-size: 12px; }

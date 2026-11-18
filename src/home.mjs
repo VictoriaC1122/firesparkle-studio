@@ -1,15 +1,12 @@
-import { renderSteamRelease } from './steam.mjs';
+import { renderSteamRelease, steamDemoHref } from './steam.mjs';
 import { renderPhone } from './showcase.mjs';
-// 首頁：工作室主視覺（品牌標誌與作品星軌）、已推出的遊戲、全部作品、工作室介紹、社群與聯絡。
+// 首頁：Steam 遊戲主打、已推出的遊戲、全部作品、工作室介紹、社群與聯絡。
 // Steam 發售資訊與已公開商店連結。
 export function renderHome({ site, apps, media, L, T, messageId, esc, appURL, catL, mailto, email, arrow, brandAsset, socialLink }) {
   const bySlug = Object.fromEntries(apps.map(a => [a.slug, a]));
   const utilities = apps.filter(a => !a.genres.includes('遊戲'));
   const games = apps.filter(a => a.genres.includes('遊戲'));
   const groups = ['全部', ...new Set(apps.map(a => a.category))];
-
-  // 星軌：品牌標誌置中，周圍環繞作品圖示（依作品排序取前 6 款）。
-  const orbitIcons = apps.slice(0, 6).map((a, i) => `<img class="orbit-icon${i % 2 ? ' far' : ''}" style="--a:${Math.round(i * 60 + 15)}deg;--d:${(i * .9).toFixed(1)}s" src="${a.iconPath}" alt="" width="128" height="128" loading="lazy">`).join('');
 
   const gameCard = (slug, tone, zhType, enType, zhDesc, enDesc, mediaMarkup, character) => {
     const a = bySlug[slug];
@@ -34,33 +31,35 @@ export function renderHome({ site, apps, media, L, T, messageId, esc, appURL, ca
     <div class="card-foot"><span class="text-link">${T('How to use')} ${arrow()}</span><a class="store-link" href="${a.storeUrl}">App Store ${arrow('↗')}</a></div></article>`).join('');
 
   return `
-<section class="hero" aria-labelledby="hero-title">
- <div class="hero-aurora" aria-hidden="true"></div>
+<section id="steam" class="hero steam-hero" aria-labelledby="hero-title">
  <div class="wrap hero-grid">
-  <div class="hero-copy reveal">
-   <p class="eyebrow">${T('Independent app & game studio')} <span aria-hidden="true">·</span> <span class="keep" dir="ltr">Est. ${site.founded}</span></p>
-   <h1 id="hero-title">${L('將微小的靈感火花，<br><em>化為精彩的創意</em>', 'Small sparks,<br><em>big ideas.</em>')}</h1>
-   <p class="lead">${T('Founded in 2026, FireSparkle.Studio is an independent studio making iOS apps, indie games and practical tools.')}</p>
-   <div class="hero-actions"><a class="button" href="#apps">${T('All works')} ${arrow()}</a><a class="button-glass" href="#games">${T('Games')} ${arrow()}</a><a class="text-link" href="${site.steam.storeUrl}">${T('Available now on Steam')} ${arrow()}</a></div>
-   <div class="hero-social"><span>${T('Follow us')}</span>${socialLink('instagram')}${socialLink('threads')}</div>
+  <div class="hero-copy">
+   <p class="eyebrow">${T('Available now on Steam')}</p>
+   <h1 id="hero-title">${L(esc(larry.short), esc(larry.en))}</h1>
+   <p class="steam-hero-genre">${L('互動敘事 · 戀愛文字', 'Interactive fiction · Romance')}</p>
+   <div class="hero-actions"><a class="button steam-buy" data-steam-action="buy" href="${esc(site.steam.storeUrl)}">${T('Buy on Steam')}</a><a class="button-glass" data-steam-action="wishlist" href="${esc(site.steam.storeUrl)}">${T('Add to wishlist')}</a></div>
+   <p class="lead">${L('以酒吧為背景的文字戀愛遊戲。對話選項會影響故事走向，可用存檔回到不同分支。', 'A romance game set in a bar. Dialogue choices lead to different story branches, which you can revisit using saved games.')}</p>
+   <p class="steam-hero-platforms" dir="ltr">Windows <span aria-hidden="true">/</span> macOS <span aria-hidden="true">/</span> Linux</p>
+   <div class="steam-hero-secondary"><a class="text-link" href="${appURL(larry)}">${T('Game details')}</a><a class="text-link" data-steam-action="demo" href="${esc(steamDemoHref(site))}">${T('Request a demo key')}</a><a class="text-link" href="#apps">${T('All works')}</a></div>
   </div>
-  <div class="hero-art reveal" aria-hidden="true">
-   <div class="orbit"><img class="hero-logo" src="${brandAsset('/assets/brand/icon-512.png')}" alt="" width="512" height="512" fetchpriority="high">${orbitIcons}</div>
+  <div class="steam-hero-art">
+   <a class="steam-hero-screen" data-steam-action="buy" href="${esc(site.steam.storeUrl)}" aria-label="在 Steam 購買" data-i18n-label="${messageId('Buy on Steam')}"><img src="${esc(site.steam.heroImage)}" alt="${esc(larry.short)}" data-i18n-alt="${messageId(esc(larry.en))}" width="1920" height="1080" fetchpriority="high"></a>
+   <div class="steam-hero-caption"><strong dir="ltr">Steam</strong><span>${T('Available now')}</span><span class="steam-hero-rating" dir="ltr">18+</span></div>
   </div>
  </div>
- <div class="wrap hero-stats reveal">
+ <div class="wrap hero-stats">
+  <div class="glass"><strong dir="ltr"><a href="${site.steam.storeUrl}">Steam</a></strong><span>${T('Available now')}</span></div>
   <div class="glass"><strong>${apps.length}</strong><span>${T('Works')}</span></div>
   <div class="glass"><strong>${utilities.length}</strong><span>${T('Apps')}</span></div>
   <div class="glass"><strong>${games.length}</strong><span>${T('Games')}</span></div>
   <div class="glass"><strong dir="ltr">iOS</strong><span dir="ltr">App Store</span></div>
-  <div class="glass"><span class="status-dot" aria-hidden="true"></span><strong dir="ltr"><a href="${site.steam.storeUrl}">Steam</a></strong><span>${T('Available now')}</span></div>
  </div>
 </section>
 
 <section id="games" class="games" aria-labelledby="games-title"><div class="wrap">
  <div class="section-head reveal"><div><p class="eyebrow">${T('Games')}</p><h2 id="games-title">${L('已推出的遊戲', 'Released games')}</h2></div><p>${L('在酒吧裡透過對話推進故事，或照顧一隻小豬。<br>介紹頁有遊戲畫面、玩法說明與下載連結。', 'Choose how a conversation unfolds in a bar, or spend seven days raising a piglet. Each game page has screenshots, a description and a download link.')}</p></div>
  <div class="game-grid">${gameCard('larry-cocktail', 'game-amber', '互動敘事 · 戀愛文字', 'Interactive fiction · Romance', '以酒吧為背景的文字戀愛遊戲。對話選項會影響故事走向，可用存檔回到不同分支。', 'A romance game set in a bar. Dialogue choices lead to different story branches, which you can revisit using saved games.', larryMedia, `<img class="game-character character-larry" src="/assets/characters/larry-smiling.gif" alt="" width="530" height="650" loading="lazy">`)}${gameCard('perfect-pig', 'game-rose', '養成 · 模擬', 'Life sim · Raising', esc(pig.shortDescription), esc(pig.enDesc), pigMedia, `<img class="game-character character-pig" src="/assets/characters/perfect-pig-celebrating.png" alt="" width="412" height="354" loading="lazy">`)}</div>
- ${renderSteamRelease({ site, app: larry, L, T, esc, arrow })}
+ ${renderSteamRelease({ site, app: larry, L, T, esc, arrow, id: 'steam-purchase' })}
 </div></section>
 
 <section id="apps" class="apps" aria-labelledby="apps-title"><div class="wrap">

@@ -64,7 +64,6 @@ if (bar && input) {
 const navLinks = [...document.querySelectorAll('.site-nav a')];
 let currentNavGroup;
 const markCurrent = (group) => {
-  if (group === 'steam') group = 'games';
   if (group === currentNavGroup) return;
   currentNavGroup = group;
   for (const link of navLinks) {
@@ -76,8 +75,8 @@ const markCurrent = (group) => {
 };
 
 if (navLinks.length && document.body.classList.contains('is-home')) {
-  // Steam 是遊戲區塊內的子區塊，後檢查它以取得更精確的位置。
-  const sections = ['games', 'steam', 'apps', 'studio']
+  // Steam 主視覺與後續作品區各自顯示導覽位置。
+  const sections = ['steam', 'games', 'apps', 'studio']
     .map((id) => document.getElementById(id))
     .filter(Boolean);
   const header = document.querySelector('.site-header');

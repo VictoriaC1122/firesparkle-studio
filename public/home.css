@@ -1,31 +1,39 @@
-/* 首頁：留白、細線與宋體標題；品牌彩色只在標誌與其後的一層薄光 */
-.hero { position: relative; overflow: hidden; padding: clamp(44px, 7vw, 100px) 0 0; border-bottom: 1px solid var(--line); }
-.hero-aurora { display: none; }
-.hero-grid { display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(0, .95fr); gap: clamp(28px, 5vw, 72px); align-items: center; }
-.hero-copy { position: relative; z-index: 2; padding-block: 24px; }
-.hero-copy .eyebrow { margin-bottom: 26px; }
-.hero-copy h1 { font-size: clamp(32px, 3.9vw, 54px); font-weight: 600; line-height: 1.32; letter-spacing: .02em; margin-bottom: 24px; }
-.hero-copy h1 em { display: inline-block; color: var(--accent-ink); }
-html[data-script=latin] .hero-copy h1 { font-size: clamp(44px, 5.8vw, 80px); font-weight: 400; line-height: 1.04; letter-spacing: -.01em; }
-html[data-script=latin] .hero-copy h1 em { font-style: italic; }
-.hero-copy .lead { margin-bottom: 32px; }
-.hero-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 16px; margin-bottom: 30px; }
+/* 首頁：Steam 主打採用酒吧暖深色，保留工作室宋體與古金色。 */
+.hero { position: relative; overflow: hidden; border-bottom: 1px solid var(--line); }
+.hero-grid { display: grid; grid-template-columns: minmax(0, .92fr) minmax(0, 1.18fr); gap: clamp(28px, 4vw, 56px); align-items: center; }
+.hero-copy { position: relative; min-width: 0; }
+.hero-copy .eyebrow { margin-bottom: 20px; }
+html[data-script] .steam-hero .hero-copy h1 { font-size: clamp(34px, 4.1vw, 58px); font-weight: 500; line-height: 1.16; letter-spacing: .01em; margin-bottom: 16px; color: #fff6e9; }
+.hero-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; margin: 24px 0 20px; }
 .hero-social { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; }
 .hero-social > span { font-size: 14px; color: var(--muted); margin-inline-end: 4px; }
-.hero-art { position: relative; display: grid; place-items: center; min-height: clamp(360px, 46vw, 560px); }
-.orbit { --size: clamp(320px, 42vw, 540px); position: relative; width: var(--size); height: var(--size); }
-.orbit::before { content: ""; position: absolute; inset: 18%; border-radius: 50%; background: var(--glow); filter: blur(28px); }
-.orbit::after { content: ""; position: absolute; inset: 7%; border-radius: 50%; border: 1px solid var(--line-strong); opacity: .8; }
-.hero-logo { position: absolute; top: 50%; left: 50%; width: 40%; transform: translate(-50%, -50%); filter: drop-shadow(0 22px 34px rgba(120,100,140,.25)); animation: breathe 9s ease-in-out infinite; }
-@keyframes breathe { 0%, 100% { transform: translate(-50%, -50%) scale(1); } 50% { transform: translate(-50%, -51.5%) scale(1.025); } }
-.orbit-icon { --a: 0deg; position: absolute; top: 50%; left: 50%; width: 11.5%; aspect-ratio: 1; margin: -5.75% 0 0 -5.75%; border-radius: 22.37%; box-shadow: 0 10px 24px -14px rgba(27,26,31,.45), inset 0 0 0 1px rgba(255,255,255,.18); transform: rotate(var(--a)) translateY(calc(var(--size) * -.43)) rotate(calc(-1 * var(--a))); animation: float 8s ease-in-out infinite; animation-delay: var(--d, 0s); }
-.orbit-icon.far { width: 10%; margin: -5% 0 0 -5%; transform: rotate(var(--a)) translateY(calc(var(--size) * -.5)) rotate(calc(-1 * var(--a))); }
-@keyframes float { 0%, 100% { translate: 0 0; } 50% { translate: 0 -6px; } }
-.hero-stats { display: flex; flex-wrap: wrap; align-items: stretch; gap: 0; padding-block: clamp(28px, 4vw, 44px) clamp(28px, 4vw, 44px); border-top: 1px solid var(--line); margin-top: clamp(24px, 4vw, 48px); }
-.hero-stats > div { display: flex; align-items: baseline; gap: 10px; padding: 6px 28px 6px 0; margin-right: 28px; border-right: 1px solid var(--line); border-radius: 0; background: transparent; font-size: 14px; color: var(--muted); border-top: 0; border-bottom: 0; border-left: 0; }
-.hero-stats > div:last-child { border-right: 0; margin-right: 0; padding-right: 0; }
-.hero-stats strong { font-family: var(--font-latin); font-size: 30px; font-weight: 400; letter-spacing: .01em; color: var(--ink); line-height: 1; }
-.hero-stats .status-dot { align-self: center; }
+.steam-hero { padding-top: clamp(32px, 4.5vw, 60px); background: radial-gradient(ellipse at 85% 20%, #503124 0, transparent 65%), #211a17; color: #e3d7c9; }
+.steam-hero .eyebrow { color: #e4c895; font-size: 14px; letter-spacing: .1em; }
+.steam-hero .eyebrow::before { background: #e4c895; }
+.steam-hero-genre { margin: 0 0 14px; color: #c6ae90; font-size: 14px; }
+.steam-hero .lead { margin-bottom: 18px; color: #e3d7c9; font-size: 17px; line-height: 1.75; }
+.steam-hero-platforms { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; width: fit-content; margin: 0; font-family: var(--font-latin); font-size: 15px; color: #e3d7c9; }
+.steam-hero-platforms span { color: #9c856d; }
+.steam-hero .hero-actions a { min-height: 50px; padding: 12px 24px; font-size: 16px; max-width: 100%; white-space: normal; overflow-wrap: anywhere; text-align: center; }
+.steam-hero .button { background: #e4c895; color: #211a17; border-color: #e4c895; font-weight: 600; }
+.steam-hero .button:hover { background: #f4dbad; border-color: #f4dbad; }
+.steam-hero .button-glass { color: #fff6e9; border-color: #a18a70; }
+.steam-hero .button-glass:hover { background: #ffffff0c; border-color: #e4c895; }
+.steam-hero-secondary { display: flex; flex-wrap: wrap; align-items: center; gap: 14px 24px; }
+.steam-hero .text-link { color: #e3d7c9; text-decoration-color: #9c856d; font-size: 15px; }
+.steam-hero .text-link:hover { color: #fff6e9; text-decoration-color: #e4c895; }
+.steam-hero :focus-visible { outline-color: #f4dbad; }
+.steam-hero-art { min-width: 0; border: 1px solid #9c856d66; border-radius: var(--radius-lg); overflow: hidden; background: #191210; box-shadow: 0 24px 60px #0005; }
+.steam-hero-screen { display: block; }
+.steam-hero-screen img { width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: contain; }
+.steam-hero-caption { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 16px; padding: 14px 20px; border-top: 1px solid #9c856d44; color: #d3c1aa; font-size: 14px; }
+.steam-hero-caption strong { font-family: var(--font-latin); font-size: 24px; color: #fff6e9; font-weight: 400; }
+.steam-hero-rating { margin-inline-start: auto; color: #d3c1aa; border: 1px solid #9c856d66; padding: 1px 7px; border-radius: var(--radius-sm); }
+.hero-stats { display: flex; flex-wrap: wrap; align-items: stretch; gap: 0; padding-block: 24px; border-top: 1px solid #9c856d55; margin-top: clamp(30px, 4vw, 48px); }
+.hero-stats > div { display: flex; flex-wrap: wrap; align-items: baseline; gap: 10px; padding-block: 6px; padding-inline: 0 24px; margin-inline-end: 24px; border: 0; border-inline-end: 1px solid #9c856d55; border-radius: 0; background: transparent; font-size: 14px; color: #d3c1aa; }
+.hero-stats > div:last-child { border-inline-end: 0; margin-inline-end: 0; padding-inline-end: 0; }
+.hero-stats strong { font-family: var(--font-latin); font-size: 26px; font-weight: 400; letter-spacing: .01em; color: #fff6e9; line-height: 1; }
+.hero-stats a:hover { color: #e4c895; }
 .status-dot { width: 7px; height: 7px; border-radius: 50%; background: var(--accent); flex: none; }
 
 /* Games */
@@ -117,20 +125,19 @@ html[data-script=latin] .hero-copy h1 em { font-style: italic; }
 .follow-card .arrow { margin-top: auto; align-self: flex-end; color: var(--accent-ink); }
 
 @media (max-width: 1100px) {
-  .hero-grid { grid-template-columns: 1fr; }
-  .hero-art { order: -1; min-height: 0; margin-top: -10px; }
-  .orbit { --size: clamp(280px, 60vw, 420px); }
+  .steam-hero-art { max-width: 800px; width: 100%; }
   .game-grid { grid-template-columns: 1fr; }
   .app-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .studio-grid { grid-template-columns: 1fr; }
   .follow-grid { grid-template-columns: 1fr 1fr; }
 }
 @media (max-width: 760px) {
-  .hero { padding-top: 24px; }
-  .hero-copy { padding-block: 10px 0; }
-  .orbit { --size: min(78vw, 360px); }
+  .steam-hero { padding-top: 30px; }
+  .hero-grid { gap: 28px; }
+  .steam-hero .hero-actions a { flex: 1 1 140px; padding-inline: 16px; }
+  .steam-hero-caption { padding: 12px 16px; }
   .hero-stats { gap: 12px 0; }
-  .hero-stats > div { padding-right: 18px; margin-right: 18px; font-size: 13px; }
+  .hero-stats > div { padding-inline-end: 16px; margin-inline-end: 16px; font-size: 14px; }
   .hero-stats strong { font-size: 24px; }
   .app-grid { grid-template-columns: 1fr; }
   .follow-grid { grid-template-columns: 1fr; }
@@ -142,3 +149,5 @@ html[data-script=latin] .hero-copy h1 em { font-style: italic; }
   .collection-tools { flex-direction: column; align-items: stretch; }
   .search { width: 100%; }
 }
+
+@media (max-width: 900px) { .hero-grid { grid-template-columns: 1fr; } }
