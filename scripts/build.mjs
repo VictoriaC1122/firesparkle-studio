@@ -99,7 +99,7 @@ const galleryHead = `<link rel="stylesheet" href="/gallery.css?v=${assetVersion}
 // --------------------------------------------------------------------------
 const home = renderHome({ site, apps, media, L, T, messageId, esc, appURL, catL, mailto, email, arrow, brandAsset, socialLink });
 const orgLd = `<script type="application/ld+json">${JSON.stringify({ '@context': 'https://schema.org', '@type': 'Organization', name: 'FireSparkle.Studio', alternateName: '花火工作室', url: siteURL, logo: `${siteURL}${brandAsset('/assets/brand/icon-512.png')}`, email, foundingDate: String(site.founded), slogan: site.tagline, sameAs: [site.social.instagram, site.social.threads] })}</script>`;
-await save('index.html', page({ path: '/', title: '賴瑞的調酒研究室 Steam 已上架｜花火工作室 FireSparkle.Studio', description: '《賴瑞的調酒研究室》Steam 已正式上架。走進酒吧，以對話選擇推進戀愛故事與不同分支。支援 Windows、macOS、Linux，可直接前往 Steam 購買、加入願望清單，或寄信索取試玩碼。探索花火工作室的其他 iOS App 與遊戲。', content: home, bodyClass: 'is-home', image: site.steam.heroImage, imageSize: [1920, 1080], imageAlt: '賴瑞的調酒研究室 Steam 遊戲畫面｜花火工作室', extraHead: `<link rel="stylesheet" href="/home.css?v=${homeVersion}">${orgLd}` }));
+await save('index.html', page({ path: '/', title: '賴瑞的調酒研究室 Steam 已上架｜花火工作室 FireSparkle.Studio', description: '《賴瑞的調酒研究室》Steam 已正式上架。走進酒吧，以對話選擇推進戀愛故事與不同分支。支援 Windows、macOS、Linux，可直接前往 Steam 購買、加入願望清單，或寄信索取試玩碼。探索花火工作室的其他 iOS App 與遊戲。', content: home, bodyClass: 'is-home', image: site.steam.heroImage, imageSize: [1920, 1080], imageAlt: '賴瑞的調酒研究室 Steam 遊戲畫面｜花火工作室', extraHead: `<link rel="stylesheet" href="/home.css?v=${homeVersion}">${galleryHead}${orgLd}` }));
 
 // --------------------------------------------------------------------------
 // 指南總覽（遊戲玩法、App 使用指南）：沿用全站 50 種語言

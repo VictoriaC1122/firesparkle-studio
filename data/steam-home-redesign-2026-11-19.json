@@ -1,0 +1,40 @@
+{
+  "updatedOn": "2026-11-19",
+  "sourceEvidence": "steam-larry-feature-2026-11-19.json",
+  "scenes": [
+    {
+      "id": 0,
+      "path": "/assets/steam/larry-gameplay.d38919e4ad06.jpg",
+      "sourceUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5466570/0c207213ed6cc86b1d3632a2a66f35adde9c3250/ss_0c207213ed6cc86b1d3632a2a66f35adde9c3250.1920x1080.jpg?t=1794944808",
+      "sha256": "d38919e4ad06c4621da59f008970c8711f15ca167f3ae534f3ae78257ae8290c",
+      "bytes": 351225,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 2,
+      "path": "/assets/steam/larry-scene-2.640a1a1254d8.jpg",
+      "sourceUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5466570/350a3f40aaa93597acc906a28031877624fd9c7d/ss_350a3f40aaa93597acc906a28031877624fd9c7d.1920x1080.jpg?t=1794944808",
+      "sha256": "640a1a1254d8e661c81281f0e6147153271a11f2d30371a2bec6ccbd6b10262c",
+      "bytes": 393217,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 4,
+      "path": "/assets/steam/larry-scene-4.3e1a68eaa70c.jpg",
+      "sourceUrl": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5466570/d5d209b611a6ad0378b7795a5321e9ee2e66f4db/ss_d5d209b611a6ad0378b7795a5321e9ee2e66f4db.1920x1080.jpg?t=1794944808",
+      "sha256": "3e1a68eaa70cbc8bb72e70e8c376700d32b652fe7ff14ad72ed55637f765857b",
+      "bytes": 352308,
+      "width": 1920,
+      "height": 1080
+    }
+  ],
+  "character": {
+    "path": "/assets/characters/larry-smiling.gif",
+    "sha256": "228d39178419d7be9e21ddb6dbac8311d6549220c5c46ad92554c10c9cbd240d",
+    "width": 530,
+    "height": 650
+  },
+  "scope": "Homepage cinematic Steam design; mobile first-screen title, character and buy CTA; official screenshot gallery."
+}

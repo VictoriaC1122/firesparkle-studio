@@ -1,39 +1,45 @@
-/* 首頁：Steam 主打採用酒吧暖深色，保留工作室宋體與古金色。 */
+/* Steam 首頁：深夜酒吧、角色海報與直接購買；手機先看見遊戲與 CTA。 */
 .hero { position: relative; overflow: hidden; border-bottom: 1px solid var(--line); }
-.hero-grid { display: grid; grid-template-columns: minmax(0, .92fr) minmax(0, 1.18fr); gap: clamp(28px, 4vw, 56px); align-items: center; }
-.hero-copy { position: relative; min-width: 0; }
-.hero-copy .eyebrow { margin-bottom: 20px; }
-html[data-script] .steam-hero .hero-copy h1 { font-size: clamp(34px, 4.1vw, 58px); font-weight: 500; line-height: 1.16; letter-spacing: .01em; margin-bottom: 16px; color: #fff6e9; }
-.hero-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; margin: 24px 0 20px; }
+.steam-hero { padding-top: clamp(28px, 4vw, 56px); background: radial-gradient(ellipse at 75% 15%, #3c2c23 0, transparent 60%), #111b23; color: #e6ded3; }
+.hero-grid { display: grid; grid-template-columns: minmax(0, .95fr) minmax(0, 1.05fr); grid-template-areas: "heading art" "actions art" "details art"; column-gap: clamp(30px, 5vw, 64px); row-gap: 22px; align-items: start; }
+.hero-heading { grid-area: heading; min-width: 0; align-self: end; }
+.steam-availability { margin-bottom: 22px; padding: 7px 12px; border: 1px solid #b5cf7e55; border-radius: 999px; color: #c4dc9c; font-size: 14px; letter-spacing: .06em; }
+.steam-availability::before { display: none; }
+html[data-script] .steam-hero h1 { font-size: clamp(38px, 4.6vw, 66px); font-weight: 500; line-height: 1.16; letter-spacing: .01em; margin-bottom: 18px; color: #fff6e9; text-wrap: balance; }
+.steam-hero-hook { margin: 0; font-size: clamp(17px, 1.7vw, 22px); line-height: 1.6; color: #d4bfa5; }
+.hero-conversion { grid-area: actions; min-width: 0; }
+.hero-actions { display: flex; flex-wrap: wrap; align-items: stretch; gap: 12px; margin: 0 0 14px; }
+.steam-hero .hero-actions a { min-height: 52px; padding: 14px 24px; font-size: 16px; max-width: 100%; white-space: normal; overflow-wrap: anywhere; text-align: center; }
+.steam-hero .button { background: linear-gradient(110deg, #acd951, #8fbd36); color: #17200d; border-color: #a1cd4b; font-weight: 600; box-shadow: 0 6px 24px #76a42c22; }
+.steam-hero .button:hover { background: #b8e365; border-color: #b8e365; }
+.steam-hero .button-glass { color: #fff6e9; border-color: #a18a70; background: #ffffff05; }
+.steam-hero .button-glass:hover { background: #ffffff10; border-color: #e4c895; }
+.steam-hero-platforms { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; width: fit-content; margin: 0; font-family: var(--font-latin); font-size: 14px; color: #b9b5ae; }
+.steam-hero-platforms span { color: #8d867b; }
+.hero-details { grid-area: details; min-width: 0; align-self: start; }
+.steam-hero .lead { margin-bottom: 18px; color: #d1ccc3; font-size: 16px; line-height: 1.8; }
+.steam-hero-secondary { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 22px; }
+.steam-hero .text-link { color: #e6ded3; text-decoration-color: #8b7b68; font-size: 15px; }
+.steam-hero .text-link:hover { color: #fff6e9; text-decoration-color: #e4c895; }
+.steam-hero :focus-visible { outline-color: #c3e87d; }
+.steam-hero-art { grid-area: art; position: relative; min-width: 0; height: clamp(400px, 42vw, 520px); overflow: hidden; border: 1px solid #b8a38266; border-radius: 10px 70px 10px 10px; background: #211a17; box-shadow: 0 28px 70px #0005; }
+.steam-poster-backdrop { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; filter: blur(5px); opacity: .5; transform: scale(1.03); }
+.steam-poster-shade { position: absolute; inset: 0; background: linear-gradient(90deg, #151c20d9, #34241a44 70%), linear-gradient(0deg, #10191fe6, transparent 75%); }
+.steam-poster-character { position: absolute; width: auto; height: 105%; max-width: none; inset-inline-end: -3%; bottom: -4%; filter: drop-shadow(0 18px 20px #0005); }
+.steam-poster-mark { position: absolute; z-index: 1; inset-inline-start: 26px; top: 28px; max-width: 48%; }
+.steam-poster-mark > span { font-family: var(--font-latin); font-size: clamp(30px, 4vw, 54px); line-height: 1; letter-spacing: .08em; color: #e3d2b8; }
+.steam-poster-mark p { margin: 14px 0 0; font-size: 14px; line-height: 1.6; color: #c6b497; }
+.steam-poster-rating { position: absolute; z-index: 2; inset-inline-start: 26px; bottom: 22px; color: #e3d2b8; border: 1px solid #b8a38266; padding: 2px 8px; border-radius: 3px; font-size: 14px; }
+.steam-story-features { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0; margin-top: 34px; padding-block: 26px; border-top: 1px solid #b8a38233; }
+.steam-story-features p { min-width: 0; margin: 0; padding-inline: 20px; border-inline-end: 1px solid #b8a38233; color: #dcc8a7; font-size: 18px; line-height: 1.5; text-align: center; }
+.steam-story-features p:last-child { border: 0; }
 .hero-social { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; }
 .hero-social > span { font-size: 14px; color: var(--muted); margin-inline-end: 4px; }
-.steam-hero { padding-top: clamp(32px, 4.5vw, 60px); background: radial-gradient(ellipse at 85% 20%, #503124 0, transparent 65%), #211a17; color: #e3d7c9; }
-.steam-hero .eyebrow { color: #e4c895; font-size: 14px; letter-spacing: .1em; }
-.steam-hero .eyebrow::before { background: #e4c895; }
-.steam-hero-genre { margin: 0 0 14px; color: #c6ae90; font-size: 14px; }
-.steam-hero .lead { margin-bottom: 18px; color: #e3d7c9; font-size: 17px; line-height: 1.75; }
-.steam-hero-platforms { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; width: fit-content; margin: 0; font-family: var(--font-latin); font-size: 15px; color: #e3d7c9; }
-.steam-hero-platforms span { color: #9c856d; }
-.steam-hero .hero-actions a { min-height: 50px; padding: 12px 24px; font-size: 16px; max-width: 100%; white-space: normal; overflow-wrap: anywhere; text-align: center; }
-.steam-hero .button { background: #e4c895; color: #211a17; border-color: #e4c895; font-weight: 600; }
-.steam-hero .button:hover { background: #f4dbad; border-color: #f4dbad; }
-.steam-hero .button-glass { color: #fff6e9; border-color: #a18a70; }
-.steam-hero .button-glass:hover { background: #ffffff0c; border-color: #e4c895; }
-.steam-hero-secondary { display: flex; flex-wrap: wrap; align-items: center; gap: 14px 24px; }
-.steam-hero .text-link { color: #e3d7c9; text-decoration-color: #9c856d; font-size: 15px; }
-.steam-hero .text-link:hover { color: #fff6e9; text-decoration-color: #e4c895; }
-.steam-hero :focus-visible { outline-color: #f4dbad; }
-.steam-hero-art { min-width: 0; border: 1px solid #9c856d66; border-radius: var(--radius-lg); overflow: hidden; background: #191210; box-shadow: 0 24px 60px #0005; }
-.steam-hero-screen { display: block; }
-.steam-hero-screen img { width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: contain; }
-.steam-hero-caption { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 16px; padding: 14px 20px; border-top: 1px solid #9c856d44; color: #d3c1aa; font-size: 14px; }
-.steam-hero-caption strong { font-family: var(--font-latin); font-size: 24px; color: #fff6e9; font-weight: 400; }
-.steam-hero-rating { margin-inline-start: auto; color: #d3c1aa; border: 1px solid #9c856d66; padding: 1px 7px; border-radius: var(--radius-sm); }
-.hero-stats { display: flex; flex-wrap: wrap; align-items: stretch; gap: 0; padding-block: 24px; border-top: 1px solid #9c856d55; margin-top: clamp(30px, 4vw, 48px); }
-.hero-stats > div { display: flex; flex-wrap: wrap; align-items: baseline; gap: 10px; padding-block: 6px; padding-inline: 0 24px; margin-inline-end: 24px; border: 0; border-inline-end: 1px solid #9c856d55; border-radius: 0; background: transparent; font-size: 14px; color: #d3c1aa; }
-.hero-stats > div:last-child { border-inline-end: 0; margin-inline-end: 0; padding-inline-end: 0; }
-.hero-stats strong { font-family: var(--font-latin); font-size: 26px; font-weight: 400; letter-spacing: .01em; color: #fff6e9; line-height: 1; }
-.hero-stats a:hover { color: #e4c895; }
+.steam-scenes { padding-top: clamp(42px, 7vw, 88px); }
+.steam-scenes-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
+.steam-scene { display: block; min-width: 0; overflow: hidden; border: 1px solid var(--line-strong); border-radius: var(--radius); background: #211a17; transition: border-color .2s, transform .2s; }
+.steam-scene:hover { border-color: var(--accent); transform: translateY(-3px); }
+.steam-scene img { width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: contain; }
 .status-dot { width: 7px; height: 7px; border-radius: 50%; background: var(--accent); flex: none; }
 
 /* Games */
@@ -125,20 +131,12 @@ html[data-script] .steam-hero .hero-copy h1 { font-size: clamp(34px, 4.1vw, 58px
 .follow-card .arrow { margin-top: auto; align-self: flex-end; color: var(--accent-ink); }
 
 @media (max-width: 1100px) {
-  .steam-hero-art { max-width: 800px; width: 100%; }
   .game-grid { grid-template-columns: 1fr; }
   .app-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .studio-grid { grid-template-columns: 1fr; }
   .follow-grid { grid-template-columns: 1fr 1fr; }
 }
 @media (max-width: 760px) {
-  .steam-hero { padding-top: 30px; }
-  .hero-grid { gap: 28px; }
-  .steam-hero .hero-actions a { flex: 1 1 140px; padding-inline: 16px; }
-  .steam-hero-caption { padding: 12px 16px; }
-  .hero-stats { gap: 12px 0; }
-  .hero-stats > div { padding-inline-end: 16px; margin-inline-end: 16px; font-size: 14px; }
-  .hero-stats strong { font-size: 24px; }
   .app-grid { grid-template-columns: 1fr; }
   .follow-grid { grid-template-columns: 1fr; }
   .game-media { min-height: 0; padding: 22px; }
@@ -150,4 +148,44 @@ html[data-script] .steam-hero .hero-copy h1 { font-size: clamp(34px, 4.1vw, 58px
   .search { width: 100%; }
 }
 
-@media (max-width: 900px) { .hero-grid { grid-template-columns: 1fr; } }
+
+
+@media (max-width: 900px) {
+ .hero-grid { grid-template-columns: 1fr; grid-template-areas: "heading" "art" "actions" "details"; gap: 18px; }
+ .steam-hero-art { width: 100%; height: clamp(190px, 29vw, 260px); border-radius: 8px 46px 8px 8px; }
+ .steam-poster-character { height: 150%; inset-inline-end: 5%; bottom: -50%; }
+ .steam-poster-mark { max-width: 50%; }
+ .steam-poster-mark > span { font-size: 42px; }
+ .steam-story-features { margin-top: 26px; }
+}
+@media (max-width: 760px) {
+ .steam-hero { padding-top: 22px; }
+ .hero-grid { gap: 14px; }
+ .steam-availability { padding: 4px 10px; margin-bottom: 12px; font-size: 14px; }
+ html[data-script] .steam-hero h1 { font-size: 32px; line-height: 1.2; margin-bottom: 8px; }
+ .steam-hero-hook { font-size: 16px; line-height: 1.5; }
+ .steam-hero-art { height: 150px; }
+ .steam-poster-mark { top: 18px; inset-inline-start: 20px; }
+ .steam-poster-mark > span { font-size: 32px; }
+ .steam-poster-mark p { margin-top: 10px; font-size: 14px; }
+ .steam-poster-rating { bottom: 12px; inset-inline-start: 20px; }
+ .steam-poster-character { height: 170%; inset-inline-end: -1%; bottom: -70%; }
+ .steam-hero .hero-actions a { flex: 1 1 0; min-width: 0; min-height: 48px; padding: 10px 10px; font-size: 15px; }
+ .steam-hero .lead { font-size: 16px; margin-bottom: 14px; }
+ .steam-story-features { padding-block: 20px; }
+ .steam-story-features p { padding-inline: 10px; font-size: 15px; }
+ .steam-scenes-grid { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; gap: 14px; padding-bottom: 12px; }
+ .steam-scene { flex: 0 0 88%; scroll-snap-align: start; }
+ .is-home .header-inner { padding-block: 7px; gap: 5px 12px; }
+ .is-home .brand-latin { display: none; }
+ .is-home .brand-mark { width: 30px; height: 30px; }
+ .is-home .site-nav { padding-bottom: 0; }
+ .is-home .site-nav a { padding-block: 4px; }
+}
+@media (max-width: 360px) {
+ .steam-hero { padding-top: 16px; }
+ html[data-script] .steam-hero h1 { font-size: 29px; }
+ .steam-hero-art { height: 126px; }
+ .steam-poster-character { height: 175%; bottom: -75%; }
+ .steam-hero-hook { font-size: 16px; }
+}

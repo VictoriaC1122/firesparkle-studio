@@ -20,6 +20,7 @@ export const site = {
     slug: 'larry-cocktail',
     releasedOn: '2026-11-17',
     heroImage: '/assets/steam/larry-gameplay.d38919e4ad06.jpg',
+    scenes: ["/assets/steam/larry-gameplay.d38919e4ad06.jpg", "/assets/steam/larry-scene-2.640a1a1254d8.jpg", "/assets/steam/larry-scene-4.3e1a68eaa70c.jpg"],
     storeUrl: 'https://store.steampowered.com/app/5466570/',
     platforms: ['Windows', 'macOS', 'Linux'],
     demoSubject: '賴瑞的調酒研究室｜Steam 試玩碼申請 / Demo key request',
