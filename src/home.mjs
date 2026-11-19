@@ -38,10 +38,8 @@ export function renderHome({ site, apps, media, gallery, L, T, messageId, esc, a
    <p class="steam-hero-hook">${T('One drink. One choice. Your story.')}</p>
   </div>
   <div class="steam-hero-art" aria-hidden="true">
-   <img class="steam-poster-backdrop" src="${esc(site.steam.heroImage)}" alt="" width="1920" height="1080" fetchpriority="high">
-   <div class="steam-poster-shade"></div>
-   <div class="steam-poster-mark"><span dir="ltr">STEAM</span><p>${L('互動敘事 · 戀愛文字', 'Interactive fiction · Romance')}</p></div>
-   <img class="steam-poster-character" src="/assets/characters/larry-smiling.gif" alt="" width="530" height="650" fetchpriority="high">
+   <img class="steam-hero-image" src="${esc(site.steam.heroImage)}" alt="" width="1672" height="941" fetchpriority="high">
+   <span class="steam-poster-mark" dir="ltr">STEAM</span>
    <span class="steam-poster-rating" dir="ltr">18+</span>
   </div>
   <div class="hero-conversion">
