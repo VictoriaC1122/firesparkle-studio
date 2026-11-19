@@ -189,3 +189,9 @@ html[data-script] .steam-hero h1 { font-size: clamp(38px, 4.6vw, 66px); font-wei
  .steam-poster-character { height: 175%; bottom: -75%; }
  .steam-hero-hook { font-size: 16px; }
 }
+
+/* Captions retain the exact native strings shown inside each game capture. */
+.steam-scene { margin: 0; }
+.steam-scene-link { display: block; }
+.steam-scene-caption { padding: 12px 14px; font-size: 14px; line-height: 1.6; color: var(--ink-soft); background: var(--surface); overflow-wrap: anywhere; }
+.steam-gallery-note { font-size: 15px; color: var(--muted); margin-bottom: 20px; }

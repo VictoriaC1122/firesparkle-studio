@@ -1,8 +1,9 @@
 import { renderSteamRelease, steamDemoHref } from './steam.mjs';
 import { renderPhone } from './showcase.mjs';
+import { renderSteamGallery } from './steam-gallery.mjs';
 // 首頁：Steam 遊戲主打、已推出的遊戲、全部作品、工作室介紹、社群與聯絡。
 // Steam 發售資訊與已公開商店連結。
-export function renderHome({ site, apps, media, L, T, messageId, esc, appURL, catL, mailto, email, arrow, brandAsset, socialLink }) {
+export function renderHome({ site, apps, media, gallery, L, T, messageId, esc, appURL, catL, mailto, email, arrow, brandAsset, socialLink }) {
   const bySlug = Object.fromEntries(apps.map(a => [a.slug, a]));
   const groups = ['全部', ...new Set(apps.map(a => a.category))];
 
@@ -56,8 +57,9 @@ export function renderHome({ site, apps, media, L, T, messageId, esc, appURL, ca
 </section>
 
 <section id="steam-scenes" class="steam-scenes" aria-labelledby="steam-scenes-title"><div class="wrap">
- <div class="section-head"><div><p class="eyebrow" dir="ltr">Larry’s Cocktail Lab · Steam</p><h2 id="steam-scenes-title">${T('Step inside the story')}</h2></div><a class="text-link" href="${appURL(larry)}">${T('Game details')}</a></div>
- <div class="steam-scenes-grid" data-gallery>${site.steam.scenes.map(path => `<a class="steam-scene" href="${esc(path)}" data-full-image aria-label="放大畫面" data-i18n-label="${messageId('Enlarge screenshot')}"><img src="${esc(path)}" alt="遊戲畫面" data-i18n-alt="${messageId('Game screenshot')}" width="1920" height="1080" loading="lazy"></a>`).join('')}</div>
+ <div class="section-head"><div><p class="eyebrow">${L(esc(larry.short), esc(larry.en))} · <span dir="ltr">Steam</span></p><h2 id="steam-scenes-title">${T('Step inside the story')}</h2></div><a class="text-link" href="${appURL(larry)}">${T('Game details')}</a></div>
+ <p class="steam-gallery-note">${T('Game screenshots are available in eight languages. Other website languages show English game screenshots.')}</p>
+ ${renderSteamGallery({ gallery, T, esc, messageId })}
  ${renderSteamRelease({ site, app: larry, L, T, esc, arrow, id: 'steam-purchase' })}
 </div></section>
 

@@ -200,8 +200,8 @@
     "zh": "作品選輯"
   },
   {
-    "id": "bd2a4d4b0c67",
-    "en": "Larry’s Cocktail Lab",
+    "id": "4b80893f16a5",
+    "en": "Larry’s Mixology Lab",
     "zh": "賴瑞的調酒研究室"
   },
   {
@@ -245,8 +245,8 @@
     "zh": "互動敘事 · 戀愛文字"
   },
   {
-    "id": "e414315a3022",
-    "en": "Larry&#39;s Cocktail Lab",
+    "id": "cbc2a2121058",
+    "en": "Larry&#39;s Mixology Lab",
     "zh": "賴瑞的調酒研究室"
   },
   {
@@ -615,8 +615,8 @@
     "zh": "隱私資訊"
   },
   {
-    "id": "424462deac49",
-    "en": "Larry&#39;s Cocktail Lab<br>Privacy Policy",
+    "id": "bb71b55c87a4",
+    "en": "Larry&#39;s Mixology Lab<br>Privacy Policy",
     "zh": "賴瑞的調酒研究室<br>隱私資訊"
   },
   {
@@ -1203,5 +1203,10 @@
     "id": "f868bce2eb25",
     "en": "Step inside the story",
     "zh": "走進故事現場"
+  },
+  {
+    "id": "707bd243e89c",
+    "en": "Game screenshots are available in eight languages. Other website languages show English game screenshots.",
+    "zh": "遊戲畫面提供八種語言；其餘網站語言會顯示英文遊戲畫面。"
   }
 ]

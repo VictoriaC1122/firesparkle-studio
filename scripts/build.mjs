@@ -24,11 +24,12 @@ const { L, T, id: messageId } = localized;
 // 更新樣式時產生新資源網址，讓既有訪客直接取得新版。
 const hash = async (...files) => { const h = createHash('sha256'); for (const f of files) h.update(await readFile(resolve(root, f))); return h.digest('hex').slice(0, 12); };
 const assetVersion = await hash('public/style.css', 'public/fonts/fonts.css', 'public/site.js', 'public/gallery.js', 'public/gallery.css');
-const homeVersion = await hash('public/home.css');
+const homeVersion = await hash('public/home.css', 'public/steam-gallery.js');
 const guideVersion = await hash('public/guides.css');
 const brandVersion = await hash('data/brand/firesparkle-logo-original.png', 'public/assets/brand/og-image.png');
 const brandAsset = path => `${path}?v=${brandVersion}`;
 const catalog = JSON.parse(await read('data/apple-catalog.json'));
+const steamGallery = JSON.parse(await read('data/steam-gallery-2026-11-20.json'));
 const policies = JSON.parse(await read('data/privacy-sources/manifest.json')).apps;
 const androidPolicies = JSON.parse(await read('data/android-privacy.json'));
 const media = JSON.parse(await read('data/site-media.json'));
@@ -97,9 +98,9 @@ const galleryHead = `<link rel="stylesheet" href="/gallery.css?v=${assetVersion}
 // --------------------------------------------------------------------------
 // 首頁
 // --------------------------------------------------------------------------
-const home = renderHome({ site, apps, media, L, T, messageId, esc, appURL, catL, mailto, email, arrow, brandAsset, socialLink });
+const home = renderHome({ site, apps, media, gallery: steamGallery, L, T, messageId, esc, appURL, catL, mailto, email, arrow, brandAsset, socialLink });
 const orgLd = `<script type="application/ld+json">${JSON.stringify({ '@context': 'https://schema.org', '@type': 'Organization', name: 'FireSparkle.Studio', alternateName: '花火工作室', url: siteURL, logo: `${siteURL}${brandAsset('/assets/brand/icon-512.png')}`, email, foundingDate: String(site.founded), slogan: site.tagline, sameAs: [site.social.instagram, site.social.threads] })}</script>`;
-await save('index.html', page({ path: '/', title: '賴瑞的調酒研究室 Steam 已上架｜花火工作室 FireSparkle.Studio', description: '《賴瑞的調酒研究室》Steam 已正式上架。走進酒吧，以對話選擇推進戀愛故事與不同分支。支援 Windows、macOS、Linux，可直接前往 Steam 購買、加入願望清單，或寄信索取試玩碼。探索花火工作室的其他 iOS App 與遊戲。', content: home, bodyClass: 'is-home', image: site.steam.heroImage, imageSize: [1920, 1080], imageAlt: '賴瑞的調酒研究室 Steam 遊戲畫面｜花火工作室', extraHead: `<link rel="stylesheet" href="/home.css?v=${homeVersion}">${galleryHead}${orgLd}` }));
+await save('index.html', page({ path: '/', title: '賴瑞的調酒研究室 Steam 已上架｜花火工作室 FireSparkle.Studio', description: '《賴瑞的調酒研究室》Steam 已正式上架。走進酒吧，以對話選擇推進戀愛故事與不同分支。支援 Windows、macOS、Linux，可直接前往 Steam 購買、加入願望清單，或寄信索取試玩碼。探索花火工作室的其他 iOS App 與遊戲。', content: home, bodyClass: 'is-home', image: site.steam.heroImage, imageSize: [1920, 1080], imageAlt: '賴瑞的調酒研究室 Steam 遊戲畫面｜花火工作室', extraHead: `<link rel="stylesheet" href="/home.css?v=${homeVersion}">${galleryHead}<script src="/steam-gallery.js?v=${homeVersion}" defer></script>${orgLd}` }));
 
 // --------------------------------------------------------------------------
 // 指南總覽（遊戲玩法、App 使用指南）：沿用全站 50 種語言

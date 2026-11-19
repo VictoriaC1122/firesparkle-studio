@@ -1,0 +1,164 @@
+{
+  "verifiedOn": "2026-11-20",
+  "scope": "Align the bilingual Larry detail page with the released Steam edition; no game files, saves, legal pages, guide step translations or build outputs changed.",
+  "detailFile": "data/guides/details/larry-cocktail.json",
+  "officialSteam": {
+    "appId": 5466570,
+    "storeUrl": "https://store.steampowered.com/app/5466570/",
+    "snapshotPath": "data/steam-larry-feature-2026-11-19.json",
+    "snapshotSha256": "d9aab0cbe5a6c224652fffceb06b319ff8c32dc1ba510a0dd68187fc7c806077",
+    "released": true,
+    "releaseDate": "2026-11-17",
+    "sourceUrl": "https://store.steampowered.com/api/appdetails?appids=5466570&cc=tw&l=tchinese&timestamp=20261119043412"
+  },
+  "localSources": [
+    {
+      "path": "/Users/chengyungwen/Desktop/Larry's Bar Game/steam/content/game/index.html",
+      "sha256": "d08998f5d8dc8596afdd47bbac707a18b36838fd1d280c8185d629f156b09220"
+    },
+    {
+      "path": "/Users/chengyungwen/Desktop/Larry's Bar Game/steam/content/game/data/lang/en.js",
+      "sha256": "949ebd69e2e15bf1f8b2f71b9280bdffddfef604dc41b145a9d98dd91b3c3210"
+    },
+    {
+      "path": "/Users/chengyungwen/Desktop/Larry's Bar Game/steam/content/game/assets/js/utility.js",
+      "sha256": "2c87440ad39713c74c5fd17e1cc0047c83cc1ccc6b05acc153cffb09ea1d828b"
+    },
+    {
+      "path": "/Users/chengyungwen/Desktop/Larry's Bar Game/steam/content/game/assets/js/game.js",
+      "sha256": "30024c7ed8ee2e3605740735ecb081b0c869e84eb2b002f3587b8379691d2a6e"
+    },
+    {
+      "path": "/Users/chengyungwen/Desktop/Larry's Bar Game/steam/content/game/steam/steam-shell.js",
+      "sha256": "c6cc3e2af447da66cf417019aae86962e41e5031514c8fe38d14173650cc5ff9"
+    },
+    {
+      "path": "/Users/chengyungwen/Desktop/Larry's Bar Game/steam/src/steam-shell/steam-shell.js",
+      "sha256": "c6cc3e2af447da66cf417019aae86962e41e5031514c8fe38d14173650cc5ff9"
+    }
+  ],
+  "confirmedUiLabels": [
+    {
+      "zh": "賴瑞的調酒研究室",
+      "en": "Larry's Mixology Lab"
+    },
+    {
+      "zh": "新開始遊戲",
+      "en": "New Game"
+    },
+    {
+      "zh": "重新開始",
+      "en": "Restart"
+    },
+    {
+      "zh": "快速存檔",
+      "en": "Quick Save"
+    },
+    {
+      "zh": "快速讀取",
+      "en": "Quick Load"
+    },
+    {
+      "zh": "存檔格",
+      "en": "Save Slots"
+    },
+    {
+      "zh": "讀取存檔格",
+      "en": "Load Game"
+    },
+    {
+      "zh": "存檔模式",
+      "en": "Save Mode"
+    },
+    {
+      "zh": "讀取模式",
+      "en": "Load Mode"
+    },
+    {
+      "zh": "結局蒐集",
+      "en": "Endings"
+    },
+    {
+      "zh": "設定",
+      "en": "Settings"
+    }
+  ],
+  "findings": [
+    {
+      "claim": "The player is Larry, the bar owner. The game is a single-player text adventure, not a premise about getting to know Larry as a separate romantic lead.",
+      "evidence": [
+        "officialSnapshot.detailed_description: player role, locations and dialogue choices",
+        "steam/content/game/data/lang/en.js: ui About the Game text"
+      ]
+    },
+    {
+      "claim": "The current English product title is Larry's Mixology Lab.",
+      "evidence": [
+        "steam/content/game/data/lang/en.js: ui[賴瑞的調酒研究室]",
+        "steam/content/game/index.html:610"
+      ]
+    },
+    {
+      "claim": "Title-screen and toolbar instructions use the shipped UI labels, including Restart, Quick Save, Quick Load, Save Slots, Load Game and Endings.",
+      "evidence": [
+        "steam/content/game/index.html:584-595 and 618-625",
+        "steam/content/game/data/lang/en.js: ui mappings",
+        "steam/content/game/assets/js/utility.js:1280-1287 tutorial and 1468-1491 save/load modes"
+      ]
+    },
+    {
+      "claim": "There are 40 numbered local save slots, with a separate quick-save/load flow. No claim is made that 40 slots cover every choice or remove the need to restart.",
+      "evidence": [
+        "officialSnapshot.detailed_description: 40 local slots and quick save/load",
+        "steam/content/game/assets/js/utility.js:1402-1419 renders slots 1 through 40",
+        "steam/content/game/assets/js/utility.js:1428-1465 local save/load operations"
+      ]
+    },
+    {
+      "claim": "Completed endings are recorded automatically only after the ending finishes and exits to the post-ending section. Unreached ending names stay hidden.",
+      "evidence": [
+        "steam/content/game/assets/js/utility.js:706-726 recordEndingClear",
+        "steam/content/game/assets/js/game.js:1209 recordEndingClear call",
+        "steam/content/game/assets/js/utility.js:758-805 progress and hidden names",
+        "officialSnapshot.detailed_description: automatic ending collection"
+      ]
+    },
+    {
+      "claim": "Steam controls include click, Enter or Space to advance; F11 or Alt+Enter toggles fullscreen and Esc leaves it. Settings offers text-size controls and the tutorial.",
+      "evidence": [
+        "steam/src/steam-shell/steam-shell.js:315-318 and 329-343",
+        "steam/content/game/data/lang/en.js: Keyboard Controls and Settings labels"
+      ]
+    },
+    {
+      "claim": "Eight game languages are supported and the game has no character voice acting. Website-language count is not substituted for game-language support.",
+      "evidence": [
+        "officialSnapshot.supported_languages",
+        "officialSnapshot.detailed_description: eight interface/script languages and no character voices"
+      ]
+    }
+  ],
+  "removedOrCorrected": [
+    "Replaced the old iOS description and screenshot-only source attribution with Steam release and local-source evidence.",
+    "Corrected the player-role and English-title mismatch; removed unsupported otome/romantic-companion positioning.",
+    "Replaced the outdated title-screen-only save/load instructions with current Steam toolbar and save-panel labels.",
+    "Removed the guarantee that 40 slots can hold every important choice and that players never need to start over.",
+    "Used qualified language for choice effects and practical instructions instead of unsupported promotional claims."
+  ],
+  "structure": {
+    "introParagraphsPerLanguage": 3,
+    "stepDetailsPerLanguage": 4,
+    "stepOrder": [
+      "start and read as Larry",
+      "choose a response",
+      "save progress",
+      "load and review endings"
+    ]
+  },
+  "excludedSourceDirectories": [
+    "output",
+    "dist",
+    "backups"
+  ],
+  "gameFilesReadOnly": true
+}

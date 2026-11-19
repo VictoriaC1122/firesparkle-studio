@@ -24,7 +24,7 @@ export const site = {
     storeUrl: 'https://store.steampowered.com/app/5466570/',
     platforms: ['Windows', 'macOS', 'Linux'],
     demoSubject: '賴瑞的調酒研究室｜Steam 試玩碼申請 / Demo key request',
-    demoBody: '花火工作室您好，\n我想索取《賴瑞的調酒研究室》Steam 試玩碼，謝謝！\n\nHello FireSparkle.Studio,\nI would like to request a Steam demo key for Larry’s Cocktail Lab. Thank you!',
+    demoBody: '花火工作室您好，\n我想索取《賴瑞的調酒研究室》Steam 試玩碼，謝謝！\n\nHello FireSparkle.Studio,\nI would like to request a Steam demo key for Larry’s Mixology Lab. Thank you!',
   },
   // 網站隱私說明的更新日期（變更時需同步新增各語言的「Last updated …」文字，見 data/i18n/additions-*.json）
   updatedZh: '2026 年 10 月 23 日',
@@ -166,7 +166,7 @@ export const apps = {
   },
   'larry-cocktail': {
     accent: ['#b8702c', '#f0ab67'],
-    category: '遊戲', short: '賴瑞的調酒研究室', en: "Larry's Cocktail Lab",
+    category: '遊戲', short: '賴瑞的調酒研究室', en: "Larry's Mixology Lab",
     shortDescription: '以酒吧為背景的戀愛文字遊戲。透過對話選項進入不同故事分支，並以本機存檔回顧路線。',
     enDesc: 'A romance text game set in a bar. Dialogue choices lead to different story branches, with local saves for revisiting routes.',
   },

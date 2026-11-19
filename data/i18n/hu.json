@@ -39,7 +39,7 @@
   "e094997b4a57": "Alkalmazások megtekintése",
   "9ab88b5cbbed": "A megjelenés előkészítés alatt",
   "c6e9da06e794": "Válogatott munkák",
-  "bd2a4d4b0c67": "Larry’s Cocktail Lab",
+  "4b80893f16a5": "Larry's Mixology Lab",
   "f3f5b7f11cb0": "Coffee Chat",
   "1bc187f9f145": "Perfect Pig",
   "8b38b1330b0b": "Munkáink megtekintése",
@@ -48,7 +48,7 @@
   "e42f4b9a99ed": "Már elérhetők az App Store-ban",
   "3ee225e9716a": "Játékbeli képernyőkép",
   "2dea9038a6c5": "Interaktív történet · Romantika",
-  "e414315a3022": "Larry&#39;s Cocktail Lab",
+  "cbc2a2121058": "Larry&#39;s Mixology Lab",
   "1de04060599b": "Egy bárban játszódó romantikus játék. A párbeszédválasztások eltérő történetágakhoz vezetnek, amelyekhez mentésekkel térhetsz vissza.",
   "a2abaee9e817": "A játék részletei",
   "6bf2b540c08f": "Életszimuláció · Nevelés",
@@ -121,7 +121,7 @@
   "070cf32c92df": "iOS 16.0 vagy újabb",
   "379338e2cb6e": "Egy bárban játszódó szöveges romantikus játék. A párbeszédválasztások eltérő történetágakat nyitnak meg, amelyekhez helyi mentésekkel térhetsz vissza.",
   "62551b437a04": "Adatvédelmi információk",
-  "424462deac49": "Larry&#39;s Cocktail Lab<br>Adatvédelmi szabályzat",
+  "bb71b55c87a4": "Larry&#39;s Mixology Lab<br>Adatvédelmi szabályzat",
   "f03fa90b6776": "Alkalmazások adatvédelme",
   "6073bc17e5fb": "Itt találod az egyes alkalmazások és játékok elérhető adatvédelmi információit és elérhetőségeit.",
   "8067a536bd46": "Az alkalmazás adatvédelmi szabályzata",
@@ -239,5 +239,6 @@
   "dc04e23bc466": "Elágazó történetek",
   "8366f738ba5a": "40 helyi mentési hely",
   "a8af66baa560": "Többféle befejezés",
-  "f868bce2eb25": "Lépj be a történetbe"
+  "f868bce2eb25": "Lépj be a történetbe",
+  "707bd243e89c": "A játék képernyőképei nyolc nyelven érhetők el. A weboldal többi nyelvén angol nyelvű játékképek jelennek meg."
 }

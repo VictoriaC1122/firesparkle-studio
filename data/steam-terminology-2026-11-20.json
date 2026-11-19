@@ -1,0 +1,461 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-11-20",
+  "authoritativeContent": "steam/content/game",
+  "sourcePaths": {
+    "gameRoot": "/Users/chengyungwen/Desktop/Larry's Bar Game",
+    "packagedHtml": "/Users/chengyungwen/Desktop/Larry's Bar Game/steam/content/game/index.html",
+    "packagedLanguageIndex": "/Users/chengyungwen/Desktop/Larry's Bar Game/steam/content/game/data/lang/index.js",
+    "configuredLanguages": "/Users/chengyungwen/Desktop/Larry's Bar Game/steam/localization/languages.json",
+    "packagedLanguageCatalogs": [
+      "/Users/chengyungwen/Desktop/Larry's Bar Game/steam/content/game/data/lang/en.js",
+      "/Users/chengyungwen/Desktop/Larry's Bar Game/steam/content/game/data/lang/ja.js",
+      "/Users/chengyungwen/Desktop/Larry's Bar Game/steam/content/game/data/lang/ko.js",
+      "/Users/chengyungwen/Desktop/Larry's Bar Game/steam/content/game/data/lang/zh-Hans.js",
+      "/Users/chengyungwen/Desktop/Larry's Bar Game/steam/content/game/data/lang/th.js",
+      "/Users/chengyungwen/Desktop/Larry's Bar Game/steam/content/game/data/lang/de.js",
+      "/Users/chengyungwen/Desktop/Larry's Bar Game/steam/content/game/data/lang/es.js"
+    ],
+    "packagedLocalizationRuntime": "/Users/chengyungwen/Desktop/Larry's Bar Game/steam/content/game/assets/js/localization.js",
+    "packagedSteamShell": "/Users/chengyungwen/Desktop/Larry's Bar Game/steam/content/game/steam/steam-shell.js",
+    "packagedMetadata": "/Users/chengyungwen/Desktop/Larry's Bar Game/steam/content/game/data/localization-meta.json",
+    "originalContent": "/Users/chengyungwen/Desktop/Larry's Bar Game/Larry's Bar Game/GameContent",
+    "originalMetadata": "/Users/chengyungwen/Desktop/Larry's Bar Game/Larry's Bar Game/GameContent/data/localization-meta.json",
+    "originalLocalizationRuntime": "/Users/chengyungwen/Desktop/Larry's Bar Game/Larry's Bar Game/GameContent/assets/js/localization.js",
+    "desktopPackage": "/Users/chengyungwen/Desktop/Larry's Bar Game/steam/package.json",
+    "desktopConfig": "/Users/chengyungwen/Desktop/Larry's Bar Game/steam/steam-config.json",
+    "desktopVersionProvider": "/Users/chengyungwen/Desktop/Larry's Bar Game/steam/src/main.js",
+    "contentBuilder": "/Users/chengyungwen/Desktop/Larry's Bar Game/steam/scripts/build-content.js",
+    "packagedScenarioLoader": "/Users/chengyungwen/Desktop/Larry's Bar Game/steam/content/game/assets/js/utility.js"
+  },
+  "gameVersion": "1.6.14",
+  "gameVersionEvidence": {
+    "packageVersion": "1.6.14",
+    "buildDescription": "v1.6.14: repaired Wenwen mouth compositing seams across 14 expressions; original face contours and approved Yibao v6 preserved; story and saves unchanged",
+    "runtimeVersionProvider": "steam/src/main.js larry:appInfo returns PACKAGE.version; packaged steam-shell.js displays bridge appInfo.version.",
+    "scope": "Current local desktop package/config version. content/game has no independent version stamp; this does not verify the remotely published Steam depot version."
+  },
+  "steamAppId": 5466570,
+  "officialEnglishTitle": "Larry's Mixology Lab",
+  "shippedLocaleCount": 8,
+  "titleSource": "賴瑞的調酒研究室",
+  "termSources": {
+    "newGame": "新開始遊戲",
+    "restart": "重新開始",
+    "quickSave": "快速存檔",
+    "quickLoad": "快速讀取",
+    "saveSlots": "存檔格",
+    "loadSaveSlots": "讀取存檔格",
+    "endingCollection": "結局蒐集",
+    "routeGuides": "路線攻略",
+    "tutorial": "新手教學",
+    "settings": "設定",
+    "auto": "自動播放",
+    "autoOn": "自動中",
+    "skip": "快速跳過",
+    "fullscreen": "全螢幕 (F11)",
+    "windowed": "視窗模式 (Esc)",
+    "fullscreenStatus": "目前：全螢幕",
+    "windowedStatus": "目前：視窗模式",
+    "directStart": "直接開始",
+    "listenStory": "聽故事（第一次玩請點選）",
+    "gameInfo": "遊戲說明",
+    "close": "關閉",
+    "skipTutorial": "略過",
+    "nextTutorial": "下一步"
+  },
+  "locales": {
+    "zh-Hant": {
+      "label": "繁體中文",
+      "title": "賴瑞的調酒研究室",
+      "terms": {
+        "newGame": "新開始遊戲",
+        "restart": "重新開始",
+        "quickSave": "快速存檔",
+        "quickLoad": "快速讀取",
+        "saveSlots": "存檔格",
+        "loadSaveSlots": "讀取存檔格",
+        "endingCollection": "結局蒐集",
+        "routeGuides": "路線攻略",
+        "tutorial": "新手教學",
+        "settings": "設定",
+        "auto": "自動播放",
+        "autoOn": "自動中",
+        "skip": "快速跳過",
+        "fullscreen": "全螢幕（F11）",
+        "windowed": "視窗模式（Esc）",
+        "fullscreenStatus": "目前：全螢幕",
+        "windowedStatus": "目前：視窗模式",
+        "directStart": "直接開始",
+        "listenStory": "聽故事（第一次玩請點選）",
+        "gameInfo": "遊戲說明",
+        "close": "關閉",
+        "skipTutorial": "略過",
+        "nextTutorial": "下一步"
+      },
+      "termSource": "Source-language labels in packaged index.html and steam-shell.js",
+      "displayNormalization": {
+        "fullscreen": {
+          "catalog": "全螢幕 (F11)",
+          "rendered": "全螢幕（F11）"
+        },
+        "windowed": {
+          "catalog": "視窗模式 (Esc)",
+          "rendered": "視窗模式（Esc）"
+        }
+      }
+    },
+    "en": {
+      "label": "English",
+      "title": "Larry's Mixology Lab",
+      "terms": {
+        "newGame": "New Game",
+        "restart": "Restart",
+        "quickSave": "Quick Save",
+        "quickLoad": "Quick Load",
+        "saveSlots": "Save Slots",
+        "loadSaveSlots": "Load Game",
+        "endingCollection": "Endings",
+        "routeGuides": "Route Guides",
+        "tutorial": "How to Play",
+        "settings": "Settings",
+        "auto": "Auto",
+        "autoOn": "Auto: On",
+        "skip": "Skip",
+        "fullscreen": "Fullscreen (F11)",
+        "windowed": "Windowed (Esc)",
+        "fullscreenStatus": "Current: Fullscreen",
+        "windowedStatus": "Current: Windowed",
+        "directStart": "Start right away",
+        "listenStory": "Hear the story (Choose this on your first playthrough)",
+        "gameInfo": "How to play",
+        "close": "Close",
+        "skipTutorial": "Skip",
+        "nextTutorial": "Next"
+      },
+      "termSource": "steam/content/game/data/lang/en.js",
+      "displayNormalization": {}
+    },
+    "ja": {
+      "label": "日本語",
+      "title": "ラリーのカクテル研究室",
+      "terms": {
+        "newGame": "はじめから",
+        "restart": "リスタート",
+        "quickSave": "クイックセーブ",
+        "quickLoad": "クイックロード",
+        "saveSlots": "セーブスロット",
+        "loadSaveSlots": "つづきから",
+        "endingCollection": "エンディング一覧",
+        "routeGuides": "ルート攻略",
+        "tutorial": "チュートリアル",
+        "settings": "設定",
+        "auto": "オート",
+        "autoOn": "オート中",
+        "skip": "スキップ",
+        "fullscreen": "フルスクリーン（F11）",
+        "windowed": "ウィンドウモード（Esc）",
+        "fullscreenStatus": "現在：フルスクリーン",
+        "windowedStatus": "現在：ウィンドウモード",
+        "directStart": "すぐに始める",
+        "listenStory": "ストーリーを聞く（初めてプレイする方はこちらを選択）",
+        "gameInfo": "遊び方",
+        "close": "閉じる",
+        "skipTutorial": "スキップ",
+        "nextTutorial": "次へ"
+      },
+      "termSource": "steam/content/game/data/lang/ja.js",
+      "displayNormalization": {
+        "fullscreen": {
+          "catalog": "フルスクリーン (F11)",
+          "rendered": "フルスクリーン（F11）"
+        },
+        "windowed": {
+          "catalog": "ウィンドウモード (Esc)",
+          "rendered": "ウィンドウモード（Esc）"
+        }
+      }
+    },
+    "ko": {
+      "label": "한국어",
+      "title": "래리의 칵테일 연구실",
+      "terms": {
+        "newGame": "새 게임",
+        "restart": "다시 시작",
+        "quickSave": "빠른 저장",
+        "quickLoad": "빠른 불러오기",
+        "saveSlots": "저장 슬롯",
+        "loadSaveSlots": "불러오기",
+        "endingCollection": "엔딩 수집",
+        "routeGuides": "루트 공략",
+        "tutorial": "튜토리얼",
+        "settings": "설정",
+        "auto": "자동 진행",
+        "autoOn": "자동 진행 중",
+        "skip": "스킵",
+        "fullscreen": "전체 화면 (F11)",
+        "windowed": "창 모드 (Esc)",
+        "fullscreenStatus": "현재: 전체 화면",
+        "windowedStatus": "현재: 창 모드",
+        "directStart": "바로 시작",
+        "listenStory": "스토리 듣기 (처음 플레이한다면 선택하세요)",
+        "gameInfo": "게임 설명",
+        "close": "닫기",
+        "skipTutorial": "건너뛰기",
+        "nextTutorial": "다음"
+      },
+      "termSource": "steam/content/game/data/lang/ko.js",
+      "displayNormalization": {}
+    },
+    "zh-Hans": {
+      "label": "简体中文",
+      "title": "赖瑞的调酒研究室",
+      "terms": {
+        "newGame": "开始新游戏",
+        "restart": "重新开始",
+        "quickSave": "快速存档",
+        "quickLoad": "快速读档",
+        "saveSlots": "存档位",
+        "loadSaveSlots": "读取存档",
+        "endingCollection": "结局收集",
+        "routeGuides": "路线攻略",
+        "tutorial": "新手教程",
+        "settings": "设置",
+        "auto": "自动播放",
+        "autoOn": "自动中",
+        "skip": "快速跳过",
+        "fullscreen": "全屏（F11）",
+        "windowed": "窗口模式（Esc）",
+        "fullscreenStatus": "当前：全屏",
+        "windowedStatus": "当前：窗口模式",
+        "directStart": "直接开始",
+        "listenStory": "听故事（第一次玩请点击）",
+        "gameInfo": "游戏说明",
+        "close": "关闭",
+        "skipTutorial": "跳过",
+        "nextTutorial": "下一步"
+      },
+      "termSource": "steam/content/game/data/lang/zh-Hans.js",
+      "displayNormalization": {
+        "fullscreen": {
+          "catalog": "全屏 (F11)",
+          "rendered": "全屏（F11）"
+        },
+        "windowed": {
+          "catalog": "窗口模式 (Esc)",
+          "rendered": "窗口模式（Esc）"
+        }
+      }
+    },
+    "th": {
+      "label": "ไทย",
+      "title": "ห้องแล็บค็อกเทลของแลร์รี่",
+      "terms": {
+        "newGame": "เริ่มเกมใหม่",
+        "restart": "เริ่มใหม่",
+        "quickSave": "เซฟด่วน",
+        "quickLoad": "โหลดด่วน",
+        "saveSlots": "ช่องเซฟ",
+        "loadSaveSlots": "โหลดเซฟ",
+        "endingCollection": "สะสมฉากจบ",
+        "routeGuides": "บทสรุปเส้นทาง",
+        "tutorial": "วิธีเล่น",
+        "settings": "ตั้งค่า",
+        "auto": "ออโต้",
+        "autoOn": "กำลังออโต้",
+        "skip": "ข้าม",
+        "fullscreen": "เต็มจอ (F11)",
+        "windowed": "โหมดหน้าต่าง (Esc)",
+        "fullscreenStatus": "ปัจจุบัน: เต็มจอ",
+        "windowedStatus": "ปัจจุบัน: โหมดหน้าต่าง",
+        "directStart": "เริ่มเลย",
+        "listenStory": "ฟังเรื่องราว (เล่นครั้งแรกกดตรงนี้เลย)",
+        "gameInfo": "วิธีเล่น",
+        "close": "ปิด",
+        "skipTutorial": "ข้าม",
+        "nextTutorial": "ถัดไป"
+      },
+      "termSource": "steam/content/game/data/lang/th.js",
+      "displayNormalization": {}
+    },
+    "de": {
+      "label": "Deutsch",
+      "title": "Larry's Mixology Lab",
+      "terms": {
+        "newGame": "Neues Spiel",
+        "restart": "Neustart",
+        "quickSave": "Schnellspeichern",
+        "quickLoad": "Schnellladen",
+        "saveSlots": "Spielstände",
+        "loadSaveSlots": "Spiel laden",
+        "endingCollection": "Enden-Sammlung",
+        "routeGuides": "Routen-Guides",
+        "tutorial": "Tutorial",
+        "settings": "Einstellungen",
+        "auto": "Auto",
+        "autoOn": "Auto: an",
+        "skip": "Vorspulen",
+        "fullscreen": "Vollbild (F11)",
+        "windowed": "Fenstermodus (Esc)",
+        "fullscreenStatus": "Aktuell: Vollbild",
+        "windowedStatus": "Aktuell: Fenstermodus",
+        "directStart": "Direkt loslegen",
+        "listenStory": "Story anhören (beim ersten Mal bitte auswählen)",
+        "gameInfo": "Spielanleitung",
+        "close": "Schließen",
+        "skipTutorial": "Überspringen",
+        "nextTutorial": "Weiter"
+      },
+      "termSource": "steam/content/game/data/lang/de.js",
+      "displayNormalization": {}
+    },
+    "es": {
+      "label": "Español",
+      "title": "Larry's Mixology Lab",
+      "terms": {
+        "newGame": "Nueva partida",
+        "restart": "Reiniciar",
+        "quickSave": "Guardado rápido",
+        "quickLoad": "Carga rápida",
+        "saveSlots": "Ranuras de guardado",
+        "loadSaveSlots": "Cargar partida",
+        "endingCollection": "Finales",
+        "routeGuides": "Guías de rutas",
+        "tutorial": "Tutorial",
+        "settings": "Ajustes",
+        "auto": "Auto",
+        "autoOn": "Auto activado",
+        "skip": "Saltar",
+        "fullscreen": "Pantalla completa (F11)",
+        "windowed": "Modo ventana (Esc)",
+        "fullscreenStatus": "Actual: pantalla completa",
+        "windowedStatus": "Actual: modo ventana",
+        "directStart": "Empezar directamente",
+        "listenStory": "Escuchar la historia (elige esta opción si es tu primera partida)",
+        "gameInfo": "Cómo jugar",
+        "close": "Cerrar",
+        "skipTutorial": "Omitir",
+        "nextTutorial": "Siguiente"
+      },
+      "termSource": "steam/content/game/data/lang/es.js",
+      "displayNormalization": {}
+    }
+  },
+  "comparison": {
+    "localizationRuntimeByteIdentical": true,
+    "localizationRuntimeSha256": "3210cc554b56cc0aaac44b40b01587d7211aefa94d4f95553ad01a43ea97d7e9",
+    "storySourceSha256": {
+      "packagedMetadata": "7f09b7f38856602fa7cc26acdd22d227ffa71d63e8829590d402e1c392dd20bb",
+      "originalMetadata": "7f09b7f38856602fa7cc26acdd22d227ffa71d63e8829590d402e1c392dd20bb"
+    },
+    "localeCatalogs": {
+      "en": {
+        "requestedTitlesAndTermsMatch": true,
+        "actualPackagedUiEntries": 189,
+        "packagedMetadataUiEntries": 273,
+        "actualOriginalUiEntries": 279,
+        "originalMetadataUiEntries": 279,
+        "originalOnlyUiKeys": 90,
+        "packagedOnlyUiKeys": 0,
+        "changedSharedUiKeys": [],
+        "additionalStoryLabelsMatch": true
+      },
+      "ja": {
+        "requestedTitlesAndTermsMatch": true,
+        "actualPackagedUiEntries": 189,
+        "packagedMetadataUiEntries": 273,
+        "actualOriginalUiEntries": 279,
+        "originalMetadataUiEntries": 279,
+        "originalOnlyUiKeys": 90,
+        "packagedOnlyUiKeys": 0,
+        "changedSharedUiKeys": [],
+        "additionalStoryLabelsMatch": true
+      },
+      "ko": {
+        "requestedTitlesAndTermsMatch": true,
+        "actualPackagedUiEntries": 189,
+        "packagedMetadataUiEntries": 273,
+        "actualOriginalUiEntries": 279,
+        "originalMetadataUiEntries": 279,
+        "originalOnlyUiKeys": 90,
+        "packagedOnlyUiKeys": 0,
+        "changedSharedUiKeys": [],
+        "additionalStoryLabelsMatch": true
+      },
+      "zh-Hans": {
+        "requestedTitlesAndTermsMatch": true,
+        "actualPackagedUiEntries": 189,
+        "packagedMetadataUiEntries": 273,
+        "actualOriginalUiEntries": 279,
+        "originalMetadataUiEntries": 279,
+        "originalOnlyUiKeys": 90,
+        "packagedOnlyUiKeys": 0,
+        "changedSharedUiKeys": [],
+        "additionalStoryLabelsMatch": true
+      },
+      "th": {
+        "requestedTitlesAndTermsMatch": true,
+        "actualPackagedUiEntries": 189,
+        "packagedMetadataUiEntries": 273,
+        "actualOriginalUiEntries": 279,
+        "originalMetadataUiEntries": 279,
+        "originalOnlyUiKeys": 90,
+        "packagedOnlyUiKeys": 0,
+        "changedSharedUiKeys": [],
+        "additionalStoryLabelsMatch": true
+      },
+      "de": {
+        "requestedTitlesAndTermsMatch": true,
+        "actualPackagedUiEntries": 189,
+        "packagedMetadataUiEntries": 273,
+        "actualOriginalUiEntries": 279,
+        "originalMetadataUiEntries": 279,
+        "originalOnlyUiKeys": 90,
+        "packagedOnlyUiKeys": 0,
+        "changedSharedUiKeys": [],
+        "additionalStoryLabelsMatch": true
+      },
+      "es": {
+        "requestedTitlesAndTermsMatch": true,
+        "actualPackagedUiEntries": 189,
+        "packagedMetadataUiEntries": 273,
+        "actualOriginalUiEntries": 279,
+        "originalMetadataUiEntries": 279,
+        "originalOnlyUiKeys": 90,
+        "packagedOnlyUiKeys": 0,
+        "changedSharedUiKeys": [],
+        "additionalStoryLabelsMatch": true
+      }
+    },
+    "notes": [
+      "The eight languages in steam/localization/languages.json exactly match the packaged data/lang/index.js. Expansion work directories were not treated as shipped content.",
+      "Titles and requested UI terms match the original GameContent catalogs for every translated shipped locale.",
+      "The packaged metadata reports 273 UI entries per translated locale, while each actual packaged catalog contains 189. Original metadata and catalogs report 279. Metadata counts are therefore not used as the authoritative terminology source.",
+      "Each original catalog has 90 keys absent from the packaged base catalog. The content builder explicitly moves walkthrough strings into DLC depots; this audit does not assume that every original-only key is a walkthrough string. No shared UI values differ.",
+      "Labels are outputs of the packaged localization runtime in an isolated context with a stub locale preference and no DOM event execution: LarryI18n.t handles UI labels; localizeXML handles the three story menu options using catalog.story and punctuate. No browser, real localStorage, game saves or game files were modified. CJK punctuation normalization is recorded separately.",
+      "directStart, listenStory and gameInfo are story-option labels, not catalog.ui entries. Calling LarryI18n.t alone would leave their Traditional Chinese source text untranslated. utility.js loads the scenario through LarryI18n.localizeXML; the terms here follow that actual story translation path."
+    ]
+  },
+  "websiteNamingRecommendation": {
+    "websiteLocaleCount": 50,
+    "useExactPackagedTitleFor": [
+      "zh-Hant",
+      "en",
+      "ja",
+      "ko",
+      "zh-Hans",
+      "th",
+      "de",
+      "es"
+    ],
+    "otherLocaleCount": 42,
+    "otherLocaleTitle": "Larry's Mixology Lab",
+    "note": "Use the official English title for website languages outside the eight shipped game locales. Website translation availability does not establish game-language support."
+  },
+  "termResolvers": {
+    "default": "LarryI18n.t(sourceLabel)",
+    "directStart": "LarryI18n.localizeXML(optionTextNode) using catalog.story, then punctuate",
+    "listenStory": "LarryI18n.localizeXML(optionTextNode) using catalog.story, then punctuate",
+    "gameInfo": "LarryI18n.localizeXML(optionTextNode) using catalog.story, then punctuate"
+  }
+}

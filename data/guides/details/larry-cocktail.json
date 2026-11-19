@@ -1,119 +1,135 @@
 {
-  "source": "App Store 官方說明與 10 張官方截圖（2026-10-23 查詢，data/apple-lookup-2026-10-23.json、public/assets/screenshots/larry-cocktail/）",
+  "source": "Steam 已發售版官方說明（data/steam-larry-feature-2026-11-19.json）及本機 Steam 遊戲介面、英文翻譯與存讀檔／結局紀錄程式（2026-11-20 核對，依據摘要見 data/larry-copy-alignment-2026-11-20.json）。",
   "zh": {
     "intro": [
-      "「賴瑞的調酒研究室」是一款以劇情閱讀與選項互動為核心的戀愛向文字遊戲。在溫暖迷人的酒吧空間裡，你會一步步認識賴瑞，透過對話、選擇與劇情分支，推進只屬於你的故事路線。",
-      "故事從街頭、海島沙灘一路來到酒吧，途中還會遇見黛黛、藝寶、雅英等角色。每一次回應都可能影響角色關係與後續發展；遊戲提供多條故事路線與分支選擇，可以自由存檔、讀檔，最多 40 格本機存檔，方便回收不同的結局。",
-      "如果你喜歡角色的陪伴感、曖昧拉扯與慢慢升溫的節奏，這會是一段值得細細品味的故事旅程；適合喜歡乙女遊戲、視覺小說與劇情向作品的玩家。"
+      "「賴瑞的調酒研究室」是一款以對話與選擇推進的單人文字冒險遊戲。你扮演酒吧主人賴瑞，在證券公司、大學、街道與綠島等場景和不同角色互動，閱讀他與身邊人物的故事。",
+      "出現選項時，選擇賴瑞的回應。選擇可能影響角色好感、後續分支與結局；遊戲提供多條角色路線，可用存檔回到先前的段落，再嘗試另一種選擇。",
+      "Steam 版提供 40 格本機存檔、快速存檔與快速讀取。完整讀完並達成的結局會自動記錄在「結局蒐集」，可查看各路線的完成進度；尚未達成的結局名稱會保持隱藏。"
     ],
     "features": [
       [
-        "沉浸式戀愛劇情",
-        "以酒吧為舞台，細膩呈現角色互動與情緒變化。"
+        "扮演酒吧主人賴瑞",
+        "從賴瑞的角色出發，透過閱讀與選擇探索他和不同人物的關係。"
       ],
       [
-        "選項影響故事",
-        "每個回應都可能改變角色關係與後續劇情。"
+        "多條路線與多重結局",
+        "對話選項可能影響角色好感、劇情分支及結局。"
       ],
       [
-        "多條路線與分支",
-        "不同選擇通往不同的故事走向與結局。"
+        "40 格本機存檔",
+        "將想保留的路線進度存入不同格，再從指定存檔接續。"
       ],
       [
-        "自由存檔讀檔",
-        "最多 40 格本機存檔，方便分別保留不同的路線。"
+        "快速存檔與快速讀取",
+        "用工具列的「快速存檔」保存目前進度，以「快速讀取」返回該次保存的位置。"
       ],
       [
-        "新手友善的開場",
-        "第一次玩可以先「聽故事」了解背景，也能直接開始或查看遊戲說明。"
+        "結局蒐集",
+        "已達成的結局自動記錄，依路線查看進度；未達成的結局名稱不會提前顯示。"
+      ],
+      [
+        "滑鼠與鍵盤操作",
+        "點擊對話框、按 Enter 或空白鍵推進劇情；F11 可切換全螢幕。"
+      ],
+      [
+        "八種遊戲語言",
+        "支援繁中、英文、日文、韓文、簡中、泰文、德文與西班牙文，可在主畫面切換介面與劇本文字；無角色語音。"
       ]
     ],
     "stepDetails": [
-      "在標題畫面選「新開始遊戲」。第一次玩建議先點「聽故事」了解背景，也可以選「直接開始」，或先看「遊戲說明」。之後點按畫面推進對話，認識賴瑞，以及黛黛、藝寶、雅英等角色。",
-      "劇情走到關鍵處會出現選項，例如邀約她在島上兜風、邀約她來酒吧，或繼續在沙灘聊煩惱。選擇你想要的回應，接著留意角色的反應與對話走向；不同的回應會把故事帶往不同的分支。",
-      "走到想保留的段落時先存檔。最多 40 格本機存檔，可以把不同路線分開存放，並記下哪一格是哪一條路線；回到標題畫面點「開啟存檔」就能讀取。",
-      "讀取先前的存檔，在同一個選項做出另一種回應，比較故事與結局的差異。慢慢蒐集每一條路線，是這款遊戲最耐玩的地方。"
+      "在主畫面選「新開始遊戲」，依畫面提示閱讀故事。你扮演的是酒吧主人賴瑞；點擊對話框、按 Enter 或空白鍵推進對話，認識與他互動的人物。需要重新從頭開始時，可使用工具列的「重新開始」。",
+      "遇到對話選項時，選擇你想讓賴瑞採取的回應，接著閱讀角色反應與後續發展。選擇可能影響好感、分支及結局；想比較不同選項，可以先保留這個段落的存檔。",
+      "在想保留的段落，使用工具列的「快速存檔」保存目前進度；若要分開保留多條路線，開啟「存檔格」，在「存檔模式」選擇要儲存的位置。共有 40 格，請自行安排想保留的路線與分歧。",
+      "使用「快速讀取」，或在「存檔格」切換到「讀取模式」，回到先前保存的位置；主畫面也可選「讀取存檔格」。再嘗試不同回應並繼續閱讀。完整讀完結局後，開啟「結局蒐集」查看已自動記錄的完成進度。"
     ],
     "more": [
       [
-        "分辨路線",
-        "對話裡語氣與關係的細微變化，往往預告故事就要轉向。"
+        "整理路線存檔",
+        "把重要分歧分別存入不同格，確認要保留的進度後再使用其他格或覆寫舊檔，依照想重訪的段落安排 40 個位置。"
       ],
       [
-        "整理存檔",
-        "40 格本機存檔足以在每個關鍵選項前各留一格，回收結局時不必從頭開始。"
+        "查看結局進度",
+        "在主畫面或工具列開啟「結局蒐集」，查看各路線已達成的結局與完成數量。未達成的名稱保持隱藏。"
       ],
       [
-        "重讀結局",
-        "讀取不同結局前的存檔，重溫角色在各路線中的轉變。"
+        "調整閱讀畫面",
+        "在「設定」調整對話字體大小，或重新查看新手教學。F11 或 Alt+Enter 切換全螢幕，Esc 離開全螢幕。"
       ],
       [
         "本機保存",
-        "存檔保存在你的裝置上，隨時都能接續先前的進度。"
+        "路線存檔與結局紀錄保存在本機。接續遊玩時，使用快速讀取或指定存檔格返回已保存的段落。"
       ]
     ],
     "tips": [
-      "第一次遊玩先憑直覺選擇，走完一條完整的路線，再回頭用存檔探索其他分支。",
-      "在每個重要選項前留一格存檔，是回收不同結局最省時間的方法。",
-      "找一段安靜的時間慢慢讀，故事的層次會更明顯。"
+      "先完成一條路線，再用重要分歧前的存檔探索其他選擇；不同存檔可能包含不同的前置選擇。",
+      "快速存檔適合保存目前進度；想同時保留多段路線時，使用不同的存檔格。重新開始前，先保存還想接續的段落。",
+      "不要只停在結局標題：繼續讀完結局，讓劇情進入結局後的段落，再查看「結局蒐集」是否已記錄。"
     ]
   },
   "en": {
     "intro": [
-      "Larry's Cocktail Lab is a romance-leaning text game built on reading and choice. In the warm, inviting space of a bar you get to know Larry step by step, and your dialogue choices and the branches they open shape a story that belongs to you.",
-      "The story moves from city streets and an island beach to the bar, and along the way you meet a cast of other characters. Every reply can change how the characters relate to one another and what happens next. There are several story routes and branching choices, and you can save and load freely, with up to 40 local save slots for collecting different endings.",
-      "If you enjoy the company of a well-drawn character, the push and pull of ambiguity and a story that warms slowly, this is a journey worth savouring. It is made for players who like otome games, visual novels and story-driven titles."
+      "Larry's Mixology Lab is a single-player text adventure driven by dialogue and choices. You play as Larry, a bar owner, interacting with different characters at a securities firm, a university, on city streets and on Green Island.",
+      "When choices appear, decide how Larry responds. Choices may affect relationships, later branches and endings. The game has multiple character routes, and saved progress lets you return to an earlier passage and try another choice.",
+      "The Steam version provides 40 local save slots, Quick Save and Quick Load. Completed endings are recorded automatically in Endings, where you can review progress for each route. Names of endings you have not reached remain hidden."
     ],
     "features": [
       [
-        "Immersive romance",
-        "A bar setting with finely drawn character interactions and shifting moods."
+        "Play as Larry",
+        "Take the role of the bar owner and explore his relationships with different characters through reading and choices."
       ],
       [
-        "Choices that matter",
-        "Each reply can alter relationships and the story that follows."
+        "Multiple routes and endings",
+        "Dialogue choices may affect relationships, story branches and endings."
       ],
       [
-        "Multiple routes and branches",
-        "Different decisions lead to different storylines and endings."
+        "40 local save slots",
+        "Keep route progress in separate slots and resume from a chosen save."
       ],
       [
-        "Free saving and loading",
-        "Up to 40 local save slots, so every route can be kept separately."
+        "Quick Save and Quick Load",
+        "Use Quick Save on the toolbar to save your current progress, then Quick Load to return to that saved point."
       ],
       [
-        "A gentle start",
-        "First-time players can listen to the story's background first, or start straight away or read the instructions."
+        "Ending collection",
+        "Completed endings are recorded automatically, with progress shown by route. Names of endings you have not reached stay hidden."
+      ],
+      [
+        "Mouse and keyboard controls",
+        "Click the dialogue box or press Enter or Space to advance. Press F11 to toggle fullscreen."
+      ],
+      [
+        "Eight game languages",
+        "Choose Traditional Chinese, English, Japanese, Korean, Simplified Chinese, Thai, German or Spanish from the title screen for the interface and story text. Characters are not voiced."
       ]
     ],
     "stepDetails": [
-      "Choose New Game on the title screen. On a first play, pick the story introduction to learn the background; you can also start straight away or read the game instructions first. Then tap through the dialogue to meet Larry and the people around him.",
-      "At key moments a set of choices appears — invite her for a drive around the island, invite her to the bar, or keep talking about her worries on the beach, for example. Pick the reply you want, then watch how the characters respond and where the conversation goes; different replies lead to different branches.",
-      "When you reach a passage worth keeping, save first. With up to 40 local slots you can keep each route in its own slot — note which slot holds which route — and load any of them from the title screen.",
-      "Load an earlier save, answer the same choice differently and compare how the story and ending change. Gradually collecting every route is where the game rewards patience."
+      "Select New Game on the title screen and follow the on-screen prompts. You play as Larry, the bar owner. Click the dialogue box or press Enter or Space to read on and meet the people he interacts with. To begin again from the start, use Restart on the toolbar.",
+      "When dialogue choices appear, decide how you want Larry to respond, then read the other characters’ reactions and what follows. Choices may affect relationships, branches and endings. Save at a passage you want to revisit before comparing different responses.",
+      "Use Quick Save on the toolbar to save your current progress. To keep multiple routes separately, open Save Slots and choose a slot in Save Mode. There are 40 slots; decide which routes and branching points you want to keep.",
+      "Use Quick Load, or switch Save Slots to Load Mode, to return to an earlier saved point. You can also select Load Game on the title screen. Try a different response and continue reading, then finish the ending and open Endings to check the automatically recorded progress."
     ],
     "more": [
       [
-        "Spotting a branch",
-        "Small shifts in tone and in how the characters treat each other usually signal that the story is about to turn."
+        "Organise route saves",
+        "Keep important branches in separate slots and check which progress you want to retain before using another slot or overwriting a save. Prioritise the passages you want to revisit when organising the 40 available slots."
       ],
       [
-        "Organising saves",
-        "Forty local slots are enough to leave one before every key choice, so collecting endings never means starting over."
+        "Check ending progress",
+        "Open Endings from the title screen or toolbar to review completed endings and counts by route. Unreached ending names remain hidden."
       ],
       [
-        "Rereading endings",
-        "Load the save before each ending to revisit how the characters changed along that route."
+        "Adjust the reading view",
+        "Use Settings to change dialogue text size or revisit the tutorial. F11 or Alt+Enter toggles fullscreen; Esc leaves fullscreen."
       ],
       [
-        "Local saves",
-        "Your progress is stored on your device, ready to continue whenever you return."
+        "Local records",
+        "Route saves and ending records are stored locally. Use Quick Load or a specific save slot to return to previously saved progress."
       ]
     ],
     "tips": [
-      "Play your first run on instinct and finish one full route before using saves to explore the other branches.",
-      "Leaving a save before every important choice is the quickest way to collect the different endings.",
-      "Set aside a quiet stretch of time; the story's layers come through best when it is read slowly."
+      "Finish one route, then use saves from important branches to explore other choices. Different saves may contain different earlier decisions.",
+      "Use Quick Save for your current progress and separate save slots for routes you want to retain. Save any progress you want to continue before choosing Restart.",
+      "Do not stop at an ending’s title: keep reading through the ending until the story moves to the following section, then check that it has been added to Endings."
     ]
   }
 }

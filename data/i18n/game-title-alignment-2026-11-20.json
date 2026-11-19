@@ -1,0 +1,771 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-11-20",
+  "titleEvidence": "data/steam-terminology-2026-11-20.json",
+  "messageIdAlgorithm": "src/i18n-build.mjs messageId: SHA-256 of exact English source, first 12 hexadecimal characters",
+  "officialGameLocaleCodes": [
+    "zh-Hant",
+    "en",
+    "ja",
+    "ko",
+    "zh-Hans",
+    "th",
+    "de",
+    "es"
+  ],
+  "websiteLocaleCount": 50,
+  "translatedLocaleFiles": 48,
+  "englishFallbackLocaleFiles": 42,
+  "officialEnglishFallback": "Larry's Mixology Lab",
+  "sourceTraditionalChineseUnchanged": true,
+  "privacySuffixesAndHtmlTagsUnchanged": true,
+  "replacements": [
+    {
+      "oldId": "bd2a4d4b0c67",
+      "id": "4b80893f16a5",
+      "oldEn": "Larry’s Cocktail Lab",
+      "en": "Larry’s Mixology Lab",
+      "zh": "賴瑞的調酒研究室",
+      "translations": {
+        "zh-Hans": {
+          "oldValue": "赖瑞的调酒研究室",
+          "value": "赖瑞的调酒研究室",
+          "titleSource": "packaged game locale"
+        },
+        "ja": {
+          "oldValue": "Larry’s Cocktail Lab",
+          "value": "ラリーのカクテル研究室",
+          "titleSource": "packaged game locale"
+        },
+        "ko": {
+          "oldValue": "Larry’s Cocktail Lab",
+          "value": "래리의 칵테일 연구실",
+          "titleSource": "packaged game locale"
+        },
+        "es": {
+          "oldValue": "Larry’s Cocktail Lab",
+          "value": "Larry's Mixology Lab",
+          "titleSource": "packaged game locale"
+        },
+        "fr": {
+          "oldValue": "Larry’s Cocktail Lab",
+          "value": "Larry's Mixology Lab",
+          "titleSource": "official English fallback"
+        },
+        "de": {
+          "oldValue": "Larry’s Cocktail Lab",
+          "value": "Larry's Mixology Lab",
+          "titleSource": "packaged game locale"
+        },
+        "pt": {
+          "oldValue": "Larry’s Cocktail Lab",
+          "value": "Larry's Mixology Lab",
+          "titleSource": "official English fallback"
+        },
+        "it": {
+          "oldValue": "Larry’s Cocktail Lab",
+          "value": "Larry's Mixology Lab",
+          "titleSource": "official English fallback"
+        },
+        "ru": {
+          "oldValue": "Larry’s Cocktail Lab",
+          "value": "Larry's Mixology Lab",
+          "titleSource": "official English fallback"
+        },
+        "ar": {
+          "oldValue": "Larry’s Cocktail Lab",
+          "value": "Larry's Mixology Lab",
+          "titleSource": "official English fallback"
+        },
+        "hi": {
+          "oldValue": "Larry’s Cocktail Lab",
+          "value": "Larry's Mixology Lab",
+          "titleSource": "official English fallback"
+        },
+        "bn": {
+          "oldValue": "Larry’s Cocktail Lab",
+          "value": "Larry's Mixology Lab",
+          "titleSource": "official English fallback"
+        },
+        "ur": {
+          "oldValue": "Larry’s Cocktail Lab",
+          "value": "Larry's Mixology Lab",
+          "titleSource": "official English fallback"
+        },
+        "id": {
+          "oldValue": "Larry’s Cocktail Lab",
+          "value": "Larry's Mixology Lab",
+          "titleSource": "official English fallback"
+        },
+        "ms": {
+          "oldValue": "Larry’s Cocktail Lab",
+          "value": "Larry's Mixology Lab",
+          "titleSource": "official English fallback"
+        },
+        "vi": {
+          "oldValue": "Larry’s Cocktail Lab",
+          "value": "Larry's Mixology Lab",
+          "titleSource": "official English fallback"
+        },
+        "th": {
+          "oldValue": "Larry’s Cocktail Lab",
+          "value": "ห้องแล็บค็อกเทลของแลร์รี่",
+          "titleSource": "packaged game locale"
+        },
+        "fil": {
+          "oldValue": "Larry’s Cocktail Lab",
+          "value": "Larry's Mixology Lab",
+          "titleSource": "official English fallback"
+        },
+        "tr": {
+          "oldValue": "Larry’s Cocktail Lab",
+          "value": "Larry's Mixology Lab",
+          "titleSource": "official English fallback"
+        },
+        "fa": {
+          "oldValue": "Larry’s Cocktail Lab",
+          "value": "Larry's Mixology Lab",
+          "titleSource": "official English fallback"
+        },
+        "uk": {
+          "oldValue": "Larry’s Cocktail Lab",
+          "value": "Larry's Mixology Lab",
+          "titleSource": "official English fallback"
+        },
+        "pl": {
+          "oldValue": "Larry’s Cocktail Lab",
+          "value": "Larry's Mixology Lab",
+          "titleSource": "official English fallback"
+        },
+        "nl": {
+          "oldValue": "Larry’s Cocktail Lab",
+          "value": "Larry's Mixology Lab",
+          "titleSource": "official English fallback"
+        },
+        "ro": {
+          "oldValue": "Larry’s Cocktail Lab",
+          "value": "Larry's Mixology Lab",
+          "titleSource": "official English fallback"
+        },
+        "cs": {
+          "oldValue": "Larry’s Cocktail Lab",
+          "value": "Larry's Mixology Lab",
+          "titleSource": "official English fallback"
+        },
+        "el": {
+          "oldValue": "Larry’s Cocktail Lab",
+          "value": "Larry's Mixology Lab",
+          "titleSource": "official English fallback"
+        },
+        "hu": {
+          "oldValue": "Larry’s Cocktail Lab",
+          "value": "Larry's Mixology Lab",
+          "titleSource": "official English fallback"
+        },
+        "sv": {
+          "oldValue": "Larry’s Cocktail Lab",
+          "value": "Larry's Mixology Lab",
+          "titleSource": "official English fallback"
+        },
+        "da": {
+          "oldValue": "Larry’s Cocktail Lab",
+          "value": "Larry's Mixology Lab",
+          "titleSource": "official English fallback"
+        },
+        "fi": {
+          "oldValue": "Larry’s Cocktail Lab",
+          "value": "Larry's Mixology Lab",
+          "titleSource": "official English fallback"
+        },
+        "no": {
+          "oldValue": "Larry’s Cocktail Lab",
+          "value": "Larry's Mixology Lab",
+          "titleSource": "official English fallback"
+        },
+        "he": {
+          "oldValue": "Larry’s Cocktail Lab",
+          "value": "Larry's Mixology Lab",
+          "titleSource": "official English fallback"
+        },
+        "ta": {
+          "oldValue": "Larry’s Cocktail Lab",
+          "value": "Larry's Mixology Lab",
+          "titleSource": "official English fallback"
+        },
+        "te": {
+          "oldValue": "Larry’s Cocktail Lab",
+          "value": "Larry's Mixology Lab",
+          "titleSource": "official English fallback"
+        },
+        "mr": {
+          "oldValue": "Larry’s Cocktail Lab",
+          "value": "Larry's Mixology Lab",
+          "titleSource": "official English fallback"
+        },
+        "gu": {
+          "oldValue": "Larry’s Cocktail Lab",
+          "value": "Larry's Mixology Lab",
+          "titleSource": "official English fallback"
+        },
+        "pa": {
+          "oldValue": "Larry’s Cocktail Lab",
+          "value": "Larry's Mixology Lab",
+          "titleSource": "official English fallback"
+        },
+        "sw": {
+          "oldValue": "Larry’s Cocktail Lab",
+          "value": "Larry's Mixology Lab",
+          "titleSource": "official English fallback"
+        },
+        "af": {
+          "oldValue": "Larry’s Cocktail Lab",
+          "value": "Larry's Mixology Lab",
+          "titleSource": "official English fallback"
+        },
+        "bg": {
+          "oldValue": "Larry’s Cocktail Lab",
+          "value": "Larry's Mixology Lab",
+          "titleSource": "official English fallback"
+        },
+        "hr": {
+          "oldValue": "Larry’s Cocktail Lab",
+          "value": "Larry's Mixology Lab",
+          "titleSource": "official English fallback"
+        },
+        "sr": {
+          "oldValue": "Larry’s Cocktail Lab",
+          "value": "Larry's Mixology Lab",
+          "titleSource": "official English fallback"
+        },
+        "sk": {
+          "oldValue": "Larry’s Cocktail Lab",
+          "value": "Larry's Mixology Lab",
+          "titleSource": "official English fallback"
+        },
+        "sl": {
+          "oldValue": "Larry’s Cocktail Lab",
+          "value": "Larry's Mixology Lab",
+          "titleSource": "official English fallback"
+        },
+        "lt": {
+          "oldValue": "Larry’s Cocktail Lab",
+          "value": "Larry's Mixology Lab",
+          "titleSource": "official English fallback"
+        },
+        "lv": {
+          "oldValue": "Larry’s Cocktail Lab",
+          "value": "Larry's Mixology Lab",
+          "titleSource": "official English fallback"
+        },
+        "et": {
+          "oldValue": "Larry’s Cocktail Lab",
+          "value": "Larry's Mixology Lab",
+          "titleSource": "official English fallback"
+        },
+        "ca": {
+          "oldValue": "Larry’s Cocktail Lab",
+          "value": "Larry's Mixology Lab",
+          "titleSource": "official English fallback"
+        }
+      }
+    },
+    {
+      "oldId": "e414315a3022",
+      "id": "cbc2a2121058",
+      "oldEn": "Larry&#39;s Cocktail Lab",
+      "en": "Larry&#39;s Mixology Lab",
+      "zh": "賴瑞的調酒研究室",
+      "translations": {
+        "zh-Hans": {
+          "oldValue": "赖瑞的调酒研究室",
+          "value": "赖瑞的调酒研究室",
+          "titleSource": "packaged game locale"
+        },
+        "ja": {
+          "oldValue": "Larry&#39;s Cocktail Lab",
+          "value": "ラリーのカクテル研究室",
+          "titleSource": "packaged game locale"
+        },
+        "ko": {
+          "oldValue": "Larry&#39;s Cocktail Lab",
+          "value": "래리의 칵테일 연구실",
+          "titleSource": "packaged game locale"
+        },
+        "es": {
+          "oldValue": "Larry&#39;s Cocktail Lab",
+          "value": "Larry&#39;s Mixology Lab",
+          "titleSource": "packaged game locale"
+        },
+        "fr": {
+          "oldValue": "Larry&#39;s Cocktail Lab",
+          "value": "Larry&#39;s Mixology Lab",
+          "titleSource": "official English fallback"
+        },
+        "de": {
+          "oldValue": "Larry&#39;s Cocktail Lab",
+          "value": "Larry&#39;s Mixology Lab",
+          "titleSource": "packaged game locale"
+        },
+        "pt": {
+          "oldValue": "Larry&#39;s Cocktail Lab",
+          "value": "Larry&#39;s Mixology Lab",
+          "titleSource": "official English fallback"
+        },
+        "it": {
+          "oldValue": "Larry&#39;s Cocktail Lab",
+          "value": "Larry&#39;s Mixology Lab",
+          "titleSource": "official English fallback"
+        },
+        "ru": {
+          "oldValue": "Larry&#39;s Cocktail Lab",
+          "value": "Larry&#39;s Mixology Lab",
+          "titleSource": "official English fallback"
+        },
+        "ar": {
+          "oldValue": "Larry&#39;s Cocktail Lab",
+          "value": "Larry&#39;s Mixology Lab",
+          "titleSource": "official English fallback"
+        },
+        "hi": {
+          "oldValue": "Larry&#39;s Cocktail Lab",
+          "value": "Larry&#39;s Mixology Lab",
+          "titleSource": "official English fallback"
+        },
+        "bn": {
+          "oldValue": "Larry&#39;s Cocktail Lab",
+          "value": "Larry&#39;s Mixology Lab",
+          "titleSource": "official English fallback"
+        },
+        "ur": {
+          "oldValue": "Larry&#39;s Cocktail Lab",
+          "value": "Larry&#39;s Mixology Lab",
+          "titleSource": "official English fallback"
+        },
+        "id": {
+          "oldValue": "Larry&#39;s Cocktail Lab",
+          "value": "Larry&#39;s Mixology Lab",
+          "titleSource": "official English fallback"
+        },
+        "ms": {
+          "oldValue": "Larry&#39;s Cocktail Lab",
+          "value": "Larry&#39;s Mixology Lab",
+          "titleSource": "official English fallback"
+        },
+        "vi": {
+          "oldValue": "Larry&#39;s Cocktail Lab",
+          "value": "Larry&#39;s Mixology Lab",
+          "titleSource": "official English fallback"
+        },
+        "th": {
+          "oldValue": "Larry&#39;s Cocktail Lab",
+          "value": "ห้องแล็บค็อกเทลของแลร์รี่",
+          "titleSource": "packaged game locale"
+        },
+        "fil": {
+          "oldValue": "Larry&#39;s Cocktail Lab",
+          "value": "Larry&#39;s Mixology Lab",
+          "titleSource": "official English fallback"
+        },
+        "tr": {
+          "oldValue": "Larry&#39;s Cocktail Lab",
+          "value": "Larry&#39;s Mixology Lab",
+          "titleSource": "official English fallback"
+        },
+        "fa": {
+          "oldValue": "Larry&#39;s Cocktail Lab",
+          "value": "Larry&#39;s Mixology Lab",
+          "titleSource": "official English fallback"
+        },
+        "uk": {
+          "oldValue": "Larry&#39;s Cocktail Lab",
+          "value": "Larry&#39;s Mixology Lab",
+          "titleSource": "official English fallback"
+        },
+        "pl": {
+          "oldValue": "Larry&#39;s Cocktail Lab",
+          "value": "Larry&#39;s Mixology Lab",
+          "titleSource": "official English fallback"
+        },
+        "nl": {
+          "oldValue": "Larry&#39;s Cocktail Lab",
+          "value": "Larry&#39;s Mixology Lab",
+          "titleSource": "official English fallback"
+        },
+        "ro": {
+          "oldValue": "Larry&#39;s Cocktail Lab",
+          "value": "Larry&#39;s Mixology Lab",
+          "titleSource": "official English fallback"
+        },
+        "cs": {
+          "oldValue": "Larry&#39;s Cocktail Lab",
+          "value": "Larry&#39;s Mixology Lab",
+          "titleSource": "official English fallback"
+        },
+        "el": {
+          "oldValue": "Larry&#39;s Cocktail Lab",
+          "value": "Larry&#39;s Mixology Lab",
+          "titleSource": "official English fallback"
+        },
+        "hu": {
+          "oldValue": "Larry&#39;s Cocktail Lab",
+          "value": "Larry&#39;s Mixology Lab",
+          "titleSource": "official English fallback"
+        },
+        "sv": {
+          "oldValue": "Larry&#39;s Cocktail Lab",
+          "value": "Larry&#39;s Mixology Lab",
+          "titleSource": "official English fallback"
+        },
+        "da": {
+          "oldValue": "Larry&#39;s Cocktail Lab",
+          "value": "Larry&#39;s Mixology Lab",
+          "titleSource": "official English fallback"
+        },
+        "fi": {
+          "oldValue": "Larry&#39;s Cocktail Lab",
+          "value": "Larry&#39;s Mixology Lab",
+          "titleSource": "official English fallback"
+        },
+        "no": {
+          "oldValue": "Larry&#39;s Cocktail Lab",
+          "value": "Larry&#39;s Mixology Lab",
+          "titleSource": "official English fallback"
+        },
+        "he": {
+          "oldValue": "Larry&#39;s Cocktail Lab",
+          "value": "Larry&#39;s Mixology Lab",
+          "titleSource": "official English fallback"
+        },
+        "ta": {
+          "oldValue": "Larry&#39;s Cocktail Lab",
+          "value": "Larry&#39;s Mixology Lab",
+          "titleSource": "official English fallback"
+        },
+        "te": {
+          "oldValue": "Larry&#39;s Cocktail Lab",
+          "value": "Larry&#39;s Mixology Lab",
+          "titleSource": "official English fallback"
+        },
+        "mr": {
+          "oldValue": "Larry&#39;s Cocktail Lab",
+          "value": "Larry&#39;s Mixology Lab",
+          "titleSource": "official English fallback"
+        },
+        "gu": {
+          "oldValue": "Larry&#39;s Cocktail Lab",
+          "value": "Larry&#39;s Mixology Lab",
+          "titleSource": "official English fallback"
+        },
+        "pa": {
+          "oldValue": "Larry&#39;s Cocktail Lab",
+          "value": "Larry&#39;s Mixology Lab",
+          "titleSource": "official English fallback"
+        },
+        "sw": {
+          "oldValue": "Larry&#39;s Cocktail Lab",
+          "value": "Larry&#39;s Mixology Lab",
+          "titleSource": "official English fallback"
+        },
+        "af": {
+          "oldValue": "Larry&#39;s Cocktail Lab",
+          "value": "Larry&#39;s Mixology Lab",
+          "titleSource": "official English fallback"
+        },
+        "bg": {
+          "oldValue": "Larry&#39;s Cocktail Lab",
+          "value": "Larry&#39;s Mixology Lab",
+          "titleSource": "official English fallback"
+        },
+        "hr": {
+          "oldValue": "Larry&#39;s Cocktail Lab",
+          "value": "Larry&#39;s Mixology Lab",
+          "titleSource": "official English fallback"
+        },
+        "sr": {
+          "oldValue": "Larry&#39;s Cocktail Lab",
+          "value": "Larry&#39;s Mixology Lab",
+          "titleSource": "official English fallback"
+        },
+        "sk": {
+          "oldValue": "Larry&#39;s Cocktail Lab",
+          "value": "Larry&#39;s Mixology Lab",
+          "titleSource": "official English fallback"
+        },
+        "sl": {
+          "oldValue": "Larry&#39;s Cocktail Lab",
+          "value": "Larry&#39;s Mixology Lab",
+          "titleSource": "official English fallback"
+        },
+        "lt": {
+          "oldValue": "Larry&#39;s Cocktail Lab",
+          "value": "Larry&#39;s Mixology Lab",
+          "titleSource": "official English fallback"
+        },
+        "lv": {
+          "oldValue": "Larry&#39;s Cocktail Lab",
+          "value": "Larry&#39;s Mixology Lab",
+          "titleSource": "official English fallback"
+        },
+        "et": {
+          "oldValue": "Larry&#39;s Cocktail Lab",
+          "value": "Larry&#39;s Mixology Lab",
+          "titleSource": "official English fallback"
+        },
+        "ca": {
+          "oldValue": "Larry&#39;s Cocktail Lab",
+          "value": "Larry&#39;s Mixology Lab",
+          "titleSource": "official English fallback"
+        }
+      }
+    },
+    {
+      "oldId": "424462deac49",
+      "id": "bb71b55c87a4",
+      "oldEn": "Larry&#39;s Cocktail Lab<br>Privacy Policy",
+      "en": "Larry&#39;s Mixology Lab<br>Privacy Policy",
+      "zh": "賴瑞的調酒研究室<br>隱私資訊",
+      "translations": {
+        "zh-Hans": {
+          "oldValue": "赖瑞的调酒研究室<br>隐私信息",
+          "value": "赖瑞的调酒研究室<br>隐私信息",
+          "titleSource": "packaged game locale"
+        },
+        "ja": {
+          "oldValue": "Larry&#39;s Cocktail Lab<br>プライバシーポリシー",
+          "value": "ラリーのカクテル研究室<br>プライバシーポリシー",
+          "titleSource": "packaged game locale"
+        },
+        "ko": {
+          "oldValue": "Larry&#39;s Cocktail Lab<br>개인정보 처리방침",
+          "value": "래리의 칵테일 연구실<br>개인정보 처리방침",
+          "titleSource": "packaged game locale"
+        },
+        "es": {
+          "oldValue": "Larry&#39;s Cocktail Lab<br>Política de privacidad",
+          "value": "Larry&#39;s Mixology Lab<br>Política de privacidad",
+          "titleSource": "packaged game locale"
+        },
+        "fr": {
+          "oldValue": "Larry&#39;s Cocktail Lab<br>Politique de confidentialité",
+          "value": "Larry&#39;s Mixology Lab<br>Politique de confidentialité",
+          "titleSource": "official English fallback"
+        },
+        "de": {
+          "oldValue": "Larry&#39;s Cocktail Lab<br>Datenschutzerklärung",
+          "value": "Larry&#39;s Mixology Lab<br>Datenschutzerklärung",
+          "titleSource": "packaged game locale"
+        },
+        "pt": {
+          "oldValue": "Larry&#39;s Cocktail Lab<br>Política de privacidade",
+          "value": "Larry&#39;s Mixology Lab<br>Política de privacidade",
+          "titleSource": "official English fallback"
+        },
+        "it": {
+          "oldValue": "Larry&#39;s Cocktail Lab<br>Informativa sulla privacy",
+          "value": "Larry&#39;s Mixology Lab<br>Informativa sulla privacy",
+          "titleSource": "official English fallback"
+        },
+        "ru": {
+          "oldValue": "Larry&#39;s Cocktail Lab<br>Политика конфиденциальности",
+          "value": "Larry&#39;s Mixology Lab<br>Политика конфиденциальности",
+          "titleSource": "official English fallback"
+        },
+        "ar": {
+          "oldValue": "Larry&#39;s Cocktail Lab<br>سياسة الخصوصية",
+          "value": "Larry&#39;s Mixology Lab<br>سياسة الخصوصية",
+          "titleSource": "official English fallback"
+        },
+        "hi": {
+          "oldValue": "Larry&#39;s Cocktail Lab<br>गोपनीयता नीति",
+          "value": "Larry&#39;s Mixology Lab<br>गोपनीयता नीति",
+          "titleSource": "official English fallback"
+        },
+        "bn": {
+          "oldValue": "Larry&#39;s Cocktail Lab<br>গোপনীয়তা নীতি",
+          "value": "Larry&#39;s Mixology Lab<br>গোপনীয়তা নীতি",
+          "titleSource": "official English fallback"
+        },
+        "ur": {
+          "oldValue": "Larry&#39;s Cocktail Lab<br>رازداری کی پالیسی",
+          "value": "Larry&#39;s Mixology Lab<br>رازداری کی پالیسی",
+          "titleSource": "official English fallback"
+        },
+        "id": {
+          "oldValue": "Larry&#39;s Cocktail Lab<br>Kebijakan privasi",
+          "value": "Larry&#39;s Mixology Lab<br>Kebijakan privasi",
+          "titleSource": "official English fallback"
+        },
+        "ms": {
+          "oldValue": "Larry&#39;s Cocktail Lab<br>Dasar privasi",
+          "value": "Larry&#39;s Mixology Lab<br>Dasar privasi",
+          "titleSource": "official English fallback"
+        },
+        "vi": {
+          "oldValue": "Larry&#39;s Cocktail Lab<br>Chính sách quyền riêng tư",
+          "value": "Larry&#39;s Mixology Lab<br>Chính sách quyền riêng tư",
+          "titleSource": "official English fallback"
+        },
+        "th": {
+          "oldValue": "Larry&#39;s Cocktail Lab<br>นโยบายความเป็นส่วนตัว",
+          "value": "ห้องแล็บค็อกเทลของแลร์รี่<br>นโยบายความเป็นส่วนตัว",
+          "titleSource": "packaged game locale"
+        },
+        "fil": {
+          "oldValue": "Larry&#39;s Cocktail Lab<br>Patakaran sa privacy",
+          "value": "Larry&#39;s Mixology Lab<br>Patakaran sa privacy",
+          "titleSource": "official English fallback"
+        },
+        "tr": {
+          "oldValue": "Larry&#39;s Cocktail Lab<br>Gizlilik politikası",
+          "value": "Larry&#39;s Mixology Lab<br>Gizlilik politikası",
+          "titleSource": "official English fallback"
+        },
+        "fa": {
+          "oldValue": "Larry&#39;s Cocktail Lab<br>سیاست حریم خصوصی",
+          "value": "Larry&#39;s Mixology Lab<br>سیاست حریم خصوصی",
+          "titleSource": "official English fallback"
+        },
+        "uk": {
+          "oldValue": "Larry&#39;s Cocktail Lab<br>Політика конфіденційності",
+          "value": "Larry&#39;s Mixology Lab<br>Політика конфіденційності",
+          "titleSource": "official English fallback"
+        },
+        "pl": {
+          "oldValue": "Larry&#39;s Cocktail Lab<br>Polityka prywatności",
+          "value": "Larry&#39;s Mixology Lab<br>Polityka prywatności",
+          "titleSource": "official English fallback"
+        },
+        "nl": {
+          "oldValue": "Larry&#39;s Cocktail Lab<br>Privacybeleid",
+          "value": "Larry&#39;s Mixology Lab<br>Privacybeleid",
+          "titleSource": "official English fallback"
+        },
+        "ro": {
+          "oldValue": "Larry&#39;s Cocktail Lab<br>Politică de confidențialitate",
+          "value": "Larry&#39;s Mixology Lab<br>Politică de confidențialitate",
+          "titleSource": "official English fallback"
+        },
+        "cs": {
+          "oldValue": "Larry&#39;s Cocktail Lab<br>Zásady ochrany osobních údajů",
+          "value": "Larry&#39;s Mixology Lab<br>Zásady ochrany osobních údajů",
+          "titleSource": "official English fallback"
+        },
+        "el": {
+          "oldValue": "Larry&#39;s Cocktail Lab<br>Πολιτική απορρήτου",
+          "value": "Larry&#39;s Mixology Lab<br>Πολιτική απορρήτου",
+          "titleSource": "official English fallback"
+        },
+        "hu": {
+          "oldValue": "Larry&#39;s Cocktail Lab<br>Adatvédelmi szabályzat",
+          "value": "Larry&#39;s Mixology Lab<br>Adatvédelmi szabályzat",
+          "titleSource": "official English fallback"
+        },
+        "sv": {
+          "oldValue": "Larry&#39;s Cocktail Lab<br>Integritetspolicy",
+          "value": "Larry&#39;s Mixology Lab<br>Integritetspolicy",
+          "titleSource": "official English fallback"
+        },
+        "da": {
+          "oldValue": "Larry&#39;s Cocktail Lab<br>Privatlivspolitik",
+          "value": "Larry&#39;s Mixology Lab<br>Privatlivspolitik",
+          "titleSource": "official English fallback"
+        },
+        "fi": {
+          "oldValue": "Larry&#39;s Cocktail Lab<br>Tietosuojakäytäntö",
+          "value": "Larry&#39;s Mixology Lab<br>Tietosuojakäytäntö",
+          "titleSource": "official English fallback"
+        },
+        "no": {
+          "oldValue": "Larry&#39;s Cocktail Lab<br>Personvernerklæring",
+          "value": "Larry&#39;s Mixology Lab<br>Personvernerklæring",
+          "titleSource": "official English fallback"
+        },
+        "he": {
+          "oldValue": "Larry&#39;s Cocktail Lab<br>מדיניות פרטיות",
+          "value": "Larry&#39;s Mixology Lab<br>מדיניות פרטיות",
+          "titleSource": "official English fallback"
+        },
+        "ta": {
+          "oldValue": "Larry&#39;s Cocktail Lab<br>தனியுரிமைக் கொள்கை",
+          "value": "Larry&#39;s Mixology Lab<br>தனியுரிமைக் கொள்கை",
+          "titleSource": "official English fallback"
+        },
+        "te": {
+          "oldValue": "Larry&#39;s Cocktail Lab<br>గోప్యతా విధానం",
+          "value": "Larry&#39;s Mixology Lab<br>గోప్యతా విధానం",
+          "titleSource": "official English fallback"
+        },
+        "mr": {
+          "oldValue": "Larry&#39;s Cocktail Lab<br>गोपनीयता धोरण",
+          "value": "Larry&#39;s Mixology Lab<br>गोपनीयता धोरण",
+          "titleSource": "official English fallback"
+        },
+        "gu": {
+          "oldValue": "Larry&#39;s Cocktail Lab<br>ગોપનીયતા નીતિ",
+          "value": "Larry&#39;s Mixology Lab<br>ગોપનીયતા નીતિ",
+          "titleSource": "official English fallback"
+        },
+        "pa": {
+          "oldValue": "Larry&#39;s Cocktail Lab<br>ਪਰਦੇਦਾਰੀ ਨੀਤੀ",
+          "value": "Larry&#39;s Mixology Lab<br>ਪਰਦੇਦਾਰੀ ਨੀਤੀ",
+          "titleSource": "official English fallback"
+        },
+        "sw": {
+          "oldValue": "Larry&#39;s Cocktail Lab<br>Sera ya faragha",
+          "value": "Larry&#39;s Mixology Lab<br>Sera ya faragha",
+          "titleSource": "official English fallback"
+        },
+        "af": {
+          "oldValue": "Larry&#39;s Cocktail Lab<br>Privaatheidsbeleid",
+          "value": "Larry&#39;s Mixology Lab<br>Privaatheidsbeleid",
+          "titleSource": "official English fallback"
+        },
+        "bg": {
+          "oldValue": "Larry&#39;s Cocktail Lab<br>Политика за поверителност",
+          "value": "Larry&#39;s Mixology Lab<br>Политика за поверителност",
+          "titleSource": "official English fallback"
+        },
+        "hr": {
+          "oldValue": "Larry&#39;s Cocktail Lab<br>Pravila privatnosti",
+          "value": "Larry&#39;s Mixology Lab<br>Pravila privatnosti",
+          "titleSource": "official English fallback"
+        },
+        "sr": {
+          "oldValue": "Larry&#39;s Cocktail Lab<br>Политика приватности",
+          "value": "Larry&#39;s Mixology Lab<br>Политика приватности",
+          "titleSource": "official English fallback"
+        },
+        "sk": {
+          "oldValue": "Larry&#39;s Cocktail Lab<br>Zásady ochrany súkromia",
+          "value": "Larry&#39;s Mixology Lab<br>Zásady ochrany súkromia",
+          "titleSource": "official English fallback"
+        },
+        "sl": {
+          "oldValue": "Larry&#39;s Cocktail Lab<br>Pravilnik o zasebnosti",
+          "value": "Larry&#39;s Mixology Lab<br>Pravilnik o zasebnosti",
+          "titleSource": "official English fallback"
+        },
+        "lt": {
+          "oldValue": "Larry&#39;s Cocktail Lab<br>Privatumo politika",
+          "value": "Larry&#39;s Mixology Lab<br>Privatumo politika",
+          "titleSource": "official English fallback"
+        },
+        "lv": {
+          "oldValue": "Larry&#39;s Cocktail Lab<br>Privātuma politika",
+          "value": "Larry&#39;s Mixology Lab<br>Privātuma politika",
+          "titleSource": "official English fallback"
+        },
+        "et": {
+          "oldValue": "Larry&#39;s Cocktail Lab<br>Privaatsuspoliitika",
+          "value": "Larry&#39;s Mixology Lab<br>Privaatsuspoliitika",
+          "titleSource": "official English fallback"
+        },
+        "ca": {
+          "oldValue": "Larry&#39;s Cocktail Lab<br>Política de privacitat",
+          "value": "Larry&#39;s Mixology Lab<br>Política de privacitat",
+          "titleSource": "official English fallback"
+        }
+      }
+    }
+  ]
+}
