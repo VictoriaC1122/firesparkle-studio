@@ -16,6 +16,7 @@ html[data-script] .steam-hero h1 { font-size: clamp(38px, 4.6vw, 66px); font-wei
 .steam-hero .button-glass:hover { background: #ffffff10; border-color: #e4c895; }
 .steam-hero-platforms { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; width: fit-content; margin: 0; font-family: var(--font-latin); font-size: 14px; color: #b9b5ae; }
 .steam-hero-platforms span { color: #8d867b; }
+.steam-hero-platforms .steam-hero-rating { padding: 1px 6px; border: 1px solid #b8a38266; border-radius: 3px; color: #e3d2b8; font-size: 12px; line-height: 1.3; }
 .hero-details { grid-area: details; min-width: 0; align-self: start; }
 .steam-hero .lead { margin-bottom: 18px; color: #d1ccc3; font-size: 16px; line-height: 1.8; }
 .steam-hero-secondary { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 22px; }
@@ -23,10 +24,7 @@ html[data-script] .steam-hero h1 { font-size: clamp(38px, 4.6vw, 66px); font-wei
 .steam-hero .text-link:hover { color: #fff6e9; text-decoration-color: #e4c895; }
 .steam-hero :focus-visible { outline-color: #f0d7aa; }
 .steam-hero-art { grid-area: art; position: relative; min-width: 0; width: 100%; align-self: center; overflow: hidden; border: 1px solid #b8a38266; border-radius: 10px; background: #211a17; box-shadow: 0 28px 70px #0005; }
-.steam-hero-image { display: block; width: 100%; height: auto; aspect-ratio: 1672 / 941; object-fit: contain; }
-.steam-poster-mark, .steam-poster-rating { position: absolute; color: #fff6e9; background: #211a17d9; border: 1px solid #b8a38266; padding: 3px 7px; border-radius: 3px; font-family: var(--font-latin); font-size: 12px; line-height: 1.3; }
-.steam-poster-mark { inset-inline-start: 12px; top: 12px; letter-spacing: .08em; }
-.steam-poster-rating { inset-inline-end: 12px; bottom: 12px; }
+.steam-hero-image { display: block; width: 100%; height: auto; aspect-ratio: 920 / 430; object-fit: contain; }
 .steam-story-features { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0; margin-top: 34px; padding-block: 26px; border-top: 1px solid #b8a38233; }
 .steam-story-features p { min-width: 0; margin: 0; padding-inline: 20px; border-inline-end: 1px solid #b8a38233; color: #dcc8a7; font-size: 18px; line-height: 1.5; text-align: center; }
 .steam-story-features p:last-child { border: 0; }
@@ -157,8 +155,6 @@ html[data-script] .steam-hero h1 { font-size: clamp(38px, 4.6vw, 66px); font-wei
  .steam-availability { padding: 4px 10px; margin-bottom: 12px; font-size: 14px; }
  html[data-script] .steam-hero h1 { font-size: 32px; line-height: 1.2; margin-bottom: 8px; }
  .steam-hero-hook { font-size: 16px; line-height: 1.5; }
- .steam-poster-mark { top: 8px; inset-inline-start: 8px; }
- .steam-poster-rating { bottom: 8px; inset-inline-end: 8px; }
  .steam-hero .hero-actions a { flex: 1 1 0; min-width: 0; min-height: 48px; padding: 10px 10px; font-size: 15px; }
  .steam-hero .lead { font-size: 16px; margin-bottom: 14px; }
  .steam-story-features { padding-block: 20px; }

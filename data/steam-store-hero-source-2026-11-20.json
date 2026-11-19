@@ -1,0 +1,22 @@
+{
+  "checkedOn": "2026-11-20",
+  "steamAppId": 5466570,
+  "officialApi": "https://store.steampowered.com/api/appdetails?appids=5466570&cc=tw&l=english&v=20261120hero",
+  "officialHeader": {
+    "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5466570/4245830d7a68ce99cecd04aa4de1dad7d23177bb/header.jpg?t=1794944808",
+    "width": 460,
+    "height": 215,
+    "sha256": "ee44741dbb020291f83a3d8d0d4288e5da1ab819c2af292b45fd99dba55b975b",
+    "bytes": 69475,
+    "referenceAsset": "/assets/steam/art/steam-store-header.ee44741dbb02.jpg"
+  },
+  "master": {
+    "path": "/Users/chengyungwen/Desktop/Larry's Bar Game/steam/store-assets/header_capsule.png",
+    "width": 920,
+    "height": 430,
+    "sha256": "4449a19d2f5635f1a6b7c2893a4c3ba55e2555731b87b037536df7167ffd502f",
+    "bytes": 807344,
+    "publicPath": "/assets/steam/art/steam-header.4449a19d2f56.png"
+  },
+  "verification": "Independently inspected master PNG and official Steam header JPEG: same three characters, title logos and composition; master is the original 2x-resolution store header artwork. Each file retains its own hash. All eight official game-language API variants return the same header URL."
+}

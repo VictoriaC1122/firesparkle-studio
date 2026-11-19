@@ -19,7 +19,7 @@ export const site = {
   steam: {
     slug: 'larry-cocktail',
     releasedOn: '2026-11-17',
-    heroImage: '/assets/steam/art/larry-mixology.2c729fb1826a.png',
+    heroImage: '/assets/steam/art/steam-header.4449a19d2f56.png',
     scenes: ["/assets/steam/larry-gameplay.d38919e4ad06.jpg", "/assets/steam/larry-scene-2.640a1a1254d8.jpg", "/assets/steam/larry-scene-4.3e1a68eaa70c.jpg"],
     storeUrl: 'https://store.steampowered.com/app/5466570/',
     platforms: ['Windows', 'macOS', 'Linux'],

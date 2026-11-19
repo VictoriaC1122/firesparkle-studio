@@ -38,13 +38,11 @@ export function renderHome({ site, apps, media, gallery, L, T, messageId, esc, a
    <p class="steam-hero-hook">${T('One drink. One choice. Your story.')}</p>
   </div>
   <div class="steam-hero-art" aria-hidden="true">
-   <img class="steam-hero-image" src="${esc(site.steam.heroImage)}" alt="" width="1672" height="941" fetchpriority="high">
-   <span class="steam-poster-mark" dir="ltr">STEAM</span>
-   <span class="steam-poster-rating" dir="ltr">18+</span>
+   <img class="steam-hero-image" src="${esc(site.steam.heroImage)}" alt="" width="920" height="430" fetchpriority="high">
   </div>
   <div class="hero-conversion">
    <div class="hero-actions"><a class="button steam-buy" data-steam-action="buy" href="${esc(site.steam.storeUrl)}">${T('Buy on Steam')}</a><a class="button-glass" data-steam-action="wishlist" href="${esc(site.steam.storeUrl)}">${T('Add to wishlist')}</a></div>
-   <p class="steam-hero-platforms" dir="ltr">Windows <span aria-hidden="true">/</span> macOS <span aria-hidden="true">/</span> Linux</p>
+   <p class="steam-hero-platforms" dir="ltr">Windows <span aria-hidden="true">/</span> macOS <span aria-hidden="true">/</span> Linux <span class="steam-hero-rating">18+</span></p>
   </div>
   <div class="hero-details">
    <p class="lead">${L('以酒吧為背景的文字戀愛遊戲。對話選項會影響故事走向，可用存檔回到不同分支。', 'A romance game set in a bar. Dialogue choices lead to different story branches, which you can revisit using saved games.')}</p>
