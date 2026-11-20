@@ -1,0 +1,700 @@
+{
+  "schemaVersion": 1,
+  "capturedOn": "2026-11-21",
+  "gameVersion": "1.6.14",
+  "defaultLocale": "en",
+  "source": "Original headless-Chrome screenshots (1920x1080 viewport) of the local Steam content/game 1.6.14, reached from a fresh new game through the visible start button, dialogue clicks and choice buttons. No pixel edits. Game language set through the game's own larry.language setting.",
+  "capturePlan": "data/steam-story-capture-plan-2026-11-21.json",
+  "curatedOrder": [
+    "restaurant-kaikai",
+    "bar-larry",
+    "shopping-xinxin",
+    "beach-daidai",
+    "lab-yibao",
+    "campus-wenwen",
+    "hotel-mengxi",
+    "street-choice"
+  ],
+  "locales": {
+    "zh-Hant": {
+      "title": "賴瑞的調酒研究室",
+      "frames": [
+        {
+          "id": "restaurant-kaikai",
+          "src": "/assets/steam/captures/zh-Hant/restaurant-kaikai.5694359eace4.jpg",
+          "width": 1920,
+          "height": 1080,
+          "label": "凱凱：賴瑞，你還真是貼心啊，平時看起來一副死直男，沒想到竟然這麼細心。看來今天我真的是找對人陪吃飯了。",
+          "sha256": "5694359eace42f29e98a779317525d0e7dfc9839ba459c75aebcf9d349893274",
+          "bytes": 310790,
+          "stage": "凱凱支線-凱凱午餐2"
+        },
+        {
+          "id": "bar-larry",
+          "src": "/assets/steam/captures/zh-Hant/bar-larry.c64e0362361b.jpg",
+          "width": 1920,
+          "height": 1080,
+          "label": "賴瑞：好想要穩定下來……避免粉絲的騷擾……",
+          "sha256": "c64e0362361b39394421e3641254194dbc6576b8629a4e56c5e5eb679caf29b0",
+          "bytes": 282080,
+          "stage": "開始＿故事"
+        },
+        {
+          "id": "shopping-xinxin",
+          "src": "/assets/steam/captures/zh-Hant/shopping-xinxin.a538c78dca28.jpg",
+          "width": 1920,
+          "height": 1080,
+          "label": "欣欣：別這麼害羞嘛，現在都什麼時代了！我就看看嘛～",
+          "sha256": "a538c78dca28f283918a7900dc011291561bde88090863a737cb5523da44ee3e",
+          "bytes": 350078,
+          "stage": "欣欣街上逛2"
+        },
+        {
+          "id": "beach-daidai",
+          "src": "/assets/steam/captures/zh-Hant/beach-daidai.3850b593b5bc.jpg",
+          "width": 1920,
+          "height": 1080,
+          "label": "黛黛：每次有人說是調酒師、咖啡師、什麼師的，接著就開始講些好聽的話。老實說，我聽得有些膩了。",
+          "sha256": "3850b593b5bcca862176232957944b97f2d75e85a53bae1667b2ba4bfdf64187",
+          "bytes": 322303,
+          "stage": "黛黛支線-黛黛＿酒吧"
+        },
+        {
+          "id": "lab-yibao",
+          "src": "/assets/steam/captures/zh-Hant/lab-yibao.7c77a94e69c8.jpg",
+          "width": 1920,
+          "height": 1080,
+          "label": "藝寶：還Play One，你也太壞了吧，這麼急嗎？",
+          "sha256": "7c77a94e69c88c5aa2dbb0890d5f1df7764b978adebc897415ee029e30c6265f",
+          "bytes": 337605,
+          "stage": "藝文3P＿實驗室"
+        },
+        {
+          "id": "campus-wenwen",
+          "src": "/assets/steam/captures/zh-Hant/campus-wenwen.11f752423430.jpg",
+          "width": 1920,
+          "height": 1080,
+          "label": "文文：當然記得！你們兩個躲在桌子底下，不知道在做什麼，一直不出來，害我幫忙擋了多久才沒被發現，真的太瘋狂了。",
+          "sha256": "11f75242343056fec9432961a5bcefd75731238d5b9f16930e9d5a75646331f7",
+          "bytes": 309730,
+          "stage": "藝文支線1"
+        },
+        {
+          "id": "hotel-mengxi",
+          "src": "/assets/steam/captures/zh-Hant/hotel-mengxi.38f322690141.jpg",
+          "width": 1920,
+          "height": 1080,
+          "label": "萌西：賴瑞……你是不是……只是想要我的身體？",
+          "sha256": "38f3226901415296ac62d50198c4aa373406b72371043dbdaae51909dfa0bd39",
+          "bytes": 289406,
+          "stage": "萌西支線-萌西＿旅館2"
+        },
+        {
+          "id": "street-choice",
+          "src": "/assets/steam/captures/zh-Hant/street-choice.f6d76073dd81.jpg",
+          "width": 1920,
+          "height": 1080,
+          "label": "正經的賴瑞不看妹 / 看看妹",
+          "sha256": "f6d76073dd817966defe48cc1fdfd424855aa99370339ebe8826c851cdd58fbe",
+          "bytes": 432540,
+          "stage": "街道"
+        }
+      ]
+    },
+    "en": {
+      "title": "Larry's Mixology Lab",
+      "frames": [
+        {
+          "id": "restaurant-kaikai",
+          "src": "/assets/steam/captures/en/restaurant-kaikai.80b059b0785c.jpg",
+          "width": 1920,
+          "height": 1080,
+          "label": "Kaikai: Larry, you're surprisingly thoughtful. Usually you seem like such a clueless guy. Who knew you paid this much attention? Looks like I picked the right lunch companion.",
+          "sha256": "80b059b0785cc627fdf6456545eed767143f87a46f925b6241cc6108c7f4bb01",
+          "bytes": 316370,
+          "stage": "凱凱支線-凱凱午餐2"
+        },
+        {
+          "id": "bar-larry",
+          "src": "/assets/steam/captures/en/bar-larry.155932fb29b4.jpg",
+          "width": 1920,
+          "height": 1080,
+          "label": "Larry: I really want to settle down... Escape all these fans harassing me...",
+          "sha256": "155932fb29b48b245ea1a445d355063a52eb471ab63c1c272121efabf5189ea8",
+          "bytes": 284438,
+          "stage": "開始＿故事"
+        },
+        {
+          "id": "shopping-xinxin",
+          "src": "/assets/steam/captures/en/shopping-xinxin.844736723ee9.jpg",
+          "width": 1920,
+          "height": 1080,
+          "label": "Xinxin: Don't be so shy. What century is this? I'm just going to look~",
+          "sha256": "844736723ee9a7a41495217643e35f9f18acb960f313ea936e6a0a45ffec18f5",
+          "bytes": 350076,
+          "stage": "欣欣街上逛2"
+        },
+        {
+          "id": "beach-daidai",
+          "src": "/assets/steam/captures/en/beach-daidai.1cd20ae426a1.jpg",
+          "width": 1920,
+          "height": 1080,
+          "label": "Daidai: Every time someone says they're a bartender, a barista, whatever, out comes the sweet talk. Honestly, I'm getting tired of it.",
+          "sha256": "1cd20ae426a128a83995694e58ef1cfafae149c687689de3f20640ecc06fdf6b",
+          "bytes": 324207,
+          "stage": "黛黛支線-黛黛＿酒吧"
+        },
+        {
+          "id": "lab-yibao",
+          "src": "/assets/steam/captures/en/lab-yibao.6d56626404b6.jpg",
+          "width": 1920,
+          "height": 1080,
+          "label": "Yibao: \"Play One,\" huh? You're so naughty. That eager, are you?",
+          "sha256": "6d56626404b67b600e7cff400e986037558c0010f8eaced41f41bc92f9ad3fa5",
+          "bytes": 339104,
+          "stage": "藝文3P＿實驗室"
+        },
+        {
+          "id": "campus-wenwen",
+          "src": "/assets/steam/captures/en/campus-wenwen.478d8e369e1c.jpg",
+          "width": 1920,
+          "height": 1080,
+          "label": "Wenwen: Of course! You two were hiding under the table, doing who knows what, and wouldn't come out. I had to cover for you forever to keep you from getting caught. That was crazy.",
+          "sha256": "478d8e369e1c286a64de2dd2e0dbc9130a36188f5a9b63f6411dba0fc44d1f42",
+          "bytes": 316172,
+          "stage": "藝文支線1"
+        },
+        {
+          "id": "hotel-mengxi",
+          "src": "/assets/steam/captures/en/hotel-mengxi.878280796fe3.jpg",
+          "width": 1920,
+          "height": 1080,
+          "label": "Mengxi: Larry... do you... just want my body?",
+          "sha256": "878280796fe30f4591213205c9013ea6cc968541504a66ad09f021c975a3dea3",
+          "bytes": 287221,
+          "stage": "萌西支線-萌西＿旅館2"
+        },
+        {
+          "id": "street-choice",
+          "src": "/assets/steam/captures/en/street-choice.411715405c3e.jpg",
+          "width": 1920,
+          "height": 1080,
+          "label": "Larry's a gentleman. No checking out girls. / Check out some girls.",
+          "sha256": "411715405c3ee61aec347aab6d68fe03ae5b9150990ee6e539e8ac8228299b6a",
+          "bytes": 438006,
+          "stage": "街道"
+        }
+      ]
+    },
+    "ja": {
+      "title": "ラリーのカクテル研究室",
+      "frames": [
+        {
+          "id": "restaurant-kaikai",
+          "src": "/assets/steam/captures/ja/restaurant-kaikai.9df19bcd6428.jpg",
+          "width": 1920,
+          "height": 1080,
+          "label": "カイカイ：ラリーって、ほんとに気が利くのね。普段は女心のわからない鈍感男って感じなのに、こんなに細やかだなんて意外だったわ。今日のランチの相手、大正解だったみたい。",
+          "sha256": "9df19bcd64284953cac253764aeec290db69bc047adc4af64cc9f1bb2993df5e",
+          "bytes": 321814,
+          "stage": "凱凱支線-凱凱午餐2"
+        },
+        {
+          "id": "bar-larry",
+          "src": "/assets/steam/captures/ja/bar-larry.0883dbcdb4ac.jpg",
+          "width": 1920,
+          "height": 1080,
+          "label": "ラリー：そろそろ落ち着きたいもんだ……ファンにつきまとわれるのも勘弁だしな……",
+          "sha256": "0883dbcdb4ac6f2cff17b938f72feaa7d16f8cfa1017343b542ad4261810b7cc",
+          "bytes": 288856,
+          "stage": "開始＿故事"
+        },
+        {
+          "id": "shopping-xinxin",
+          "src": "/assets/steam/captures/ja/shopping-xinxin.81f651001f33.jpg",
+          "width": 1920,
+          "height": 1080,
+          "label": "シンシン：そんなに照れないでよ、今どき何言ってるの！ ちょっと見るだけだってば～",
+          "sha256": "81f651001f336aa426ef15be700c5cfa5f6301a0753b27657d356e35dfb879a4",
+          "bytes": 354660,
+          "stage": "欣欣街上逛2"
+        },
+        {
+          "id": "beach-daidai",
+          "src": "/assets/steam/captures/ja/beach-daidai.7c87e4f66588.jpg",
+          "width": 1920,
+          "height": 1080,
+          "label": "ダイダイ：バーテンダーだの、バリスタだの、なんちゃらクリエイターだのって名乗る人は、決まってそのあと甘い言葉を並べ始めるの。正直、ちょっとうんざりしてるのよ。",
+          "sha256": "7c87e4f665884d55df85fabdfa87395379a93123734e189f55d183be66447d26",
+          "bytes": 333219,
+          "stage": "黛黛支線-黛黛＿酒吧"
+        },
+        {
+          "id": "lab-yibao",
+          "src": "/assets/steam/captures/ja/lab-yibao.0a3eae96b25f.jpg",
+          "width": 1920,
+          "height": 1080,
+          "label": "イーバオ：しかも「プレイ」だって。ラリーってばエッチすぎでしょ。そんなに待ちきれないの？",
+          "sha256": "0a3eae96b25fa26ca626794314fe8e3762b7b03703edb9e177237f1b418ac916",
+          "bytes": 344842,
+          "stage": "藝文3P＿實驗室"
+        },
+        {
+          "id": "campus-wenwen",
+          "src": "/assets/steam/captures/ja/campus-wenwen.e7fa588b2ff0.jpg",
+          "width": 1920,
+          "height": 1080,
+          "label": "ウェンウェン：もちろん覚えてるよ！ 二人して机の下に隠れて、何してたんだか全然出てこないんだもん。バレないように、私がどれだけ長いことごまかしてあげたと思ってるの。ほんとにめちゃくちゃだったよ。",
+          "sha256": "e7fa588b2ff047b559392ce3b58a741859aa90cd634d0fe0a4f402f85b9443ef",
+          "bytes": 324562,
+          "stage": "藝文支線1"
+        },
+        {
+          "id": "hotel-mengxi",
+          "src": "/assets/steam/captures/ja/hotel-mengxi.723d64d19e68.jpg",
+          "width": 1920,
+          "height": 1080,
+          "label": "モンシー：ラリー……もしかして……私の体が目当てなの？",
+          "sha256": "723d64d19e6813ed5f4a04535a94fdedf66c130896a7202d25804b8206ef56e8",
+          "bytes": 290526,
+          "stage": "萌西支線-萌西＿旅館2"
+        },
+        {
+          "id": "street-choice",
+          "src": "/assets/steam/captures/ja/street-choice.b410ac8015dd.jpg",
+          "width": 1920,
+          "height": 1080,
+          "label": "紳士なラリーは女の子をジロジロ見ない / かわいい子を眺める",
+          "sha256": "b410ac8015dd3cdda38da90c571b8891d85a628e0b1bbc5badf3b86022c22558",
+          "bytes": 437907,
+          "stage": "街道"
+        }
+      ]
+    },
+    "ko": {
+      "title": "래리의 칵테일 연구실",
+      "frames": [
+        {
+          "id": "restaurant-kaikai",
+          "src": "/assets/steam/captures/ko/restaurant-kaikai.3acfad3229a1.jpg",
+          "width": 1920,
+          "height": 1080,
+          "label": "카이카이: 래리, 너 은근 다정하다? 평소엔 센스라곤 눈곱만큼도 없는 목석 같더니, 이렇게 세심할 줄은 몰랐네. 오늘 밥 친구 하나는 제대로 골랐나 봐.",
+          "sha256": "3acfad3229a1d63001d814220df188d1642bdec366f54c75028d3fe22d545468",
+          "bytes": 310606,
+          "stage": "凱凱支線-凱凱午餐2"
+        },
+        {
+          "id": "bar-larry",
+          "src": "/assets/steam/captures/ko/bar-larry.fce302c18e02.jpg",
+          "width": 1920,
+          "height": 1080,
+          "label": "래리: 아, 이제 좀 정착하고 싶다... 팬들 등쌀에서 벗어나고 싶어...",
+          "sha256": "fce302c18e0210aeeb86afd4040b72640b73f3d201798168d95681d44897b6ba",
+          "bytes": 282373,
+          "stage": "開始＿故事"
+        },
+        {
+          "id": "shopping-xinxin",
+          "src": "/assets/steam/captures/ko/shopping-xinxin.9b5a2b85aa6d.jpg",
+          "width": 1920,
+          "height": 1080,
+          "label": "신신: 뭘 그렇게 부끄러워해, 요즘이 어떤 시대인데! 그냥 구경만 할 거야~",
+          "sha256": "9b5a2b85aa6d1288f4dcaccab479e81d35fcea34e8b91cc779ef0110e76b762c",
+          "bytes": 349491,
+          "stage": "欣欣街上逛2"
+        },
+        {
+          "id": "beach-daidai",
+          "src": "/assets/steam/captures/ko/beach-daidai.e597554703c5.jpg",
+          "width": 1920,
+          "height": 1080,
+          "label": "다이다이: 다들 바텐더네, 바리스타네, 뭐네 하면서 꼭 그다음엔 듣기 좋은 말만 늘어놓더라고요. 솔직히 좀 질렸어요.",
+          "sha256": "e597554703c5cd9db023f6128cee3207ff0bc0f1305d47939cbccd63f6843ed4",
+          "bytes": 319329,
+          "stage": "黛黛支線-黛黛＿酒吧"
+        },
+        {
+          "id": "lab-yibao",
+          "src": "/assets/steam/captures/ko/lab-yibao.1cbd2d063ffb.jpg",
+          "width": 1920,
+          "height": 1080,
+          "label": "이바오: '한 판 껴도 돼?'라니, 너 진짜 응큼하다? 그렇게 급해?",
+          "sha256": "1cbd2d063ffbe9faa0b7ad0597174885f50a6c4e4d50a02a65a204f00f9f5dba",
+          "bytes": 338021,
+          "stage": "藝文3P＿實驗室"
+        },
+        {
+          "id": "campus-wenwen",
+          "src": "/assets/steam/captures/ko/campus-wenwen.a5c9d28bfe0a.jpg",
+          "width": 1920,
+          "height": 1080,
+          "label": "원원: 당연히 기억하지! 너네 둘이 책상 밑에 숨어서 뭘 하는지 계속 안 나오는 바람에, 내가 얼마나 오래 막아 줬는지 몰라. 그래서 겨우 안 들켰잖아. 진짜 미친 짓이었어.",
+          "sha256": "a5c9d28bfe0a8340505ccd00c835125342e8cb667204f45b644a48c2ac94f586",
+          "bytes": 312762,
+          "stage": "藝文支線1"
+        },
+        {
+          "id": "hotel-mengxi",
+          "src": "/assets/steam/captures/ko/hotel-mengxi.aeb66c97a74a.jpg",
+          "width": 1920,
+          "height": 1080,
+          "label": "멍시: 래리…… 너…… 그냥 내 몸이 목적이었던 거야?",
+          "sha256": "aeb66c97a74ae4d9b9d3a48f8e9ab816bde8154d9ef29f3a88e5a28493d472f5",
+          "bytes": 287434,
+          "stage": "萌西支線-萌西＿旅館2"
+        },
+        {
+          "id": "street-choice",
+          "src": "/assets/steam/captures/ko/street-choice.eb27926eee05.jpg",
+          "width": 1920,
+          "height": 1080,
+          "label": "점잖은 래리답게 여자 구경 안 하기 / 여자 구경하기",
+          "sha256": "eb27926eee05f40eb044aa48afebaed170d6b942a375b42bd07d380256fed6c8",
+          "bytes": 435329,
+          "stage": "街道"
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "赖瑞的调酒研究室",
+      "frames": [
+        {
+          "id": "restaurant-kaikai",
+          "src": "/assets/steam/captures/zh-Hans/restaurant-kaikai.31b0dccb5184.jpg",
+          "width": 1920,
+          "height": 1080,
+          "label": "凯凯：赖瑞，你还真是贴心啊，平时看起来一副死直男，没想到竟然这么细心。看来今天我真的是找对人陪吃饭了。",
+          "sha256": "31b0dccb5184f9c501a6ae61026430fe3d562c9330536de28a1533c643db370e",
+          "bytes": 310519,
+          "stage": "凱凱支線-凱凱午餐2"
+        },
+        {
+          "id": "bar-larry",
+          "src": "/assets/steam/captures/zh-Hans/bar-larry.828bd7aa66b8.jpg",
+          "width": 1920,
+          "height": 1080,
+          "label": "赖瑞：好想要稳定下来……避免粉丝的骚扰……",
+          "sha256": "828bd7aa66b8b5f5f9b3cda86a55fe86fd8714b42c76f3554601058e3174b517",
+          "bytes": 281765,
+          "stage": "開始＿故事"
+        },
+        {
+          "id": "shopping-xinxin",
+          "src": "/assets/steam/captures/zh-Hans/shopping-xinxin.f47cff258f1d.jpg",
+          "width": 1920,
+          "height": 1080,
+          "label": "欣欣：别这么害羞嘛，现在都什么时代了！我就看看嘛～",
+          "sha256": "f47cff258f1d7a81af96ef53dfa2ce46f074406fddc5ff34fd0d0f8def631c5f",
+          "bytes": 349739,
+          "stage": "欣欣街上逛2"
+        },
+        {
+          "id": "beach-daidai",
+          "src": "/assets/steam/captures/zh-Hans/beach-daidai.f4cb54660149.jpg",
+          "width": 1920,
+          "height": 1080,
+          "label": "黛黛：每次有人说是调酒师、咖啡师、什么师的，接着就开始讲些好听的话。老实说，我听得有些腻了。",
+          "sha256": "f4cb54660149966e49601cbe712a9107ed836aae60e777ae2a485bf0e7a05d4e",
+          "bytes": 321628,
+          "stage": "黛黛支線-黛黛＿酒吧"
+        },
+        {
+          "id": "lab-yibao",
+          "src": "/assets/steam/captures/zh-Hans/lab-yibao.4f17492b6b8d.jpg",
+          "width": 1920,
+          "height": 1080,
+          "label": "艺宝：还Play One，你也太坏了吧，这么急吗？",
+          "sha256": "4f17492b6b8d20773a7297d05e69146b84b9d70def6545f8e747d4b2239c91a2",
+          "bytes": 337031,
+          "stage": "藝文3P＿實驗室"
+        },
+        {
+          "id": "campus-wenwen",
+          "src": "/assets/steam/captures/zh-Hans/campus-wenwen.e6480fd1ce89.jpg",
+          "width": 1920,
+          "height": 1080,
+          "label": "文文：当然记得！你们两个躲在桌子底下，不知道在做什么，一直不出来，害我帮忙挡了多久才没被发现，真的太疯狂了。",
+          "sha256": "e6480fd1ce89e17c73bdbc78bf78c4b52ad0cb568c58cbd024b86f9d5148413f",
+          "bytes": 309197,
+          "stage": "藝文支線1"
+        },
+        {
+          "id": "hotel-mengxi",
+          "src": "/assets/steam/captures/zh-Hans/hotel-mengxi.6252c619083e.jpg",
+          "width": 1920,
+          "height": 1080,
+          "label": "萌西：赖瑞……你是不是……只是想要我的身体？",
+          "sha256": "6252c619083e0c846605ade8eb90e369b1453d8c116c5eb002b917c6ca902dc3",
+          "bytes": 289076,
+          "stage": "萌西支線-萌西＿旅館2"
+        },
+        {
+          "id": "street-choice",
+          "src": "/assets/steam/captures/zh-Hans/street-choice.676efa709cac.jpg",
+          "width": 1920,
+          "height": 1080,
+          "label": "正经的赖瑞不看妹 / 看看妹",
+          "sha256": "676efa709cacd6f908a8c670fae62a934515474d2de9c1d6a112b6dd902d7786",
+          "bytes": 431920,
+          "stage": "街道"
+        }
+      ]
+    },
+    "th": {
+      "title": "ห้องแล็บค็อกเทลของแลร์รี่",
+      "frames": [
+        {
+          "id": "restaurant-kaikai",
+          "src": "/assets/steam/captures/th/restaurant-kaikai.f8a3b1e945f1.jpg",
+          "width": 1920,
+          "height": 1080,
+          "label": "ไคไค: แลร์รี่ คุณนี่ใส่ใจเก่งเหมือนกันนะเนี่ย ปกติทำตัวเป็นชายแท้ทื่อ ๆ ไม่นึกเลยว่าจะละเอียดอ่อนขนาดนี้ สงสัยวันนี้ฉันจะเลือกคนมากินข้าวด้วยได้ถูกคนแล้วล่ะ",
+          "sha256": "f8a3b1e945f12cc5e126c0255889576a52f29bc35756931db84f808e6e65e1ec",
+          "bytes": 306222,
+          "stage": "凱凱支線-凱凱午餐2"
+        },
+        {
+          "id": "bar-larry",
+          "src": "/assets/steam/captures/th/bar-larry.a146241b3ce9.jpg",
+          "width": 1920,
+          "height": 1080,
+          "label": "แลร์รี่: อยากจะลงหลักปักฐานซะที... จะได้ไม่ต้องโดนแฟนคลับตามตื๊อ...",
+          "sha256": "a146241b3ce9cd425c2bf92dd57fc8d730242c062dbe7fd1d5c4b7deac80e971",
+          "bytes": 277510,
+          "stage": "開始＿故事"
+        },
+        {
+          "id": "shopping-xinxin",
+          "src": "/assets/steam/captures/th/shopping-xinxin.f1c8e814df60.jpg",
+          "width": 1920,
+          "height": 1080,
+          "label": "ซินซิน: อย่าเขินไปหน่อยเลยน่า นี่มันยุคไหนแล้ว! ฉันแค่ดูเฉย ๆ เองน่า~",
+          "sha256": "f1c8e814df60580bc1ca49573ad57210fb985364817518a380698e43e9c42976",
+          "bytes": 343601,
+          "stage": "欣欣街上逛2"
+        },
+        {
+          "id": "beach-daidai",
+          "src": "/assets/steam/captures/th/beach-daidai.cf0942de704b.jpg",
+          "width": 1920,
+          "height": 1080,
+          "label": "ไต้ไต้: ทุกครั้งที่มีคนบอกว่าเป็นบาร์เทนเดอร์ บาริสต้า หรืออาชีพเท่ ๆ อะไรก็ตาม ก็จะเริ่มพูดจาหวานหูตามมาทุกที บอกตรง ๆ นะ ฉันเริ่มเอียนแล้ว",
+          "sha256": "cf0942de704b6dee51e076aa58393fe60519721ef82af83026a76ccaed235250",
+          "bytes": 316639,
+          "stage": "黛黛支線-黛黛＿酒吧"
+        },
+        {
+          "id": "lab-yibao",
+          "src": "/assets/steam/captures/th/lab-yibao.da6eda3771c7.jpg",
+          "width": 1920,
+          "height": 1080,
+          "label": "อี้เป่า: ยังจะมา Play One อีกนะ มึงนี่มันร้ายจริง ๆ รีบขนาดนั้นเลยเหรอ?",
+          "sha256": "da6eda3771c79a9aca3c444fcfdfac1ebf87c6d56c6485d24abf84c3a8406657",
+          "bytes": 334120,
+          "stage": "藝文3P＿實驗室"
+        },
+        {
+          "id": "campus-wenwen",
+          "src": "/assets/steam/captures/th/campus-wenwen.b2888191667e.jpg",
+          "width": 1920,
+          "height": 1080,
+          "label": "เหวินเหวิน: จำได้สิ! นายสองคนมุดอยู่ใต้โต๊ะ ไม่รู้ทำอะไรกันอยู่ ไม่ยอมออกมาสักที ฉันต้องช่วยบังให้ตั้งนานกว่าจะรอด บ้าบอสุด ๆ เลย",
+          "sha256": "b2888191667e521ac061d28b5d48d1c13b534586cf0a48854a062b9aab71ab5d",
+          "bytes": 300460,
+          "stage": "藝文支線1"
+        },
+        {
+          "id": "hotel-mengxi",
+          "src": "/assets/steam/captures/th/hotel-mengxi.7d4816ed380b.jpg",
+          "width": 1920,
+          "height": 1080,
+          "label": "เหมิงซี: แลร์รี่… นายแค่… อยากได้ร่างกายฉันใช่ไหม?",
+          "sha256": "7d4816ed380bc9fc756cfdaa6a032252ef428ffaa725cb9dc01e1e5e93fa828c",
+          "bytes": 282847,
+          "stage": "萌西支線-萌西＿旅館2"
+        },
+        {
+          "id": "street-choice",
+          "src": "/assets/steam/captures/th/street-choice.27c2b5284fa5.jpg",
+          "width": 1920,
+          "height": 1080,
+          "label": "แลร์รี่ผู้แสนสุภาพไม่ส่องสาว / ส่องสาวสักหน่อย",
+          "sha256": "27c2b5284fa5e3c7c0e36f8bd2bb4c925ace3aee4fcd081196eae62296e53fcd",
+          "bytes": 427556,
+          "stage": "街道"
+        }
+      ]
+    },
+    "de": {
+      "title": "Larry's Mixology Lab",
+      "frames": [
+        {
+          "id": "restaurant-kaikai",
+          "src": "/assets/steam/captures/de/restaurant-kaikai.a5529b2c76b0.jpg",
+          "width": 1920,
+          "height": 1080,
+          "label": "Kaikai: Larry, du bist ja echt aufmerksam! Sonst wirkst du wie ein typischer Hetero-Holzklotz – wer hätte gedacht, dass du so viel Feingefühl hast? Da hab ich mir heute wohl genau den Richtigen als Essensbegleitung geschnappt.",
+          "sha256": "a5529b2c76b0a99dcbae1890adab3bcac312623c7e1b056578760a1a6b84be0d",
+          "bytes": 328162,
+          "stage": "凱凱支線-凱凱午餐2"
+        },
+        {
+          "id": "bar-larry",
+          "src": "/assets/steam/captures/de/bar-larry.1d5f791df301.jpg",
+          "width": 1920,
+          "height": 1080,
+          "label": "Larry: Ich will mich so gern endlich binden … und diesen ganzen Fan-Belästigungen entkommen …",
+          "sha256": "1d5f791df301f06d1c01981a23e30f4ed6b96b623e3d7c70d5a3705a024c64a7",
+          "bytes": 290781,
+          "stage": "開始＿故事"
+        },
+        {
+          "id": "shopping-xinxin",
+          "src": "/assets/steam/captures/de/shopping-xinxin.fb3d565cbde4.jpg",
+          "width": 1920,
+          "height": 1080,
+          "label": "Xinxin: Jetzt sei doch nicht so verklemmt, wir leben doch nicht mehr im Mittelalter! Ich will doch nur gucken~",
+          "sha256": "fb3d565cbde49e1aa677404412d3b244b35ea4b07589a1e9264c35d4bb691761",
+          "bytes": 358475,
+          "stage": "欣欣街上逛2"
+        },
+        {
+          "id": "beach-daidai",
+          "src": "/assets/steam/captures/de/beach-daidai.b652f3017220.jpg",
+          "width": 1920,
+          "height": 1080,
+          "label": "Daidai: Jedes Mal, wenn einer sagt, er sei Barkeeper, Barista oder sonst ein Bar-Irgendwas, geht danach das Süßholzraspeln los. Ehrlich gesagt hab ich das langsam satt.",
+          "sha256": "b652f3017220e58dd94daa19b10a5a41c79c94242133272c50b64490e07df27e",
+          "bytes": 331620,
+          "stage": "黛黛支線-黛黛＿酒吧"
+        },
+        {
+          "id": "lab-yibao",
+          "src": "/assets/steam/captures/de/lab-yibao.3adc0b497561.jpg",
+          "width": 1920,
+          "height": 1080,
+          "label": "Yibao: „Auch mal ran“, ja? Du bist mir ja ein ganz Schlimmer – hast du's so eilig?",
+          "sha256": "3adc0b497561eb19b49ca7c49bb5d5e807230cdf778fdb47dfa17f09c0f961b7",
+          "bytes": 343590,
+          "stage": "藝文3P＿實驗室"
+        },
+        {
+          "id": "campus-wenwen",
+          "src": "/assets/steam/captures/de/campus-wenwen.68114d9b7e57.jpg",
+          "width": 1920,
+          "height": 1080,
+          "label": "Wenwen: Na klar weiß ich das noch! Ihr zwei habt euch unter dem Tisch versteckt, Gott weiß, was ihr da getrieben habt, und seid einfach nicht mehr rausgekommen. Ich musste ewig Schmiere stehen, damit keiner was merkt. Das war echt total verrückt.",
+          "sha256": "68114d9b7e572d653e559525cdb1694c962daf5ccb74d8b0692f59a1cb52cb1d",
+          "bytes": 329387,
+          "stage": "藝文支線1"
+        },
+        {
+          "id": "hotel-mengxi",
+          "src": "/assets/steam/captures/de/hotel-mengxi.82a580669bba.jpg",
+          "width": 1920,
+          "height": 1080,
+          "label": "Mengxi: Larry … willst du etwa … nur meinen Körper?",
+          "sha256": "82a580669bba58828bce7ac87c625d2abe6df34eef57d5167262143c04c6bf76",
+          "bytes": 289913,
+          "stage": "萌西支線-萌西＿旅館2"
+        },
+        {
+          "id": "street-choice",
+          "src": "/assets/steam/captures/de/street-choice.73a839e0b50b.jpg",
+          "width": 1920,
+          "height": 1080,
+          "label": "Der anständige Larry gafft keinen Mädels nach / Mädels abchecken",
+          "sha256": "73a839e0b50b74f07d60c43796731b70dca52ba2f9ca01550d0af514b1bad363",
+          "bytes": 441252,
+          "stage": "街道"
+        }
+      ]
+    },
+    "es": {
+      "title": "Larry's Mixology Lab",
+      "frames": [
+        {
+          "id": "restaurant-kaikai",
+          "src": "/assets/steam/captures/es/restaurant-kaikai.ac3d866b91e2.jpg",
+          "width": 1920,
+          "height": 1080,
+          "label": "Kaikai: Larry, qué considerado eres. Normalmente pareces el típico hetero cavernícola y, quién lo diría, resulta que eres de lo más detallista. Está claro que hoy acerté con mi compañero de comida.",
+          "sha256": "ac3d866b91e271aa23f73cc02303eef2b97cb78e711557fb9474a133dd4cc303",
+          "bytes": 321641,
+          "stage": "凱凱支線-凱凱午餐2"
+        },
+        {
+          "id": "bar-larry",
+          "src": "/assets/steam/captures/es/bar-larry.b50238ec0102.jpg",
+          "width": 1920,
+          "height": 1080,
+          "label": "Larry: Ojalá pudiera sentar cabeza... y librarme del acoso de las fans...",
+          "sha256": "b50238ec010218a47c92be2960699bb3ea206f06cc2e0086532ae900e55858f9",
+          "bytes": 285695,
+          "stage": "開始＿故事"
+        },
+        {
+          "id": "shopping-xinxin",
+          "src": "/assets/steam/captures/es/shopping-xinxin.8f3860edb4dc.jpg",
+          "width": 1920,
+          "height": 1080,
+          "label": "Xinxin: No seas tan vergonzoso, ¡que estamos en el siglo XXI! Solo voy a mirar~",
+          "sha256": "8f3860edb4dce8556f4abf8b007a1b616fa061693140506aa5e04e46815123b3",
+          "bytes": 353320,
+          "stage": "欣欣街上逛2"
+        },
+        {
+          "id": "beach-daidai",
+          "src": "/assets/steam/captures/es/beach-daidai.8476eaf44d8c.jpg",
+          "width": 1920,
+          "height": 1080,
+          "label": "Daidai: Cada vez que alguien dice que es barman, barista o lo que sea, empieza enseguida con las palabras bonitas. La verdad, ya estoy un poco harta.",
+          "sha256": "8476eaf44d8c57fe6e183d694b56fc9ba24a920b4c07faa6f4ea2c7b3f1e2651",
+          "bytes": 328264,
+          "stage": "黛黛支線-黛黛＿酒吧"
+        },
+        {
+          "id": "lab-yibao",
+          "src": "/assets/steam/captures/es/lab-yibao.aca1685ec328.jpg",
+          "width": 1920,
+          "height": 1080,
+          "label": "Yibao: ¿Y encima «jugar con nosotros»? ¡Qué travieso eres! ¿Tantas ganas tienes?",
+          "sha256": "aca1685ec3280760b91e33eb19dbf792613fdc17ae71af70acf2c2ed2356a6ab",
+          "bytes": 344514,
+          "stage": "藝文3P＿實驗室"
+        },
+        {
+          "id": "campus-wenwen",
+          "src": "/assets/steam/captures/es/campus-wenwen.820595c11620.jpg",
+          "width": 1920,
+          "height": 1080,
+          "label": "Wenwen: ¡Claro que me acuerdo! Ustedes dos se escondieron debajo de la mesa, haciendo quién sabe qué, y no había manera de que salieran. Tuve que cubrirlos un montón de tiempo para que no los descubrieran. Fue una locura.",
+          "sha256": "820595c116200079341d55cd4651a4967b20bd15903c7f81ed9ddd3cc417ab77",
+          "bytes": 325034,
+          "stage": "藝文支線1"
+        },
+        {
+          "id": "hotel-mengxi",
+          "src": "/assets/steam/captures/es/hotel-mengxi.b598ea8700ea.jpg",
+          "width": 1920,
+          "height": 1080,
+          "label": "Mengxi: Larry… ¿tú… solo quieres mi cuerpo?",
+          "sha256": "b598ea8700ea221529b4708677ab803f74ebfe40513ec1a46abe6fce56b6d735",
+          "bytes": 288817,
+          "stage": "萌西支線-萌西＿旅館2"
+        },
+        {
+          "id": "street-choice",
+          "src": "/assets/steam/captures/es/street-choice.2bdbcf0caf5c.jpg",
+          "width": 1920,
+          "height": 1080,
+          "label": "Larry es un caballero: nada de mirar chicas / Echarles un ojo a las chicas",
+          "sha256": "2bdbcf0caf5c9959c4dffdc5914211df78b3a44e4526e70886ff5335b32bed3d",
+          "bytes": 441144,
+          "stage": "街道"
+        }
+      ]
+    }
+  }
+}

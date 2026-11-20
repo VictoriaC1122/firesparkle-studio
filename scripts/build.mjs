@@ -29,7 +29,7 @@ const guideVersion = await hash('public/guides.css');
 const brandVersion = await hash('data/brand/firesparkle-logo-original.png', 'public/assets/brand/og-image.png');
 const brandAsset = path => `${path}?v=${brandVersion}`;
 const catalog = JSON.parse(await read('data/apple-catalog.json'));
-const steamGallery = JSON.parse(await read('data/steam-story-gallery-2026-11-20.json'));
+const steamGallery = JSON.parse(await read('data/steam-story-gallery-2026-11-21.json'));
 const policies = JSON.parse(await read('data/privacy-sources/manifest.json')).apps;
 const androidPolicies = JSON.parse(await read('data/android-privacy.json'));
 const media = JSON.parse(await read('data/site-media.json'));

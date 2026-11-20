@@ -1,3 +1,6 @@
-Announce Larry’s Cocktail Lab Steam release and wishlist links
+Recapture homepage story screenshots with bolder dialogue in all eight game languages
 
-Add the November 13 release date, supported desktop platforms, and Steam store links to the homepage and Larry product page. Translate new interface text across all 50 website locales.
+Replace the eight "走進故事現場" story frames with edgier lines picked from the 1.6.14 script, led by Kaikai's restaurant scene. Every game language gets its own native 1920x1080 capture; other site languages keep the English fallback.
+
+Co-Authored-By: Claude Fable 5.2 <noreply@anthropic.com>
+Claude-Session: https://claude.ai/code/session_01SYwK6EYxJqEMnR4Wj9LuKz

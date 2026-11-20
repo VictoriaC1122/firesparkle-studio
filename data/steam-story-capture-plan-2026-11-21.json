@@ -1,0 +1,879 @@
+{
+  "createdOn": "2026-11-21",
+  "gameRoot": "/Users/chengyungwen/Desktop/Larry's Bar Game/steam/content/game",
+  "storySource": {
+    "path": "data/game.xml",
+    "sha256": "7f09b7f38856602fa7cc26acdd22d227ffa71d63e8829590d402e1c392dd20bb"
+  },
+  "captureNotes": [
+    "Each scene starts from a fresh new game; path lists [fromStage, choiceZh, toStage] (choiceZh null = automatic transition).",
+    "storyLineNumber is the 1-based line inside the stage story; street-choice stops at the choice menu.",
+    "All targets are early, clothed scenes."
+  ],
+  "scenes": [
+    {
+      "id": "restaurant-kaikai",
+      "stage": "凱凱支線-凱凱午餐2",
+      "stageXmlLine": 796,
+      "path": [
+        [
+          "start",
+          "直接開始",
+          "開始＿直接開始"
+        ],
+        [
+          "開始＿直接開始",
+          "基基證券",
+          "基基證券"
+        ],
+        [
+          "基基證券",
+          "等電梯上樓",
+          "凱凱支線1"
+        ],
+        [
+          "凱凱支線1",
+          "提出一起午餐",
+          "凱凱支線-凱凱午餐"
+        ],
+        [
+          "凱凱支線-凱凱午餐",
+          null,
+          "凱凱支線-凱凱午餐2"
+        ]
+      ],
+      "storyLineNumber": 7,
+      "sourceStoryLine": "凱凱[微笑]: 賴瑞，你還真是貼心啊，平時看起來一副死直男，沒想到竟然這麼細心。看來今天我真的是找對人陪吃飯了。"
+    },
+    {
+      "id": "bar-larry",
+      "stage": "開始＿故事",
+      "stageXmlLine": 5267,
+      "path": [
+        [
+          "start",
+          "聽故事（第一次玩請點選）",
+          "開始＿故事"
+        ]
+      ],
+      "storyLineNumber": 3,
+      "sourceStoryLine": "賴瑞[難受]: 好想要穩定下來...避免粉絲的騷擾..."
+    },
+    {
+      "id": "shopping-xinxin",
+      "stage": "欣欣街上逛2",
+      "stageXmlLine": 3007,
+      "path": [
+        [
+          "start",
+          "直接開始",
+          "開始＿直接開始"
+        ],
+        [
+          "開始＿直接開始",
+          "基基證券",
+          "基基證券"
+        ],
+        [
+          "基基證券",
+          "樓下等一下",
+          "欣欣支線1"
+        ],
+        [
+          "欣欣支線1",
+          "帶欣欣隨意逛街",
+          "欣欣街上逛"
+        ],
+        [
+          "欣欣街上逛",
+          null,
+          "欣欣街上逛2"
+        ]
+      ],
+      "storyLineNumber": 7,
+      "sourceStoryLine": "欣欣[微笑]: 別這麼害羞嘛，現在都什麼時代了！我就看看嘛～"
+    },
+    {
+      "id": "beach-daidai",
+      "stage": "黛黛支線-黛黛＿酒吧",
+      "stageXmlLine": 6644,
+      "path": [
+        [
+          "start",
+          "直接開始",
+          "開始＿直接開始"
+        ],
+        [
+          "開始＿直接開始",
+          "綠島",
+          "綠島"
+        ],
+        [
+          "綠島",
+          "吹吹海風",
+          "黛黛支線1"
+        ],
+        [
+          "黛黛支線1",
+          "邀約她來酒吧",
+          "黛黛支線-黛黛＿酒吧"
+        ]
+      ],
+      "storyLineNumber": 6,
+      "sourceStoryLine": "黛黛[嚴肅說]:每次有人說是調酒師、咖啡師、什麼師的，接著就開始講些好聽的話。老實說，我聽得有些膩了。"
+    },
+    {
+      "id": "lab-yibao",
+      "stage": "藝文3P＿實驗室",
+      "stageXmlLine": 3878,
+      "path": [
+        [
+          "start",
+          "直接開始",
+          "開始＿直接開始"
+        ],
+        [
+          "開始＿直接開始",
+          "大學",
+          "大學"
+        ],
+        [
+          "大學",
+          "往建築物走",
+          "文文支線1"
+        ],
+        [
+          "文文支線1",
+          "實驗室",
+          "文文實驗室"
+        ],
+        [
+          "文文實驗室",
+          "我可以Play One嗎",
+          "藝文3P＿實驗室"
+        ]
+      ],
+      "storyLineNumber": 6,
+      "sourceStoryLine": "藝寶[開心]: 還Play One，你也太壞了吧，這麼急嗎？"
+    },
+    {
+      "id": "campus-wenwen",
+      "stage": "藝文支線1",
+      "stageXmlLine": 4160,
+      "path": [
+        [
+          "start",
+          "直接開始",
+          "開始＿直接開始"
+        ],
+        [
+          "開始＿直接開始",
+          "大學",
+          "大學"
+        ],
+        [
+          "大學",
+          "直直走",
+          "藝文支線1"
+        ]
+      ],
+      "storyLineNumber": 15,
+      "sourceStoryLine": "文文[星承制服-咧嘴笑]: 當然記得！你們兩個躲在桌子底下，不知道在做什麼，一直不出來，害我幫忙擋了多久才沒被發現，真的太瘋狂了。"
+    },
+    {
+      "id": "hotel-mengxi",
+      "stage": "萌西支線-萌西＿旅館2",
+      "stageXmlLine": 3624,
+      "path": [
+        [
+          "start",
+          "直接開始",
+          "開始＿直接開始"
+        ],
+        [
+          "開始＿直接開始",
+          "街道",
+          "街道"
+        ],
+        [
+          "街道",
+          "看看妹",
+          "萌西支線修正"
+        ],
+        [
+          "萌西支線修正",
+          "旅館",
+          "萌西支線-萌西＿旅館"
+        ],
+        [
+          "萌西支線-萌西＿旅館",
+          null,
+          "萌西支線-萌西＿旅館2"
+        ]
+      ],
+      "storyLineNumber": 3,
+      "sourceStoryLine": "萌西[陰狠說]: 賴瑞……你是不是……只是想要我的身體？"
+    },
+    {
+      "id": "street-choice",
+      "stage": "街道",
+      "stageXmlLine": 4574,
+      "path": [
+        [
+          "start",
+          "直接開始",
+          "開始＿直接開始"
+        ],
+        [
+          "開始＿直接開始",
+          "街道",
+          "街道"
+        ]
+      ],
+      "storyLineNumber": null,
+      "sourceStoryLine": null
+    }
+  ],
+  "displayed": {
+    "zh-Hant": {
+      "restaurant-kaikai": {
+        "text": "凱凱：賴瑞，你還真是貼心啊，平時看起來一副死直男，沒想到竟然這麼細心。看來今天我真的是找對人陪吃飯了。",
+        "options": [],
+        "choicesClicked": {
+          "開始＿直接開始": "直接開始",
+          "基基證券": "基基證券",
+          "凱凱支線1": "等電梯上樓",
+          "凱凱支線-凱凱午餐": "提出一起午餐"
+        }
+      },
+      "bar-larry": {
+        "text": "賴瑞：好想要穩定下來……避免粉絲的騷擾……",
+        "options": [],
+        "choicesClicked": {
+          "開始＿故事": "聽故事（第一次玩請點選）"
+        }
+      },
+      "shopping-xinxin": {
+        "text": "欣欣：別這麼害羞嘛，現在都什麼時代了！我就看看嘛～",
+        "options": [],
+        "choicesClicked": {
+          "開始＿直接開始": "直接開始",
+          "基基證券": "基基證券",
+          "欣欣支線1": "樓下等一下",
+          "欣欣街上逛": "帶欣欣隨意逛街"
+        }
+      },
+      "beach-daidai": {
+        "text": "黛黛：每次有人說是調酒師、咖啡師、什麼師的，接著就開始講些好聽的話。老實說，我聽得有些膩了。",
+        "options": [],
+        "choicesClicked": {
+          "開始＿直接開始": "直接開始",
+          "綠島": "綠島",
+          "黛黛支線1": "吹吹海風",
+          "黛黛支線-黛黛＿酒吧": "邀約她來酒吧"
+        }
+      },
+      "lab-yibao": {
+        "text": "藝寶：還Play One，你也太壞了吧，這麼急嗎？",
+        "options": [],
+        "choicesClicked": {
+          "開始＿直接開始": "直接開始",
+          "大學": "大學",
+          "文文支線1": "往建築物走",
+          "文文實驗室": "實驗室",
+          "藝文3P＿實驗室": "我可以Play One嗎"
+        }
+      },
+      "campus-wenwen": {
+        "text": "文文：當然記得！你們兩個躲在桌子底下，不知道在做什麼，一直不出來，害我幫忙擋了多久才沒被發現，真的太瘋狂了。",
+        "options": [],
+        "choicesClicked": {
+          "開始＿直接開始": "直接開始",
+          "大學": "大學",
+          "藝文支線1": "直直走"
+        }
+      },
+      "hotel-mengxi": {
+        "text": "萌西：賴瑞……你是不是……只是想要我的身體？",
+        "options": [],
+        "choicesClicked": {
+          "開始＿直接開始": "直接開始",
+          "街道": "街道",
+          "萌西支線修正": "看看妹",
+          "萌西支線-萌西＿旅館": "旅館"
+        }
+      },
+      "street-choice": {
+        "text": "請問要做什麼動作？",
+        "options": [
+          "正經的賴瑞不看妹",
+          "看看妹"
+        ],
+        "choicesClicked": {
+          "開始＿直接開始": "直接開始",
+          "街道": "街道"
+        }
+      }
+    },
+    "en": {
+      "restaurant-kaikai": {
+        "text": "Kaikai: Larry, you're surprisingly thoughtful. Usually you seem like such a clueless guy. Who knew you paid this much attention? Looks like I picked the right lunch companion.",
+        "options": [],
+        "choicesClicked": {
+          "開始＿直接開始": "Start right away",
+          "基基證券": "Jiji Securities",
+          "凱凱支線1": "Wait for the elevator and go upstairs",
+          "凱凱支線-凱凱午餐": "Suggest having lunch together"
+        }
+      },
+      "bar-larry": {
+        "text": "Larry: I really want to settle down... Escape all these fans harassing me...",
+        "options": [],
+        "choicesClicked": {
+          "開始＿故事": "Hear the story (Choose this on your first playthrough)"
+        }
+      },
+      "shopping-xinxin": {
+        "text": "Xinxin: Don't be so shy. What century is this? I'm just going to look~",
+        "options": [],
+        "choicesClicked": {
+          "開始＿直接開始": "Start right away",
+          "基基證券": "Jiji Securities",
+          "欣欣支線1": "Wait downstairs",
+          "欣欣街上逛": "Take Xinxin for a casual stroll around the shops"
+        }
+      },
+      "beach-daidai": {
+        "text": "Daidai: Every time someone says they're a bartender, a barista, whatever, out comes the sweet talk. Honestly, I'm getting tired of it.",
+        "options": [],
+        "choicesClicked": {
+          "開始＿直接開始": "Start right away",
+          "綠島": "Green Island",
+          "黛黛支線1": "Enjoy the sea breeze",
+          "黛黛支線-黛黛＿酒吧": "Invite her to the bar."
+        }
+      },
+      "lab-yibao": {
+        "text": "Yibao: \"Play One,\" huh? You're so naughty. That eager, are you?",
+        "options": [],
+        "choicesClicked": {
+          "開始＿直接開始": "Start right away",
+          "大學": "University",
+          "文文支線1": "Walk toward the building",
+          "文文實驗室": "The lab",
+          "藝文3P＿實驗室": "Can I \"Play One\" too?"
+        }
+      },
+      "campus-wenwen": {
+        "text": "Wenwen: Of course! You two were hiding under the table, doing who knows what, and wouldn't come out. I had to cover for you forever to keep you from getting caught. That was crazy.",
+        "options": [],
+        "choicesClicked": {
+          "開始＿直接開始": "Start right away",
+          "大學": "University",
+          "藝文支線1": "Keep walking straight ahead"
+        }
+      },
+      "hotel-mengxi": {
+        "text": "Mengxi: Larry... do you... just want my body?",
+        "options": [],
+        "choicesClicked": {
+          "開始＿直接開始": "Start right away",
+          "街道": "Street",
+          "萌西支線修正": "Check out some girls.",
+          "萌西支線-萌西＿旅館": "A hotel"
+        }
+      },
+      "street-choice": {
+        "text": "What will you do?",
+        "options": [
+          "Larry's a gentleman. No checking out girls.",
+          "Check out some girls."
+        ],
+        "choicesClicked": {
+          "開始＿直接開始": "Start right away",
+          "街道": "Street"
+        }
+      }
+    },
+    "ja": {
+      "restaurant-kaikai": {
+        "text": "カイカイ：ラリーって、ほんとに気が利くのね。普段は女心のわからない鈍感男って感じなのに、こんなに細やかだなんて意外だったわ。今日のランチの相手、大正解だったみたい。",
+        "options": [],
+        "choicesClicked": {
+          "開始＿直接開始": "すぐに始める",
+          "基基證券": "基基証券",
+          "凱凱支線1": "エレベーターを待って上に行く",
+          "凱凱支線-凱凱午餐": "ランチに誘う"
+        }
+      },
+      "bar-larry": {
+        "text": "ラリー：そろそろ落ち着きたいもんだ……ファンにつきまとわれるのも勘弁だしな……",
+        "options": [],
+        "choicesClicked": {
+          "開始＿故事": "ストーリーを聞く（初めてプレイする方はこちらを選択）"
+        }
+      },
+      "shopping-xinxin": {
+        "text": "シンシン：そんなに照れないでよ、今どき何言ってるの！　ちょっと見るだけだってば～",
+        "options": [],
+        "choicesClicked": {
+          "開始＿直接開始": "すぐに始める",
+          "基基證券": "基基証券",
+          "欣欣支線1": "下でちょっと待つ",
+          "欣欣街上逛": "シンシンを連れて街をぶらぶらする"
+        }
+      },
+      "beach-daidai": {
+        "text": "ダイダイ：バーテンダーだの、バリスタだの、なんちゃらクリエイターだのって名乗る人は、決まってそのあと甘い言葉を並べ始めるの。正直、ちょっとうんざりしてるのよ。",
+        "options": [],
+        "choicesClicked": {
+          "開始＿直接開始": "すぐに始める",
+          "綠島": "緑島",
+          "黛黛支線1": "海風に吹かれる",
+          "黛黛支線-黛黛＿酒吧": "バーに誘う"
+        }
+      },
+      "lab-yibao": {
+        "text": "イーバオ：しかも「プレイ」だって。ラリーってばエッチすぎでしょ。そんなに待ちきれないの？",
+        "options": [],
+        "choicesClicked": {
+          "開始＿直接開始": "すぐに始める",
+          "大學": "大学",
+          "文文支線1": "建物のほうへ歩く",
+          "文文實驗室": "研究室",
+          "藝文3P＿實驗室": "俺もPlay Oneしていい？"
+        }
+      },
+      "campus-wenwen": {
+        "text": "ウェンウェン：もちろん覚えてるよ！　二人して机の下に隠れて、何してたんだか全然出てこないんだもん。バレないように、私がどれだけ長いことごまかしてあげたと思ってるの。ほんとにめちゃくちゃだったよ。",
+        "options": [],
+        "choicesClicked": {
+          "開始＿直接開始": "すぐに始める",
+          "大學": "大学",
+          "藝文支線1": "まっすぐ進む"
+        }
+      },
+      "hotel-mengxi": {
+        "text": "モンシー：ラリー……もしかして……私の体が目当てなの？",
+        "options": [],
+        "choicesClicked": {
+          "開始＿直接開始": "すぐに始める",
+          "街道": "街",
+          "萌西支線修正": "かわいい子を眺める",
+          "萌西支線-萌西＿旅館": "ホテル"
+        }
+      },
+      "street-choice": {
+        "text": "どうしますか？",
+        "options": [
+          "紳士なラリーは女の子をジロジロ見ない",
+          "かわいい子を眺める"
+        ],
+        "choicesClicked": {
+          "開始＿直接開始": "すぐに始める",
+          "街道": "街"
+        }
+      }
+    },
+    "ko": {
+      "restaurant-kaikai": {
+        "text": "카이카이: 래리, 너 은근 다정하다? 평소엔 센스라곤 눈곱만큼도 없는 목석 같더니, 이렇게 세심할 줄은 몰랐네. 오늘 밥 친구 하나는 제대로 골랐나 봐.",
+        "options": [],
+        "choicesClicked": {
+          "開始＿直接開始": "바로 시작",
+          "基基證券": "지지증권",
+          "凱凱支線1": "엘리베이터 타고 올라가기",
+          "凱凱支線-凱凱午餐": "같이 점심 먹자고 하기"
+        }
+      },
+      "bar-larry": {
+        "text": "래리: 아, 이제 좀 정착하고 싶다... 팬들 등쌀에서 벗어나고 싶어...",
+        "options": [],
+        "choicesClicked": {
+          "開始＿故事": "스토리 듣기 (처음 플레이한다면 선택하세요)"
+        }
+      },
+      "shopping-xinxin": {
+        "text": "신신: 뭘 그렇게 부끄러워해, 요즘이 어떤 시대인데! 그냥 구경만 할 거야~",
+        "options": [],
+        "choicesClicked": {
+          "開始＿直接開始": "바로 시작",
+          "基基證券": "지지증권",
+          "欣欣支線1": "아래층에서 기다리기",
+          "欣欣街上逛": "신신이랑 정처 없이 거리 구경하기"
+        }
+      },
+      "beach-daidai": {
+        "text": "다이다이: 다들 바텐더네, 바리스타네, 뭐네 하면서 꼭 그다음엔 듣기 좋은 말만 늘어놓더라고요. 솔직히 좀 질렸어요.",
+        "options": [],
+        "choicesClicked": {
+          "開始＿直接開始": "바로 시작",
+          "綠島": "뤼다오",
+          "黛黛支線1": "바닷바람 쐬기",
+          "黛黛支線-黛黛＿酒吧": "바에 놀러 오라고 하기"
+        }
+      },
+      "lab-yibao": {
+        "text": "이바오: '한 판 껴도 돼?'라니, 너 진짜 응큼하다? 그렇게 급해?",
+        "options": [],
+        "choicesClicked": {
+          "開始＿直接開始": "바로 시작",
+          "大學": "대학교",
+          "文文支線1": "건물 쪽으로 걷기",
+          "文文實驗室": "실험실",
+          "藝文3P＿實驗室": "나도 Play One 해도 돼"
+        }
+      },
+      "campus-wenwen": {
+        "text": "원원: 당연히 기억하지! 너네 둘이 책상 밑에 숨어서 뭘 하는지 계속 안 나오는 바람에, 내가 얼마나 오래 막아 줬는지 몰라. 그래서 겨우 안 들켰잖아. 진짜 미친 짓이었어.",
+        "options": [],
+        "choicesClicked": {
+          "開始＿直接開始": "바로 시작",
+          "大學": "대학교",
+          "藝文支線1": "앞으로 쭉 걷기"
+        }
+      },
+      "hotel-mengxi": {
+        "text": "멍시: 래리…… 너…… 그냥 내 몸이 목적이었던 거야?",
+        "options": [],
+        "choicesClicked": {
+          "開始＿直接開始": "바로 시작",
+          "街道": "거리",
+          "萌西支線修正": "여자 구경하기",
+          "萌西支線-萌西＿旅館": "모텔"
+        }
+      },
+      "street-choice": {
+        "text": "어떤 행동을 하시겠습니까?",
+        "options": [
+          "점잖은 래리답게 여자 구경 안 하기",
+          "여자 구경하기"
+        ],
+        "choicesClicked": {
+          "開始＿直接開始": "바로 시작",
+          "街道": "거리"
+        }
+      }
+    },
+    "zh-Hans": {
+      "restaurant-kaikai": {
+        "text": "凯凯：赖瑞，你还真是贴心啊，平时看起来一副死直男，没想到竟然这么细心。看来今天我真的是找对人陪吃饭了。",
+        "options": [],
+        "choicesClicked": {
+          "開始＿直接開始": "直接开始",
+          "基基證券": "基基证券",
+          "凱凱支線1": "等电梯上楼",
+          "凱凱支線-凱凱午餐": "提出一起午餐"
+        }
+      },
+      "bar-larry": {
+        "text": "赖瑞：好想要稳定下来……避免粉丝的骚扰……",
+        "options": [],
+        "choicesClicked": {
+          "開始＿故事": "听故事（第一次玩请点击）"
+        }
+      },
+      "shopping-xinxin": {
+        "text": "欣欣：别这么害羞嘛，现在都什么时代了！我就看看嘛～",
+        "options": [],
+        "choicesClicked": {
+          "開始＿直接開始": "直接开始",
+          "基基證券": "基基证券",
+          "欣欣支線1": "楼下等一下",
+          "欣欣街上逛": "带欣欣随意逛街"
+        }
+      },
+      "beach-daidai": {
+        "text": "黛黛：每次有人说是调酒师、咖啡师、什么师的，接着就开始讲些好听的话。老实说，我听得有些腻了。",
+        "options": [],
+        "choicesClicked": {
+          "開始＿直接開始": "直接开始",
+          "綠島": "绿岛",
+          "黛黛支線1": "吹吹海风",
+          "黛黛支線-黛黛＿酒吧": "邀约她来酒吧"
+        }
+      },
+      "lab-yibao": {
+        "text": "艺宝：还Play One，你也太坏了吧，这么急吗？",
+        "options": [],
+        "choicesClicked": {
+          "開始＿直接開始": "直接开始",
+          "大學": "大学",
+          "文文支線1": "往建筑物走",
+          "文文實驗室": "实验室",
+          "藝文3P＿實驗室": "我可以Play One吗"
+        }
+      },
+      "campus-wenwen": {
+        "text": "文文：当然记得！你们两个躲在桌子底下，不知道在做什么，一直不出来，害我帮忙挡了多久才没被发现，真的太疯狂了。",
+        "options": [],
+        "choicesClicked": {
+          "開始＿直接開始": "直接开始",
+          "大學": "大学",
+          "藝文支線1": "直直走"
+        }
+      },
+      "hotel-mengxi": {
+        "text": "萌西：赖瑞……你是不是……只是想要我的身体？",
+        "options": [],
+        "choicesClicked": {
+          "開始＿直接開始": "直接开始",
+          "街道": "街道",
+          "萌西支線修正": "看看妹",
+          "萌西支線-萌西＿旅館": "旅馆"
+        }
+      },
+      "street-choice": {
+        "text": "请问要做什么动作？",
+        "options": [
+          "正经的赖瑞不看妹",
+          "看看妹"
+        ],
+        "choicesClicked": {
+          "開始＿直接開始": "直接开始",
+          "街道": "街道"
+        }
+      }
+    },
+    "th": {
+      "restaurant-kaikai": {
+        "text": "ไคไค: แลร์รี่ คุณนี่ใส่ใจเก่งเหมือนกันนะเนี่ย ปกติทำตัวเป็นชายแท้ทื่อ ๆ ไม่นึกเลยว่าจะละเอียดอ่อนขนาดนี้ สงสัยวันนี้ฉันจะเลือกคนมากินข้าวด้วยได้ถูกคนแล้วล่ะ",
+        "options": [],
+        "choicesClicked": {
+          "開始＿直接開始": "เริ่มเลย",
+          "基基證券": "หลักทรัพย์จีจี",
+          "凱凱支線1": "รอลิฟต์ขึ้นไปข้างบน",
+          "凱凱支線-凱凱午餐": "ชวนไปกินมื้อเที่ยงด้วยกัน"
+        }
+      },
+      "bar-larry": {
+        "text": "แลร์รี่: อยากจะลงหลักปักฐานซะที... จะได้ไม่ต้องโดนแฟนคลับตามตื๊อ...",
+        "options": [],
+        "choicesClicked": {
+          "開始＿故事": "ฟังเรื่องราว (เล่นครั้งแรกกดตรงนี้เลย)"
+        }
+      },
+      "shopping-xinxin": {
+        "text": "ซินซิน: อย่าเขินไปหน่อยเลยน่า นี่มันยุคไหนแล้ว! ฉันแค่ดูเฉย ๆ เองน่า~",
+        "options": [],
+        "choicesClicked": {
+          "開始＿直接開始": "เริ่มเลย",
+          "基基證券": "หลักทรัพย์จีจี",
+          "欣欣支線1": "รอข้างล่างสักพัก",
+          "欣欣街上逛": "พาซินซินเดินเล่นชิล ๆ"
+        }
+      },
+      "beach-daidai": {
+        "text": "ไต้ไต้: ทุกครั้งที่มีคนบอกว่าเป็นบาร์เทนเดอร์ บาริสต้า หรืออาชีพเท่ ๆ อะไรก็ตาม ก็จะเริ่มพูดจาหวานหูตามมาทุกที บอกตรง ๆ นะ ฉันเริ่มเอียนแล้ว",
+        "options": [],
+        "choicesClicked": {
+          "開始＿直接開始": "เริ่มเลย",
+          "綠島": "เกาะกรีน",
+          "黛黛支線1": "รับลมทะเล",
+          "黛黛支線-黛黛＿酒吧": "ชวนเธอมาที่บาร์"
+        }
+      },
+      "lab-yibao": {
+        "text": "อี้เป่า: ยังจะมา Play One อีกนะ มึงนี่มันร้ายจริง ๆ รีบขนาดนั้นเลยเหรอ?",
+        "options": [],
+        "choicesClicked": {
+          "開始＿直接開始": "เริ่มเลย",
+          "大學": "มหาวิทยาลัย",
+          "文文支線1": "เดินไปทางตึก",
+          "文文實驗室": "ห้องแล็บ",
+          "藝文3P＿實驗室": "ขอ Play One ด้วยได้ไหม"
+        }
+      },
+      "campus-wenwen": {
+        "text": "เหวินเหวิน: จำได้สิ! นายสองคนมุดอยู่ใต้โต๊ะ ไม่รู้ทำอะไรกันอยู่ ไม่ยอมออกมาสักที ฉันต้องช่วยบังให้ตั้งนานกว่าจะรอด บ้าบอสุด ๆ เลย",
+        "options": [],
+        "choicesClicked": {
+          "開始＿直接開始": "เริ่มเลย",
+          "大學": "มหาวิทยาลัย",
+          "藝文支線1": "เดินตรงไปเรื่อย ๆ"
+        }
+      },
+      "hotel-mengxi": {
+        "text": "เหมิงซี: แลร์รี่… นายแค่… อยากได้ร่างกายฉันใช่ไหม?",
+        "options": [],
+        "choicesClicked": {
+          "開始＿直接開始": "เริ่มเลย",
+          "街道": "ถนน",
+          "萌西支線修正": "ส่องสาวสักหน่อย",
+          "萌西支線-萌西＿旅館": "โรงแรม"
+        }
+      },
+      "street-choice": {
+        "text": "จะทำอะไรดี?",
+        "options": [
+          "แลร์รี่ผู้แสนสุภาพไม่ส่องสาว",
+          "ส่องสาวสักหน่อย"
+        ],
+        "choicesClicked": {
+          "開始＿直接開始": "เริ่มเลย",
+          "街道": "ถนน"
+        }
+      }
+    },
+    "de": {
+      "restaurant-kaikai": {
+        "text": "Kaikai: Larry, du bist ja echt aufmerksam! Sonst wirkst du wie ein typischer Hetero-Holzklotz – wer hätte gedacht, dass du so viel Feingefühl hast? Da hab ich mir heute wohl genau den Richtigen als Essensbegleitung geschnappt.",
+        "options": [],
+        "choicesClicked": {
+          "開始＿直接開始": "Direkt loslegen",
+          "基基證券": "Jiji Securities",
+          "凱凱支線1": "Auf den Aufzug warten und hochfahren",
+          "凱凱支線-凱凱午餐": "Ein gemeinsames Mittagessen vorschlagen"
+        }
+      },
+      "bar-larry": {
+        "text": "Larry: Ich will mich so gern endlich binden … und diesen ganzen Fan-Belästigungen entkommen …",
+        "options": [],
+        "choicesClicked": {
+          "開始＿故事": "Story anhören (beim ersten Mal bitte auswählen)"
+        }
+      },
+      "shopping-xinxin": {
+        "text": "Xinxin: Jetzt sei doch nicht so verklemmt, wir leben doch nicht mehr im Mittelalter! Ich will doch nur gucken~",
+        "options": [],
+        "choicesClicked": {
+          "開始＿直接開始": "Direkt loslegen",
+          "基基證券": "Jiji Securities",
+          "欣欣支線1": "Unten kurz warten",
+          "欣欣街上逛": "Mit Xinxin einfach durch die Straßen bummeln"
+        }
+      },
+      "beach-daidai": {
+        "text": "Daidai: Jedes Mal, wenn einer sagt, er sei Barkeeper, Barista oder sonst ein Bar-Irgendwas, geht danach das Süßholzraspeln los. Ehrlich gesagt hab ich das langsam satt.",
+        "options": [],
+        "choicesClicked": {
+          "開始＿直接開始": "Direkt loslegen",
+          "綠島": "Green Island",
+          "黛黛支線1": "Die Meeresbrise genießen",
+          "黛黛支線-黛黛＿酒吧": "Sie in die Bar einladen"
+        }
+      },
+      "lab-yibao": {
+        "text": "Yibao: „Auch mal ran“, ja? Du bist mir ja ein ganz Schlimmer – hast du's so eilig?",
+        "options": [],
+        "choicesClicked": {
+          "開始＿直接開始": "Direkt loslegen",
+          "大學": "Universität",
+          "文文支線1": "Zum Gebäude gehen",
+          "文文實驗室": "Ins Labor",
+          "藝文3P＿實驗室": "Darf ich auch mal ran"
+        }
+      },
+      "campus-wenwen": {
+        "text": "Wenwen: Na klar weiß ich das noch! Ihr zwei habt euch unter dem Tisch versteckt, Gott weiß, was ihr da getrieben habt, und seid einfach nicht mehr rausgekommen. Ich musste ewig Schmiere stehen, damit keiner was merkt. Das war echt total verrückt.",
+        "options": [],
+        "choicesClicked": {
+          "開始＿直接開始": "Direkt loslegen",
+          "大學": "Universität",
+          "藝文支線1": "Geradeaus weitergehen"
+        }
+      },
+      "hotel-mengxi": {
+        "text": "Mengxi: Larry … willst du etwa … nur meinen Körper?",
+        "options": [],
+        "choicesClicked": {
+          "開始＿直接開始": "Direkt loslegen",
+          "街道": "Straße",
+          "萌西支線修正": "Mädels abchecken",
+          "萌西支線-萌西＿旅館": "Ins Hotel"
+        }
+      },
+      "street-choice": {
+        "text": "Was möchtest du tun?",
+        "options": [
+          "Der anständige Larry gafft keinen Mädels nach",
+          "Mädels abchecken"
+        ],
+        "choicesClicked": {
+          "開始＿直接開始": "Direkt loslegen",
+          "街道": "Straße"
+        }
+      }
+    },
+    "es": {
+      "restaurant-kaikai": {
+        "text": "Kaikai: Larry, qué considerado eres. Normalmente pareces el típico hetero cavernícola y, quién lo diría, resulta que eres de lo más detallista. Está claro que hoy acerté con mi compañero de comida.",
+        "options": [],
+        "choicesClicked": {
+          "開始＿直接開始": "Empezar directamente",
+          "基基證券": "Valores Jiji",
+          "凱凱支線1": "Esperar el ascensor y subir",
+          "凱凱支線-凱凱午餐": "Proponerle almorzar juntos"
+        }
+      },
+      "bar-larry": {
+        "text": "Larry: Ojalá pudiera sentar cabeza... y librarme del acoso de las fans...",
+        "options": [],
+        "choicesClicked": {
+          "開始＿故事": "Escuchar la historia (elige esta opción si es tu primera partida)"
+        }
+      },
+      "shopping-xinxin": {
+        "text": "Xinxin: No seas tan vergonzoso, ¡que estamos en el siglo XXI! Solo voy a mirar~",
+        "options": [],
+        "choicesClicked": {
+          "開始＿直接開始": "Empezar directamente",
+          "基基證券": "Valores Jiji",
+          "欣欣支線1": "Esperar un rato abajo",
+          "欣欣街上逛": "Llevar a Xinxin a dar una vuelta por las tiendas"
+        }
+      },
+      "beach-daidai": {
+        "text": "Daidai: Cada vez que alguien dice que es barman, barista o lo que sea, empieza enseguida con las palabras bonitas. La verdad, ya estoy un poco harta.",
+        "options": [],
+        "choicesClicked": {
+          "開始＿直接開始": "Empezar directamente",
+          "綠島": "Isla Verde",
+          "黛黛支線1": "Disfrutar de la brisa marina",
+          "黛黛支線-黛黛＿酒吧": "Invitarla al bar"
+        }
+      },
+      "lab-yibao": {
+        "text": "Yibao: ¿Y encima «jugar con nosotros»? ¡Qué travieso eres! ¿Tantas ganas tienes?",
+        "options": [],
+        "choicesClicked": {
+          "開始＿直接開始": "Empezar directamente",
+          "大學": "Universidad",
+          "文文支線1": "Ir hacia el edificio",
+          "文文實驗室": "El laboratorio",
+          "藝文3P＿實驗室": "¿Me dejan entrar en modo multijugador?"
+        }
+      },
+      "campus-wenwen": {
+        "text": "Wenwen: ¡Claro que me acuerdo! Ustedes dos se escondieron debajo de la mesa, haciendo quién sabe qué, y no había manera de que salieran. Tuve que cubrirlos un montón de tiempo para que no los descubrieran. Fue una locura.",
+        "options": [],
+        "choicesClicked": {
+          "開始＿直接開始": "Empezar directamente",
+          "大學": "Universidad",
+          "藝文支線1": "Seguir todo recto"
+        }
+      },
+      "hotel-mengxi": {
+        "text": "Mengxi: Larry… ¿tú… solo quieres mi cuerpo?",
+        "options": [],
+        "choicesClicked": {
+          "開始＿直接開始": "Empezar directamente",
+          "街道": "Calle",
+          "萌西支線修正": "Echarles un ojo a las chicas",
+          "萌西支線-萌西＿旅館": "A un hotel"
+        }
+      },
+      "street-choice": {
+        "text": "¿Qué quieres hacer?",
+        "options": [
+          "Larry es un caballero: nada de mirar chicas",
+          "Echarles un ojo a las chicas"
+        ],
+        "choicesClicked": {
+          "開始＿直接開始": "Empezar directamente",
+          "街道": "Calle"
+        }
+      }
+    }
+  }
+}
