@@ -13,27 +13,27 @@
   },
   "localSources": [
     {
-      "path": "/Users/chengyungwen/Desktop/Larry's Bar Game/steam/content/game/index.html",
+      "path": "game-source:/steam/content/game/index.html",
       "sha256": "d08998f5d8dc8596afdd47bbac707a18b36838fd1d280c8185d629f156b09220"
     },
     {
-      "path": "/Users/chengyungwen/Desktop/Larry's Bar Game/steam/content/game/data/lang/en.js",
+      "path": "game-source:/steam/content/game/data/lang/en.js",
       "sha256": "949ebd69e2e15bf1f8b2f71b9280bdffddfef604dc41b145a9d98dd91b3c3210"
     },
     {
-      "path": "/Users/chengyungwen/Desktop/Larry's Bar Game/steam/content/game/assets/js/utility.js",
+      "path": "game-source:/steam/content/game/assets/js/utility.js",
       "sha256": "2c87440ad39713c74c5fd17e1cc0047c83cc1ccc6b05acc153cffb09ea1d828b"
     },
     {
-      "path": "/Users/chengyungwen/Desktop/Larry's Bar Game/steam/content/game/assets/js/game.js",
+      "path": "game-source:/steam/content/game/assets/js/game.js",
       "sha256": "30024c7ed8ee2e3605740735ecb081b0c869e84eb2b002f3587b8379691d2a6e"
     },
     {
-      "path": "/Users/chengyungwen/Desktop/Larry's Bar Game/steam/content/game/steam/steam-shell.js",
+      "path": "game-source:/steam/content/game/steam/steam-shell.js",
       "sha256": "c6cc3e2af447da66cf417019aae86962e41e5031514c8fe38d14173650cc5ff9"
     },
     {
-      "path": "/Users/chengyungwen/Desktop/Larry's Bar Game/steam/src/steam-shell/steam-shell.js",
+      "path": "game-source:/steam/src/steam-shell/steam-shell.js",
       "sha256": "c6cc3e2af447da66cf417019aae86962e41e5031514c8fe38d14173650cc5ff9"
     }
   ],

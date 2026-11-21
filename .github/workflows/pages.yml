@@ -25,12 +25,16 @@ jobs:
           node-version: 22
       - id: pages
         uses: actions/configure-pages@v5
+      - name: Check public files for local account paths
+        run: node scripts/check-public-paths.mjs
       - name: Build site
         run: node scripts/build.mjs
         env:
           # 根網域／自訂網域為空字串；專案頁則是 /repo-name
           BASE_PATH: ${{ steps.pages.outputs.base_path }}
           SITE_URL: ${{ steps.pages.outputs.base_url }}
+      - name: Check generated files for local account paths
+        run: node scripts/check-public-paths.mjs
       - uses: actions/upload-pages-artifact@v3
         with:
           path: public

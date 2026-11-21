@@ -8,10 +8,12 @@ echo "FireSparkle.Studio — 建置並發布"
 echo "資料夾：$(pwd)"
 command -v node >/dev/null 2>&1 || { echo "找不到 node，請先安裝 Node.js 22 以上。"; exit 1; }
 echo "node $(node -v)"
+node scripts/check-public-paths.mjs
 # 清掉不再使用的字型與樣式檔（目前使用 Noto Serif TC 與 Tinos）
 find public/fonts -mindepth 1 -maxdepth 1 ! -name noto-serif-tc ! -name tinos ! -name fonts.css -exec rm -rf {} +
 rm -f public/showcase.css public/og-preview.html
 node scripts/build.mjs
+node scripts/check-public-paths.mjs
 git add -A
 echo "--- 變更摘要 ---"
 git diff --cached --stat | tail -5

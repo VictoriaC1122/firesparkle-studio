@@ -1,6 +1,6 @@
 {
   "createdOn": "2026-11-21",
-  "gameRoot": "/Users/chengyungwen/Desktop/Larry's Bar Game/steam/content/game",
+  "gameRoot": "game-source:/steam/content/game",
   "storySource": {
     "path": "data/game.xml",
     "sha256": "7f09b7f38856602fa7cc26acdd22d227ffa71d63e8829590d402e1c392dd20bb"

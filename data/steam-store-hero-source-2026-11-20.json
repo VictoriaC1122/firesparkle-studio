@@ -11,7 +11,7 @@
     "referenceAsset": "/assets/steam/art/steam-store-header.ee44741dbb02.jpg"
   },
   "master": {
-    "path": "/Users/chengyungwen/Desktop/Larry's Bar Game/steam/store-assets/header_capsule.png",
+    "path": "game-source:/steam/store-assets/header_capsule.png",
     "width": 920,
     "height": 430,
     "sha256": "4449a19d2f5635f1a6b7c2893a4c3ba55e2555731b87b037536df7167ffd502f",

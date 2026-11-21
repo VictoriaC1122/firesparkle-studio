@@ -3,7 +3,7 @@
   "recordedOn": "2026-11-20",
   "kind": "original-game-character-art",
   "description": "Original Larry character art from the existing packaged Steam game content. This is game artwork, not an in-game screenshot.",
-  "sourcePath": "/Users/chengyungwen/Desktop/Larry's Bar Game/steam/content/game/assets/media/db/pic/character-cg/10_larry_profile.png",
+  "sourcePath": "game-source:/steam/content/game/assets/media/db/pic/character-cg/10_larry_profile.png",
   "publicPath": "/assets/steam/art/larry-mixology.2c729fb1826a.png",
   "sha256": "2c729fb1826a02bf547ba346f2c3e710066da90e9d017158589cdce7d418a110",
   "sourceSha256": "2c729fb1826a02bf547ba346f2c3e710066da90e9d017158589cdce7d418a110",

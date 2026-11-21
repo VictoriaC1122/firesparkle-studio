@@ -4,7 +4,7 @@
   "gameVersion": "1.6.14",
   "defaultLocale": "en",
   "source": "Unmodified native browser screenshots from existing local Steam content/game, controlled only through visible UI. Game source and native saves untouched.",
-  "rawCaptureDirectory": "/Users/chengyungwen/.codex/visualizations/2026/10/01/01a0f917-97b0-7b53-b9b9-a1ce4d848e85/steam-game-captures-2026-11-20",
+  "rawCaptureDirectory": "capture-source:/",
   "locales": {
     "zh-Hant": {
       "title": "賴瑞的調酒研究室",
@@ -17,7 +17,7 @@
           "label": "賴瑞的調酒研究室",
           "sha256": "008f377dbc16430d685df2bffab0a3b22f1ab6ae6519e85faa70f6cdcac6e6b9",
           "bytes": 201562,
-          "rawPath": "/Users/chengyungwen/.codex/visualizations/2026/10/01/01a0f917-97b0-7b53-b9b9-a1ce4d848e85/steam-game-captures-2026-11-20/zh-Hant/title.jpg",
+          "rawPath": "capture-source:/zh-Hant/title.jpg",
           "rawSha256": "008f377dbc16430d685df2bffab0a3b22f1ab6ae6519e85faa70f6cdcac6e6b9"
         },
         {
@@ -28,7 +28,7 @@
           "label": "請問要選擇什麼？",
           "sha256": "a1a319a29c75e82b06be1e33cd19848ea42665d5676674ec391baf53ff0bfd99",
           "bytes": 179460,
-          "rawPath": "/Users/chengyungwen/.codex/visualizations/2026/10/01/01a0f917-97b0-7b53-b9b9-a1ce4d848e85/steam-game-captures-2026-11-20/zh-Hant/opening-choices.jpg",
+          "rawPath": "capture-source:/zh-Hant/opening-choices.jpg",
           "rawSha256": "a1a319a29c75e82b06be1e33cd19848ea42665d5676674ec391baf53ff0bfd99"
         },
         {
@@ -39,7 +39,7 @@
           "label": "（第二天一早）",
           "sha256": "15c58f9817aaa3dcf627e2e77a2f33824adddf7a244a8a76e6f1d1bc1249a8e3",
           "bytes": 294107,
-          "rawPath": "/Users/chengyungwen/.codex/visualizations/2026/10/01/01a0f917-97b0-7b53-b9b9-a1ce4d848e85/steam-game-captures-2026-11-20/zh-Hant/city-dialogue.jpg",
+          "rawPath": "capture-source:/zh-Hant/city-dialogue.jpg",
           "rawSha256": "15c58f9817aaa3dcf627e2e77a2f33824adddf7a244a8a76e6f1d1bc1249a8e3"
         },
         {
@@ -50,7 +50,7 @@
           "label": "請問要選擇什麼？",
           "sha256": "6c4a22e16c501a865145116f842225ffd1706727a8db467fa60f928164c88698",
           "bytes": 181910,
-          "rawPath": "/Users/chengyungwen/.codex/visualizations/2026/10/01/01a0f917-97b0-7b53-b9b9-a1ce4d848e85/steam-game-captures-2026-11-20/zh-Hant/branch-choice.jpg",
+          "rawPath": "capture-source:/zh-Hant/branch-choice.jpg",
           "rawSha256": "6c4a22e16c501a865145116f842225ffd1706727a8db467fa60f928164c88698"
         },
         {
@@ -61,7 +61,7 @@
           "label": "賴瑞：好久沒回到大學了呀，真青春～",
           "sha256": "babcdc12e6a57058efb83c910a29aa6bd13189516fa276664dd994ee2aa384b9",
           "bytes": 222322,
-          "rawPath": "/Users/chengyungwen/.codex/visualizations/2026/10/01/01a0f917-97b0-7b53-b9b9-a1ce4d848e85/steam-game-captures-2026-11-20/zh-Hant/university-dialogue.jpg",
+          "rawPath": "capture-source:/zh-Hant/university-dialogue.jpg",
           "rawSha256": "babcdc12e6a57058efb83c910a29aa6bd13189516fa276664dd994ee2aa384b9"
         },
         {
@@ -72,7 +72,7 @@
           "label": "40 格存檔路線",
           "sha256": "37812bed3d0c972bc5e27b9f7f1aced15bdfca91c83efd36558813e946470178",
           "bytes": 121620,
-          "rawPath": "/Users/chengyungwen/.codex/visualizations/2026/10/01/01a0f917-97b0-7b53-b9b9-a1ce4d848e85/steam-game-captures-2026-11-20/zh-Hant/save-slots.jpg",
+          "rawPath": "capture-source:/zh-Hant/save-slots.jpg",
           "rawSha256": "37812bed3d0c972bc5e27b9f7f1aced15bdfca91c83efd36558813e946470178"
         },
         {
@@ -83,7 +83,7 @@
           "label": "結局蒐集",
           "sha256": "079216776382b4d44646eecab3b6dcfc460c5f5bfadac1425e396c754845f835",
           "bytes": 110216,
-          "rawPath": "/Users/chengyungwen/.codex/visualizations/2026/10/01/01a0f917-97b0-7b53-b9b9-a1ce4d848e85/steam-game-captures-2026-11-20/zh-Hant/endings.jpg",
+          "rawPath": "capture-source:/zh-Hant/endings.jpg",
           "rawSha256": "079216776382b4d44646eecab3b6dcfc460c5f5bfadac1425e396c754845f835"
         },
         {
@@ -94,7 +94,7 @@
           "label": "設定",
           "sha256": "ead24808fc32b2115026572f23fe881a9c6c6955a38b5b1801574a9d86bb1ee6",
           "bytes": 74694,
-          "rawPath": "/Users/chengyungwen/.codex/visualizations/2026/10/01/01a0f917-97b0-7b53-b9b9-a1ce4d848e85/steam-game-captures-2026-11-20/zh-Hant/settings.jpg",
+          "rawPath": "capture-source:/zh-Hant/settings.jpg",
           "rawSha256": "ead24808fc32b2115026572f23fe881a9c6c6955a38b5b1801574a9d86bb1ee6"
         }
       ]
@@ -110,7 +110,7 @@
           "label": "Larry's Mixology Lab",
           "sha256": "dcf73a376a2c6cd80a5e321e67917316aea10e74d88bc3290643f01430dcc38e",
           "bytes": 201775,
-          "rawPath": "/Users/chengyungwen/.codex/visualizations/2026/10/01/01a0f917-97b0-7b53-b9b9-a1ce4d848e85/steam-game-captures-2026-11-20/en/title.jpg",
+          "rawPath": "capture-source:/en/title.jpg",
           "rawSha256": "dcf73a376a2c6cd80a5e321e67917316aea10e74d88bc3290643f01430dcc38e"
         },
         {
@@ -121,7 +121,7 @@
           "label": "What would you like to choose?",
           "sha256": "6487347bb72c882f5c169c69637193882432ae0afe2edda0d1abb56d95e9b021",
           "bytes": 190114,
-          "rawPath": "/Users/chengyungwen/.codex/visualizations/2026/10/01/01a0f917-97b0-7b53-b9b9-a1ce4d848e85/steam-game-captures-2026-11-20/en/opening-choices.jpg",
+          "rawPath": "capture-source:/en/opening-choices.jpg",
           "rawSha256": "6487347bb72c882f5c169c69637193882432ae0afe2edda0d1abb56d95e9b021"
         },
         {
@@ -132,7 +132,7 @@
           "label": "(The next morning.)",
           "sha256": "3c509ec7db267c0d4dce772c3707e9a142b2c9e3cda1ab6ca51e602382182b32",
           "bytes": 288915,
-          "rawPath": "/Users/chengyungwen/.codex/visualizations/2026/10/01/01a0f917-97b0-7b53-b9b9-a1ce4d848e85/steam-game-captures-2026-11-20/en/city-dialogue.jpg",
+          "rawPath": "capture-source:/en/city-dialogue.jpg",
           "rawSha256": "3c509ec7db267c0d4dce772c3707e9a142b2c9e3cda1ab6ca51e602382182b32"
         },
         {
@@ -143,7 +143,7 @@
           "label": "What would you like to choose?",
           "sha256": "a7c939a3e7b224c9234b38e66eda1ca512d0170b1dfe70c6650228f321f60bc6",
           "bytes": 187288,
-          "rawPath": "/Users/chengyungwen/.codex/visualizations/2026/10/01/01a0f917-97b0-7b53-b9b9-a1ce4d848e85/steam-game-captures-2026-11-20/en/branch-choice.jpg",
+          "rawPath": "capture-source:/en/branch-choice.jpg",
           "rawSha256": "a7c939a3e7b224c9234b38e66eda1ca512d0170b1dfe70c6650228f321f60bc6"
         },
         {
@@ -154,7 +154,7 @@
           "label": "Larry: It's been ages since I came back to campus. Takes me back~",
           "sha256": "ce6bbf9cdd4d712334e43404c6b557ec8b1eefe4da355f426b040649db17db23",
           "bytes": 210494,
-          "rawPath": "/Users/chengyungwen/.codex/visualizations/2026/10/01/01a0f917-97b0-7b53-b9b9-a1ce4d848e85/steam-game-captures-2026-11-20/en/university-dialogue.jpg",
+          "rawPath": "capture-source:/en/university-dialogue.jpg",
           "rawSha256": "ce6bbf9cdd4d712334e43404c6b557ec8b1eefe4da355f426b040649db17db23"
         },
         {
@@ -165,7 +165,7 @@
           "label": "Save Game · 40 Slots",
           "sha256": "c908d97176c1a2c66be16cd4955ac255d5cd4c666114b0314c7f5d1da7857a96",
           "bytes": 114080,
-          "rawPath": "/Users/chengyungwen/.codex/visualizations/2026/10/01/01a0f917-97b0-7b53-b9b9-a1ce4d848e85/steam-game-captures-2026-11-20/en/save-slots.jpg",
+          "rawPath": "capture-source:/en/save-slots.jpg",
           "rawSha256": "c908d97176c1a2c66be16cd4955ac255d5cd4c666114b0314c7f5d1da7857a96"
         },
         {
@@ -176,7 +176,7 @@
           "label": "Endings",
           "sha256": "a6b808c83039cf976926e1a510323f648576ec91072af2da48ddc9b46099fede",
           "bytes": 130670,
-          "rawPath": "/Users/chengyungwen/.codex/visualizations/2026/10/01/01a0f917-97b0-7b53-b9b9-a1ce4d848e85/steam-game-captures-2026-11-20/en/endings.jpg",
+          "rawPath": "capture-source:/en/endings.jpg",
           "rawSha256": "a6b808c83039cf976926e1a510323f648576ec91072af2da48ddc9b46099fede"
         },
         {
@@ -187,7 +187,7 @@
           "label": "Settings",
           "sha256": "fbaf52e11c4baf124627f43797c057e4c9745790d963274c0088ffed08e3c117",
           "bytes": 87377,
-          "rawPath": "/Users/chengyungwen/.codex/visualizations/2026/10/01/01a0f917-97b0-7b53-b9b9-a1ce4d848e85/steam-game-captures-2026-11-20/en/settings.jpg",
+          "rawPath": "capture-source:/en/settings.jpg",
           "rawSha256": "fbaf52e11c4baf124627f43797c057e4c9745790d963274c0088ffed08e3c117"
         }
       ]
@@ -203,7 +203,7 @@
           "label": "ラリーのカクテル研究室",
           "sha256": "dc4abb3da7459d4f999b76dd81cf8655c9ff1c4a7a40c745c369cf170c786739",
           "bytes": 202956,
-          "rawPath": "/Users/chengyungwen/.codex/visualizations/2026/10/01/01a0f917-97b0-7b53-b9b9-a1ce4d848e85/steam-game-captures-2026-11-20/ja/title.jpg",
+          "rawPath": "capture-source:/ja/title.jpg",
           "rawSha256": "dc4abb3da7459d4f999b76dd81cf8655c9ff1c4a7a40c745c369cf170c786739"
         },
         {
@@ -214,7 +214,7 @@
           "label": "どれを選びますか？",
           "sha256": "aaadb88b19ea859e154105ba20be194455723824fdedfcf09a1f2e5855ed3dc3",
           "bytes": 221323,
-          "rawPath": "/Users/chengyungwen/.codex/visualizations/2026/10/01/01a0f917-97b0-7b53-b9b9-a1ce4d848e85/steam-game-captures-2026-11-20/ja/opening-choices.jpg",
+          "rawPath": "capture-source:/ja/opening-choices.jpg",
           "rawSha256": "aaadb88b19ea859e154105ba20be194455723824fdedfcf09a1f2e5855ed3dc3"
         },
         {
@@ -225,7 +225,7 @@
           "label": "（2日目の朝）",
           "sha256": "51050e7edaed7c175fc7adffc282d0c244670e73477915df7808a15c6709f623",
           "bytes": 296414,
-          "rawPath": "/Users/chengyungwen/.codex/visualizations/2026/10/01/01a0f917-97b0-7b53-b9b9-a1ce4d848e85/steam-game-captures-2026-11-20/ja/city-dialogue.jpg",
+          "rawPath": "capture-source:/ja/city-dialogue.jpg",
           "rawSha256": "51050e7edaed7c175fc7adffc282d0c244670e73477915df7808a15c6709f623"
         },
         {
@@ -236,7 +236,7 @@
           "label": "どれを選びますか？",
           "sha256": "002fe94441b1298dd0b4690e3deb58de8cd804c8a2edf0ab51b44bff452803e2",
           "bytes": 179505,
-          "rawPath": "/Users/chengyungwen/.codex/visualizations/2026/10/01/01a0f917-97b0-7b53-b9b9-a1ce4d848e85/steam-game-captures-2026-11-20/ja/branch-choice.jpg",
+          "rawPath": "capture-source:/ja/branch-choice.jpg",
           "rawSha256": "002fe94441b1298dd0b4690e3deb58de8cd804c8a2edf0ab51b44bff452803e2"
         },
         {
@@ -247,7 +247,7 @@
           "label": "ラリー：大学に来るなんて久しぶりだなあ。青春って感じ～",
           "sha256": "6f95d5dceb6c34197c6e820b8251b2d4991f7de987cc4eb0863dea37a657cae7",
           "bytes": 224019,
-          "rawPath": "/Users/chengyungwen/.codex/visualizations/2026/10/01/01a0f917-97b0-7b53-b9b9-a1ce4d848e85/steam-game-captures-2026-11-20/ja/university-dialogue.jpg",
+          "rawPath": "capture-source:/ja/university-dialogue.jpg",
           "rawSha256": "6f95d5dceb6c34197c6e820b8251b2d4991f7de987cc4eb0863dea37a657cae7"
         },
         {
@@ -258,7 +258,7 @@
           "label": "セーブ（40スロット）",
           "sha256": "0fbb913a2cd7811d46b54c508f134bcd1fe3db518853d54b5b44c323c740e4d7",
           "bytes": 136223,
-          "rawPath": "/Users/chengyungwen/.codex/visualizations/2026/10/01/01a0f917-97b0-7b53-b9b9-a1ce4d848e85/steam-game-captures-2026-11-20/ja/save-slots.jpg",
+          "rawPath": "capture-source:/ja/save-slots.jpg",
           "rawSha256": "0fbb913a2cd7811d46b54c508f134bcd1fe3db518853d54b5b44c323c740e4d7"
         },
         {
@@ -269,7 +269,7 @@
           "label": "エンディング一覧",
           "sha256": "393c5ffaec8d4b99e8e7a26cdbe54ca2650c8bf735c26b2ba036f807b6125779",
           "bytes": 131335,
-          "rawPath": "/Users/chengyungwen/.codex/visualizations/2026/10/01/01a0f917-97b0-7b53-b9b9-a1ce4d848e85/steam-game-captures-2026-11-20/ja/endings.jpg",
+          "rawPath": "capture-source:/ja/endings.jpg",
           "rawSha256": "393c5ffaec8d4b99e8e7a26cdbe54ca2650c8bf735c26b2ba036f807b6125779"
         },
         {
@@ -280,7 +280,7 @@
           "label": "設定",
           "sha256": "976dea63ca2e69aee6edde6191845422830769295dd442b5eddf50b16d2ffdc5",
           "bytes": 81880,
-          "rawPath": "/Users/chengyungwen/.codex/visualizations/2026/10/01/01a0f917-97b0-7b53-b9b9-a1ce4d848e85/steam-game-captures-2026-11-20/ja/settings.jpg",
+          "rawPath": "capture-source:/ja/settings.jpg",
           "rawSha256": "976dea63ca2e69aee6edde6191845422830769295dd442b5eddf50b16d2ffdc5"
         }
       ]
@@ -296,7 +296,7 @@
           "label": "래리의 칵테일 연구실",
           "sha256": "18eb3ad999f7ddf200a059e99eba13254eac86b1e004407e2345c5880d36fa3e",
           "bytes": 198572,
-          "rawPath": "/Users/chengyungwen/.codex/visualizations/2026/10/01/01a0f917-97b0-7b53-b9b9-a1ce4d848e85/steam-game-captures-2026-11-20/ko/title.jpg",
+          "rawPath": "capture-source:/ko/title.jpg",
           "rawSha256": "18eb3ad999f7ddf200a059e99eba13254eac86b1e004407e2345c5880d36fa3e"
         },
         {
@@ -307,7 +307,7 @@
           "label": "무엇을 선택하시겠습니까?",
           "sha256": "9dcffb0cbe9cdbf4824fbd7c8d8cf3e9b60060d9e024a8f60337c3ca854f28f8",
           "bytes": 182261,
-          "rawPath": "/Users/chengyungwen/.codex/visualizations/2026/10/01/01a0f917-97b0-7b53-b9b9-a1ce4d848e85/steam-game-captures-2026-11-20/ko/opening-choices.jpg",
+          "rawPath": "capture-source:/ko/opening-choices.jpg",
           "rawSha256": "9dcffb0cbe9cdbf4824fbd7c8d8cf3e9b60060d9e024a8f60337c3ca854f28f8"
         },
         {
@@ -318,7 +318,7 @@
           "label": "(둘째 날 아침 일찍)",
           "sha256": "dda7966a4ec881ebcc91c9fe38d3e0df6dfa739ebf0289a5dbc837f0c86e760d",
           "bytes": 292994,
-          "rawPath": "/Users/chengyungwen/.codex/visualizations/2026/10/01/01a0f917-97b0-7b53-b9b9-a1ce4d848e85/steam-game-captures-2026-11-20/ko/city-dialogue.jpg",
+          "rawPath": "capture-source:/ko/city-dialogue.jpg",
           "rawSha256": "dda7966a4ec881ebcc91c9fe38d3e0df6dfa739ebf0289a5dbc837f0c86e760d"
         },
         {
@@ -329,7 +329,7 @@
           "label": "무엇을 선택하시겠습니까?",
           "sha256": "08ea5f3684d48bee2be076a5a53fea6b1f6b9061897fc1de45483b8ea47d5b5a",
           "bytes": 220699,
-          "rawPath": "/Users/chengyungwen/.codex/visualizations/2026/10/01/01a0f917-97b0-7b53-b9b9-a1ce4d848e85/steam-game-captures-2026-11-20/ko/branch-choice.jpg",
+          "rawPath": "capture-source:/ko/branch-choice.jpg",
           "rawSha256": "08ea5f3684d48bee2be076a5a53fea6b1f6b9061897fc1de45483b8ea47d5b5a"
         },
         {
@@ -340,7 +340,7 @@
           "label": "래리: 대학교 진짜 오랜만에 와 보네. 청춘이다~",
           "sha256": "71e6b1d333390bb632f5b52ff7ef0bcda7d5dd964aa8ee2540b8e8ca3e3323f9",
           "bytes": 223898,
-          "rawPath": "/Users/chengyungwen/.codex/visualizations/2026/10/01/01a0f917-97b0-7b53-b9b9-a1ce4d848e85/steam-game-captures-2026-11-20/ko/university-dialogue.jpg",
+          "rawPath": "capture-source:/ko/university-dialogue.jpg",
           "rawSha256": "71e6b1d333390bb632f5b52ff7ef0bcda7d5dd964aa8ee2540b8e8ca3e3323f9"
         },
         {
@@ -351,7 +351,7 @@
           "label": "루트 저장 · 40 슬롯",
           "sha256": "cf53214d0d69df344340f2504ff526ad065848b1c1452d5ea050bb67ab4a7963",
           "bytes": 130147,
-          "rawPath": "/Users/chengyungwen/.codex/visualizations/2026/10/01/01a0f917-97b0-7b53-b9b9-a1ce4d848e85/steam-game-captures-2026-11-20/ko/save-slots.jpg",
+          "rawPath": "capture-source:/ko/save-slots.jpg",
           "rawSha256": "cf53214d0d69df344340f2504ff526ad065848b1c1452d5ea050bb67ab4a7963"
         },
         {
@@ -362,7 +362,7 @@
           "label": "엔딩 수집",
           "sha256": "68c178782ca38fca161245205726f9b9f80f3a5d705f77d78316e3156f4a3f69",
           "bytes": 120136,
-          "rawPath": "/Users/chengyungwen/.codex/visualizations/2026/10/01/01a0f917-97b0-7b53-b9b9-a1ce4d848e85/steam-game-captures-2026-11-20/ko/endings.jpg",
+          "rawPath": "capture-source:/ko/endings.jpg",
           "rawSha256": "68c178782ca38fca161245205726f9b9f80f3a5d705f77d78316e3156f4a3f69"
         },
         {
@@ -373,7 +373,7 @@
           "label": "설정",
           "sha256": "20552430bc80b44c9a53ee5f08f5283e6bc727c2a479fede38cca24aafa2657c",
           "bytes": 74838,
-          "rawPath": "/Users/chengyungwen/.codex/visualizations/2026/10/01/01a0f917-97b0-7b53-b9b9-a1ce4d848e85/steam-game-captures-2026-11-20/ko/settings.jpg",
+          "rawPath": "capture-source:/ko/settings.jpg",
           "rawSha256": "20552430bc80b44c9a53ee5f08f5283e6bc727c2a479fede38cca24aafa2657c"
         }
       ]
@@ -389,7 +389,7 @@
           "label": "赖瑞的调酒研究室",
           "sha256": "5762c5723e828490819ef1f52597b18f32f3a35af49d9648c6867d943d204038",
           "bytes": 201159,
-          "rawPath": "/Users/chengyungwen/.codex/visualizations/2026/10/01/01a0f917-97b0-7b53-b9b9-a1ce4d848e85/steam-game-captures-2026-11-20/zh-Hans/title.jpg",
+          "rawPath": "capture-source:/zh-Hans/title.jpg",
           "rawSha256": "5762c5723e828490819ef1f52597b18f32f3a35af49d9648c6867d943d204038"
         },
         {
@@ -400,7 +400,7 @@
           "label": "请问要选择什么？",
           "sha256": "3840177a40d428baf0d08c9a5cc9fa3af3bbc7144039e6a2b723b7f8475a6222",
           "bytes": 181116,
-          "rawPath": "/Users/chengyungwen/.codex/visualizations/2026/10/01/01a0f917-97b0-7b53-b9b9-a1ce4d848e85/steam-game-captures-2026-11-20/zh-Hans/opening-choices.jpg",
+          "rawPath": "capture-source:/zh-Hans/opening-choices.jpg",
           "rawSha256": "3840177a40d428baf0d08c9a5cc9fa3af3bbc7144039e6a2b723b7f8475a6222"
         },
         {
@@ -411,7 +411,7 @@
           "label": "（第二天一早）",
           "sha256": "c5ab11d692c81c8c453d04cee9473b250fa31e4ed9b45dc1183b59edc4bb071e",
           "bytes": 294955,
-          "rawPath": "/Users/chengyungwen/.codex/visualizations/2026/10/01/01a0f917-97b0-7b53-b9b9-a1ce4d848e85/steam-game-captures-2026-11-20/zh-Hans/city-dialogue.jpg",
+          "rawPath": "capture-source:/zh-Hans/city-dialogue.jpg",
           "rawSha256": "c5ab11d692c81c8c453d04cee9473b250fa31e4ed9b45dc1183b59edc4bb071e"
         },
         {
@@ -422,7 +422,7 @@
           "label": "请问要选择什么？",
           "sha256": "2f07de7b1b05fb05888e40a2a8d2e5f5302129f711b3657529f6a5b1f65b06e9",
           "bytes": 178625,
-          "rawPath": "/Users/chengyungwen/.codex/visualizations/2026/10/01/01a0f917-97b0-7b53-b9b9-a1ce4d848e85/steam-game-captures-2026-11-20/zh-Hans/branch-choice.jpg",
+          "rawPath": "capture-source:/zh-Hans/branch-choice.jpg",
           "rawSha256": "2f07de7b1b05fb05888e40a2a8d2e5f5302129f711b3657529f6a5b1f65b06e9"
         },
         {
@@ -433,7 +433,7 @@
           "label": "赖瑞：好久没回到大学了呀，真青春～",
           "sha256": "4d1fcc0899ef38f752e08ec8466df03acf1e1069e31732e9fcf2b7a15f59b6c9",
           "bytes": 220898,
-          "rawPath": "/Users/chengyungwen/.codex/visualizations/2026/10/01/01a0f917-97b0-7b53-b9b9-a1ce4d848e85/steam-game-captures-2026-11-20/zh-Hans/university-dialogue.jpg",
+          "rawPath": "capture-source:/zh-Hans/university-dialogue.jpg",
           "rawSha256": "4d1fcc0899ef38f752e08ec8466df03acf1e1069e31732e9fcf2b7a15f59b6c9"
         },
         {
@@ -444,7 +444,7 @@
           "label": "40 格存档路线",
           "sha256": "43d2fe2055feaa4acbc88affce6d54442fcaa37bbfcdbf4760636e4377decc1b",
           "bytes": 117469,
-          "rawPath": "/Users/chengyungwen/.codex/visualizations/2026/10/01/01a0f917-97b0-7b53-b9b9-a1ce4d848e85/steam-game-captures-2026-11-20/zh-Hans/save-slots.jpg",
+          "rawPath": "capture-source:/zh-Hans/save-slots.jpg",
           "rawSha256": "43d2fe2055feaa4acbc88affce6d54442fcaa37bbfcdbf4760636e4377decc1b"
         },
         {
@@ -455,7 +455,7 @@
           "label": "结局收集",
           "sha256": "9168b814b1343fc3a63064595fb218a31849c81ed5dae60739a33da2f6782a17",
           "bytes": 114882,
-          "rawPath": "/Users/chengyungwen/.codex/visualizations/2026/10/01/01a0f917-97b0-7b53-b9b9-a1ce4d848e85/steam-game-captures-2026-11-20/zh-Hans/endings.jpg",
+          "rawPath": "capture-source:/zh-Hans/endings.jpg",
           "rawSha256": "9168b814b1343fc3a63064595fb218a31849c81ed5dae60739a33da2f6782a17"
         },
         {
@@ -466,7 +466,7 @@
           "label": "设置",
           "sha256": "2ec5cddd2504436032b071d38b44948b7fe295ed7e5f9eb9088daea722b11a2b",
           "bytes": 73814,
-          "rawPath": "/Users/chengyungwen/.codex/visualizations/2026/10/01/01a0f917-97b0-7b53-b9b9-a1ce4d848e85/steam-game-captures-2026-11-20/zh-Hans/settings.jpg",
+          "rawPath": "capture-source:/zh-Hans/settings.jpg",
           "rawSha256": "2ec5cddd2504436032b071d38b44948b7fe295ed7e5f9eb9088daea722b11a2b"
         }
       ]
@@ -482,7 +482,7 @@
           "label": "ห้องแล็บค็อกเทลของแลร์รี่",
           "sha256": "4524980a8a749a52f63c488c9a49e5b4ee34ff65e551bf904be608c3baebd3aa",
           "bytes": 203077,
-          "rawPath": "/Users/chengyungwen/.codex/visualizations/2026/10/01/01a0f917-97b0-7b53-b9b9-a1ce4d848e85/steam-game-captures-2026-11-20/th/title.jpg",
+          "rawPath": "capture-source:/th/title.jpg",
           "rawSha256": "4524980a8a749a52f63c488c9a49e5b4ee34ff65e551bf904be608c3baebd3aa"
         },
         {
@@ -493,7 +493,7 @@
           "label": "จะเลือกอะไรดี?",
           "sha256": "b41bcf2faf5a8fcbe2c0f1e565cbe47f04c7af172d6d7c17257558dde6097a9f",
           "bytes": 181374,
-          "rawPath": "/Users/chengyungwen/.codex/visualizations/2026/10/01/01a0f917-97b0-7b53-b9b9-a1ce4d848e85/steam-game-captures-2026-11-20/th/opening-choices.jpg",
+          "rawPath": "capture-source:/th/opening-choices.jpg",
           "rawSha256": "b41bcf2faf5a8fcbe2c0f1e565cbe47f04c7af172d6d7c17257558dde6097a9f"
         },
         {
@@ -504,7 +504,7 @@
           "label": "(เช้าตรู่วันที่สอง)",
           "sha256": "ea86603eb56c983ead2c542e0b9541b680ac17f183e7310e231e8362612e593d",
           "bytes": 287413,
-          "rawPath": "/Users/chengyungwen/.codex/visualizations/2026/10/01/01a0f917-97b0-7b53-b9b9-a1ce4d848e85/steam-game-captures-2026-11-20/th/city-dialogue.jpg",
+          "rawPath": "capture-source:/th/city-dialogue.jpg",
           "rawSha256": "ea86603eb56c983ead2c542e0b9541b680ac17f183e7310e231e8362612e593d"
         },
         {
@@ -515,7 +515,7 @@
           "label": "จะเลือกอะไรดี?",
           "sha256": "175208a22ead954d856e1900624c4391f21a8adf3fcee0e0584e7e48e376f449",
           "bytes": 182105,
-          "rawPath": "/Users/chengyungwen/.codex/visualizations/2026/10/01/01a0f917-97b0-7b53-b9b9-a1ce4d848e85/steam-game-captures-2026-11-20/th/branch-choice.jpg",
+          "rawPath": "capture-source:/th/branch-choice.jpg",
           "rawSha256": "175208a22ead954d856e1900624c4391f21a8adf3fcee0e0584e7e48e376f449"
         },
         {
@@ -526,7 +526,7 @@
           "label": "แลร์รี่: ไม่ได้กลับมามหาลัยตั้งนานแน่ะ ฟีลวัยรุ่นสุด ๆ~",
           "sha256": "df76bc879abf1a143719c6b7c252f1cdfb22728c189fba58a5a41f287857bb58",
           "bytes": 218217,
-          "rawPath": "/Users/chengyungwen/.codex/visualizations/2026/10/01/01a0f917-97b0-7b53-b9b9-a1ce4d848e85/steam-game-captures-2026-11-20/th/university-dialogue.jpg",
+          "rawPath": "capture-source:/th/university-dialogue.jpg",
           "rawSha256": "df76bc879abf1a143719c6b7c252f1cdfb22728c189fba58a5a41f287857bb58"
         },
         {
@@ -537,7 +537,7 @@
           "label": "เซฟเส้นทาง (40 ช่อง)",
           "sha256": "5e3fdb9b9d32006b9800bfc7769efcdbf7c5208ea8c8e2c9a57692845690d589",
           "bytes": 110478,
-          "rawPath": "/Users/chengyungwen/.codex/visualizations/2026/10/01/01a0f917-97b0-7b53-b9b9-a1ce4d848e85/steam-game-captures-2026-11-20/th/save-slots.jpg",
+          "rawPath": "capture-source:/th/save-slots.jpg",
           "rawSha256": "5e3fdb9b9d32006b9800bfc7769efcdbf7c5208ea8c8e2c9a57692845690d589"
         },
         {
@@ -548,7 +548,7 @@
           "label": "สะสมฉากจบ",
           "sha256": "f90c7185da1c76ed7b765a6f6e4ab5e519e885f312759481256f7398e0349e25",
           "bytes": 114869,
-          "rawPath": "/Users/chengyungwen/.codex/visualizations/2026/10/01/01a0f917-97b0-7b53-b9b9-a1ce4d848e85/steam-game-captures-2026-11-20/th/endings.jpg",
+          "rawPath": "capture-source:/th/endings.jpg",
           "rawSha256": "f90c7185da1c76ed7b765a6f6e4ab5e519e885f312759481256f7398e0349e25"
         },
         {
@@ -559,7 +559,7 @@
           "label": "ตั้งค่า",
           "sha256": "fb54718e2c7bbfa87c2860a48024a2af2c6cf6726c5f3e66d5f57d39fd6e513c",
           "bytes": 72248,
-          "rawPath": "/Users/chengyungwen/.codex/visualizations/2026/10/01/01a0f917-97b0-7b53-b9b9-a1ce4d848e85/steam-game-captures-2026-11-20/th/settings.jpg",
+          "rawPath": "capture-source:/th/settings.jpg",
           "rawSha256": "fb54718e2c7bbfa87c2860a48024a2af2c6cf6726c5f3e66d5f57d39fd6e513c"
         }
       ]
@@ -575,7 +575,7 @@
           "label": "Larry's Mixology Lab",
           "sha256": "bf655aa35b16c83ee7d1fe1189100dc7d3b4e5c9025ea8a3b41ebddd82987299",
           "bytes": 202236,
-          "rawPath": "/Users/chengyungwen/.codex/visualizations/2026/10/01/01a0f917-97b0-7b53-b9b9-a1ce4d848e85/steam-game-captures-2026-11-20/de/title.jpg",
+          "rawPath": "capture-source:/de/title.jpg",
           "rawSha256": "bf655aa35b16c83ee7d1fe1189100dc7d3b4e5c9025ea8a3b41ebddd82987299"
         },
         {
@@ -586,7 +586,7 @@
           "label": "Was möchtest du auswählen?",
           "sha256": "91951da9bf1d600534a585bf62de4a54f3cedca565a91e51b7e762c0b2745444",
           "bytes": 186366,
-          "rawPath": "/Users/chengyungwen/.codex/visualizations/2026/10/01/01a0f917-97b0-7b53-b9b9-a1ce4d848e85/steam-game-captures-2026-11-20/de/opening-choices.jpg",
+          "rawPath": "capture-source:/de/opening-choices.jpg",
           "rawSha256": "91951da9bf1d600534a585bf62de4a54f3cedca565a91e51b7e762c0b2745444"
         },
         {
@@ -597,7 +597,7 @@
           "label": "(Am zweiten Morgen, in aller Frühe)",
           "sha256": "42cd3a5f3dcb9a1407265675874516ba74d0b12c27c07993bb1eaffded877fb3",
           "bytes": 276795,
-          "rawPath": "/Users/chengyungwen/.codex/visualizations/2026/10/01/01a0f917-97b0-7b53-b9b9-a1ce4d848e85/steam-game-captures-2026-11-20/de/city-dialogue.jpg",
+          "rawPath": "capture-source:/de/city-dialogue.jpg",
           "rawSha256": "42cd3a5f3dcb9a1407265675874516ba74d0b12c27c07993bb1eaffded877fb3"
         },
         {
@@ -608,7 +608,7 @@
           "label": "Was möchtest du auswählen?",
           "sha256": "0920ae643c68617b7ca404ddcddb0412e6c5483a95908e815cbb6dcab39cb01c",
           "bytes": 191723,
-          "rawPath": "/Users/chengyungwen/.codex/visualizations/2026/10/01/01a0f917-97b0-7b53-b9b9-a1ce4d848e85/steam-game-captures-2026-11-20/de/branch-choice.jpg",
+          "rawPath": "capture-source:/de/branch-choice.jpg",
           "rawSha256": "0920ae643c68617b7ca404ddcddb0412e6c5483a95908e815cbb6dcab39cb01c"
         },
         {
@@ -619,7 +619,7 @@
           "label": "Larry: Ewig nicht mehr an der Uni gewesen. Ach, die gute alte Jugend~",
           "sha256": "1e124d6dcbcda3f3014b157d313c38baa1e549cdce0e63e891d8f7579a3b3b22",
           "bytes": 222307,
-          "rawPath": "/Users/chengyungwen/.codex/visualizations/2026/10/01/01a0f917-97b0-7b53-b9b9-a1ce4d848e85/steam-game-captures-2026-11-20/de/university-dialogue.jpg",
+          "rawPath": "capture-source:/de/university-dialogue.jpg",
           "rawSha256": "1e124d6dcbcda3f3014b157d313c38baa1e549cdce0e63e891d8f7579a3b3b22"
         },
         {
@@ -630,7 +630,7 @@
           "label": "Speichern · 40 Speicherplätze",
           "sha256": "561e10f973b22f345408ed21dfd5c5d83aaf82fbdf976c1aa1f1e3273bd031ed",
           "bytes": 146699,
-          "rawPath": "/Users/chengyungwen/.codex/visualizations/2026/10/01/01a0f917-97b0-7b53-b9b9-a1ce4d848e85/steam-game-captures-2026-11-20/de/save-slots.jpg",
+          "rawPath": "capture-source:/de/save-slots.jpg",
           "rawSha256": "561e10f973b22f345408ed21dfd5c5d83aaf82fbdf976c1aa1f1e3273bd031ed"
         },
         {
@@ -641,7 +641,7 @@
           "label": "Enden-Sammlung",
           "sha256": "aa3517029100cd215347592de8a3a11aee5c3a81d97dbc61132c634bae980f66",
           "bytes": 135779,
-          "rawPath": "/Users/chengyungwen/.codex/visualizations/2026/10/01/01a0f917-97b0-7b53-b9b9-a1ce4d848e85/steam-game-captures-2026-11-20/de/endings.jpg",
+          "rawPath": "capture-source:/de/endings.jpg",
           "rawSha256": "aa3517029100cd215347592de8a3a11aee5c3a81d97dbc61132c634bae980f66"
         },
         {
@@ -652,7 +652,7 @@
           "label": "Einstellungen",
           "sha256": "e325bf5318353213386a54a534c4fd708fa8d464b312f383eb519983d7bfcfed",
           "bytes": 84377,
-          "rawPath": "/Users/chengyungwen/.codex/visualizations/2026/10/01/01a0f917-97b0-7b53-b9b9-a1ce4d848e85/steam-game-captures-2026-11-20/de/settings.jpg",
+          "rawPath": "capture-source:/de/settings.jpg",
           "rawSha256": "e325bf5318353213386a54a534c4fd708fa8d464b312f383eb519983d7bfcfed"
         }
       ]
@@ -668,7 +668,7 @@
           "label": "Larry's Mixology Lab",
           "sha256": "554459edd1ff95ec0ceb3d15f7aa29c166c85eb86064e66c185f4f17403dccd2",
           "bytes": 193366,
-          "rawPath": "/Users/chengyungwen/.codex/visualizations/2026/10/01/01a0f917-97b0-7b53-b9b9-a1ce4d848e85/steam-game-captures-2026-11-20/es/title.jpg",
+          "rawPath": "capture-source:/es/title.jpg",
           "rawSha256": "554459edd1ff95ec0ceb3d15f7aa29c166c85eb86064e66c185f4f17403dccd2"
         },
         {
@@ -679,7 +679,7 @@
           "label": "¿Qué quieres elegir?",
           "sha256": "3d1e458e52415b51ae5c55a23c660b10102da722b00ca9850d919f0d80cde974",
           "bytes": 187360,
-          "rawPath": "/Users/chengyungwen/.codex/visualizations/2026/10/01/01a0f917-97b0-7b53-b9b9-a1ce4d848e85/steam-game-captures-2026-11-20/es/opening-choices.jpg",
+          "rawPath": "capture-source:/es/opening-choices.jpg",
           "rawSha256": "3d1e458e52415b51ae5c55a23c660b10102da722b00ca9850d919f0d80cde974"
         },
         {
@@ -690,7 +690,7 @@
           "label": "(A la mañana siguiente, temprano)",
           "sha256": "b0760b6eb45b29a6649358af26dd635b8c35ac30471d0d5beb7e6cc6b8d48e2e",
           "bytes": 275487,
-          "rawPath": "/Users/chengyungwen/.codex/visualizations/2026/10/01/01a0f917-97b0-7b53-b9b9-a1ce4d848e85/steam-game-captures-2026-11-20/es/city-dialogue.jpg",
+          "rawPath": "capture-source:/es/city-dialogue.jpg",
           "rawSha256": "b0760b6eb45b29a6649358af26dd635b8c35ac30471d0d5beb7e6cc6b8d48e2e"
         },
         {
@@ -701,7 +701,7 @@
           "label": "¿Qué quieres elegir?",
           "sha256": "f0de2f9c5ee929d1ae4fb8f1a6cd0ab2dea22910d01ac0016ab977f7098a03d4",
           "bytes": 185737,
-          "rawPath": "/Users/chengyungwen/.codex/visualizations/2026/10/01/01a0f917-97b0-7b53-b9b9-a1ce4d848e85/steam-game-captures-2026-11-20/es/branch-choice.jpg",
+          "rawPath": "capture-source:/es/branch-choice.jpg",
           "rawSha256": "f0de2f9c5ee929d1ae4fb8f1a6cd0ab2dea22910d01ac0016ab977f7098a03d4"
         },
         {
@@ -712,7 +712,7 @@
           "label": "Larry: Hacía siglos que no volvía a la universidad. ¡Ah, la juventud~!",
           "sha256": "9c255f36bca3a401e32cdbd740413b1fdcb7a1b68a9f206a0884697a7f9e3285",
           "bytes": 222106,
-          "rawPath": "/Users/chengyungwen/.codex/visualizations/2026/10/01/01a0f917-97b0-7b53-b9b9-a1ce4d848e85/steam-game-captures-2026-11-20/es/university-dialogue.jpg",
+          "rawPath": "capture-source:/es/university-dialogue.jpg",
           "rawSha256": "9c255f36bca3a401e32cdbd740413b1fdcb7a1b68a9f206a0884697a7f9e3285"
         },
         {
@@ -723,7 +723,7 @@
           "label": "Guardar partida · 40 ranuras",
           "sha256": "f96abcd6cb190f5dcee2c4bfbe03e673254dfce5e22a8fd3c55349a99685ae7c",
           "bytes": 135080,
-          "rawPath": "/Users/chengyungwen/.codex/visualizations/2026/10/01/01a0f917-97b0-7b53-b9b9-a1ce4d848e85/steam-game-captures-2026-11-20/es/save-slots.jpg",
+          "rawPath": "capture-source:/es/save-slots.jpg",
           "rawSha256": "f96abcd6cb190f5dcee2c4bfbe03e673254dfce5e22a8fd3c55349a99685ae7c"
         },
         {
@@ -734,7 +734,7 @@
           "label": "Finales",
           "sha256": "ab553f32b0c82bf91be0e03428829905acf36271e1cba2b0c162467e1c233c97",
           "bytes": 128864,
-          "rawPath": "/Users/chengyungwen/.codex/visualizations/2026/10/01/01a0f917-97b0-7b53-b9b9-a1ce4d848e85/steam-game-captures-2026-11-20/es/endings.jpg",
+          "rawPath": "capture-source:/es/endings.jpg",
           "rawSha256": "ab553f32b0c82bf91be0e03428829905acf36271e1cba2b0c162467e1c233c97"
         },
         {
@@ -745,7 +745,7 @@
           "label": "Ajustes",
           "sha256": "b7e50f199be3d222e30ae1a9fb86577093ae25a93822555c03472b52af79e74b",
           "bytes": 85253,
-          "rawPath": "/Users/chengyungwen/.codex/visualizations/2026/10/01/01a0f917-97b0-7b53-b9b9-a1ce4d848e85/steam-game-captures-2026-11-20/es/settings.jpg",
+          "rawPath": "capture-source:/es/settings.jpg",
           "rawSha256": "b7e50f199be3d222e30ae1a9fb86577093ae25a93822555c03472b52af79e74b"
         }
       ]

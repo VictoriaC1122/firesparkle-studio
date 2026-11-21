@@ -83,6 +83,9 @@ GitHub Pages 已設定自訂網域並強制 HTTPS；HTTP 與 `www.firesparkle.co
 
 雙擊 `scripts/publish.command`（或手動執行其中的指令）：清除舊字型、`node scripts/build.mjs`、`git add -A`、以 `scripts/publish-commit-message.txt` 提交並推送到 `main`；GitHub Actions 隨後自動部署。
 
+公開來源紀錄只用不含個人資訊的相對路徑。`game-source:/` 表示遊戲素材根目錄，`capture-source:/` 表示該批擷取輸出根目錄；兩者皆為來源標籤，不是網址。公開紀錄可保留相對檔名與雜湊；不要寫入本機的絕對路徑。發布指令與 CI 會執行 `node scripts/check-public-paths.mjs`，在偵測到本機使用者路徑時停止並只列出受影響的檔名。
+
+
 ## 語言
 
 50 個選項包含繁體／簡體中文、英、日、韓、西班牙、法、德、葡萄牙、義大利、俄、阿拉伯、印地、孟加拉、烏爾都、印尼、馬來、越南、泰、菲律賓、土耳其、波斯、烏克蘭、波蘭、荷蘭、羅馬尼亞、捷克、希臘、匈牙利、瑞典、丹麥、芬蘭、挪威、希伯來、泰米爾、泰盧固、馬拉地、古吉拉特、旁遮普、史瓦希里、南非、保加利亞、克羅埃西亞、塞爾維亞、斯洛伐克、斯洛維尼亞、立陶宛、拉脫維亞、愛沙尼亞及加泰隆尼亞語。葡萄牙文文案採巴西常用用語；挪威文採 Bokmål。
